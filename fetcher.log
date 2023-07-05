@@ -1334,3 +1334,70 @@
 [2023-07-06 01:35:31] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
 [2023-07-06 01:35:31] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-07-06 01:35:31] INFO root fetch - main [MainThread]: Store serial: [18774303]
+[2023-07-06 01:40:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18774303]
+[2023-07-06 01:40:40] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-06 01:40:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oloren
+[2023-07-06 01:40:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: symbolicai
+[2023-07-06 01:40:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: brfunds
+[2023-07-06 01:40:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sphinxcontrib-phpdomain
+[2023-07-06 01:40:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yafti
+[2023-07-06 01:40:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: omnivoreql
+[2023-07-06 01:40:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyomorfi
+[2023-07-06 01:40:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oloren
+[2023-07-06 01:40:40] INFO root fetch - processPackages [omnivoreql]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-06 01:40:40] INFO root fetch - processPackages [yafti]: New version: [0.7.0] Old Version: [0.6.2]
+[2023-07-06 01:40:40] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 01:40:40] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 01:40:40] WARNING root fetch - processPackages [pyomorfi]: Skipping, unable to determine old version
+[2023-07-06 01:40:40] INFO root fetch - main [MainThread]: End processing [pyomorfi] error
+[2023-07-06 01:40:40] INFO root fetch - processPackages [brfunds]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-06 01:40:40] INFO root fetch - processPackages [sphinxcontrib-phpdomain]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-06 01:40:40] INFO root fetch - processPackages [symbolicai]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-07-06 01:40:41] INFO root fetch - processPackages [omnivoreql]: Downloading https://files.pythonhosted.org/packages/9b/55/b802e522f4de9e95a32a30c860c0c2bdc09393612c39886738c3e7b2ae0c/omnivoreql-0.1.2.tar.gz
+[2023-07-06 01:40:41] INFO root fetch - processPackages [yafti]: Downloading https://files.pythonhosted.org/packages/80/71/cf95c3045e1425aca643236f1addc27daf24c1abfe4366780476af171ecd/yafti-0.6.2.tar.gz
+[2023-07-06 01:40:41] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/a3/76/06db9dcd349a4094baa829da1112066fd4fe60d5748d1b0c8c0833367603/oloren-0.0.8.tar.gz
+[2023-07-06 01:40:41] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/a3/76/06db9dcd349a4094baa829da1112066fd4fe60d5748d1b0c8c0833367603/oloren-0.0.8.tar.gz
+[2023-07-06 01:40:41] INFO root fetch - processPackages [sphinxcontrib-phpdomain]: Downloading https://files.pythonhosted.org/packages/cb/e4/71d4588404414900089e5ecb58e8c1a88a2721e134f13ad5e5cf45a3c99b/sphinxcontrib-phpdomain-0.8.1.tar.gz
+[2023-07-06 01:40:41] INFO root fetch - processPackages [symbolicai]: Downloading https://files.pythonhosted.org/packages/59/14/798e49c20397acd30771571396d3eda6fd597a03aa173eaff2f7291228e3/symbolicai-0.2.7-py3-none-any.whl
+[2023-07-06 01:40:41] INFO root fetch - processPackages [brfunds]: Downloading https://files.pythonhosted.org/packages/1e/d2/29a4503a8cc88200bc3dce590dbecdada86821505c129b5d11f2ac04bcce/brfunds-0.2.0.tar.gz
+[2023-07-06 01:40:41] INFO root fetch - processPackages [yafti]: Downloading https://files.pythonhosted.org/packages/fc/a6/c1a3b480b1567a82dd8b77f0caa3b0825355cad7aaa585296492f794361e/yafti-0.7.0.tar.gz
+[2023-07-06 01:40:41] INFO root fetch - processPackages [omnivoreql]: Downloading https://files.pythonhosted.org/packages/e7/51/509eb5bdab09e144d2d69c69a021cbb7cc732d8e0b78530b772a895965f2/omnivoreql-0.1.3.tar.gz
+[2023-07-06 01:40:41] INFO root fetch - processPackages [sphinxcontrib-phpdomain]: Downloading https://files.pythonhosted.org/packages/bf/af/ca4fecfbf8c0cee5734ee58d292bbb95c8ee2621e4eb4575417a87b5a67a/sphinxcontrib-phpdomain-0.9.0.tar.gz
+[2023-07-06 01:40:41] INFO root fetch - processPackages [omnivoreql]: executing diffoscope
+[2023-07-06 01:40:41] INFO root fetch - processPackages [omnivoreql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnivoreql-0.1.2.tar.gz tmp/omnivoreql-0.1.3.tar.gz --markdown 20230706/o/omnivoreql/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-06 01:40:41] INFO root fetch - processPackages [brfunds]: Downloading https://files.pythonhosted.org/packages/19/ce/010ff9bc89d2002d2b89c006c7400a2e0a3bba334a8f4e7adaf875d91aed/brfunds-0.2.1.tar.gz
+[2023-07-06 01:40:41] INFO root fetch - processPackages [yafti]: executing diffoscope
+[2023-07-06 01:40:41] INFO root fetch - processPackages [yafti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yafti-0.6.2.tar.gz tmp/yafti-0.7.0.tar.gz --markdown 20230706/y/yafti/0.6.2-0.7.0/diff.md --exclude *.pyd
+[2023-07-06 01:40:41] INFO root fetch - processPackages [brfunds]: executing diffoscope
+[2023-07-06 01:40:41] INFO root fetch - processPackages [brfunds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brfunds-0.2.0.tar.gz tmp/brfunds-0.2.1.tar.gz --markdown 20230706/b/brfunds/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-06 01:40:41] INFO root fetch - processPackages [sphinxcontrib-phpdomain]: executing diffoscope
+[2023-07-06 01:40:41] INFO root fetch - processPackages [sphinxcontrib-phpdomain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinxcontrib-phpdomain-0.8.1.tar.gz tmp/sphinxcontrib-phpdomain-0.9.0.tar.gz --markdown 20230706/s/sphinxcontrib-phpdomain/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-06 01:40:41] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/8f/84/66581190d09357a5dd522267963c2d727e20650e6690064dc2efadd1c020/oloren-0.0.9.tar.gz
+[2023-07-06 01:40:41] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/8f/84/66581190d09357a5dd522267963c2d727e20650e6690064dc2efadd1c020/oloren-0.0.9.tar.gz
+[2023-07-06 01:40:42] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-07-06 01:40:42] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230706/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 01:40:42] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-07-06 01:40:42] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230706/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 01:40:42] INFO root fetch - processPackages [symbolicai]: Downloading https://files.pythonhosted.org/packages/d4/20/d69129c72a905a1d7f198c70e94d4b5d966f97686ef827699d68d5da2a6c/symbolicai-0.2.9-py3-none-any.whl
+[2023-07-06 01:40:42] INFO root fetch - processPackages [omnivoreql]: Remove: archive file [/home/abi/fetcher/tmp/omnivoreql-0.1.2.tar.gz]
+[2023-07-06 01:40:42] INFO root fetch - processPackages [omnivoreql]: Remove: archive file [/home/abi/fetcher/tmp/omnivoreql-0.1.3.tar.gz]
+[2023-07-06 01:40:42] INFO root fetch - main [MainThread]: End processing [omnivoreql]: success
+[2023-07-06 01:40:42] INFO root fetch - processPackages [yafti]: Remove: archive file [/home/abi/fetcher/tmp/yafti-0.6.2.tar.gz]
+[2023-07-06 01:40:42] INFO root fetch - processPackages [yafti]: Remove: archive file [/home/abi/fetcher/tmp/yafti-0.7.0.tar.gz]
+[2023-07-06 01:40:42] INFO root fetch - main [MainThread]: End processing [yafti]: success
+[2023-07-06 01:40:42] INFO root fetch - processPackages [sphinxcontrib-phpdomain]: Remove: archive file [/home/abi/fetcher/tmp/sphinxcontrib-phpdomain-0.8.1.tar.gz]
+[2023-07-06 01:40:42] INFO root fetch - processPackages [sphinxcontrib-phpdomain]: Remove: archive file [/home/abi/fetcher/tmp/sphinxcontrib-phpdomain-0.9.0.tar.gz]
+[2023-07-06 01:40:42] INFO root fetch - main [MainThread]: End processing [sphinxcontrib-phpdomain]: success
+[2023-07-06 01:40:42] INFO root fetch - processPackages [brfunds]: Remove: archive file [/home/abi/fetcher/tmp/brfunds-0.2.0.tar.gz]
+[2023-07-06 01:40:42] INFO root fetch - processPackages [brfunds]: Remove: archive file [/home/abi/fetcher/tmp/brfunds-0.2.1.tar.gz]
+[2023-07-06 01:40:42] INFO root fetch - main [MainThread]: End processing [brfunds]: success
+[2023-07-06 01:40:44] INFO root fetch - processPackages [symbolicai]: executing diffoscope
+[2023-07-06 01:40:44] INFO root fetch - processPackages [symbolicai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symbolicai-0.2.7-py3-none-any.whl.zip tmp/symbolicai-0.2.9-py3-none-any.whl.zip --markdown 20230706/s/symbolicai/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-07-06 01:40:45] INFO root fetch - processPackages [symbolicai]: Remove: archive file [/home/abi/fetcher/tmp/symbolicai-0.2.7-py3-none-any.whl.zip]
+[2023-07-06 01:40:45] INFO root fetch - processPackages [symbolicai]: Remove: archive file [/home/abi/fetcher/tmp/symbolicai-0.2.9-py3-none-any.whl.zip]
+[2023-07-06 01:40:45] INFO root fetch - main [MainThread]: End processing [symbolicai]: success
+[2023-07-06 01:40:46] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.8.tar.gz]
+[2023-07-06 01:40:46] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
+[2023-07-06 01:40:46] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-07-06 01:40:46] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-07-06 01:40:46] INFO root fetch - main [MainThread]: Store serial: [18774329]
