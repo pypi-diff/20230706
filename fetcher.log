@@ -213,3 +213,42 @@
 [2023-07-06 00:10:31] INFO root fetch - processPackages [pydantic-secrets]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_secrets-0.1.1.tar.gz]
 [2023-07-06 00:10:31] INFO root fetch - main [MainThread]: End processing [pydantic-secrets]: success
 [2023-07-06 00:10:31] INFO root fetch - main [MainThread]: Store serial: [18773766]
+[2023-07-06 00:15:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18773766]
+[2023-07-06 00:15:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-06 00:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DefyDatabase
+[2023-07-06 00:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: subete
+[2023-07-06 00:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: magnify
+[2023-07-06 00:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: msgtools
+[2023-07-06 00:15:40] INFO root fetch - processPackages [msgtools]: New version: [0.37.9] Old Version: [0.37.8]
+[2023-07-06 00:15:40] INFO root fetch - processPackages [magnify]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-06 00:15:40] INFO root fetch - processPackages [DefyDatabase]: New version: [10.0.0a4.dev202307060610] Old Version: [10.0.0a4.dev202307051830]
+[2023-07-06 00:15:40] INFO root fetch - processPackages [subete]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-06 00:15:40] INFO root fetch - processPackages [msgtools]: Downloading https://files.pythonhosted.org/packages/7d/59/9696702004790478037795e29ddee31ec985188032bea29a55bd2b57a49f/msgtools-0.37.8.tar.gz
+[2023-07-06 00:15:40] INFO root fetch - processPackages [DefyDatabase]: Downloading https://files.pythonhosted.org/packages/56/c0/e3273e73877b0ac500726105c3fe7b1393c985e10f6ce0201d3a6e0cb25e/DefyDatabase-10.0.0a4.dev202307051830.tar.gz
+[2023-07-06 00:15:40] INFO root fetch - processPackages [magnify]: Downloading https://files.pythonhosted.org/packages/c5/d1/e2914517110e28e0df0e27356d9ce0f2e06f65bdd389eaf7581c250ebd44/magnify-0.3.3.tar.gz
+[2023-07-06 00:15:41] INFO root fetch - processPackages [subete]: Downloading https://files.pythonhosted.org/packages/c1/4c/4a3e30e06d709c4c70c85a63b1399bdcda48aa9b14205d11d85cb842c70d/subete-0.9.2.tar.gz
+[2023-07-06 00:15:41] INFO root fetch - processPackages [msgtools]: Downloading https://files.pythonhosted.org/packages/d3/70/2af7ea5f6cf914e873391bbc1a91d620ec0350535ff65d69e6bc6c108d4a/msgtools-0.37.9.tar.gz
+[2023-07-06 00:15:41] INFO root fetch - processPackages [msgtools]: executing diffoscope
+[2023-07-06 00:15:41] INFO root fetch - processPackages [msgtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msgtools-0.37.8.tar.gz tmp/msgtools-0.37.9.tar.gz --markdown 20230706/m/msgtools/0.37.8-0.37.9/diff.md --exclude *.pyd
+[2023-07-06 00:15:41] INFO root fetch - processPackages [DefyDatabase]: Downloading https://files.pythonhosted.org/packages/bf/82/57103908521d273e0f5fea74340d9b88cb738fa6fa796fdda0919edc9104/DefyDatabase-10.0.0a4.dev202307060610.tar.gz
+[2023-07-06 00:15:41] INFO root fetch - processPackages [magnify]: Downloading https://files.pythonhosted.org/packages/45/91/d1bc42356d923ad8ee44befa193f4c61ee70060987d729caad97bf3b6859/magnify-0.3.4.tar.gz
+[2023-07-06 00:15:41] INFO root fetch - processPackages [subete]: Downloading https://files.pythonhosted.org/packages/00/b9/63d394d7da477e3463438640203e06e81dc8eb457e310efd7793fc5c1900/subete-0.9.3.tar.gz
+[2023-07-06 00:15:41] INFO root fetch - processPackages [DefyDatabase]: executing diffoscope
+[2023-07-06 00:15:41] INFO root fetch - processPackages [DefyDatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DefyDatabase-10.0.0a4.dev202307051830.tar.gz tmp/DefyDatabase-10.0.0a4.dev202307060610.tar.gz --markdown 20230706/D/DefyDatabase/10.0.0a4.dev202307051830-10.0.0a4.dev202307060610/diff.md --exclude *.pyd
+[2023-07-06 00:15:41] INFO root fetch - processPackages [magnify]: executing diffoscope
+[2023-07-06 00:15:41] INFO root fetch - processPackages [magnify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magnify-0.3.3.tar.gz tmp/magnify-0.3.4.tar.gz --markdown 20230706/m/magnify/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-06 00:15:41] INFO root fetch - processPackages [subete]: executing diffoscope
+[2023-07-06 00:15:41] INFO root fetch - processPackages [subete]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/subete-0.9.2.tar.gz tmp/subete-0.9.3.tar.gz --markdown 20230706/s/subete/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-06 00:15:42] INFO root fetch - processPackages [subete]: Remove: archive file [/home/abi/fetcher/tmp/subete-0.9.2.tar.gz]
+[2023-07-06 00:15:42] INFO root fetch - processPackages [subete]: Remove: archive file [/home/abi/fetcher/tmp/subete-0.9.3.tar.gz]
+[2023-07-06 00:15:42] INFO root fetch - main [MainThread]: End processing [subete]: success
+[2023-07-06 00:15:42] INFO root fetch - processPackages [DefyDatabase]: Remove: archive file [/home/abi/fetcher/tmp/DefyDatabase-10.0.0a4.dev202307051830.tar.gz]
+[2023-07-06 00:15:42] INFO root fetch - processPackages [DefyDatabase]: Remove: archive file [/home/abi/fetcher/tmp/DefyDatabase-10.0.0a4.dev202307060610.tar.gz]
+[2023-07-06 00:15:42] INFO root fetch - main [MainThread]: End processing [DefyDatabase]: success
+[2023-07-06 00:15:42] INFO root fetch - processPackages [msgtools]: Remove: archive file [/home/abi/fetcher/tmp/msgtools-0.37.8.tar.gz]
+[2023-07-06 00:15:42] INFO root fetch - processPackages [msgtools]: Remove: archive file [/home/abi/fetcher/tmp/msgtools-0.37.9.tar.gz]
+[2023-07-06 00:15:42] INFO root fetch - main [MainThread]: End processing [msgtools]: success
+[2023-07-06 00:15:42] INFO root fetch - processPackages [magnify]: Remove: archive file [/home/abi/fetcher/tmp/magnify-0.3.3.tar.gz]
+[2023-07-06 00:15:42] INFO root fetch - processPackages [magnify]: Remove: archive file [/home/abi/fetcher/tmp/magnify-0.3.4.tar.gz]
+[2023-07-06 00:15:42] INFO root fetch - main [MainThread]: End processing [magnify]: success
+[2023-07-06 00:15:42] INFO root fetch - main [MainThread]: Store serial: [18773778]
