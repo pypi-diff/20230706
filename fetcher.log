@@ -1298,3 +1298,39 @@
 [2023-07-06 01:30:17] INFO root fetch - processPackages [microviewer]: Remove: archive file [/home/abi/fetcher/tmp/microviewer-1.6.3.tar.gz]
 [2023-07-06 01:30:17] INFO root fetch - main [MainThread]: End processing [microviewer]: success
 [2023-07-06 01:30:17] INFO root fetch - main [MainThread]: Store serial: [18774287]
+[2023-07-06 01:35:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18774287]
+[2023-07-06 01:35:26] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-06 01:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kfst
+[2023-07-06 01:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: macrometa-target-mssql
+[2023-07-06 01:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ax3-redactor
+[2023-07-06 01:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ovos-PHAL-plugin-commonIOT
+[2023-07-06 01:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oloren
+[2023-07-06 01:35:26] INFO root fetch - processPackages [macrometa-target-mssql]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 01:35:26] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 01:35:27] INFO root fetch - processPackages [macrometa-target-mssql]: Downloading https://files.pythonhosted.org/packages/47/28/bece1abc54ffab5f0cddaff5d6f1e02fac1343bfb72976d5794f50dad748/macrometa-target-mssql-0.0.8.tar.gz
+[2023-07-06 01:35:27] WARNING root fetch - processPackages [ovos-PHAL-plugin-commonIOT]: Skipping, unable to determine old version
+[2023-07-06 01:35:27] INFO root fetch - main [MainThread]: End processing [ovos-PHAL-plugin-commonIOT] error
+[2023-07-06 01:35:27] INFO root fetch - processPackages [ax3-redactor]: New version: [2.0.0] Old Version: [1.1.2]
+[2023-07-06 01:35:27] WARNING root fetch - processPackages [kfst]: Skipping, unable to determine old version
+[2023-07-06 01:35:27] INFO root fetch - main [MainThread]: End processing [kfst] error
+[2023-07-06 01:35:27] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/a3/76/06db9dcd349a4094baa829da1112066fd4fe60d5748d1b0c8c0833367603/oloren-0.0.8.tar.gz
+[2023-07-06 01:35:27] INFO root fetch - processPackages [macrometa-target-mssql]: Downloading https://files.pythonhosted.org/packages/3d/97/96f149d7c5c167814edbae8e9693e5915bdec86dfd31a669e08d21162ee9/macrometa-target-mssql-0.0.9.tar.gz
+[2023-07-06 01:35:27] INFO root fetch - processPackages [ax3-redactor]: Downloading https://files.pythonhosted.org/packages/00/7b/8d4f5e72cbecce7ba0abd0456c8255dd529b647b35400aaa8223a21ce4b2/ax3-redactor-1.1.2.tar.gz
+[2023-07-06 01:35:27] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/8f/84/66581190d09357a5dd522267963c2d727e20650e6690064dc2efadd1c020/oloren-0.0.9.tar.gz
+[2023-07-06 01:35:27] INFO root fetch - processPackages [macrometa-target-mssql]: executing diffoscope
+[2023-07-06 01:35:27] INFO root fetch - processPackages [macrometa-target-mssql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-mssql-0.0.8.tar.gz tmp/macrometa-target-mssql-0.0.9.tar.gz --markdown 20230706/m/macrometa-target-mssql/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 01:35:27] INFO root fetch - processPackages [ax3-redactor]: Downloading https://files.pythonhosted.org/packages/df/61/5a6cdbc4abe016c7ec222ba2624eb02f89f573a24ab9a3c5d135e4bdb11e/ax3-redactor-2.0.0.tar.gz
+[2023-07-06 01:35:27] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-07-06 01:35:27] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230706/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 01:35:27] INFO root fetch - processPackages [ax3-redactor]: executing diffoscope
+[2023-07-06 01:35:27] INFO root fetch - processPackages [ax3-redactor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ax3-redactor-1.1.2.tar.gz tmp/ax3-redactor-2.0.0.tar.gz --markdown 20230706/a/ax3-redactor/1.1.2-2.0.0/diff.md --exclude *.pyd
+[2023-07-06 01:35:28] INFO root fetch - processPackages [macrometa-target-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mssql-0.0.8.tar.gz]
+[2023-07-06 01:35:28] INFO root fetch - processPackages [macrometa-target-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mssql-0.0.9.tar.gz]
+[2023-07-06 01:35:28] INFO root fetch - main [MainThread]: End processing [macrometa-target-mssql]: success
+[2023-07-06 01:35:28] INFO root fetch - processPackages [ax3-redactor]: Remove: archive file [/home/abi/fetcher/tmp/ax3-redactor-1.1.2.tar.gz]
+[2023-07-06 01:35:28] INFO root fetch - processPackages [ax3-redactor]: Remove: archive file [/home/abi/fetcher/tmp/ax3-redactor-2.0.0.tar.gz]
+[2023-07-06 01:35:28] INFO root fetch - main [MainThread]: End processing [ax3-redactor]: success
+[2023-07-06 01:35:31] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.8.tar.gz]
+[2023-07-06 01:35:31] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
+[2023-07-06 01:35:31] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-07-06 01:35:31] INFO root fetch - main [MainThread]: Store serial: [18774303]
