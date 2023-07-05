@@ -1488,3 +1488,88 @@
 [2023-07-06 01:46:20] INFO root fetch - processPackages [composabl-ray-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray_dev-0.2.3.dev3-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
 [2023-07-06 01:46:20] INFO root fetch - main [MainThread]: End processing [composabl-ray-dev]: success
 [2023-07-06 01:46:20] INFO root fetch - main [MainThread]: Store serial: [18774383]
+[2023-07-06 01:51:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18774383]
+[2023-07-06 01:51:38] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-06 01:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fiddlecube
+[2023-07-06 01:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kfst
+[2023-07-06 01:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: uhugo
+[2023-07-06 01:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: owe-python-sdk
+[2023-07-06 01:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ovos-PHAL-plugin-commonIOT
+[2023-07-06 01:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yandil
+[2023-07-06 01:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bSuite-python
+[2023-07-06 01:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rsxml
+[2023-07-06 01:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: holamundoplayeraleserdez
+[2023-07-06 01:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: data-understand
+[2023-07-06 01:51:38] INFO root fetch - processPackages [yandil]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-06 01:51:38] INFO root fetch - processPackages [owe-python-sdk]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-07-06 01:51:38] WARNING root fetch - processPackages [ovos-PHAL-plugin-commonIOT]: Skipping, unable to determine old version
+[2023-07-06 01:51:38] INFO root fetch - processPackages [ovos-PHAL-plugin-commonIOT]: Start processing: udi-interface
+[2023-07-06 01:51:38] INFO root fetch - main [MainThread]: End processing [ovos-PHAL-plugin-commonIOT] error
+[2023-07-06 01:51:38] INFO root fetch - processPackages [rsxml]: New version: [0.0.1a0] Old Version: [0.0.1]
+[2023-07-06 01:51:38] INFO root fetch - processPackages [uhugo]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-07-06 01:51:38] WARNING root fetch - processPackages [fiddlecube]: Skipping, unable to determine old version
+[2023-07-06 01:51:38] INFO root fetch - processPackages [fiddlecube]: Start processing: owe-python-sdk
+[2023-07-06 01:51:38] INFO root fetch - main [MainThread]: End processing [fiddlecube] error
+[2023-07-06 01:51:38] INFO root fetch - processPackages [yandil]: Downloading https://files.pythonhosted.org/packages/f6/72/07531d34654a7b31a61bdc98b4b02823957aebe1b4e63f762236f3a181ca/yandil-0.3.0.tar.gz
+[2023-07-06 01:51:38] INFO root fetch - processPackages [kfst]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-06 01:51:38] INFO root fetch - processPackages [data-understand]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-06 01:51:38] WARNING root fetch - processPackages [holamundoplayeraleserdez]: Skipping, unable to determine old version
+[2023-07-06 01:51:38] INFO root fetch - main [MainThread]: End processing [holamundoplayeraleserdez] error
+[2023-07-06 01:51:38] WARNING root fetch - processPackages [bSuite-python]: Skipping, unable to determine old version
+[2023-07-06 01:51:38] INFO root fetch - main [MainThread]: End processing [bSuite-python] error
+[2023-07-06 01:51:38] INFO root fetch - processPackages [owe-python-sdk]: Downloading https://files.pythonhosted.org/packages/b7/87/2ed4496794411461faafd9b31cde5a571ee0b54f11200933d019777ca951/owe_python_sdk-0.0.1a8.tar.gz
+[2023-07-06 01:51:38] INFO root fetch - processPackages [udi-interface]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-07-06 01:51:38] INFO root fetch - processPackages [owe-python-sdk]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-07-06 01:51:39] INFO root fetch - processPackages [rsxml]: Downloading https://files.pythonhosted.org/packages/b9/b9/4193599dca75c2e1b50c23fde1ce5622fb4a90aca514538b3afb5da673ad/rsxml-0.0.1.tar.gz
+[2023-07-06 01:51:39] INFO root fetch - processPackages [owe-python-sdk]: Downloading https://files.pythonhosted.org/packages/b7/87/2ed4496794411461faafd9b31cde5a571ee0b54f11200933d019777ca951/owe_python_sdk-0.0.1a8.tar.gz
+[2023-07-06 01:51:39] INFO root fetch - processPackages [kfst]: Downloading https://files.pythonhosted.org/packages/42/9d/8d560d5482b8856c00571343c679572a8b918fd0f8d0f47ee15df53e14cf/kfst-1.0.1.tar.gz
+[2023-07-06 01:51:39] INFO root fetch - processPackages [data-understand]: Downloading https://files.pythonhosted.org/packages/0d/fb/de7e31d3991216aadf8e9587e01bf10f04aa8b315df00485ca0717e8b95e/data_understand-0.0.1.tar.gz
+[2023-07-06 01:51:39] INFO root fetch - processPackages [yandil]: Downloading https://files.pythonhosted.org/packages/8c/97/cc74e3143cc6ff7f81d9521e6c23fa0298624ca531739e40ace6aa6b3343/yandil-0.3.1.tar.gz
+[2023-07-06 01:51:39] INFO root fetch - processPackages [udi-interface]: Downloading https://files.pythonhosted.org/packages/c0/51/dfe91ad763bae4f37bcc702efca1a0203ac20555622342538c7577e89325/udi_interface-3.0.8.tar.gz
+[2023-07-06 01:51:39] INFO root fetch - processPackages [owe-python-sdk]: Downloading https://files.pythonhosted.org/packages/31/27/a7a614b3213736597496297134f4cd10fd0ecee2f977d8e86784bb925c43/owe_python_sdk-0.0.1a9.tar.gz
+[2023-07-06 01:51:39] INFO root fetch - processPackages [uhugo]: Downloading https://files.pythonhosted.org/packages/f7/50/670bd9096a9c0435dac8d9820b170a906c7ac8fa6365fcfc04299e41f347/uhugo-1.1.6-py3-none-any.whl
+[2023-07-06 01:51:39] INFO root fetch - processPackages [owe-python-sdk]: Downloading https://files.pythonhosted.org/packages/31/27/a7a614b3213736597496297134f4cd10fd0ecee2f977d8e86784bb925c43/owe_python_sdk-0.0.1a9.tar.gz
+[2023-07-06 01:51:39] INFO root fetch - processPackages [owe-python-sdk]: executing diffoscope
+[2023-07-06 01:51:39] INFO root fetch - processPackages [owe-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owe_python_sdk-0.0.1a8.tar.gz tmp/owe_python_sdk-0.0.1a9.tar.gz --markdown 20230706/o/owe-python-sdk/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-07-06 01:51:39] INFO root fetch - processPackages [yandil]: executing diffoscope
+[2023-07-06 01:51:39] INFO root fetch - processPackages [yandil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yandil-0.3.0.tar.gz tmp/yandil-0.3.1.tar.gz --markdown 20230706/y/yandil/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-06 01:51:39] INFO root fetch - processPackages [owe-python-sdk]: executing diffoscope
+[2023-07-06 01:51:39] INFO root fetch - processPackages [owe-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owe_python_sdk-0.0.1a8.tar.gz tmp/owe_python_sdk-0.0.1a9.tar.gz --markdown 20230706/o/owe-python-sdk/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-07-06 01:51:39] INFO root fetch - processPackages [data-understand]: Downloading https://files.pythonhosted.org/packages/ae/ed/84fd986a0e6badeaa6cabfa58c8bfc8caf4b6dab870223e40b96b6a75b87/data_understand-0.0.2.tar.gz
+[2023-07-06 01:51:39] INFO root fetch - processPackages [rsxml]: Downloading https://files.pythonhosted.org/packages/03/a4/52f2ff54df6875f86a3ee4a34bc38193fccc33a96a884f26efda4f2042a4/rsxml-0.0.1a0.tar.gz
+[2023-07-06 01:51:39] INFO root fetch - processPackages [kfst]: Downloading https://files.pythonhosted.org/packages/f9/83/23cb3aed4402c9d84b6248dfc4d45f81210d3a293f7856c2718bf8b1dace/kfst-1.0.2.tar.gz
+[2023-07-06 01:51:39] INFO root fetch - processPackages [uhugo]: Downloading https://files.pythonhosted.org/packages/33/c9/8ed833c22bffc245d9888e131af51f49ba1af619de80ce2889d07a4cd876/uhugo-1.1.7-py3-none-any.whl
+[2023-07-06 01:51:39] INFO root fetch - processPackages [data-understand]: executing diffoscope
+[2023-07-06 01:51:39] INFO root fetch - processPackages [data-understand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_understand-0.0.1.tar.gz tmp/data_understand-0.0.2.tar.gz --markdown 20230706/d/data-understand/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-06 01:51:39] INFO root fetch - processPackages [udi-interface]: Downloading https://files.pythonhosted.org/packages/2e/af/c1c23f937e0bea436329e585e4e5531273c5cdd6021816fe805c9fa33136/udi_interface-3.0.9.tar.gz
+[2023-07-06 01:51:39] INFO root fetch - processPackages [kfst]: executing diffoscope
+[2023-07-06 01:51:39] INFO root fetch - processPackages [kfst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfst-1.0.1.tar.gz tmp/kfst-1.0.2.tar.gz --markdown 20230706/k/kfst/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-06 01:51:39] INFO root fetch - processPackages [rsxml]: executing diffoscope
+[2023-07-06 01:51:39] INFO root fetch - processPackages [rsxml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rsxml-0.0.1.tar.gz tmp/rsxml-0.0.1a0.tar.gz --markdown 20230706/r/rsxml/0.0.1-0.0.1a0/diff.md --exclude *.pyd
+[2023-07-06 01:51:39] INFO root fetch - processPackages [uhugo]: executing diffoscope
+[2023-07-06 01:51:39] INFO root fetch - processPackages [uhugo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uhugo-1.1.6-py3-none-any.whl.zip tmp/uhugo-1.1.7-py3-none-any.whl.zip --markdown 20230706/u/uhugo/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-07-06 01:51:40] INFO root fetch - processPackages [udi-interface]: executing diffoscope
+[2023-07-06 01:51:40] INFO root fetch - processPackages [udi-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udi_interface-3.0.8.tar.gz tmp/udi_interface-3.0.9.tar.gz --markdown 20230706/u/udi-interface/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-07-06 01:51:40] INFO root fetch - processPackages [owe-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/owe_python_sdk-0.0.1a8.tar.gz]
+[2023-07-06 01:51:40] INFO root fetch - processPackages [owe-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/owe_python_sdk-0.0.1a9.tar.gz]
+[2023-07-06 01:51:40] INFO root fetch - main [MainThread]: End processing [owe-python-sdk]: success
+[2023-07-06 01:51:40] INFO root fetch - main [MainThread]: End processing [owe-python-sdk]: success
+[2023-07-06 01:51:40] INFO root fetch - processPackages [yandil]: Remove: archive file [/home/abi/fetcher/tmp/yandil-0.3.0.tar.gz]
+[2023-07-06 01:51:40] INFO root fetch - processPackages [yandil]: Remove: archive file [/home/abi/fetcher/tmp/yandil-0.3.1.tar.gz]
+[2023-07-06 01:51:40] INFO root fetch - main [MainThread]: End processing [yandil]: success
+[2023-07-06 01:51:41] INFO root fetch - processPackages [kfst]: Remove: archive file [/home/abi/fetcher/tmp/kfst-1.0.1.tar.gz]
+[2023-07-06 01:51:41] INFO root fetch - processPackages [kfst]: Remove: archive file [/home/abi/fetcher/tmp/kfst-1.0.2.tar.gz]
+[2023-07-06 01:51:41] INFO root fetch - main [MainThread]: End processing [kfst]: success
+[2023-07-06 01:51:41] INFO root fetch - processPackages [rsxml]: Remove: archive file [/home/abi/fetcher/tmp/rsxml-0.0.1.tar.gz]
+[2023-07-06 01:51:41] INFO root fetch - processPackages [rsxml]: Remove: archive file [/home/abi/fetcher/tmp/rsxml-0.0.1a0.tar.gz]
+[2023-07-06 01:51:41] INFO root fetch - main [MainThread]: End processing [rsxml]: success
+[2023-07-06 01:51:41] INFO root fetch - processPackages [uhugo]: Remove: archive file [/home/abi/fetcher/tmp/uhugo-1.1.6-py3-none-any.whl.zip]
+[2023-07-06 01:51:41] INFO root fetch - processPackages [uhugo]: Remove: archive file [/home/abi/fetcher/tmp/uhugo-1.1.7-py3-none-any.whl.zip]
+[2023-07-06 01:51:41] INFO root fetch - main [MainThread]: End processing [uhugo]: success
+[2023-07-06 01:51:41] INFO root fetch - processPackages [data-understand]: Remove: archive file [/home/abi/fetcher/tmp/data_understand-0.0.1.tar.gz]
+[2023-07-06 01:51:41] INFO root fetch - processPackages [data-understand]: Remove: archive file [/home/abi/fetcher/tmp/data_understand-0.0.2.tar.gz]
+[2023-07-06 01:51:41] INFO root fetch - main [MainThread]: End processing [data-understand]: success
+[2023-07-06 01:51:41] INFO root fetch - processPackages [udi-interface]: Remove: archive file [/home/abi/fetcher/tmp/udi_interface-3.0.8.tar.gz]
+[2023-07-06 01:51:41] INFO root fetch - processPackages [udi-interface]: Remove: archive file [/home/abi/fetcher/tmp/udi_interface-3.0.9.tar.gz]
+[2023-07-06 01:51:41] INFO root fetch - main [MainThread]: End processing [udi-interface]: success
+[2023-07-06 01:51:41] INFO root fetch - main [MainThread]: Store serial: [18774429]
