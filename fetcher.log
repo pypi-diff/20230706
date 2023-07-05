@@ -928,3 +928,65 @@
 [2023-07-06 00:58:39] INFO root fetch - processPackages [pygohcl]: Remove: archive file [/home/abi/fetcher/tmp/pygohcl-1.0.7-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-06 00:58:39] INFO root fetch - main [MainThread]: End processing [pygohcl]: success
 [2023-07-06 00:58:39] INFO root fetch - main [MainThread]: Store serial: [18774092]
+[2023-07-06 01:03:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18774092]
+[2023-07-06 01:03:49] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-06 01:03:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mybox
+[2023-07-06 01:03:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tmnt-cu101
+[2023-07-06 01:03:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lumibot
+[2023-07-06 01:03:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stoobly-agent
+[2023-07-06 01:03:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flwr-nightly
+[2023-07-06 01:03:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MEGNetSparse
+[2023-07-06 01:03:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tmnt
+[2023-07-06 01:03:50] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230704] Old Version: [0.7.0b20230703]
+[2023-07-06 01:03:50] INFO root fetch - processPackages [flwr-nightly]: New version: [1.5.0.dev20230704] Old Version: [1.5.0.dev20230703]
+[2023-07-06 01:03:50] INFO root fetch - processPackages [stoobly-agent]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-07-06 01:03:50] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230704] Old Version: [0.7.0b20230703]
+[2023-07-06 01:03:50] INFO root fetch - processPackages [mybox]: New version: [0.8.0] Old Version: [0.7.8]
+[2023-07-06 01:03:50] INFO root fetch - processPackages [MEGNetSparse]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-06 01:03:50] INFO root fetch - processPackages [lumibot]: New version: [2.6.9] Old Version: [2.6.8]
+[2023-07-06 01:03:50] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/5f/89/d95dc6416f0a5bed49e779dc08591f10db187c578080072666c350abb851/flwr_nightly-1.5.0.dev20230703.tar.gz
+[2023-07-06 01:03:50] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/94/2e/b579b412efe097e2153e533ce42ed248e3ae0d491c771cbd6b237a15ad53/tmnt-0.7.0b20230703.tar.gz
+[2023-07-06 01:03:50] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/6c/42/fd32a5be80546e542044069fbd1a29646e7c549b924caaa94294437dd89b/tmnt-cu101-0.7.0b20230703.tar.gz
+[2023-07-06 01:03:50] INFO root fetch - processPackages [MEGNetSparse]: Downloading https://files.pythonhosted.org/packages/ab/1c/6c60f7ba18748f511d91fd6654fe539f9d5bdd8ddbb504f1121f171ed2c4/MEGNetSparse-0.0.3.tar.gz
+[2023-07-06 01:03:50] INFO root fetch - processPackages [stoobly-agent]: Downloading https://files.pythonhosted.org/packages/e9/78/2350cae18a65474161019a795a652b6b64841323787b44192e8f739ac86a/stoobly-agent-0.9.6.tar.gz
+[2023-07-06 01:03:50] INFO root fetch - processPackages [lumibot]: Downloading https://files.pythonhosted.org/packages/90/de/a55447c167a3cd41a718a92952a3966e9395099b93f7ed7608ddacca422d/lumibot-2.6.8.tar.gz
+[2023-07-06 01:03:50] INFO root fetch - processPackages [mybox]: Downloading https://files.pythonhosted.org/packages/fd/13/9cc7ac0d4ad023b90b4eefc4d0c4504eb1e26fe0e0f1355f54cc83894ca0/mybox-0.7.8.tar.gz
+[2023-07-06 01:03:50] WARNING root fetch - processPackages [lumibot]: Skipping package: exceeds size limit 23892201>=10485760
+[2023-07-06 01:03:50] INFO root fetch - main [MainThread]: End processing [lumibot] error
+[2023-07-06 01:03:50] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/6d/d7/7cac0fd61df0fc6e8fa34f46fff16333e57e471182fac810999e10599bf8/tmnt-0.7.0b20230704.tar.gz
+[2023-07-06 01:03:50] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/ef/07/5a3568416a1abee51cf225d712dba0e6f8cb32fd185f614423426c6e02fe/tmnt-cu101-0.7.0b20230704.tar.gz
+[2023-07-06 01:03:50] INFO root fetch - processPackages [MEGNetSparse]: Downloading https://files.pythonhosted.org/packages/8a/53/3cf164d0e723a58b7cfa9d97b771ff4d7fbcd4095ffbe6e00dd04ac1b7d6/MEGNetSparse-0.0.4.tar.gz
+[2023-07-06 01:03:50] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/41/27/db64fcb20a5064fa7cbe355d99402a2f6c5ae39f3369d8221ff91fc294af/flwr_nightly-1.5.0.dev20230704.tar.gz
+[2023-07-06 01:03:50] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-07-06 01:03:50] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230703.tar.gz tmp/tmnt-0.7.0b20230704.tar.gz --markdown 20230706/t/tmnt/0.7.0b20230703-0.7.0b20230704/diff.md --exclude *.pyd
+[2023-07-06 01:03:50] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-07-06 01:03:50] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230703.tar.gz tmp/tmnt-cu101-0.7.0b20230704.tar.gz --markdown 20230706/t/tmnt-cu101/0.7.0b20230703-0.7.0b20230704/diff.md --exclude *.pyd
+[2023-07-06 01:03:51] INFO root fetch - processPackages [stoobly-agent]: Downloading https://files.pythonhosted.org/packages/45/f8/01a12e6de49e8f9a58b3c7a511a2a2b6259be0af19738d4fefcfb2af88f5/stoobly-agent-0.9.7.tar.gz
+[2023-07-06 01:03:51] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2023-07-06 01:03:51] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.5.0.dev20230703.tar.gz tmp/flwr_nightly-1.5.0.dev20230704.tar.gz --markdown 20230706/f/flwr-nightly/1.5.0.dev20230703-1.5.0.dev20230704/diff.md --exclude *.pyd
+[2023-07-06 01:03:51] INFO root fetch - processPackages [mybox]: Downloading https://files.pythonhosted.org/packages/f3/47/fa65ed695e67b2e0c74ca11156639b473200d34dd2b9cdb1192b783078d3/mybox-0.8.0.tar.gz
+[2023-07-06 01:03:51] INFO root fetch - processPackages [MEGNetSparse]: executing diffoscope
+[2023-07-06 01:03:51] INFO root fetch - processPackages [MEGNetSparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MEGNetSparse-0.0.3.tar.gz tmp/MEGNetSparse-0.0.4.tar.gz --markdown 20230706/M/MEGNetSparse/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-06 01:03:51] INFO root fetch - processPackages [stoobly-agent]: executing diffoscope
+[2023-07-06 01:03:51] INFO root fetch - processPackages [stoobly-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stoobly-agent-0.9.6.tar.gz tmp/stoobly-agent-0.9.7.tar.gz --markdown 20230706/s/stoobly-agent/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-07-06 01:03:51] INFO root fetch - processPackages [mybox]: executing diffoscope
+[2023-07-06 01:03:51] INFO root fetch - processPackages [mybox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mybox-0.7.8.tar.gz tmp/mybox-0.8.0.tar.gz --markdown 20230706/m/mybox/0.7.8-0.8.0/diff.md --exclude *.pyd
+[2023-07-06 01:03:52] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230703.tar.gz]
+[2023-07-06 01:03:52] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230704.tar.gz]
+[2023-07-06 01:03:52] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-07-06 01:03:52] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230703.tar.gz]
+[2023-07-06 01:03:52] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230704.tar.gz]
+[2023-07-06 01:03:52] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-07-06 01:03:52] INFO root fetch - processPackages [MEGNetSparse]: Remove: archive file [/home/abi/fetcher/tmp/MEGNetSparse-0.0.3.tar.gz]
+[2023-07-06 01:03:52] INFO root fetch - processPackages [MEGNetSparse]: Remove: archive file [/home/abi/fetcher/tmp/MEGNetSparse-0.0.4.tar.gz]
+[2023-07-06 01:03:52] INFO root fetch - main [MainThread]: End processing [MEGNetSparse]: success
+[2023-07-06 01:03:52] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230703.tar.gz]
+[2023-07-06 01:03:52] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230704.tar.gz]
+[2023-07-06 01:03:52] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2023-07-06 01:03:52] INFO root fetch - processPackages [mybox]: Remove: archive file [/home/abi/fetcher/tmp/mybox-0.7.8.tar.gz]
+[2023-07-06 01:03:52] INFO root fetch - processPackages [mybox]: Remove: archive file [/home/abi/fetcher/tmp/mybox-0.8.0.tar.gz]
+[2023-07-06 01:03:52] INFO root fetch - main [MainThread]: End processing [mybox]: success
+[2023-07-06 01:03:52] INFO root fetch - processPackages [stoobly-agent]: Remove: archive file [/home/abi/fetcher/tmp/stoobly-agent-0.9.6.tar.gz]
+[2023-07-06 01:03:52] INFO root fetch - processPackages [stoobly-agent]: Remove: archive file [/home/abi/fetcher/tmp/stoobly-agent-0.9.7.tar.gz]
+[2023-07-06 01:03:52] INFO root fetch - main [MainThread]: End processing [stoobly-agent]: success
+[2023-07-06 01:03:52] INFO root fetch - main [MainThread]: Store serial: [18774113]
