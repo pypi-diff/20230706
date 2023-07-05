@@ -824,3 +824,65 @@
 [2023-07-06 00:48:05] INFO root fetch - processPackages [jupyter-ai]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_ai-0.9.0.tar.gz]
 [2023-07-06 00:48:05] INFO root fetch - main [MainThread]: End processing [jupyter-ai]: success
 [2023-07-06 00:48:05] INFO root fetch - main [MainThread]: Store serial: [18774039]
+[2023-07-06 00:53:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18774039]
+[2023-07-06 00:53:14] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-06 00:53:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-restit
+[2023-07-06 00:53:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: macrometa-target-mssql
+[2023-07-06 00:53:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-models-official
+[2023-07-06 00:53:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-07-06 00:53:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyVHDLModel
+[2023-07-06 00:53:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: musicntwrk
+[2023-07-06 00:53:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: RamseyTheoryRL
+[2023-07-06 00:53:14] INFO root fetch - processPackages [macrometa-target-mssql]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 00:53:15] INFO root fetch - processPackages [RamseyTheoryRL]: New version: [0.72] Old Version: [0.71]
+[2023-07-06 00:53:15] INFO root fetch - processPackages [pyVHDLModel]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-06 00:53:15] INFO root fetch - processPackages [django-restit]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-07-06 00:53:15] INFO root fetch - processPackages [macrometa-target-mssql]: Downloading https://files.pythonhosted.org/packages/47/28/bece1abc54ffab5f0cddaff5d6f1e02fac1343bfb72976d5794f50dad748/macrometa-target-mssql-0.0.8.tar.gz
+[2023-07-06 00:53:15] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.389] Old Version: [0.3.388]
+[2023-07-06 00:53:15] INFO root fetch - processPackages [tf-models-official]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-07-06 00:53:15] INFO root fetch - processPackages [musicntwrk]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-06 00:53:15] INFO root fetch - processPackages [RamseyTheoryRL]: Downloading https://files.pythonhosted.org/packages/a7/9c/8c53fbfa0ad668e13749fedfc71551d50561f65a7d8e722e28a1f8bfaae1/RamseyTheoryRL-0.71.tar.gz
+[2023-07-06 00:53:15] INFO root fetch - processPackages [pyVHDLModel]: Downloading https://files.pythonhosted.org/packages/a8/a3/6e24a482db435b3aaeb430b054cb3da2d0eb1f0f31879f2d5498bddef0f3/pyVHDLModel-0.8.1.tar.gz
+[2023-07-06 00:53:15] INFO root fetch - processPackages [django-restit]: Downloading https://files.pythonhosted.org/packages/da/ae/420103630a3547e999a771e2f0cc48ea6cbe6df37da1d6f2e09fd6ffb54f/django_restit-4.0.8.tar.gz
+[2023-07-06 00:53:15] INFO root fetch - processPackages [macrometa-target-mssql]: Downloading https://files.pythonhosted.org/packages/3d/97/96f149d7c5c167814edbae8e9693e5915bdec86dfd31a669e08d21162ee9/macrometa-target-mssql-0.0.9.tar.gz
+[2023-07-06 00:53:15] INFO root fetch - processPackages [tf-models-official]: Downloading https://files.pythonhosted.org/packages/16/00/9f859958c2080276655078bd376e67c11e62731d4b88c9307c021ee60c29/tf-models-official-2.9.1.tar.gz
+[2023-07-06 00:53:15] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/4d/be/512bf0ac563f2a08cc5a5d0a9ea3a4d5a16173bdd62a6ee95b6e5c525402/pepperize.cdk-ses-smtp-credentials-0.3.388.tar.gz
+[2023-07-06 00:53:15] INFO root fetch - processPackages [musicntwrk]: Downloading https://files.pythonhosted.org/packages/db/b0/33a1d7d52fd51dce61dfff102411b95254fdc0a41aaf69600c7f5d277b8a/musicntwrk-2.2.8.tar.gz
+[2023-07-06 00:53:15] INFO root fetch - processPackages [macrometa-target-mssql]: executing diffoscope
+[2023-07-06 00:53:15] INFO root fetch - processPackages [macrometa-target-mssql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-mssql-0.0.8.tar.gz tmp/macrometa-target-mssql-0.0.9.tar.gz --markdown 20230706/m/macrometa-target-mssql/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 00:53:15] WARNING root fetch - processPackages [RamseyTheoryRL]: Skipping package: exceeds size limit 12026601>=10485760
+[2023-07-06 00:53:15] INFO root fetch - main [MainThread]: End processing [RamseyTheoryRL] error
+[2023-07-06 00:53:15] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/ca/d0/223e58d25c950c6872d2dc673e6269f0fd8b992e892d7e7f7c0c10797c34/pepperize.cdk-ses-smtp-credentials-0.3.389.tar.gz
+[2023-07-06 00:53:15] INFO root fetch - processPackages [pyVHDLModel]: Downloading https://files.pythonhosted.org/packages/51/cf/3e7939135af9bd4e7b64ec19c4ab2e2477cde96f5d7a578cc163fbf55e35/pyVHDLModel-0.9.0.tar.gz
+[2023-07-06 00:53:15] INFO root fetch - processPackages [django-restit]: Downloading https://files.pythonhosted.org/packages/18/2c/38b42dbde08990a11e3f6bb4c76720732e68315a7fd9c44f9c220ccdc07c/django_restit-4.0.9.tar.gz
+[2023-07-06 00:53:15] INFO root fetch - processPackages [musicntwrk]: Downloading https://files.pythonhosted.org/packages/eb/54/cfcd0ec154a945cf9ea03456f0b5db99228d517531e7f6568ba971ed433e/musicntwrk-2.2.9.tar.gz
+[2023-07-06 00:53:16] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-07-06 00:53:16] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.388.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.389.tar.gz --markdown 20230706/p/pepperize.cdk-ses-smtp-credentials/0.3.388-0.3.389/diff.md --exclude *.pyd
+[2023-07-06 00:53:16] INFO root fetch - processPackages [pyVHDLModel]: executing diffoscope
+[2023-07-06 00:53:16] INFO root fetch - processPackages [pyVHDLModel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyVHDLModel-0.8.1.tar.gz tmp/pyVHDLModel-0.9.0.tar.gz --markdown 20230706/p/pyVHDLModel/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-06 00:53:16] INFO root fetch - processPackages [tf-models-official]: Downloading https://files.pythonhosted.org/packages/d8/70/4e5fb0b35fb4fde870dec9b07b4f1468edadf302042eae0adc397e4f876d/tf-models-official-2.9.2.tar.gz
+[2023-07-06 00:53:16] INFO root fetch - processPackages [django-restit]: executing diffoscope
+[2023-07-06 00:53:16] INFO root fetch - processPackages [django-restit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_restit-4.0.8.tar.gz tmp/django_restit-4.0.9.tar.gz --markdown 20230706/d/django-restit/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-07-06 00:53:16] INFO root fetch - processPackages [musicntwrk]: executing diffoscope
+[2023-07-06 00:53:16] INFO root fetch - processPackages [musicntwrk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musicntwrk-2.2.8.tar.gz tmp/musicntwrk-2.2.9.tar.gz --markdown 20230706/m/musicntwrk/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-06 00:53:16] INFO root fetch - processPackages [macrometa-target-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mssql-0.0.8.tar.gz]
+[2023-07-06 00:53:16] INFO root fetch - processPackages [macrometa-target-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mssql-0.0.9.tar.gz]
+[2023-07-06 00:53:16] INFO root fetch - main [MainThread]: End processing [macrometa-target-mssql]: success
+[2023-07-06 00:53:16] INFO root fetch - processPackages [tf-models-official]: executing diffoscope
+[2023-07-06 00:53:16] INFO root fetch - processPackages [tf-models-official]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf-models-official-2.9.1.tar.gz tmp/tf-models-official-2.9.2.tar.gz --markdown 20230706/t/tf-models-official/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-07-06 00:53:17] INFO root fetch - processPackages [pyVHDLModel]: Remove: archive file [/home/abi/fetcher/tmp/pyVHDLModel-0.8.1.tar.gz]
+[2023-07-06 00:53:17] INFO root fetch - processPackages [pyVHDLModel]: Remove: archive file [/home/abi/fetcher/tmp/pyVHDLModel-0.9.0.tar.gz]
+[2023-07-06 00:53:17] INFO root fetch - main [MainThread]: End processing [pyVHDLModel]: success
+[2023-07-06 00:53:17] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.388.tar.gz]
+[2023-07-06 00:53:17] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.389.tar.gz]
+[2023-07-06 00:53:17] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-07-06 00:53:17] INFO root fetch - processPackages [musicntwrk]: Remove: archive file [/home/abi/fetcher/tmp/musicntwrk-2.2.8.tar.gz]
+[2023-07-06 00:53:17] INFO root fetch - processPackages [musicntwrk]: Remove: archive file [/home/abi/fetcher/tmp/musicntwrk-2.2.9.tar.gz]
+[2023-07-06 00:53:17] INFO root fetch - main [MainThread]: End processing [musicntwrk]: success
+[2023-07-06 00:53:18] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.0.8.tar.gz]
+[2023-07-06 00:53:18] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.0.9.tar.gz]
+[2023-07-06 00:53:18] INFO root fetch - main [MainThread]: End processing [django-restit]: success
+[2023-07-06 00:53:21] INFO root fetch - processPackages [tf-models-official]: Remove: archive file [/home/abi/fetcher/tmp/tf-models-official-2.9.1.tar.gz]
+[2023-07-06 00:53:21] INFO root fetch - processPackages [tf-models-official]: Remove: archive file [/home/abi/fetcher/tmp/tf-models-official-2.9.2.tar.gz]
+[2023-07-06 00:53:21] INFO root fetch - main [MainThread]: End processing [tf-models-official]: success
+[2023-07-06 00:53:21] INFO root fetch - main [MainThread]: Store serial: [18774061]
