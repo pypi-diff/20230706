@@ -1573,3 +1573,93 @@
 [2023-07-06 01:51:41] INFO root fetch - processPackages [udi-interface]: Remove: archive file [/home/abi/fetcher/tmp/udi_interface-3.0.9.tar.gz]
 [2023-07-06 01:51:41] INFO root fetch - main [MainThread]: End processing [udi-interface]: success
 [2023-07-06 01:51:41] INFO root fetch - main [MainThread]: Store serial: [18774429]
+[2023-07-06 01:56:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18774429]
+[2023-07-06 01:56:49] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-06 01:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: idem-tls
+[2023-07-06 01:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: exotethys
+[2023-07-06 01:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: footballmodels
+[2023-07-06 01:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: string-data-algorithms
+[2023-07-06 01:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oloren
+[2023-07-06 01:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scriptime
+[2023-07-06 01:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: non-local-detector
+[2023-07-06 01:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: macrometa-target-mssql
+[2023-07-06 01:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: symbolicai
+[2023-07-06 01:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyomorfi
+[2023-07-06 01:56:50] WARNING root fetch - processPackages [pyomorfi]: Skipping, unable to determine old version
+[2023-07-06 01:56:50] INFO root fetch - processPackages [non-local-detector]: New version: [0.2.8.dev0] Old Version: [0.2.7.dev0]
+[2023-07-06 01:56:50] INFO root fetch - processPackages [pyomorfi]: Start processing: maccarone
+[2023-07-06 01:56:50] INFO root fetch - main [MainThread]: End processing [pyomorfi] error
+[2023-07-06 01:56:50] INFO root fetch - processPackages [macrometa-target-mssql]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 01:56:50] WARNING root fetch - processPackages [scriptime]: Skipping, unable to determine old version
+[2023-07-06 01:56:50] INFO root fetch - processPackages [scriptime]: Start processing: latch
+[2023-07-06 01:56:50] INFO root fetch - main [MainThread]: End processing [scriptime] error
+[2023-07-06 01:56:50] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 01:56:50] INFO root fetch - processPackages [symbolicai]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-07-06 01:56:50] INFO root fetch - processPackages [idem-tls]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-06 01:56:50] WARNING root fetch - processPackages [string-data-algorithms]: Skipping, unable to determine old version
+[2023-07-06 01:56:50] INFO root fetch - main [MainThread]: End processing [string-data-algorithms] error
+[2023-07-06 01:56:50] INFO root fetch - processPackages [exotethys]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-06 01:56:50] INFO root fetch - processPackages [footballmodels]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-06 01:56:50] INFO root fetch - processPackages [macrometa-target-mssql]: Downloading https://files.pythonhosted.org/packages/47/28/bece1abc54ffab5f0cddaff5d6f1e02fac1343bfb72976d5794f50dad748/macrometa-target-mssql-0.0.8.tar.gz
+[2023-07-06 01:56:50] INFO root fetch - processPackages [maccarone]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-06 01:56:50] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/a3/76/06db9dcd349a4094baa829da1112066fd4fe60d5748d1b0c8c0833367603/oloren-0.0.8.tar.gz
+[2023-07-06 01:56:50] INFO root fetch - processPackages [symbolicai]: Downloading https://files.pythonhosted.org/packages/59/14/798e49c20397acd30771571396d3eda6fd597a03aa173eaff2f7291228e3/symbolicai-0.2.7-py3-none-any.whl
+[2023-07-06 01:56:50] INFO root fetch - processPackages [latch]: New version: [2.9.6] Old Version: [2.9.5]
+[2023-07-06 01:56:50] INFO root fetch - processPackages [non-local-detector]: Downloading https://files.pythonhosted.org/packages/ce/53/7a92c57809e036c7bf020d77cd8ab83f3d5328689d4f5a9d8d1f0ffbb5e7/non_local_detector-0.2.7.dev0.tar.gz
+[2023-07-06 01:56:50] INFO root fetch - processPackages [idem-tls]: Downloading https://files.pythonhosted.org/packages/7f/db/dca600d02c769bc2f1b9077041681fe7b636b9e9eed43e145c31f942840b/idem-tls-1.0.0.tar.gz
+[2023-07-06 01:56:50] INFO root fetch - processPackages [exotethys]: Downloading https://files.pythonhosted.org/packages/34/c0/7b3cc67817c07f37c6ad5cca9391a62ecbbc7a493997c33cc12545793bde/exotethys-2.0.8.tar.gz
+[2023-07-06 01:56:50] INFO root fetch - processPackages [footballmodels]: Downloading https://files.pythonhosted.org/packages/8d/4a/ef6a2dbee37ff60d7948fdc1fa3f1cf66bc48fc82b0f7320dc101ddaf4bf/footballmodels-0.0.3.tar.gz
+[2023-07-06 01:56:50] INFO root fetch - processPackages [macrometa-target-mssql]: Downloading https://files.pythonhosted.org/packages/3d/97/96f149d7c5c167814edbae8e9693e5915bdec86dfd31a669e08d21162ee9/macrometa-target-mssql-0.0.9.tar.gz
+[2023-07-06 01:56:50] INFO root fetch - processPackages [maccarone]: Downloading https://files.pythonhosted.org/packages/f3/a8/ce0cad3d457b550b8d334a99ad32c0eca53b6629543e8edd7f9268a45c6f/maccarone-0.1.5.tar.gz
+[2023-07-06 01:56:50] INFO root fetch - processPackages [macrometa-target-mssql]: executing diffoscope
+[2023-07-06 01:56:50] INFO root fetch - processPackages [macrometa-target-mssql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-mssql-0.0.8.tar.gz tmp/macrometa-target-mssql-0.0.9.tar.gz --markdown 20230706/m/macrometa-target-mssql/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 01:56:51] INFO root fetch - processPackages [footballmodels]: Downloading https://files.pythonhosted.org/packages/6e/d4/2ee8fc396a780a083c278478d832da7539f33c4d1bce36fbbfd67894c7e5/footballmodels-0.0.4.tar.gz
+[2023-07-06 01:56:51] INFO root fetch - processPackages [latch]: executing diffoscope
+[2023-07-06 01:56:51] INFO root fetch - processPackages [latch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch-2.9.5.tar.gz tmp/latch-2.9.6.tar.gz --markdown 20230706/l/latch/2.9.5-2.9.6/diff.md --exclude *.pyd
+[2023-07-06 01:56:51] INFO root fetch - processPackages [idem-tls]: Downloading https://files.pythonhosted.org/packages/c5/79/37d8d647086e3fa98a331e8c1218c14d92327d2afdad4f7e51c003c41286/idem-tls-1.0.1.tar.gz
+[2023-07-06 01:56:51] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/8f/84/66581190d09357a5dd522267963c2d727e20650e6690064dc2efadd1c020/oloren-0.0.9.tar.gz
+[2023-07-06 01:56:51] INFO root fetch - processPackages [maccarone]: executing diffoscope
+[2023-07-06 01:56:51] INFO root fetch - processPackages [maccarone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maccarone-0.1.4.tar.gz tmp/maccarone-0.1.5.tar.gz --markdown 20230706/m/maccarone/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-06 01:56:51] INFO root fetch - processPackages [symbolicai]: Downloading https://files.pythonhosted.org/packages/d4/20/d69129c72a905a1d7f198c70e94d4b5d966f97686ef827699d68d5da2a6c/symbolicai-0.2.9-py3-none-any.whl
+[2023-07-06 01:56:51] INFO root fetch - processPackages [exotethys]: Downloading https://files.pythonhosted.org/packages/9d/c0/7d4a4b8c32e426104ddf36986b522be8409762d3db7c0de2001a7e1fe150/exotethys-2.0.9-py2.py3-none-any.whl
+[2023-07-06 01:56:51] INFO root fetch - processPackages [footballmodels]: executing diffoscope
+[2023-07-06 01:56:51] INFO root fetch - processPackages [footballmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/footballmodels-0.0.3.tar.gz tmp/footballmodels-0.0.4.tar.gz --markdown 20230706/f/footballmodels/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-06 01:56:51] INFO root fetch - processPackages [idem-tls]: executing diffoscope
+[2023-07-06 01:56:51] INFO root fetch - processPackages [idem-tls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idem-tls-1.0.0.tar.gz tmp/idem-tls-1.0.1.tar.gz --markdown 20230706/i/idem-tls/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-06 01:56:51] INFO root fetch - processPackages [non-local-detector]: Downloading https://files.pythonhosted.org/packages/9c/d9/4a59b6f187bedd3fe66f2df3b8f2e36bc4ccf426bb3285b8761c5409e563/non_local_detector-0.2.8.dev0.tar.gz
+[2023-07-06 01:56:51] INFO root fetch - processPackages [exotethys]: executing diffoscope
+[2023-07-06 01:56:51] INFO root fetch - processPackages [exotethys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exotethys-2.0.8.tar.gz tmp/exotethys-2.0.9-py2.py3-none-any.whl.zip --markdown 20230706/e/exotethys/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-06 01:56:51] INFO root fetch - processPackages [symbolicai]: executing diffoscope
+[2023-07-06 01:56:51] INFO root fetch - processPackages [symbolicai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symbolicai-0.2.7-py3-none-any.whl.zip tmp/symbolicai-0.2.9-py3-none-any.whl.zip --markdown 20230706/s/symbolicai/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-07-06 01:56:51] INFO root fetch - processPackages [non-local-detector]: executing diffoscope
+[2023-07-06 01:56:51] INFO root fetch - processPackages [non-local-detector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/non_local_detector-0.2.7.dev0.tar.gz tmp/non_local_detector-0.2.8.dev0.tar.gz --markdown 20230706/n/non-local-detector/0.2.7.dev0-0.2.8.dev0/diff.md --exclude *.pyd
+[2023-07-06 01:56:51] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-07-06 01:56:51] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230706/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 01:56:52] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.5.tar.gz]
+[2023-07-06 01:56:52] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.6.tar.gz]
+[2023-07-06 01:56:52] INFO root fetch - main [MainThread]: End processing [latch]: success
+[2023-07-06 01:56:52] INFO root fetch - processPackages [maccarone]: Remove: archive file [/home/abi/fetcher/tmp/maccarone-0.1.4.tar.gz]
+[2023-07-06 01:56:52] INFO root fetch - processPackages [maccarone]: Remove: archive file [/home/abi/fetcher/tmp/maccarone-0.1.5.tar.gz]
+[2023-07-06 01:56:52] INFO root fetch - main [MainThread]: End processing [maccarone]: success
+[2023-07-06 01:56:52] INFO root fetch - processPackages [macrometa-target-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mssql-0.0.8.tar.gz]
+[2023-07-06 01:56:52] INFO root fetch - processPackages [macrometa-target-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mssql-0.0.9.tar.gz]
+[2023-07-06 01:56:52] INFO root fetch - main [MainThread]: End processing [macrometa-target-mssql]: success
+[2023-07-06 01:56:52] INFO root fetch - processPackages [footballmodels]: Remove: archive file [/home/abi/fetcher/tmp/footballmodels-0.0.3.tar.gz]
+[2023-07-06 01:56:52] INFO root fetch - processPackages [footballmodels]: Remove: archive file [/home/abi/fetcher/tmp/footballmodels-0.0.4.tar.gz]
+[2023-07-06 01:56:52] INFO root fetch - main [MainThread]: End processing [footballmodels]: success
+[2023-07-06 01:56:52] INFO root fetch - processPackages [idem-tls]: Remove: archive file [/home/abi/fetcher/tmp/idem-tls-1.0.0.tar.gz]
+[2023-07-06 01:56:52] INFO root fetch - processPackages [idem-tls]: Remove: archive file [/home/abi/fetcher/tmp/idem-tls-1.0.1.tar.gz]
+[2023-07-06 01:56:52] INFO root fetch - main [MainThread]: End processing [idem-tls]: success
+[2023-07-06 01:56:52] INFO root fetch - processPackages [exotethys]: Remove: archive file [/home/abi/fetcher/tmp/exotethys-2.0.8.tar.gz]
+[2023-07-06 01:56:52] INFO root fetch - processPackages [exotethys]: Remove: archive file [/home/abi/fetcher/tmp/exotethys-2.0.9-py2.py3-none-any.whl.zip]
+[2023-07-06 01:56:52] INFO root fetch - main [MainThread]: End processing [exotethys]: success
+[2023-07-06 01:56:53] INFO root fetch - processPackages [symbolicai]: Remove: archive file [/home/abi/fetcher/tmp/symbolicai-0.2.7-py3-none-any.whl.zip]
+[2023-07-06 01:56:53] INFO root fetch - processPackages [symbolicai]: Remove: archive file [/home/abi/fetcher/tmp/symbolicai-0.2.9-py3-none-any.whl.zip]
+[2023-07-06 01:56:53] INFO root fetch - main [MainThread]: End processing [symbolicai]: success
+[2023-07-06 01:56:53] INFO root fetch - processPackages [non-local-detector]: Remove: archive file [/home/abi/fetcher/tmp/non_local_detector-0.2.7.dev0.tar.gz]
+[2023-07-06 01:56:53] INFO root fetch - processPackages [non-local-detector]: Remove: archive file [/home/abi/fetcher/tmp/non_local_detector-0.2.8.dev0.tar.gz]
+[2023-07-06 01:56:53] INFO root fetch - main [MainThread]: End processing [non-local-detector]: success
+[2023-07-06 01:56:56] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.8.tar.gz]
+[2023-07-06 01:56:56] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
+[2023-07-06 01:56:56] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-07-06 01:56:56] INFO root fetch - main [MainThread]: Store serial: [18774467]
