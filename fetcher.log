@@ -990,3 +990,48 @@
 [2023-07-06 01:03:52] INFO root fetch - processPackages [stoobly-agent]: Remove: archive file [/home/abi/fetcher/tmp/stoobly-agent-0.9.7.tar.gz]
 [2023-07-06 01:03:52] INFO root fetch - main [MainThread]: End processing [stoobly-agent]: success
 [2023-07-06 01:03:52] INFO root fetch - main [MainThread]: Store serial: [18774113]
+[2023-07-06 01:08:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18774113]
+[2023-07-06 01:09:01] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-06 01:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vscode-gallery-api
+[2023-07-06 01:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-connectwise
+[2023-07-06 01:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yandil
+[2023-07-06 01:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: robusta
+[2023-07-06 01:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sktree
+[2023-07-06 01:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fern-pushcash
+[2023-07-06 01:09:01] INFO root fetch - processPackages [fern-pushcash]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-06 01:09:01] WARNING root fetch - processPackages [vscode-gallery-api]: Skipping, unable to determine old version
+[2023-07-06 01:09:01] INFO root fetch - main [MainThread]: End processing [vscode-gallery-api] error
+[2023-07-06 01:09:01] INFO root fetch - processPackages [yandil]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-06 01:09:01] INFO root fetch - processPackages [fern-pushcash]: Downloading https://files.pythonhosted.org/packages/66/99/5afc0debea2276b77b5334f3ab110334a420f8d27781cedc9b56ff8aa89a/fern_pushcash-0.0.3.tar.gz
+[2023-07-06 01:09:01] WARNING root fetch - processPackages [sktree]: Skipping, unable to determine old version
+[2023-07-06 01:09:01] INFO root fetch - main [MainThread]: End processing [sktree] error
+[2023-07-06 01:09:01] INFO root fetch - processPackages [robusta]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-06 01:09:01] INFO root fetch - processPackages [django-connectwise]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-07-06 01:09:01] INFO root fetch - processPackages [yandil]: Downloading https://files.pythonhosted.org/packages/f6/72/07531d34654a7b31a61bdc98b4b02823957aebe1b4e63f762236f3a181ca/yandil-0.3.0.tar.gz
+[2023-07-06 01:09:01] INFO root fetch - processPackages [robusta]: Downloading https://files.pythonhosted.org/packages/d4/d1/2ccbbc3cd745d8cc5ea5ad1bc84e7753a3d5e3e4456730b1c27c7c64e15b/robusta-0.0.1.tar.gz
+[2023-07-06 01:09:01] INFO root fetch - processPackages [django-connectwise]: Downloading https://files.pythonhosted.org/packages/c6/7b/403221fae31bc60ac147203546ed332591965ecfe59f07b574542cd652d5/django-connectwise-1.3.2.tar.gz
+[2023-07-06 01:09:01] INFO root fetch - processPackages [fern-pushcash]: Downloading https://files.pythonhosted.org/packages/aa/a3/6e0bb804785552a9a0486d37ec9bb4117b74bb5036258de484821ae3bb59/fern_pushcash-0.0.4.tar.gz
+[2023-07-06 01:09:02] INFO root fetch - processPackages [fern-pushcash]: executing diffoscope
+[2023-07-06 01:09:02] INFO root fetch - processPackages [fern-pushcash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fern_pushcash-0.0.3.tar.gz tmp/fern_pushcash-0.0.4.tar.gz --markdown 20230706/f/fern-pushcash/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-06 01:09:02] INFO root fetch - processPackages [robusta]: Downloading https://files.pythonhosted.org/packages/d3/7e/7d4007b7ae961bdf05640330e207979d6c258115aeb358529ff3eb0a6398/robusta-0.0.2.tar.gz
+[2023-07-06 01:09:02] INFO root fetch - processPackages [yandil]: Downloading https://files.pythonhosted.org/packages/8c/97/cc74e3143cc6ff7f81d9521e6c23fa0298624ca531739e40ace6aa6b3343/yandil-0.3.1.tar.gz
+[2023-07-06 01:09:02] INFO root fetch - processPackages [robusta]: executing diffoscope
+[2023-07-06 01:09:02] INFO root fetch - processPackages [robusta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robusta-0.0.1.tar.gz tmp/robusta-0.0.2.tar.gz --markdown 20230706/r/robusta/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-06 01:09:02] INFO root fetch - processPackages [django-connectwise]: Downloading https://files.pythonhosted.org/packages/b9/d1/827ad804c0bd1a4c5a0850fcd2b4815b811e1b5d9263549c4d26a9b19bd4/django-connectwise-1.3.3.tar.gz
+[2023-07-06 01:09:02] INFO root fetch - processPackages [yandil]: executing diffoscope
+[2023-07-06 01:09:02] INFO root fetch - processPackages [yandil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yandil-0.3.0.tar.gz tmp/yandil-0.3.1.tar.gz --markdown 20230706/y/yandil/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-06 01:09:02] INFO root fetch - processPackages [django-connectwise]: executing diffoscope
+[2023-07-06 01:09:02] INFO root fetch - processPackages [django-connectwise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-connectwise-1.3.2.tar.gz tmp/django-connectwise-1.3.3.tar.gz --markdown 20230706/d/django-connectwise/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-07-06 01:09:03] INFO root fetch - processPackages [fern-pushcash]: Remove: archive file [/home/abi/fetcher/tmp/fern_pushcash-0.0.3.tar.gz]
+[2023-07-06 01:09:03] INFO root fetch - processPackages [fern-pushcash]: Remove: archive file [/home/abi/fetcher/tmp/fern_pushcash-0.0.4.tar.gz]
+[2023-07-06 01:09:03] INFO root fetch - main [MainThread]: End processing [fern-pushcash]: success
+[2023-07-06 01:09:03] INFO root fetch - processPackages [robusta]: Remove: archive file [/home/abi/fetcher/tmp/robusta-0.0.1.tar.gz]
+[2023-07-06 01:09:03] INFO root fetch - processPackages [robusta]: Remove: archive file [/home/abi/fetcher/tmp/robusta-0.0.2.tar.gz]
+[2023-07-06 01:09:03] INFO root fetch - main [MainThread]: End processing [robusta]: success
+[2023-07-06 01:09:03] INFO root fetch - processPackages [yandil]: Remove: archive file [/home/abi/fetcher/tmp/yandil-0.3.0.tar.gz]
+[2023-07-06 01:09:03] INFO root fetch - processPackages [yandil]: Remove: archive file [/home/abi/fetcher/tmp/yandil-0.3.1.tar.gz]
+[2023-07-06 01:09:03] INFO root fetch - main [MainThread]: End processing [yandil]: success
+[2023-07-06 01:09:05] INFO root fetch - processPackages [django-connectwise]: Remove: archive file [/home/abi/fetcher/tmp/django-connectwise-1.3.2.tar.gz]
+[2023-07-06 01:09:05] INFO root fetch - processPackages [django-connectwise]: Remove: archive file [/home/abi/fetcher/tmp/django-connectwise-1.3.3.tar.gz]
+[2023-07-06 01:09:05] INFO root fetch - main [MainThread]: End processing [django-connectwise]: success
+[2023-07-06 01:09:05] INFO root fetch - main [MainThread]: Store serial: [18774145]
