@@ -1401,3 +1401,90 @@
 [2023-07-06 01:40:46] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-07-06 01:40:46] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-07-06 01:40:46] INFO root fetch - main [MainThread]: Store serial: [18774329]
+[2023-07-06 01:45:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18774329]
+[2023-07-06 01:45:55] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-06 01:45:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scriptime
+[2023-07-06 01:45:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torch-eyepacs
+[2023-07-06 01:45:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kfst
+[2023-07-06 01:45:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-github
+[2023-07-06 01:45:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: innerverz
+[2023-07-06 01:45:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: composabl-ray-dev
+[2023-07-06 01:45:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nd2
+[2023-07-06 01:45:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oloren
+[2023-07-06 01:45:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: skyplane-nightly
+[2023-07-06 01:45:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: quil
+[2023-07-06 01:45:55] WARNING root fetch - processPackages [kfst]: Skipping, unable to determine old version
+[2023-07-06 01:45:55] INFO root fetch - processPackages [kfst]: Start processing: city-score
+[2023-07-06 01:45:55] INFO root fetch - main [MainThread]: End processing [kfst] error
+[2023-07-06 01:45:55] INFO root fetch - processPackages [innerverz]: New version: [0.0.37] Old Version: [0.0.36]
+[2023-07-06 01:45:55] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 01:45:55] INFO root fetch - processPackages [quil]: New version: [0.2.0rc9] Old Version: [0.2.0rc8]
+[2023-07-06 01:45:55] WARNING root fetch - processPackages [scriptime]: Skipping, unable to determine old version
+[2023-07-06 01:45:55] INFO root fetch - processPackages [scriptime]: Start processing: fiddlecube
+[2023-07-06 01:45:55] INFO root fetch - main [MainThread]: End processing [scriptime] error
+[2023-07-06 01:45:55] INFO root fetch - processPackages [pepperize.cdk-github]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-06 01:45:55] INFO root fetch - processPackages [skyplane-nightly]: New version: [0.3.2.dev202307042345] Old Version: [0.3.2.dev202307032345]
+[2023-07-06 01:45:55] INFO root fetch - processPackages [quil]: Downloading https://files.pythonhosted.org/packages/94/78/03d63317e11b6758655ca8302d3f8d97fb6e2ab5e7c04edd1e87d64f7875/quil-0.2.0rc8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-06 01:45:55] INFO root fetch - processPackages [innerverz]: Downloading https://files.pythonhosted.org/packages/a7/3d/fe4348135094f4191aa50185be0deca2ae645c81a0125197ae16f702a10f/innerverz-0.0.36.tar.gz
+[2023-07-06 01:45:55] INFO root fetch - processPackages [composabl-ray-dev]: New version: [0.2.3.dev3] Old Version: [0.2.3.dev24]
+[2023-07-06 01:45:55] WARNING root fetch - processPackages [torch-eyepacs]: Skipping, unable to determine old version
+[2023-07-06 01:45:55] INFO root fetch - main [MainThread]: End processing [torch-eyepacs] error
+[2023-07-06 01:45:55] INFO root fetch - processPackages [nd2]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-07-06 01:45:55] INFO root fetch - processPackages [city-score]: New version: [0.1.1] Old Version: [0.1]
+[2023-07-06 01:45:55] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/a3/76/06db9dcd349a4094baa829da1112066fd4fe60d5748d1b0c8c0833367603/oloren-0.0.8.tar.gz
+[2023-07-06 01:45:55] ERROR root fetch - processPackages [fiddlecube]: Unable to get metadata: No such project 'fiddlecube'
+[2023-07-06 01:45:55] INFO root fetch - main [MainThread]: End processing [fiddlecube] error
+[2023-07-06 01:45:55] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/7f/ac/0b98efc82f9aba6e31cc143b7c142ab8a1414e4d8ed889ca3c634e4954d4/skyplane_nightly-0.3.2.dev202307032345.tar.gz
+[2023-07-06 01:45:55] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/24/6d/598d06b1a4e959b347586ba22a01a1bc105e61fe7d1318c6fb190d545b38/pepperize.cdk-github-0.0.98.tar.gz
+[2023-07-06 01:45:55] INFO root fetch - processPackages [composabl-ray-dev]: Downloading https://files.pythonhosted.org/packages/e5/06/813392662f237675dbdf89e43012e87277322214c8ba36959ffada246dab/composabl_ray_dev-0.2.3.dev24-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-07-06 01:45:55] INFO root fetch - processPackages [nd2]: Downloading https://files.pythonhosted.org/packages/50/58/30d9d94266952aafb77325b24a1328028e0fe984f3087db96496b7b2d580/nd2-0.6.1.tar.gz
+[2023-07-06 01:45:55] INFO root fetch - processPackages [city-score]: Downloading https://files.pythonhosted.org/packages/3b/70/825b91242094de6b063273898024ab254af5111c3fd1019f6b0b009a7683/city_score-0.1.tar.gz
+[2023-07-06 01:45:55] INFO root fetch - processPackages [innerverz]: Downloading https://files.pythonhosted.org/packages/e9/13/3e54d2fc92843b954957d7a1f76fac73b9907b771d8c6badf00e9ee04afc/innerverz-0.0.37.tar.gz
+[2023-07-06 01:45:55] INFO root fetch - processPackages [quil]: Downloading https://files.pythonhosted.org/packages/b1/3c/00401430a1be1644e4a3cb6e13e5f3d10cb99725d133fdb62d7d15ccef22/quil-0.2.0rc9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-06 01:45:56] INFO root fetch - processPackages [innerverz]: executing diffoscope
+[2023-07-06 01:45:56] INFO root fetch - processPackages [innerverz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/innerverz-0.0.36.tar.gz tmp/innerverz-0.0.37.tar.gz --markdown 20230706/i/innerverz/0.0.36-0.0.37/diff.md --exclude *.pyd
+[2023-07-06 01:45:56] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/c3/a7/0446f664eacf32838f54f1c66d5396c5ab08f1bcd671ef0f29c503c0f763/pepperize.cdk-github-0.0.99.tar.gz
+[2023-07-06 01:45:56] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/3d/b1/90657d9cfe6db6d262b3bdd36887577510fad556b71935109d06a497be94/skyplane_nightly-0.3.2.dev202307042345.tar.gz
+[2023-07-06 01:45:56] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/8f/84/66581190d09357a5dd522267963c2d727e20650e6690064dc2efadd1c020/oloren-0.0.9.tar.gz
+[2023-07-06 01:45:56] INFO root fetch - processPackages [city-score]: Downloading https://files.pythonhosted.org/packages/17/d5/61cc9e63e274760240400eca13fd845e18413b0db483322e6a171b64ccb6/city_score-0.1.1.tar.gz
+[2023-07-06 01:45:56] INFO root fetch - processPackages [quil]: executing diffoscope
+[2023-07-06 01:45:56] INFO root fetch - processPackages [quil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quil-0.2.0rc8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/quil-0.2.0rc9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230706/q/quil/0.2.0rc8-0.2.0rc9/diff.md --exclude *.pyd
+[2023-07-06 01:45:56] INFO root fetch - processPackages [pepperize.cdk-github]: executing diffoscope
+[2023-07-06 01:45:56] INFO root fetch - processPackages [pepperize.cdk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-github-0.0.98.tar.gz tmp/pepperize.cdk-github-0.0.99.tar.gz --markdown 20230706/p/pepperize.cdk-github/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-06 01:45:56] INFO root fetch - processPackages [skyplane-nightly]: executing diffoscope
+[2023-07-06 01:45:56] INFO root fetch - processPackages [skyplane-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyplane_nightly-0.3.2.dev202307032345.tar.gz tmp/skyplane_nightly-0.3.2.dev202307042345.tar.gz --markdown 20230706/s/skyplane-nightly/0.3.2.dev202307032345-0.3.2.dev202307042345/diff.md --exclude *.pyd
+[2023-07-06 01:45:56] INFO root fetch - processPackages [nd2]: Downloading https://files.pythonhosted.org/packages/2c/74/6517fee72cdce54c8602bc651b0a2e7812ad497dab1fdc9a8b4abe10234b/nd2-0.7.0.tar.gz
+[2023-07-06 01:45:56] INFO root fetch - processPackages [city-score]: executing diffoscope
+[2023-07-06 01:45:56] INFO root fetch - processPackages [city-score]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/city_score-0.1.tar.gz tmp/city_score-0.1.1.tar.gz --markdown 20230706/c/city-score/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-07-06 01:45:56] INFO root fetch - processPackages [composabl-ray-dev]: Downloading https://files.pythonhosted.org/packages/ca/bd/f796fcac94ae965974dd39baa0d0f864c3763c28d8b4d36889dfa686f458/composabl_ray_dev-0.2.3.dev3-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-07-06 01:45:56] INFO root fetch - processPackages [nd2]: executing diffoscope
+[2023-07-06 01:45:56] INFO root fetch - processPackages [nd2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nd2-0.6.1.tar.gz tmp/nd2-0.7.0.tar.gz --markdown 20230706/n/nd2/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-07-06 01:45:56] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-07-06 01:45:56] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230706/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 01:45:56] INFO root fetch - processPackages [composabl-ray-dev]: executing diffoscope
+[2023-07-06 01:45:56] INFO root fetch - processPackages [composabl-ray-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_ray_dev-0.2.3.dev24-cp38-cp38-musllinux_1_1_x86_64.whl.zip tmp/composabl_ray_dev-0.2.3.dev3-cp38-cp38-musllinux_1_1_x86_64.whl.zip --markdown 20230706/c/composabl-ray-dev/0.2.3.dev24-0.2.3.dev3/diff.md --exclude *.pyd
+[2023-07-06 01:45:57] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.98.tar.gz]
+[2023-07-06 01:45:57] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.99.tar.gz]
+[2023-07-06 01:45:57] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-github]: success
+[2023-07-06 01:45:57] INFO root fetch - processPackages [innerverz]: Remove: archive file [/home/abi/fetcher/tmp/innerverz-0.0.36.tar.gz]
+[2023-07-06 01:45:57] INFO root fetch - processPackages [innerverz]: Remove: archive file [/home/abi/fetcher/tmp/innerverz-0.0.37.tar.gz]
+[2023-07-06 01:45:57] INFO root fetch - main [MainThread]: End processing [innerverz]: success
+[2023-07-06 01:45:58] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev202307032345.tar.gz]
+[2023-07-06 01:45:58] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev202307042345.tar.gz]
+[2023-07-06 01:45:58] INFO root fetch - main [MainThread]: End processing [skyplane-nightly]: success
+[2023-07-06 01:45:58] INFO root fetch - processPackages [city-score]: Remove: archive file [/home/abi/fetcher/tmp/city_score-0.1.tar.gz]
+[2023-07-06 01:45:58] INFO root fetch - processPackages [city-score]: Remove: archive file [/home/abi/fetcher/tmp/city_score-0.1.1.tar.gz]
+[2023-07-06 01:45:58] INFO root fetch - main [MainThread]: End processing [city-score]: success
+[2023-07-06 01:45:58] INFO root fetch - processPackages [nd2]: Remove: archive file [/home/abi/fetcher/tmp/nd2-0.6.1.tar.gz]
+[2023-07-06 01:45:58] INFO root fetch - processPackages [nd2]: Remove: archive file [/home/abi/fetcher/tmp/nd2-0.7.0.tar.gz]
+[2023-07-06 01:45:58] INFO root fetch - main [MainThread]: End processing [nd2]: success
+[2023-07-06 01:46:01] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.8.tar.gz]
+[2023-07-06 01:46:01] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
+[2023-07-06 01:46:01] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-07-06 01:46:10] INFO root fetch - processPackages [quil]: Remove: archive file [/home/abi/fetcher/tmp/quil-0.2.0rc8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-06 01:46:10] INFO root fetch - processPackages [quil]: Remove: archive file [/home/abi/fetcher/tmp/quil-0.2.0rc9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-06 01:46:10] INFO root fetch - main [MainThread]: End processing [quil]: success
+[2023-07-06 01:46:20] INFO root fetch - processPackages [composabl-ray-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray_dev-0.2.3.dev24-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-07-06 01:46:20] INFO root fetch - processPackages [composabl-ray-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray_dev-0.2.3.dev3-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-07-06 01:46:20] INFO root fetch - main [MainThread]: End processing [composabl-ray-dev]: success
+[2023-07-06 01:46:20] INFO root fetch - main [MainThread]: Store serial: [18774383]
