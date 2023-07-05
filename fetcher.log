@@ -1035,3 +1035,33 @@
 [2023-07-06 01:09:05] INFO root fetch - processPackages [django-connectwise]: Remove: archive file [/home/abi/fetcher/tmp/django-connectwise-1.3.3.tar.gz]
 [2023-07-06 01:09:05] INFO root fetch - main [MainThread]: End processing [django-connectwise]: success
 [2023-07-06 01:09:05] INFO root fetch - main [MainThread]: Store serial: [18774145]
+[2023-07-06 01:14:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18774145]
+[2023-07-06 01:14:14] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-06 01:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: owe-python-sdk
+[2023-07-06 01:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ultralytics
+[2023-07-06 01:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stoobly-agent
+[2023-07-06 01:14:14] INFO root fetch - processPackages [owe-python-sdk]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-07-06 01:14:14] INFO root fetch - processPackages [stoobly-agent]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-07-06 01:14:14] INFO root fetch - processPackages [ultralytics]: New version: [8.0.99] Old Version: [8.0.98]
+[2023-07-06 01:14:14] INFO root fetch - processPackages [owe-python-sdk]: Downloading https://files.pythonhosted.org/packages/b7/87/2ed4496794411461faafd9b31cde5a571ee0b54f11200933d019777ca951/owe_python_sdk-0.0.1a8.tar.gz
+[2023-07-06 01:14:14] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/b6/de/f3172b8f928ec31c47cbc2e23d6a875eea575cba8e11ad4548900923efa1/ultralytics-8.0.98.tar.gz
+[2023-07-06 01:14:15] INFO root fetch - processPackages [stoobly-agent]: Downloading https://files.pythonhosted.org/packages/e9/78/2350cae18a65474161019a795a652b6b64841323787b44192e8f739ac86a/stoobly-agent-0.9.6.tar.gz
+[2023-07-06 01:14:15] INFO root fetch - processPackages [owe-python-sdk]: Downloading https://files.pythonhosted.org/packages/31/27/a7a614b3213736597496297134f4cd10fd0ecee2f977d8e86784bb925c43/owe_python_sdk-0.0.1a9.tar.gz
+[2023-07-06 01:14:15] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/b3/b0/87b289ca8a910cd1421d5a217c06fb642b51546dd96bd6b923c67be00415/ultralytics-8.0.99.tar.gz
+[2023-07-06 01:14:15] INFO root fetch - processPackages [owe-python-sdk]: executing diffoscope
+[2023-07-06 01:14:15] INFO root fetch - processPackages [owe-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owe_python_sdk-0.0.1a8.tar.gz tmp/owe_python_sdk-0.0.1a9.tar.gz --markdown 20230706/o/owe-python-sdk/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-07-06 01:14:15] INFO root fetch - processPackages [stoobly-agent]: Downloading https://files.pythonhosted.org/packages/45/f8/01a12e6de49e8f9a58b3c7a511a2a2b6259be0af19738d4fefcfb2af88f5/stoobly-agent-0.9.7.tar.gz
+[2023-07-06 01:14:15] INFO root fetch - processPackages [ultralytics]: executing diffoscope
+[2023-07-06 01:14:15] INFO root fetch - processPackages [ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics-8.0.98.tar.gz tmp/ultralytics-8.0.99.tar.gz --markdown 20230706/u/ultralytics/8.0.98-8.0.99/diff.md --exclude *.pyd
+[2023-07-06 01:14:15] INFO root fetch - processPackages [stoobly-agent]: executing diffoscope
+[2023-07-06 01:14:15] INFO root fetch - processPackages [stoobly-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stoobly-agent-0.9.6.tar.gz tmp/stoobly-agent-0.9.7.tar.gz --markdown 20230706/s/stoobly-agent/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-07-06 01:14:15] INFO root fetch - processPackages [owe-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/owe_python_sdk-0.0.1a8.tar.gz]
+[2023-07-06 01:14:15] INFO root fetch - processPackages [owe-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/owe_python_sdk-0.0.1a9.tar.gz]
+[2023-07-06 01:14:15] INFO root fetch - main [MainThread]: End processing [owe-python-sdk]: success
+[2023-07-06 01:14:16] INFO root fetch - processPackages [stoobly-agent]: Remove: archive file [/home/abi/fetcher/tmp/stoobly-agent-0.9.6.tar.gz]
+[2023-07-06 01:14:16] INFO root fetch - processPackages [stoobly-agent]: Remove: archive file [/home/abi/fetcher/tmp/stoobly-agent-0.9.7.tar.gz]
+[2023-07-06 01:14:16] INFO root fetch - main [MainThread]: End processing [stoobly-agent]: success
+[2023-07-06 01:14:16] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.0.98.tar.gz]
+[2023-07-06 01:14:16] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.0.99.tar.gz]
+[2023-07-06 01:14:16] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
+[2023-07-06 01:14:16] INFO root fetch - main [MainThread]: Store serial: [18774154]
