@@ -148,3 +148,68 @@
 [2023-07-06 00:05:20] INFO root fetch - processPackages [aistore]: Remove: archive file [/home/abi/fetcher/tmp/aistore-1.4.0.tar.gz]
 [2023-07-06 00:05:20] INFO root fetch - main [MainThread]: End processing [aistore]: success
 [2023-07-06 00:05:20] INFO root fetch - main [MainThread]: Store serial: [18773738]
+[2023-07-06 00:10:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18773738]
+[2023-07-06 00:10:29] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-06 00:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: agixtsdk
+[2023-07-06 00:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydantic-secrets
+[2023-07-06 00:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arkprts
+[2023-07-06 00:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trace-events
+[2023-07-06 00:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyirecovery
+[2023-07-06 00:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: AX3-model-extras
+[2023-07-06 00:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: threemystic-cloud-client
+[2023-07-06 00:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: IQM-Vis
+[2023-07-06 00:10:29] INFO root fetch - processPackages [agixtsdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 00:10:29] INFO root fetch - processPackages [arkprts]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-06 00:10:29] INFO root fetch - processPackages [IQM-Vis]: New version: [0.2.5.76] Old Version: [0.2.5.75]
+[2023-07-06 00:10:29] INFO root fetch - processPackages [threemystic-cloud-client]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-06 00:10:29] INFO root fetch - processPackages [AX3-model-extras]: New version: [2.0.0] Old Version: [1.5.3]
+[2023-07-06 00:10:29] INFO root fetch - processPackages [agixtsdk]: Downloading https://files.pythonhosted.org/packages/fc/f4/85d852d47773fa6751a3ed8d3ca02e654579a0a110cdc23896aebd954b2c/agixtsdk-0.0.8.tar.gz
+[2023-07-06 00:10:29] INFO root fetch - processPackages [pydantic-secrets]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-06 00:10:29] INFO root fetch - processPackages [pyirecovery]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-06 00:10:29] INFO root fetch - processPackages [arkprts]: Downloading https://files.pythonhosted.org/packages/b9/29/321cd59f275581c4ba519216923e9af63dac790cef7f6faa8ac1b067f357/arkprts-0.2.0.tar.gz
+[2023-07-06 00:10:29] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/8c/1b/fd9a5579233b10ae46369b87690adc81d156779d66012e22a184ea92d73e/threemystic_cloud_client-0.1.7.tar.gz
+[2023-07-06 00:10:29] WARNING root fetch - processPackages [trace-events]: Skipping, unable to determine old version
+[2023-07-06 00:10:29] INFO root fetch - main [MainThread]: End processing [trace-events] error
+[2023-07-06 00:10:30] INFO root fetch - processPackages [AX3-model-extras]: Downloading https://files.pythonhosted.org/packages/cd/dc/c1d6894e0b58559b73001546e28eae4c3d684ae700fe56e3e488b96b891a/AX3%20model%20extras-1.5.3.tar.gz
+[2023-07-06 00:10:30] INFO root fetch - processPackages [IQM-Vis]: Downloading https://files.pythonhosted.org/packages/d8/d8/4bf9ff42240254df02331d61e044bba668c2ceba2d32581a83fac244a700/IQM-Vis-0.2.5.75.tar.gz
+[2023-07-06 00:10:30] INFO root fetch - processPackages [pydantic-secrets]: Downloading https://files.pythonhosted.org/packages/0f/e0/e493c91cae5e3e1346e4782365d974fdb9f72d8d58d12ef7a56c26ff70ba/pydantic_secrets-0.1.0.tar.gz
+[2023-07-06 00:10:30] INFO root fetch - processPackages [pyirecovery]: Downloading https://files.pythonhosted.org/packages/25/dc/2274c34b82662f8f2bb193ff49a3228864ca5ef0800ae0c29509bd7ca463/pyirecovery-0.1.4.tar.gz
+[2023-07-06 00:10:30] WARNING root fetch - processPackages [IQM-Vis]: Skipping package: exceeds size limit 15512845>=10485760
+[2023-07-06 00:10:30] INFO root fetch - main [MainThread]: End processing [IQM-Vis] error
+[2023-07-06 00:10:30] INFO root fetch - processPackages [agixtsdk]: Downloading https://files.pythonhosted.org/packages/74/75/1048551801b0e2aa197b36b7a2d249437127d0d21a98a3aea7016e0929b9/agixtsdk-0.0.9.tar.gz
+[2023-07-06 00:10:30] INFO root fetch - processPackages [agixtsdk]: executing diffoscope
+[2023-07-06 00:10:30] INFO root fetch - processPackages [agixtsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixtsdk-0.0.8.tar.gz tmp/agixtsdk-0.0.9.tar.gz --markdown 20230706/a/agixtsdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 00:10:30] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/21/55/0d93ff51b93cf1370a6ff9cd9683dc061f70e86ba87772d8f40cff9ce147/threemystic_cloud_client-0.1.8.tar.gz
+[2023-07-06 00:10:30] INFO root fetch - processPackages [arkprts]: Downloading https://files.pythonhosted.org/packages/be/d8/60bb842073913b5e05fb1739c30f1d74e69685798a3bae3d860b67dcf9c3/arkprts-0.2.1.tar.gz
+[2023-07-06 00:10:30] INFO root fetch - processPackages [AX3-model-extras]: Downloading https://files.pythonhosted.org/packages/93/f0/0fca3798b3e528361aafdd7e885ff5bf5c9df30c1c391d724e605feb8b76/AX3%20model%20extras-2.0.0.tar.gz
+[2023-07-06 00:10:30] INFO root fetch - processPackages [threemystic-cloud-client]: executing diffoscope
+[2023-07-06 00:10:30] INFO root fetch - processPackages [threemystic-cloud-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_client-0.1.7.tar.gz tmp/threemystic_cloud_client-0.1.8.tar.gz --markdown 20230706/t/threemystic-cloud-client/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-06 00:10:30] INFO root fetch - processPackages [pydantic-secrets]: Downloading https://files.pythonhosted.org/packages/45/31/1e160ab8f590a6ba49bd6e665bbb3c08cb085ba356e0e8696c689d1ca0df/pydantic_secrets-0.1.1.tar.gz
+[2023-07-06 00:10:30] INFO root fetch - processPackages [arkprts]: executing diffoscope
+[2023-07-06 00:10:30] INFO root fetch - processPackages [arkprts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkprts-0.2.0.tar.gz tmp/arkprts-0.2.1.tar.gz --markdown 20230706/a/arkprts/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-06 00:10:30] INFO root fetch - processPackages [pyirecovery]: Downloading https://files.pythonhosted.org/packages/a9/95/a64c98d3ee087fb42c31769d0eb767c1717d5a8567efadf0b69efc95ff7b/pyirecovery-0.1.5.tar.gz
+[2023-07-06 00:10:30] INFO root fetch - processPackages [AX3-model-extras]: executing diffoscope
+[2023-07-06 00:10:30] INFO root fetch - processPackages [AX3-model-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AX3 model extras-1.5.3.tar.gz tmp/AX3 model extras-2.0.0.tar.gz --markdown 20230706/A/AX3-model-extras/1.5.3-2.0.0/diff.md --exclude *.pyd
+[2023-07-06 00:10:30] INFO root fetch - processPackages [pydantic-secrets]: executing diffoscope
+[2023-07-06 00:10:30] INFO root fetch - processPackages [pydantic-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_secrets-0.1.0.tar.gz tmp/pydantic_secrets-0.1.1.tar.gz --markdown 20230706/p/pydantic-secrets/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-06 00:10:30] INFO root fetch - processPackages [pyirecovery]: executing diffoscope
+[2023-07-06 00:10:30] INFO root fetch - processPackages [pyirecovery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyirecovery-0.1.4.tar.gz tmp/pyirecovery-0.1.5.tar.gz --markdown 20230706/p/pyirecovery/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-06 00:10:31] INFO root fetch - processPackages [agixtsdk]: Remove: archive file [/home/abi/fetcher/tmp/agixtsdk-0.0.8.tar.gz]
+[2023-07-06 00:10:31] INFO root fetch - processPackages [agixtsdk]: Remove: archive file [/home/abi/fetcher/tmp/agixtsdk-0.0.9.tar.gz]
+[2023-07-06 00:10:31] INFO root fetch - main [MainThread]: End processing [agixtsdk]: success
+[2023-07-06 00:10:31] INFO root fetch - processPackages [arkprts]: Remove: archive file [/home/abi/fetcher/tmp/arkprts-0.2.0.tar.gz]
+[2023-07-06 00:10:31] INFO root fetch - processPackages [arkprts]: Remove: archive file [/home/abi/fetcher/tmp/arkprts-0.2.1.tar.gz]
+[2023-07-06 00:10:31] INFO root fetch - main [MainThread]: End processing [arkprts]: success
+[2023-07-06 00:10:31] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.7.tar.gz]
+[2023-07-06 00:10:31] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.8.tar.gz]
+[2023-07-06 00:10:31] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-client]: success
+[2023-07-06 00:10:31] INFO root fetch - processPackages [AX3-model-extras]: Remove: archive file [/home/abi/fetcher/tmp/AX3 model extras-1.5.3.tar.gz]
+[2023-07-06 00:10:31] INFO root fetch - processPackages [AX3-model-extras]: Remove: archive file [/home/abi/fetcher/tmp/AX3 model extras-2.0.0.tar.gz]
+[2023-07-06 00:10:31] INFO root fetch - main [MainThread]: End processing [AX3-model-extras]: success
+[2023-07-06 00:10:31] INFO root fetch - processPackages [pyirecovery]: Remove: archive file [/home/abi/fetcher/tmp/pyirecovery-0.1.4.tar.gz]
+[2023-07-06 00:10:31] INFO root fetch - processPackages [pyirecovery]: Remove: archive file [/home/abi/fetcher/tmp/pyirecovery-0.1.5.tar.gz]
+[2023-07-06 00:10:31] INFO root fetch - main [MainThread]: End processing [pyirecovery]: success
+[2023-07-06 00:10:31] INFO root fetch - processPackages [pydantic-secrets]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_secrets-0.1.0.tar.gz]
+[2023-07-06 00:10:31] INFO root fetch - processPackages [pydantic-secrets]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_secrets-0.1.1.tar.gz]
+[2023-07-06 00:10:31] INFO root fetch - main [MainThread]: End processing [pydantic-secrets]: success
+[2023-07-06 00:10:31] INFO root fetch - main [MainThread]: Store serial: [18773766]
