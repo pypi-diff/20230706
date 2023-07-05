@@ -342,3 +342,120 @@
 [2023-07-06 00:20:56] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230705204724.tar.gz]
 [2023-07-06 00:20:56] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-07-06 00:20:56] INFO root fetch - main [MainThread]: Store serial: [18773831]
+[2023-07-06 00:26:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18773831]
+[2023-07-06 00:26:05] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-06 00:26:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: retake
+[2023-07-06 00:26:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ome-types
+[2023-07-06 00:26:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: klayout
+[2023-07-06 00:26:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mbnk
+[2023-07-06 00:26:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: framestructure
+[2023-07-06 00:26:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-l10n-br-coa-simple
+[2023-07-06 00:26:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: preset-cli
+[2023-07-06 00:26:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: avidtools
+[2023-07-06 00:26:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: object-detection-model
+[2023-07-06 00:26:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: omnivoreql
+[2023-07-06 00:26:06] INFO root fetch - processPackages [mbnk]: New version: [0.2.0a1] Old Version: [0.1.3a0]
+[2023-07-06 00:26:06] WARNING root fetch - processPackages [omnivoreql]: Skipping, unable to determine old version
+[2023-07-06 00:26:06] INFO root fetch - processPackages [omnivoreql]: Start processing: hspylib-clitt
+[2023-07-06 00:26:06] INFO root fetch - main [MainThread]: End processing [omnivoreql] error
+[2023-07-06 00:26:06] INFO root fetch - processPackages [avidtools]: New version: [0.1.1.1] Old Version: [0.1.1]
+[2023-07-06 00:26:06] INFO root fetch - processPackages [hspylib-clitt]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-06 00:26:06] INFO root fetch - processPackages [preset-cli]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-06 00:26:06] INFO root fetch - processPackages [object-detection-model]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-06 00:26:06] INFO root fetch - processPackages [odoo14-addon-l10n-br-coa-simple]: New version: [14.0.2.4.0] Old Version: [14.0.2.3.0]
+[2023-07-06 00:26:06] INFO root fetch - processPackages [ome-types]: New version: [0.4.0a4] Old Version: [0.4.0a3]
+[2023-07-06 00:26:06] INFO root fetch - processPackages [framestructure]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-06 00:26:06] INFO root fetch - processPackages [retake]: New version: [0.1.4.dev0] Old Version: [0.1.3.dev0]
+[2023-07-06 00:26:06] INFO root fetch - processPackages [klayout]: New version: [0.28.post1] Old Version: [0.28.9.post2]
+[2023-07-06 00:26:06] INFO root fetch - processPackages [hspylib-clitt]: Downloading https://files.pythonhosted.org/packages/a0/0f/42b890c8f02902edfff9f8ea73ea79d8acfea76c705b6966ff73e809437a/hspylib-clitt-0.9.8.tar.gz
+[2023-07-06 00:26:06] INFO root fetch - processPackages [avidtools]: Downloading https://files.pythonhosted.org/packages/23/19/ae78c997ff4c65fc515d44cc2c4accead9b08fe94c8bc03f72c35f854d91/avidtools-0.1.1.tar.gz
+[2023-07-06 00:26:06] INFO root fetch - processPackages [mbnk]: Downloading https://files.pythonhosted.org/packages/1e/62/d3b09e2ae7368e1571eaf713da39f9896cdb7b7fceb3bc514d7a6feccf54/mbnk-0.1.3a0.tar.gz
+[2023-07-06 00:26:06] INFO root fetch - processPackages [odoo14-addon-l10n-br-coa-simple]: Downloading https://files.pythonhosted.org/packages/dd/11/17d9055bd2326951152037834649b046091d9d09f8a4c72d7cd8f35c911b/odoo14_addon_l10n_br_coa_simple-14.0.2.3.0-py3-none-any.whl
+[2023-07-06 00:26:06] INFO root fetch - processPackages [ome-types]: Downloading https://files.pythonhosted.org/packages/76/87/5b28e97e02ae00c8684aa2c329199769961b2bc8259a719f583dcb2f5b7c/ome_types-0.4.0a3.tar.gz
+[2023-07-06 00:26:06] INFO root fetch - processPackages [object-detection-model]: Downloading https://files.pythonhosted.org/packages/a1/2f/d36b0cd002d9326cac5fa351d85a529449317557826ab0a99a0f415850d7/object_detection_model-0.0.2-py3-none-any.whl
+[2023-07-06 00:26:06] INFO root fetch - processPackages [klayout]: Downloading https://files.pythonhosted.org/packages/2d/c6/66650e9f98faef8848bc3b0e6cf4ed2edb50d74e03233967689b28a39fea/klayout-0.28.9.post2.tar.gz
+[2023-07-06 00:26:06] INFO root fetch - processPackages [preset-cli]: Downloading https://files.pythonhosted.org/packages/41/77/7d15be8f62ae97c763ddb81216366ae96ed86827c24ca8b5e0e3c9e40464/preset-cli-0.2.1.tar.gz
+[2023-07-06 00:26:06] INFO root fetch - processPackages [framestructure]: Downloading https://files.pythonhosted.org/packages/b8/4d/9445eba80ff1234d86549bfe6ad0b46b295093b48705e4ba58a55c8b3e63/framestructure-0.4.0-py3-none-any.whl
+[2023-07-06 00:26:06] INFO root fetch - processPackages [retake]: Downloading https://files.pythonhosted.org/packages/e0/36/4c50c307c40221b0a593dc71c88f412936c14e643e95d1abdca21427340e/retake-0.1.3.dev0.tar.gz
+[2023-07-06 00:26:06] INFO root fetch - processPackages [mbnk]: Downloading https://files.pythonhosted.org/packages/40/4a/c83d446b3ebea4db1f56c66063ce177e0f9342d50410afa2e6765e93ee3a/mbnk-0.2.0a1.tar.gz
+[2023-07-06 00:26:06] INFO root fetch - processPackages [hspylib-clitt]: Downloading https://files.pythonhosted.org/packages/47/f9/72c8e44dc280a8f3542b8890670b05e5c03581d2712648f572e4b0717836/hspylib-clitt-0.9.9.tar.gz
+[2023-07-06 00:26:06] INFO root fetch - processPackages [avidtools]: Downloading https://files.pythonhosted.org/packages/a6/84/6a69f8f99c5bd1f70787058d6399cf9623b3a4aea3bcaba8b02fb6e6eed2/avidtools-0.1.1.1.tar.gz
+[2023-07-06 00:26:06] INFO root fetch - processPackages [mbnk]: executing diffoscope
+[2023-07-06 00:26:06] INFO root fetch - processPackages [mbnk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mbnk-0.1.3a0.tar.gz tmp/mbnk-0.2.0a1.tar.gz --markdown 20230706/m/mbnk/0.1.3a0-0.2.0a1/diff.md --exclude *.pyd
+[2023-07-06 00:26:06] INFO root fetch - processPackages [odoo14-addon-l10n-br-coa-simple]: Downloading https://files.pythonhosted.org/packages/78/e2/565d6ed207630c3f2eaaeb06cc8df21603647daaca2e4c8a12e1f872cb14/odoo14_addon_l10n_br_coa_simple-14.0.2.4.0-py3-none-any.whl
+[2023-07-06 00:26:06] INFO root fetch - processPackages [hspylib-clitt]: executing diffoscope
+[2023-07-06 00:26:06] INFO root fetch - processPackages [hspylib-clitt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-clitt-0.9.8.tar.gz tmp/hspylib-clitt-0.9.9.tar.gz --markdown 20230706/h/hspylib-clitt/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-06 00:26:07] INFO root fetch - processPackages [object-detection-model]: Downloading https://files.pythonhosted.org/packages/91/39/4d2a12b3229e31194edece0db61a0cc11d2d6204fc6d46cc163975586f22/object_detection_model-0.0.3-py3-none-any.whl
+[2023-07-06 00:26:07] INFO root fetch - processPackages [ome-types]: Downloading https://files.pythonhosted.org/packages/9b/b2/0e570334988bb15842bd75c5e81a97b54edce1f581bb48c4c0f5aeb901e6/ome_types-0.4.0a4.tar.gz
+[2023-07-06 00:26:07] INFO root fetch - processPackages [framestructure]: Downloading https://files.pythonhosted.org/packages/53/9a/580923b10591c4669eb7d498cfd8b9332226c471634e3b2aebee89f063bf/framestructure-0.4.1.tar.gz
+[2023-07-06 00:26:07] INFO root fetch - processPackages [avidtools]: executing diffoscope
+[2023-07-06 00:26:07] INFO root fetch - processPackages [avidtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avidtools-0.1.1.tar.gz tmp/avidtools-0.1.1.1.tar.gz --markdown 20230706/a/avidtools/0.1.1-0.1.1.1/diff.md --exclude *.pyd
+[2023-07-06 00:26:07] INFO root fetch - processPackages [retake]: Downloading https://files.pythonhosted.org/packages/44/aa/b4255e569f950a9a6ff57954614e938600524ef6e7a0c6e8cee2b52dd62a/retake-0.1.4.dev0.tar.gz
+[2023-07-06 00:26:07] INFO root fetch - processPackages [odoo14-addon-l10n-br-coa-simple]: executing diffoscope
+[2023-07-06 00:26:07] INFO root fetch - processPackages [odoo14-addon-l10n-br-coa-simple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_coa_simple-14.0.2.3.0-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_coa_simple-14.0.2.4.0-py3-none-any.whl.zip --markdown 20230706/o/odoo14-addon-l10n-br-coa-simple/14.0.2.3.0-14.0.2.4.0/diff.md --exclude *.pyd
+[2023-07-06 00:26:07] INFO root fetch - processPackages [preset-cli]: Downloading https://files.pythonhosted.org/packages/b2/e9/b0dcc957dc406c3bba8643a774dff8adf04ee66bfc59cc6f892e9e2711a7/preset-cli-0.2.2.tar.gz
+[2023-07-06 00:26:07] INFO root fetch - processPackages [object-detection-model]: executing diffoscope
+[2023-07-06 00:26:07] INFO root fetch - processPackages [object-detection-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/object_detection_model-0.0.2-py3-none-any.whl.zip tmp/object_detection_model-0.0.3-py3-none-any.whl.zip --markdown 20230706/o/object-detection-model/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-06 00:26:07] INFO root fetch - processPackages [framestructure]: executing diffoscope
+[2023-07-06 00:26:07] INFO root fetch - processPackages [framestructure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/framestructure-0.4.0-py3-none-any.whl.zip tmp/framestructure-0.4.1.tar.gz --markdown 20230706/f/framestructure/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-06 00:26:07] INFO root fetch - processPackages [ome-types]: executing diffoscope
+[2023-07-06 00:26:07] INFO root fetch - processPackages [retake]: executing diffoscope
+[2023-07-06 00:26:07] INFO root fetch - processPackages [ome-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ome_types-0.4.0a3.tar.gz tmp/ome_types-0.4.0a4.tar.gz --markdown 20230706/o/ome-types/0.4.0a3-0.4.0a4/diff.md --exclude *.pyd
+[2023-07-06 00:26:07] INFO root fetch - processPackages [retake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retake-0.1.3.dev0.tar.gz tmp/retake-0.1.4.dev0.tar.gz --markdown 20230706/r/retake/0.1.3.dev0-0.1.4.dev0/diff.md --exclude *.pyd
+[2023-07-06 00:26:07] INFO root fetch - processPackages [preset-cli]: executing diffoscope
+[2023-07-06 00:26:07] INFO root fetch - processPackages [preset-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/preset-cli-0.2.1.tar.gz tmp/preset-cli-0.2.2.tar.gz --markdown 20230706/p/preset-cli/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-06 00:26:07] INFO root fetch - processPackages [klayout]: Downloading https://files.pythonhosted.org/packages/24/6d/942ebb901e7e6a1fe55a2953fda5080fac8835ccceeed4731995694b7076/klayout-0.28.post1.tar.gz
+[2023-07-06 00:26:08] INFO root fetch - processPackages [mbnk]: Remove: archive file [/home/abi/fetcher/tmp/mbnk-0.1.3a0.tar.gz]
+[2023-07-06 00:26:08] INFO root fetch - processPackages [mbnk]: Remove: archive file [/home/abi/fetcher/tmp/mbnk-0.2.0a1.tar.gz]
+[2023-07-06 00:26:08] INFO root fetch - processPackages [mbnk]: Start processing: lusid-sdk
+[2023-07-06 00:26:08] INFO root fetch - main [MainThread]: End processing [mbnk]: success
+[2023-07-06 00:26:08] INFO root fetch - processPackages [klayout]: executing diffoscope
+[2023-07-06 00:26:08] INFO root fetch - processPackages [klayout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klayout-0.28.9.post2.tar.gz tmp/klayout-0.28.post1.tar.gz --markdown 20230706/k/klayout/0.28.9.post2-0.28.post1/diff.md --exclude *.pyd
+[2023-07-06 00:26:08] INFO root fetch - processPackages [lusid-sdk]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-07-06 00:26:08] INFO root fetch - processPackages [avidtools]: Remove: archive file [/home/abi/fetcher/tmp/avidtools-0.1.1.tar.gz]
+[2023-07-06 00:26:08] INFO root fetch - processPackages [avidtools]: Remove: archive file [/home/abi/fetcher/tmp/avidtools-0.1.1.1.tar.gz]
+[2023-07-06 00:26:08] INFO root fetch - processPackages [avidtools]: Start processing: lusid-sdk-preview
+[2023-07-06 00:26:08] INFO root fetch - main [MainThread]: End processing [avidtools]: success
+[2023-07-06 00:26:08] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-07-06 00:26:08] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/be/34/7662f651750d07513450337ca9275481d00381ada330eaaa7e365fdde135/lusid-sdk-1.0.91.tar.gz
+[2023-07-06 00:26:08] INFO root fetch - processPackages [hspylib-clitt]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-clitt-0.9.8.tar.gz]
+[2023-07-06 00:26:08] INFO root fetch - processPackages [hspylib-clitt]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-clitt-0.9.9.tar.gz]
+[2023-07-06 00:26:08] INFO root fetch - processPackages [hspylib-clitt]: Start processing: kaya-runner
+[2023-07-06 00:26:08] INFO root fetch - main [MainThread]: End processing [hspylib-clitt]: success
+[2023-07-06 00:26:08] INFO root fetch - processPackages [framestructure]: Remove: archive file [/home/abi/fetcher/tmp/framestructure-0.4.0-py3-none-any.whl.zip]
+[2023-07-06 00:26:08] INFO root fetch - processPackages [framestructure]: Remove: archive file [/home/abi/fetcher/tmp/framestructure-0.4.1.tar.gz]
+[2023-07-06 00:26:08] INFO root fetch - main [MainThread]: End processing [framestructure]: success
+[2023-07-06 00:26:08] INFO root fetch - processPackages [object-detection-model]: Remove: archive file [/home/abi/fetcher/tmp/object_detection_model-0.0.2-py3-none-any.whl.zip]
+[2023-07-06 00:26:08] INFO root fetch - processPackages [object-detection-model]: Remove: archive file [/home/abi/fetcher/tmp/object_detection_model-0.0.3-py3-none-any.whl.zip]
+[2023-07-06 00:26:08] INFO root fetch - main [MainThread]: End processing [object-detection-model]: success
+[2023-07-06 00:26:08] INFO root fetch - processPackages [retake]: Remove: archive file [/home/abi/fetcher/tmp/retake-0.1.3.dev0.tar.gz]
+[2023-07-06 00:26:08] INFO root fetch - processPackages [retake]: Remove: archive file [/home/abi/fetcher/tmp/retake-0.1.4.dev0.tar.gz]
+[2023-07-06 00:26:08] INFO root fetch - main [MainThread]: End processing [retake]: success
+[2023-07-06 00:26:08] INFO root fetch - processPackages [odoo14-addon-l10n-br-coa-simple]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_coa_simple-14.0.2.3.0-py3-none-any.whl.zip]
+[2023-07-06 00:26:08] INFO root fetch - processPackages [odoo14-addon-l10n-br-coa-simple]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_coa_simple-14.0.2.4.0-py3-none-any.whl.zip]
+[2023-07-06 00:26:08] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-coa-simple]: success
+[2023-07-06 00:26:08] WARNING root fetch - processPackages [kaya-runner]: Skipping, unable to determine old version
+[2023-07-06 00:26:08] INFO root fetch - main [MainThread]: End processing [kaya-runner] error
+[2023-07-06 00:26:08] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/49/7a/a2c137408aeb27bd4c7f6dd83e907217e3962f825b96448437c4cfa4e0ea/lusid-sdk-preview-1.0.91.tar.gz
+[2023-07-06 00:26:08] INFO root fetch - processPackages [ome-types]: Remove: archive file [/home/abi/fetcher/tmp/ome_types-0.4.0a3.tar.gz]
+[2023-07-06 00:26:08] INFO root fetch - processPackages [ome-types]: Remove: archive file [/home/abi/fetcher/tmp/ome_types-0.4.0a4.tar.gz]
+[2023-07-06 00:26:08] INFO root fetch - main [MainThread]: End processing [ome-types]: success
+[2023-07-06 00:26:09] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/14/c8/523a5d4f9c0dcabd6883ffe308d0ecf41ed93c1f7e1cdc4baced16ec67c6/lusid-sdk-1.0.98.tar.gz
+[2023-07-06 00:26:09] INFO root fetch - processPackages [preset-cli]: Remove: archive file [/home/abi/fetcher/tmp/preset-cli-0.2.1.tar.gz]
+[2023-07-06 00:26:09] INFO root fetch - processPackages [preset-cli]: Remove: archive file [/home/abi/fetcher/tmp/preset-cli-0.2.2.tar.gz]
+[2023-07-06 00:26:09] INFO root fetch - main [MainThread]: End processing [preset-cli]: success
+[2023-07-06 00:26:09] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/98/81/36672596a28f997865bee76ba030a446e52a68b56b9e297ed56f9a8fb301/lusid-sdk-preview-1.0.98.tar.gz
+[2023-07-06 00:26:09] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2023-07-06 00:26:09] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-1.0.91.tar.gz tmp/lusid-sdk-1.0.98.tar.gz --markdown 20230706/l/lusid-sdk/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-07-06 00:26:09] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2023-07-06 00:26:09] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.0.91.tar.gz tmp/lusid-sdk-preview-1.0.98.tar.gz --markdown 20230706/l/lusid-sdk-preview/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-07-06 00:26:18] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-1.0.91.tar.gz]
+[2023-07-06 00:26:18] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-1.0.98.tar.gz]
+[2023-07-06 00:26:18] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2023-07-06 00:26:22] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.91.tar.gz]
+[2023-07-06 00:26:22] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.98.tar.gz]
+[2023-07-06 00:26:22] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2023-07-06 00:26:24] INFO root fetch - processPackages [klayout]: Remove: archive file [/home/abi/fetcher/tmp/klayout-0.28.9.post2.tar.gz]
+[2023-07-06 00:26:24] INFO root fetch - processPackages [klayout]: Remove: archive file [/home/abi/fetcher/tmp/klayout-0.28.post1.tar.gz]
+[2023-07-06 00:26:24] INFO root fetch - main [MainThread]: End processing [klayout]: success
+[2023-07-06 00:26:24] INFO root fetch - main [MainThread]: Store serial: [18773916]
