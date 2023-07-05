@@ -507,3 +507,83 @@
 [2023-07-06 00:31:38] INFO root fetch - processPackages [documenteer]: Remove: archive file [/home/abi/fetcher/tmp/documenteer-1.0.0a2.tar.gz]
 [2023-07-06 00:31:38] INFO root fetch - main [MainThread]: End processing [documenteer]: success
 [2023-07-06 00:31:38] INFO root fetch - main [MainThread]: Store serial: [18773936]
+[2023-07-06 00:36:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18773936]
+[2023-07-06 00:36:47] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-06 00:36:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xtlib
+[2023-07-06 00:36:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyfaust
+[2023-07-06 00:36:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qreader
+[2023-07-06 00:36:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyfaust-openblaso
+[2023-07-06 00:36:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyfaust-torch
+[2023-07-06 00:36:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: concept-erasure
+[2023-07-06 00:36:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sqlmesh
+[2023-07-06 00:36:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: py-easy-logger
+[2023-07-06 00:36:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: threemystic-cloud-client
+[2023-07-06 00:36:47] INFO root fetch - processPackages [threemystic-cloud-client]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-06 00:36:47] INFO root fetch - processPackages [concept-erasure]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-07-06 00:36:47] INFO root fetch - processPackages [pyfaust-torch]: New version: [3.38.9] Old Version: [3.38.8]
+[2023-07-06 00:36:47] INFO root fetch - processPackages [py-easy-logger]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-06 00:36:47] INFO root fetch - processPackages [sqlmesh]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-06 00:36:47] INFO root fetch - processPackages [qreader]: New version: [2.8] Old Version: [2.7]
+[2023-07-06 00:36:47] INFO root fetch - processPackages [xtlib]: New version: [1.0.0rc2] Old Version: [1.0.0rc1]
+[2023-07-06 00:36:47] INFO root fetch - processPackages [pyfaust-openblaso]: New version: [3.38.9] Old Version: [3.38.8]
+[2023-07-06 00:36:47] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/21/55/0d93ff51b93cf1370a6ff9cd9683dc061f70e86ba87772d8f40cff9ce147/threemystic_cloud_client-0.1.8.tar.gz
+[2023-07-06 00:36:47] INFO root fetch - processPackages [pyfaust]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-07-06 00:36:47] INFO root fetch - processPackages [concept-erasure]: Downloading https://files.pythonhosted.org/packages/48/3e/14452a8b33059a708c4483fcef742dacb71ee8812109667d4a355421b4e7/concept-erasure-0.0.2.tar.gz
+[2023-07-06 00:36:47] INFO root fetch - processPackages [pyfaust-torch]: Downloading https://files.pythonhosted.org/packages/26/77/6d6f6c74db3fb6eea549a03a2bd2fa5effb4fadb83aa038856b0abfce6e7/pyfaust_torch-3.38.8-cp39-cp39-macosx_10_9_x86_64.whl
+[2023-07-06 00:36:47] INFO root fetch - processPackages [qreader]: Downloading https://files.pythonhosted.org/packages/7d/f8/87060a6e4ae467fbf22a2fd0912895629b14dcbd78cca129e3126982a643/qreader-2.7.tar.gz
+[2023-07-06 00:36:47] INFO root fetch - processPackages [py-easy-logger]: Downloading https://files.pythonhosted.org/packages/31/c9/d6f0cfd9c71d8871d079c7aa347779f055c7eb1afadb565c576313b71b22/py-easy-logger-0.0.2.tar.gz
+[2023-07-06 00:36:47] INFO root fetch - processPackages [sqlmesh]: Downloading https://files.pythonhosted.org/packages/af/f6/0f9a52e680a6637f51cabdef2e898ff2ccf3866817901d8c170ba43142ed/sqlmesh-0.8.1.tar.gz
+[2023-07-06 00:36:47] INFO root fetch - processPackages [pyfaust-openblaso]: Downloading https://files.pythonhosted.org/packages/59/0f/a671bb18f0866e38b3711c876d95dfa037f0ffd6e093480ae6ce5db7d8a6/pyfaust_openblaso-3.38.8-cp39-cp39-manylinux1_x86_64.whl
+[2023-07-06 00:36:47] INFO root fetch - processPackages [pyfaust]: Downloading https://files.pythonhosted.org/packages/18/b5/0740195b9ccd0e43e427280344d5fb3706996ff6f66655fe6f79cd230aaa/pyfaust-3.9.0-cp39-cp39-win_amd64.whl
+[2023-07-06 00:36:47] INFO root fetch - processPackages [xtlib]: Downloading https://files.pythonhosted.org/packages/ef/88/6f35605035024352f94de86919c8fb01a5172145653a1f3dd1f7638fe591/xtlib-1.0.0rc1.tar.gz
+[2023-07-06 00:36:48] INFO root fetch - processPackages [py-easy-logger]: Downloading https://files.pythonhosted.org/packages/4f/e6/4442df4499cad257fe1249e3504ac577d8f8e35495d98b7b8bea7fbad9c7/py-easy-logger-0.0.3.tar.gz
+[2023-07-06 00:36:48] INFO root fetch - processPackages [concept-erasure]: Downloading https://files.pythonhosted.org/packages/76/13/b5836790846fcbf16280383f8bd9a6f8c45334e9d52f431272e20e7f8897/concept-erasure-0.1.0.tar.gz
+[2023-07-06 00:36:48] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/5a/9b/cbd5b9284e41b5cc028fb320b18688a66a36de021d3470b4235cdff327bf/threemystic_cloud_client-0.1.9.tar.gz
+[2023-07-06 00:36:48] INFO root fetch - processPackages [qreader]: Downloading https://files.pythonhosted.org/packages/1e/26/b7161a55898d2043ae2512419c642cec690249c886297626c5ceb25c66a4/qreader-2.8.tar.gz
+[2023-07-06 00:36:48] WARNING root fetch - processPackages [pyfaust-openblaso]: Skipping package: exceeds size limit 22956958>=10485760
+[2023-07-06 00:36:48] INFO root fetch - main [MainThread]: End processing [pyfaust-openblaso] error
+[2023-07-06 00:36:48] INFO root fetch - processPackages [concept-erasure]: executing diffoscope
+[2023-07-06 00:36:48] INFO root fetch - processPackages [concept-erasure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/concept-erasure-0.0.2.tar.gz tmp/concept-erasure-0.1.0.tar.gz --markdown 20230706/c/concept-erasure/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-07-06 00:36:48] INFO root fetch - processPackages [xtlib]: Downloading https://files.pythonhosted.org/packages/a0/01/df0f30261ee9fe10bb00ddc29344ae6aa0d8582eb47a23769c06bc782080/xtlib-1.0.0rc2.tar.gz
+[2023-07-06 00:36:48] INFO root fetch - processPackages [py-easy-logger]: executing diffoscope
+[2023-07-06 00:36:48] INFO root fetch - processPackages [py-easy-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-easy-logger-0.0.2.tar.gz tmp/py-easy-logger-0.0.3.tar.gz --markdown 20230706/p/py-easy-logger/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-06 00:36:48] INFO root fetch - processPackages [qreader]: executing diffoscope
+[2023-07-06 00:36:48] INFO root fetch - processPackages [qreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qreader-2.7.tar.gz tmp/qreader-2.8.tar.gz --markdown 20230706/q/qreader/2.7-2.8/diff.md --exclude *.pyd
+[2023-07-06 00:36:48] INFO root fetch - processPackages [threemystic-cloud-client]: executing diffoscope
+[2023-07-06 00:36:48] INFO root fetch - processPackages [threemystic-cloud-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_client-0.1.8.tar.gz tmp/threemystic_cloud_client-0.1.9.tar.gz --markdown 20230706/t/threemystic-cloud-client/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-06 00:36:48] INFO root fetch - processPackages [xtlib]: executing diffoscope
+[2023-07-06 00:36:48] INFO root fetch - processPackages [xtlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtlib-1.0.0rc1.tar.gz tmp/xtlib-1.0.0rc2.tar.gz --markdown 20230706/x/xtlib/1.0.0rc1-1.0.0rc2/diff.md --exclude *.pyd
+[2023-07-06 00:36:48] INFO root fetch - processPackages [pyfaust-torch]: Downloading https://files.pythonhosted.org/packages/6b/7a/69cf6ad676c709b11407df6a8f180ea20bb9f143ecca990b23dda5f76ca2/pyfaust_torch-3.38.9-cp39-cp39-macosx_10_9_x86_64.whl
+[2023-07-06 00:36:49] INFO root fetch - processPackages [qreader]: Remove: archive file [/home/abi/fetcher/tmp/qreader-2.7.tar.gz]
+[2023-07-06 00:36:49] INFO root fetch - processPackages [qreader]: Remove: archive file [/home/abi/fetcher/tmp/qreader-2.8.tar.gz]
+[2023-07-06 00:36:49] INFO root fetch - main [MainThread]: End processing [qreader]: success
+[2023-07-06 00:36:49] INFO root fetch - processPackages [concept-erasure]: Remove: archive file [/home/abi/fetcher/tmp/concept-erasure-0.0.2.tar.gz]
+[2023-07-06 00:36:49] INFO root fetch - processPackages [concept-erasure]: Remove: archive file [/home/abi/fetcher/tmp/concept-erasure-0.1.0.tar.gz]
+[2023-07-06 00:36:49] INFO root fetch - main [MainThread]: End processing [concept-erasure]: success
+[2023-07-06 00:36:49] INFO root fetch - processPackages [py-easy-logger]: Remove: archive file [/home/abi/fetcher/tmp/py-easy-logger-0.0.2.tar.gz]
+[2023-07-06 00:36:49] INFO root fetch - processPackages [py-easy-logger]: Remove: archive file [/home/abi/fetcher/tmp/py-easy-logger-0.0.3.tar.gz]
+[2023-07-06 00:36:49] INFO root fetch - main [MainThread]: End processing [py-easy-logger]: success
+[2023-07-06 00:36:49] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.8.tar.gz]
+[2023-07-06 00:36:49] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.9.tar.gz]
+[2023-07-06 00:36:49] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-client]: success
+[2023-07-06 00:36:49] INFO root fetch - processPackages [pyfaust-torch]: executing diffoscope
+[2023-07-06 00:36:49] INFO root fetch - processPackages [pyfaust-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfaust_torch-3.38.8-cp39-cp39-macosx_10_9_x86_64.whl.zip tmp/pyfaust_torch-3.38.9-cp39-cp39-macosx_10_9_x86_64.whl.zip --markdown 20230706/p/pyfaust-torch/3.38.8-3.38.9/diff.md --exclude *.pyd
+[2023-07-06 00:36:50] INFO root fetch - processPackages [pyfaust]: Downloading https://files.pythonhosted.org/packages/34/28/ab7cd91f9611bbe2d9ff5bfc6934eb6af283249b75ac68c9d0b6befcd0b5/pyfaust-3.9.1-cp39-cp39-win_amd64.whl
+[2023-07-06 00:36:50] INFO root fetch - processPackages [xtlib]: Remove: archive file [/home/abi/fetcher/tmp/xtlib-1.0.0rc1.tar.gz]
+[2023-07-06 00:36:50] INFO root fetch - processPackages [xtlib]: Remove: archive file [/home/abi/fetcher/tmp/xtlib-1.0.0rc2.tar.gz]
+[2023-07-06 00:36:50] INFO root fetch - main [MainThread]: End processing [xtlib]: success
+[2023-07-06 00:36:51] INFO root fetch - processPackages [sqlmesh]: Downloading https://files.pythonhosted.org/packages/3e/98/dd2b2de67b5258308e2ea0fc159ad112f97bdb21f9881120de68463c1781/sqlmesh-0.9.0.tar.gz
+[2023-07-06 00:36:52] INFO root fetch - processPackages [pyfaust]: executing diffoscope
+[2023-07-06 00:36:52] INFO root fetch - processPackages [pyfaust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfaust-3.9.0-cp39-cp39-win_amd64.whl.zip tmp/pyfaust-3.9.1-cp39-cp39-win_amd64.whl.zip --markdown 20230706/p/pyfaust/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-07-06 00:36:53] INFO root fetch - processPackages [sqlmesh]: executing diffoscope
+[2023-07-06 00:36:53] INFO root fetch - processPackages [sqlmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlmesh-0.8.1.tar.gz tmp/sqlmesh-0.9.0.tar.gz --markdown 20230706/s/sqlmesh/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-06 00:37:11] INFO root fetch - processPackages [pyfaust]: Remove: archive file [/home/abi/fetcher/tmp/pyfaust-3.9.0-cp39-cp39-win_amd64.whl.zip]
+[2023-07-06 00:37:11] INFO root fetch - processPackages [pyfaust]: Remove: archive file [/home/abi/fetcher/tmp/pyfaust-3.9.1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-06 00:37:11] INFO root fetch - main [MainThread]: End processing [pyfaust]: success
+[2023-07-06 00:37:15] INFO root fetch - processPackages [pyfaust-torch]: Remove: archive file [/home/abi/fetcher/tmp/pyfaust_torch-3.38.8-cp39-cp39-macosx_10_9_x86_64.whl.zip]
+[2023-07-06 00:37:15] INFO root fetch - processPackages [pyfaust-torch]: Remove: archive file [/home/abi/fetcher/tmp/pyfaust_torch-3.38.9-cp39-cp39-macosx_10_9_x86_64.whl.zip]
+[2023-07-06 00:37:15] INFO root fetch - main [MainThread]: End processing [pyfaust-torch]: success
+[2023-07-06 00:37:24] INFO root fetch - processPackages [sqlmesh]: Remove: archive file [/home/abi/fetcher/tmp/sqlmesh-0.8.1.tar.gz]
+[2023-07-06 00:37:24] INFO root fetch - processPackages [sqlmesh]: Remove: archive file [/home/abi/fetcher/tmp/sqlmesh-0.9.0.tar.gz]
+[2023-07-06 00:37:24] INFO root fetch - main [MainThread]: End processing [sqlmesh]: success
+[2023-07-06 00:37:24] INFO root fetch - main [MainThread]: Store serial: [18773964]
