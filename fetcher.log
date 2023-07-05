@@ -1065,3 +1065,58 @@
 [2023-07-06 01:14:16] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.0.99.tar.gz]
 [2023-07-06 01:14:16] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
 [2023-07-06 01:14:16] INFO root fetch - main [MainThread]: Store serial: [18774154]
+[2023-07-06 01:19:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18774154]
+[2023-07-06 01:19:25] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-06 01:19:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langflow
+[2023-07-06 01:19:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: owe-python-sdk
+[2023-07-06 01:19:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: macrometa-target-mssql
+[2023-07-06 01:19:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: coiled
+[2023-07-06 01:19:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TheSilent
+[2023-07-06 01:19:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: owe-python-sdk
+[2023-07-06 01:19:25] INFO root fetch - processPackages [macrometa-target-mssql]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 01:19:25] INFO root fetch - processPackages [owe-python-sdk]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-07-06 01:19:25] INFO root fetch - processPackages [owe-python-sdk]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-07-06 01:19:25] INFO root fetch - processPackages [coiled]: New version: [0.8.1.dev9] Old Version: [0.8.1.dev8]
+[2023-07-06 01:19:25] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-06 01:19:25] INFO root fetch - processPackages [langflow]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-06 01:19:25] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/e1/61/6a536a80ecefe37ae22892e35c01c023b516781b9222ef159cb4823df439/coiled-0.8.1.dev8.tar.gz
+[2023-07-06 01:19:25] INFO root fetch - processPackages [macrometa-target-mssql]: Downloading https://files.pythonhosted.org/packages/47/28/bece1abc54ffab5f0cddaff5d6f1e02fac1343bfb72976d5794f50dad748/macrometa-target-mssql-0.0.8.tar.gz
+[2023-07-06 01:19:25] INFO root fetch - processPackages [owe-python-sdk]: Downloading https://files.pythonhosted.org/packages/b7/87/2ed4496794411461faafd9b31cde5a571ee0b54f11200933d019777ca951/owe_python_sdk-0.0.1a8.tar.gz
+[2023-07-06 01:19:25] INFO root fetch - processPackages [owe-python-sdk]: Downloading https://files.pythonhosted.org/packages/b7/87/2ed4496794411461faafd9b31cde5a571ee0b54f11200933d019777ca951/owe_python_sdk-0.0.1a8.tar.gz
+[2023-07-06 01:19:25] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-06 01:19:26] INFO root fetch - processPackages [macrometa-target-mssql]: Downloading https://files.pythonhosted.org/packages/3d/97/96f149d7c5c167814edbae8e9693e5915bdec86dfd31a669e08d21162ee9/macrometa-target-mssql-0.0.9.tar.gz
+[2023-07-06 01:19:26] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/18/4f/cbe9bc5a6a7b45e2c701ff2ffc269abc6cca5f79b8bf2834a103706c4d06/coiled-0.8.1.dev9.tar.gz
+[2023-07-06 01:19:26] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/8c/bb/df0397c690142374fe5cc52134d7e4461b82626db9823c3d3baca67c4495/langflow-0.2.8.tar.gz
+[2023-07-06 01:19:26] INFO root fetch - processPackages [owe-python-sdk]: Downloading https://files.pythonhosted.org/packages/31/27/a7a614b3213736597496297134f4cd10fd0ecee2f977d8e86784bb925c43/owe_python_sdk-0.0.1a9.tar.gz
+[2023-07-06 01:19:26] INFO root fetch - processPackages [owe-python-sdk]: Downloading https://files.pythonhosted.org/packages/31/27/a7a614b3213736597496297134f4cd10fd0ecee2f977d8e86784bb925c43/owe_python_sdk-0.0.1a9.tar.gz
+[2023-07-06 01:19:26] INFO root fetch - processPackages [macrometa-target-mssql]: executing diffoscope
+[2023-07-06 01:19:26] INFO root fetch - processPackages [macrometa-target-mssql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-mssql-0.0.8.tar.gz tmp/macrometa-target-mssql-0.0.9.tar.gz --markdown 20230706/m/macrometa-target-mssql/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 01:19:26] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-06 01:19:26] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-06 01:19:26] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.8.1.dev8.tar.gz tmp/coiled-0.8.1.dev9.tar.gz --markdown 20230706/c/coiled/0.8.1.dev8-0.8.1.dev9/diff.md --exclude *.pyd
+[2023-07-06 01:19:26] INFO root fetch - processPackages [owe-python-sdk]: executing diffoscope
+[2023-07-06 01:19:26] INFO root fetch - processPackages [owe-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owe_python_sdk-0.0.1a8.tar.gz tmp/owe_python_sdk-0.0.1a9.tar.gz --markdown 20230706/o/owe-python-sdk/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-07-06 01:19:26] INFO root fetch - processPackages [owe-python-sdk]: executing diffoscope
+[2023-07-06 01:19:26] INFO root fetch - processPackages [owe-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owe_python_sdk-0.0.1a8.tar.gz tmp/owe_python_sdk-0.0.1a9.tar.gz --markdown 20230706/o/owe-python-sdk/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-07-06 01:19:26] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-06 01:19:26] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230706/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-06 01:19:26] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/08/a8/b7023e44d8be8d1c885fde686c8dac151027089f7419dde947f6b7f98533/langflow-0.2.9.tar.gz
+[2023-07-06 01:19:26] INFO root fetch - processPackages [langflow]: executing diffoscope
+[2023-07-06 01:19:26] INFO root fetch - processPackages [langflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow-0.2.8.tar.gz tmp/langflow-0.2.9.tar.gz --markdown 20230706/l/langflow/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-06 01:19:27] INFO root fetch - processPackages [macrometa-target-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mssql-0.0.8.tar.gz]
+[2023-07-06 01:19:27] INFO root fetch - processPackages [macrometa-target-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mssql-0.0.9.tar.gz]
+[2023-07-06 01:19:27] INFO root fetch - main [MainThread]: End processing [macrometa-target-mssql]: success
+[2023-07-06 01:19:27] INFO root fetch - processPackages [owe-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/owe_python_sdk-0.0.1a8.tar.gz]
+[2023-07-06 01:19:27] INFO root fetch - processPackages [owe-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/owe_python_sdk-0.0.1a9.tar.gz]
+[2023-07-06 01:19:27] INFO root fetch - main [MainThread]: End processing [owe-python-sdk]: success
+[2023-07-06 01:19:27] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.1.dev8.tar.gz]
+[2023-07-06 01:19:27] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.1.dev9.tar.gz]
+[2023-07-06 01:19:27] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-06 01:19:27] INFO root fetch - main [MainThread]: End processing [owe-python-sdk]: success
+[2023-07-06 01:19:27] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-06 01:19:27] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-06 01:19:27] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-06 01:19:50] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-0.2.8.tar.gz]
+[2023-07-06 01:19:50] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-0.2.9.tar.gz]
+[2023-07-06 01:19:50] INFO root fetch - main [MainThread]: End processing [langflow]: success
+[2023-07-06 01:19:50] INFO root fetch - main [MainThread]: Store serial: [18774172]
