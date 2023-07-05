@@ -746,3 +746,81 @@
 [2023-07-06 00:42:52] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.2.0.dev20230705194247-py3-none-any.whl.zip]
 [2023-07-06 00:42:52] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
 [2023-07-06 00:42:52] INFO root fetch - main [MainThread]: Store serial: [18774012]
+[2023-07-06 00:47:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18774012]
+[2023-07-06 00:48:01] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-06 00:48:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RamseyTheoryRL
+[2023-07-06 00:48:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyter-ai
+[2023-07-06 00:48:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdfs
+[2023-07-06 00:48:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jupyter-ai-magics
+[2023-07-06 00:48:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: freefang-qt
+[2023-07-06 00:48:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: microservice-utils
+[2023-07-06 00:48:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: genworlds
+[2023-07-06 00:48:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: batcave
+[2023-07-06 00:48:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: batcave
+[2023-07-06 00:48:01] INFO root fetch - processPackages [genworlds]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-06 00:48:01] INFO root fetch - processPackages [RamseyTheoryRL]: New version: [0.71] Old Version: [0.7]
+[2023-07-06 00:48:01] INFO root fetch - processPackages [jupyter-ai]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-06 00:48:01] INFO root fetch - processPackages [genworlds]: Downloading https://files.pythonhosted.org/packages/41/77/69ff5ca28cc45299d7d2dcf342c968958502085766b9ba8386321df35ae6/genworlds-0.0.6.tar.gz
+[2023-07-06 00:48:01] INFO root fetch - processPackages [cdfs]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-06 00:48:01] INFO root fetch - processPackages [jupyter-ai-magics]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-06 00:48:01] INFO root fetch - processPackages [batcave]: New version: [42.1.0rc0] Old Version: [42.1.0]
+[2023-07-06 00:48:01] INFO root fetch - processPackages [batcave]: New version: [42.1.0rc0] Old Version: [42.1.0]
+[2023-07-06 00:48:01] INFO root fetch - processPackages [freefang-qt]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-06 00:48:01] INFO root fetch - processPackages [microservice-utils]: New version: [0.9.2] Old Version: [0.9.0]
+[2023-07-06 00:48:01] INFO root fetch - processPackages [RamseyTheoryRL]: Downloading https://files.pythonhosted.org/packages/25/3d/16e38424cdd9cf71c55efe0f557fb39d90bc4c67637f15ab5533a67205ab/RamseyTheoryRL-0.7.tar.gz
+[2023-07-06 00:48:01] INFO root fetch - processPackages [jupyter-ai]: Downloading https://files.pythonhosted.org/packages/bc/55/6aff8d565332bad54eacdec19385febfaf3af534afe7bddc9ae5f8c57300/jupyter_ai-0.8.0.tar.gz
+[2023-07-06 00:48:01] INFO root fetch - processPackages [microservice-utils]: Downloading https://files.pythonhosted.org/packages/34/37/fc4a169db9a13fe5d41ee69b967a00ed91391f40cfceb74c231761012775/microservice-utils-0.9.0.tar.gz
+[2023-07-06 00:48:01] INFO root fetch - processPackages [batcave]: Downloading https://files.pythonhosted.org/packages/ab/73/b665d1ca0c41a9a491d5c048f98696f20313c4c796b36dcb4c533017ec3a/batcave-42.1.0.tar.gz
+[2023-07-06 00:48:01] INFO root fetch - processPackages [batcave]: Downloading https://files.pythonhosted.org/packages/ab/73/b665d1ca0c41a9a491d5c048f98696f20313c4c796b36dcb4c533017ec3a/batcave-42.1.0.tar.gz
+[2023-07-06 00:48:01] WARNING root fetch - processPackages [RamseyTheoryRL]: Skipping package: exceeds size limit 12026591>=10485760
+[2023-07-06 00:48:01] INFO root fetch - main [MainThread]: End processing [RamseyTheoryRL] error
+[2023-07-06 00:48:01] INFO root fetch - processPackages [cdfs]: Downloading https://files.pythonhosted.org/packages/06/45/5559398a41ce480e44add5943015a59b21a588418aa6aef34f6d032fddc3/cdfs-0.1.0.tar.gz
+[2023-07-06 00:48:01] INFO root fetch - processPackages [freefang-qt]: Downloading https://files.pythonhosted.org/packages/d4/76/ae99bfe4f4b31820b6d8a68254c0737245a1e3253ce9a7ecd650a0faad3d/freefang_qt-0.1.1.tar.gz
+[2023-07-06 00:48:01] INFO root fetch - processPackages [genworlds]: Downloading https://files.pythonhosted.org/packages/f6/85/cff5de109bc9a9e8918e1df56945b87482f0e1fa9e89568951e45330c91e/genworlds-0.0.7.tar.gz
+[2023-07-06 00:48:01] INFO root fetch - processPackages [jupyter-ai-magics]: Downloading https://files.pythonhosted.org/packages/4f/88/6d1af8e90f2869a30ccb61dd28bdcb6e874ef8b43bf4b73550809bbbd1fa/jupyter_ai_magics-0.8.0.tar.gz
+[2023-07-06 00:48:02] INFO root fetch - processPackages [genworlds]: executing diffoscope
+[2023-07-06 00:48:02] INFO root fetch - processPackages [genworlds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genworlds-0.0.6.tar.gz tmp/genworlds-0.0.7.tar.gz --markdown 20230706/g/genworlds/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-06 00:48:02] INFO root fetch - processPackages [microservice-utils]: Downloading https://files.pythonhosted.org/packages/b2/7d/1264cfd81445af4cf7dd84da8b95666821b38d3cc7ec8372453c15c3d377/microservice-utils-0.9.2.tar.gz
+[2023-07-06 00:48:02] INFO root fetch - processPackages [batcave]: Downloading https://files.pythonhosted.org/packages/67/69/c4e799f02b993a3a156133b457906fa76c533c4eef564467cba10ecb0cfa/batcave-42.1.0rc0.tar.gz
+[2023-07-06 00:48:02] INFO root fetch - processPackages [batcave]: Downloading https://files.pythonhosted.org/packages/67/69/c4e799f02b993a3a156133b457906fa76c533c4eef564467cba10ecb0cfa/batcave-42.1.0rc0.tar.gz
+[2023-07-06 00:48:02] INFO root fetch - processPackages [freefang-qt]: Downloading https://files.pythonhosted.org/packages/c7/46/8b360f9989bc06b08c7ed18856b1850559ea2f2cd7e1b50334e0dcf5cfca/freefang_qt-0.1.2.tar.gz
+[2023-07-06 00:48:02] INFO root fetch - processPackages [microservice-utils]: executing diffoscope
+[2023-07-06 00:48:02] INFO root fetch - processPackages [microservice-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microservice-utils-0.9.0.tar.gz tmp/microservice-utils-0.9.2.tar.gz --markdown 20230706/m/microservice-utils/0.9.0-0.9.2/diff.md --exclude *.pyd
+[2023-07-06 00:48:02] INFO root fetch - processPackages [cdfs]: Downloading https://files.pythonhosted.org/packages/fd/5c/ff970638e103d0bf7dc8613ee2dacea24be4d7cf53dbc33f12a7421d8a0d/cdfs-0.1.1.tar.gz
+[2023-07-06 00:48:02] INFO root fetch - processPackages [batcave]: executing diffoscope
+[2023-07-06 00:48:02] INFO root fetch - processPackages [batcave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batcave-42.1.0.tar.gz tmp/batcave-42.1.0rc0.tar.gz --markdown 20230706/b/batcave/42.1.0-42.1.0rc0/diff.md --exclude *.pyd
+[2023-07-06 00:48:02] INFO root fetch - processPackages [batcave]: executing diffoscope
+[2023-07-06 00:48:02] INFO root fetch - processPackages [batcave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batcave-42.1.0.tar.gz tmp/batcave-42.1.0rc0.tar.gz --markdown 20230706/b/batcave/42.1.0-42.1.0rc0/diff.md --exclude *.pyd
+[2023-07-06 00:48:02] INFO root fetch - processPackages [jupyter-ai]: Downloading https://files.pythonhosted.org/packages/3f/7b/9425619dea0a30f924b998832dca62dea24a6659160795e37cd30128e350/jupyter_ai-0.9.0.tar.gz
+[2023-07-06 00:48:02] INFO root fetch - processPackages [jupyter-ai-magics]: Downloading https://files.pythonhosted.org/packages/80/a2/166fc5a6ad51fb520f5eeb4053bdb6c05c5c4ea72e53750629e840af3ec8/jupyter_ai_magics-0.9.0.tar.gz
+[2023-07-06 00:48:02] INFO root fetch - processPackages [freefang-qt]: executing diffoscope
+[2023-07-06 00:48:02] INFO root fetch - processPackages [freefang-qt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freefang_qt-0.1.1.tar.gz tmp/freefang_qt-0.1.2.tar.gz --markdown 20230706/f/freefang-qt/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-06 00:48:02] INFO root fetch - processPackages [cdfs]: executing diffoscope
+[2023-07-06 00:48:02] INFO root fetch - processPackages [cdfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdfs-0.1.0.tar.gz tmp/cdfs-0.1.1.tar.gz --markdown 20230706/c/cdfs/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-06 00:48:02] INFO root fetch - processPackages [jupyter-ai-magics]: executing diffoscope
+[2023-07-06 00:48:02] INFO root fetch - processPackages [jupyter-ai-magics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_ai_magics-0.8.0.tar.gz tmp/jupyter_ai_magics-0.9.0.tar.gz --markdown 20230706/j/jupyter-ai-magics/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-06 00:48:02] INFO root fetch - processPackages [jupyter-ai]: executing diffoscope
+[2023-07-06 00:48:02] INFO root fetch - processPackages [jupyter-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_ai-0.8.0.tar.gz tmp/jupyter_ai-0.9.0.tar.gz --markdown 20230706/j/jupyter-ai/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-06 00:48:03] INFO root fetch - processPackages [genworlds]: Remove: archive file [/home/abi/fetcher/tmp/genworlds-0.0.6.tar.gz]
+[2023-07-06 00:48:03] INFO root fetch - processPackages [genworlds]: Remove: archive file [/home/abi/fetcher/tmp/genworlds-0.0.7.tar.gz]
+[2023-07-06 00:48:03] INFO root fetch - main [MainThread]: End processing [genworlds]: success
+[2023-07-06 00:48:03] INFO root fetch - processPackages [microservice-utils]: Remove: archive file [/home/abi/fetcher/tmp/microservice-utils-0.9.0.tar.gz]
+[2023-07-06 00:48:03] INFO root fetch - processPackages [microservice-utils]: Remove: archive file [/home/abi/fetcher/tmp/microservice-utils-0.9.2.tar.gz]
+[2023-07-06 00:48:03] INFO root fetch - main [MainThread]: End processing [microservice-utils]: success
+[2023-07-06 00:48:03] INFO root fetch - processPackages [freefang-qt]: Remove: archive file [/home/abi/fetcher/tmp/freefang_qt-0.1.1.tar.gz]
+[2023-07-06 00:48:03] INFO root fetch - processPackages [freefang-qt]: Remove: archive file [/home/abi/fetcher/tmp/freefang_qt-0.1.2.tar.gz]
+[2023-07-06 00:48:03] INFO root fetch - main [MainThread]: End processing [freefang-qt]: success
+[2023-07-06 00:48:03] INFO root fetch - processPackages [batcave]: Remove: archive file [/home/abi/fetcher/tmp/batcave-42.1.0.tar.gz]
+[2023-07-06 00:48:03] INFO root fetch - processPackages [batcave]: Remove: archive file [/home/abi/fetcher/tmp/batcave-42.1.0rc0.tar.gz]
+[2023-07-06 00:48:03] INFO root fetch - main [MainThread]: End processing [batcave]: success
+[2023-07-06 00:48:04] INFO root fetch - main [MainThread]: End processing [batcave]: success
+[2023-07-06 00:48:04] INFO root fetch - processPackages [cdfs]: Remove: archive file [/home/abi/fetcher/tmp/cdfs-0.1.0.tar.gz]
+[2023-07-06 00:48:04] INFO root fetch - processPackages [cdfs]: Remove: archive file [/home/abi/fetcher/tmp/cdfs-0.1.1.tar.gz]
+[2023-07-06 00:48:04] INFO root fetch - main [MainThread]: End processing [cdfs]: success
+[2023-07-06 00:48:04] INFO root fetch - processPackages [jupyter-ai-magics]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_ai_magics-0.8.0.tar.gz]
+[2023-07-06 00:48:04] INFO root fetch - processPackages [jupyter-ai-magics]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_ai_magics-0.9.0.tar.gz]
+[2023-07-06 00:48:04] INFO root fetch - main [MainThread]: End processing [jupyter-ai-magics]: success
+[2023-07-06 00:48:05] INFO root fetch - processPackages [jupyter-ai]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_ai-0.8.0.tar.gz]
+[2023-07-06 00:48:05] INFO root fetch - processPackages [jupyter-ai]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_ai-0.9.0.tar.gz]
+[2023-07-06 00:48:05] INFO root fetch - main [MainThread]: End processing [jupyter-ai]: success
+[2023-07-06 00:48:05] INFO root fetch - main [MainThread]: Store serial: [18774039]
