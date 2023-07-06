@@ -12797,3 +12797,105 @@ AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
 [2023-07-06 07:54:21] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-status]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_equipment_status-16.0.1.0.0.2-py3-none-any.whl.zip]
 [2023-07-06 07:54:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-maintenance-equipment-status]: success
 [2023-07-06 07:54:21] INFO root fetch - main [MainThread]: Store serial: [18778804]
+[2023-07-06 07:59:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18778804]
+[2023-07-06 07:59:30] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-06 07:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Alpha-Rabbit
+[2023-07-06 07:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TheSilent
+[2023-07-06 07:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fc-client
+[2023-07-06 07:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: caqui
+[2023-07-06 07:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fc-client-docker
+[2023-07-06 07:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fc-guarder
+[2023-07-06 07:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fc-server
+[2023-07-06 07:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MeUtils
+[2023-07-06 07:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openqaoa-core
+[2023-07-06 07:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autonomi-nos
+[2023-07-06 07:59:30] INFO root fetch - processPackages [fc-client]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-06 07:59:31] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-06 07:59:31] INFO root fetch - processPackages [caqui]: New version: [1.9.0] Old Version: [1.14.0]
+[2023-07-06 07:59:31] INFO root fetch - processPackages [fc-server]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-06 07:59:31] INFO root fetch - processPackages [autonomi-nos]: New version: [0.0.6a1] Old Version: [0.0.5]
+[2023-07-06 07:59:31] INFO root fetch - processPackages [fc-client-docker]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-06 07:59:31] INFO root fetch - processPackages [fc-guarder]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-06 07:59:31] INFO root fetch - processPackages [Alpha-Rabbit]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-07-06 07:59:31] INFO root fetch - processPackages [openqaoa-core]: New version: [0.2.0rc1] Old Version: [0.1.3rc1]
+[2023-07-06 07:59:31] INFO root fetch - processPackages [MeUtils]: New version: [2023.7.6.9.18.40] Old Version: [2023.7.6.9.11.22]
+[2023-07-06 07:59:31] INFO root fetch - processPackages [fc-client]: Downloading https://files.pythonhosted.org/packages/b7/7c/14cdfe06ddf49a746a6614cb328511267ef302b9caf881ed8f443ba7d5f1/fc-client-0.6.0.tar.gz
+[2023-07-06 07:59:31] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-06 07:59:31] INFO root fetch - processPackages [fc-server]: Downloading https://files.pythonhosted.org/packages/54/5e/24d42adf1d09f11a22f8155ce34ee9e9c01f98592af0d993855ae427bd54/fc-server-0.6.0.tar.gz
+[2023-07-06 07:59:31] INFO root fetch - processPackages [fc-guarder]: Downloading https://files.pythonhosted.org/packages/d5/ac/4547a6a7a4e7bea8bf0d21b069da5b09607af718110cd6004856aacaf4e3/fc-guarder-0.6.0.tar.gz
+[2023-07-06 07:59:31] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/88/b4/8f3d255eba4d9bf5fe16efab15e0b73b1f4e3e247cfb179b7fb2434e1358/MeUtils-2023.7.6.9.11.22.tar.gz
+[2023-07-06 07:59:31] INFO root fetch - processPackages [caqui]: Downloading https://files.pythonhosted.org/packages/02/26/6064c2ada90e3096af4c1c6433f9690fe95d83d16fecabe709a3e12ad9dc/caqui-1.14.0.tar.gz
+[2023-07-06 07:59:31] INFO root fetch - processPackages [fc-client-docker]: Downloading https://files.pythonhosted.org/packages/81/61/aac833e3488451a52317b9278420cbb9e0f706c381b4a6339e5ca009b777/fc-client-docker-0.6.0.tar.gz
+[2023-07-06 07:59:31] INFO root fetch - processPackages [autonomi-nos]: Downloading https://files.pythonhosted.org/packages/9c/53/40764a6e102ff22e8e2967c766da6f46804c6c0b961c16c8c5a871d695ae/autonomi_nos-0.0.5-py3-none-any.whl
+[2023-07-06 07:59:31] INFO root fetch - processPackages [Alpha-Rabbit]: Downloading https://files.pythonhosted.org/packages/2e/61/f17c367eb29059be34a80fb262c7624e41af7e8f47a32f08c99b843160d5/Alpha_Rabbit-1.4.3.tar.gz
+[2023-07-06 07:59:31] INFO root fetch - processPackages [openqaoa-core]: Downloading https://files.pythonhosted.org/packages/63/43/4ceb800e11b0f0f851c9b465650494005401bcbe4ee223a6a2c051a20cbd/openqaoa-core-0.1.3rc1.tar.gz
+[2023-07-06 07:59:31] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-06 07:59:31] INFO root fetch - processPackages [fc-client]: Downloading https://files.pythonhosted.org/packages/52/97/8187f1847a16b91959c135daa7a6cd03a2335c5969d3a588d82a52fbc213/fc-client-0.6.1.tar.gz
+[2023-07-06 07:59:31] INFO root fetch - processPackages [fc-guarder]: Downloading https://files.pythonhosted.org/packages/9c/8a/169e76a789557eef5567bc9be485e3b8ff7c3a8f307d6385acae0be22098/fc-guarder-0.6.1.tar.gz
+[2023-07-06 07:59:31] INFO root fetch - processPackages [fc-server]: Downloading https://files.pythonhosted.org/packages/78/95/59cce621553e5404cb779950af513300fae0a02d4823d7d1f30d81407a7e/fc-server-0.6.1.tar.gz
+[2023-07-06 07:59:31] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-06 07:59:31] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230706/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-06 07:59:31] INFO root fetch - processPackages [fc-client-docker]: Downloading https://files.pythonhosted.org/packages/6a/6d/30b64746daa1823b5adf4843a0c89bb3f50d738c6968cc2058c3c9b4da88/fc-client-docker-0.6.1.tar.gz
+[2023-07-06 07:59:31] INFO root fetch - processPackages [fc-client]: executing diffoscope
+[2023-07-06 07:59:31] INFO root fetch - processPackages [fc-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fc-client-0.6.0.tar.gz tmp/fc-client-0.6.1.tar.gz --markdown 20230706/f/fc-client/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-06 07:59:32] INFO root fetch - processPackages [openqaoa-core]: Downloading https://files.pythonhosted.org/packages/59/21/f215cca1cbf050d480e09b304b1094a75c85201b93093559938388cd2967/openqaoa-core-0.2.0rc1.tar.gz
+[2023-07-06 07:59:32] INFO root fetch - processPackages [fc-guarder]: executing diffoscope
+[2023-07-06 07:59:32] INFO root fetch - processPackages [fc-guarder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fc-guarder-0.6.0.tar.gz tmp/fc-guarder-0.6.1.tar.gz --markdown 20230706/f/fc-guarder/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-06 07:59:32] INFO root fetch - processPackages [Alpha-Rabbit]: Downloading https://files.pythonhosted.org/packages/4c/47/186d6f48bed3b942f8a522040ba0d839c47db351d4b3a4f245d01238fbd9/Alpha_Rabbit-1.4.4.tar.gz
+[2023-07-06 07:59:32] INFO root fetch - processPackages [autonomi-nos]: Downloading https://files.pythonhosted.org/packages/67/33/53521db574d28623145135313acda4aababe50579e2f8441cbb035942bb8/autonomi_nos-0.0.6a1-py3-none-any.whl
+[2023-07-06 07:59:32] INFO root fetch - processPackages [fc-server]: executing diffoscope
+[2023-07-06 07:59:32] INFO root fetch - processPackages [fc-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fc-server-0.6.0.tar.gz tmp/fc-server-0.6.1.tar.gz --markdown 20230706/f/fc-server/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-06 07:59:32] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/03/c2/0074fedd9218c4324bec9cdbb7bc5f7c2c839ea18d1079a715c0d495a660/MeUtils-2023.7.6.9.18.40.tar.gz
+[2023-07-06 07:59:32] INFO root fetch - processPackages [caqui]: Downloading https://files.pythonhosted.org/packages/96/cb/610c7cb58e0d91615a6000802ec99074b7f59645f112551cb10c3f105439/caqui-1.9.0.tar.gz
+[2023-07-06 07:59:32] INFO root fetch - processPackages [Alpha-Rabbit]: executing diffoscope
+[2023-07-06 07:59:32] INFO root fetch - processPackages [Alpha-Rabbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Alpha_Rabbit-1.4.3.tar.gz tmp/Alpha_Rabbit-1.4.4.tar.gz --markdown 20230706/A/Alpha-Rabbit/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-07-06 07:59:32] INFO root fetch - processPackages [fc-client-docker]: executing diffoscope
+[2023-07-06 07:59:32] INFO root fetch - processPackages [fc-client-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fc-client-docker-0.6.0.tar.gz tmp/fc-client-docker-0.6.1.tar.gz --markdown 20230706/f/fc-client-docker/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-06 07:59:32] INFO root fetch - processPackages [autonomi-nos]: executing diffoscope
+[2023-07-06 07:59:32] INFO root fetch - processPackages [autonomi-nos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autonomi_nos-0.0.5-py3-none-any.whl.zip tmp/autonomi_nos-0.0.6a1-py3-none-any.whl.zip --markdown 20230706/a/autonomi-nos/0.0.5-0.0.6a1/diff.md --exclude *.pyd
+[2023-07-06 07:59:32] INFO root fetch - processPackages [openqaoa-core]: executing diffoscope
+[2023-07-06 07:59:32] INFO root fetch - processPackages [openqaoa-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openqaoa-core-0.1.3rc1.tar.gz tmp/openqaoa-core-0.2.0rc1.tar.gz --markdown 20230706/o/openqaoa-core/0.1.3rc1-0.2.0rc1/diff.md --exclude *.pyd
+[2023-07-06 07:59:32] INFO root fetch - processPackages [caqui]: executing diffoscope
+[2023-07-06 07:59:32] INFO root fetch - processPackages [caqui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caqui-1.14.0.tar.gz tmp/caqui-1.9.0.tar.gz --markdown 20230706/c/caqui/1.14.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-06 07:59:32] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-07-06 07:59:32] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.7.6.9.11.22.tar.gz tmp/MeUtils-2023.7.6.9.18.40.tar.gz --markdown 20230706/M/MeUtils/2023.7.6.9.11.22-2023.7.6.9.18.40/diff.md --exclude *.pyd
+[2023-07-06 07:59:34] INFO root fetch - processPackages [fc-guarder]: Remove: archive file [/home/abi/fetcher/tmp/fc-guarder-0.6.0.tar.gz]
+[2023-07-06 07:59:34] INFO root fetch - processPackages [fc-guarder]: Remove: archive file [/home/abi/fetcher/tmp/fc-guarder-0.6.1.tar.gz]
+[2023-07-06 07:59:34] INFO root fetch - processPackages [fc-guarder]: Start processing: openqaoa-qiskit
+[2023-07-06 07:59:34] INFO root fetch - main [MainThread]: End processing [fc-guarder]: success
+[2023-07-06 07:59:34] INFO root fetch - processPackages [fc-client]: Remove: archive file [/home/abi/fetcher/tmp/fc-client-0.6.0.tar.gz]
+[2023-07-06 07:59:34] INFO root fetch - processPackages [fc-client]: Remove: archive file [/home/abi/fetcher/tmp/fc-client-0.6.1.tar.gz]
+[2023-07-06 07:59:34] INFO root fetch - main [MainThread]: End processing [fc-client]: success
+[2023-07-06 07:59:34] INFO root fetch - processPackages [openqaoa-qiskit]: New version: [0.2.0rc1] Old Version: [0.1.3rc1]
+[2023-07-06 07:59:34] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-06 07:59:34] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-06 07:59:34] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-06 07:59:34] INFO root fetch - processPackages [fc-server]: Remove: archive file [/home/abi/fetcher/tmp/fc-server-0.6.0.tar.gz]
+[2023-07-06 07:59:34] INFO root fetch - processPackages [fc-server]: Remove: archive file [/home/abi/fetcher/tmp/fc-server-0.6.1.tar.gz]
+[2023-07-06 07:59:34] INFO root fetch - main [MainThread]: End processing [fc-server]: success
+[2023-07-06 07:59:34] INFO root fetch - processPackages [openqaoa-qiskit]: Downloading https://files.pythonhosted.org/packages/73/40/ba7cdeef14e7a10ee0a19f14b7f2d5b801c6624e887db2adf3ab2225d13d/openqaoa-qiskit-0.1.3rc1.tar.gz
+[2023-07-06 07:59:34] INFO root fetch - processPackages [Alpha-Rabbit]: Remove: archive file [/home/abi/fetcher/tmp/Alpha_Rabbit-1.4.3.tar.gz]
+[2023-07-06 07:59:34] INFO root fetch - processPackages [Alpha-Rabbit]: Remove: archive file [/home/abi/fetcher/tmp/Alpha_Rabbit-1.4.4.tar.gz]
+[2023-07-06 07:59:34] INFO root fetch - main [MainThread]: End processing [Alpha-Rabbit]: success
+[2023-07-06 07:59:34] INFO root fetch - processPackages [fc-client-docker]: Remove: archive file [/home/abi/fetcher/tmp/fc-client-docker-0.6.0.tar.gz]
+[2023-07-06 07:59:34] INFO root fetch - processPackages [fc-client-docker]: Remove: archive file [/home/abi/fetcher/tmp/fc-client-docker-0.6.1.tar.gz]
+[2023-07-06 07:59:34] INFO root fetch - main [MainThread]: End processing [fc-client-docker]: success
+[2023-07-06 07:59:35] INFO root fetch - processPackages [openqaoa-qiskit]: Downloading https://files.pythonhosted.org/packages/98/ac/f081f48a3b6d8bc2691c46fc9d7bc4b4b1791de4a4f3e670d3af6872b7ff/openqaoa-qiskit-0.2.0rc1.tar.gz
+[2023-07-06 07:59:35] INFO root fetch - processPackages [caqui]: Remove: archive file [/home/abi/fetcher/tmp/caqui-1.14.0.tar.gz]
+[2023-07-06 07:59:35] INFO root fetch - processPackages [caqui]: Remove: archive file [/home/abi/fetcher/tmp/caqui-1.9.0.tar.gz]
+[2023-07-06 07:59:35] INFO root fetch - main [MainThread]: End processing [caqui]: success
+[2023-07-06 07:59:35] INFO root fetch - processPackages [openqaoa-qiskit]: executing diffoscope
+[2023-07-06 07:59:35] INFO root fetch - processPackages [openqaoa-qiskit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openqaoa-qiskit-0.1.3rc1.tar.gz tmp/openqaoa-qiskit-0.2.0rc1.tar.gz --markdown 20230706/o/openqaoa-qiskit/0.1.3rc1-0.2.0rc1/diff.md --exclude *.pyd
+[2023-07-06 07:59:35] INFO root fetch - processPackages [autonomi-nos]: Remove: archive file [/home/abi/fetcher/tmp/autonomi_nos-0.0.5-py3-none-any.whl.zip]
+[2023-07-06 07:59:35] INFO root fetch - processPackages [autonomi-nos]: Remove: archive file [/home/abi/fetcher/tmp/autonomi_nos-0.0.6a1-py3-none-any.whl.zip]
+[2023-07-06 07:59:35] INFO root fetch - main [MainThread]: End processing [autonomi-nos]: success
+[2023-07-06 07:59:35] INFO root fetch - processPackages [openqaoa-core]: Remove: archive file [/home/abi/fetcher/tmp/openqaoa-core-0.1.3rc1.tar.gz]
+[2023-07-06 07:59:35] INFO root fetch - processPackages [openqaoa-core]: Remove: archive file [/home/abi/fetcher/tmp/openqaoa-core-0.2.0rc1.tar.gz]
+[2023-07-06 07:59:35] INFO root fetch - main [MainThread]: End processing [openqaoa-core]: success
+[2023-07-06 07:59:36] INFO root fetch - processPackages [openqaoa-qiskit]: Remove: archive file [/home/abi/fetcher/tmp/openqaoa-qiskit-0.1.3rc1.tar.gz]
+[2023-07-06 07:59:36] INFO root fetch - processPackages [openqaoa-qiskit]: Remove: archive file [/home/abi/fetcher/tmp/openqaoa-qiskit-0.2.0rc1.tar.gz]
+[2023-07-06 07:59:36] INFO root fetch - main [MainThread]: End processing [openqaoa-qiskit]: success
+[2023-07-06 07:59:37] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.6.9.11.22.tar.gz]
+[2023-07-06 07:59:37] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.6.9.18.40.tar.gz]
+[2023-07-06 07:59:37] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-07-06 07:59:37] INFO root fetch - main [MainThread]: Store serial: [18778834]
