@@ -20224,3 +20224,136 @@ AssertionError: tmp/termkit-0.2.0a4.tar.gz does not exist
 [2023-07-06 12:26:47] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-38.0.2.tar.gz]
 [2023-07-06 12:26:47] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-07-06 12:26:47] INFO root fetch - main [MainThread]: Store serial: [18781892]
+[2023-07-06 12:31:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18781892]
+[2023-07-06 12:32:00] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-06 12:32:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fabcohort
+[2023-07-06 12:32:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stc-geck
+[2023-07-06 12:32:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: orca-parser
+[2023-07-06 12:32:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kili
+[2023-07-06 12:32:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sirqle
+[2023-07-06 12:32:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stc-geck
+[2023-07-06 12:32:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dtstools
+[2023-07-06 12:32:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: p-ttauto-crawler
+[2023-07-06 12:32:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ocellus
+[2023-07-06 12:32:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: planqk-quantum
+[2023-07-06 12:32:00] WARNING root fetch - processPackages [orca-parser]: Skipping, unable to determine old version
+[2023-07-06 12:32:00] INFO root fetch - processPackages [orca-parser]: Start processing: feloopy
+[2023-07-06 12:32:00] INFO root fetch - main [MainThread]: End processing [orca-parser] error
+[2023-07-06 12:32:00] INFO root fetch - processPackages [stc-geck]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-07-06 12:32:00] INFO root fetch - processPackages [stc-geck]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-07-06 12:32:00] INFO root fetch - processPackages [planqk-quantum]: New version: [1.8.3] Old Version: [1.8.2]
+[2023-07-06 12:32:00] INFO root fetch - processPackages [p-ttauto-crawler]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-06 12:32:00] INFO root fetch - processPackages [sirqle]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-06 12:32:00] INFO root fetch - processPackages [dtstools]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-06 12:32:00] INFO root fetch - processPackages [kili]: New version: [2.99.0] Old Version: [2.98.0]
+[2023-07-06 12:32:00] INFO root fetch - processPackages [fabcohort]: New version: [0.3.0] Old Version: [0.2.5]
+[2023-07-06 12:32:00] INFO root fetch - processPackages [stc-geck]: Downloading https://files.pythonhosted.org/packages/bd/26/cd6b2efbb392010da6f425bab6605753c5adec030c61367ac21a53e60a4b/stc-geck-1.2.5.tar.gz
+[2023-07-06 12:32:00] INFO root fetch - processPackages [ocellus]: New version: [0.1.9] Old Version: [0.1.81]
+[2023-07-06 12:32:00] INFO root fetch - processPackages [stc-geck]: Downloading https://files.pythonhosted.org/packages/bd/26/cd6b2efbb392010da6f425bab6605753c5adec030c61367ac21a53e60a4b/stc-geck-1.2.5.tar.gz
+[2023-07-06 12:32:00] INFO root fetch - processPackages [feloopy]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-06 12:32:00] INFO root fetch - processPackages [sirqle]: Downloading https://files.pythonhosted.org/packages/07/c2/b7d21b747cfb8a41f6fde1915fdefec0c841e63bae4a797e6e94ba6a8e7f/sirqle-0.2.7.tar.gz
+[2023-07-06 12:32:00] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/45/ff/fd444393f6289e82c5f9ff06d56363e7e9a0fbf58d947322f35f27542e2b/p-ttauto-crawler-0.1.8.tar.gz
+[2023-07-06 12:32:00] INFO root fetch - processPackages [planqk-quantum]: Downloading https://files.pythonhosted.org/packages/27/cd/7c7417ae486194a10bad744eb1a1602eeab50810db30e13ce59cca68bf99/planqk-quantum-1.8.2.tar.gz
+[2023-07-06 12:32:00] INFO root fetch - processPackages [dtstools]: Downloading https://files.pythonhosted.org/packages/c8/7c/43fcceb2590d65004ae7dc2c98ac8bc720196d3bd75d5a25fb640534bddd/dtstools-0.0.4.tar.gz
+[2023-07-06 12:32:00] INFO root fetch - processPackages [kili]: Downloading https://files.pythonhosted.org/packages/82/1a/9d8d62f4db71c0c98f2af8101e21f42133a2335a53ea5acb86d49e0afcce/kili-2.98.0.tar.gz
+[2023-07-06 12:32:00] INFO root fetch - processPackages [ocellus]: Downloading https://files.pythonhosted.org/packages/4b/59/5f4fc9b8686bbadb0836b322e532dd137536fd69b457f5b1eca13017aa46/ocellus-0.1.81.tar.gz
+[2023-07-06 12:32:00] INFO root fetch - processPackages [fabcohort]: Downloading https://files.pythonhosted.org/packages/28/01/b8a6519a3ed97730c288b392aab6436a1e1142440f384220ace8219e57ed/fabcohort-0.2.5.tar.gz
+[2023-07-06 12:32:01] INFO root fetch - processPackages [stc-geck]: Downloading https://files.pythonhosted.org/packages/44/04/64da6de4a7f0e9754b53855e81ddc1f13288486f69ff559f3364ce45747f/stc-geck-1.2.6.tar.gz
+[2023-07-06 12:32:01] INFO root fetch - processPackages [feloopy]: Downloading https://files.pythonhosted.org/packages/67/63/cea55a58d8f7d86c3c76075cfbc5e2d482e617471c8c2fce5f5d6a1500b9/feloopy-0.2.5.tar.gz
+[2023-07-06 12:32:01] INFO root fetch - processPackages [stc-geck]: Downloading https://files.pythonhosted.org/packages/44/04/64da6de4a7f0e9754b53855e81ddc1f13288486f69ff559f3364ce45747f/stc-geck-1.2.6.tar.gz
+[2023-07-06 12:32:01] INFO root fetch - processPackages [sirqle]: Downloading https://files.pythonhosted.org/packages/b0/c0/fa374d70f022d20c9ad25289159aca1f2e67ba305176bfd56e4e5cf42015/sirqle-0.2.8.tar.gz
+[2023-07-06 12:32:01] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/bc/89/e93decfa584441bc595e7c27f0d539e3c8c5adaf82e78510583f7a1f8bc6/p-ttauto-crawler-0.1.9.tar.gz
+[2023-07-06 12:32:01] INFO root fetch - processPackages [stc-geck]: executing diffoscope
+[2023-07-06 12:32:01] INFO root fetch - processPackages [stc-geck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stc-geck-1.2.5.tar.gz tmp/stc-geck-1.2.6.tar.gz --markdown 20230706/s/stc-geck/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-07-06 12:32:01] INFO root fetch - processPackages [kili]: Downloading https://files.pythonhosted.org/packages/29/0e/34477795c404b4be48b4e400c823732c9e2857d5f305bbbdbc8203e0ec17/kili-2.99.0.tar.gz
+[2023-07-06 12:32:01] INFO root fetch - processPackages [stc-geck]: executing diffoscope
+[2023-07-06 12:32:01] INFO root fetch - processPackages [stc-geck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stc-geck-1.2.5.tar.gz tmp/stc-geck-1.2.6.tar.gz --markdown 20230706/s/stc-geck/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-07-06 12:32:01] INFO root fetch - processPackages [sirqle]: executing diffoscope
+[2023-07-06 12:32:01] INFO root fetch - processPackages [sirqle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sirqle-0.2.7.tar.gz tmp/sirqle-0.2.8.tar.gz --markdown 20230706/s/sirqle/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-06 12:32:01] INFO root fetch - processPackages [planqk-quantum]: Downloading https://files.pythonhosted.org/packages/3b/1e/f53fd1e0b18ae8be14b41ad6ef68f7428af579a2e901ddb519f7a31bbbf4/planqk-quantum-1.8.3.tar.gz
+[2023-07-06 12:32:01] INFO root fetch - processPackages [p-ttauto-crawler]: executing diffoscope
+[2023-07-06 12:32:01] INFO root fetch - processPackages [p-ttauto-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-ttauto-crawler-0.1.8.tar.gz tmp/p-ttauto-crawler-0.1.9.tar.gz --markdown 20230706/p/p-ttauto-crawler/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-06 12:32:01] INFO root fetch - processPackages [dtstools]: Downloading https://files.pythonhosted.org/packages/7f/38/11588babcd3a6ca94873cdaf34b93597262c38b2442ccb41b386b9882453/dtstools-0.0.5.tar.gz
+[2023-07-06 12:32:01] INFO root fetch - processPackages [kili]: executing diffoscope
+[2023-07-06 12:32:01] INFO root fetch - processPackages [kili]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kili-2.98.0.tar.gz tmp/kili-2.99.0.tar.gz --markdown 20230706/k/kili/2.98.0-2.99.0/diff.md --exclude *.pyd
+[2023-07-06 12:32:01] INFO root fetch - processPackages [fabcohort]: Downloading https://files.pythonhosted.org/packages/c7/f9/0a94cda43004028a8b8444fa3f032539d19e42be8f68c82171cb151e4912/fabcohort-0.3.0.tar.gz
+[2023-07-06 12:32:01] INFO root fetch - processPackages [ocellus]: Downloading https://files.pythonhosted.org/packages/f3/63/285743adccf20de528ee014f0adc6558116e656fd4eb4e90ba81deab4a6e/ocellus-0.1.9.tar.gz
+[2023-07-06 12:32:01] INFO root fetch - processPackages [planqk-quantum]: executing diffoscope
+[2023-07-06 12:32:01] INFO root fetch - processPackages [planqk-quantum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planqk-quantum-1.8.2.tar.gz tmp/planqk-quantum-1.8.3.tar.gz --markdown 20230706/p/planqk-quantum/1.8.2-1.8.3/diff.md --exclude *.pyd
+[2023-07-06 12:32:01] INFO root fetch - processPackages [dtstools]: executing diffoscope
+[2023-07-06 12:32:01] INFO root fetch - processPackages [dtstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtstools-0.0.4.tar.gz tmp/dtstools-0.0.5.tar.gz --markdown 20230706/d/dtstools/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-06 12:32:01] INFO root fetch - processPackages [feloopy]: Downloading https://files.pythonhosted.org/packages/20/80/a9bec376e228229c3371e38dafde9499adc679bbde60749590b0309d1403/feloopy-0.2.6.tar.gz
+[2023-07-06 12:32:01] INFO root fetch - processPackages [ocellus]: executing diffoscope
+[2023-07-06 12:32:01] INFO root fetch - processPackages [ocellus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocellus-0.1.81.tar.gz tmp/ocellus-0.1.9.tar.gz --markdown 20230706/o/ocellus/0.1.81-0.1.9/diff.md --exclude *.pyd
+[2023-07-06 12:32:01] INFO root fetch - processPackages [fabcohort]: executing diffoscope
+[2023-07-06 12:32:01] INFO root fetch - processPackages [fabcohort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabcohort-0.2.5.tar.gz tmp/fabcohort-0.3.0.tar.gz --markdown 20230706/f/fabcohort/0.2.5-0.3.0/diff.md --exclude *.pyd
+[2023-07-06 12:32:01] INFO root fetch - processPackages [feloopy]: executing diffoscope
+[2023-07-06 12:32:01] INFO root fetch - processPackages [feloopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feloopy-0.2.5.tar.gz tmp/feloopy-0.2.6.tar.gz --markdown 20230706/f/feloopy/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-06 12:32:02] INFO root fetch - processPackages [stc-geck]: Remove: archive file [/home/abi/fetcher/tmp/stc-geck-1.2.5.tar.gz]
+[2023-07-06 12:32:02] INFO root fetch - processPackages [stc-geck]: Remove: archive file [/home/abi/fetcher/tmp/stc-geck-1.2.6.tar.gz]
+[2023-07-06 12:32:02] INFO root fetch - processPackages [stc-geck]: Start processing: payok.io
+[2023-07-06 12:32:02] INFO root fetch - main [MainThread]: End processing [stc-geck]: success
+[2023-07-06 12:32:02] INFO root fetch - processPackages [stc-geck]: Start processing: th2-check2-recon
+[2023-07-06 12:32:02] INFO root fetch - main [MainThread]: End processing [stc-geck]: success
+[2023-07-06 12:32:02] INFO root fetch - processPackages [th2-check2-recon]: New version: [4.0.0.dev4312132973] Old Version: [4.0.0.dev3884233338]
+[2023-07-06 12:32:02] INFO root fetch - processPackages [sirqle]: Remove: archive file [/home/abi/fetcher/tmp/sirqle-0.2.7.tar.gz]
+[2023-07-06 12:32:02] INFO root fetch - processPackages [sirqle]: Remove: archive file [/home/abi/fetcher/tmp/sirqle-0.2.8.tar.gz]
+[2023-07-06 12:32:02] INFO root fetch - processPackages [sirqle]: Start processing: printipy-new
+[2023-07-06 12:32:02] INFO root fetch - main [MainThread]: End processing [sirqle]: success
+[2023-07-06 12:32:02] INFO root fetch - processPackages [payok.io]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-06 12:32:03] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.1.8.tar.gz]
+[2023-07-06 12:32:03] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.1.9.tar.gz]
+[2023-07-06 12:32:03] INFO root fetch - processPackages [p-ttauto-crawler]: Start processing: Websocketee
+[2023-07-06 12:32:03] INFO root fetch - main [MainThread]: End processing [p-ttauto-crawler]: success
+[2023-07-06 12:32:03] INFO root fetch - processPackages [th2-check2-recon]: Downloading https://files.pythonhosted.org/packages/21/8e/29b366312c8bd19e0082fa999b1a20cdf5c0870a085a5a70323b731808e3/th2_check2_recon-4.0.0.dev3884233338.tar.gz
+[2023-07-06 12:32:03] INFO root fetch - processPackages [planqk-quantum]: Remove: archive file [/home/abi/fetcher/tmp/planqk-quantum-1.8.2.tar.gz]
+[2023-07-06 12:32:03] INFO root fetch - processPackages [planqk-quantum]: Remove: archive file [/home/abi/fetcher/tmp/planqk-quantum-1.8.3.tar.gz]
+[2023-07-06 12:32:03] INFO root fetch - processPackages [planqk-quantum]: Start processing: scikit-misc
+[2023-07-06 12:32:03] INFO root fetch - main [MainThread]: End processing [planqk-quantum]: success
+[2023-07-06 12:32:03] WARNING root fetch - processPackages [printipy-new]: Skipping, unable to determine old version
+[2023-07-06 12:32:03] INFO root fetch - main [MainThread]: End processing [printipy-new] error
+[2023-07-06 12:32:03] INFO root fetch - processPackages [Websocketee]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-06 12:32:03] INFO root fetch - processPackages [scikit-misc]: New version: [0.3.0] Old Version: [0.2.0rc4]
+[2023-07-06 12:32:03] INFO root fetch - processPackages [payok.io]: Downloading https://files.pythonhosted.org/packages/22/3c/9d84ac66cac12284d0b5160d73f16e54ce965184d90f0c8317599e2aa058/payok.io-1.0.5.tar.gz
+[2023-07-06 12:32:03] INFO root fetch - processPackages [scikit-misc]: Downloading https://files.pythonhosted.org/packages/1f/8f/8e2d7ed6069d7ec772de14a463ca455258e4d0afd9008433d7ed4543136c/scikit_misc-0.2.0rc4-cp39-cp39-macosx_12_0_arm64.whl
+[2023-07-06 12:32:03] INFO root fetch - processPackages [Websocketee]: Downloading https://files.pythonhosted.org/packages/f3/b1/2a27e44ff1fa867cb0ac914526121e7aa67c6ea86d9a2b83971542e65cb4/Websocketee-1.0.2.tar.gz
+[2023-07-06 12:32:03] INFO root fetch - processPackages [kili]: Remove: archive file [/home/abi/fetcher/tmp/kili-2.98.0.tar.gz]
+[2023-07-06 12:32:03] INFO root fetch - processPackages [kili]: Remove: archive file [/home/abi/fetcher/tmp/kili-2.99.0.tar.gz]
+[2023-07-06 12:32:03] INFO root fetch - main [MainThread]: End processing [kili]: success
+[2023-07-06 12:32:03] INFO root fetch - processPackages [dtstools]: Remove: archive file [/home/abi/fetcher/tmp/dtstools-0.0.4.tar.gz]
+[2023-07-06 12:32:03] INFO root fetch - processPackages [dtstools]: Remove: archive file [/home/abi/fetcher/tmp/dtstools-0.0.5.tar.gz]
+[2023-07-06 12:32:03] INFO root fetch - main [MainThread]: End processing [dtstools]: success
+[2023-07-06 12:32:03] INFO root fetch - processPackages [fabcohort]: Remove: archive file [/home/abi/fetcher/tmp/fabcohort-0.2.5.tar.gz]
+[2023-07-06 12:32:03] INFO root fetch - processPackages [fabcohort]: Remove: archive file [/home/abi/fetcher/tmp/fabcohort-0.3.0.tar.gz]
+[2023-07-06 12:32:03] INFO root fetch - main [MainThread]: End processing [fabcohort]: success
+[2023-07-06 12:32:03] INFO root fetch - processPackages [th2-check2-recon]: Downloading https://files.pythonhosted.org/packages/17/cd/330081b9a886f5f5194c556f84e05cb2e324ec5d1b3922530f3a9efc04f2/th2_check2_recon-4.0.0.dev4312132973.tar.gz
+[2023-07-06 12:32:03] INFO root fetch - processPackages [ocellus]: Remove: archive file [/home/abi/fetcher/tmp/ocellus-0.1.81.tar.gz]
+[2023-07-06 12:32:03] INFO root fetch - processPackages [ocellus]: Remove: archive file [/home/abi/fetcher/tmp/ocellus-0.1.9.tar.gz]
+[2023-07-06 12:32:03] INFO root fetch - main [MainThread]: End processing [ocellus]: success
+[2023-07-06 12:32:03] INFO root fetch - processPackages [th2-check2-recon]: executing diffoscope
+[2023-07-06 12:32:03] INFO root fetch - processPackages [th2-check2-recon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_check2_recon-4.0.0.dev3884233338.tar.gz tmp/th2_check2_recon-4.0.0.dev4312132973.tar.gz --markdown 20230706/t/th2-check2-recon/4.0.0.dev3884233338-4.0.0.dev4312132973/diff.md --exclude *.pyd
+[2023-07-06 12:32:03] INFO root fetch - processPackages [payok.io]: Downloading https://files.pythonhosted.org/packages/a2/c9/3cce0b4bd49160af24ec49ae981f9b97a36c708553fa41fd084d0854c11a/payok.io-1.0.6.tar.gz
+[2023-07-06 12:32:03] INFO root fetch - processPackages [Websocketee]: Downloading https://files.pythonhosted.org/packages/ce/8d/4bc6ded17540b8b7337fcbf90330a75fbc510ff25ba6c884751c4ff3064d/Websocketee-1.0.3.tar.gz
+[2023-07-06 12:32:03] INFO root fetch - processPackages [Websocketee]: executing diffoscope
+[2023-07-06 12:32:03] INFO root fetch - processPackages [Websocketee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Websocketee-1.0.2.tar.gz tmp/Websocketee-1.0.3.tar.gz --markdown 20230706/W/Websocketee/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-06 12:32:03] INFO root fetch - processPackages [payok.io]: executing diffoscope
+[2023-07-06 12:32:03] INFO root fetch - processPackages [payok.io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/payok.io-1.0.5.tar.gz tmp/payok.io-1.0.6.tar.gz --markdown 20230706/p/payok.io/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-06 12:32:04] INFO root fetch - processPackages [feloopy]: Remove: archive file [/home/abi/fetcher/tmp/feloopy-0.2.5.tar.gz]
+[2023-07-06 12:32:04] INFO root fetch - processPackages [feloopy]: Remove: archive file [/home/abi/fetcher/tmp/feloopy-0.2.6.tar.gz]
+[2023-07-06 12:32:04] INFO root fetch - main [MainThread]: End processing [feloopy]: success
+[2023-07-06 12:32:04] INFO root fetch - processPackages [th2-check2-recon]: Remove: archive file [/home/abi/fetcher/tmp/th2_check2_recon-4.0.0.dev3884233338.tar.gz]
+[2023-07-06 12:32:04] INFO root fetch - processPackages [th2-check2-recon]: Remove: archive file [/home/abi/fetcher/tmp/th2_check2_recon-4.0.0.dev4312132973.tar.gz]
+[2023-07-06 12:32:04] INFO root fetch - main [MainThread]: End processing [th2-check2-recon]: success
+[2023-07-06 12:32:04] INFO root fetch - processPackages [payok.io]: Remove: archive file [/home/abi/fetcher/tmp/payok.io-1.0.5.tar.gz]
+[2023-07-06 12:32:04] INFO root fetch - processPackages [payok.io]: Remove: archive file [/home/abi/fetcher/tmp/payok.io-1.0.6.tar.gz]
+[2023-07-06 12:32:04] INFO root fetch - main [MainThread]: End processing [payok.io]: success
+[2023-07-06 12:32:04] INFO root fetch - processPackages [Websocketee]: Remove: archive file [/home/abi/fetcher/tmp/Websocketee-1.0.2.tar.gz]
+[2023-07-06 12:32:04] INFO root fetch - processPackages [Websocketee]: Remove: archive file [/home/abi/fetcher/tmp/Websocketee-1.0.3.tar.gz]
+[2023-07-06 12:32:04] INFO root fetch - main [MainThread]: End processing [Websocketee]: success
+[2023-07-06 12:32:04] INFO root fetch - processPackages [scikit-misc]: Downloading https://files.pythonhosted.org/packages/ea/bb/590124a8a674dd87da72785be8ba942684e758d516ec0b13332a1d3b8671/scikit_misc-0.3.0.tar.gz
+[2023-07-06 12:32:04] INFO root fetch - processPackages [scikit-misc]: executing diffoscope
+[2023-07-06 12:32:04] INFO root fetch - processPackages [scikit-misc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit_misc-0.2.0rc4-cp39-cp39-macosx_12_0_arm64.whl.zip tmp/scikit_misc-0.3.0.tar.gz --markdown 20230706/s/scikit-misc/0.2.0rc4-0.3.0/diff.md --exclude *.pyd
+[2023-07-06 12:32:08] INFO root fetch - processPackages [scikit-misc]: Remove: archive file [/home/abi/fetcher/tmp/scikit_misc-0.2.0rc4-cp39-cp39-macosx_12_0_arm64.whl.zip]
+[2023-07-06 12:32:08] INFO root fetch - processPackages [scikit-misc]: Remove: archive file [/home/abi/fetcher/tmp/scikit_misc-0.3.0.tar.gz]
+[2023-07-06 12:32:08] INFO root fetch - main [MainThread]: End processing [scikit-misc]: success
+[2023-07-06 12:32:08] INFO root fetch - main [MainThread]: Store serial: [18781972]
