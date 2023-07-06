@@ -11013,3 +11013,76 @@ AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
 [2023-07-06 05:48:30] INFO root fetch - processPackages [enfugue]: Remove: archive file [/home/abi/fetcher/tmp/enfugue-0.1.3.tar.gz]
 [2023-07-06 05:48:30] INFO root fetch - main [MainThread]: End processing [enfugue]: success
 [2023-07-06 05:48:30] INFO root fetch - main [MainThread]: Store serial: [18778079]
+[2023-07-06 05:53:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18778079]
+[2023-07-06 05:53:39] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-06 05:53:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lys-python
+[2023-07-06 05:53:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mynacode
+[2023-07-06 05:53:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: macrometa-target-oracle
+[2023-07-06 05:53:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MeUtils
+[2023-07-06 05:53:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-l10n-it-intrastat-statement
+[2023-07-06 05:53:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fnum
+[2023-07-06 05:53:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-l10n-it-intrastat
+[2023-07-06 05:53:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mynacode
+[2023-07-06 05:53:40] INFO root fetch - processPackages [lys-python]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-06 05:53:40] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-06 05:53:40] INFO root fetch - processPackages [odoo14-addon-l10n-it-intrastat-statement]: New version: [14.0.1.3.1.dev2] Old Version: [14.0.1.3.1.dev1]
+[2023-07-06 05:53:40] INFO root fetch - processPackages [macrometa-target-oracle]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-06 05:53:40] INFO root fetch - processPackages [fnum]: New version: [1.0.0] Old Version: [0.2.0]
+[2023-07-06 05:53:40] INFO root fetch - processPackages [odoo14-addon-l10n-it-intrastat]: New version: [14.0.1.3.1.dev6] Old Version: [14.0.1.3.1.dev5]
+[2023-07-06 05:53:40] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-06 05:53:40] INFO root fetch - processPackages [MeUtils]: New version: [2023.7.6.9.18.40] Old Version: [2023.7.6.9.11.22]
+[2023-07-06 05:53:40] INFO root fetch - processPackages [fnum]: Downloading https://files.pythonhosted.org/packages/da/46/b35c6dee081fdf2fe9a19f1bba535de928c32b177c8b1dada6a665b3ea7c/fnum-0.2.0-py3-none-any.whl
+[2023-07-06 05:53:40] INFO root fetch - processPackages [macrometa-target-oracle]: Downloading https://files.pythonhosted.org/packages/82/99/f3e5382ca98ef838495d604622fb6caa16bbf9bbd42d760ceb249efede01/macrometa-target-oracle-0.0.2.tar.gz
+[2023-07-06 05:53:40] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/88/b4/8f3d255eba4d9bf5fe16efab15e0b73b1f4e3e247cfb179b7fb2434e1358/MeUtils-2023.7.6.9.11.22.tar.gz
+[2023-07-06 05:53:40] INFO root fetch - processPackages [lys-python]: Downloading https://files.pythonhosted.org/packages/41/43/733b5c4f68e24d59bc07157a60c3c02d5e125f9d25e869b806229ec637f6/lys_python-0.3.1-py3-none-any.whl
+[2023-07-06 05:53:40] INFO root fetch - processPackages [odoo14-addon-l10n-it-intrastat-statement]: Downloading https://files.pythonhosted.org/packages/fb/3c/19229bddb041fb871779376cc01ebf68716e19ddbe1731273a018ae98fe3/odoo14_addon_l10n_it_intrastat_statement-14.0.1.3.1.dev1-py3-none-any.whl
+[2023-07-06 05:53:40] INFO root fetch - processPackages [odoo14-addon-l10n-it-intrastat]: Downloading https://files.pythonhosted.org/packages/98/ac/4d2b6b2cda5506e0e7f80705dff199353c66ea959b29849e3751438d5406/odoo14_addon_l10n_it_intrastat-14.0.1.3.1.dev5-py3-none-any.whl
+[2023-07-06 05:53:40] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-07-06 05:53:40] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-07-06 05:53:40] INFO root fetch - processPackages [fnum]: Downloading https://files.pythonhosted.org/packages/98/a2/fb96a4071997f2e7ac96de4b095f562bcf7a9bdce40a03806b2b7f06a72a/fnum-1.0.0-py3-none-any.whl
+[2023-07-06 05:53:40] INFO root fetch - processPackages [macrometa-target-oracle]: Downloading https://files.pythonhosted.org/packages/5a/a1/de875d45fa1f749798fb83b1808f433bf17c36da95ece9ab15ba5da5970c/macrometa-target-oracle-0.0.3.tar.gz
+[2023-07-06 05:53:40] INFO root fetch - processPackages [lys-python]: Downloading https://files.pythonhosted.org/packages/ed/03/47fc6572da6803cb24c114d77ca3feb7f7d25ee95780bb12a011e07c1051/lys-python-0.3.2.tar.gz
+[2023-07-06 05:53:40] INFO root fetch - processPackages [odoo14-addon-l10n-it-intrastat-statement]: Downloading https://files.pythonhosted.org/packages/77/5c/85adf30b54da6e18b879d3f689e61a81979bb5b65a9a87e951d4e9213d64/odoo14_addon_l10n_it_intrastat_statement-14.0.1.3.1.dev2-py3-none-any.whl
+[2023-07-06 05:53:40] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/03/c2/0074fedd9218c4324bec9cdbb7bc5f7c2c839ea18d1079a715c0d495a660/MeUtils-2023.7.6.9.18.40.tar.gz
+[2023-07-06 05:53:41] INFO root fetch - processPackages [fnum]: executing diffoscope
+[2023-07-06 05:53:41] INFO root fetch - processPackages [fnum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fnum-0.2.0-py3-none-any.whl.zip tmp/fnum-1.0.0-py3-none-any.whl.zip --markdown 20230706/f/fnum/0.2.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-06 05:53:41] INFO root fetch - processPackages [macrometa-target-oracle]: executing diffoscope
+[2023-07-06 05:53:41] INFO root fetch - processPackages [macrometa-target-oracle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-oracle-0.0.2.tar.gz tmp/macrometa-target-oracle-0.0.3.tar.gz --markdown 20230706/m/macrometa-target-oracle/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-06 05:53:41] INFO root fetch - processPackages [lys-python]: executing diffoscope
+[2023-07-06 05:53:41] INFO root fetch - processPackages [lys-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lys_python-0.3.1-py3-none-any.whl.zip tmp/lys-python-0.3.2.tar.gz --markdown 20230706/l/lys-python/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-06 05:53:41] INFO root fetch - processPackages [odoo14-addon-l10n-it-intrastat-statement]: executing diffoscope
+[2023-07-06 05:53:41] INFO root fetch - processPackages [odoo14-addon-l10n-it-intrastat-statement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_intrastat_statement-14.0.1.3.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_intrastat_statement-14.0.1.3.1.dev2-py3-none-any.whl.zip --markdown 20230706/o/odoo14-addon-l10n-it-intrastat-statement/14.0.1.3.1.dev1-14.0.1.3.1.dev2/diff.md --exclude *.pyd
+[2023-07-06 05:53:41] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-07-06 05:53:41] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-07-06 05:53:41] INFO root fetch - processPackages [odoo14-addon-l10n-it-intrastat]: Downloading https://files.pythonhosted.org/packages/90/dc/75b08f651fa613d27f506ff94b687fc5728b2d91ecec5cf820ccbf38e7bb/odoo14_addon_l10n_it_intrastat-14.0.1.3.1.dev6-py3-none-any.whl
+[2023-07-06 05:53:41] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-07-06 05:53:41] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230706/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-06 05:53:41] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-07-06 05:53:41] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230706/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-06 05:53:41] INFO root fetch - processPackages [odoo14-addon-l10n-it-intrastat]: executing diffoscope
+[2023-07-06 05:53:41] INFO root fetch - processPackages [odoo14-addon-l10n-it-intrastat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_intrastat-14.0.1.3.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_intrastat-14.0.1.3.1.dev6-py3-none-any.whl.zip --markdown 20230706/o/odoo14-addon-l10n-it-intrastat/14.0.1.3.1.dev5-14.0.1.3.1.dev6/diff.md --exclude *.pyd
+[2023-07-06 05:53:41] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-07-06 05:53:41] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.7.6.9.11.22.tar.gz tmp/MeUtils-2023.7.6.9.18.40.tar.gz --markdown 20230706/M/MeUtils/2023.7.6.9.11.22-2023.7.6.9.18.40/diff.md --exclude *.pyd
+[2023-07-06 05:53:42] INFO root fetch - processPackages [macrometa-target-oracle]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-oracle-0.0.2.tar.gz]
+[2023-07-06 05:53:42] INFO root fetch - processPackages [macrometa-target-oracle]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-oracle-0.0.3.tar.gz]
+[2023-07-06 05:53:42] INFO root fetch - main [MainThread]: End processing [macrometa-target-oracle]: success
+[2023-07-06 05:53:42] INFO root fetch - processPackages [fnum]: Remove: archive file [/home/abi/fetcher/tmp/fnum-0.2.0-py3-none-any.whl.zip]
+[2023-07-06 05:53:42] INFO root fetch - processPackages [fnum]: Remove: archive file [/home/abi/fetcher/tmp/fnum-1.0.0-py3-none-any.whl.zip]
+[2023-07-06 05:53:42] INFO root fetch - main [MainThread]: End processing [fnum]: success
+[2023-07-06 05:53:42] INFO root fetch - processPackages [lys-python]: Remove: archive file [/home/abi/fetcher/tmp/lys_python-0.3.1-py3-none-any.whl.zip]
+[2023-07-06 05:53:42] INFO root fetch - processPackages [lys-python]: Remove: archive file [/home/abi/fetcher/tmp/lys-python-0.3.2.tar.gz]
+[2023-07-06 05:53:42] INFO root fetch - main [MainThread]: End processing [lys-python]: success
+[2023-07-06 05:53:42] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-07-06 05:53:42] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-07-06 05:53:42] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-07-06 05:53:42] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-07-06 05:53:42] INFO root fetch - processPackages [odoo14-addon-l10n-it-intrastat-statement]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_intrastat_statement-14.0.1.3.1.dev1-py3-none-any.whl.zip]
+[2023-07-06 05:53:42] INFO root fetch - processPackages [odoo14-addon-l10n-it-intrastat-statement]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_intrastat_statement-14.0.1.3.1.dev2-py3-none-any.whl.zip]
+[2023-07-06 05:53:42] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-intrastat-statement]: success
+[2023-07-06 05:53:43] INFO root fetch - processPackages [odoo14-addon-l10n-it-intrastat]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_intrastat-14.0.1.3.1.dev5-py3-none-any.whl.zip]
+[2023-07-06 05:53:43] INFO root fetch - processPackages [odoo14-addon-l10n-it-intrastat]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_intrastat-14.0.1.3.1.dev6-py3-none-any.whl.zip]
+[2023-07-06 05:53:43] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-intrastat]: success
+[2023-07-06 05:53:45] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.6.9.11.22.tar.gz]
+[2023-07-06 05:53:45] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.6.9.18.40.tar.gz]
+[2023-07-06 05:53:45] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-07-06 05:53:45] INFO root fetch - main [MainThread]: Store serial: [18778105]
