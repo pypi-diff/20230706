@@ -19922,3 +19922,130 @@ AssertionError: tmp/termkit-0.2.0a4.tar.gz does not exist
 [2023-07-06 12:16:08] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-07-06 12:16:08] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
 [2023-07-06 12:16:08] INFO root fetch - main [MainThread]: Store serial: [18781729]
+[2023-07-06 12:21:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18781729]
+[2023-07-06 12:21:18] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-06 12:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Websocketee
+[2023-07-06 12:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RsCMPX-NrFr2Meas
+[2023-07-06 12:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpuparallel
+[2023-07-06 12:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyteseo
+[2023-07-06 12:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ccxt
+[2023-07-06 12:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: thainuki
+[2023-07-06 12:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mwj-apitest
+[2023-07-06 12:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rkvst-samples
+[2023-07-06 12:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: raclients
+[2023-07-06 12:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sh-dynamodb
+[2023-07-06 12:21:18] INFO root fetch - processPackages [raclients]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-07-06 12:21:18] INFO root fetch - processPackages [RsCMPX-NrFr2Meas]: New version: [4.0.7.4] Old Version: [4.0.7.3]
+[2023-07-06 12:21:18] WARNING root fetch - processPackages [thainuki]: Skipping, unable to determine old version
+[2023-07-06 12:21:18] INFO root fetch - processPackages [thainuki]: Start processing: InCli
+[2023-07-06 12:21:18] INFO root fetch - main [MainThread]: End processing [thainuki] error
+[2023-07-06 12:21:18] INFO root fetch - processPackages [rkvst-samples]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-07-06 12:21:18] INFO root fetch - processPackages [pyteseo]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-06 12:21:18] INFO root fetch - processPackages [sh-dynamodb]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-07-06 12:21:18] INFO root fetch - processPackages [mwj-apitest]: New version: [1.0.3] Old Version: [1.0.1]
+[2023-07-06 12:21:18] INFO root fetch - processPackages [gpuparallel]: New version: [0.2.2] Old Version: [0.0.4]
+[2023-07-06 12:21:18] INFO root fetch - processPackages [Websocketee]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-06 12:21:18] INFO root fetch - processPackages [ccxt]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-07-06 12:21:18] INFO root fetch - processPackages [InCli]: New version: [0.0.9] Old Version: [0.0.86]
+[2023-07-06 12:21:18] INFO root fetch - processPackages [raclients]: Downloading https://files.pythonhosted.org/packages/4f/b1/64f97cff5c786a4e9dbaabfefd4392b26e648acdec629239bc267d277daf/raclients-3.1.8.tar.gz
+[2023-07-06 12:21:18] INFO root fetch - processPackages [sh-dynamodb]: Downloading https://files.pythonhosted.org/packages/27/d7/02d7caeccf0caffd120b08e59e24d746a515ece9dccfc318f02a3625643a/sh-dynamodb-1.4.1.tar.gz
+[2023-07-06 12:21:18] INFO root fetch - processPackages [mwj-apitest]: Downloading https://files.pythonhosted.org/packages/01/d7/b8ea4dd18bb689f0def3526463ab937dd5b5c2d3f2a7652f0238e8cc0c4e/mwj-apitest-1.0.1.tar.gz
+[2023-07-06 12:21:18] INFO root fetch - processPackages [gpuparallel]: Downloading https://files.pythonhosted.org/packages/1b/23/da81d6326f74616322992e0031ca51c6ff6f3f7f371e38c1be06f4de0b31/gpuparallel-0.0.4.tar.gz
+[2023-07-06 12:21:18] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/ad/7d/8330d03fabbc3e43fd950e4c4fc50051c4c1ed03e1de206a341ccc8c1663/ccxt-4.0.8.tar.gz
+[2023-07-06 12:21:18] INFO root fetch - processPackages [Websocketee]: Downloading https://files.pythonhosted.org/packages/6e/de/cfb5c7d512934cdba1ccf49c0d898be9caf4f88a172f9f63756f965f3280/Websocketee-1.0.1.tar.gz
+[2023-07-06 12:21:18] INFO root fetch - processPackages [RsCMPX-NrFr2Meas]: Downloading https://files.pythonhosted.org/packages/b9/3f/0692a8c3dedfa3472067025a829b571ac97e5b14450802d970dfcbd1d440/RsCMPX_NrFr2Meas-4.0.7.3.tar.gz
+[2023-07-06 12:21:18] INFO root fetch - processPackages [rkvst-samples]: Downloading https://files.pythonhosted.org/packages/0d/a0/5a316a6155066ce810648d105dfed70839eed00bc11538223ba1f1e5174c/rkvst-samples-0.8.2.tar.gz
+[2023-07-06 12:21:18] INFO root fetch - processPackages [pyteseo]: Downloading https://files.pythonhosted.org/packages/d7/11/249c902c70a70ee2341b112ab1a27a21f91be38cdeb4c77333ae397bc73a/pyteseo-0.0.6.tar.gz
+[2023-07-06 12:21:19] WARNING root fetch - processPackages [rkvst-samples]: Skipping package: exceeds size limit 13331472>=10485760
+[2023-07-06 12:21:19] INFO root fetch - processPackages [rkvst-samples]: Start processing: macrometa-target-oracle
+[2023-07-06 12:21:19] INFO root fetch - main [MainThread]: End processing [rkvst-samples] error
+[2023-07-06 12:21:19] INFO root fetch - processPackages [InCli]: Downloading https://files.pythonhosted.org/packages/20/ec/6dbd7f8ce1635a8b4d68cdc62dd2a2656d501ea20b4fc75e9b4c93800e88/InCli-0.0.86.tar.gz
+[2023-07-06 12:21:19] INFO root fetch - processPackages [macrometa-target-oracle]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 12:21:19] INFO root fetch - processPackages [sh-dynamodb]: Downloading https://files.pythonhosted.org/packages/b6/ba/c58ca4da86df5ed9cb73dfffd1a810b8f0755bf47a76e7d7cea705929807/sh-dynamodb-1.4.2.tar.gz
+[2023-07-06 12:21:19] INFO root fetch - processPackages [raclients]: Downloading https://files.pythonhosted.org/packages/48/c4/b58be4238b6e6264a95009ab82bb72b157a9d2251e92d24e59705fbab5b9/raclients-3.1.9.tar.gz
+[2023-07-06 12:21:19] INFO root fetch - processPackages [macrometa-target-oracle]: Downloading https://files.pythonhosted.org/packages/a0/80/e2b08a616a27c8e81c0443ee41200ad4d121227c68ab6f394093dad44b33/macrometa-target-oracle-0.0.8.tar.gz
+[2023-07-06 12:21:19] INFO root fetch - processPackages [mwj-apitest]: Downloading https://files.pythonhosted.org/packages/df/c6/4d85f714ac90dc5cf620dc48b1b22c97877dfa067b1e5ff825231c442266/mwj-apitest-1.0.3.tar.gz
+[2023-07-06 12:21:19] INFO root fetch - processPackages [gpuparallel]: Downloading https://files.pythonhosted.org/packages/1e/ec/22ddbe8c2049093d39b3f2d5def58a7ae47f7ac3c90af0cc5726d636714b/gpuparallel-0.2.2.tar.gz
+[2023-07-06 12:21:19] INFO root fetch - processPackages [Websocketee]: Downloading https://files.pythonhosted.org/packages/f3/b1/2a27e44ff1fa867cb0ac914526121e7aa67c6ea86d9a2b83971542e65cb4/Websocketee-1.0.2.tar.gz
+[2023-07-06 12:21:19] INFO root fetch - processPackages [sh-dynamodb]: executing diffoscope
+[2023-07-06 12:21:19] INFO root fetch - processPackages [sh-dynamodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sh-dynamodb-1.4.1.tar.gz tmp/sh-dynamodb-1.4.2.tar.gz --markdown 20230706/s/sh-dynamodb/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-07-06 12:21:19] INFO root fetch - processPackages [InCli]: Downloading https://files.pythonhosted.org/packages/6a/6e/d591caed8f8487b2af06fff97fdb31d9656df795f592f703eff31d2091d5/InCli-0.0.9.tar.gz
+[2023-07-06 12:21:19] INFO root fetch - processPackages [mwj-apitest]: executing diffoscope
+[2023-07-06 12:21:19] INFO root fetch - processPackages [mwj-apitest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwj-apitest-1.0.1.tar.gz tmp/mwj-apitest-1.0.3.tar.gz --markdown 20230706/m/mwj-apitest/1.0.1-1.0.3/diff.md --exclude *.pyd
+[2023-07-06 12:21:19] INFO root fetch - processPackages [gpuparallel]: executing diffoscope
+[2023-07-06 12:21:19] INFO root fetch - processPackages [raclients]: executing diffoscope
+[2023-07-06 12:21:19] INFO root fetch - processPackages [gpuparallel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpuparallel-0.0.4.tar.gz tmp/gpuparallel-0.2.2.tar.gz --markdown 20230706/g/gpuparallel/0.0.4-0.2.2/diff.md --exclude *.pyd
+[2023-07-06 12:21:19] INFO root fetch - processPackages [raclients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raclients-3.1.8.tar.gz tmp/raclients-3.1.9.tar.gz --markdown 20230706/r/raclients/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-07-06 12:21:19] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/32/a5/e913d1abd897de7e300e2702f68a742f7dba4a8d682a377a41f7423bd968/ccxt-4.0.9.tar.gz
+[2023-07-06 12:21:19] INFO root fetch - processPackages [Websocketee]: executing diffoscope
+[2023-07-06 12:21:19] INFO root fetch - processPackages [Websocketee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Websocketee-1.0.1.tar.gz tmp/Websocketee-1.0.2.tar.gz --markdown 20230706/W/Websocketee/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-06 12:21:19] INFO root fetch - processPackages [InCli]: executing diffoscope
+[2023-07-06 12:21:19] INFO root fetch - processPackages [InCli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/InCli-0.0.86.tar.gz tmp/InCli-0.0.9.tar.gz --markdown 20230706/I/InCli/0.0.86-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 12:21:19] INFO root fetch - processPackages [macrometa-target-oracle]: Downloading https://files.pythonhosted.org/packages/f8/ce/aadb11448727303fc74399e4726f9128a801d5b6900e10ebdc91d4c6e5cd/macrometa-target-oracle-0.0.9.tar.gz
+[2023-07-06 12:21:19] INFO root fetch - processPackages [RsCMPX-NrFr2Meas]: Downloading https://files.pythonhosted.org/packages/2a/d9/2838afb1640c470521aa093f8b3f761a3f7280644111b005981fc7b6b655/RsCMPX_NrFr2Meas-4.0.7.4.tar.gz
+[2023-07-06 12:21:19] INFO root fetch - processPackages [macrometa-target-oracle]: executing diffoscope
+[2023-07-06 12:21:19] INFO root fetch - processPackages [macrometa-target-oracle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-oracle-0.0.8.tar.gz tmp/macrometa-target-oracle-0.0.9.tar.gz --markdown 20230706/m/macrometa-target-oracle/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 12:21:19] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-07-06 12:21:19] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-4.0.8.tar.gz tmp/ccxt-4.0.9.tar.gz --markdown 20230706/c/ccxt/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-07-06 12:21:19] INFO root fetch - processPackages [RsCMPX-NrFr2Meas]: executing diffoscope
+[2023-07-06 12:21:19] INFO root fetch - processPackages [RsCMPX-NrFr2Meas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RsCMPX_NrFr2Meas-4.0.7.3.tar.gz tmp/RsCMPX_NrFr2Meas-4.0.7.4.tar.gz --markdown 20230706/R/RsCMPX-NrFr2Meas/4.0.7.3-4.0.7.4/diff.md --exclude *.pyd
+[2023-07-06 12:21:20] INFO root fetch - processPackages [pyteseo]: Downloading https://files.pythonhosted.org/packages/cb/5e/4540bcc3add39abceb87cc25f5b36492b57f074ee4ac18aa5f352438bc8d/pyteseo-0.0.7.tar.gz
+[2023-07-06 12:21:20] INFO root fetch - processPackages [pyteseo]: executing diffoscope
+[2023-07-06 12:21:20] INFO root fetch - processPackages [pyteseo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyteseo-0.0.6.tar.gz tmp/pyteseo-0.0.7.tar.gz --markdown 20230706/p/pyteseo/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-06 12:21:20] INFO root fetch - processPackages [gpuparallel]: Remove: archive file [/home/abi/fetcher/tmp/gpuparallel-0.0.4.tar.gz]
+[2023-07-06 12:21:20] INFO root fetch - processPackages [gpuparallel]: Remove: archive file [/home/abi/fetcher/tmp/gpuparallel-0.2.2.tar.gz]
+[2023-07-06 12:21:20] INFO root fetch - processPackages [gpuparallel]: Start processing: django-idp-user
+[2023-07-06 12:21:20] INFO root fetch - main [MainThread]: End processing [gpuparallel]: success
+[2023-07-06 12:21:20] INFO root fetch - processPackages [sh-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/sh-dynamodb-1.4.1.tar.gz]
+[2023-07-06 12:21:20] INFO root fetch - processPackages [sh-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/sh-dynamodb-1.4.2.tar.gz]
+[2023-07-06 12:21:20] INFO root fetch - processPackages [sh-dynamodb]: Start processing: red-connector-ssh
+[2023-07-06 12:21:20] INFO root fetch - main [MainThread]: End processing [sh-dynamodb]: success
+[2023-07-06 12:21:21] INFO root fetch - processPackages [django-idp-user]: New version: [2.2.dev1] Old Version: [2.1.0]
+[2023-07-06 12:21:21] INFO root fetch - processPackages [raclients]: Remove: archive file [/home/abi/fetcher/tmp/raclients-3.1.8.tar.gz]
+[2023-07-06 12:21:21] INFO root fetch - processPackages [raclients]: Remove: archive file [/home/abi/fetcher/tmp/raclients-3.1.9.tar.gz]
+[2023-07-06 12:21:21] INFO root fetch - processPackages [raclients]: Start processing: raclients
+[2023-07-06 12:21:21] INFO root fetch - main [MainThread]: End processing [raclients]: success
+[2023-07-06 12:21:21] INFO root fetch - processPackages [Websocketee]: Remove: archive file [/home/abi/fetcher/tmp/Websocketee-1.0.1.tar.gz]
+[2023-07-06 12:21:21] INFO root fetch - processPackages [Websocketee]: Remove: archive file [/home/abi/fetcher/tmp/Websocketee-1.0.2.tar.gz]
+[2023-07-06 12:21:21] INFO root fetch - main [MainThread]: End processing [Websocketee]: success
+[2023-07-06 12:21:21] INFO root fetch - processPackages [red-connector-ssh]: New version: [1.3] Old Version: [1.2]
+[2023-07-06 12:21:21] INFO root fetch - processPackages [mwj-apitest]: Remove: archive file [/home/abi/fetcher/tmp/mwj-apitest-1.0.1.tar.gz]
+[2023-07-06 12:21:21] INFO root fetch - processPackages [mwj-apitest]: Remove: archive file [/home/abi/fetcher/tmp/mwj-apitest-1.0.3.tar.gz]
+[2023-07-06 12:21:21] INFO root fetch - main [MainThread]: End processing [mwj-apitest]: success
+[2023-07-06 12:21:21] INFO root fetch - processPackages [raclients]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-07-06 12:21:21] INFO root fetch - processPackages [InCli]: Remove: archive file [/home/abi/fetcher/tmp/InCli-0.0.86.tar.gz]
+[2023-07-06 12:21:21] INFO root fetch - processPackages [InCli]: Remove: archive file [/home/abi/fetcher/tmp/InCli-0.0.9.tar.gz]
+[2023-07-06 12:21:21] INFO root fetch - main [MainThread]: End processing [InCli]: success
+[2023-07-06 12:21:21] INFO root fetch - processPackages [raclients]: Downloading https://files.pythonhosted.org/packages/4f/b1/64f97cff5c786a4e9dbaabfefd4392b26e648acdec629239bc267d277daf/raclients-3.1.8.tar.gz
+[2023-07-06 12:21:21] INFO root fetch - processPackages [macrometa-target-oracle]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-oracle-0.0.8.tar.gz]
+[2023-07-06 12:21:21] INFO root fetch - processPackages [macrometa-target-oracle]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-oracle-0.0.9.tar.gz]
+[2023-07-06 12:21:21] INFO root fetch - main [MainThread]: End processing [macrometa-target-oracle]: success
+[2023-07-06 12:21:21] INFO root fetch - processPackages [red-connector-ssh]: Downloading https://files.pythonhosted.org/packages/e4/06/025ace5c91a3750646a150f7bff481caad39780b0096bef34ab7d1d481ce/red-connector-ssh-1.2.tar.gz
+[2023-07-06 12:21:21] INFO root fetch - processPackages [raclients]: Downloading https://files.pythonhosted.org/packages/48/c4/b58be4238b6e6264a95009ab82bb72b157a9d2251e92d24e59705fbab5b9/raclients-3.1.9.tar.gz
+[2023-07-06 12:21:21] INFO root fetch - processPackages [django-idp-user]: Downloading https://files.pythonhosted.org/packages/1b/95/d6b812c27aa23b597a185484a24f4781a52a4cb1a1348efb30d8320482ed/django_idp_user-2.2.dev1.tar.gz
+[2023-07-06 12:21:21] INFO root fetch - processPackages [raclients]: executing diffoscope
+[2023-07-06 12:21:21] INFO root fetch - processPackages [raclients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raclients-3.1.8.tar.gz tmp/raclients-3.1.9.tar.gz --markdown 20230706/r/raclients/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-07-06 12:21:21] INFO root fetch - processPackages [django-idp-user]: executing diffoscope
+[2023-07-06 12:21:21] INFO root fetch - processPackages [django-idp-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_idp_user-2.1.0.tar.gz tmp/django_idp_user-2.2.dev1.tar.gz --markdown 20230706/d/django-idp-user/2.1.0-2.2.dev1/diff.md --exclude *.pyd
+[2023-07-06 12:21:21] INFO root fetch - processPackages [red-connector-ssh]: Downloading https://files.pythonhosted.org/packages/d7/e1/a40a0567b416bac8cad5a3e3113044d56e0edab5b5500ab0bccf14573857/red-connector-ssh-1.3.tar.gz
+[2023-07-06 12:21:21] INFO root fetch - processPackages [red-connector-ssh]: executing diffoscope
+[2023-07-06 12:21:21] INFO root fetch - processPackages [red-connector-ssh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/red-connector-ssh-1.2.tar.gz tmp/red-connector-ssh-1.3.tar.gz --markdown 20230706/r/red-connector-ssh/1.2-1.3/diff.md --exclude *.pyd
+[2023-07-06 12:21:22] INFO root fetch - processPackages [raclients]: Remove: archive file [/home/abi/fetcher/tmp/raclients-3.1.8.tar.gz]
+[2023-07-06 12:21:22] INFO root fetch - processPackages [raclients]: Remove: archive file [/home/abi/fetcher/tmp/raclients-3.1.9.tar.gz]
+[2023-07-06 12:21:22] INFO root fetch - main [MainThread]: End processing [raclients]: success
+[2023-07-06 12:21:22] INFO root fetch - processPackages [django-idp-user]: Remove: archive file [/home/abi/fetcher/tmp/django_idp_user-2.1.0.tar.gz]
+[2023-07-06 12:21:22] INFO root fetch - processPackages [django-idp-user]: Remove: archive file [/home/abi/fetcher/tmp/django_idp_user-2.2.dev1.tar.gz]
+[2023-07-06 12:21:22] INFO root fetch - main [MainThread]: End processing [django-idp-user]: success
+[2023-07-06 12:21:22] INFO root fetch - processPackages [red-connector-ssh]: Remove: archive file [/home/abi/fetcher/tmp/red-connector-ssh-1.2.tar.gz]
+[2023-07-06 12:21:22] INFO root fetch - processPackages [red-connector-ssh]: Remove: archive file [/home/abi/fetcher/tmp/red-connector-ssh-1.3.tar.gz]
+[2023-07-06 12:21:22] INFO root fetch - main [MainThread]: End processing [red-connector-ssh]: success
+[2023-07-06 12:21:25] INFO root fetch - processPackages [RsCMPX-NrFr2Meas]: Remove: archive file [/home/abi/fetcher/tmp/RsCMPX_NrFr2Meas-4.0.7.3.tar.gz]
+[2023-07-06 12:21:25] INFO root fetch - processPackages [RsCMPX-NrFr2Meas]: Remove: archive file [/home/abi/fetcher/tmp/RsCMPX_NrFr2Meas-4.0.7.4.tar.gz]
+[2023-07-06 12:21:25] INFO root fetch - main [MainThread]: End processing [RsCMPX-NrFr2Meas]: success
+[2023-07-06 12:21:25] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.8.tar.gz]
+[2023-07-06 12:21:25] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.9.tar.gz]
+[2023-07-06 12:21:25] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-07-06 12:21:26] INFO root fetch - processPackages [pyteseo]: Remove: archive file [/home/abi/fetcher/tmp/pyteseo-0.0.6.tar.gz]
+[2023-07-06 12:21:26] INFO root fetch - processPackages [pyteseo]: Remove: archive file [/home/abi/fetcher/tmp/pyteseo-0.0.7.tar.gz]
+[2023-07-06 12:21:26] INFO root fetch - main [MainThread]: End processing [pyteseo]: success
+[2023-07-06 12:21:26] INFO root fetch - main [MainThread]: Store serial: [18781779]
