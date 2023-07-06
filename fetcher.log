@@ -13241,3 +13241,88 @@ AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
 [2023-07-06 08:20:33] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-07-06 08:20:34] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-07-06 08:20:34] INFO root fetch - main [MainThread]: Store serial: [18778965]
+[2023-07-06 08:25:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18778965]
+[2023-07-06 08:25:42] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-06 08:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycompall
+[2023-07-06 08:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mass-composition
+[2023-07-06 08:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lollms
+[2023-07-06 08:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OGDUtils
+[2023-07-06 08:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lodkit
+[2023-07-06 08:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-07-06 08:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zope.app.apidoc
+[2023-07-06 08:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: imarkdown
+[2023-07-06 08:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fake-bpy-module-latest
+[2023-07-06 08:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lollms
+[2023-07-06 08:25:43] INFO root fetch - processPackages [pycompall]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-07-06 08:25:43] INFO root fetch - processPackages [OGDUtils]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-06 08:25:43] INFO root fetch - processPackages [zope.app.apidoc]: New version: [5.0] Old Version: [4.3.0]
+[2023-07-06 08:25:43] WARNING root fetch - processPackages [imarkdown]: Skipping, unable to determine old version
+[2023-07-06 08:25:43] INFO root fetch - main [MainThread]: End processing [imarkdown] error
+[2023-07-06 08:25:43] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-07-06 08:25:43] INFO root fetch - processPackages [mass-composition]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-06 08:25:43] INFO root fetch - processPackages [lodkit]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-06 08:25:43] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230705] Old Version: [20230704]
+[2023-07-06 08:25:43] INFO root fetch - processPackages [lollms]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-06 08:25:43] INFO root fetch - processPackages [lollms]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-06 08:25:43] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/55/8e/c10a453677812ff66a65c459737c99f6b99cc00da8cc2e27f3a1f924faa0/lollms-2.1.8.tar.gz
+[2023-07-06 08:25:43] INFO root fetch - processPackages [pycompall]: Downloading https://files.pythonhosted.org/packages/19/7b/fd9ad36d46f1085975aa402d09f264d0d26cdc48421df77c1857eb6ed6f7/pycompall-0.0.4.tar.gz
+[2023-07-06 08:25:43] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/0c/c8/04640e2e37307ab38ba3ad5d0410ecc2e2ba412d95f23693ec7bd43fd73c/fake-bpy-module-latest-20230704.tar.gz
+[2023-07-06 08:25:43] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/55/8e/c10a453677812ff66a65c459737c99f6b99cc00da8cc2e27f3a1f924faa0/lollms-2.1.8.tar.gz
+[2023-07-06 08:25:43] INFO root fetch - processPackages [OGDUtils]: Downloading https://files.pythonhosted.org/packages/c8/87/4f89741c11a59836f85d0a7dff6bc8d1fad11b300b64cd6d30100c81608d/OGDUtils-1.0.1.tar.gz
+[2023-07-06 08:25:43] INFO root fetch - processPackages [mass-composition]: Downloading https://files.pythonhosted.org/packages/c3/b9/841cc2b3e5d624d3f0d4611ab926933ef4275486ab60a4e31866620a05f7/mass_composition-0.1.8.tar.gz
+[2023-07-06 08:25:43] INFO root fetch - processPackages [lodkit]: Downloading https://files.pythonhosted.org/packages/73/87/4f079020bdedb7fe34265278b0b629af107d5c95d11bd30f9b9736dada4d/lodkit-0.1.0.tar.gz
+[2023-07-06 08:25:43] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-07-06 08:25:43] INFO root fetch - processPackages [zope.app.apidoc]: Downloading https://files.pythonhosted.org/packages/69/2f/b52dcb44b0a09ac88c5f6392817784edbccd12699ed9fcc01dfd97057867/zope.app.apidoc-4.3.0.tar.gz
+[2023-07-06 08:25:43] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/6a/83/7745db4a743155e7a857ec418630027696e10e7fb67dfd6805a2496bdb64/lollms-2.1.9.tar.gz
+[2023-07-06 08:25:43] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/6a/83/7745db4a743155e7a857ec418630027696e10e7fb67dfd6805a2496bdb64/lollms-2.1.9.tar.gz
+[2023-07-06 08:25:43] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/de/30/ef0127e2615f5e6453fee069eb9184259a7e75a91de437d90c815ac640b0/fake-bpy-module-latest-20230705.tar.gz
+[2023-07-06 08:25:44] INFO root fetch - processPackages [pycompall]: Downloading https://files.pythonhosted.org/packages/66/e0/8152e80c858b6473dea62999435965f3d4930f40541711fdb3c41d5fd414/pycompall-0.1.0.tar.gz
+[2023-07-06 08:25:44] INFO root fetch - processPackages [lollms]: executing diffoscope
+[2023-07-06 08:25:44] INFO root fetch - processPackages [lollms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lollms-2.1.8.tar.gz tmp/lollms-2.1.9.tar.gz --markdown 20230706/l/lollms/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-06 08:25:44] INFO root fetch - processPackages [lollms]: executing diffoscope
+[2023-07-06 08:25:44] INFO root fetch - processPackages [lollms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lollms-2.1.8.tar.gz tmp/lollms-2.1.9.tar.gz --markdown 20230706/l/lollms/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-06 08:25:44] INFO root fetch - processPackages [OGDUtils]: Downloading https://files.pythonhosted.org/packages/c4/de/808bfb1bf480c2d886335458217d5c4c7c1a47c158cc16f751a9a0985a66/OGDUtils-1.0.2.tar.gz
+[2023-07-06 08:25:44] INFO root fetch - processPackages [lodkit]: Downloading https://files.pythonhosted.org/packages/96/70/ccec899691a67c0b45f33c182af853e7c81463a12adfc87b32d949d7fafe/lodkit-0.1.1.tar.gz
+[2023-07-06 08:25:44] INFO root fetch - processPackages [OGDUtils]: executing diffoscope
+[2023-07-06 08:25:44] INFO root fetch - processPackages [OGDUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OGDUtils-1.0.1.tar.gz tmp/OGDUtils-1.0.2.tar.gz --markdown 20230706/O/OGDUtils/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-06 08:25:44] INFO root fetch - processPackages [pycompall]: executing diffoscope
+[2023-07-06 08:25:44] INFO root fetch - processPackages [pycompall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycompall-0.0.4.tar.gz tmp/pycompall-0.1.0.tar.gz --markdown 20230706/p/pycompall/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-07-06 08:25:44] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-07-06 08:25:44] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230704.tar.gz tmp/fake-bpy-module-latest-20230705.tar.gz --markdown 20230706/f/fake-bpy-module-latest/20230704-20230705/diff.md --exclude *.pyd
+[2023-07-06 08:25:44] INFO root fetch - processPackages [mass-composition]: Downloading https://files.pythonhosted.org/packages/4f/ea/2897c098efd0fa32ba87bc7885f3dfea4a69075a3aaec9f6f06641157246/mass_composition-0.1.9.tar.gz
+[2023-07-06 08:25:44] INFO root fetch - processPackages [zope.app.apidoc]: Downloading https://files.pythonhosted.org/packages/51/86/0dbf89720dbfc65f9088ece51bd77e4134db3088a550da3e2f325e5d335a/zope.app.apidoc-5.0.tar.gz
+[2023-07-06 08:25:44] INFO root fetch - processPackages [lodkit]: executing diffoscope
+[2023-07-06 08:25:44] INFO root fetch - processPackages [lodkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lodkit-0.1.0.tar.gz tmp/lodkit-0.1.1.tar.gz --markdown 20230706/l/lodkit/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-06 08:25:44] INFO root fetch - processPackages [mass-composition]: executing diffoscope
+[2023-07-06 08:25:44] INFO root fetch - processPackages [mass-composition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mass_composition-0.1.8.tar.gz tmp/mass_composition-0.1.9.tar.gz --markdown 20230706/m/mass-composition/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-06 08:25:44] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-07-06 08:25:44] INFO root fetch - processPackages [zope.app.apidoc]: executing diffoscope
+[2023-07-06 08:25:44] INFO root fetch - processPackages [zope.app.apidoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zope.app.apidoc-4.3.0.tar.gz tmp/zope.app.apidoc-5.0.tar.gz --markdown 20230706/z/zope.app.apidoc/4.3.0-5.0/diff.md --exclude *.pyd
+[2023-07-06 08:25:45] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-07-06 08:25:45] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230706/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-07-06 08:25:45] INFO root fetch - processPackages [pycompall]: Remove: archive file [/home/abi/fetcher/tmp/pycompall-0.0.4.tar.gz]
+[2023-07-06 08:25:45] INFO root fetch - processPackages [pycompall]: Remove: archive file [/home/abi/fetcher/tmp/pycompall-0.1.0.tar.gz]
+[2023-07-06 08:25:45] INFO root fetch - main [MainThread]: End processing [pycompall]: success
+[2023-07-06 08:25:45] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.1.8.tar.gz]
+[2023-07-06 08:25:45] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.1.9.tar.gz]
+[2023-07-06 08:25:45] INFO root fetch - main [MainThread]: End processing [lollms]: success
+[2023-07-06 08:25:45] INFO root fetch - main [MainThread]: End processing [lollms]: success
+[2023-07-06 08:25:45] INFO root fetch - processPackages [OGDUtils]: Remove: archive file [/home/abi/fetcher/tmp/OGDUtils-1.0.1.tar.gz]
+[2023-07-06 08:25:45] INFO root fetch - processPackages [OGDUtils]: Remove: archive file [/home/abi/fetcher/tmp/OGDUtils-1.0.2.tar.gz]
+[2023-07-06 08:25:45] INFO root fetch - main [MainThread]: End processing [OGDUtils]: success
+[2023-07-06 08:25:45] INFO root fetch - processPackages [lodkit]: Remove: archive file [/home/abi/fetcher/tmp/lodkit-0.1.0.tar.gz]
+[2023-07-06 08:25:45] INFO root fetch - processPackages [lodkit]: Remove: archive file [/home/abi/fetcher/tmp/lodkit-0.1.1.tar.gz]
+[2023-07-06 08:25:45] INFO root fetch - main [MainThread]: End processing [lodkit]: success
+[2023-07-06 08:25:45] INFO root fetch - processPackages [mass-composition]: Remove: archive file [/home/abi/fetcher/tmp/mass_composition-0.1.8.tar.gz]
+[2023-07-06 08:25:45] INFO root fetch - processPackages [mass-composition]: Remove: archive file [/home/abi/fetcher/tmp/mass_composition-0.1.9.tar.gz]
+[2023-07-06 08:25:45] INFO root fetch - main [MainThread]: End processing [mass-composition]: success
+[2023-07-06 08:25:46] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-07-06 08:25:46] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-07-06 08:25:46] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-07-06 08:25:46] INFO root fetch - processPackages [zope.app.apidoc]: Remove: archive file [/home/abi/fetcher/tmp/zope.app.apidoc-4.3.0.tar.gz]
+[2023-07-06 08:25:46] INFO root fetch - processPackages [zope.app.apidoc]: Remove: archive file [/home/abi/fetcher/tmp/zope.app.apidoc-5.0.tar.gz]
+[2023-07-06 08:25:46] INFO root fetch - main [MainThread]: End processing [zope.app.apidoc]: success
+[2023-07-06 08:25:48] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230704.tar.gz]
+[2023-07-06 08:25:48] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230705.tar.gz]
+[2023-07-06 08:25:48] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-07-06 08:25:48] INFO root fetch - main [MainThread]: Store serial: [18778997]
