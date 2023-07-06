@@ -9930,3 +9930,64 @@ AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
 [2023-07-06 04:49:41] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.6.tar.gz]
 [2023-07-06 04:49:41] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
 [2023-07-06 04:49:41] INFO root fetch - main [MainThread]: Store serial: [18777665]
+[2023-07-06 04:54:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18777665]
+[2023-07-06 04:54:55] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-06 04:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: windows-control
+[2023-07-06 04:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deepsparse
+[2023-07-06 04:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deepsparse-ent
+[2023-07-06 04:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deepllm
+[2023-07-06 04:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scriptime
+[2023-07-06 04:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shopee-xr-test-pypi-6
+[2023-07-06 04:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: infotools
+[2023-07-06 04:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vios
+[2023-07-06 04:54:55] INFO root fetch - processPackages [scriptime]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-06 04:54:55] INFO root fetch - processPackages [deepllm]: New version: [0.5.7] Old Version: [0.5.6]
+[2023-07-06 04:54:55] INFO root fetch - processPackages [windows-control]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-06 04:54:55] INFO root fetch - processPackages [deepsparse]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-07-06 04:54:55] INFO root fetch - processPackages [deepsparse-ent]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-07-06 04:54:55] WARNING root fetch - processPackages [shopee-xr-test-pypi-6]: Skipping, unable to determine old version
+[2023-07-06 04:54:55] INFO root fetch - main [MainThread]: End processing [shopee-xr-test-pypi-6] error
+[2023-07-06 04:54:55] INFO root fetch - processPackages [scriptime]: Downloading https://files.pythonhosted.org/packages/c7/ea/06decbe93d0b5cc77fb7362548e588472c5e012af1500ef87f7e095e8abb/scriptime-0.0.4.tar.gz
+[2023-07-06 04:54:55] INFO root fetch - processPackages [deepllm]: Downloading https://files.pythonhosted.org/packages/04/a4/d5a5792cd513334d774ba70f84a919ad347ad2c67cd811bbf38a9d8741b2/deepllm-0.5.6.tar.gz
+[2023-07-06 04:54:55] INFO root fetch - processPackages [vios]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-06 04:54:56] INFO root fetch - processPackages [windows-control]: Downloading https://files.pythonhosted.org/packages/4f/3d/154e9a2c2d4a829d0f8825e30572c9c676c3ed8f6250cf7ebc0f7f464bc0/windows_control-0.0.7.tar.gz
+[2023-07-06 04:54:56] INFO root fetch - processPackages [deepsparse]: Downloading https://files.pythonhosted.org/packages/b5/49/0043f5d95eea9d3c1859786175c817ab7d1d8a963c1cbe36c4219d55d6f1/deepsparse-1.5.1.tar.gz
+[2023-07-06 04:54:56] INFO root fetch - processPackages [infotools]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-06 04:54:56] INFO root fetch - processPackages [deepsparse-ent]: Downloading https://files.pythonhosted.org/packages/e6/fb/dbd7fee0cbeb3fa24d9c386916316060129efbaf80cbc5e29ffdda64b9af/deepsparse-ent-1.5.1.tar.gz
+[2023-07-06 04:54:56] INFO root fetch - processPackages [vios]: Downloading https://files.pythonhosted.org/packages/15/1e/362e2a248b022994cd9062a886a4a1143ad259b79773ab8204c42ea2b4e6/vios-1.0.5-py3-none-any.whl
+[2023-07-06 04:54:56] INFO root fetch - processPackages [scriptime]: Downloading https://files.pythonhosted.org/packages/70/5f/3bd8e3526b0626d58aefe9b757b64160d33d5afdafb583a6aad1fc5a2980/scriptime-0.0.5.tar.gz
+[2023-07-06 04:54:56] WARNING root fetch - processPackages [deepsparse]: Skipping package: exceeds size limit 41508688>=10485760
+[2023-07-06 04:54:56] INFO root fetch - main [MainThread]: End processing [deepsparse] error
+[2023-07-06 04:54:56] WARNING root fetch - processPackages [deepsparse-ent]: Skipping package: exceeds size limit 43151538>=10485760
+[2023-07-06 04:54:56] INFO root fetch - main [MainThread]: End processing [deepsparse-ent] error
+[2023-07-06 04:54:56] INFO root fetch - processPackages [scriptime]: executing diffoscope
+[2023-07-06 04:54:56] INFO root fetch - processPackages [scriptime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scriptime-0.0.4.tar.gz tmp/scriptime-0.0.5.tar.gz --markdown 20230706/s/scriptime/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-06 04:54:56] INFO root fetch - processPackages [infotools]: Downloading https://files.pythonhosted.org/packages/72/17/1a1466a705d5c7332a2125f00fe09f64b5bc6658fa21539dc93e0b3b3b3b/infotools-0.9.1.tar.gz
+[2023-07-06 04:54:56] INFO root fetch - processPackages [deepllm]: Downloading https://files.pythonhosted.org/packages/16/aa/86de666fdc121c4669dc756663290e9867d81547c376bee77461ba9bf250/deepllm-0.5.7.tar.gz
+[2023-07-06 04:54:56] INFO root fetch - processPackages [windows-control]: Downloading https://files.pythonhosted.org/packages/90/02/42ccc8fb5031f0094de312fb149da4e6561b22083a5447653bee377980fc/windows_control-0.0.8.tar.gz
+[2023-07-06 04:54:56] INFO root fetch - processPackages [deepllm]: executing diffoscope
+[2023-07-06 04:54:56] INFO root fetch - processPackages [deepllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepllm-0.5.6.tar.gz tmp/deepllm-0.5.7.tar.gz --markdown 20230706/d/deepllm/0.5.6-0.5.7/diff.md --exclude *.pyd
+[2023-07-06 04:54:56] INFO root fetch - processPackages [vios]: Downloading https://files.pythonhosted.org/packages/a6/15/61d2fa5efaddc2bd96f1b9821723683b2df28c04f787c7a15e01e003491d/vios-1.0.6-py3-none-any.whl
+[2023-07-06 04:54:56] INFO root fetch - processPackages [windows-control]: executing diffoscope
+[2023-07-06 04:54:56] INFO root fetch - processPackages [windows-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windows_control-0.0.7.tar.gz tmp/windows_control-0.0.8.tar.gz --markdown 20230706/w/windows-control/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-06 04:54:56] INFO root fetch - processPackages [infotools]: Downloading https://files.pythonhosted.org/packages/2e/13/d8cdc4aad926656c51165e4307a2f9e69993e3f20b0a051dd105e837dfe9/infotools-0.9.2.tar.gz
+[2023-07-06 04:54:56] INFO root fetch - processPackages [vios]: executing diffoscope
+[2023-07-06 04:54:56] INFO root fetch - processPackages [vios]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vios-1.0.5-py3-none-any.whl.zip tmp/vios-1.0.6-py3-none-any.whl.zip --markdown 20230706/v/vios/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-06 04:54:57] INFO root fetch - processPackages [infotools]: executing diffoscope
+[2023-07-06 04:54:57] INFO root fetch - processPackages [infotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infotools-0.9.1.tar.gz tmp/infotools-0.9.2.tar.gz --markdown 20230706/i/infotools/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-06 04:54:57] INFO root fetch - processPackages [scriptime]: Remove: archive file [/home/abi/fetcher/tmp/scriptime-0.0.4.tar.gz]
+[2023-07-06 04:54:57] INFO root fetch - processPackages [scriptime]: Remove: archive file [/home/abi/fetcher/tmp/scriptime-0.0.5.tar.gz]
+[2023-07-06 04:54:57] INFO root fetch - main [MainThread]: End processing [scriptime]: success
+[2023-07-06 04:54:57] INFO root fetch - processPackages [deepllm]: Remove: archive file [/home/abi/fetcher/tmp/deepllm-0.5.6.tar.gz]
+[2023-07-06 04:54:57] INFO root fetch - processPackages [deepllm]: Remove: archive file [/home/abi/fetcher/tmp/deepllm-0.5.7.tar.gz]
+[2023-07-06 04:54:57] INFO root fetch - main [MainThread]: End processing [deepllm]: success
+[2023-07-06 04:54:57] INFO root fetch - processPackages [windows-control]: Remove: archive file [/home/abi/fetcher/tmp/windows_control-0.0.7.tar.gz]
+[2023-07-06 04:54:57] INFO root fetch - processPackages [windows-control]: Remove: archive file [/home/abi/fetcher/tmp/windows_control-0.0.8.tar.gz]
+[2023-07-06 04:54:57] INFO root fetch - main [MainThread]: End processing [windows-control]: success
+[2023-07-06 04:54:57] INFO root fetch - processPackages [vios]: Remove: archive file [/home/abi/fetcher/tmp/vios-1.0.5-py3-none-any.whl.zip]
+[2023-07-06 04:54:57] INFO root fetch - processPackages [vios]: Remove: archive file [/home/abi/fetcher/tmp/vios-1.0.6-py3-none-any.whl.zip]
+[2023-07-06 04:54:57] INFO root fetch - main [MainThread]: End processing [vios]: success
+[2023-07-06 04:54:58] INFO root fetch - processPackages [infotools]: Remove: archive file [/home/abi/fetcher/tmp/infotools-0.9.1.tar.gz]
+[2023-07-06 04:54:58] INFO root fetch - processPackages [infotools]: Remove: archive file [/home/abi/fetcher/tmp/infotools-0.9.2.tar.gz]
+[2023-07-06 04:54:58] INFO root fetch - main [MainThread]: End processing [infotools]: success
+[2023-07-06 04:54:58] INFO root fetch - main [MainThread]: Store serial: [18777707]
