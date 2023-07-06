@@ -14634,3 +14634,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-06 09:37:12] INFO root fetch - processPackages [ctapipe-io-lst]: Remove: archive file [/home/abi/fetcher/tmp/ctapipe_io_lst-0.9.3.tar.gz]
 [2023-07-06 09:37:12] INFO root fetch - main [MainThread]: End processing [ctapipe-io-lst]: success
 [2023-07-06 09:37:12] INFO root fetch - main [MainThread]: Store serial: [18779617]
+[2023-07-06 09:42:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18779617]
+[2023-07-06 09:42:21] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-06 09:42:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pynmeagps
+[2023-07-06 09:42:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: QssStyle
+[2023-07-06 09:42:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: planqk-quantum
+[2023-07-06 09:42:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zope.lifecycleevent
+[2023-07-06 09:42:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scikit-optimizer
+[2023-07-06 09:42:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fa-models
+[2023-07-06 09:42:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyautotrace
+[2023-07-06 09:42:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: DS2STAC-Ingester
+[2023-07-06 09:42:21] INFO root fetch - processPackages [pynmeagps]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-06 09:42:22] WARNING root fetch - processPackages [scikit-optimizer]: Skipping, unable to determine old version
+[2023-07-06 09:42:22] INFO root fetch - main [MainThread]: End processing [scikit-optimizer] error
+[2023-07-06 09:42:22] INFO root fetch - processPackages [zope.lifecycleevent]: New version: [5.0] Old Version: [4.4]
+[2023-07-06 09:42:22] INFO root fetch - processPackages [planqk-quantum]: New version: [1.8.0] Old Version: [1.7.0]
+[2023-07-06 09:42:22] WARNING root fetch - processPackages [QssStyle]: Skipping, unable to determine old version
+[2023-07-06 09:42:22] INFO root fetch - main [MainThread]: End processing [QssStyle] error
+[2023-07-06 09:42:22] INFO root fetch - processPackages [pyautotrace]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-06 09:42:22] INFO root fetch - processPackages [fa-models]: New version: [1.0.74] Old Version: [1.0.73]
+[2023-07-06 09:42:22] WARNING root fetch - processPackages [DS2STAC-Ingester]: Skipping, unable to determine old version
+[2023-07-06 09:42:22] INFO root fetch - main [MainThread]: End processing [DS2STAC-Ingester] error
+[2023-07-06 09:42:22] INFO root fetch - processPackages [fa-models]: Downloading https://files.pythonhosted.org/packages/21/76/c7b66540bffe0075f422ec006c28cbd1946efd00d6f47db4e5f81bdea3dc/fa-models-1.0.73.tar.gz
+[2023-07-06 09:42:22] INFO root fetch - processPackages [pynmeagps]: Downloading https://files.pythonhosted.org/packages/86/11/d07532664983049560a2cc15cca1f126305db42affbcde1fa9a25fbb608e/pynmeagps-1.0.8.tar.gz
+[2023-07-06 09:42:22] INFO root fetch - processPackages [zope.lifecycleevent]: Downloading https://files.pythonhosted.org/packages/c5/d3/1ec0c4f0b5092cefcbf299161a4852ff94e22f82e5392f34d24df6fccfd2/zope.lifecycleevent-4.4.tar.gz
+[2023-07-06 09:42:22] INFO root fetch - processPackages [planqk-quantum]: Downloading https://files.pythonhosted.org/packages/6a/39/07a0b0d9aa5fbe66e434facd6e4529eb47ef21645cd9ef1569dda274446d/planqk-quantum-1.7.0.tar.gz
+[2023-07-06 09:42:22] INFO root fetch - processPackages [pyautotrace]: Downloading https://files.pythonhosted.org/packages/ae/7c/dc179b7396488fc5bed7ae03162216c2b026f0c20c0c3e620df42f6159fc/pyautotrace-0.0.2.tar.gz
+[2023-07-06 09:42:22] INFO root fetch - processPackages [fa-models]: Downloading https://files.pythonhosted.org/packages/dd/55/7cd4f9e353684ae65c6fae2d1625a80112b15830c60e230c54e29c87a9f0/fa-models-1.0.74.tar.gz
+[2023-07-06 09:42:22] INFO root fetch - processPackages [zope.lifecycleevent]: Downloading https://files.pythonhosted.org/packages/6e/6b/1129e5cfe99ad76a0987e9f00c5102c3d5219699e4dca5a0466337c2553f/zope.lifecycleevent-5.0.tar.gz
+[2023-07-06 09:42:22] INFO root fetch - processPackages [planqk-quantum]: Downloading https://files.pythonhosted.org/packages/ba/e5/66d73e8fdc89915575c868abcab45a7707b503d51ea8e84159e161bfa0d7/planqk-quantum-1.8.0.tar.gz
+[2023-07-06 09:42:22] INFO root fetch - processPackages [fa-models]: executing diffoscope
+[2023-07-06 09:42:22] INFO root fetch - processPackages [fa-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fa-models-1.0.73.tar.gz tmp/fa-models-1.0.74.tar.gz --markdown 20230706/f/fa-models/1.0.73-1.0.74/diff.md --exclude *.pyd
+[2023-07-06 09:42:22] INFO root fetch - processPackages [pyautotrace]: Downloading https://files.pythonhosted.org/packages/d0/08/2f8babae186c59ea51d0f31839c242d910b47779fef7d8ef155621130482/pyautotrace-0.0.3-cp39-cp39-win_amd64.whl
+[2023-07-06 09:42:22] INFO root fetch - processPackages [planqk-quantum]: executing diffoscope
+[2023-07-06 09:42:22] INFO root fetch - processPackages [planqk-quantum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planqk-quantum-1.7.0.tar.gz tmp/planqk-quantum-1.8.0.tar.gz --markdown 20230706/p/planqk-quantum/1.7.0-1.8.0/diff.md --exclude *.pyd
+[2023-07-06 09:42:22] INFO root fetch - processPackages [zope.lifecycleevent]: executing diffoscope
+[2023-07-06 09:42:22] INFO root fetch - processPackages [zope.lifecycleevent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zope.lifecycleevent-4.4.tar.gz tmp/zope.lifecycleevent-5.0.tar.gz --markdown 20230706/z/zope.lifecycleevent/4.4-5.0/diff.md --exclude *.pyd
+[2023-07-06 09:42:22] INFO root fetch - processPackages [pynmeagps]: Downloading https://files.pythonhosted.org/packages/f2/7c/538ebb6a9317ab0dad32cb32f0ed63512b095231228692c599a5989c34cf/pynmeagps-1.0.9.tar.gz
+[2023-07-06 09:42:23] INFO root fetch - processPackages [pyautotrace]: executing diffoscope
+[2023-07-06 09:42:23] INFO root fetch - processPackages [pyautotrace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyautotrace-0.0.2.tar.gz tmp/pyautotrace-0.0.3-cp39-cp39-win_amd64.whl.zip --markdown 20230706/p/pyautotrace/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-06 09:42:23] INFO root fetch - processPackages [pynmeagps]: executing diffoscope
+[2023-07-06 09:42:23] INFO root fetch - processPackages [pynmeagps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynmeagps-1.0.8.tar.gz tmp/pynmeagps-1.0.9.tar.gz --markdown 20230706/p/pynmeagps/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-06 09:42:23] INFO root fetch - processPackages [planqk-quantum]: Remove: archive file [/home/abi/fetcher/tmp/planqk-quantum-1.7.0.tar.gz]
+[2023-07-06 09:42:23] INFO root fetch - processPackages [planqk-quantum]: Remove: archive file [/home/abi/fetcher/tmp/planqk-quantum-1.8.0.tar.gz]
+[2023-07-06 09:42:23] INFO root fetch - main [MainThread]: End processing [planqk-quantum]: success
+[2023-07-06 09:42:23] INFO root fetch - processPackages [fa-models]: Remove: archive file [/home/abi/fetcher/tmp/fa-models-1.0.73.tar.gz]
+[2023-07-06 09:42:23] INFO root fetch - processPackages [fa-models]: Remove: archive file [/home/abi/fetcher/tmp/fa-models-1.0.74.tar.gz]
+[2023-07-06 09:42:23] INFO root fetch - main [MainThread]: End processing [fa-models]: success
+[2023-07-06 09:42:23] INFO root fetch - processPackages [zope.lifecycleevent]: Remove: archive file [/home/abi/fetcher/tmp/zope.lifecycleevent-4.4.tar.gz]
+[2023-07-06 09:42:23] INFO root fetch - processPackages [zope.lifecycleevent]: Remove: archive file [/home/abi/fetcher/tmp/zope.lifecycleevent-5.0.tar.gz]
+[2023-07-06 09:42:23] INFO root fetch - main [MainThread]: End processing [zope.lifecycleevent]: success
+[2023-07-06 09:42:24] INFO root fetch - processPackages [pyautotrace]: Remove: archive file [/home/abi/fetcher/tmp/pyautotrace-0.0.2.tar.gz]
+[2023-07-06 09:42:24] INFO root fetch - processPackages [pyautotrace]: Remove: archive file [/home/abi/fetcher/tmp/pyautotrace-0.0.3-cp39-cp39-win_amd64.whl.zip]
+[2023-07-06 09:42:24] INFO root fetch - main [MainThread]: End processing [pyautotrace]: success
+[2023-07-06 09:42:24] INFO root fetch - processPackages [pynmeagps]: Remove: archive file [/home/abi/fetcher/tmp/pynmeagps-1.0.8.tar.gz]
+[2023-07-06 09:42:24] INFO root fetch - processPackages [pynmeagps]: Remove: archive file [/home/abi/fetcher/tmp/pynmeagps-1.0.9.tar.gz]
+[2023-07-06 09:42:24] INFO root fetch - main [MainThread]: End processing [pynmeagps]: success
+[2023-07-06 09:42:24] INFO root fetch - main [MainThread]: Store serial: [18779661]
