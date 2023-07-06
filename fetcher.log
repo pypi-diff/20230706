@@ -17824,3 +17824,78 @@ AssertionError: tmp/termkit-0.2.0a4.tar.gz does not exist
 [2023-07-06 11:32:25] INFO root fetch - processPackages [shared-atomic-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/shared_atomic_enterprise-5!3.0.0-py39-none-win_amd64.whl.zip]
 [2023-07-06 11:32:25] INFO root fetch - main [MainThread]: End processing [shared-atomic-enterprise]: success
 [2023-07-06 11:32:25] INFO root fetch - main [MainThread]: Store serial: [18781076]
+[2023-07-06 11:37:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18781076]
+[2023-07-06 11:37:34] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-06 11:37:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-one-time-notices
+[2023-07-06 11:37:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: grizli
+[2023-07-06 11:37:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: segmentheepy-vagy-az
+[2023-07-06 11:37:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: InCli
+[2023-07-06 11:37:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: leap-model-parser
+[2023-07-06 11:37:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datawhispers
+[2023-07-06 11:37:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trainlogger
+[2023-07-06 11:37:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fastapi-amis-admin
+[2023-07-06 11:37:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wagtail-opengraph-image-generator
+[2023-07-06 11:37:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jitbf
+[2023-07-06 11:37:34] INFO root fetch - processPackages [datawhispers]: New version: [0.2.8.9] Old Version: [0.2.8.8]
+[2023-07-06 11:37:34] WARNING root fetch - processPackages [segmentheepy-vagy-az]: Skipping, unable to determine old version
+[2023-07-06 11:37:34] INFO root fetch - main [MainThread]: End processing [segmentheepy-vagy-az] error
+[2023-07-06 11:37:34] INFO root fetch - processPackages [django-one-time-notices]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-06 11:37:34] WARNING root fetch - processPackages [trainlogger]: Skipping, unable to determine old version
+[2023-07-06 11:37:34] INFO root fetch - main [MainThread]: End processing [trainlogger] error
+[2023-07-06 11:37:34] INFO root fetch - processPackages [InCli]: New version: [0.0.9] Old Version: [0.0.85]
+[2023-07-06 11:37:34] INFO root fetch - processPackages [leap-model-parser]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-06 11:37:34] INFO root fetch - processPackages [fastapi-amis-admin]: New version: [0.6.0a1] Old Version: [0.5.8]
+[2023-07-06 11:37:34] INFO root fetch - processPackages [grizli]: New version: [1.8.9] Old Version: [1.8.8]
+[2023-07-06 11:37:34] INFO root fetch - processPackages [wagtail-opengraph-image-generator]: New version: [2.0] Old Version: [1.1]
+[2023-07-06 11:37:34] INFO root fetch - processPackages [datawhispers]: Downloading https://files.pythonhosted.org/packages/f7/a5/1371be3a858dd4ba20bed760360f1f16026ee4163e0cdaf7ddd4cd6d43ec/datawhispers-0.2.8.8.tar.gz
+[2023-07-06 11:37:34] WARNING root fetch - processPackages [jitbf]: Skipping, unable to determine old version
+[2023-07-06 11:37:34] INFO root fetch - main [MainThread]: End processing [jitbf] error
+[2023-07-06 11:37:34] INFO root fetch - processPackages [fastapi-amis-admin]: Downloading https://files.pythonhosted.org/packages/c4/74/c74bf2740c7f591bb34d9eba661a64aeadc725df6cc37230a4962c257f96/fastapi_amis_admin-0.5.8.tar.gz
+[2023-07-06 11:37:34] INFO root fetch - processPackages [leap-model-parser]: Downloading https://files.pythonhosted.org/packages/9e/21/dca060e54af9d262ff3c7db5881970d454aabed10a4a09138f0f135d7271/leap_model_parser-0.1.98.tar.gz
+[2023-07-06 11:37:34] INFO root fetch - processPackages [django-one-time-notices]: Downloading https://files.pythonhosted.org/packages/f3/14/91dee13e93db7a284e3ac501237e2dd39d0837b1ace8fdc196baa9cf103d/django_one_time_notices-0.1.3.tar.gz
+[2023-07-06 11:37:35] INFO root fetch - processPackages [InCli]: Downloading https://files.pythonhosted.org/packages/74/2e/3a2c76ea75569244c09a8717ee8d1b39360cc30869f9f8e0da839826e88a/InCli-0.0.85.tar.gz
+[2023-07-06 11:37:35] INFO root fetch - processPackages [grizli]: Downloading https://files.pythonhosted.org/packages/84/df/83a334a427624911a9ea0ca02069df1000b94b8d99278675fcb1a4751c73/grizli-1.8.8.tar.gz
+[2023-07-06 11:37:35] INFO root fetch - processPackages [wagtail-opengraph-image-generator]: Downloading https://files.pythonhosted.org/packages/ea/44/8b0008125735a61495eaab80c36d5a000a91336ac30ba520c96f16bb3f9c/wagtail-opengraph-image-generator-1.1.tar.gz
+[2023-07-06 11:37:35] INFO root fetch - processPackages [leap-model-parser]: Downloading https://files.pythonhosted.org/packages/de/85/627b6119883db46691990e41cb4a673afe0913625d499dc365b69c6fe6f6/leap_model_parser-0.1.99.tar.gz
+[2023-07-06 11:37:35] INFO root fetch - processPackages [InCli]: Downloading https://files.pythonhosted.org/packages/6a/6e/d591caed8f8487b2af06fff97fdb31d9656df795f592f703eff31d2091d5/InCli-0.0.9.tar.gz
+[2023-07-06 11:37:35] INFO root fetch - processPackages [datawhispers]: Downloading https://files.pythonhosted.org/packages/48/ce/98045686a05e3193cfe3f78cfc0721ab1333501126ba4832bd32dacebae7/datawhispers-0.2.8.9.tar.gz
+[2023-07-06 11:37:35] INFO root fetch - processPackages [django-one-time-notices]: Downloading https://files.pythonhosted.org/packages/59/ef/c11f94d150c3fe30f45a2186c727ba19d0f724b82a3b7b0ea7c9620e4599/django_one_time_notices-0.1.4.tar.gz
+[2023-07-06 11:37:35] INFO root fetch - processPackages [leap-model-parser]: executing diffoscope
+[2023-07-06 11:37:35] INFO root fetch - processPackages [leap-model-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leap_model_parser-0.1.98.tar.gz tmp/leap_model_parser-0.1.99.tar.gz --markdown 20230706/l/leap-model-parser/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-06 11:37:35] INFO root fetch - processPackages [InCli]: executing diffoscope
+[2023-07-06 11:37:35] INFO root fetch - processPackages [InCli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/InCli-0.0.85.tar.gz tmp/InCli-0.0.9.tar.gz --markdown 20230706/I/InCli/0.0.85-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 11:37:35] INFO root fetch - processPackages [fastapi-amis-admin]: Downloading https://files.pythonhosted.org/packages/3a/2a/7c6e4beb1279f41ff7ca254b39420a60f22fb3a5320b2ddf5a135a9d76b8/fastapi_amis_admin-0.6.0a1.tar.gz
+[2023-07-06 11:37:35] INFO root fetch - processPackages [datawhispers]: executing diffoscope
+[2023-07-06 11:37:35] INFO root fetch - processPackages [datawhispers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datawhispers-0.2.8.8.tar.gz tmp/datawhispers-0.2.8.9.tar.gz --markdown 20230706/d/datawhispers/0.2.8.8-0.2.8.9/diff.md --exclude *.pyd
+[2023-07-06 11:37:35] INFO root fetch - processPackages [django-one-time-notices]: executing diffoscope
+[2023-07-06 11:37:35] INFO root fetch - processPackages [django-one-time-notices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_one_time_notices-0.1.3.tar.gz tmp/django_one_time_notices-0.1.4.tar.gz --markdown 20230706/d/django-one-time-notices/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-06 11:37:35] INFO root fetch - processPackages [wagtail-opengraph-image-generator]: Downloading https://files.pythonhosted.org/packages/7d/0d/d217dff1b74f5dd1fcae9a1a738e0834f3cde21825e735a5492f56714b22/wagtail-opengraph-image-generator-2.0.tar.gz
+[2023-07-06 11:37:35] INFO root fetch - processPackages [fastapi-amis-admin]: executing diffoscope
+[2023-07-06 11:37:35] INFO root fetch - processPackages [fastapi-amis-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_amis_admin-0.5.8.tar.gz tmp/fastapi_amis_admin-0.6.0a1.tar.gz --markdown 20230706/f/fastapi-amis-admin/0.5.8-0.6.0a1/diff.md --exclude *.pyd
+[2023-07-06 11:37:35] INFO root fetch - processPackages [wagtail-opengraph-image-generator]: executing diffoscope
+[2023-07-06 11:37:35] INFO root fetch - processPackages [wagtail-opengraph-image-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-opengraph-image-generator-1.1.tar.gz tmp/wagtail-opengraph-image-generator-2.0.tar.gz --markdown 20230706/w/wagtail-opengraph-image-generator/1.1-2.0/diff.md --exclude *.pyd
+[2023-07-06 11:37:37] INFO root fetch - processPackages [datawhispers]: Remove: archive file [/home/abi/fetcher/tmp/datawhispers-0.2.8.8.tar.gz]
+[2023-07-06 11:37:37] INFO root fetch - processPackages [datawhispers]: Remove: archive file [/home/abi/fetcher/tmp/datawhispers-0.2.8.9.tar.gz]
+[2023-07-06 11:37:37] INFO root fetch - main [MainThread]: End processing [datawhispers]: success
+[2023-07-06 11:37:37] INFO root fetch - processPackages [InCli]: Remove: archive file [/home/abi/fetcher/tmp/InCli-0.0.85.tar.gz]
+[2023-07-06 11:37:37] INFO root fetch - processPackages [InCli]: Remove: archive file [/home/abi/fetcher/tmp/InCli-0.0.9.tar.gz]
+[2023-07-06 11:37:37] INFO root fetch - main [MainThread]: End processing [InCli]: success
+[2023-07-06 11:37:37] INFO root fetch - processPackages [django-one-time-notices]: Remove: archive file [/home/abi/fetcher/tmp/django_one_time_notices-0.1.3.tar.gz]
+[2023-07-06 11:37:37] INFO root fetch - processPackages [django-one-time-notices]: Remove: archive file [/home/abi/fetcher/tmp/django_one_time_notices-0.1.4.tar.gz]
+[2023-07-06 11:37:37] INFO root fetch - main [MainThread]: End processing [django-one-time-notices]: success
+[2023-07-06 11:37:37] INFO root fetch - processPackages [grizli]: Downloading https://files.pythonhosted.org/packages/e1/f3/8d12e9615ea7469aa712ec22dea7bf95267fbba4b840d64b994e41f92b1d/grizli-1.8.9.tar.gz
+[2023-07-06 11:37:37] INFO root fetch - processPackages [wagtail-opengraph-image-generator]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-opengraph-image-generator-1.1.tar.gz]
+[2023-07-06 11:37:37] INFO root fetch - processPackages [wagtail-opengraph-image-generator]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-opengraph-image-generator-2.0.tar.gz]
+[2023-07-06 11:37:37] INFO root fetch - main [MainThread]: End processing [wagtail-opengraph-image-generator]: success
+[2023-07-06 11:37:37] INFO root fetch - processPackages [fastapi-amis-admin]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_amis_admin-0.5.8.tar.gz]
+[2023-07-06 11:37:37] INFO root fetch - processPackages [fastapi-amis-admin]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_amis_admin-0.6.0a1.tar.gz]
+[2023-07-06 11:37:37] INFO root fetch - main [MainThread]: End processing [fastapi-amis-admin]: success
+[2023-07-06 11:37:39] INFO root fetch - processPackages [grizli]: executing diffoscope
+[2023-07-06 11:37:39] INFO root fetch - processPackages [grizli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grizli-1.8.8.tar.gz tmp/grizli-1.8.9.tar.gz --markdown 20230706/g/grizli/1.8.8-1.8.9/diff.md --exclude *.pyd
+[2023-07-06 11:37:42] INFO root fetch - processPackages [grizli]: Remove: archive file [/home/abi/fetcher/tmp/grizli-1.8.8.tar.gz]
+[2023-07-06 11:37:42] INFO root fetch - processPackages [grizli]: Remove: archive file [/home/abi/fetcher/tmp/grizli-1.8.9.tar.gz]
+[2023-07-06 11:37:42] INFO root fetch - main [MainThread]: End processing [grizli]: success
+[2023-07-06 11:37:54] INFO root fetch - processPackages [leap-model-parser]: Remove: archive file [/home/abi/fetcher/tmp/leap_model_parser-0.1.98.tar.gz]
+[2023-07-06 11:37:54] INFO root fetch - processPackages [leap-model-parser]: Remove: archive file [/home/abi/fetcher/tmp/leap_model_parser-0.1.99.tar.gz]
+[2023-07-06 11:37:54] INFO root fetch - main [MainThread]: End processing [leap-model-parser]: success
+[2023-07-06 11:37:54] INFO root fetch - main [MainThread]: Store serial: [18781110]
