@@ -5381,3 +5381,86 @@ AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
 [2023-07-06 03:19:44] INFO root fetch - processPackages [duckdb]: Remove: archive file [/home/abi/fetcher/tmp/duckdb-0.8.2.dev161.tar.gz]
 [2023-07-06 03:19:44] INFO root fetch - main [MainThread]: End processing [duckdb]: success
 [2023-07-06 03:19:44] INFO root fetch - main [MainThread]: Store serial: [18775880]
+[2023-07-06 03:24:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18775880]
+[2023-07-06 03:24:53] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-06 03:24:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MeUtils
+[2023-07-06 03:24:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: blendscript
+[2023-07-06 03:24:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: symbolicai
+[2023-07-06 03:24:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: owe-python-sdk
+[2023-07-06 03:24:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: domini
+[2023-07-06 03:24:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bioviper
+[2023-07-06 03:24:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bioviper
+[2023-07-06 03:24:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: YASE
+[2023-07-06 03:24:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jysPackage
+[2023-07-06 03:24:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: langchain
+[2023-07-06 03:24:53] WARNING root fetch - processPackages [jysPackage]: Skipping, unable to determine old version
+[2023-07-06 03:24:53] INFO root fetch - processPackages [jysPackage]: Start processing: owe-python-sdk
+[2023-07-06 03:24:53] INFO root fetch - main [MainThread]: End processing [jysPackage] error
+[2023-07-06 03:24:53] INFO root fetch - processPackages [domini]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-06 03:24:53] INFO root fetch - processPackages [bioviper]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-06 03:24:53] INFO root fetch - processPackages [symbolicai]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-07-06 03:24:53] WARNING root fetch - processPackages [YASE]: Skipping, unable to determine old version
+[2023-07-06 03:24:53] INFO root fetch - processPackages [YASE]: Start processing: PrintTestByYinyi
+[2023-07-06 03:24:53] INFO root fetch - main [MainThread]: End processing [YASE] error
+[2023-07-06 03:24:53] WARNING root fetch - processPackages [blendscript]: Skipping, unable to determine old version
+[2023-07-06 03:24:53] INFO root fetch - main [MainThread]: End processing [blendscript] error
+[2023-07-06 03:24:53] INFO root fetch - processPackages [owe-python-sdk]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-07-06 03:24:53] INFO root fetch - processPackages [langchain]: New version: [0.0.99rc0] Old Version: [0.0.99]
+[2023-07-06 03:24:53] INFO root fetch - processPackages [MeUtils]: New version: [2023.7.6.9.18.40] Old Version: [2023.7.6.9.11.22]
+[2023-07-06 03:24:53] INFO root fetch - processPackages [bioviper]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-06 03:24:53] INFO root fetch - processPackages [owe-python-sdk]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-07-06 03:24:54] INFO root fetch - processPackages [symbolicai]: Downloading https://files.pythonhosted.org/packages/59/14/798e49c20397acd30771571396d3eda6fd597a03aa173eaff2f7291228e3/symbolicai-0.2.7-py3-none-any.whl
+[2023-07-06 03:24:54] INFO root fetch - processPackages [owe-python-sdk]: Downloading https://files.pythonhosted.org/packages/b7/87/2ed4496794411461faafd9b31cde5a571ee0b54f11200933d019777ca951/owe_python_sdk-0.0.1a8.tar.gz
+[2023-07-06 03:24:54] WARNING root fetch - processPackages [PrintTestByYinyi]: Skipping, unable to determine old version
+[2023-07-06 03:24:54] INFO root fetch - main [MainThread]: End processing [PrintTestByYinyi] error
+[2023-07-06 03:24:54] INFO root fetch - processPackages [bioviper]: Downloading https://files.pythonhosted.org/packages/24/9e/b32e3045438066d4a0ca171200b801bc61602bf1e83dacc67f9988b74e05/bioviper-0.1.2.tar.gz
+[2023-07-06 03:24:54] INFO root fetch - processPackages [bioviper]: Downloading https://files.pythonhosted.org/packages/24/9e/b32e3045438066d4a0ca171200b801bc61602bf1e83dacc67f9988b74e05/bioviper-0.1.2.tar.gz
+[2023-07-06 03:24:54] INFO root fetch - processPackages [owe-python-sdk]: Downloading https://files.pythonhosted.org/packages/b7/87/2ed4496794411461faafd9b31cde5a571ee0b54f11200933d019777ca951/owe_python_sdk-0.0.1a8.tar.gz
+[2023-07-06 03:24:54] INFO root fetch - processPackages [domini]: Downloading https://files.pythonhosted.org/packages/fd/4c/4e7602936520dd1b923d9fe6a0b0786f565f325d0e90d940c74e49a9c4f6/domini-0.8.1.tar.gz
+[2023-07-06 03:24:54] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/24/6a/f6c87d4ef49bae4d166fa3be99402f669acf9aa59b4d1d31342da0c57e32/langchain-0.0.99.tar.gz
+[2023-07-06 03:24:54] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/88/b4/8f3d255eba4d9bf5fe16efab15e0b73b1f4e3e247cfb179b7fb2434e1358/MeUtils-2023.7.6.9.11.22.tar.gz
+[2023-07-06 03:24:54] INFO root fetch - processPackages [owe-python-sdk]: Downloading https://files.pythonhosted.org/packages/31/27/a7a614b3213736597496297134f4cd10fd0ecee2f977d8e86784bb925c43/owe_python_sdk-0.0.1a9.tar.gz
+[2023-07-06 03:24:54] INFO root fetch - processPackages [owe-python-sdk]: Downloading https://files.pythonhosted.org/packages/31/27/a7a614b3213736597496297134f4cd10fd0ecee2f977d8e86784bb925c43/owe_python_sdk-0.0.1a9.tar.gz
+[2023-07-06 03:24:54] INFO root fetch - processPackages [bioviper]: Downloading https://files.pythonhosted.org/packages/2e/11/088e56ee6937f9039ea50b88ebc1d7671ae93b40a880650a307c0b1f2f7d/bioviper-0.2.0.tar.gz
+[2023-07-06 03:24:54] INFO root fetch - processPackages [bioviper]: Downloading https://files.pythonhosted.org/packages/2e/11/088e56ee6937f9039ea50b88ebc1d7671ae93b40a880650a307c0b1f2f7d/bioviper-0.2.0.tar.gz
+[2023-07-06 03:24:54] INFO root fetch - processPackages [owe-python-sdk]: executing diffoscope
+[2023-07-06 03:24:54] INFO root fetch - processPackages [owe-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owe_python_sdk-0.0.1a8.tar.gz tmp/owe_python_sdk-0.0.1a9.tar.gz --markdown 20230706/o/owe-python-sdk/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-07-06 03:24:54] INFO root fetch - processPackages [domini]: Downloading https://files.pythonhosted.org/packages/10/a1/8d0b9485632f78b1066a253d619af640bc2de3be60e39a542bdb08703bd1/domini-0.9.0.tar.gz
+[2023-07-06 03:24:54] INFO root fetch - processPackages [owe-python-sdk]: executing diffoscope
+[2023-07-06 03:24:54] INFO root fetch - processPackages [owe-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owe_python_sdk-0.0.1a8.tar.gz tmp/owe_python_sdk-0.0.1a9.tar.gz --markdown 20230706/o/owe-python-sdk/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-07-06 03:24:54] INFO root fetch - processPackages [symbolicai]: Downloading https://files.pythonhosted.org/packages/d4/20/d69129c72a905a1d7f198c70e94d4b5d966f97686ef827699d68d5da2a6c/symbolicai-0.2.9-py3-none-any.whl
+[2023-07-06 03:24:54] INFO root fetch - processPackages [bioviper]: executing diffoscope
+[2023-07-06 03:24:54] INFO root fetch - processPackages [bioviper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioviper-0.1.2.tar.gz tmp/bioviper-0.2.0.tar.gz --markdown 20230706/b/bioviper/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-07-06 03:24:54] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/8e/d3/a01f18d4cda1e4e2cbed8c15693f649fb439aab4b94f0c2a0ed636bbe505/langchain-0.0.99rc0.tar.gz
+[2023-07-06 03:24:54] INFO root fetch - processPackages [bioviper]: executing diffoscope
+[2023-07-06 03:24:54] INFO root fetch - processPackages [bioviper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioviper-0.1.2.tar.gz tmp/bioviper-0.2.0.tar.gz --markdown 20230706/b/bioviper/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-07-06 03:24:54] INFO root fetch - processPackages [domini]: executing diffoscope
+[2023-07-06 03:24:54] INFO root fetch - processPackages [domini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domini-0.8.1.tar.gz tmp/domini-0.9.0.tar.gz --markdown 20230706/d/domini/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-06 03:24:54] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2023-07-06 03:24:54] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.0.99.tar.gz tmp/langchain-0.0.99rc0.tar.gz --markdown 20230706/l/langchain/0.0.99-0.0.99rc0/diff.md --exclude *.pyd
+[2023-07-06 03:24:54] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/03/c2/0074fedd9218c4324bec9cdbb7bc5f7c2c839ea18d1079a715c0d495a660/MeUtils-2023.7.6.9.18.40.tar.gz
+[2023-07-06 03:24:55] INFO root fetch - processPackages [symbolicai]: executing diffoscope
+[2023-07-06 03:24:55] INFO root fetch - processPackages [symbolicai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symbolicai-0.2.7-py3-none-any.whl.zip tmp/symbolicai-0.2.9-py3-none-any.whl.zip --markdown 20230706/s/symbolicai/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-07-06 03:24:55] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-07-06 03:24:55] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.7.6.9.11.22.tar.gz tmp/MeUtils-2023.7.6.9.18.40.tar.gz --markdown 20230706/M/MeUtils/2023.7.6.9.11.22-2023.7.6.9.18.40/diff.md --exclude *.pyd
+[2023-07-06 03:24:55] INFO root fetch - processPackages [owe-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/owe_python_sdk-0.0.1a8.tar.gz]
+[2023-07-06 03:24:55] INFO root fetch - processPackages [owe-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/owe_python_sdk-0.0.1a9.tar.gz]
+[2023-07-06 03:24:55] INFO root fetch - main [MainThread]: End processing [owe-python-sdk]: success
+[2023-07-06 03:24:55] INFO root fetch - processPackages [bioviper]: Remove: archive file [/home/abi/fetcher/tmp/bioviper-0.1.2.tar.gz]
+[2023-07-06 03:24:55] INFO root fetch - processPackages [bioviper]: Remove: archive file [/home/abi/fetcher/tmp/bioviper-0.2.0.tar.gz]
+[2023-07-06 03:24:55] INFO root fetch - main [MainThread]: End processing [bioviper]: success
+[2023-07-06 03:24:56] INFO root fetch - main [MainThread]: End processing [bioviper]: success
+[2023-07-06 03:24:56] INFO root fetch - processPackages [domini]: Remove: archive file [/home/abi/fetcher/tmp/domini-0.8.1.tar.gz]
+[2023-07-06 03:24:56] INFO root fetch - processPackages [domini]: Remove: archive file [/home/abi/fetcher/tmp/domini-0.9.0.tar.gz]
+[2023-07-06 03:24:56] INFO root fetch - main [MainThread]: End processing [domini]: success
+[2023-07-06 03:24:56] INFO root fetch - main [MainThread]: End processing [owe-python-sdk]: success
+[2023-07-06 03:24:56] INFO root fetch - processPackages [symbolicai]: Remove: archive file [/home/abi/fetcher/tmp/symbolicai-0.2.7-py3-none-any.whl.zip]
+[2023-07-06 03:24:56] INFO root fetch - processPackages [symbolicai]: Remove: archive file [/home/abi/fetcher/tmp/symbolicai-0.2.9-py3-none-any.whl.zip]
+[2023-07-06 03:24:56] INFO root fetch - main [MainThread]: End processing [symbolicai]: success
+[2023-07-06 03:24:57] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99.tar.gz]
+[2023-07-06 03:24:57] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99rc0.tar.gz]
+[2023-07-06 03:24:57] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2023-07-06 03:24:58] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.6.9.11.22.tar.gz]
+[2023-07-06 03:24:58] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.6.9.18.40.tar.gz]
+[2023-07-06 03:24:58] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-07-06 03:24:58] INFO root fetch - main [MainThread]: Store serial: [18775929]
