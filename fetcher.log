@@ -10956,3 +10956,60 @@ AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
 [2023-07-06 05:43:19] INFO root fetch - processPackages [civics-cdf-validator]: Remove: archive file [/home/abi/fetcher/tmp/civics_cdf_validator-1.9.dev1.tar.gz]
 [2023-07-06 05:43:19] INFO root fetch - main [MainThread]: End processing [civics-cdf-validator]: success
 [2023-07-06 05:43:19] INFO root fetch - main [MainThread]: Store serial: [18778062]
+[2023-07-06 05:48:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18778062]
+[2023-07-06 05:48:27] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-06 05:48:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloudoll
+[2023-07-06 05:48:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: enfugue
+[2023-07-06 05:48:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fnum
+[2023-07-06 05:48:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tkcomponents
+[2023-07-06 05:48:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seven-cloudapp-frame
+[2023-07-06 05:48:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pymino
+[2023-07-06 05:48:27] INFO root fetch - processPackages [fnum]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-06 05:48:27] INFO root fetch - processPackages [tkcomponents]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-07-06 05:48:27] INFO root fetch - processPackages [enfugue]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-06 05:48:27] INFO root fetch - processPackages [cloudoll]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-07-06 05:48:28] INFO root fetch - processPackages [pymino]: New version: [1.2.3.0] Old Version: [1.2.2.6]
+[2023-07-06 05:48:28] INFO root fetch - processPackages [tkcomponents]: Downloading https://files.pythonhosted.org/packages/0a/87/6cc568883467dda1cb8f378d90d14cc6964169304b91bd0a61e2439ab356/tkcomponents-4.0.1.tar.gz
+[2023-07-06 05:48:28] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.9.9] Old Version: [1.0.9.8]
+[2023-07-06 05:48:28] INFO root fetch - processPackages [fnum]: Downloading https://files.pythonhosted.org/packages/56/cc/ce1251aaad08aa0fde898973dc4d3d96ffc24a8e2124a08ffe684f59106b/fnum-0.1.1-py3-none-any.whl
+[2023-07-06 05:48:28] INFO root fetch - processPackages [enfugue]: Downloading https://files.pythonhosted.org/packages/90/0c/33a1e1c5021f120aef04d162ddad14c57e34be50223789ceace9ae3b9236/enfugue-0.1.2.tar.gz
+[2023-07-06 05:48:28] INFO root fetch - processPackages [cloudoll]: Downloading https://files.pythonhosted.org/packages/94/13/6d5c94b80c30461102b435a9dbe7c3a743f60628241877baff265ac79081/cloudoll-2.0.2.tar.gz
+[2023-07-06 05:48:28] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/35/2b/05b1b8a3faf3e0417c648bb54a3032af0de6b3d08180acd83e1eea5e3701/seven_cloudapp_frame-1.0.9.8.tar.gz
+[2023-07-06 05:48:28] INFO root fetch - processPackages [pymino]: Downloading https://files.pythonhosted.org/packages/e1/7c/810f203756ff8534e2cf36933e509901b09a3fd46b462aa9f18c66888cf3/pymino-1.2.2.6.tar.gz
+[2023-07-06 05:48:28] INFO root fetch - processPackages [tkcomponents]: Downloading https://files.pythonhosted.org/packages/d4/f8/89821a8b35bf0d75016f9c907dc59713d6fa84302f4b72549fe01f54f444/tkcomponents-4.0.2.tar.gz
+[2023-07-06 05:48:28] INFO root fetch - processPackages [fnum]: Downloading https://files.pythonhosted.org/packages/da/46/b35c6dee081fdf2fe9a19f1bba535de928c32b177c8b1dada6a665b3ea7c/fnum-0.2.0-py3-none-any.whl
+[2023-07-06 05:48:28] INFO root fetch - processPackages [cloudoll]: Downloading https://files.pythonhosted.org/packages/61/93/cf6542a4bf988a00dfb9722bdd53da5af1fb7eda4e21f374ca453d0ddb76/cloudoll-2.0.3.tar.gz
+[2023-07-06 05:48:28] INFO root fetch - processPackages [tkcomponents]: executing diffoscope
+[2023-07-06 05:48:28] INFO root fetch - processPackages [tkcomponents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkcomponents-4.0.1.tar.gz tmp/tkcomponents-4.0.2.tar.gz --markdown 20230706/t/tkcomponents/4.0.1-4.0.2/diff.md --exclude *.pyd
+[2023-07-06 05:48:28] INFO root fetch - processPackages [fnum]: executing diffoscope
+[2023-07-06 05:48:28] INFO root fetch - processPackages [fnum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fnum-0.1.1-py3-none-any.whl.zip tmp/fnum-0.2.0-py3-none-any.whl.zip --markdown 20230706/f/fnum/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-06 05:48:28] INFO root fetch - processPackages [cloudoll]: executing diffoscope
+[2023-07-06 05:48:28] INFO root fetch - processPackages [cloudoll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudoll-2.0.2.tar.gz tmp/cloudoll-2.0.3.tar.gz --markdown 20230706/c/cloudoll/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-07-06 05:48:28] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/74/d6/645286f46e81a7cbd30574c917b65af03679c974a979c0421012bd713cbd/seven_cloudapp_frame-1.0.9.9.tar.gz
+[2023-07-06 05:48:28] INFO root fetch - processPackages [pymino]: Downloading https://files.pythonhosted.org/packages/66/46/7113df0c9b9b92ea116cc436d9c0ee9054086683f6812f9a3472ff172cb5/pymino-1.2.3.0.tar.gz
+[2023-07-06 05:48:28] INFO root fetch - processPackages [enfugue]: Downloading https://files.pythonhosted.org/packages/37/fe/8a65fa21a8730ba88e6d897bb465ca63b64669fbe710a0cda11be172adaa/enfugue-0.1.3.tar.gz
+[2023-07-06 05:48:28] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-07-06 05:48:28] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.9.8.tar.gz tmp/seven_cloudapp_frame-1.0.9.9.tar.gz --markdown 20230706/s/seven-cloudapp-frame/1.0.9.8-1.0.9.9/diff.md --exclude *.pyd
+[2023-07-06 05:48:29] INFO root fetch - processPackages [enfugue]: executing diffoscope
+[2023-07-06 05:48:29] INFO root fetch - processPackages [enfugue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enfugue-0.1.2.tar.gz tmp/enfugue-0.1.3.tar.gz --markdown 20230706/e/enfugue/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-06 05:48:29] INFO root fetch - processPackages [pymino]: executing diffoscope
+[2023-07-06 05:48:29] INFO root fetch - processPackages [pymino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymino-1.2.2.6.tar.gz tmp/pymino-1.2.3.0.tar.gz --markdown 20230706/p/pymino/1.2.2.6-1.2.3.0/diff.md --exclude *.pyd
+[2023-07-06 05:48:29] INFO root fetch - processPackages [fnum]: Remove: archive file [/home/abi/fetcher/tmp/fnum-0.1.1-py3-none-any.whl.zip]
+[2023-07-06 05:48:29] INFO root fetch - processPackages [fnum]: Remove: archive file [/home/abi/fetcher/tmp/fnum-0.2.0-py3-none-any.whl.zip]
+[2023-07-06 05:48:29] INFO root fetch - main [MainThread]: End processing [fnum]: success
+[2023-07-06 05:48:29] INFO root fetch - processPackages [tkcomponents]: Remove: archive file [/home/abi/fetcher/tmp/tkcomponents-4.0.1.tar.gz]
+[2023-07-06 05:48:29] INFO root fetch - processPackages [tkcomponents]: Remove: archive file [/home/abi/fetcher/tmp/tkcomponents-4.0.2.tar.gz]
+[2023-07-06 05:48:29] INFO root fetch - main [MainThread]: End processing [tkcomponents]: success
+[2023-07-06 05:48:29] INFO root fetch - processPackages [cloudoll]: Remove: archive file [/home/abi/fetcher/tmp/cloudoll-2.0.2.tar.gz]
+[2023-07-06 05:48:29] INFO root fetch - processPackages [cloudoll]: Remove: archive file [/home/abi/fetcher/tmp/cloudoll-2.0.3.tar.gz]
+[2023-07-06 05:48:29] INFO root fetch - main [MainThread]: End processing [cloudoll]: success
+[2023-07-06 05:48:30] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.9.8.tar.gz]
+[2023-07-06 05:48:30] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.9.9.tar.gz]
+[2023-07-06 05:48:30] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-07-06 05:48:30] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.2.2.6.tar.gz]
+[2023-07-06 05:48:30] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.2.3.0.tar.gz]
+[2023-07-06 05:48:30] INFO root fetch - main [MainThread]: End processing [pymino]: success
+[2023-07-06 05:48:30] INFO root fetch - processPackages [enfugue]: Remove: archive file [/home/abi/fetcher/tmp/enfugue-0.1.2.tar.gz]
+[2023-07-06 05:48:30] INFO root fetch - processPackages [enfugue]: Remove: archive file [/home/abi/fetcher/tmp/enfugue-0.1.3.tar.gz]
+[2023-07-06 05:48:30] INFO root fetch - main [MainThread]: End processing [enfugue]: success
+[2023-07-06 05:48:30] INFO root fetch - main [MainThread]: Store serial: [18778079]
