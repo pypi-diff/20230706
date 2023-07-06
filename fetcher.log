@@ -9245,3 +9245,108 @@ AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
 [2023-07-06 04:12:56] INFO root fetch - processPackages [shared-atomic-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/shared_atomic_enterprise-5!2.3.6-py39-none-win_amd64.whl.zip]
 [2023-07-06 04:12:56] INFO root fetch - main [MainThread]: End processing [shared-atomic-enterprise]: success
 [2023-07-06 04:12:56] INFO root fetch - main [MainThread]: Store serial: [18777310]
+[2023-07-06 04:18:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18777310]
+[2023-07-06 04:18:05] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-06 04:18:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vgis-utils
+[2023-07-06 04:18:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qinyuanZheng
+[2023-07-06 04:18:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lummao
+[2023-07-06 04:18:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: line-bot-sdk
+[2023-07-06 04:18:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deepllm
+[2023-07-06 04:18:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: homeassistant-stubs
+[2023-07-06 04:18:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fsrs4anki-optimizer
+[2023-07-06 04:18:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zhei
+[2023-07-06 04:18:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gamutrf
+[2023-07-06 04:18:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pycrawlers
+[2023-07-06 04:18:05] INFO root fetch - processPackages [lummao]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-06 04:18:05] WARNING root fetch - processPackages [qinyuanZheng]: Skipping, unable to determine old version
+[2023-07-06 04:18:05] INFO root fetch - processPackages [qinyuanZheng]: Start processing: scAnnot
+[2023-07-06 04:18:05] INFO root fetch - main [MainThread]: End processing [qinyuanZheng] error
+[2023-07-06 04:18:05] INFO root fetch - processPackages [pycrawlers]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-06 04:18:05] INFO root fetch - processPackages [vgis-utils]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-06 04:18:05] INFO root fetch - processPackages [gamutrf]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-06 04:18:05] INFO root fetch - processPackages [zhei]: New version: [0.0.6] Old Version: [0.0.4]
+[2023-07-06 04:18:05] INFO root fetch - processPackages [fsrs4anki-optimizer]: New version: [3.26.1] Old Version: [3.26.0]
+[2023-07-06 04:18:05] INFO root fetch - processPackages [deepllm]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-07-06 04:18:05] INFO root fetch - processPackages [line-bot-sdk]: New version: [3.1.0] Old Version: [3.0.3]
+[2023-07-06 04:18:05] INFO root fetch - processPackages [homeassistant-stubs]: New version: [2023.7.0b6] Old Version: [2023.7.0b5]
+[2023-07-06 04:18:05] INFO root fetch - processPackages [pycrawlers]: Downloading https://files.pythonhosted.org/packages/f9/c5/fc8cc169a48ece9a0a4e811253d3b46b156b24816dc6d22dfe6f2fdc8a9e/pycrawlers-1.0.1.tar.gz
+[2023-07-06 04:18:05] INFO root fetch - processPackages [scAnnot]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-06 04:18:05] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/1c/35/e086d5ccd3640a7a967f3195ca945303e1b21bc0292d63c586ba0f2907bb/homeassistant_stubs-2023.7.0b5.tar.gz
+[2023-07-06 04:18:05] INFO root fetch - processPackages [lummao]: Downloading https://files.pythonhosted.org/packages/db/42/48a18bb2a1119bb4857bbab260e1f460fbb20065f022db5cf358032b3ce4/lummao-0.4.0.tar.gz
+[2023-07-06 04:18:05] INFO root fetch - processPackages [line-bot-sdk]: Downloading https://files.pythonhosted.org/packages/6b/e4/9b0a2bfb95696cd7b77c39b6fbdeecb3ff677cfea8ac68f56f72b9d17553/line-bot-sdk-3.0.3.tar.gz
+[2023-07-06 04:18:05] INFO root fetch - processPackages [vgis-utils]: Downloading https://files.pythonhosted.org/packages/c5/96/ffbf6d26974ba72fc78b107443251aa2f7463d6ae99043cd8227ea4fa908/vgis_utils-1.0.3.tar.gz
+[2023-07-06 04:18:05] INFO root fetch - processPackages [gamutrf]: Downloading https://files.pythonhosted.org/packages/21/7d/806e05511e24064aa0fe8abc69c0c146641c564035693160b0d56874dbe0/gamutrf-0.5.8.tar.gz
+[2023-07-06 04:18:05] INFO root fetch - processPackages [deepllm]: Downloading https://files.pythonhosted.org/packages/69/93/4f92bdf805e9d854e8e4b8d0d98cb08e928f2fb61cff9643e6074dc73b25/deepllm-0.5.5.tar.gz
+[2023-07-06 04:18:05] INFO root fetch - processPackages [fsrs4anki-optimizer]: Downloading https://files.pythonhosted.org/packages/26/0f/6087a212be9f1a88c67fdcf90e79103fcf22aa65b5883a680f7cef13e588/fsrs4anki_optimizer-3.26.0.tar.gz
+[2023-07-06 04:18:05] INFO root fetch - processPackages [scAnnot]: Downloading https://files.pythonhosted.org/packages/57/6d/efb66f575d10a97524fdedf493ea3efc25afba25e784be3376f50537cf34/scAnnot-0.0.4.tar.gz
+[2023-07-06 04:18:05] INFO root fetch - processPackages [zhei]: Downloading https://files.pythonhosted.org/packages/04/47/87b9b01f0471d21a69e7e0c2937a1f99a46cdfea20c65283aa57fe57c3bc/zhei-0.0.4.tar.gz
+[2023-07-06 04:18:06] INFO root fetch - processPackages [pycrawlers]: Downloading https://files.pythonhosted.org/packages/2a/72/34839f38da6feba987c1e08b9daf06b29922d06de88a174ce859ef2ef94e/pycrawlers-1.0.2.tar.gz
+[2023-07-06 04:18:06] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/0d/42/83fc9ef8aab42e8d32ec2a319701fece0a7b1ec413f6cc59c81ff723b383/homeassistant_stubs-2023.7.0b6.tar.gz
+[2023-07-06 04:18:06] INFO root fetch - processPackages [vgis-utils]: Downloading https://files.pythonhosted.org/packages/c1/e5/fb9b666e1da7743012d5dffc0bb2199b5d91fec547ee459e9e04a4a2d89d/vgis_utils-1.0.4.tar.gz
+[2023-07-06 04:18:06] INFO root fetch - processPackages [lummao]: Downloading https://files.pythonhosted.org/packages/4b/67/9a2951b920260e5008dac2044b4a4d2560fd061b010dfbf750fa8e18c2a9/lummao-0.5.0.tar.gz
+[2023-07-06 04:18:06] INFO root fetch - processPackages [deepllm]: Downloading https://files.pythonhosted.org/packages/04/a4/d5a5792cd513334d774ba70f84a919ad347ad2c67cd811bbf38a9d8741b2/deepllm-0.5.6.tar.gz
+[2023-07-06 04:18:06] INFO root fetch - processPackages [line-bot-sdk]: Downloading https://files.pythonhosted.org/packages/08/1b/8a699483b5d94a3076a8e909b31037640541c53dda2c284c5aa50e10387a/line-bot-sdk-3.1.0.tar.gz
+[2023-07-06 04:18:06] INFO root fetch - processPackages [pycrawlers]: executing diffoscope
+[2023-07-06 04:18:06] INFO root fetch - processPackages [pycrawlers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycrawlers-1.0.1.tar.gz tmp/pycrawlers-1.0.2.tar.gz --markdown 20230706/p/pycrawlers/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-06 04:18:06] INFO root fetch - processPackages [vgis-utils]: executing diffoscope
+[2023-07-06 04:18:06] INFO root fetch - processPackages [vgis-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgis_utils-1.0.3.tar.gz tmp/vgis_utils-1.0.4.tar.gz --markdown 20230706/v/vgis-utils/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-06 04:18:06] INFO root fetch - processPackages [zhei]: Downloading https://files.pythonhosted.org/packages/b3/fc/65e3400c5f7ac57deb5813fa845ac78df78b2fce177b575f104c4be45c88/zhei-0.0.6.tar.gz
+[2023-07-06 04:18:06] INFO root fetch - processPackages [scAnnot]: Downloading https://files.pythonhosted.org/packages/c3/b6/e2d1ec1c9b0d76b38886fd3e1ae894ec19699622206a5aa9e6b55d6670a5/scAnnot-0.0.5.tar.gz
+[2023-07-06 04:18:06] INFO root fetch - processPackages [fsrs4anki-optimizer]: Downloading https://files.pythonhosted.org/packages/57/23/61d20fd6876aa35867f29539898d7c79b06ec2e19369a96b05e99c01d46c/fsrs4anki_optimizer-3.26.1.tar.gz
+[2023-07-06 04:18:06] INFO root fetch - processPackages [gamutrf]: Downloading https://files.pythonhosted.org/packages/73/bb/a18b75e158f2ea2f358ccd22af9203cc884390e1795b5e6d07b974052d61/gamutrf-0.5.9.tar.gz
+[2023-07-06 04:18:06] INFO root fetch - processPackages [homeassistant-stubs]: executing diffoscope
+[2023-07-06 04:18:06] INFO root fetch - processPackages [homeassistant-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeassistant_stubs-2023.7.0b5.tar.gz tmp/homeassistant_stubs-2023.7.0b6.tar.gz --markdown 20230706/h/homeassistant-stubs/2023.7.0b5-2023.7.0b6/diff.md --exclude *.pyd
+[2023-07-06 04:18:06] INFO root fetch - processPackages [lummao]: executing diffoscope
+[2023-07-06 04:18:06] INFO root fetch - processPackages [lummao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lummao-0.4.0.tar.gz tmp/lummao-0.5.0.tar.gz --markdown 20230706/l/lummao/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-06 04:18:06] INFO root fetch - processPackages [scAnnot]: executing diffoscope
+[2023-07-06 04:18:06] INFO root fetch - processPackages [scAnnot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scAnnot-0.0.4.tar.gz tmp/scAnnot-0.0.5.tar.gz --markdown 20230706/s/scAnnot/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-06 04:18:06] INFO root fetch - processPackages [line-bot-sdk]: executing diffoscope
+[2023-07-06 04:18:06] INFO root fetch - processPackages [line-bot-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/line-bot-sdk-3.0.3.tar.gz tmp/line-bot-sdk-3.1.0.tar.gz --markdown 20230706/l/line-bot-sdk/3.0.3-3.1.0/diff.md --exclude *.pyd
+[2023-07-06 04:18:06] INFO root fetch - processPackages [zhei]: executing diffoscope
+[2023-07-06 04:18:06] INFO root fetch - processPackages [zhei]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhei-0.0.4.tar.gz tmp/zhei-0.0.6.tar.gz --markdown 20230706/z/zhei/0.0.4-0.0.6/diff.md --exclude *.pyd
+[2023-07-06 04:18:06] INFO root fetch - processPackages [deepllm]: executing diffoscope
+[2023-07-06 04:18:06] INFO root fetch - processPackages [deepllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepllm-0.5.5.tar.gz tmp/deepllm-0.5.6.tar.gz --markdown 20230706/d/deepllm/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-07-06 04:18:06] INFO root fetch - processPackages [fsrs4anki-optimizer]: executing diffoscope
+[2023-07-06 04:18:06] INFO root fetch - processPackages [fsrs4anki-optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsrs4anki_optimizer-3.26.0.tar.gz tmp/fsrs4anki_optimizer-3.26.1.tar.gz --markdown 20230706/f/fsrs4anki-optimizer/3.26.0-3.26.1/diff.md --exclude *.pyd
+[2023-07-06 04:18:07] INFO root fetch - processPackages [gamutrf]: executing diffoscope
+[2023-07-06 04:18:07] INFO root fetch - processPackages [gamutrf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamutrf-0.5.8.tar.gz tmp/gamutrf-0.5.9.tar.gz --markdown 20230706/g/gamutrf/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-06 04:18:07] INFO root fetch - processPackages [pycrawlers]: Remove: archive file [/home/abi/fetcher/tmp/pycrawlers-1.0.1.tar.gz]
+[2023-07-06 04:18:07] INFO root fetch - processPackages [pycrawlers]: Remove: archive file [/home/abi/fetcher/tmp/pycrawlers-1.0.2.tar.gz]
+[2023-07-06 04:18:07] INFO root fetch - processPackages [pycrawlers]: Start processing: text2text
+[2023-07-06 04:18:07] INFO root fetch - main [MainThread]: End processing [pycrawlers]: success
+[2023-07-06 04:18:08] INFO root fetch - processPackages [vgis-utils]: Remove: archive file [/home/abi/fetcher/tmp/vgis_utils-1.0.3.tar.gz]
+[2023-07-06 04:18:08] INFO root fetch - processPackages [vgis-utils]: Remove: archive file [/home/abi/fetcher/tmp/vgis_utils-1.0.4.tar.gz]
+[2023-07-06 04:18:08] INFO root fetch - main [MainThread]: End processing [vgis-utils]: success
+[2023-07-06 04:18:08] INFO root fetch - processPackages [text2text]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-06 04:18:08] INFO root fetch - processPackages [fsrs4anki-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/fsrs4anki_optimizer-3.26.0.tar.gz]
+[2023-07-06 04:18:08] INFO root fetch - processPackages [fsrs4anki-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/fsrs4anki_optimizer-3.26.1.tar.gz]
+[2023-07-06 04:18:08] INFO root fetch - main [MainThread]: End processing [fsrs4anki-optimizer]: success
+[2023-07-06 04:18:08] INFO root fetch - processPackages [scAnnot]: Remove: archive file [/home/abi/fetcher/tmp/scAnnot-0.0.4.tar.gz]
+[2023-07-06 04:18:08] INFO root fetch - processPackages [scAnnot]: Remove: archive file [/home/abi/fetcher/tmp/scAnnot-0.0.5.tar.gz]
+[2023-07-06 04:18:08] INFO root fetch - main [MainThread]: End processing [scAnnot]: success
+[2023-07-06 04:18:08] INFO root fetch - processPackages [zhei]: Remove: archive file [/home/abi/fetcher/tmp/zhei-0.0.4.tar.gz]
+[2023-07-06 04:18:08] INFO root fetch - processPackages [zhei]: Remove: archive file [/home/abi/fetcher/tmp/zhei-0.0.6.tar.gz]
+[2023-07-06 04:18:08] INFO root fetch - main [MainThread]: End processing [zhei]: success
+[2023-07-06 04:18:08] INFO root fetch - processPackages [deepllm]: Remove: archive file [/home/abi/fetcher/tmp/deepllm-0.5.5.tar.gz]
+[2023-07-06 04:18:08] INFO root fetch - processPackages [deepllm]: Remove: archive file [/home/abi/fetcher/tmp/deepllm-0.5.6.tar.gz]
+[2023-07-06 04:18:08] INFO root fetch - main [MainThread]: End processing [deepllm]: success
+[2023-07-06 04:18:08] INFO root fetch - processPackages [lummao]: Remove: archive file [/home/abi/fetcher/tmp/lummao-0.4.0.tar.gz]
+[2023-07-06 04:18:08] INFO root fetch - processPackages [lummao]: Remove: archive file [/home/abi/fetcher/tmp/lummao-0.5.0.tar.gz]
+[2023-07-06 04:18:08] INFO root fetch - main [MainThread]: End processing [lummao]: success
+[2023-07-06 04:18:08] INFO root fetch - processPackages [text2text]: Downloading https://files.pythonhosted.org/packages/c2/ed/5096d0d47c0f3151693a76e27173408334c448f1353d832f124480cd801f/text2text-1.2.0.tar.gz
+[2023-07-06 04:18:08] INFO root fetch - processPackages [gamutrf]: Remove: archive file [/home/abi/fetcher/tmp/gamutrf-0.5.8.tar.gz]
+[2023-07-06 04:18:08] INFO root fetch - processPackages [gamutrf]: Remove: archive file [/home/abi/fetcher/tmp/gamutrf-0.5.9.tar.gz]
+[2023-07-06 04:18:08] INFO root fetch - main [MainThread]: End processing [gamutrf]: success
+[2023-07-06 04:18:08] INFO root fetch - processPackages [text2text]: Downloading https://files.pythonhosted.org/packages/70/29/d1ccc045429ec2af5b556393a76f212415bf00d31250e91d02fc22daacf8/text2text-1.2.1.tar.gz
+[2023-07-06 04:18:09] INFO root fetch - processPackages [text2text]: executing diffoscope
+[2023-07-06 04:18:09] INFO root fetch - processPackages [text2text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2text-1.2.0.tar.gz tmp/text2text-1.2.1.tar.gz --markdown 20230706/t/text2text/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-06 04:18:10] INFO root fetch - processPackages [text2text]: Remove: archive file [/home/abi/fetcher/tmp/text2text-1.2.0.tar.gz]
+[2023-07-06 04:18:10] INFO root fetch - processPackages [text2text]: Remove: archive file [/home/abi/fetcher/tmp/text2text-1.2.1.tar.gz]
+[2023-07-06 04:18:10] INFO root fetch - main [MainThread]: End processing [text2text]: success
+[2023-07-06 04:18:11] INFO root fetch - processPackages [line-bot-sdk]: Remove: archive file [/home/abi/fetcher/tmp/line-bot-sdk-3.0.3.tar.gz]
+[2023-07-06 04:18:11] INFO root fetch - processPackages [line-bot-sdk]: Remove: archive file [/home/abi/fetcher/tmp/line-bot-sdk-3.1.0.tar.gz]
+[2023-07-06 04:18:11] INFO root fetch - main [MainThread]: End processing [line-bot-sdk]: success
+[2023-07-06 04:18:23] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2023.7.0b5.tar.gz]
+[2023-07-06 04:18:23] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2023.7.0b6.tar.gz]
+[2023-07-06 04:18:23] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
+[2023-07-06 04:18:23] INFO root fetch - main [MainThread]: Store serial: [18777370]
