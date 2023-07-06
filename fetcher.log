@@ -14610,3 +14610,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-06 09:31:58] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.2.tar.gz]
 [2023-07-06 09:31:58] INFO root fetch - main [MainThread]: End processing [supervisely]: success
 [2023-07-06 09:31:58] INFO root fetch - main [MainThread]: Store serial: [18779603]
+[2023-07-06 09:37:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18779603]
+[2023-07-06 09:37:07] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-06 09:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: invoicing-pdf-1223
+[2023-07-06 09:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: product-images
+[2023-07-06 09:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ctapipe-io-lst
+[2023-07-06 09:37:07] INFO root fetch - processPackages [product-images]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-06 09:37:07] WARNING root fetch - processPackages [invoicing-pdf-1223]: Skipping, unable to determine old version
+[2023-07-06 09:37:07] INFO root fetch - main [MainThread]: End processing [invoicing-pdf-1223] error
+[2023-07-06 09:37:07] INFO root fetch - processPackages [ctapipe-io-lst]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-06 09:37:07] INFO root fetch - processPackages [product-images]: Downloading https://files.pythonhosted.org/packages/4e/9a/6365b36c79c4e87bd3c9b29b7c665004a4858c75135ac232df3931dbf11d/product-images-1.0.2.tar.gz
+[2023-07-06 09:37:07] INFO root fetch - processPackages [ctapipe-io-lst]: Downloading https://files.pythonhosted.org/packages/17/3d/17235876d21fb6fa77bddb2e7471b80a95f4d7fcf0d50256730a4cffbc93/ctapipe_io_lst-0.9.2.tar.gz
+[2023-07-06 09:37:08] INFO root fetch - processPackages [product-images]: Downloading https://files.pythonhosted.org/packages/9f/3a/fc7f0457ed95e492db9d296069deb9fddf28dc7e0000b02867e63cc783a5/product-images-1.0.3.tar.gz
+[2023-07-06 09:37:08] INFO root fetch - processPackages [product-images]: executing diffoscope
+[2023-07-06 09:37:08] INFO root fetch - processPackages [product-images]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/product-images-1.0.2.tar.gz tmp/product-images-1.0.3.tar.gz --markdown 20230706/p/product-images/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-06 09:37:08] INFO root fetch - processPackages [product-images]: Remove: archive file [/home/abi/fetcher/tmp/product-images-1.0.2.tar.gz]
+[2023-07-06 09:37:08] INFO root fetch - processPackages [product-images]: Remove: archive file [/home/abi/fetcher/tmp/product-images-1.0.3.tar.gz]
+[2023-07-06 09:37:08] INFO root fetch - main [MainThread]: End processing [product-images]: success
+[2023-07-06 09:37:09] INFO root fetch - processPackages [ctapipe-io-lst]: Downloading https://files.pythonhosted.org/packages/2d/fd/b1fa4ab27dce281190d2a996a372eb618d77ea7e7677beecfe3b1ea82bb8/ctapipe_io_lst-0.9.3.tar.gz
+[2023-07-06 09:37:11] INFO root fetch - processPackages [ctapipe-io-lst]: executing diffoscope
+[2023-07-06 09:37:11] INFO root fetch - processPackages [ctapipe-io-lst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctapipe_io_lst-0.9.2.tar.gz tmp/ctapipe_io_lst-0.9.3.tar.gz --markdown 20230706/c/ctapipe-io-lst/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-06 09:37:12] INFO root fetch - processPackages [ctapipe-io-lst]: Remove: archive file [/home/abi/fetcher/tmp/ctapipe_io_lst-0.9.2.tar.gz]
+[2023-07-06 09:37:12] INFO root fetch - processPackages [ctapipe-io-lst]: Remove: archive file [/home/abi/fetcher/tmp/ctapipe_io_lst-0.9.3.tar.gz]
+[2023-07-06 09:37:12] INFO root fetch - main [MainThread]: End processing [ctapipe-io-lst]: success
+[2023-07-06 09:37:12] INFO root fetch - main [MainThread]: Store serial: [18779617]
