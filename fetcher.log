@@ -11319,3 +11319,78 @@ AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
 [2023-07-06 06:04:16] INFO root fetch - processPackages [alphawave]: Remove: archive file [/home/abi/fetcher/tmp/alphawave-0.3.3.tar.gz]
 [2023-07-06 06:04:16] INFO root fetch - main [MainThread]: End processing [alphawave]: success
 [2023-07-06 06:04:16] INFO root fetch - main [MainThread]: Store serial: [18778232]
+[2023-07-06 06:09:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18778232]
+[2023-07-06 06:09:25] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-06 06:09:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: c8connector
+[2023-07-06 06:09:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quantecon-book-theme
+[2023-07-06 06:09:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dbt-quicksight-lineage
+[2023-07-06 06:09:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-maintenance-equipment-contract
+[2023-07-06 06:09:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-maintenance-product
+[2023-07-06 06:09:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-maintenance-request-stage-transition
+[2023-07-06 06:09:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addons-oca-maintenance
+[2023-07-06 06:09:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hak
+[2023-07-06 06:09:25] INFO root fetch - processPackages [odoo-addon-maintenance-request-stage-transition]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.2]
+[2023-07-06 06:09:25] INFO root fetch - processPackages [dbt-quicksight-lineage]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-06 06:09:25] INFO root fetch - processPackages [c8connector]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 06:09:25] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-contract]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.1]
+[2023-07-06 06:09:25] INFO root fetch - processPackages [odoo-addon-maintenance-product]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.3]
+[2023-07-06 06:09:26] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: New version: [16.0.20230705.4] Old Version: [16.0.20230629.1]
+[2023-07-06 06:09:26] INFO root fetch - processPackages [quantecon-book-theme]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-06 06:09:26] INFO root fetch - processPackages [odoo-addon-maintenance-request-stage-transition]: Downloading https://files.pythonhosted.org/packages/a5/d8/630954f3ea7bacdc103848472a4b584f9da16e8caf3e8266adce3dd28ca3/odoo_addon_maintenance_request_stage_transition-15.0.1.0.0.2-py3-none-any.whl
+[2023-07-06 06:09:26] INFO root fetch - processPackages [dbt-quicksight-lineage]: Downloading https://files.pythonhosted.org/packages/3d/59/8d7910487d6a2d2feb71da10dee62782f3094e0f3fb04a55e96e07116dad/dbt_quicksight_lineage-0.2.0.tar.gz
+[2023-07-06 06:09:26] INFO root fetch - processPackages [hak]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 06:09:26] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-contract]: Downloading https://files.pythonhosted.org/packages/02/16/89b6cd64baf9df56c54b2688dbcde1a23075475968b8508776696d8fead3/odoo_addon_maintenance_equipment_contract-15.0.1.0.1-py3-none-any.whl
+[2023-07-06 06:09:26] INFO root fetch - processPackages [c8connector]: Downloading https://files.pythonhosted.org/packages/f5/41/1d6cf1d7e899ee8eb044b7c68250945e84ef99425e6d2c3658bbb903d580/c8connector-0.0.8.tar.gz
+[2023-07-06 06:09:26] INFO root fetch - processPackages [odoo-addon-maintenance-product]: Downloading https://files.pythonhosted.org/packages/1c/26/4eb43f206ce4c58b21437374adc2d754deb7aee398769e8e64bf10dd0ac9/odoo_addon_maintenance_product-15.0.1.0.0.3-py3-none-any.whl
+[2023-07-06 06:09:26] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/05/17/ad5ef91170b7c0e991a9c8bffa9f9a2dcf3961d5e90c31185bdf3ce8f425/hak-0.0.8.tar.gz
+[2023-07-06 06:09:26] INFO root fetch - processPackages [quantecon-book-theme]: Downloading https://files.pythonhosted.org/packages/97/74/4469d91cfe38dd6c2777587080c63759029b87f00cc342b9fdb008634239/quantecon-book-theme-0.5.1.tar.gz
+[2023-07-06 06:09:26] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: Downloading https://files.pythonhosted.org/packages/63/da/8bd46fb7dfa95fea6302187e7200d32aacfcbffa9a31fcfc305fed81d257/odoo_addons_oca_maintenance-16.0.20230629.1-py3-none-any.whl
+[2023-07-06 06:09:26] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-contract]: Downloading https://files.pythonhosted.org/packages/d2/9e/8a76189a2f0bf361710066993f55ffd58e23e520d2dc3e53fe2e4f263278/odoo_addon_maintenance_equipment_contract-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-06 06:09:26] INFO root fetch - processPackages [c8connector]: Downloading https://files.pythonhosted.org/packages/a4/3a/d5e3d87254f7a5c4983165bbbf9752fb19c15dc5fbdaf03bbe5e5ba41f68/c8connector-0.0.9.tar.gz
+[2023-07-06 06:09:26] INFO root fetch - processPackages [odoo-addon-maintenance-request-stage-transition]: Downloading https://files.pythonhosted.org/packages/d9/59/1fe7cc8017b4e81aaa30ce76a80552345d9a5ac0c1c1e7b849c02d54e27d/odoo_addon_maintenance_request_stage_transition-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-06 06:09:26] INFO root fetch - processPackages [odoo-addon-maintenance-product]: Downloading https://files.pythonhosted.org/packages/7c/b4/edf045afd0d02b4c6e04493282c5f905d304458f994ca62e6979073de43f/odoo_addon_maintenance_product-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-06 06:09:26] INFO root fetch - processPackages [dbt-quicksight-lineage]: Downloading https://files.pythonhosted.org/packages/c2/a3/dcfcdab085cb8e8071805b150384311517db296955e9ee8269071a37dd5d/dbt_quicksight_lineage-0.3.0.tar.gz
+[2023-07-06 06:09:26] INFO root fetch - processPackages [c8connector]: executing diffoscope
+[2023-07-06 06:09:26] INFO root fetch - processPackages [c8connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c8connector-0.0.8.tar.gz tmp/c8connector-0.0.9.tar.gz --markdown 20230706/c/c8connector/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 06:09:26] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-contract]: executing diffoscope
+[2023-07-06 06:09:26] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_maintenance_equipment_contract-15.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_maintenance_equipment_contract-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230706/o/odoo-addon-maintenance-equipment-contract/15.0.1.0.1-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-07-06 06:09:26] INFO root fetch - processPackages [odoo-addon-maintenance-request-stage-transition]: executing diffoscope
+[2023-07-06 06:09:26] INFO root fetch - processPackages [odoo-addon-maintenance-request-stage-transition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_maintenance_request_stage_transition-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_maintenance_request_stage_transition-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230706/o/odoo-addon-maintenance-request-stage-transition/15.0.1.0.0.2-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-07-06 06:09:26] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/fd/2b/bf7b3451d5e3a84e9a674b47e9f046c4db1f582764a85a4dfc00e14ecf00/hak-0.0.9.tar.gz
+[2023-07-06 06:09:26] INFO root fetch - processPackages [odoo-addon-maintenance-product]: executing diffoscope
+[2023-07-06 06:09:26] INFO root fetch - processPackages [odoo-addon-maintenance-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_maintenance_product-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_maintenance_product-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230706/o/odoo-addon-maintenance-product/15.0.1.0.0.3-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-07-06 06:09:26] INFO root fetch - processPackages [dbt-quicksight-lineage]: executing diffoscope
+[2023-07-06 06:09:26] INFO root fetch - processPackages [dbt-quicksight-lineage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_quicksight_lineage-0.2.0.tar.gz tmp/dbt_quicksight_lineage-0.3.0.tar.gz --markdown 20230706/d/dbt-quicksight-lineage/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-06 06:09:26] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-07-06 06:09:26] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.8.tar.gz tmp/hak-0.0.9.tar.gz --markdown 20230706/h/hak/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 06:09:26] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: Downloading https://files.pythonhosted.org/packages/f7/8f/7e47f81b795cbee656cf2ec5a1112e21f23e8a3d781ef24326f55274b9b1/odoo_addons_oca_maintenance-16.0.20230705.4-py3-none-any.whl
+[2023-07-06 06:09:26] INFO root fetch - processPackages [quantecon-book-theme]: Downloading https://files.pythonhosted.org/packages/51/88/e00ac7dd2205fd6a43d918e946283a0025713c3c7cbf0a033728fe019d98/quantecon-book-theme-0.5.2.tar.gz
+[2023-07-06 06:09:26] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: executing diffoscope
+[2023-07-06 06:09:26] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_maintenance-16.0.20230629.1-py3-none-any.whl.zip tmp/odoo_addons_oca_maintenance-16.0.20230705.4-py3-none-any.whl.zip --markdown 20230706/o/odoo-addons-oca-maintenance/16.0.20230629.1-16.0.20230705.4/diff.md --exclude *.pyd
+[2023-07-06 06:09:27] INFO root fetch - processPackages [quantecon-book-theme]: executing diffoscope
+[2023-07-06 06:09:27] INFO root fetch - processPackages [quantecon-book-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantecon-book-theme-0.5.1.tar.gz tmp/quantecon-book-theme-0.5.2.tar.gz --markdown 20230706/q/quantecon-book-theme/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-06 06:09:27] INFO root fetch - processPackages [c8connector]: Remove: archive file [/home/abi/fetcher/tmp/c8connector-0.0.8.tar.gz]
+[2023-07-06 06:09:27] INFO root fetch - processPackages [c8connector]: Remove: archive file [/home/abi/fetcher/tmp/c8connector-0.0.9.tar.gz]
+[2023-07-06 06:09:27] INFO root fetch - main [MainThread]: End processing [c8connector]: success
+[2023-07-06 06:09:28] INFO root fetch - processPackages [odoo-addon-maintenance-request-stage-transition]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_request_stage_transition-15.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-06 06:09:28] INFO root fetch - processPackages [odoo-addon-maintenance-request-stage-transition]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_request_stage_transition-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-06 06:09:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-maintenance-request-stage-transition]: success
+[2023-07-06 06:09:28] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_equipment_contract-15.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-06 06:09:28] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_equipment_contract-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-06 06:09:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-maintenance-equipment-contract]: success
+[2023-07-06 06:09:28] INFO root fetch - processPackages [odoo-addon-maintenance-product]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_product-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-06 06:09:28] INFO root fetch - processPackages [odoo-addon-maintenance-product]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_product-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-06 06:09:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-maintenance-product]: success
+[2023-07-06 06:09:28] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_maintenance-16.0.20230629.1-py3-none-any.whl.zip]
+[2023-07-06 06:09:28] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_maintenance-16.0.20230705.4-py3-none-any.whl.zip]
+[2023-07-06 06:09:28] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-maintenance]: success
+[2023-07-06 06:09:28] INFO root fetch - processPackages [dbt-quicksight-lineage]: Remove: archive file [/home/abi/fetcher/tmp/dbt_quicksight_lineage-0.2.0.tar.gz]
+[2023-07-06 06:09:28] INFO root fetch - processPackages [dbt-quicksight-lineage]: Remove: archive file [/home/abi/fetcher/tmp/dbt_quicksight_lineage-0.3.0.tar.gz]
+[2023-07-06 06:09:28] INFO root fetch - main [MainThread]: End processing [dbt-quicksight-lineage]: success
+[2023-07-06 06:09:28] INFO root fetch - processPackages [quantecon-book-theme]: Remove: archive file [/home/abi/fetcher/tmp/quantecon-book-theme-0.5.1.tar.gz]
+[2023-07-06 06:09:28] INFO root fetch - processPackages [quantecon-book-theme]: Remove: archive file [/home/abi/fetcher/tmp/quantecon-book-theme-0.5.2.tar.gz]
+[2023-07-06 06:09:28] INFO root fetch - main [MainThread]: End processing [quantecon-book-theme]: success
+[2023-07-06 06:09:28] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.8.tar.gz]
+[2023-07-06 06:09:28] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
+[2023-07-06 06:09:28] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-07-06 06:09:28] INFO root fetch - main [MainThread]: Store serial: [18778258]
