@@ -10822,3 +10822,63 @@ AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
 [2023-07-06 05:32:55] INFO root fetch - processPackages [non-local-detector]: Remove: archive file [/home/abi/fetcher/tmp/non_local_detector-0.2.9.dev0.tar.gz]
 [2023-07-06 05:32:55] INFO root fetch - main [MainThread]: End processing [non-local-detector]: success
 [2023-07-06 05:32:55] INFO root fetch - main [MainThread]: Store serial: [18777995]
+[2023-07-06 05:37:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18777995]
+[2023-07-06 05:38:04] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-06 05:38:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tkcomponents
+[2023-07-06 05:38:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: egorovsystem
+[2023-07-06 05:38:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: LNPLab
+[2023-07-06 05:38:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spark-datax-tools
+[2023-07-06 05:38:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spark-dummy-tools
+[2023-07-06 05:38:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xklb
+[2023-07-06 05:38:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fnum
+[2023-07-06 05:38:05] INFO root fetch - processPackages [xklb]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-06 05:38:05] INFO root fetch - processPackages [spark-datax-tools]: New version: [0.5.0] Old Version: [0.4]
+[2023-07-06 05:38:05] INFO root fetch - processPackages [spark-dummy-tools]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-06 05:38:05] INFO root fetch - processPackages [tkcomponents]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-07-06 05:38:05] INFO root fetch - processPackages [LNPLab]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-07-06 05:38:05] WARNING root fetch - processPackages [fnum]: Skipping, unable to determine old version
+[2023-07-06 05:38:05] INFO root fetch - processPackages [egorovsystem]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-06 05:38:05] INFO root fetch - main [MainThread]: End processing [fnum] error
+[2023-07-06 05:38:05] INFO root fetch - processPackages [tkcomponents]: Downloading https://files.pythonhosted.org/packages/7c/f1/c50ea8e7494a450584514ac30c6b7a5bc7d8caa326a897e86cf7e317e6f6/tkcomponents-4.0.0.tar.gz
+[2023-07-06 05:38:05] INFO root fetch - processPackages [LNPLab]: Downloading https://files.pythonhosted.org/packages/c8/7b/10303ce0b318141e60302d10f41cfcc55df22bdea2a36768f40e2686e451/LNPLab-0.0.1.tar.gz
+[2023-07-06 05:38:05] INFO root fetch - processPackages [egorovsystem]: Downloading https://files.pythonhosted.org/packages/da/7c/b004d892749c63c67bb6aa2f210ceb666f149a1473e17d80d48d8b1a6e02/egorovsystem-0.0.5.tar.gz
+[2023-07-06 05:38:05] INFO root fetch - processPackages [spark-datax-tools]: Downloading https://files.pythonhosted.org/packages/a2/5c/b963e578c9e2ad071c280fcfcc77e873fe9ffccd487f77ee843621a4fe21/spark_datax_tools-0.4.tar.gz
+[2023-07-06 05:38:05] INFO root fetch - processPackages [spark-dummy-tools]: Downloading https://files.pythonhosted.org/packages/d4/50/967fe4395e0c7b57a2ba2e80cd541388c6f945fc4087c270cbfc2c0419d8/spark_dummy_tools-0.4.0.tar.gz
+[2023-07-06 05:38:05] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/10/78/158da1876f9993e387cbd6f3e863998fb3d36545c88820f91a57f7a97b99/xklb-2.2.8.tar.gz
+[2023-07-06 05:38:05] INFO root fetch - processPackages [tkcomponents]: Downloading https://files.pythonhosted.org/packages/0a/87/6cc568883467dda1cb8f378d90d14cc6964169304b91bd0a61e2439ab356/tkcomponents-4.0.1.tar.gz
+[2023-07-06 05:38:05] INFO root fetch - processPackages [egorovsystem]: Downloading https://files.pythonhosted.org/packages/24/23/715b397a54a25cd437ee7fa9bacadb88206c295c264871b162dc01cec304/egorovsystem-0.0.6.tar.gz
+[2023-07-06 05:38:05] INFO root fetch - processPackages [LNPLab]: Downloading https://files.pythonhosted.org/packages/19/2f/72c58939f55d5222594ebcc93587013cccad0f9b20b90408d81cf54a90d5/LNPLab-0.0.3-py3-none-any.whl
+[2023-07-06 05:38:05] INFO root fetch - processPackages [spark-dummy-tools]: Downloading https://files.pythonhosted.org/packages/2c/14/abf6dd984155ed9d5ad51a4dd0584a4909e448f664896c82592f67d78118/spark_dummy_tools-0.5.0.tar.gz
+[2023-07-06 05:38:05] INFO root fetch - processPackages [tkcomponents]: executing diffoscope
+[2023-07-06 05:38:05] INFO root fetch - processPackages [tkcomponents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkcomponents-4.0.0.tar.gz tmp/tkcomponents-4.0.1.tar.gz --markdown 20230706/t/tkcomponents/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-07-06 05:38:05] INFO root fetch - processPackages [spark-datax-tools]: Downloading https://files.pythonhosted.org/packages/7e/a7/169252611e9372968c54fa8bc8cff6e118db098b728aff20d8f01d81eccb/spark_datax_tools-0.5.0.tar.gz
+[2023-07-06 05:38:06] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/21/af/fbdd09ebcfd5aa404fbf007cfe827b2b56fcfd19c73cc4b3f7f672fe0b3c/xklb-2.2.9.tar.gz
+[2023-07-06 05:38:06] INFO root fetch - processPackages [LNPLab]: executing diffoscope
+[2023-07-06 05:38:06] INFO root fetch - processPackages [LNPLab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LNPLab-0.0.1.tar.gz tmp/LNPLab-0.0.3-py3-none-any.whl.zip --markdown 20230706/L/LNPLab/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-07-06 05:38:06] INFO root fetch - processPackages [spark-dummy-tools]: executing diffoscope
+[2023-07-06 05:38:06] INFO root fetch - processPackages [spark-dummy-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_dummy_tools-0.4.0.tar.gz tmp/spark_dummy_tools-0.5.0.tar.gz --markdown 20230706/s/spark-dummy-tools/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-06 05:38:06] INFO root fetch - processPackages [spark-datax-tools]: executing diffoscope
+[2023-07-06 05:38:06] INFO root fetch - processPackages [spark-datax-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_datax_tools-0.4.tar.gz tmp/spark_datax_tools-0.5.0.tar.gz --markdown 20230706/s/spark-datax-tools/0.4-0.5.0/diff.md --exclude *.pyd
+[2023-07-06 05:38:06] INFO root fetch - processPackages [egorovsystem]: executing diffoscope
+[2023-07-06 05:38:06] INFO root fetch - processPackages [egorovsystem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/egorovsystem-0.0.5.tar.gz tmp/egorovsystem-0.0.6.tar.gz --markdown 20230706/e/egorovsystem/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-06 05:38:06] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-07-06 05:38:06] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-2.2.8.tar.gz tmp/xklb-2.2.9.tar.gz --markdown 20230706/x/xklb/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-06 05:38:07] INFO root fetch - processPackages [tkcomponents]: Remove: archive file [/home/abi/fetcher/tmp/tkcomponents-4.0.0.tar.gz]
+[2023-07-06 05:38:07] INFO root fetch - processPackages [tkcomponents]: Remove: archive file [/home/abi/fetcher/tmp/tkcomponents-4.0.1.tar.gz]
+[2023-07-06 05:38:07] INFO root fetch - main [MainThread]: End processing [tkcomponents]: success
+[2023-07-06 05:38:07] INFO root fetch - processPackages [spark-dummy-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_dummy_tools-0.4.0.tar.gz]
+[2023-07-06 05:38:07] INFO root fetch - processPackages [spark-dummy-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_dummy_tools-0.5.0.tar.gz]
+[2023-07-06 05:38:07] INFO root fetch - main [MainThread]: End processing [spark-dummy-tools]: success
+[2023-07-06 05:38:07] INFO root fetch - processPackages [LNPLab]: Remove: archive file [/home/abi/fetcher/tmp/LNPLab-0.0.1.tar.gz]
+[2023-07-06 05:38:07] INFO root fetch - processPackages [LNPLab]: Remove: archive file [/home/abi/fetcher/tmp/LNPLab-0.0.3-py3-none-any.whl.zip]
+[2023-07-06 05:38:07] INFO root fetch - main [MainThread]: End processing [LNPLab]: success
+[2023-07-06 05:38:07] INFO root fetch - processPackages [egorovsystem]: Remove: archive file [/home/abi/fetcher/tmp/egorovsystem-0.0.5.tar.gz]
+[2023-07-06 05:38:07] INFO root fetch - processPackages [egorovsystem]: Remove: archive file [/home/abi/fetcher/tmp/egorovsystem-0.0.6.tar.gz]
+[2023-07-06 05:38:07] INFO root fetch - main [MainThread]: End processing [egorovsystem]: success
+[2023-07-06 05:38:07] INFO root fetch - processPackages [spark-datax-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_datax_tools-0.4.tar.gz]
+[2023-07-06 05:38:07] INFO root fetch - processPackages [spark-datax-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_datax_tools-0.5.0.tar.gz]
+[2023-07-06 05:38:07] INFO root fetch - main [MainThread]: End processing [spark-datax-tools]: success
+[2023-07-06 05:38:07] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.8.tar.gz]
+[2023-07-06 05:38:07] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.9.tar.gz]
+[2023-07-06 05:38:07] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-07-06 05:38:07] INFO root fetch - main [MainThread]: Store serial: [18778025]
