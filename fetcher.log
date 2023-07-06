@@ -11980,3 +11980,15 @@ AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
 [2023-07-06 06:45:58] INFO root fetch - processPackages [EasyDeL]: Remove: archive file [/home/abi/fetcher/tmp/EasyDeL-0.0.8.tar.gz]
 [2023-07-06 06:45:58] INFO root fetch - main [MainThread]: End processing [EasyDeL]: success
 [2023-07-06 06:45:58] INFO root fetch - main [MainThread]: Store serial: [18778491]
+[2023-07-06 06:51:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18778491]
+[2023-07-06 06:51:07] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-07-06 06:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pysunday
+[2023-07-06 06:51:07] INFO root fetch - processPackages [pysunday]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-06 06:51:07] INFO root fetch - processPackages [pysunday]: Downloading https://files.pythonhosted.org/packages/98/b2/21eded7b5d783d9ef2f1e400a0bcae0d73d458c0c8ab4c7a70f0b1ec898a/pysunday-0.3.3.tar.gz
+[2023-07-06 06:51:08] INFO root fetch - processPackages [pysunday]: Downloading https://files.pythonhosted.org/packages/dd/69/bc37580268b46b838ddf6745e54faec4fcd1613090af01cbfecd7f373ee9/pysunday-0.3.4.tar.gz
+[2023-07-06 06:51:08] INFO root fetch - processPackages [pysunday]: executing diffoscope
+[2023-07-06 06:51:08] INFO root fetch - processPackages [pysunday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysunday-0.3.3.tar.gz tmp/pysunday-0.3.4.tar.gz --markdown 20230706/p/pysunday/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-06 06:51:09] INFO root fetch - processPackages [pysunday]: Remove: archive file [/home/abi/fetcher/tmp/pysunday-0.3.3.tar.gz]
+[2023-07-06 06:51:09] INFO root fetch - processPackages [pysunday]: Remove: archive file [/home/abi/fetcher/tmp/pysunday-0.3.4.tar.gz]
+[2023-07-06 06:51:09] INFO root fetch - main [MainThread]: End processing [pysunday]: success
+[2023-07-06 06:51:09] INFO root fetch - main [MainThread]: Store serial: [18778494]
