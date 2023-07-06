@@ -11765,3 +11765,194 @@ AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
 [2023-07-06 06:35:31] INFO root fetch - processPackages [clp-ffi-py]: Remove: archive file [/home/abi/fetcher/tmp/clp_ffi_py-0.0.0b0.tar.gz]
 [2023-07-06 06:35:31] INFO root fetch - main [MainThread]: End processing [clp-ffi-py]: success
 [2023-07-06 06:35:31] INFO root fetch - main [MainThread]: Store serial: [18778381]
+[2023-07-06 06:40:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18778381]
+[2023-07-06 06:40:41] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-07-06 06:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-product-form-pricelist
+[2023-07-06 06:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: snowflake-connector-python-nightly
+[2023-07-06 06:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-product-pricelist-direct-print
+[2023-07-06 06:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: c8connector
+[2023-07-06 06:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: amazon-braket-pennylane-plugin
+[2023-07-06 06:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: backend.ai-accelerator-cuda-open
+[2023-07-06 06:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: backend.ai-accelerator-mock
+[2023-07-06 06:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: backend.ai-agent
+[2023-07-06 06:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: backend.ai-cli
+[2023-07-06 06:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: backend.ai-client
+[2023-07-06 06:40:42] INFO root fetch - processPackages [backend.ai-accelerator-mock]: New version: [23.3.8] Old Version: [23.3.7]
+[2023-07-06 06:40:42] INFO root fetch - processPackages [c8connector]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 06:40:42] INFO root fetch - processPackages [backend.ai-accelerator-cuda-open]: New version: [23.3.8] Old Version: [23.3.7]
+[2023-07-06 06:40:42] INFO root fetch - processPackages [odoo-addon-product-pricelist-direct-print]: New version: [16.0.1.0.0.11] Old Version: [16.0.1.0.0.10]
+[2023-07-06 06:40:42] INFO root fetch - processPackages [odoo14-addon-product-form-pricelist]: New version: [14.0.1.0.2.dev3] Old Version: [14.0.1.0.2.dev1]
+[2023-07-06 06:40:42] INFO root fetch - processPackages [amazon-braket-pennylane-plugin]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-06 06:40:42] INFO root fetch - processPackages [backend.ai-cli]: New version: [23.3.8] Old Version: [23.3.7]
+[2023-07-06 06:40:42] INFO root fetch - processPackages [backend.ai-agent]: New version: [23.3.8] Old Version: [23.3.7]
+[2023-07-06 06:40:42] INFO root fetch - processPackages [c8connector]: Downloading https://files.pythonhosted.org/packages/f5/41/1d6cf1d7e899ee8eb044b7c68250945e84ef99425e6d2c3658bbb903d580/c8connector-0.0.8.tar.gz
+[2023-07-06 06:40:42] INFO root fetch - processPackages [backend.ai-client]: New version: [23.3.8] Old Version: [23.3.7]
+[2023-07-06 06:40:42] INFO root fetch - processPackages [snowflake-connector-python-nightly]: New version: [2023.7.6] Old Version: [2023.6.7]
+[2023-07-06 06:40:42] INFO root fetch - processPackages [amazon-braket-pennylane-plugin]: Downloading https://files.pythonhosted.org/packages/95/95/8e28d0f8b5ef7a7ecb48c398bbc026f6e765510347b46a114a993653e369/amazon-braket-pennylane-plugin-1.8.0.tar.gz
+[2023-07-06 06:40:42] INFO root fetch - processPackages [backend.ai-accelerator-mock]: Downloading https://files.pythonhosted.org/packages/e1/96/1e87510c5cfab440aa79d441ee3039287ffcdeacf0d2292b5104130ef9d3/backend.ai-accelerator-mock-23.3.7.tar.gz
+[2023-07-06 06:40:42] INFO root fetch - processPackages [odoo14-addon-product-form-pricelist]: Downloading https://files.pythonhosted.org/packages/28/a0/245f606c28285e9fc92457991ab5bc2a2b4d9ca16fc2d7efc2e4e0cc7735/odoo14_addon_product_form_pricelist-14.0.1.0.2.dev1-py3-none-any.whl
+[2023-07-06 06:40:42] INFO root fetch - processPackages [backend.ai-accelerator-cuda-open]: Downloading https://files.pythonhosted.org/packages/c9/25/7787c9f9c00d93bc32a6bcff513e3e89db049cb9d7972eb7e20b263582b2/backend.ai-accelerator-cuda-open-23.3.7.tar.gz
+[2023-07-06 06:40:42] INFO root fetch - processPackages [odoo-addon-product-pricelist-direct-print]: Downloading https://files.pythonhosted.org/packages/24/16/bcebafb96b4d1a5cd5f288deac093003bdb9e9d6a39a9ca9323b54a6f6a7/odoo_addon_product_pricelist_direct_print-16.0.1.0.0.10-py3-none-any.whl
+[2023-07-06 06:40:42] INFO root fetch - processPackages [backend.ai-client]: Downloading https://files.pythonhosted.org/packages/18/fd/dced7ebd88ac7d2ff796092548f529a9c41ef99a5c942db31de422428c14/backend.ai-client-23.3.7.tar.gz
+[2023-07-06 06:40:42] INFO root fetch - processPackages [backend.ai-agent]: Downloading https://files.pythonhosted.org/packages/28/fe/32f57794032dbe33cba0da9b070c8ecff759ccdf0559d0f23e0273ba1453/backend.ai-agent-23.3.7.tar.gz
+[2023-07-06 06:40:42] INFO root fetch - processPackages [backend.ai-cli]: Downloading https://files.pythonhosted.org/packages/25/e4/f84a96d9081c7a28232fa658babf4537fca1b360057713271ceafa27287e/backend.ai-cli-23.3.7.tar.gz
+[2023-07-06 06:40:42] WARNING root fetch - processPackages [backend.ai-agent]: Skipping package: exceeds size limit 17978486>=10485760
+[2023-07-06 06:40:42] INFO root fetch - processPackages [backend.ai-agent]: Start processing: backend.ai-common
+[2023-07-06 06:40:42] INFO root fetch - main [MainThread]: End processing [backend.ai-agent] error
+[2023-07-06 06:40:42] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Downloading https://files.pythonhosted.org/packages/68/b0/f336858f4c93e932845978ce40804a9fe4d176af4794484e6f9c6cbad8cf/snowflake-connector-python-nightly-2023.6.7.tar.gz
+[2023-07-06 06:40:42] INFO root fetch - processPackages [c8connector]: Downloading https://files.pythonhosted.org/packages/a4/3a/d5e3d87254f7a5c4983165bbbf9752fb19c15dc5fbdaf03bbe5e5ba41f68/c8connector-0.0.9.tar.gz
+[2023-07-06 06:40:42] INFO root fetch - processPackages [backend.ai-common]: New version: [23.3.8] Old Version: [23.3.7]
+[2023-07-06 06:40:42] INFO root fetch - processPackages [c8connector]: executing diffoscope
+[2023-07-06 06:40:42] INFO root fetch - processPackages [c8connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c8connector-0.0.8.tar.gz tmp/c8connector-0.0.9.tar.gz --markdown 20230706/c/c8connector/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 06:40:42] INFO root fetch - processPackages [odoo14-addon-product-form-pricelist]: Downloading https://files.pythonhosted.org/packages/25/42/9d872f1727c5474a4c08699a7c8adaf0a4f19528cd8f6d42b5e402306397/odoo14_addon_product_form_pricelist-14.0.1.0.2.dev3-py3-none-any.whl
+[2023-07-06 06:40:42] INFO root fetch - processPackages [backend.ai-accelerator-mock]: Downloading https://files.pythonhosted.org/packages/d8/8b/689c6f2886b4812b79a83999db622d605b56a00d7d366dc2f716fe2a3b58/backend.ai-accelerator-mock-23.3.8.tar.gz
+[2023-07-06 06:40:43] INFO root fetch - processPackages [amazon-braket-pennylane-plugin]: Downloading https://files.pythonhosted.org/packages/20/1b/9eacc1dc4e4a53515e50e9d14155ef17ff031ee0f90420b437271f5026f6/amazon-braket-pennylane-plugin-1.9.0.tar.gz
+[2023-07-06 06:40:43] INFO root fetch - processPackages [backend.ai-cli]: Downloading https://files.pythonhosted.org/packages/81/86/9f1f8cabdd0ef5606983444b117a6123be251b6e5f3edde7d8fe745784c1/backend.ai-cli-23.3.8.tar.gz
+[2023-07-06 06:40:43] INFO root fetch - processPackages [backend.ai-accelerator-cuda-open]: Downloading https://files.pythonhosted.org/packages/51/3f/8832cdf7247e229ee1cb5f0b98e442c034532dfcdfc3a45edb9e0f7cce44/backend.ai-accelerator-cuda-open-23.3.8.tar.gz
+[2023-07-06 06:40:43] INFO root fetch - processPackages [odoo-addon-product-pricelist-direct-print]: Downloading https://files.pythonhosted.org/packages/a1/21/dc6635ca2b88d1b8fbec98656ef273db43e77d23b8b8ac33e451dbe47e2a/odoo_addon_product_pricelist_direct_print-16.0.1.0.0.11-py3-none-any.whl
+[2023-07-06 06:40:43] INFO root fetch - processPackages [backend.ai-client]: Downloading https://files.pythonhosted.org/packages/96/d0/a0a7aaaeaa31dc3a090a3e458a737056aa889c50bd9a26121e267738281a/backend.ai-client-23.3.8.tar.gz
+[2023-07-06 06:40:43] INFO root fetch - processPackages [backend.ai-common]: Downloading https://files.pythonhosted.org/packages/c8/03/c2268424b047344af0a13ed0166f7481e64c8b80def277d8684a5ce73142/backend.ai-common-23.3.7.tar.gz
+[2023-07-06 06:40:43] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Downloading https://files.pythonhosted.org/packages/c9/81/c4d9965bfca21c8ac1ee47fa96c6efeeb51fa6f29adea9b6c656c1e1186f/snowflake-connector-python-nightly-2023.7.6.tar.gz
+[2023-07-06 06:40:43] INFO root fetch - processPackages [odoo14-addon-product-form-pricelist]: executing diffoscope
+[2023-07-06 06:40:43] INFO root fetch - processPackages [odoo14-addon-product-form-pricelist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_product_form_pricelist-14.0.1.0.2.dev1-py3-none-any.whl.zip tmp/odoo14_addon_product_form_pricelist-14.0.1.0.2.dev3-py3-none-any.whl.zip --markdown 20230706/o/odoo14-addon-product-form-pricelist/14.0.1.0.2.dev1-14.0.1.0.2.dev3/diff.md --exclude *.pyd
+[2023-07-06 06:40:43] INFO root fetch - processPackages [amazon-braket-pennylane-plugin]: executing diffoscope
+[2023-07-06 06:40:43] INFO root fetch - processPackages [amazon-braket-pennylane-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-braket-pennylane-plugin-1.8.0.tar.gz tmp/amazon-braket-pennylane-plugin-1.9.0.tar.gz --markdown 20230706/a/amazon-braket-pennylane-plugin/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-06 06:40:43] INFO root fetch - processPackages [backend.ai-accelerator-mock]: executing diffoscope
+[2023-07-06 06:40:43] INFO root fetch - processPackages [backend.ai-accelerator-mock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-accelerator-mock-23.3.7.tar.gz tmp/backend.ai-accelerator-mock-23.3.8.tar.gz --markdown 20230706/b/backend.ai-accelerator-mock/23.3.7-23.3.8/diff.md --exclude *.pyd
+[2023-07-06 06:40:43] INFO root fetch - processPackages [backend.ai-cli]: executing diffoscope
+[2023-07-06 06:40:43] INFO root fetch - processPackages [backend.ai-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-cli-23.3.7.tar.gz tmp/backend.ai-cli-23.3.8.tar.gz --markdown 20230706/b/backend.ai-cli/23.3.7-23.3.8/diff.md --exclude *.pyd
+[2023-07-06 06:40:43] INFO root fetch - processPackages [backend.ai-accelerator-cuda-open]: executing diffoscope
+[2023-07-06 06:40:43] INFO root fetch - processPackages [backend.ai-accelerator-cuda-open]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-accelerator-cuda-open-23.3.7.tar.gz tmp/backend.ai-accelerator-cuda-open-23.3.8.tar.gz --markdown 20230706/b/backend.ai-accelerator-cuda-open/23.3.7-23.3.8/diff.md --exclude *.pyd
+[2023-07-06 06:40:43] INFO root fetch - processPackages [odoo-addon-product-pricelist-direct-print]: executing diffoscope
+[2023-07-06 06:40:43] INFO root fetch - processPackages [odoo-addon-product-pricelist-direct-print]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_pricelist_direct_print-16.0.1.0.0.10-py3-none-any.whl.zip tmp/odoo_addon_product_pricelist_direct_print-16.0.1.0.0.11-py3-none-any.whl.zip --markdown 20230706/o/odoo-addon-product-pricelist-direct-print/16.0.1.0.0.10-16.0.1.0.0.11/diff.md --exclude *.pyd
+[2023-07-06 06:40:43] INFO root fetch - processPackages [backend.ai-client]: executing diffoscope
+[2023-07-06 06:40:43] INFO root fetch - processPackages [backend.ai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-client-23.3.7.tar.gz tmp/backend.ai-client-23.3.8.tar.gz --markdown 20230706/b/backend.ai-client/23.3.7-23.3.8/diff.md --exclude *.pyd
+[2023-07-06 06:40:43] INFO root fetch - processPackages [snowflake-connector-python-nightly]: executing diffoscope
+[2023-07-06 06:40:43] INFO root fetch - processPackages [snowflake-connector-python-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake-connector-python-nightly-2023.6.7.tar.gz tmp/snowflake-connector-python-nightly-2023.7.6.tar.gz --markdown 20230706/s/snowflake-connector-python-nightly/2023.6.7-2023.7.6/diff.md --exclude *.pyd
+[2023-07-06 06:40:43] INFO root fetch - processPackages [backend.ai-common]: Downloading https://files.pythonhosted.org/packages/02/38/6b2cf121354a55da93b7a4e9924e0f79bbed4bf5795a16ff310494a0c79d/backend.ai-common-23.3.8.tar.gz
+[2023-07-06 06:40:43] INFO root fetch - processPackages [backend.ai-common]: executing diffoscope
+[2023-07-06 06:40:43] INFO root fetch - processPackages [backend.ai-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-common-23.3.7.tar.gz tmp/backend.ai-common-23.3.8.tar.gz --markdown 20230706/b/backend.ai-common/23.3.7-23.3.8/diff.md --exclude *.pyd
+[2023-07-06 06:40:44] INFO root fetch - processPackages [c8connector]: Remove: archive file [/home/abi/fetcher/tmp/c8connector-0.0.8.tar.gz]
+[2023-07-06 06:40:44] INFO root fetch - processPackages [c8connector]: Remove: archive file [/home/abi/fetcher/tmp/c8connector-0.0.9.tar.gz]
+[2023-07-06 06:40:44] INFO root fetch - processPackages [c8connector]: Start processing: backend.ai-kernel
+[2023-07-06 06:40:44] INFO root fetch - main [MainThread]: End processing [c8connector]: success
+[2023-07-06 06:40:44] INFO root fetch - processPackages [backend.ai-kernel]: New version: [23.3.8] Old Version: [23.3.7]
+[2023-07-06 06:40:44] INFO root fetch - processPackages [backend.ai-kernel]: Downloading https://files.pythonhosted.org/packages/b3/19/cab66e14aace095c829cdf25216ab298aefc7164158392ea928d0757c80a/backend.ai-kernel-23.3.7.tar.gz
+[2023-07-06 06:40:44] INFO root fetch - processPackages [backend.ai-kernel]: Downloading https://files.pythonhosted.org/packages/6f/47/c0918cf0483dc18924d7ed774324064edb000b19a52657d4129fc5791dc3/backend.ai-kernel-23.3.8.tar.gz
+[2023-07-06 06:40:44] INFO root fetch - processPackages [odoo14-addon-product-form-pricelist]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_form_pricelist-14.0.1.0.2.dev1-py3-none-any.whl.zip]
+[2023-07-06 06:40:44] INFO root fetch - processPackages [odoo14-addon-product-form-pricelist]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_form_pricelist-14.0.1.0.2.dev3-py3-none-any.whl.zip]
+[2023-07-06 06:40:44] INFO root fetch - processPackages [backend.ai-kernel]: executing diffoscope
+[2023-07-06 06:40:44] INFO root fetch - processPackages [backend.ai-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-kernel-23.3.7.tar.gz tmp/backend.ai-kernel-23.3.8.tar.gz --markdown 20230706/b/backend.ai-kernel/23.3.7-23.3.8/diff.md --exclude *.pyd
+[2023-07-06 06:40:44] INFO root fetch - processPackages [odoo14-addon-product-form-pricelist]: Start processing: backend.ai-kernel-binary
+[2023-07-06 06:40:44] INFO root fetch - main [MainThread]: End processing [odoo14-addon-product-form-pricelist]: success
+[2023-07-06 06:40:44] INFO root fetch - processPackages [backend.ai-cli]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-cli-23.3.7.tar.gz]
+[2023-07-06 06:40:44] INFO root fetch - processPackages [backend.ai-cli]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-cli-23.3.8.tar.gz]
+[2023-07-06 06:40:44] INFO root fetch - processPackages [backend.ai-cli]: Start processing: tf-nightly-macos
+[2023-07-06 06:40:44] INFO root fetch - main [MainThread]: End processing [backend.ai-cli]: success
+[2023-07-06 06:40:44] INFO root fetch - processPackages [backend.ai-accelerator-cuda-open]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-accelerator-cuda-open-23.3.7.tar.gz]
+[2023-07-06 06:40:44] INFO root fetch - processPackages [backend.ai-accelerator-cuda-open]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-accelerator-cuda-open-23.3.8.tar.gz]
+[2023-07-06 06:40:44] INFO root fetch - processPackages [backend.ai-accelerator-cuda-open]: Start processing: backend.ai-kernel-helper
+[2023-07-06 06:40:44] INFO root fetch - main [MainThread]: End processing [backend.ai-accelerator-cuda-open]: success
+[2023-07-06 06:40:44] INFO root fetch - processPackages [odoo-addon-product-pricelist-direct-print]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_pricelist_direct_print-16.0.1.0.0.10-py3-none-any.whl.zip]
+[2023-07-06 06:40:44] INFO root fetch - processPackages [odoo-addon-product-pricelist-direct-print]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_pricelist_direct_print-16.0.1.0.0.11-py3-none-any.whl.zip]
+[2023-07-06 06:40:44] INFO root fetch - processPackages [odoo-addon-product-pricelist-direct-print]: Start processing: backend.ai-manager
+[2023-07-06 06:40:44] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-pricelist-direct-print]: success
+[2023-07-06 06:40:44] INFO root fetch - processPackages [backend.ai-kernel-binary]: New version: [23.3.8] Old Version: [23.3.7]
+[2023-07-06 06:40:45] INFO root fetch - processPackages [tf-nightly-macos]: New version: [2.14.0.dev20230704] Old Version: [2.14.0.dev20230703]
+[2023-07-06 06:40:45] INFO root fetch - processPackages [backend.ai-kernel-helper]: New version: [23.3.8] Old Version: [23.3.7]
+[2023-07-06 06:40:45] INFO root fetch - processPackages [amazon-braket-pennylane-plugin]: Remove: archive file [/home/abi/fetcher/tmp/amazon-braket-pennylane-plugin-1.8.0.tar.gz]
+[2023-07-06 06:40:45] INFO root fetch - processPackages [amazon-braket-pennylane-plugin]: Remove: archive file [/home/abi/fetcher/tmp/amazon-braket-pennylane-plugin-1.9.0.tar.gz]
+[2023-07-06 06:40:45] INFO root fetch - processPackages [amazon-braket-pennylane-plugin]: Start processing: backend.ai-plugin
+[2023-07-06 06:40:45] INFO root fetch - main [MainThread]: End processing [amazon-braket-pennylane-plugin]: success
+[2023-07-06 06:40:45] INFO root fetch - processPackages [backend.ai-manager]: New version: [23.3.8] Old Version: [23.3.7]
+[2023-07-06 06:40:45] INFO root fetch - processPackages [backend.ai-accelerator-mock]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-accelerator-mock-23.3.7.tar.gz]
+[2023-07-06 06:40:45] INFO root fetch - processPackages [backend.ai-accelerator-mock]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-accelerator-mock-23.3.8.tar.gz]
+[2023-07-06 06:40:45] INFO root fetch - processPackages [backend.ai-accelerator-mock]: Start processing: backend.ai-storage-proxy
+[2023-07-06 06:40:45] INFO root fetch - main [MainThread]: End processing [backend.ai-accelerator-mock]: success
+[2023-07-06 06:40:45] INFO root fetch - processPackages [backend.ai-plugin]: New version: [23.3.8] Old Version: [23.3.7]
+[2023-07-06 06:40:45] INFO root fetch - processPackages [tf-nightly-macos]: Downloading https://files.pythonhosted.org/packages/a1/1c/6aaa7ef1ebe0b4116dbf6d0ebdfbe9ab5bafbd63be8b01a1a7faab2cfa46/tf_nightly_macos-2.14.0.dev20230703-cp39-cp39-macosx_12_0_arm64.whl
+[2023-07-06 06:40:45] INFO root fetch - processPackages [backend.ai-storage-proxy]: New version: [23.3.8] Old Version: [23.3.7]
+[2023-07-06 06:40:45] WARNING root fetch - processPackages [tf-nightly-macos]: Skipping package: exceeds size limit 199620550>=10485760
+[2023-07-06 06:40:45] INFO root fetch - processPackages [tf-nightly-macos]: Start processing: backend.ai-test
+[2023-07-06 06:40:45] INFO root fetch - main [MainThread]: End processing [tf-nightly-macos] error
+[2023-07-06 06:40:45] INFO root fetch - processPackages [backend.ai-kernel-binary]: Downloading https://files.pythonhosted.org/packages/6c/9f/56f06c125db10c02876d4d886dc328756451701885db00137ab4e8d28c6e/backend.ai-kernel-binary-23.3.7.tar.gz
+[2023-07-06 06:40:45] INFO root fetch - processPackages [backend.ai-kernel-helper]: Downloading https://files.pythonhosted.org/packages/9b/5b/d7fd9e898df8517ea8a999f23577957288e1ce790a62fa133696438760d9/backend.ai-kernel-helper-23.3.7.tar.gz
+[2023-07-06 06:40:45] INFO root fetch - processPackages [backend.ai-test]: New version: [23.3.8] Old Version: [23.3.7]
+[2023-07-06 06:40:45] INFO root fetch - processPackages [backend.ai-common]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-common-23.3.7.tar.gz]
+[2023-07-06 06:40:45] INFO root fetch - processPackages [backend.ai-common]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-common-23.3.8.tar.gz]
+[2023-07-06 06:40:45] INFO root fetch - processPackages [backend.ai-common]: Start processing: backend.ai-webserver
+[2023-07-06 06:40:45] INFO root fetch - main [MainThread]: End processing [backend.ai-common]: success
+[2023-07-06 06:40:45] INFO root fetch - processPackages [backend.ai-webserver]: New version: [23.3.8] Old Version: [23.3.7]
+[2023-07-06 06:40:45] WARNING root fetch - processPackages [backend.ai-kernel-binary]: Skipping package: exceeds size limit 21984002>=10485760
+[2023-07-06 06:40:45] INFO root fetch - processPackages [backend.ai-kernel-binary]: Start processing: cjm-yolox-pytorch
+[2023-07-06 06:40:45] INFO root fetch - main [MainThread]: End processing [backend.ai-kernel-binary] error
+[2023-07-06 06:40:45] INFO root fetch - processPackages [backend.ai-client]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-client-23.3.7.tar.gz]
+[2023-07-06 06:40:45] INFO root fetch - processPackages [backend.ai-client]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-client-23.3.8.tar.gz]
+[2023-07-06 06:40:45] INFO root fetch - processPackages [backend.ai-client]: Start processing: simfwp
+[2023-07-06 06:40:45] INFO root fetch - main [MainThread]: End processing [backend.ai-client]: success
+[2023-07-06 06:40:45] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 06:40:45] INFO root fetch - processPackages [backend.ai-plugin]: Downloading https://files.pythonhosted.org/packages/19/61/90edcbce9d91f46a16b7e35cf8da81df18ead7c0c19faedc5781cd8ade51/backend.ai-plugin-23.3.7.tar.gz
+[2023-07-06 06:40:45] INFO root fetch - processPackages [backend.ai-storage-proxy]: Downloading https://files.pythonhosted.org/packages/b8/fb/51bb86bc4e8bc9572bb1967ced992bf7ace6d2a8c7621599b9cc51370e64/backend.ai-storage-proxy-23.3.7.tar.gz
+[2023-07-06 06:40:45] INFO root fetch - processPackages [backend.ai-manager]: Downloading https://files.pythonhosted.org/packages/88/a0/48add96fbc433616bc1bbaffc1c89aa106ce8dc28d65505a6a0d96d14164/backend.ai-manager-23.3.7.tar.gz
+[2023-07-06 06:40:45] INFO root fetch - processPackages [simfwp]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-06 06:40:45] INFO root fetch - processPackages [backend.ai-test]: Downloading https://files.pythonhosted.org/packages/2b/ea/bb9523521b9299eb6725562b515c313da4f88f87a5852f48618d554ae9ee/backend.ai-test-23.3.7.tar.gz
+[2023-07-06 06:40:45] INFO root fetch - processPackages [backend.ai-webserver]: Downloading https://files.pythonhosted.org/packages/fe/39/70f38cb3a50299b3221f9f3f7bffaca64edc7afc0ea6122a4dde8934f097/backend.ai-webserver-23.3.7.tar.gz
+[2023-07-06 06:40:45] INFO root fetch - processPackages [backend.ai-kernel-helper]: Downloading https://files.pythonhosted.org/packages/c2/62/a25457fbea6f3ba94961fed5b3c8f858e457bcbcd871c85fffd72210e62f/backend.ai-kernel-helper-23.3.8.tar.gz
+[2023-07-06 06:40:45] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/81/56/c42c32e49fb4026f015287fa1a38d74d2be3163719b4d87ac8d2d48172ac/cjm-yolox-pytorch-0.0.8.tar.gz
+[2023-07-06 06:40:45] INFO root fetch - processPackages [simfwp]: Downloading https://files.pythonhosted.org/packages/6b/fc/e2be2abf69903aa00c3af74650ba2281fa87ac302cdb387ed69982c2ad0a/simfwp-0.0.1.tar.gz
+[2023-07-06 06:40:45] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-nightly-2023.6.7.tar.gz]
+[2023-07-06 06:40:45] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-nightly-2023.7.6.tar.gz]
+[2023-07-06 06:40:45] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Start processing: python-audio-autotest-3.10
+[2023-07-06 06:40:45] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python-nightly]: success
+[2023-07-06 06:40:45] INFO root fetch - processPackages [backend.ai-plugin]: Downloading https://files.pythonhosted.org/packages/0e/4b/e79636724f27fa00e9fbd4cc5e016a407efc4603e4ef586d89c418a5bdc6/backend.ai-plugin-23.3.8.tar.gz
+[2023-07-06 06:40:45] INFO root fetch - processPackages [backend.ai-kernel-helper]: executing diffoscope
+[2023-07-06 06:40:45] INFO root fetch - processPackages [backend.ai-kernel-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-kernel-helper-23.3.7.tar.gz tmp/backend.ai-kernel-helper-23.3.8.tar.gz --markdown 20230706/b/backend.ai-kernel-helper/23.3.7-23.3.8/diff.md --exclude *.pyd
+[2023-07-06 06:40:45] INFO root fetch - processPackages [backend.ai-storage-proxy]: Downloading https://files.pythonhosted.org/packages/8b/f1/236056f0e0285feb09d0d6a65d0884f8a4666db343d3b8ac3582a571b218/backend.ai-storage-proxy-23.3.8.tar.gz
+[2023-07-06 06:40:45] INFO root fetch - processPackages [python-audio-autotest-3.10]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-07-06 06:40:45] INFO root fetch - processPackages [backend.ai-manager]: Downloading https://files.pythonhosted.org/packages/39/c8/931520796fca7c51655e0bbd9972184b1a9b08c5468047b9b6ad97bfe849/backend.ai-manager-23.3.8.tar.gz
+[2023-07-06 06:40:45] INFO root fetch - processPackages [backend.ai-plugin]: executing diffoscope
+[2023-07-06 06:40:45] INFO root fetch - processPackages [backend.ai-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-plugin-23.3.7.tar.gz tmp/backend.ai-plugin-23.3.8.tar.gz --markdown 20230706/b/backend.ai-plugin/23.3.7-23.3.8/diff.md --exclude *.pyd
+[2023-07-06 06:40:46] INFO root fetch - processPackages [backend.ai-kernel]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-kernel-23.3.7.tar.gz]
+[2023-07-06 06:40:46] INFO root fetch - processPackages [backend.ai-kernel]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-kernel-23.3.8.tar.gz]
+[2023-07-06 06:40:46] INFO root fetch - main [MainThread]: End processing [backend.ai-kernel]: success
+[2023-07-06 06:40:46] INFO root fetch - processPackages [backend.ai-storage-proxy]: executing diffoscope
+[2023-07-06 06:40:46] INFO root fetch - processPackages [backend.ai-storage-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-storage-proxy-23.3.7.tar.gz tmp/backend.ai-storage-proxy-23.3.8.tar.gz --markdown 20230706/b/backend.ai-storage-proxy/23.3.7-23.3.8/diff.md --exclude *.pyd
+[2023-07-06 06:40:46] INFO root fetch - processPackages [backend.ai-test]: Downloading https://files.pythonhosted.org/packages/51/c2/e3e685addd568dbfa2292075a4cf8c3632dbb6f905a97fd4bb9afc9fecef/backend.ai-test-23.3.8.tar.gz
+[2023-07-06 06:40:46] INFO root fetch - processPackages [backend.ai-manager]: executing diffoscope
+[2023-07-06 06:40:46] INFO root fetch - processPackages [backend.ai-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-manager-23.3.7.tar.gz tmp/backend.ai-manager-23.3.8.tar.gz --markdown 20230706/b/backend.ai-manager/23.3.7-23.3.8/diff.md --exclude *.pyd
+[2023-07-06 06:40:46] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-06 06:40:46] INFO root fetch - processPackages [python-audio-autotest-3.10]: Downloading https://files.pythonhosted.org/packages/9d/67/e55a2306d16b1780b24249222fe9d2b0ff1fbae23ae8db8bc6ec465d9b2c/python_audio_autotest_3.10-1.5.3-py3-none-any.whl
+[2023-07-06 06:40:46] INFO root fetch - processPackages [simfwp]: Downloading https://files.pythonhosted.org/packages/ab/f5/6fa6617b1cada4089ceb2439d20a8ac524a5045525507f2168d13212d303/simfwp-0.0.2.tar.gz
+[2023-07-06 06:40:46] INFO root fetch - processPackages [backend.ai-test]: executing diffoscope
+[2023-07-06 06:40:46] INFO root fetch - processPackages [backend.ai-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-test-23.3.7.tar.gz tmp/backend.ai-test-23.3.8.tar.gz --markdown 20230706/b/backend.ai-test/23.3.7-23.3.8/diff.md --exclude *.pyd
+[2023-07-06 06:40:46] INFO root fetch - processPackages [simfwp]: executing diffoscope
+[2023-07-06 06:40:46] INFO root fetch - processPackages [simfwp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simfwp-0.0.1.tar.gz tmp/simfwp-0.0.2.tar.gz --markdown 20230706/s/simfwp/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-06 06:40:46] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-06 06:40:46] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.8.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230706/c/cjm-yolox-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 06:40:46] WARNING root fetch - processPackages [python-audio-autotest-3.10]: Skipping package: exceeds size limit 26277808>=10485760
+[2023-07-06 06:40:46] INFO root fetch - main [MainThread]: End processing [python-audio-autotest-3.10] error
+[2023-07-06 06:40:46] INFO root fetch - processPackages [backend.ai-webserver]: Downloading https://files.pythonhosted.org/packages/40/7d/35c5f74a97ec63c065ec31305479503020a152951d0f9890ec5fa6928d46/backend.ai-webserver-23.3.8.tar.gz
+[2023-07-06 06:40:46] WARNING root fetch - processPackages [backend.ai-webserver]: Skipping package: exceeds size limit 11789046>=10485760
+[2023-07-06 06:40:46] INFO root fetch - main [MainThread]: End processing [backend.ai-webserver] error
+[2023-07-06 06:40:46] INFO root fetch - processPackages [backend.ai-kernel-helper]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-kernel-helper-23.3.7.tar.gz]
+[2023-07-06 06:40:46] INFO root fetch - processPackages [backend.ai-kernel-helper]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-kernel-helper-23.3.8.tar.gz]
+[2023-07-06 06:40:46] INFO root fetch - main [MainThread]: End processing [backend.ai-kernel-helper]: success
+[2023-07-06 06:40:47] INFO root fetch - processPackages [backend.ai-plugin]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-plugin-23.3.7.tar.gz]
+[2023-07-06 06:40:47] INFO root fetch - processPackages [backend.ai-plugin]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-plugin-23.3.8.tar.gz]
+[2023-07-06 06:40:47] INFO root fetch - main [MainThread]: End processing [backend.ai-plugin]: success
+[2023-07-06 06:40:47] INFO root fetch - processPackages [backend.ai-test]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-test-23.3.7.tar.gz]
+[2023-07-06 06:40:47] INFO root fetch - processPackages [backend.ai-test]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-test-23.3.8.tar.gz]
+[2023-07-06 06:40:47] INFO root fetch - main [MainThread]: End processing [backend.ai-test]: success
+[2023-07-06 06:40:47] INFO root fetch - processPackages [simfwp]: Remove: archive file [/home/abi/fetcher/tmp/simfwp-0.0.1.tar.gz]
+[2023-07-06 06:40:47] INFO root fetch - processPackages [simfwp]: Remove: archive file [/home/abi/fetcher/tmp/simfwp-0.0.2.tar.gz]
+[2023-07-06 06:40:47] INFO root fetch - main [MainThread]: End processing [simfwp]: success
+[2023-07-06 06:40:47] INFO root fetch - processPackages [backend.ai-storage-proxy]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-storage-proxy-23.3.7.tar.gz]
+[2023-07-06 06:40:47] INFO root fetch - processPackages [backend.ai-storage-proxy]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-storage-proxy-23.3.8.tar.gz]
+[2023-07-06 06:40:47] INFO root fetch - main [MainThread]: End processing [backend.ai-storage-proxy]: success
+[2023-07-06 06:40:47] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.8.tar.gz]
+[2023-07-06 06:40:47] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.9.tar.gz]
+[2023-07-06 06:40:47] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-06 06:40:47] INFO root fetch - processPackages [backend.ai-manager]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-manager-23.3.7.tar.gz]
+[2023-07-06 06:40:47] INFO root fetch - processPackages [backend.ai-manager]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-manager-23.3.8.tar.gz]
+[2023-07-06 06:40:47] INFO root fetch - main [MainThread]: End processing [backend.ai-manager]: success
+[2023-07-06 06:40:47] INFO root fetch - main [MainThread]: Store serial: [18778481]
