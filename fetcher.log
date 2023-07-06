@@ -9819,3 +9819,114 @@ AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
 [2023-07-06 04:44:27] INFO root fetch - processPackages [secretflow]: Remove: archive file [/home/abi/fetcher/tmp/secretflow-1.0.0b2-cp38-cp38-macosx_11_0_arm64.whl.zip]
 [2023-07-06 04:44:27] INFO root fetch - main [MainThread]: End processing [secretflow]: success
 [2023-07-06 04:44:27] INFO root fetch - main [MainThread]: Store serial: [18777630]
+[2023-07-06 04:49:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18777630]
+[2023-07-06 04:49:36] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-06 04:49:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lazy-model
+[2023-07-06 04:49:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyTcgpr
+[2023-07-06 04:49:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: windows-control
+[2023-07-06 04:49:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scriptime
+[2023-07-06 04:49:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openlimitHW
+[2023-07-06 04:49:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hak
+[2023-07-06 04:49:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mymulti-key-dict
+[2023-07-06 04:49:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: llamabot
+[2023-07-06 04:49:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: naif-eop-high-prec
+[2023-07-06 04:49:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: coiled
+[2023-07-06 04:49:36] INFO root fetch - processPackages [lazy-model]: New version: [0.1.0b0] Old Version: [0.0.5]
+[2023-07-06 04:49:36] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2023.7.6] Old Version: [2023.7.5]
+[2023-07-06 04:49:36] INFO root fetch - processPackages [mymulti-key-dict]: New version: [0.11] Old Version: [0.10]
+[2023-07-06 04:49:36] INFO root fetch - processPackages [PyTcgpr]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-06 04:49:36] INFO root fetch - processPackages [openlimitHW]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-06 04:49:36] INFO root fetch - processPackages [scriptime]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-06 04:49:36] INFO root fetch - processPackages [windows-control]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-06 04:49:36] INFO root fetch - processPackages [hak]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 04:49:36] INFO root fetch - processPackages [llamabot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 04:49:36] INFO root fetch - processPackages [coiled]: New version: [0.8.1.dev9] Old Version: [0.8.1.dev8]
+[2023-07-06 04:49:36] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/05/17/ad5ef91170b7c0e991a9c8bffa9f9a2dcf3961d5e90c31185bdf3ce8f425/hak-0.0.8.tar.gz
+[2023-07-06 04:49:36] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/e1/61/6a536a80ecefe37ae22892e35c01c023b516781b9222ef159cb4823df439/coiled-0.8.1.dev8.tar.gz
+[2023-07-06 04:49:36] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/31/05/7d4721877f2dde80d5bd40c84773d24b5486a794e78758d5c6c51a0e0ee0/llamabot-0.0.8.tar.gz
+[2023-07-06 04:49:36] INFO root fetch - processPackages [lazy-model]: Downloading https://files.pythonhosted.org/packages/0c/dd/0ef5eaa54e502c3e3229420f0c619bdd5a556417bab1ed74c1d8b23dd3e6/lazy-model-0.0.5.tar.gz
+[2023-07-06 04:49:36] INFO root fetch - processPackages [mymulti-key-dict]: Downloading https://files.pythonhosted.org/packages/cf/6f/45c2d494530f64b54f8abbcff903fe53b5140ff1cef21934fa7cc11fc6a0/mymulti_key_dict-0.10.tar.gz
+[2023-07-06 04:49:36] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/bf/96/10fc9c47bdb472b7443dd761360c6874a2d5be8ba558363f7acb89f5a18b/naif_eop_high_prec-2023.7.5.tar.gz
+[2023-07-06 04:49:37] INFO root fetch - processPackages [PyTcgpr]: Downloading https://files.pythonhosted.org/packages/62/59/daf188240aaec856cff03999ed9148a68c312d6c4c618c699cb4be5e6159/PyTcgpr-1.0.0.tar.gz
+[2023-07-06 04:49:37] INFO root fetch - processPackages [windows-control]: Downloading https://files.pythonhosted.org/packages/2d/59/f3b248dc5eb1dd9222be57e0562338c8b26692d130305ced7e46f4cf48c3/windows_control-0.0.6.tar.gz
+[2023-07-06 04:49:37] INFO root fetch - processPackages [scriptime]: Downloading https://files.pythonhosted.org/packages/c7/ea/06decbe93d0b5cc77fb7362548e588472c5e012af1500ef87f7e095e8abb/scriptime-0.0.4.tar.gz
+[2023-07-06 04:49:37] INFO root fetch - processPackages [openlimitHW]: Downloading https://files.pythonhosted.org/packages/c4/a1/2877e2941097af2f74058f563204863ff99c3f8671f66f04532da6df9d26/openlimitHW-0.3.0.tar.gz
+[2023-07-06 04:49:37] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/fd/2b/bf7b3451d5e3a84e9a674b47e9f046c4db1f582764a85a4dfc00e14ecf00/hak-0.0.9.tar.gz
+[2023-07-06 04:49:37] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/8c/77/360013b912689bcadc9699ffbfd0c59717ab5c032c425ce8f661e39484f5/llamabot-0.0.9.tar.gz
+[2023-07-06 04:49:37] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/18/4f/cbe9bc5a6a7b45e2c701ff2ffc269abc6cca5f79b8bf2834a103706c4d06/coiled-0.8.1.dev9.tar.gz
+[2023-07-06 04:49:37] INFO root fetch - processPackages [mymulti-key-dict]: Downloading https://files.pythonhosted.org/packages/52/40/fb94d33e925bb3e3adb6cf3d17927784194d592c29f6233018f33cddfa33/mymulti_key_dict-0.11.tar.gz
+[2023-07-06 04:49:37] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-07-06 04:49:37] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.8.tar.gz tmp/hak-0.0.9.tar.gz --markdown 20230706/h/hak/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 04:49:37] INFO root fetch - processPackages [llamabot]: executing diffoscope
+[2023-07-06 04:49:37] INFO root fetch - processPackages [llamabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamabot-0.0.8.tar.gz tmp/llamabot-0.0.9.tar.gz --markdown 20230706/l/llamabot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 04:49:37] INFO root fetch - processPackages [lazy-model]: Downloading https://files.pythonhosted.org/packages/80/9c/659bbd5dcc75db99213546f68c0d9fb17936bc063a124ecec80532d22f89/lazy-model-0.1.0b0.tar.gz
+[2023-07-06 04:49:37] INFO root fetch - processPackages [PyTcgpr]: Downloading https://files.pythonhosted.org/packages/c8/17/b96946495df08b6a64a3edc9fb11b03ea215cbf58f27e9081a43583b93df/PyTcgpr-1.0.1.tar.gz
+[2023-07-06 04:49:37] INFO root fetch - processPackages [openlimitHW]: Downloading https://files.pythonhosted.org/packages/32/a4/84cfeae6da0a86cd5a8e8ee20f1d2dd0ed31aafa127b35482f1c9865ada8/openlimitHW-0.4.0.tar.gz
+[2023-07-06 04:49:37] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/89/0d/cbf26cebbc98674b9fc8c8b107dc89dc6084ea26986c02fa12b37772008a/naif_eop_high_prec-2023.7.6.tar.gz
+[2023-07-06 04:49:37] INFO root fetch - processPackages [scriptime]: Downloading https://files.pythonhosted.org/packages/70/5f/3bd8e3526b0626d58aefe9b757b64160d33d5afdafb583a6aad1fc5a2980/scriptime-0.0.5.tar.gz
+[2023-07-06 04:49:37] INFO root fetch - processPackages [windows-control]: Downloading https://files.pythonhosted.org/packages/4f/3d/154e9a2c2d4a829d0f8825e30572c9c676c3ed8f6250cf7ebc0f7f464bc0/windows_control-0.0.7.tar.gz
+[2023-07-06 04:49:37] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-06 04:49:37] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.8.1.dev8.tar.gz tmp/coiled-0.8.1.dev9.tar.gz --markdown 20230706/c/coiled/0.8.1.dev8-0.8.1.dev9/diff.md --exclude *.pyd
+[2023-07-06 04:49:37] INFO root fetch - processPackages [mymulti-key-dict]: executing diffoscope
+[2023-07-06 04:49:37] INFO root fetch - processPackages [mymulti-key-dict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mymulti_key_dict-0.10.tar.gz tmp/mymulti_key_dict-0.11.tar.gz --markdown 20230706/m/mymulti-key-dict/0.10-0.11/diff.md --exclude *.pyd
+[2023-07-06 04:49:37] INFO root fetch - processPackages [lazy-model]: executing diffoscope
+[2023-07-06 04:49:37] INFO root fetch - processPackages [lazy-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazy-model-0.0.5.tar.gz tmp/lazy-model-0.1.0b0.tar.gz --markdown 20230706/l/lazy-model/0.0.5-0.1.0b0/diff.md --exclude *.pyd
+[2023-07-06 04:49:37] INFO root fetch - processPackages [PyTcgpr]: executing diffoscope
+[2023-07-06 04:49:37] INFO root fetch - processPackages [PyTcgpr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyTcgpr-1.0.0.tar.gz tmp/PyTcgpr-1.0.1.tar.gz --markdown 20230706/P/PyTcgpr/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-06 04:49:37] INFO root fetch - processPackages [openlimitHW]: executing diffoscope
+[2023-07-06 04:49:37] INFO root fetch - processPackages [openlimitHW]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlimitHW-0.3.0.tar.gz tmp/openlimitHW-0.4.0.tar.gz --markdown 20230706/o/openlimitHW/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-06 04:49:37] INFO root fetch - processPackages [scriptime]: executing diffoscope
+[2023-07-06 04:49:37] INFO root fetch - processPackages [scriptime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scriptime-0.0.4.tar.gz tmp/scriptime-0.0.5.tar.gz --markdown 20230706/s/scriptime/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-06 04:49:37] INFO root fetch - processPackages [windows-control]: executing diffoscope
+[2023-07-06 04:49:37] INFO root fetch - processPackages [windows-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windows_control-0.0.6.tar.gz tmp/windows_control-0.0.7.tar.gz --markdown 20230706/w/windows-control/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-06 04:49:38] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2023-07-06 04:49:38] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2023.7.5.tar.gz tmp/naif_eop_high_prec-2023.7.6.tar.gz --markdown 20230706/n/naif-eop-high-prec/2023.7.5-2023.7.6/diff.md --exclude *.pyd
+[2023-07-06 04:49:38] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.0.8.tar.gz]
+[2023-07-06 04:49:38] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.0.9.tar.gz]
+[2023-07-06 04:49:38] INFO root fetch - processPackages [llamabot]: Start processing: cdk8s-plus-25
+[2023-07-06 04:49:38] INFO root fetch - main [MainThread]: End processing [llamabot]: success
+[2023-07-06 04:49:38] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-07-06 04:49:39] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/19/05/30d98744c3813d678438d1f164dc4db8972da2ff34d40fc7d3a6492d5cc8/cdk8s-plus-25-2.8.8.tar.gz
+[2023-07-06 04:49:39] INFO root fetch - processPackages [scriptime]: Remove: archive file [/home/abi/fetcher/tmp/scriptime-0.0.4.tar.gz]
+[2023-07-06 04:49:39] INFO root fetch - processPackages [scriptime]: Remove: archive file [/home/abi/fetcher/tmp/scriptime-0.0.5.tar.gz]
+[2023-07-06 04:49:39] INFO root fetch - processPackages [scriptime]: Start processing: odoo-addon-agreement
+[2023-07-06 04:49:39] INFO root fetch - main [MainThread]: End processing [scriptime]: success
+[2023-07-06 04:49:39] INFO root fetch - processPackages [mymulti-key-dict]: Remove: archive file [/home/abi/fetcher/tmp/mymulti_key_dict-0.10.tar.gz]
+[2023-07-06 04:49:39] INFO root fetch - processPackages [mymulti-key-dict]: Remove: archive file [/home/abi/fetcher/tmp/mymulti_key_dict-0.11.tar.gz]
+[2023-07-06 04:49:39] INFO root fetch - main [MainThread]: End processing [mymulti-key-dict]: success
+[2023-07-06 04:49:39] INFO root fetch - processPackages [openlimitHW]: Remove: archive file [/home/abi/fetcher/tmp/openlimitHW-0.3.0.tar.gz]
+[2023-07-06 04:49:39] INFO root fetch - processPackages [openlimitHW]: Remove: archive file [/home/abi/fetcher/tmp/openlimitHW-0.4.0.tar.gz]
+[2023-07-06 04:49:39] INFO root fetch - main [MainThread]: End processing [openlimitHW]: success
+[2023-07-06 04:49:39] INFO root fetch - processPackages [odoo-addon-agreement]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.6]
+[2023-07-06 04:49:39] INFO root fetch - processPackages [lazy-model]: Remove: archive file [/home/abi/fetcher/tmp/lazy-model-0.0.5.tar.gz]
+[2023-07-06 04:49:39] INFO root fetch - processPackages [lazy-model]: Remove: archive file [/home/abi/fetcher/tmp/lazy-model-0.1.0b0.tar.gz]
+[2023-07-06 04:49:39] INFO root fetch - main [MainThread]: End processing [lazy-model]: success
+[2023-07-06 04:49:39] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.1.dev8.tar.gz]
+[2023-07-06 04:49:39] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.1.dev9.tar.gz]
+[2023-07-06 04:49:39] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-06 04:49:39] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/79/f6/d6bb21b3e8c3f61cefbc6cfb377c23ba65b57440ab1bd217fa176e0b9df7/cdk8s-plus-25-2.8.9.tar.gz
+[2023-07-06 04:49:39] INFO root fetch - processPackages [windows-control]: Remove: archive file [/home/abi/fetcher/tmp/windows_control-0.0.6.tar.gz]
+[2023-07-06 04:49:39] INFO root fetch - processPackages [windows-control]: Remove: archive file [/home/abi/fetcher/tmp/windows_control-0.0.7.tar.gz]
+[2023-07-06 04:49:39] INFO root fetch - main [MainThread]: End processing [windows-control]: success
+[2023-07-06 04:49:39] INFO root fetch - processPackages [odoo-addon-agreement]: Downloading https://files.pythonhosted.org/packages/88/44/377d3c34aa8c83a8e79c1e902e586f78c71f3228bb620cd0fb800da63c5a/odoo_addon_agreement-16.0.1.0.0.6-py3-none-any.whl
+[2023-07-06 04:49:39] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.8.tar.gz]
+[2023-07-06 04:49:39] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
+[2023-07-06 04:49:39] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-07-06 04:49:39] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-07-06 04:49:39] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.8.8.tar.gz tmp/cdk8s-plus-25-2.8.9.tar.gz --markdown 20230706/c/cdk8s-plus-25/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-07-06 04:49:39] INFO root fetch - processPackages [PyTcgpr]: Remove: archive file [/home/abi/fetcher/tmp/PyTcgpr-1.0.0.tar.gz]
+[2023-07-06 04:49:39] INFO root fetch - processPackages [PyTcgpr]: Remove: archive file [/home/abi/fetcher/tmp/PyTcgpr-1.0.1.tar.gz]
+[2023-07-06 04:49:39] INFO root fetch - main [MainThread]: End processing [PyTcgpr]: success
+[2023-07-06 04:49:40] INFO root fetch - processPackages [odoo-addon-agreement]: Downloading https://files.pythonhosted.org/packages/e2/70/58ed0e6fd2d57997457605948de290282d1dfa3ed761518f7ceeba345e72/odoo_addon_agreement-16.0.1.0.0.8-py3-none-any.whl
+[2023-07-06 04:49:40] INFO root fetch - processPackages [odoo-addon-agreement]: executing diffoscope
+[2023-07-06 04:49:40] INFO root fetch - processPackages [odoo-addon-agreement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_agreement-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_agreement-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20230706/o/odoo-addon-agreement/16.0.1.0.0.6-16.0.1.0.0.8/diff.md --exclude *.pyd
+[2023-07-06 04:49:40] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.8.tar.gz]
+[2023-07-06 04:49:40] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.9.tar.gz]
+[2023-07-06 04:49:40] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-07-06 04:49:41] INFO root fetch - processPackages [odoo-addon-agreement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_agreement-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-07-06 04:49:41] INFO root fetch - processPackages [odoo-addon-agreement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_agreement-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-07-06 04:49:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-agreement]: success
+[2023-07-06 04:49:41] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.5.tar.gz]
+[2023-07-06 04:49:41] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.6.tar.gz]
+[2023-07-06 04:49:41] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2023-07-06 04:49:41] INFO root fetch - main [MainThread]: Store serial: [18777665]
