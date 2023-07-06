@@ -20049,3 +20049,178 @@ AssertionError: tmp/termkit-0.2.0a4.tar.gz does not exist
 [2023-07-06 12:21:26] INFO root fetch - processPackages [pyteseo]: Remove: archive file [/home/abi/fetcher/tmp/pyteseo-0.0.7.tar.gz]
 [2023-07-06 12:21:26] INFO root fetch - main [MainThread]: End processing [pyteseo]: success
 [2023-07-06 12:21:26] INFO root fetch - main [MainThread]: Store serial: [18781779]
+[2023-07-06 12:26:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18781779]
+[2023-07-06 12:26:37] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-07-06 12:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: raclients
+[2023-07-06 12:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: uploader-client
+[2023-07-06 12:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: copasi-basico
+[2023-07-06 12:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nkj
+[2023-07-06 12:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nkj
+[2023-07-06 12:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyoxynet
+[2023-07-06 12:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kanonym4text
+[2023-07-06 12:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: google-play-developer-api
+[2023-07-06 12:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-idp-user
+[2023-07-06 12:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qoqo-calculator-pyo3
+[2023-07-06 12:26:37] INFO root fetch - processPackages [nkj]: New version: [0.92] Old Version: [0.91]
+[2023-07-06 12:26:37] INFO root fetch - processPackages [copasi-basico]: New version: [0.9] Old Version: [0.8]
+[2023-07-06 12:26:37] INFO root fetch - processPackages [uploader-client]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-06 12:26:37] INFO root fetch - processPackages [raclients]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-07-06 12:26:37] INFO root fetch - processPackages [nkj]: New version: [0.92] Old Version: [0.91]
+[2023-07-06 12:26:37] INFO root fetch - processPackages [google-play-developer-api]: New version: [0.6.0] Old Version: [0.5.2]
+[2023-07-06 12:26:37] INFO root fetch - processPackages [qoqo-calculator-pyo3]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-06 12:26:37] INFO root fetch - processPackages [django-idp-user]: New version: [2.2.0.dev1] Old Version: [2.1.0]
+[2023-07-06 12:26:37] INFO root fetch - processPackages [kanonym4text]: New version: [0.2.1] Old Version: [0.1.8]
+[2023-07-06 12:26:37] INFO root fetch - processPackages [pyoxynet]: New version: [0.0.9.9] Old Version: [0.0.9.8]
+[2023-07-06 12:26:37] INFO root fetch - processPackages [raclients]: Downloading https://files.pythonhosted.org/packages/4f/b1/64f97cff5c786a4e9dbaabfefd4392b26e648acdec629239bc267d277daf/raclients-3.1.8.tar.gz
+[2023-07-06 12:26:37] INFO root fetch - processPackages [django-idp-user]: Downloading https://files.pythonhosted.org/packages/17/d8/7a9bf7c6f65b14540101ade6ace5cf198676121b84a823f69f09bd7cb360/django_idp_user-2.1.0.tar.gz
+[2023-07-06 12:26:37] INFO root fetch - processPackages [pyoxynet]: Downloading https://files.pythonhosted.org/packages/b0/fc/515fba70151d23e2002eff3cb89de86f3323f2de498b24ac5634ad424107/pyoxynet-0.0.9.8.tar.gz
+[2023-07-06 12:26:37] INFO root fetch - processPackages [nkj]: Downloading https://files.pythonhosted.org/packages/70/34/3c2fe5e8f77842107f878c5d54b7c34f9c7f66b181e1ffc81b2d082f5118/nkj-0.91.tar.gz
+[2023-07-06 12:26:37] INFO root fetch - processPackages [nkj]: Downloading https://files.pythonhosted.org/packages/70/34/3c2fe5e8f77842107f878c5d54b7c34f9c7f66b181e1ffc81b2d082f5118/nkj-0.91.tar.gz
+[2023-07-06 12:26:38] INFO root fetch - processPackages [copasi-basico]: Downloading https://files.pythonhosted.org/packages/2c/06/652f88bbab57586dfe4ca1bc14ba17e1e81fcf9425df961eb214afb88eae/copasi_basico-0.8.tar.gz
+[2023-07-06 12:26:38] INFO root fetch - processPackages [uploader-client]: Downloading https://files.pythonhosted.org/packages/30/51/b9fcd1c7500d3bca008214797157f9c48bb170acdcd5439b0413af28db93/uploader-client-0.1.6.tar.gz
+[2023-07-06 12:26:38] INFO root fetch - processPackages [google-play-developer-api]: Downloading https://files.pythonhosted.org/packages/9c/48/d2bff12852572fd4882032d2fed2054ee3178d092128de02c7cf024b5743/google_play_developer_api-0.5.2.tar.gz
+[2023-07-06 12:26:38] INFO root fetch - processPackages [qoqo-calculator-pyo3]: Downloading https://files.pythonhosted.org/packages/81/87/6ddb95f63deb2d4dbdde9d8666cbe271c9fc6708d82c5fe383854e200110/qoqo_calculator_pyo3-1.1.1.tar.gz
+[2023-07-06 12:26:38] INFO root fetch - processPackages [kanonym4text]: Downloading https://files.pythonhosted.org/packages/03/ce/dd8203988c9111e2a7050ceb17661d6249d6e6a888256da3c4892aa4fd9e/kanonym4text-0.1.8.tar.gz
+[2023-07-06 12:26:38] INFO root fetch - processPackages [raclients]: Downloading https://files.pythonhosted.org/packages/48/c4/b58be4238b6e6264a95009ab82bb72b157a9d2251e92d24e59705fbab5b9/raclients-3.1.9.tar.gz
+[2023-07-06 12:26:38] INFO root fetch - processPackages [django-idp-user]: Downloading https://files.pythonhosted.org/packages/2d/01/088b63113469a3659d689ca658d632aaf3851bb14a18b998caf3681b77c3/django_idp_user-2.2.0.dev1.tar.gz
+[2023-07-06 12:26:38] INFO root fetch - processPackages [raclients]: executing diffoscope
+[2023-07-06 12:26:38] INFO root fetch - processPackages [raclients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raclients-3.1.8.tar.gz tmp/raclients-3.1.9.tar.gz --markdown 20230706/r/raclients/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-07-06 12:26:38] INFO root fetch - processPackages [nkj]: Downloading https://files.pythonhosted.org/packages/e7/81/20efda17e9a7898d7b41209b8d20a0f5655fc4dfd7284523d9f57ba0fc67/nkj-0.92.tar.gz
+[2023-07-06 12:26:38] INFO root fetch - processPackages [nkj]: Downloading https://files.pythonhosted.org/packages/e7/81/20efda17e9a7898d7b41209b8d20a0f5655fc4dfd7284523d9f57ba0fc67/nkj-0.92.tar.gz
+[2023-07-06 12:26:38] INFO root fetch - processPackages [copasi-basico]: Downloading https://files.pythonhosted.org/packages/ad/c1/8141b5ce634d2722b7cc85f199f86f66248f1b3621113604bdfd49c590ab/copasi_basico-0.9.tar.gz
+[2023-07-06 12:26:38] INFO root fetch - processPackages [google-play-developer-api]: Downloading https://files.pythonhosted.org/packages/a2/8d/be20fece99c8e62259c907a392f85e72f1cc907f3556b1d6cee4340824f1/google_play_developer_api-0.6.0.tar.gz
+[2023-07-06 12:26:38] INFO root fetch - processPackages [uploader-client]: Downloading https://files.pythonhosted.org/packages/50/df/55aa5ffe67e94dffff4357da3d50ef05ffc156c985d05b1296932b1c0f57/uploader-client-0.1.7.tar.gz
+[2023-07-06 12:26:38] INFO root fetch - processPackages [kanonym4text]: Downloading https://files.pythonhosted.org/packages/d1/76/e799915f8e7f85415382c21269dc4ab08492d958757083677279b073c5ae/kanonym4text-0.2.1.tar.gz
+[2023-07-06 12:26:38] INFO root fetch - processPackages [qoqo-calculator-pyo3]: Downloading https://files.pythonhosted.org/packages/19/dd/3a4faa897369fac3610485e72a07b77ddb40b83a34206046993de7018730/qoqo_calculator_pyo3-1.1.2.tar.gz
+[2023-07-06 12:26:38] INFO root fetch - processPackages [pyoxynet]: Downloading https://files.pythonhosted.org/packages/41/8b/2c3056a7fa525137845d730655c8ebdc5f75e1a43909a910d81142b5a885/pyoxynet-0.0.9.9.tar.gz
+[2023-07-06 12:26:38] INFO root fetch - processPackages [django-idp-user]: executing diffoscope
+[2023-07-06 12:26:38] INFO root fetch - processPackages [django-idp-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_idp_user-2.1.0.tar.gz tmp/django_idp_user-2.2.0.dev1.tar.gz --markdown 20230706/d/django-idp-user/2.1.0-2.2.0.dev1/diff.md --exclude *.pyd
+[2023-07-06 12:26:38] INFO root fetch - processPackages [nkj]: executing diffoscope
+[2023-07-06 12:26:38] INFO root fetch - processPackages [nkj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nkj-0.91.tar.gz tmp/nkj-0.92.tar.gz --markdown 20230706/n/nkj/0.91-0.92/diff.md --exclude *.pyd
+[2023-07-06 12:26:38] INFO root fetch - processPackages [nkj]: executing diffoscope
+[2023-07-06 12:26:38] INFO root fetch - processPackages [nkj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nkj-0.91.tar.gz tmp/nkj-0.92.tar.gz --markdown 20230706/n/nkj/0.91-0.92/diff.md --exclude *.pyd
+[2023-07-06 12:26:38] INFO root fetch - processPackages [google-play-developer-api]: executing diffoscope
+[2023-07-06 12:26:38] INFO root fetch - processPackages [google-play-developer-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google_play_developer_api-0.5.2.tar.gz tmp/google_play_developer_api-0.6.0.tar.gz --markdown 20230706/g/google-play-developer-api/0.5.2-0.6.0/diff.md --exclude *.pyd
+[2023-07-06 12:26:38] INFO root fetch - processPackages [uploader-client]: executing diffoscope
+[2023-07-06 12:26:38] INFO root fetch - processPackages [uploader-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uploader-client-0.1.6.tar.gz tmp/uploader-client-0.1.7.tar.gz --markdown 20230706/u/uploader-client/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-06 12:26:38] INFO root fetch - processPackages [copasi-basico]: executing diffoscope
+[2023-07-06 12:26:38] INFO root fetch - processPackages [copasi-basico]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copasi_basico-0.8.tar.gz tmp/copasi_basico-0.9.tar.gz --markdown 20230706/c/copasi-basico/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-06 12:26:38] INFO root fetch - processPackages [kanonym4text]: executing diffoscope
+[2023-07-06 12:26:38] INFO root fetch - processPackages [kanonym4text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kanonym4text-0.1.8.tar.gz tmp/kanonym4text-0.2.1.tar.gz --markdown 20230706/k/kanonym4text/0.1.8-0.2.1/diff.md --exclude *.pyd
+[2023-07-06 12:26:38] INFO root fetch - processPackages [qoqo-calculator-pyo3]: executing diffoscope
+[2023-07-06 12:26:38] INFO root fetch - processPackages [qoqo-calculator-pyo3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoqo_calculator_pyo3-1.1.1.tar.gz tmp/qoqo_calculator_pyo3-1.1.2.tar.gz --markdown 20230706/q/qoqo-calculator-pyo3/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-06 12:26:39] INFO root fetch - processPackages [pyoxynet]: executing diffoscope
+[2023-07-06 12:26:39] INFO root fetch - processPackages [pyoxynet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyoxynet-0.0.9.8.tar.gz tmp/pyoxynet-0.0.9.9.tar.gz --markdown 20230706/p/pyoxynet/0.0.9.8-0.0.9.9/diff.md --exclude *.pyd
+[2023-07-06 12:26:39] INFO root fetch - processPackages [raclients]: Remove: archive file [/home/abi/fetcher/tmp/raclients-3.1.8.tar.gz]
+[2023-07-06 12:26:39] INFO root fetch - processPackages [raclients]: Remove: archive file [/home/abi/fetcher/tmp/raclients-3.1.9.tar.gz]
+[2023-07-06 12:26:39] INFO root fetch - processPackages [raclients]: Start processing: stc-geck
+[2023-07-06 12:26:39] INFO root fetch - main [MainThread]: End processing [raclients]: success
+[2023-07-06 12:26:39] INFO root fetch - processPackages [stc-geck]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-07-06 12:26:40] INFO root fetch - processPackages [stc-geck]: Downloading https://files.pythonhosted.org/packages/bd/26/cd6b2efbb392010da6f425bab6605753c5adec030c61367ac21a53e60a4b/stc-geck-1.2.5.tar.gz
+[2023-07-06 12:26:40] INFO root fetch - processPackages [nkj]: Remove: archive file [/home/abi/fetcher/tmp/nkj-0.91.tar.gz]
+[2023-07-06 12:26:40] INFO root fetch - processPackages [nkj]: Remove: archive file [/home/abi/fetcher/tmp/nkj-0.92.tar.gz]
+[2023-07-06 12:26:40] INFO root fetch - processPackages [nkj]: Start processing: pydflow
+[2023-07-06 12:26:40] INFO root fetch - main [MainThread]: End processing [nkj]: success
+[2023-07-06 12:26:40] INFO root fetch - processPackages [pydflow]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-07-06 12:26:40] INFO root fetch - processPackages [google-play-developer-api]: Remove: archive file [/home/abi/fetcher/tmp/google_play_developer_api-0.5.2.tar.gz]
+[2023-07-06 12:26:40] INFO root fetch - processPackages [google-play-developer-api]: Remove: archive file [/home/abi/fetcher/tmp/google_play_developer_api-0.6.0.tar.gz]
+[2023-07-06 12:26:40] INFO root fetch - processPackages [google-play-developer-api]: Start processing: cg
+[2023-07-06 12:26:40] INFO root fetch - main [MainThread]: End processing [google-play-developer-api]: success
+[2023-07-06 12:26:40] INFO root fetch - processPackages [stc-geck]: Downloading https://files.pythonhosted.org/packages/44/04/64da6de4a7f0e9754b53855e81ddc1f13288486f69ff559f3364ce45747f/stc-geck-1.2.6.tar.gz
+[2023-07-06 12:26:40] INFO root fetch - processPackages [uploader-client]: Remove: archive file [/home/abi/fetcher/tmp/uploader-client-0.1.6.tar.gz]
+[2023-07-06 12:26:40] INFO root fetch - processPackages [uploader-client]: Remove: archive file [/home/abi/fetcher/tmp/uploader-client-0.1.7.tar.gz]
+[2023-07-06 12:26:40] INFO root fetch - processPackages [uploader-client]: Start processing: sirqle
+[2023-07-06 12:26:40] INFO root fetch - main [MainThread]: End processing [uploader-client]: success
+[2023-07-06 12:26:40] INFO root fetch - processPackages [django-idp-user]: Remove: archive file [/home/abi/fetcher/tmp/django_idp_user-2.1.0.tar.gz]
+[2023-07-06 12:26:40] INFO root fetch - processPackages [django-idp-user]: Remove: archive file [/home/abi/fetcher/tmp/django_idp_user-2.2.0.dev1.tar.gz]
+[2023-07-06 12:26:40] INFO root fetch - processPackages [django-idp-user]: Start processing: screcode
+[2023-07-06 12:26:40] INFO root fetch - main [MainThread]: End processing [django-idp-user]: success
+[2023-07-06 12:26:40] INFO root fetch - processPackages [cg]: New version: [38.0.2] Old Version: [38.0.1]
+[2023-07-06 12:26:40] INFO root fetch - processPackages [sirqle]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-06 12:26:40] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/33/96/a989d9cfcdb5dcb43d60a72640c59e2efb7fd053182742205b332006f813/pydflow-1.7.8.tar.gz
+[2023-07-06 12:26:40] INFO root fetch - processPackages [nkj]: Start processing: BLACKFORGE2
+[2023-07-06 12:26:40] INFO root fetch - main [MainThread]: End processing [nkj]: success
+[2023-07-06 12:26:40] INFO root fetch - processPackages [kanonym4text]: Remove: archive file [/home/abi/fetcher/tmp/kanonym4text-0.1.8.tar.gz]
+[2023-07-06 12:26:40] INFO root fetch - processPackages [kanonym4text]: Remove: archive file [/home/abi/fetcher/tmp/kanonym4text-0.2.1.tar.gz]
+[2023-07-06 12:26:40] INFO root fetch - processPackages [kanonym4text]: Start processing: sh-dynamodb
+[2023-07-06 12:26:40] INFO root fetch - main [MainThread]: End processing [kanonym4text]: success
+[2023-07-06 12:26:40] INFO root fetch - processPackages [screcode]: New version: [0.1.2.dev202307061024] Old Version: [0.1.2.dev202305290329]
+[2023-07-06 12:26:40] INFO root fetch - processPackages [sirqle]: Downloading https://files.pythonhosted.org/packages/07/c2/b7d21b747cfb8a41f6fde1915fdefec0c841e63bae4a797e6e94ba6a8e7f/sirqle-0.2.7.tar.gz
+[2023-07-06 12:26:40] INFO root fetch - processPackages [stc-geck]: executing diffoscope
+[2023-07-06 12:26:40] INFO root fetch - processPackages [stc-geck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stc-geck-1.2.5.tar.gz tmp/stc-geck-1.2.6.tar.gz --markdown 20230706/s/stc-geck/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-07-06 12:26:40] INFO root fetch - processPackages [BLACKFORGE2]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-06 12:26:40] WARNING root fetch - processPackages [sh-dynamodb]: Skipping, unable to determine old version
+[2023-07-06 12:26:40] INFO root fetch - processPackages [sh-dynamodb]: Start processing: cPyparsing
+[2023-07-06 12:26:40] INFO root fetch - main [MainThread]: End processing [sh-dynamodb] error
+[2023-07-06 12:26:40] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/1e/93/6b310f08cf1b145c8d57ac2b0dd0fdc0f37b54a18e011c6cc1a7fde7f88d/cg-38.0.1.tar.gz
+[2023-07-06 12:26:40] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/9c/41/6c9bc72fde943869899725f55fade9f850f62ecbc6fa31e53b8fa79ae5a3/pydflow-1.7.9.tar.gz
+[2023-07-06 12:26:40] INFO root fetch - processPackages [screcode]: Downloading https://files.pythonhosted.org/packages/44/16/3e131b3a0718bc9ac8b7482b272c0d9d164a2c50aa66b79ec0d3fc47758f/screcode-0.1.2.dev202305290329-py3-none-any.whl
+[2023-07-06 12:26:40] INFO root fetch - processPackages [BLACKFORGE2]: Downloading https://files.pythonhosted.org/packages/ae/4d/057ab168d86d114251c29e56e74850590cf6b5509162abc455fa5023cafb/BLACKFORGE2-0.2.5.tar.gz
+[2023-07-06 12:26:41] INFO root fetch - processPackages [cPyparsing]: New version: [2.4.7.2.1.0] Old Version: [2.4.7.2.0.0]
+[2023-07-06 12:26:41] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-07-06 12:26:41] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.7.8.tar.gz tmp/pydflow-1.7.9.tar.gz --markdown 20230706/p/pydflow/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-07-06 12:26:41] INFO root fetch - processPackages [qoqo-calculator-pyo3]: Remove: archive file [/home/abi/fetcher/tmp/qoqo_calculator_pyo3-1.1.1.tar.gz]
+[2023-07-06 12:26:41] INFO root fetch - processPackages [qoqo-calculator-pyo3]: Remove: archive file [/home/abi/fetcher/tmp/qoqo_calculator_pyo3-1.1.2.tar.gz]
+[2023-07-06 12:26:41] INFO root fetch - processPackages [qoqo-calculator-pyo3]: Start processing: Websocketee
+[2023-07-06 12:26:41] INFO root fetch - main [MainThread]: End processing [qoqo-calculator-pyo3]: success
+[2023-07-06 12:26:41] INFO root fetch - processPackages [sirqle]: Downloading https://files.pythonhosted.org/packages/b0/c0/fa374d70f022d20c9ad25289159aca1f2e67ba305176bfd56e4e5cf42015/sirqle-0.2.8.tar.gz
+[2023-07-06 12:26:41] INFO root fetch - processPackages [Websocketee]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-06 12:26:41] INFO root fetch - processPackages [copasi-basico]: Remove: archive file [/home/abi/fetcher/tmp/copasi_basico-0.8.tar.gz]
+[2023-07-06 12:26:41] INFO root fetch - processPackages [copasi-basico]: Remove: archive file [/home/abi/fetcher/tmp/copasi_basico-0.9.tar.gz]
+[2023-07-06 12:26:41] INFO root fetch - processPackages [copasi-basico]: Start processing: luminesce-sdk-preview
+[2023-07-06 12:26:41] INFO root fetch - main [MainThread]: End processing [copasi-basico]: success
+[2023-07-06 12:26:41] INFO root fetch - processPackages [Websocketee]: Downloading https://files.pythonhosted.org/packages/6e/de/cfb5c7d512934cdba1ccf49c0d898be9caf4f88a172f9f63756f965f3280/Websocketee-1.0.1.tar.gz
+[2023-07-06 12:26:41] INFO root fetch - processPackages [cPyparsing]: Downloading https://files.pythonhosted.org/packages/d0/e4/ddc36b9fa8b574b7eee8772e233a407b894950b1e33fca5f241985042383/cPyparsing-2.4.7.2.0.0.tar.gz
+[2023-07-06 12:26:41] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-07-06 12:26:41] INFO root fetch - processPackages [screcode]: Downloading https://files.pythonhosted.org/packages/18/41/852bf4aeb072ec4b28bcc39dc008076b96f81a385011ddc50fb99cd33314/screcode-0.1.2.dev202307061024-py3-none-any.whl
+[2023-07-06 12:26:41] INFO root fetch - processPackages [BLACKFORGE2]: Downloading https://files.pythonhosted.org/packages/ba/10/fb4a782f188e4510ea2a7bd2525aa4801cb82608436d4d27121ea2dd96fa/BLACKFORGE2-0.2.6.tar.gz
+[2023-07-06 12:26:41] INFO root fetch - processPackages [sirqle]: executing diffoscope
+[2023-07-06 12:26:41] INFO root fetch - processPackages [sirqle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sirqle-0.2.7.tar.gz tmp/sirqle-0.2.8.tar.gz --markdown 20230706/s/sirqle/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-06 12:26:41] INFO root fetch - processPackages [pyoxynet]: Remove: archive file [/home/abi/fetcher/tmp/pyoxynet-0.0.9.8.tar.gz]
+[2023-07-06 12:26:41] INFO root fetch - processPackages [pyoxynet]: Remove: archive file [/home/abi/fetcher/tmp/pyoxynet-0.0.9.9.tar.gz]
+[2023-07-06 12:26:41] INFO root fetch - main [MainThread]: End processing [pyoxynet]: success
+[2023-07-06 12:26:41] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2023-07-06 12:26:41] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/00/84/64bd582f54255fa1de055defc19990b69226ecc5fcc35ce8447047d0333c/cg-38.0.2.tar.gz
+[2023-07-06 12:26:41] INFO root fetch - processPackages [BLACKFORGE2]: executing diffoscope
+[2023-07-06 12:26:41] INFO root fetch - processPackages [BLACKFORGE2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BLACKFORGE2-0.2.5.tar.gz tmp/BLACKFORGE2-0.2.6.tar.gz --markdown 20230706/B/BLACKFORGE2/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-06 12:26:41] INFO root fetch - processPackages [Websocketee]: Downloading https://files.pythonhosted.org/packages/f3/b1/2a27e44ff1fa867cb0ac914526121e7aa67c6ea86d9a2b83971542e65cb4/Websocketee-1.0.2.tar.gz
+[2023-07-06 12:26:41] INFO root fetch - processPackages [screcode]: executing diffoscope
+[2023-07-06 12:26:41] INFO root fetch - processPackages [screcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/screcode-0.1.2.dev202305290329-py3-none-any.whl.zip tmp/screcode-0.1.2.dev202307061024-py3-none-any.whl.zip --markdown 20230706/s/screcode/0.1.2.dev202305290329-0.1.2.dev202307061024/diff.md --exclude *.pyd
+[2023-07-06 12:26:41] INFO root fetch - processPackages [Websocketee]: executing diffoscope
+[2023-07-06 12:26:41] INFO root fetch - processPackages [Websocketee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Websocketee-1.0.1.tar.gz tmp/Websocketee-1.0.2.tar.gz --markdown 20230706/W/Websocketee/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-06 12:26:41] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2023-07-06 12:26:41] INFO root fetch - processPackages [stc-geck]: Remove: archive file [/home/abi/fetcher/tmp/stc-geck-1.2.5.tar.gz]
+[2023-07-06 12:26:41] INFO root fetch - processPackages [stc-geck]: Remove: archive file [/home/abi/fetcher/tmp/stc-geck-1.2.6.tar.gz]
+[2023-07-06 12:26:41] INFO root fetch - main [MainThread]: End processing [stc-geck]: success
+[2023-07-06 12:26:41] INFO root fetch - processPackages [cPyparsing]: Downloading https://files.pythonhosted.org/packages/49/45/298d083f26b70609d9aef3661aa1c14303d9ccb7415fdffc597eae6c1ddd/cPyparsing-2.4.7.2.1.0-cp37-cp37m-musllinux_1_1_x86_64.whl
+[2023-07-06 12:26:41] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-07-06 12:26:41] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230706/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-07-06 12:26:42] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-07-06 12:26:42] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-38.0.1.tar.gz tmp/cg-38.0.2.tar.gz --markdown 20230706/c/cg/38.0.1-38.0.2/diff.md --exclude *.pyd
+[2023-07-06 12:26:42] INFO root fetch - processPackages [BLACKFORGE2]: Remove: archive file [/home/abi/fetcher/tmp/BLACKFORGE2-0.2.5.tar.gz]
+[2023-07-06 12:26:42] INFO root fetch - processPackages [BLACKFORGE2]: Remove: archive file [/home/abi/fetcher/tmp/BLACKFORGE2-0.2.6.tar.gz]
+[2023-07-06 12:26:42] INFO root fetch - main [MainThread]: End processing [BLACKFORGE2]: success
+[2023-07-06 12:26:42] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.8.tar.gz]
+[2023-07-06 12:26:42] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.9.tar.gz]
+[2023-07-06 12:26:42] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-07-06 12:26:42] INFO root fetch - processPackages [sirqle]: Remove: archive file [/home/abi/fetcher/tmp/sirqle-0.2.7.tar.gz]
+[2023-07-06 12:26:42] INFO root fetch - processPackages [sirqle]: Remove: archive file [/home/abi/fetcher/tmp/sirqle-0.2.8.tar.gz]
+[2023-07-06 12:26:42] INFO root fetch - main [MainThread]: End processing [sirqle]: success
+[2023-07-06 12:26:42] INFO root fetch - processPackages [screcode]: Remove: archive file [/home/abi/fetcher/tmp/screcode-0.1.2.dev202305290329-py3-none-any.whl.zip]
+[2023-07-06 12:26:42] INFO root fetch - processPackages [screcode]: Remove: archive file [/home/abi/fetcher/tmp/screcode-0.1.2.dev202307061024-py3-none-any.whl.zip]
+[2023-07-06 12:26:42] INFO root fetch - main [MainThread]: End processing [screcode]: success
+[2023-07-06 12:26:42] INFO root fetch - processPackages [Websocketee]: Remove: archive file [/home/abi/fetcher/tmp/Websocketee-1.0.1.tar.gz]
+[2023-07-06 12:26:42] INFO root fetch - processPackages [Websocketee]: Remove: archive file [/home/abi/fetcher/tmp/Websocketee-1.0.2.tar.gz]
+[2023-07-06 12:26:42] INFO root fetch - main [MainThread]: End processing [Websocketee]: success
+[2023-07-06 12:26:43] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2023-07-06 12:26:43] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2023-07-06 12:26:43] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-07-06 12:26:45] INFO root fetch - processPackages [cPyparsing]: executing diffoscope
+[2023-07-06 12:26:45] INFO root fetch - processPackages [cPyparsing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cPyparsing-2.4.7.2.0.0.tar.gz tmp/cPyparsing-2.4.7.2.1.0-cp37-cp37m-musllinux_1_1_x86_64.whl.zip --markdown 20230706/c/cPyparsing/2.4.7.2.0.0-2.4.7.2.1.0/diff.md --exclude *.pyd
+[2023-07-06 12:26:47] INFO root fetch - processPackages [cPyparsing]: Remove: archive file [/home/abi/fetcher/tmp/cPyparsing-2.4.7.2.0.0.tar.gz]
+[2023-07-06 12:26:47] INFO root fetch - processPackages [cPyparsing]: Remove: archive file [/home/abi/fetcher/tmp/cPyparsing-2.4.7.2.1.0-cp37-cp37m-musllinux_1_1_x86_64.whl.zip]
+[2023-07-06 12:26:47] INFO root fetch - main [MainThread]: End processing [cPyparsing]: success
+[2023-07-06 12:26:47] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-38.0.1.tar.gz]
+[2023-07-06 12:26:47] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-38.0.2.tar.gz]
+[2023-07-06 12:26:47] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-07-06 12:26:47] INFO root fetch - main [MainThread]: Store serial: [18781892]
