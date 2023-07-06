@@ -9608,3 +9608,91 @@ AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
 [2023-07-06 04:34:01] INFO root fetch - processPackages [une-ai]: Remove: archive file [/home/abi/fetcher/tmp/une_ai-1.1.2.tar.gz]
 [2023-07-06 04:34:01] INFO root fetch - main [MainThread]: End processing [une-ai]: success
 [2023-07-06 04:34:01] INFO root fetch - main [MainThread]: Store serial: [18777554]
+[2023-07-06 04:39:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18777554]
+[2023-07-06 04:39:09] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-06 04:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hak
+[2023-07-06 04:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-cutoff-base
+[2023-07-06 04:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastdatasets
+[2023-07-06 04:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hak
+[2023-07-06 04:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastdatasets
+[2023-07-06 04:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: creatFiles
+[2023-07-06 04:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aws-prototyping-sdk.aws-arch
+[2023-07-06 04:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aws-prototyping-sdk.cloudscape-react-ts-website
+[2023-07-06 04:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lollipop
+[2023-07-06 04:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aws-prototyping-sdk.identity
+[2023-07-06 04:39:10] INFO root fetch - processPackages [fastdatasets]: New version: [0.9.9.post0] Old Version: [0.9.9]
+[2023-07-06 04:39:10] INFO root fetch - processPackages [fastdatasets]: New version: [0.9.9.post0] Old Version: [0.9.9]
+[2023-07-06 04:39:10] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: New version: [16.0.1.2.0.2] Old Version: [16.0.1.2.0.1]
+[2023-07-06 04:39:10] INFO root fetch - processPackages [hak]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 04:39:10] INFO root fetch - processPackages [hak]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 04:39:10] WARNING root fetch - processPackages [creatFiles]: Skipping, unable to determine old version
+[2023-07-06 04:39:10] INFO root fetch - processPackages [creatFiles]: Start processing: aws-prototyping-sdk.nx-monorepo
+[2023-07-06 04:39:10] INFO root fetch - main [MainThread]: End processing [creatFiles] error
+[2023-07-06 04:39:10] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-06 04:39:10] INFO root fetch - processPackages [lollipop]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-07-06 04:39:10] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: New version: [0.19.9] Old Version: [0.19.8]
+[2023-07-06 04:39:10] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-06 04:39:10] INFO root fetch - processPackages [fastdatasets]: Downloading https://files.pythonhosted.org/packages/ed/f0/8d4ae8c973115bec20261c6cbbe41b9db84edefd982957e48b4b0a972e30/fastdatasets-0.9.9-py3-none-any.whl
+[2023-07-06 04:39:10] INFO root fetch - processPackages [fastdatasets]: Downloading https://files.pythonhosted.org/packages/ed/f0/8d4ae8c973115bec20261c6cbbe41b9db84edefd982957e48b4b0a972e30/fastdatasets-0.9.9-py3-none-any.whl
+[2023-07-06 04:39:10] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-06 04:39:10] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/05/17/ad5ef91170b7c0e991a9c8bffa9f9a2dcf3961d5e90c31185bdf3ce8f425/hak-0.0.8.tar.gz
+[2023-07-06 04:39:10] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/05/17/ad5ef91170b7c0e991a9c8bffa9f9a2dcf3961d5e90c31185bdf3ce8f425/hak-0.0.8.tar.gz
+[2023-07-06 04:39:10] INFO root fetch - processPackages [lollipop]: Downloading https://files.pythonhosted.org/packages/ea/68/cd7a5c2f34707b4f6436d263949444eef01583f6830bb263d42a4d21603e/lollipop-1.1.7.tar.gz
+[2023-07-06 04:39:10] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Downloading https://files.pythonhosted.org/packages/89/4d/0cfe83cf0a1839adc268021cacce00587ffd6e3e033f30a3109817ac616e/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz
+[2023-07-06 04:39:10] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Downloading https://files.pythonhosted.org/packages/9b/9d/e0b01f09029cc3275b5cbb982ad82eb722a32dabcd2db0b85d04e5e1e95e/aws_prototyping_sdk.aws_arch-0.19.8.tar.gz
+[2023-07-06 04:39:10] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Downloading https://files.pythonhosted.org/packages/97/38/e2f9b14890efcd00ef828b165bd9ff276265616d79d8d621c6ec8b436d08/aws_prototyping_sdk.identity-0.9.3.tar.gz
+[2023-07-06 04:39:10] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: Downloading https://files.pythonhosted.org/packages/07/42/8174b05c25a98994de28b2ac0b0225c6048259f9363a995a278000a5849d/odoo_addon_account_cutoff_base-16.0.1.2.0.1-py3-none-any.whl
+[2023-07-06 04:39:10] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Downloading https://files.pythonhosted.org/packages/62/6e/219166e3d14e639aae9211cbc1509a6dbe15cc23f9142e59ce77cdea2f2e/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz
+[2023-07-06 04:39:10] WARNING root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Skipping package: exceeds size limit 19300041>=10485760
+[2023-07-06 04:39:10] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.aws-arch] error
+[2023-07-06 04:39:11] INFO root fetch - processPackages [fastdatasets]: Downloading https://files.pythonhosted.org/packages/65/30/d1e7d5ef82d3002c7bad796f1b5a58090fab5042710a409eeeb1f1f215e4/fastdatasets-0.9.9.post0-py3-none-any.whl
+[2023-07-06 04:39:11] INFO root fetch - processPackages [fastdatasets]: Downloading https://files.pythonhosted.org/packages/65/30/d1e7d5ef82d3002c7bad796f1b5a58090fab5042710a409eeeb1f1f215e4/fastdatasets-0.9.9.post0-py3-none-any.whl
+[2023-07-06 04:39:11] INFO root fetch - processPackages [fastdatasets]: executing diffoscope
+[2023-07-06 04:39:11] INFO root fetch - processPackages [fastdatasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastdatasets-0.9.9-py3-none-any.whl.zip tmp/fastdatasets-0.9.9.post0-py3-none-any.whl.zip --markdown 20230706/f/fastdatasets/0.9.9-0.9.9.post0/diff.md --exclude *.pyd
+[2023-07-06 04:39:11] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/fd/2b/bf7b3451d5e3a84e9a674b47e9f046c4db1f582764a85a4dfc00e14ecf00/hak-0.0.9.tar.gz
+[2023-07-06 04:39:11] INFO root fetch - processPackages [fastdatasets]: executing diffoscope
+[2023-07-06 04:39:11] INFO root fetch - processPackages [fastdatasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastdatasets-0.9.9-py3-none-any.whl.zip tmp/fastdatasets-0.9.9.post0-py3-none-any.whl.zip --markdown 20230706/f/fastdatasets/0.9.9-0.9.9.post0/diff.md --exclude *.pyd
+[2023-07-06 04:39:11] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/fd/2b/bf7b3451d5e3a84e9a674b47e9f046c4db1f582764a85a4dfc00e14ecf00/hak-0.0.9.tar.gz
+[2023-07-06 04:39:11] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Downloading https://files.pythonhosted.org/packages/f7/be/7cbad907d8e6a591b873fd439e612fd865cdc76a1042feba71c36cd4bed5/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz
+[2023-07-06 04:39:11] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Downloading https://files.pythonhosted.org/packages/4f/9d/94a124e4f88dd060b8de9979d16e3ba1cb19e6590bed27dc100625fd0edb/aws_prototyping_sdk.identity-0.9.4.tar.gz
+[2023-07-06 04:39:11] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: Downloading https://files.pythonhosted.org/packages/c2/95/6720e196337967abe183c9e975c95dbdc4be9982b7e71337cf38937c0be4/odoo_addon_account_cutoff_base-16.0.1.2.0.2-py3-none-any.whl
+[2023-07-06 04:39:11] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-07-06 04:39:11] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.8.tar.gz tmp/hak-0.0.9.tar.gz --markdown 20230706/h/hak/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 04:39:11] INFO root fetch - processPackages [lollipop]: Downloading https://files.pythonhosted.org/packages/b4/a2/0802ee33aed913fa0d1ef8a81615d28748a09c8878caa2d4c8f9fc58adad/lollipop-1.1.8.tar.gz
+[2023-07-06 04:39:11] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-07-06 04:39:11] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.8.tar.gz tmp/hak-0.0.9.tar.gz --markdown 20230706/h/hak/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 04:39:11] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Downloading https://files.pythonhosted.org/packages/ef/05/b722ba023c19fdaec868b3d4963e41743ef58e82a6aa6b26fdc843152495/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz
+[2023-07-06 04:39:11] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: executing diffoscope
+[2023-07-06 04:39:11] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz --markdown 20230706/a/aws-prototyping-sdk.cloudscape-react-ts-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-06 04:39:11] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: executing diffoscope
+[2023-07-06 04:39:11] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.identity-0.9.3.tar.gz tmp/aws_prototyping_sdk.identity-0.9.4.tar.gz --markdown 20230706/a/aws-prototyping-sdk.identity/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-06 04:39:11] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: executing diffoscope
+[2023-07-06 04:39:11] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_cutoff_base-16.0.1.2.0.1-py3-none-any.whl.zip tmp/odoo_addon_account_cutoff_base-16.0.1.2.0.2-py3-none-any.whl.zip --markdown 20230706/o/odoo-addon-account-cutoff-base/16.0.1.2.0.1-16.0.1.2.0.2/diff.md --exclude *.pyd
+[2023-07-06 04:39:11] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: executing diffoscope
+[2023-07-06 04:39:11] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz tmp/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz --markdown 20230706/a/aws-prototyping-sdk.nx-monorepo/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-06 04:39:11] INFO root fetch - processPackages [lollipop]: executing diffoscope
+[2023-07-06 04:39:11] INFO root fetch - processPackages [lollipop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lollipop-1.1.7.tar.gz tmp/lollipop-1.1.8.tar.gz --markdown 20230706/l/lollipop/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-07-06 04:39:12] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz]
+[2023-07-06 04:39:12] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz]
+[2023-07-06 04:39:12] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.cloudscape-react-ts-website]: success
+[2023-07-06 04:39:12] INFO root fetch - processPackages [fastdatasets]: Remove: archive file [/home/abi/fetcher/tmp/fastdatasets-0.9.9-py3-none-any.whl.zip]
+[2023-07-06 04:39:12] INFO root fetch - processPackages [fastdatasets]: Remove: archive file [/home/abi/fetcher/tmp/fastdatasets-0.9.9.post0-py3-none-any.whl.zip]
+[2023-07-06 04:39:12] INFO root fetch - main [MainThread]: End processing [fastdatasets]: success
+[2023-07-06 04:39:12] INFO root fetch - main [MainThread]: End processing [fastdatasets]: success
+[2023-07-06 04:39:13] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz]
+[2023-07-06 04:39:13] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz]
+[2023-07-06 04:39:13] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.nx-monorepo]: success
+[2023-07-06 04:39:13] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.identity-0.9.3.tar.gz]
+[2023-07-06 04:39:13] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.identity-0.9.4.tar.gz]
+[2023-07-06 04:39:13] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.identity]: success
+[2023-07-06 04:39:13] INFO root fetch - processPackages [lollipop]: Remove: archive file [/home/abi/fetcher/tmp/lollipop-1.1.7.tar.gz]
+[2023-07-06 04:39:13] INFO root fetch - processPackages [lollipop]: Remove: archive file [/home/abi/fetcher/tmp/lollipop-1.1.8.tar.gz]
+[2023-07-06 04:39:13] INFO root fetch - main [MainThread]: End processing [lollipop]: success
+[2023-07-06 04:39:13] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.8.tar.gz]
+[2023-07-06 04:39:13] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
+[2023-07-06 04:39:13] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-07-06 04:39:13] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_cutoff_base-16.0.1.2.0.1-py3-none-any.whl.zip]
+[2023-07-06 04:39:13] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_cutoff_base-16.0.1.2.0.2-py3-none-any.whl.zip]
+[2023-07-06 04:39:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-cutoff-base]: success
+[2023-07-06 04:39:13] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-07-06 04:39:13] INFO root fetch - main [MainThread]: Store serial: [18777585]
