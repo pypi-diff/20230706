@@ -12681,3 +12681,27 @@ AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
 [2023-07-06 07:38:43] INFO root fetch - processPackages [OpihiExarata]: Remove: archive file [/home/abi/fetcher/tmp/OpihiExarata-2023.7.6.tar.gz]
 [2023-07-06 07:38:43] INFO root fetch - main [MainThread]: End processing [OpihiExarata]: success
 [2023-07-06 07:38:43] INFO root fetch - main [MainThread]: Store serial: [18778760]
+[2023-07-06 07:43:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18778760]
+[2023-07-06 07:43:51] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-06 07:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quantumz
+[2023-07-06 07:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mofmt
+[2023-07-06 07:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unimport
+[2023-07-06 07:43:51] WARNING root fetch - processPackages [quantumz]: Skipping, unable to determine old version
+[2023-07-06 07:43:51] INFO root fetch - main [MainThread]: End processing [quantumz] error
+[2023-07-06 07:43:51] INFO root fetch - processPackages [mofmt]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-06 07:43:51] INFO root fetch - processPackages [unimport]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-06 07:43:52] INFO root fetch - processPackages [mofmt]: Downloading https://files.pythonhosted.org/packages/d6/85/aca854bbff4081dc72610fefad19c2a36abe270c88adb4bfd66f8ce439d7/mofmt-0.2.0-py3-none-any.whl
+[2023-07-06 07:43:52] INFO root fetch - processPackages [unimport]: Downloading https://files.pythonhosted.org/packages/f8/e9/80fdee33a60a70849e50e4dabb4bd1f4d00b09575ebbe8d6e675e3ecb682/unimport-0.9.5.tar.gz
+[2023-07-06 07:43:52] INFO root fetch - processPackages [mofmt]: Downloading https://files.pythonhosted.org/packages/1e/a5/4fbc91b6439a51d5f791669bd2d3677145117a974f87c35617d64328be2f/mofmt-0.2.1-py3-none-any.whl
+[2023-07-06 07:43:52] INFO root fetch - processPackages [unimport]: Downloading https://files.pythonhosted.org/packages/00/ca/421ffca43a4f5ed4543ce345590b4f7e379e855ac71e318c9b52adcdd87d/unimport-0.9.6.tar.gz
+[2023-07-06 07:43:52] INFO root fetch - processPackages [mofmt]: executing diffoscope
+[2023-07-06 07:43:52] INFO root fetch - processPackages [mofmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mofmt-0.2.0-py3-none-any.whl.zip tmp/mofmt-0.2.1-py3-none-any.whl.zip --markdown 20230706/m/mofmt/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-06 07:43:52] INFO root fetch - processPackages [unimport]: executing diffoscope
+[2023-07-06 07:43:52] INFO root fetch - processPackages [unimport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unimport-0.9.5.tar.gz tmp/unimport-0.9.6.tar.gz --markdown 20230706/u/unimport/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-06 07:43:53] INFO root fetch - processPackages [unimport]: Remove: archive file [/home/abi/fetcher/tmp/unimport-0.9.5.tar.gz]
+[2023-07-06 07:43:53] INFO root fetch - processPackages [unimport]: Remove: archive file [/home/abi/fetcher/tmp/unimport-0.9.6.tar.gz]
+[2023-07-06 07:43:53] INFO root fetch - main [MainThread]: End processing [unimport]: success
+[2023-07-06 07:43:53] INFO root fetch - processPackages [mofmt]: Remove: archive file [/home/abi/fetcher/tmp/mofmt-0.2.0-py3-none-any.whl.zip]
+[2023-07-06 07:43:53] INFO root fetch - processPackages [mofmt]: Remove: archive file [/home/abi/fetcher/tmp/mofmt-0.2.1-py3-none-any.whl.zip]
+[2023-07-06 07:43:53] INFO root fetch - main [MainThread]: End processing [mofmt]: success
+[2023-07-06 07:43:53] INFO root fetch - main [MainThread]: Store serial: [18778770]
