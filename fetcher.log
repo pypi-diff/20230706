@@ -18327,3 +18327,120 @@ AssertionError: tmp/termkit-0.2.0a4.tar.gz does not exist
 [2023-07-06 11:59:07] INFO root fetch - processPackages [meteva-base]: Remove: archive file [/home/abi/fetcher/tmp/meteva_base-0.1.6-py3-none-any.whl.zip]
 [2023-07-06 11:59:07] INFO root fetch - main [MainThread]: End processing [meteva-base]: success
 [2023-07-06 11:59:07] INFO root fetch - main [MainThread]: Store serial: [18781300]
+[2023-07-06 12:04:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18781300]
+[2023-07-06 12:04:16] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-06 12:04:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cybrex
+[2023-07-06 12:04:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: craft-ai-sdk
+[2023-07-06 12:04:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yura112312321321213213-ibdfiu9hdfudfuy8gby123
+[2023-07-06 12:04:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Websocketee
+[2023-07-06 12:04:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openplugin-py
+[2023-07-06 12:04:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Marl-Factory-Grid
+[2023-07-06 12:04:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sh-dynamodb
+[2023-07-06 12:04:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qontract-reconcile
+[2023-07-06 12:04:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oslo.messaging
+[2023-07-06 12:04:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ocf-datapipes
+[2023-07-06 12:04:16] INFO root fetch - processPackages [cybrex]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-06 12:04:16] WARNING root fetch - processPackages [yura112312321321213213-ibdfiu9hdfudfuy8gby123]: Skipping, unable to determine old version
+[2023-07-06 12:04:16] INFO root fetch - processPackages [yura112312321321213213-ibdfiu9hdfudfuy8gby123]: Start processing: fastkafka
+[2023-07-06 12:04:16] INFO root fetch - main [MainThread]: End processing [yura112312321321213213-ibdfiu9hdfudfuy8gby123] error
+[2023-07-06 12:04:16] INFO root fetch - processPackages [Marl-Factory-Grid]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 12:04:16] INFO root fetch - processPackages [sh-dynamodb]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-07-06 12:04:16] WARNING root fetch - processPackages [Websocketee]: Skipping, unable to determine old version
+[2023-07-06 12:04:16] INFO root fetch - processPackages [Websocketee]: Start processing: raclients
+[2023-07-06 12:04:16] INFO root fetch - main [MainThread]: End processing [Websocketee] error
+[2023-07-06 12:04:16] INFO root fetch - processPackages [openplugin-py]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-06 12:04:16] INFO root fetch - processPackages [craft-ai-sdk]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-06 12:04:17] INFO root fetch - processPackages [oslo.messaging]: New version: [9.8.0] Old Version: [9.7.2]
+[2023-07-06 12:04:17] INFO root fetch - processPackages [ocf-datapipes]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-06 12:04:17] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-07-06 12:04:17] INFO root fetch - processPackages [cybrex]: Downloading https://files.pythonhosted.org/packages/98/fa/b36b87ba316320b0517cd00be0e9f722a343a915ea41d05d3593418b01c5/cybrex-1.0.4.tar.gz
+[2023-07-06 12:04:17] INFO root fetch - processPackages [fastkafka]: New version: [0.8.0rc1] Old Version: [0.8.0rc0]
+[2023-07-06 12:04:17] INFO root fetch - processPackages [sh-dynamodb]: Downloading https://files.pythonhosted.org/packages/27/d7/02d7caeccf0caffd120b08e59e24d746a515ece9dccfc318f02a3625643a/sh-dynamodb-1.4.1.tar.gz
+[2023-07-06 12:04:17] INFO root fetch - processPackages [oslo.messaging]: Downloading https://files.pythonhosted.org/packages/28/a4/eab12125ef0e6bb481958f203218f35ce6e19f030080a6567646469b6ba3/oslo.messaging-9.7.2.tar.gz
+[2023-07-06 12:04:17] INFO root fetch - processPackages [raclients]: New version: [3.1.5] Old Version: [3.1.4]
+[2023-07-06 12:04:17] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-07-06 12:04:17] INFO root fetch - processPackages [ocf-datapipes]: Downloading https://files.pythonhosted.org/packages/a5/4f/6a285e7b9d9685d86c1ec5c435500687d7f2ce1fd46690ed8b614428180e/ocf_datapipes-1.2.8.tar.gz
+[2023-07-06 12:04:17] INFO root fetch - processPackages [openplugin-py]: Downloading https://files.pythonhosted.org/packages/d0/d7/bb09f86ccb14e2a2b28540a6a41b18b40e15a40fba79fdad3e2c590b43e4/openplugin-py-0.0.2.tar.gz
+[2023-07-06 12:04:17] INFO root fetch - processPackages [craft-ai-sdk]: Downloading https://files.pythonhosted.org/packages/37/9a/425e98770d7c632e8edaa1eda238a5459ba6f00ddc434fcf87962f118a27/craft_ai_sdk-0.9.0.tar.gz
+[2023-07-06 12:04:17] INFO root fetch - processPackages [Marl-Factory-Grid]: Downloading https://files.pythonhosted.org/packages/98/a6/7302cbfd9e31776a51efdc11975f013ee32735dfb84a7ff26dd64e53632d/Marl-Factory-Grid-0.0.8.tar.gz
+[2023-07-06 12:04:17] INFO root fetch - processPackages [fastkafka]: Downloading https://files.pythonhosted.org/packages/d9/93/5d4ef695c60bd1dd27fdb56d0f5e81db1ebd55ab67399ed76acc2bd7ff23/fastkafka-0.8.0rc0.tar.gz
+[2023-07-06 12:04:17] INFO root fetch - processPackages [raclients]: Downloading https://files.pythonhosted.org/packages/20/0d/59c559438de603664813134e5d92f5c1074ad78e7f97ca0f0beeccd12c91/raclients-3.1.4.tar.gz
+[2023-07-06 12:04:17] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-07-06 12:04:17] INFO root fetch - processPackages [cybrex]: Downloading https://files.pythonhosted.org/packages/11/5a/b15337adf8417f415c189770550ce84eaa0764f4a20d9d9b8a909be08dad/cybrex-1.0.5.tar.gz
+[2023-07-06 12:04:17] INFO root fetch - processPackages [sh-dynamodb]: Downloading https://files.pythonhosted.org/packages/b6/ba/c58ca4da86df5ed9cb73dfffd1a810b8f0755bf47a76e7d7cea705929807/sh-dynamodb-1.4.2.tar.gz
+[2023-07-06 12:04:17] INFO root fetch - processPackages [oslo.messaging]: Downloading https://files.pythonhosted.org/packages/d9/c3/0126f2b275f9307f7a87f5edb3f46ef26d6693c9bae2b30add9009deeff8/oslo.messaging-9.8.0.tar.gz
+[2023-07-06 12:04:17] INFO root fetch - processPackages [ocf-datapipes]: Downloading https://files.pythonhosted.org/packages/5d/e0/2adf28d0e27bcb08200c48623b22c837073925a5635322cdfeb6d4a57358/ocf_datapipes-1.2.9.tar.gz
+[2023-07-06 12:04:17] INFO root fetch - processPackages [cybrex]: executing diffoscope
+[2023-07-06 12:04:17] INFO root fetch - processPackages [cybrex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrex-1.0.4.tar.gz tmp/cybrex-1.0.5.tar.gz --markdown 20230706/c/cybrex/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-06 12:04:17] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-07-06 12:04:17] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230706/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-07-06 12:04:17] INFO root fetch - processPackages [craft-ai-sdk]: Downloading https://files.pythonhosted.org/packages/4b/d1/169475b438f1184af924d80d3cc7cb68caa2e756a9acb5c8cf6eafc0ca61/craft_ai_sdk-0.9.1.tar.gz
+[2023-07-06 12:04:17] INFO root fetch - processPackages [openplugin-py]: Downloading https://files.pythonhosted.org/packages/9e/4d/0d79407c093c2ad212f875df126397f5838deecaeca7420e0cc4240ddd31/openplugin-py-0.0.3.tar.gz
+[2023-07-06 12:04:17] INFO root fetch - processPackages [ocf-datapipes]: executing diffoscope
+[2023-07-06 12:04:17] INFO root fetch - processPackages [ocf-datapipes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocf_datapipes-1.2.8.tar.gz tmp/ocf_datapipes-1.2.9.tar.gz --markdown 20230706/o/ocf-datapipes/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-06 12:04:17] INFO root fetch - processPackages [sh-dynamodb]: executing diffoscope
+[2023-07-06 12:04:17] INFO root fetch - processPackages [sh-dynamodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sh-dynamodb-1.4.1.tar.gz tmp/sh-dynamodb-1.4.2.tar.gz --markdown 20230706/s/sh-dynamodb/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-07-06 12:04:18] INFO root fetch - processPackages [oslo.messaging]: executing diffoscope
+[2023-07-06 12:04:18] INFO root fetch - processPackages [oslo.messaging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oslo.messaging-9.7.2.tar.gz tmp/oslo.messaging-9.8.0.tar.gz --markdown 20230706/o/oslo.messaging/9.7.2-9.8.0/diff.md --exclude *.pyd
+[2023-07-06 12:04:18] INFO root fetch - processPackages [craft-ai-sdk]: executing diffoscope
+[2023-07-06 12:04:18] INFO root fetch - processPackages [craft-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/craft_ai_sdk-0.9.0.tar.gz tmp/craft_ai_sdk-0.9.1.tar.gz --markdown 20230706/c/craft-ai-sdk/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-06 12:04:18] INFO root fetch - processPackages [fastkafka]: Downloading https://files.pythonhosted.org/packages/8e/90/dfc89b6142cd5da5216da99fc83263fbef6cbc080f92a1bb89bd6987be3c/fastkafka-0.8.0rc1.tar.gz
+[2023-07-06 12:04:18] INFO root fetch - processPackages [raclients]: Downloading https://files.pythonhosted.org/packages/21/df/433c54791bf527800aa117bfd01613c5988c184a2fa52d4038d8da9ac8e5/raclients-3.1.5.tar.gz
+[2023-07-06 12:04:18] INFO root fetch - processPackages [Marl-Factory-Grid]: Downloading https://files.pythonhosted.org/packages/a1/fc/b6b99214a7de4fe45ee2d26b6113a7e71a9a7c69e984a0f49510374639ed/Marl-Factory-Grid-0.0.9.tar.gz
+[2023-07-06 12:04:18] INFO root fetch - processPackages [openplugin-py]: executing diffoscope
+[2023-07-06 12:04:18] INFO root fetch - processPackages [openplugin-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openplugin-py-0.0.2.tar.gz tmp/openplugin-py-0.0.3.tar.gz --markdown 20230706/o/openplugin-py/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-06 12:04:18] INFO root fetch - processPackages [fastkafka]: executing diffoscope
+[2023-07-06 12:04:18] INFO root fetch - processPackages [fastkafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastkafka-0.8.0rc0.tar.gz tmp/fastkafka-0.8.0rc1.tar.gz --markdown 20230706/f/fastkafka/0.8.0rc0-0.8.0rc1/diff.md --exclude *.pyd
+[2023-07-06 12:04:18] INFO root fetch - processPackages [raclients]: executing diffoscope
+[2023-07-06 12:04:18] INFO root fetch - processPackages [raclients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raclients-3.1.4.tar.gz tmp/raclients-3.1.5.tar.gz --markdown 20230706/r/raclients/3.1.4-3.1.5/diff.md --exclude *.pyd
+[2023-07-06 12:04:18] INFO root fetch - processPackages [Marl-Factory-Grid]: executing diffoscope
+[2023-07-06 12:04:18] INFO root fetch - processPackages [Marl-Factory-Grid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Marl-Factory-Grid-0.0.8.tar.gz tmp/Marl-Factory-Grid-0.0.9.tar.gz --markdown 20230706/M/Marl-Factory-Grid/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 12:04:19] INFO root fetch - processPackages [cybrex]: Remove: archive file [/home/abi/fetcher/tmp/cybrex-1.0.4.tar.gz]
+[2023-07-06 12:04:19] INFO root fetch - processPackages [cybrex]: Remove: archive file [/home/abi/fetcher/tmp/cybrex-1.0.5.tar.gz]
+[2023-07-06 12:04:19] INFO root fetch - processPackages [cybrex]: Start processing: pyreindexer
+[2023-07-06 12:04:19] INFO root fetch - main [MainThread]: End processing [cybrex]: success
+[2023-07-06 12:04:19] INFO root fetch - processPackages [pyreindexer]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-06 12:04:19] INFO root fetch - processPackages [sh-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/sh-dynamodb-1.4.1.tar.gz]
+[2023-07-06 12:04:19] INFO root fetch - processPackages [sh-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/sh-dynamodb-1.4.2.tar.gz]
+[2023-07-06 12:04:19] INFO root fetch - processPackages [sh-dynamodb]: Start processing: plutous-trade-crypto
+[2023-07-06 12:04:19] INFO root fetch - main [MainThread]: End processing [sh-dynamodb]: success
+[2023-07-06 12:04:19] INFO root fetch - processPackages [plutous-trade-crypto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 12:04:19] INFO root fetch - processPackages [pyreindexer]: Downloading https://files.pythonhosted.org/packages/d9/2e/9147342056dbe3e5713da64cf62e8cc920f3156e17ea2a61ee323f342498/pyreindexer-0.2.8.tar.gz
+[2023-07-06 12:04:20] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/e3/db/d32a1544d7f944ad8af411383551ea4aa42adfdd0f238ff44a5a3edaa00e/plutous_trade_crypto-0.0.8.tar.gz
+[2023-07-06 12:04:20] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/b4/a4/200ca398a36203e8bd51a034e50c51963506316cbf5e7a47866700accaee/plutous_trade_crypto-0.0.9.tar.gz
+[2023-07-06 12:04:20] INFO root fetch - processPackages [raclients]: Remove: archive file [/home/abi/fetcher/tmp/raclients-3.1.4.tar.gz]
+[2023-07-06 12:04:20] INFO root fetch - processPackages [raclients]: Remove: archive file [/home/abi/fetcher/tmp/raclients-3.1.5.tar.gz]
+[2023-07-06 12:04:20] INFO root fetch - main [MainThread]: End processing [raclients]: success
+[2023-07-06 12:04:20] INFO root fetch - processPackages [craft-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/craft_ai_sdk-0.9.0.tar.gz]
+[2023-07-06 12:04:20] INFO root fetch - processPackages [craft-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/craft_ai_sdk-0.9.1.tar.gz]
+[2023-07-06 12:04:20] INFO root fetch - main [MainThread]: End processing [craft-ai-sdk]: success
+[2023-07-06 12:04:20] INFO root fetch - processPackages [openplugin-py]: Remove: archive file [/home/abi/fetcher/tmp/openplugin-py-0.0.2.tar.gz]
+[2023-07-06 12:04:20] INFO root fetch - processPackages [openplugin-py]: Remove: archive file [/home/abi/fetcher/tmp/openplugin-py-0.0.3.tar.gz]
+[2023-07-06 12:04:20] INFO root fetch - main [MainThread]: End processing [openplugin-py]: success
+[2023-07-06 12:04:20] INFO root fetch - processPackages [plutous-trade-crypto]: executing diffoscope
+[2023-07-06 12:04:20] INFO root fetch - processPackages [plutous-trade-crypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plutous_trade_crypto-0.0.8.tar.gz tmp/plutous_trade_crypto-0.0.9.tar.gz --markdown 20230706/p/plutous-trade-crypto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 12:04:20] INFO root fetch - processPackages [pyreindexer]: Downloading https://files.pythonhosted.org/packages/3e/f2/088cf4164bece49bbc0540d3d512cb391dacc898ffffc4f38b59b34f573d/pyreindexer-0.2.9.tar.gz
+[2023-07-06 12:04:20] INFO root fetch - processPackages [pyreindexer]: executing diffoscope
+[2023-07-06 12:04:20] INFO root fetch - processPackages [pyreindexer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyreindexer-0.2.8.tar.gz tmp/pyreindexer-0.2.9.tar.gz --markdown 20230706/p/pyreindexer/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-06 12:04:20] INFO root fetch - processPackages [fastkafka]: Remove: archive file [/home/abi/fetcher/tmp/fastkafka-0.8.0rc0.tar.gz]
+[2023-07-06 12:04:20] INFO root fetch - processPackages [fastkafka]: Remove: archive file [/home/abi/fetcher/tmp/fastkafka-0.8.0rc1.tar.gz]
+[2023-07-06 12:04:20] INFO root fetch - main [MainThread]: End processing [fastkafka]: success
+[2023-07-06 12:04:20] INFO root fetch - processPackages [Marl-Factory-Grid]: Remove: archive file [/home/abi/fetcher/tmp/Marl-Factory-Grid-0.0.8.tar.gz]
+[2023-07-06 12:04:20] INFO root fetch - processPackages [Marl-Factory-Grid]: Remove: archive file [/home/abi/fetcher/tmp/Marl-Factory-Grid-0.0.9.tar.gz]
+[2023-07-06 12:04:20] INFO root fetch - main [MainThread]: End processing [Marl-Factory-Grid]: success
+[2023-07-06 12:04:20] INFO root fetch - processPackages [ocf-datapipes]: Remove: archive file [/home/abi/fetcher/tmp/ocf_datapipes-1.2.8.tar.gz]
+[2023-07-06 12:04:20] INFO root fetch - processPackages [ocf-datapipes]: Remove: archive file [/home/abi/fetcher/tmp/ocf_datapipes-1.2.9.tar.gz]
+[2023-07-06 12:04:20] INFO root fetch - main [MainThread]: End processing [ocf-datapipes]: success
+[2023-07-06 12:04:21] INFO root fetch - processPackages [oslo.messaging]: Remove: archive file [/home/abi/fetcher/tmp/oslo.messaging-9.7.2.tar.gz]
+[2023-07-06 12:04:21] INFO root fetch - processPackages [oslo.messaging]: Remove: archive file [/home/abi/fetcher/tmp/oslo.messaging-9.8.0.tar.gz]
+[2023-07-06 12:04:21] INFO root fetch - main [MainThread]: End processing [oslo.messaging]: success
+[2023-07-06 12:04:21] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.8.tar.gz]
+[2023-07-06 12:04:21] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.9.tar.gz]
+[2023-07-06 12:04:21] INFO root fetch - main [MainThread]: End processing [plutous-trade-crypto]: success
+[2023-07-06 12:04:21] INFO root fetch - processPackages [pyreindexer]: Remove: archive file [/home/abi/fetcher/tmp/pyreindexer-0.2.8.tar.gz]
+[2023-07-06 12:04:21] INFO root fetch - processPackages [pyreindexer]: Remove: archive file [/home/abi/fetcher/tmp/pyreindexer-0.2.9.tar.gz]
+[2023-07-06 12:04:21] INFO root fetch - main [MainThread]: End processing [pyreindexer]: success
+[2023-07-06 12:04:22] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-07-06 12:04:22] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-07-06 12:04:22] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-07-06 12:04:22] INFO root fetch - main [MainThread]: Store serial: [18781342]
