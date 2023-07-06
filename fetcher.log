@@ -12744,3 +12744,56 @@ AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
 [2023-07-06 07:49:10] INFO root fetch - processPackages [shared-atomic-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/shared_atomic_enterprise-5!2.3.6-py39-none-win_amd64.whl.zip]
 [2023-07-06 07:49:10] INFO root fetch - main [MainThread]: End processing [shared-atomic-enterprise]: success
 [2023-07-06 07:49:10] INFO root fetch - main [MainThread]: Store serial: [18778785]
+[2023-07-06 07:54:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18778785]
+[2023-07-06 07:54:19] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-06 07:54:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spotPython
+[2023-07-06 07:54:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mynacode
+[2023-07-06 07:54:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: falu
+[2023-07-06 07:54:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gpt-fn
+[2023-07-06 07:54:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: QuNet
+[2023-07-06 07:54:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-maintenance-equipment-status
+[2023-07-06 07:54:19] INFO root fetch - processPackages [falu]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-06 07:54:19] INFO root fetch - processPackages [QuNet]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-06 07:54:19] INFO root fetch - processPackages [gpt-fn]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-06 07:54:19] INFO root fetch - processPackages [spotPython]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-07-06 07:54:19] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-06 07:54:19] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/d5/ed/08e3812ae99f48d271d226b77d4a7da9cf1105ce195a4687389eb1e2d646/QuNet-0.0.98-py3-none-any.whl
+[2023-07-06 07:54:19] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-status]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.3]
+[2023-07-06 07:54:19] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-07-06 07:54:20] INFO root fetch - processPackages [falu]: Downloading https://files.pythonhosted.org/packages/1b/88/67f1feb1781c1f474f274f31057219091e68baf846982718bc53b279af7c/falu-1.0.1.tar.gz
+[2023-07-06 07:54:20] INFO root fetch - processPackages [gpt-fn]: Downloading https://files.pythonhosted.org/packages/c3/81/3fdd8cf64d8c70252e18be17122de93176c57952db7d707c126d96a7ab33/gpt_fn-0.0.7.tar.gz
+[2023-07-06 07:54:20] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/43/d3/1d0b7e1b05922ddf555a6da8aa21cf281b887b3e0c916ec5c7ff3aa57744/spotPython-0.3.3.tar.gz
+[2023-07-06 07:54:20] WARNING root fetch - processPackages [spotPython]: Skipping package: exceeds size limit 26585896>=10485760
+[2023-07-06 07:54:20] INFO root fetch - main [MainThread]: End processing [spotPython] error
+[2023-07-06 07:54:20] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-status]: Downloading https://files.pythonhosted.org/packages/af/94/8556b03eb395dd60db1ddaf2dd226ef1aa897ecde7e632b15ed272aaf968/odoo_addon_maintenance_equipment_status-15.0.1.0.0.3-py3-none-any.whl
+[2023-07-06 07:54:20] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-07-06 07:54:20] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/e0/80/c34810051dcacd44f750dc59c5f982f9a679cbb6caaccd0aad3288430f3e/QuNet-0.0.99-py3-none-any.whl
+[2023-07-06 07:54:20] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-07-06 07:54:20] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230706/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-06 07:54:20] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-07-06 07:54:20] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.98-py3-none-any.whl.zip tmp/QuNet-0.0.99-py3-none-any.whl.zip --markdown 20230706/Q/QuNet/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-06 07:54:20] INFO root fetch - processPackages [falu]: Downloading https://files.pythonhosted.org/packages/8d/60/17c65ab8827efb33ba4595692416a6ed00ef83eede284248b6822e27777d/falu-1.0.2.tar.gz
+[2023-07-06 07:54:20] INFO root fetch - processPackages [gpt-fn]: Downloading https://files.pythonhosted.org/packages/48/f6/f7f2aa2988867e0579f4739d27cbee4197a8ba1bbed04d51028be93c6876/gpt_fn-0.0.8.tar.gz
+[2023-07-06 07:54:20] INFO root fetch - processPackages [falu]: executing diffoscope
+[2023-07-06 07:54:20] INFO root fetch - processPackages [falu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/falu-1.0.1.tar.gz tmp/falu-1.0.2.tar.gz --markdown 20230706/f/falu/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-06 07:54:20] INFO root fetch - processPackages [gpt-fn]: executing diffoscope
+[2023-07-06 07:54:20] INFO root fetch - processPackages [gpt-fn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_fn-0.0.7.tar.gz tmp/gpt_fn-0.0.8.tar.gz --markdown 20230706/g/gpt-fn/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-06 07:54:20] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-status]: Downloading https://files.pythonhosted.org/packages/c4/02/00152d87ef81340a0fe29fb109f7cb57422b558c1d22b96b6611807aef1b/odoo_addon_maintenance_equipment_status-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-06 07:54:20] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-status]: executing diffoscope
+[2023-07-06 07:54:20] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-status]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_maintenance_equipment_status-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_maintenance_equipment_status-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230706/o/odoo-addon-maintenance-equipment-status/15.0.1.0.0.3-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-07-06 07:54:21] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-07-06 07:54:21] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-07-06 07:54:21] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-07-06 07:54:21] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.98-py3-none-any.whl.zip]
+[2023-07-06 07:54:21] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.99-py3-none-any.whl.zip]
+[2023-07-06 07:54:21] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-07-06 07:54:21] INFO root fetch - processPackages [falu]: Remove: archive file [/home/abi/fetcher/tmp/falu-1.0.1.tar.gz]
+[2023-07-06 07:54:21] INFO root fetch - processPackages [falu]: Remove: archive file [/home/abi/fetcher/tmp/falu-1.0.2.tar.gz]
+[2023-07-06 07:54:21] INFO root fetch - main [MainThread]: End processing [falu]: success
+[2023-07-06 07:54:21] INFO root fetch - processPackages [gpt-fn]: Remove: archive file [/home/abi/fetcher/tmp/gpt_fn-0.0.7.tar.gz]
+[2023-07-06 07:54:21] INFO root fetch - processPackages [gpt-fn]: Remove: archive file [/home/abi/fetcher/tmp/gpt_fn-0.0.8.tar.gz]
+[2023-07-06 07:54:21] INFO root fetch - main [MainThread]: End processing [gpt-fn]: success
+[2023-07-06 07:54:21] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-status]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_equipment_status-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-06 07:54:21] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-status]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_equipment_status-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-06 07:54:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-maintenance-equipment-status]: success
+[2023-07-06 07:54:21] INFO root fetch - main [MainThread]: Store serial: [18778804]
