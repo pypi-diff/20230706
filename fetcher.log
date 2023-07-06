@@ -12630,3 +12630,54 @@ AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
 [2023-07-06 07:33:31] INFO root fetch - processPackages [odoo13-addons-oca-stock-logistics-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addons_oca_stock_logistics_workflow-13.0.20230705.0-py3-none-any.whl.zip]
 [2023-07-06 07:33:31] INFO root fetch - main [MainThread]: End processing [odoo13-addons-oca-stock-logistics-workflow]: success
 [2023-07-06 07:33:31] INFO root fetch - main [MainThread]: Store serial: [18778742]
+[2023-07-06 07:38:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18778742]
+[2023-07-06 07:38:40] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-06 07:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-hr-timesheet-task-domain
+[2023-07-06 07:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-timesheet
+[2023-07-06 07:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-urlauth-egguy
+[2023-07-06 07:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: HFODetector
+[2023-07-06 07:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mlflow-registry-mongostore
+[2023-07-06 07:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: OpihiExarata
+[2023-07-06 07:38:40] WARNING root fetch - processPackages [django-urlauth-egguy]: Skipping, unable to determine old version
+[2023-07-06 07:38:40] INFO root fetch - main [MainThread]: End processing [django-urlauth-egguy] error
+[2023-07-06 07:38:40] INFO root fetch - processPackages [odoo-addon-hr-timesheet-task-domain]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-07-06 07:38:40] INFO root fetch - processPackages [HFODetector]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 07:38:40] INFO root fetch - processPackages [mlflow-registry-mongostore]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-06 07:38:40] INFO root fetch - processPackages [OpihiExarata]: New version: [2023.7.6] Old Version: [2023.6.8]
+[2023-07-06 07:38:40] INFO root fetch - processPackages [odoo-addons-oca-timesheet]: New version: [16.0.20230705.0] Old Version: [16.0.20230701.0]
+[2023-07-06 07:38:40] INFO root fetch - processPackages [odoo-addon-hr-timesheet-task-domain]: Downloading https://files.pythonhosted.org/packages/3e/d8/06207b3b1dbcd6745c6d5996dc1dbef3a2934fc573c48aefb48d17573878/odoo_addon_hr_timesheet_task_domain-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-06 07:38:40] INFO root fetch - processPackages [mlflow-registry-mongostore]: Downloading https://files.pythonhosted.org/packages/2f/5a/5e6050d09e910150e4dd18a3a2bdba529c741081ee5efba5e13a06dc817c/mlflow_registry_mongostore-0.1.2-py3-none-any.whl
+[2023-07-06 07:38:40] INFO root fetch - processPackages [OpihiExarata]: Downloading https://files.pythonhosted.org/packages/ca/20/19583133c939072e1b2e1e47381047a22e062a842928635a1cf607b9c31f/OpihiExarata-2023.6.8.tar.gz
+[2023-07-06 07:38:40] INFO root fetch - processPackages [odoo-addons-oca-timesheet]: Downloading https://files.pythonhosted.org/packages/a3/15/eac00c5425b044f4d93ca4777ed9040bba57761ac79a38f4cbfef72ce9a1/odoo_addons_oca_timesheet-16.0.20230701.0-py3-none-any.whl
+[2023-07-06 07:38:40] INFO root fetch - processPackages [HFODetector]: Downloading https://files.pythonhosted.org/packages/58/09/ebc41e41966f5b69792e5f1950dbac2d4c9e6a65f933dc97e9bcbef6fd55/HFODetector-0.0.8.tar.gz
+[2023-07-06 07:38:41] INFO root fetch - processPackages [odoo-addon-hr-timesheet-task-domain]: Downloading https://files.pythonhosted.org/packages/ff/d5/e26eefc0275e1274c9b9b9d75ebddf231f6080ab96794d03d85fb94b3406/odoo_addon_hr_timesheet_task_domain-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-06 07:38:41] INFO root fetch - processPackages [mlflow-registry-mongostore]: Downloading https://files.pythonhosted.org/packages/30/c8/1fb1c92664f91c3b8e201051d000bb1ed2d9c08137e931de8b4710c587f7/mlflow_registry_mongostore-0.1.3-py3-none-any.whl
+[2023-07-06 07:38:41] INFO root fetch - processPackages [odoo-addon-hr-timesheet-task-domain]: executing diffoscope
+[2023-07-06 07:38:41] INFO root fetch - processPackages [odoo-addon-hr-timesheet-task-domain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hr_timesheet_task_domain-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_hr_timesheet_task_domain-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230706/o/odoo-addon-hr-timesheet-task-domain/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-07-06 07:38:41] INFO root fetch - processPackages [mlflow-registry-mongostore]: executing diffoscope
+[2023-07-06 07:38:41] INFO root fetch - processPackages [mlflow-registry-mongostore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlflow_registry_mongostore-0.1.2-py3-none-any.whl.zip tmp/mlflow_registry_mongostore-0.1.3-py3-none-any.whl.zip --markdown 20230706/m/mlflow-registry-mongostore/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-06 07:38:41] INFO root fetch - processPackages [odoo-addons-oca-timesheet]: Downloading https://files.pythonhosted.org/packages/4e/fd/2174050a8ab6c78c45c5ac083000fb514f11647473839423e0ede3e948a5/odoo_addons_oca_timesheet-16.0.20230705.0-py3-none-any.whl
+[2023-07-06 07:38:41] INFO root fetch - processPackages [HFODetector]: Downloading https://files.pythonhosted.org/packages/c9/49/b2673be2b269753c9fdb004534c1d58d78006f780ab27240281a8dbc15e7/HFODetector-0.0.9.tar.gz
+[2023-07-06 07:38:41] INFO root fetch - processPackages [odoo-addons-oca-timesheet]: executing diffoscope
+[2023-07-06 07:38:41] INFO root fetch - processPackages [odoo-addons-oca-timesheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_timesheet-16.0.20230701.0-py3-none-any.whl.zip tmp/odoo_addons_oca_timesheet-16.0.20230705.0-py3-none-any.whl.zip --markdown 20230706/o/odoo-addons-oca-timesheet/16.0.20230701.0-16.0.20230705.0/diff.md --exclude *.pyd
+[2023-07-06 07:38:41] INFO root fetch - processPackages [OpihiExarata]: Downloading https://files.pythonhosted.org/packages/8f/f6/5264f3f1a28a264ea94306ae0bc9117efbe7efd604f3d73c4a92455cd998/OpihiExarata-2023.7.6.tar.gz
+[2023-07-06 07:38:41] INFO root fetch - processPackages [HFODetector]: executing diffoscope
+[2023-07-06 07:38:41] INFO root fetch - processPackages [HFODetector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HFODetector-0.0.8.tar.gz tmp/HFODetector-0.0.9.tar.gz --markdown 20230706/H/HFODetector/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 07:38:41] INFO root fetch - processPackages [OpihiExarata]: executing diffoscope
+[2023-07-06 07:38:41] INFO root fetch - processPackages [OpihiExarata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpihiExarata-2023.6.8.tar.gz tmp/OpihiExarata-2023.7.6.tar.gz --markdown 20230706/O/OpihiExarata/2023.6.8-2023.7.6/diff.md --exclude *.pyd
+[2023-07-06 07:38:42] INFO root fetch - processPackages [mlflow-registry-mongostore]: Remove: archive file [/home/abi/fetcher/tmp/mlflow_registry_mongostore-0.1.2-py3-none-any.whl.zip]
+[2023-07-06 07:38:42] INFO root fetch - processPackages [mlflow-registry-mongostore]: Remove: archive file [/home/abi/fetcher/tmp/mlflow_registry_mongostore-0.1.3-py3-none-any.whl.zip]
+[2023-07-06 07:38:42] INFO root fetch - main [MainThread]: End processing [mlflow-registry-mongostore]: success
+[2023-07-06 07:38:42] INFO root fetch - processPackages [odoo-addon-hr-timesheet-task-domain]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_timesheet_task_domain-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-06 07:38:42] INFO root fetch - processPackages [odoo-addon-hr-timesheet-task-domain]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_timesheet_task_domain-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-06 07:38:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-timesheet-task-domain]: success
+[2023-07-06 07:38:42] INFO root fetch - processPackages [HFODetector]: Remove: archive file [/home/abi/fetcher/tmp/HFODetector-0.0.8.tar.gz]
+[2023-07-06 07:38:42] INFO root fetch - processPackages [HFODetector]: Remove: archive file [/home/abi/fetcher/tmp/HFODetector-0.0.9.tar.gz]
+[2023-07-06 07:38:42] INFO root fetch - main [MainThread]: End processing [HFODetector]: success
+[2023-07-06 07:38:42] INFO root fetch - processPackages [odoo-addons-oca-timesheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_timesheet-16.0.20230701.0-py3-none-any.whl.zip]
+[2023-07-06 07:38:42] INFO root fetch - processPackages [odoo-addons-oca-timesheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_timesheet-16.0.20230705.0-py3-none-any.whl.zip]
+[2023-07-06 07:38:42] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-timesheet]: success
+[2023-07-06 07:38:43] INFO root fetch - processPackages [OpihiExarata]: Remove: archive file [/home/abi/fetcher/tmp/OpihiExarata-2023.6.8.tar.gz]
+[2023-07-06 07:38:43] INFO root fetch - processPackages [OpihiExarata]: Remove: archive file [/home/abi/fetcher/tmp/OpihiExarata-2023.7.6.tar.gz]
+[2023-07-06 07:38:43] INFO root fetch - main [MainThread]: End processing [OpihiExarata]: success
+[2023-07-06 07:38:43] INFO root fetch - main [MainThread]: Store serial: [18778760]
