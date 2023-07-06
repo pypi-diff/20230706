@@ -12274,3 +12274,133 @@ AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
 [2023-07-06 07:07:19] INFO root fetch - processPackages [bluecast]: Remove: archive file [/home/abi/fetcher/tmp/bluecast-0.9.tar.gz]
 [2023-07-06 07:07:19] INFO root fetch - main [MainThread]: End processing [bluecast]: success
 [2023-07-06 07:07:19] INFO root fetch - main [MainThread]: Store serial: [18778594]
+[2023-07-06 07:12:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18778594]
+[2023-07-06 07:12:28] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-06 07:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: funnycat
+[2023-07-06 07:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plutous-trade-crypto
+[2023-07-06 07:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: localstack-core
+[2023-07-06 07:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dask-cuda
+[2023-07-06 07:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: axion
+[2023-07-06 07:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: reytool
+[2023-07-06 07:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tflite-model-maker-nightly
+[2023-07-06 07:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MeUtils
+[2023-07-06 07:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tflite-runtime-nightly
+[2023-07-06 07:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: powertools-oas-validator
+[2023-07-06 07:12:28] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-07-06 07:12:28] WARNING root fetch - processPackages [funnycat]: Skipping, unable to determine old version
+[2023-07-06 07:12:28] INFO root fetch - processPackages [funnycat]: Start processing: khbr
+[2023-07-06 07:12:28] INFO root fetch - main [MainThread]: End processing [funnycat] error
+[2023-07-06 07:12:28] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230706] Old Version: [23.8.0a230705]
+[2023-07-06 07:12:28] INFO root fetch - processPackages [powertools-oas-validator]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-07-06 07:12:28] WARNING root fetch - processPackages [axion]: Skipping, unable to determine old version
+[2023-07-06 07:12:28] INFO root fetch - processPackages [axion]: Start processing: MeUtils
+[2023-07-06 07:12:28] INFO root fetch - main [MainThread]: End processing [axion] error
+[2023-07-06 07:12:28] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230706050733] Old Version: [2.1.1.dev20230705221608]
+[2023-07-06 07:12:28] INFO root fetch - processPackages [plutous-trade-crypto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 07:12:28] INFO root fetch - processPackages [MeUtils]: New version: [2023.7.6.9.18.40] Old Version: [2023.7.6.9.11.22]
+[2023-07-06 07:12:28] INFO root fetch - processPackages [khbr]: New version: [4.0] Old Version: [3.1.1]
+[2023-07-06 07:12:28] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.14.0.dev20230704] Old Version: [2.14.0.dev20230703]
+[2023-07-06 07:12:28] INFO root fetch - processPackages [tflite-model-maker-nightly]: New version: [0.4.3.dev202307050508] Old Version: [0.4.3.dev202307040507]
+[2023-07-06 07:12:28] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f7/1b/12dc89a309309c9361d59a38462b453a322b261239fade997e196d798838/reytool-0.98-py3-none-any.whl
+[2023-07-06 07:12:28] INFO root fetch - processPackages [MeUtils]: New version: [2023.7.6.9.18.40] Old Version: [2023.7.6.9.11.22]
+[2023-07-06 07:12:28] INFO root fetch - processPackages [powertools-oas-validator]: Downloading https://files.pythonhosted.org/packages/ad/76/66f7aac227177ff18a72664c75253984fbb1e6b02a6ec377641fc382d210/powertools_oas_validator-0.5.7.tar.gz
+[2023-07-06 07:12:28] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/e3/db/d32a1544d7f944ad8af411383551ea4aa42adfdd0f238ff44a5a3edaa00e/plutous_trade_crypto-0.0.8.tar.gz
+[2023-07-06 07:12:28] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/88/b4/8f3d255eba4d9bf5fe16efab15e0b73b1f4e3e247cfb179b7fb2434e1358/MeUtils-2023.7.6.9.11.22.tar.gz
+[2023-07-06 07:12:28] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/9d/b4/a1bfe87fd085407a899628b0bed848a3013126f605114e43d315c6dc1d03/dask-cuda-23.8.0a230705.tar.gz
+[2023-07-06 07:12:28] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/33/ff/fecb549dad41162bf67a5012007dad42ff2713c4d30c2df2b6a7436f8e28/tflite-model-maker-nightly-0.4.3.dev202307040507.tar.gz
+[2023-07-06 07:12:28] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/88/b4/8f3d255eba4d9bf5fe16efab15e0b73b1f4e3e247cfb179b7fb2434e1358/MeUtils-2023.7.6.9.11.22.tar.gz
+[2023-07-06 07:12:29] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/34/d8/639b472e5df8fef7227baca3a70e05c66dfafe4a7e47180af14561e3c2af/localstack-core-2.1.1.dev20230705221608.tar.gz
+[2023-07-06 07:12:29] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/88/1a/66928ddfb179e9426eea9e09819f274e044b99fa25df7999bfc416a1924f/tflite_runtime_nightly-2.14.0.dev20230703-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-06 07:12:29] INFO root fetch - processPackages [khbr]: Downloading https://files.pythonhosted.org/packages/16/33/a55b7d480b55fac7088eb69c9ccd1cfda51f95f6ffbdee24654d40193d88/khbr-3.1.1-py2.py3-none-any.whl
+[2023-07-06 07:12:29] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/b4/a4/200ca398a36203e8bd51a034e50c51963506316cbf5e7a47866700accaee/plutous_trade_crypto-0.0.9.tar.gz
+[2023-07-06 07:12:29] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f3/55/5da881836b0a141d1b9cfbb9118f95b0a7873ba578976b4a1a7cf3718b49/reytool-0.99-py3-none-any.whl
+[2023-07-06 07:12:29] INFO root fetch - processPackages [powertools-oas-validator]: Downloading https://files.pythonhosted.org/packages/25/da/68f95c199b896a40f45ad04e5fb93a5e8ab8df6fae524936ca6d19346474/powertools_oas_validator-0.5.8.tar.gz
+[2023-07-06 07:12:29] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/47/19/155bc62dd53b815b20d69057a8cfeb9a576db0124b006817d14057d609ec/dask-cuda-23.8.0a230706.tar.gz
+[2023-07-06 07:12:29] INFO root fetch - processPackages [plutous-trade-crypto]: executing diffoscope
+[2023-07-06 07:12:29] INFO root fetch - processPackages [plutous-trade-crypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plutous_trade_crypto-0.0.8.tar.gz tmp/plutous_trade_crypto-0.0.9.tar.gz --markdown 20230706/p/plutous-trade-crypto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 07:12:29] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-07-06 07:12:29] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230706/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-07-06 07:12:29] INFO root fetch - processPackages [powertools-oas-validator]: executing diffoscope
+[2023-07-06 07:12:29] INFO root fetch - processPackages [powertools-oas-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powertools_oas_validator-0.5.7.tar.gz tmp/powertools_oas_validator-0.5.8.tar.gz --markdown 20230706/p/powertools-oas-validator/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-07-06 07:12:29] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/fb/3b/acea1f5d40a8bca16275db8cb25ad545f0d28ffe6b1bf54c9306fe6e0781/tflite-model-maker-nightly-0.4.3.dev202307050508.tar.gz
+[2023-07-06 07:12:29] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/03/c2/0074fedd9218c4324bec9cdbb7bc5f7c2c839ea18d1079a715c0d495a660/MeUtils-2023.7.6.9.18.40.tar.gz
+[2023-07-06 07:12:29] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/38/79/35ca896b516c5f47450d22baac720e10e9ac2b3db21c988b60e69a9f0bcf/localstack-core-2.1.1.dev20230706050733.tar.gz
+[2023-07-06 07:12:29] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/03/c2/0074fedd9218c4324bec9cdbb7bc5f7c2c839ea18d1079a715c0d495a660/MeUtils-2023.7.6.9.18.40.tar.gz
+[2023-07-06 07:12:29] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-07-06 07:12:29] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230705.tar.gz tmp/dask-cuda-23.8.0a230706.tar.gz --markdown 20230706/d/dask-cuda/23.8.0a230705-23.8.0a230706/diff.md --exclude *.pyd
+[2023-07-06 07:12:29] INFO root fetch - processPackages [tflite-model-maker-nightly]: executing diffoscope
+[2023-07-06 07:12:29] INFO root fetch - processPackages [tflite-model-maker-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite-model-maker-nightly-0.4.3.dev202307040507.tar.gz tmp/tflite-model-maker-nightly-0.4.3.dev202307050508.tar.gz --markdown 20230706/t/tflite-model-maker-nightly/0.4.3.dev202307040507-0.4.3.dev202307050508/diff.md --exclude *.pyd
+[2023-07-06 07:12:29] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/f6/8d/e4351fe71e66558ddd8873e0157fea50002ff7821d88836bb76c2f6bb2a1/tflite_runtime_nightly-2.14.0.dev20230704-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-06 07:12:29] INFO root fetch - processPackages [khbr]: Downloading https://files.pythonhosted.org/packages/2b/9a/48abe0c2713ef4d5cf543d210ed968d6d1e993bc96b474de55891200309d/khbr-4.0-py2.py3-none-any.whl
+[2023-07-06 07:12:29] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-07-06 07:12:29] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.7.6.9.11.22.tar.gz tmp/MeUtils-2023.7.6.9.18.40.tar.gz --markdown 20230706/M/MeUtils/2023.7.6.9.11.22-2023.7.6.9.18.40/diff.md --exclude *.pyd
+[2023-07-06 07:12:29] WARNING root fetch - processPackages [khbr]: Skipping package: exceeds size limit 19590260>=10485760
+[2023-07-06 07:12:29] INFO root fetch - processPackages [khbr]: Start processing: rapid-pe
+[2023-07-06 07:12:29] INFO root fetch - main [MainThread]: End processing [khbr] error
+[2023-07-06 07:12:30] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230706] Old Version: [0.1.1.dev20230705]
+[2023-07-06 07:12:30] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2023-07-06 07:12:30] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.14.0.dev20230703-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/tflite_runtime_nightly-2.14.0.dev20230704-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230706/t/tflite-runtime-nightly/2.14.0.dev20230703-2.14.0.dev20230704/diff.md --exclude *.pyd
+[2023-07-06 07:12:30] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-07-06 07:12:30] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.7.6.9.11.22.tar.gz tmp/MeUtils-2023.7.6.9.18.40.tar.gz --markdown 20230706/M/MeUtils/2023.7.6.9.11.22-2023.7.6.9.18.40/diff.md --exclude *.pyd
+[2023-07-06 07:12:30] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/cf/81/c26a0a6e964f54f092eb059649a4cc84ebc7ad8c0e67c68e1c19436be31c/rapid_pe-0.1.1.dev20230705.tar.gz
+[2023-07-06 07:12:30] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-07-06 07:12:30] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230705221608.tar.gz tmp/localstack-core-2.1.1.dev20230706050733.tar.gz --markdown 20230706/l/localstack-core/2.1.1.dev20230705221608-2.1.1.dev20230706050733/diff.md --exclude *.pyd
+[2023-07-06 07:12:30] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/ac/fa/cd28c5a6a6dccd6461afd3e4ca682ce4d7db27e63d3504274737aeb5761a/rapid_pe-0.1.1.dev20230706.tar.gz
+[2023-07-06 07:12:30] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.98-py3-none-any.whl.zip]
+[2023-07-06 07:12:30] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.99-py3-none-any.whl.zip]
+[2023-07-06 07:12:30] INFO root fetch - processPackages [reytool]: Start processing: pbjson
+[2023-07-06 07:12:30] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-07-06 07:12:30] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.8.tar.gz]
+[2023-07-06 07:12:30] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.9.tar.gz]
+[2023-07-06 07:12:30] INFO root fetch - processPackages [plutous-trade-crypto]: Start processing: je-editor
+[2023-07-06 07:12:30] INFO root fetch - main [MainThread]: End processing [plutous-trade-crypto]: success
+[2023-07-06 07:12:30] INFO root fetch - processPackages [pbjson]: New version: [1.16.0] Old Version: [1.15]
+[2023-07-06 07:12:30] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-07-06 07:12:30] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230705.tar.gz tmp/rapid_pe-0.1.1.dev20230706.tar.gz --markdown 20230706/r/rapid-pe/0.1.1.dev20230705-0.1.1.dev20230706/diff.md --exclude *.pyd
+[2023-07-06 07:12:30] INFO root fetch - processPackages [je-editor]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-06 07:12:31] INFO root fetch - processPackages [pbjson]: Downloading https://files.pythonhosted.org/packages/a9/fa/a301fc138b8ae1d391fc3b029e9e6ac21f570d999ea9a2cb4838f1346ebb/pbjson-1.15.tar.gz
+[2023-07-06 07:12:31] INFO root fetch - processPackages [powertools-oas-validator]: Remove: archive file [/home/abi/fetcher/tmp/powertools_oas_validator-0.5.7.tar.gz]
+[2023-07-06 07:12:31] INFO root fetch - processPackages [powertools-oas-validator]: Remove: archive file [/home/abi/fetcher/tmp/powertools_oas_validator-0.5.8.tar.gz]
+[2023-07-06 07:12:31] INFO root fetch - processPackages [powertools-oas-validator]: Start processing: pytest-homeassistant-custom-component
+[2023-07-06 07:12:31] INFO root fetch - main [MainThread]: End processing [powertools-oas-validator]: success
+[2023-07-06 07:12:31] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-06 07:12:31] INFO root fetch - processPackages [je-editor]: Downloading https://files.pythonhosted.org/packages/18/5a/9781b5d7b4cbad1f9f9cf0b8dbff0d29d79012bfa040e7a2a512b2370144/je_editor-0.0.98.tar.gz
+[2023-07-06 07:12:31] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230705.tar.gz]
+[2023-07-06 07:12:31] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230706.tar.gz]
+[2023-07-06 07:12:31] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-07-06 07:12:31] INFO root fetch - processPackages [pbjson]: Downloading https://files.pythonhosted.org/packages/dc/13/510df2375bcc883d744ebf972e108a21a54a4b9139708e317e8fdc6fd385/pbjson-1.16.0.tar.gz
+[2023-07-06 07:12:31] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Downloading https://files.pythonhosted.org/packages/8a/3b/b76075872ac35edad46a4fd3401c3faebda7af874b306526a1d7e1a4336a/pytest-homeassistant-custom-component-0.9.8.tar.gz
+[2023-07-06 07:12:31] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230703-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-06 07:12:31] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230704-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-06 07:12:31] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2023-07-06 07:12:31] INFO root fetch - processPackages [pbjson]: executing diffoscope
+[2023-07-06 07:12:31] INFO root fetch - processPackages [pbjson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbjson-1.15.tar.gz tmp/pbjson-1.16.0.tar.gz --markdown 20230706/p/pbjson/1.15-1.16.0/diff.md --exclude *.pyd
+[2023-07-06 07:12:31] INFO root fetch - processPackages [je-editor]: Downloading https://files.pythonhosted.org/packages/75/ca/4e894555d734ec4dfd99b15542060c6c3c836135f3bc5b9fd7a12b1b9620/je_editor-0.0.99.tar.gz
+[2023-07-06 07:12:31] INFO root fetch - processPackages [je-editor]: executing diffoscope
+[2023-07-06 07:12:31] INFO root fetch - processPackages [je-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor-0.0.98.tar.gz tmp/je_editor-0.0.99.tar.gz --markdown 20230706/j/je-editor/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-06 07:12:32] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230705.tar.gz]
+[2023-07-06 07:12:32] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230706.tar.gz]
+[2023-07-06 07:12:32] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-07-06 07:12:32] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Downloading https://files.pythonhosted.org/packages/60/4e/ba1174db4b883610c2a5afba7a30857178ada41a2368936b2e3d764bfe6a/pytest-homeassistant-custom-component-0.9.9.tar.gz
+[2023-07-06 07:12:32] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: executing diffoscope
+[2023-07-06 07:12:32] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-homeassistant-custom-component-0.9.8.tar.gz tmp/pytest-homeassistant-custom-component-0.9.9.tar.gz --markdown 20230706/p/pytest-homeassistant-custom-component/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-06 07:12:32] INFO root fetch - processPackages [pbjson]: Remove: archive file [/home/abi/fetcher/tmp/pbjson-1.15.tar.gz]
+[2023-07-06 07:12:32] INFO root fetch - processPackages [pbjson]: Remove: archive file [/home/abi/fetcher/tmp/pbjson-1.16.0.tar.gz]
+[2023-07-06 07:12:32] INFO root fetch - main [MainThread]: End processing [pbjson]: success
+[2023-07-06 07:12:32] INFO root fetch - processPackages [je-editor]: Remove: archive file [/home/abi/fetcher/tmp/je_editor-0.0.98.tar.gz]
+[2023-07-06 07:12:32] INFO root fetch - processPackages [je-editor]: Remove: archive file [/home/abi/fetcher/tmp/je_editor-0.0.99.tar.gz]
+[2023-07-06 07:12:32] INFO root fetch - main [MainThread]: End processing [je-editor]: success
+[2023-07-06 07:12:33] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202307040507.tar.gz]
+[2023-07-06 07:12:33] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202307050508.tar.gz]
+[2023-07-06 07:12:33] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
+[2023-07-06 07:12:33] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Remove: archive file [/home/abi/fetcher/tmp/pytest-homeassistant-custom-component-0.9.8.tar.gz]
+[2023-07-06 07:12:33] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Remove: archive file [/home/abi/fetcher/tmp/pytest-homeassistant-custom-component-0.9.9.tar.gz]
+[2023-07-06 07:12:33] INFO root fetch - main [MainThread]: End processing [pytest-homeassistant-custom-component]: success
+[2023-07-06 07:12:34] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.6.9.11.22.tar.gz]
+[2023-07-06 07:12:34] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.6.9.18.40.tar.gz]
+[2023-07-06 07:12:34] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-07-06 07:12:34] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-07-06 07:12:35] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230705221608.tar.gz]
+[2023-07-06 07:12:35] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230706050733.tar.gz]
+[2023-07-06 07:12:35] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-07-06 07:12:35] INFO root fetch - main [MainThread]: Store serial: [18778653]
