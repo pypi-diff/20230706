@@ -9350,3 +9350,75 @@ AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
 [2023-07-06 04:18:23] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2023.7.0b6.tar.gz]
 [2023-07-06 04:18:23] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
 [2023-07-06 04:18:23] INFO root fetch - main [MainThread]: Store serial: [18777370]
+[2023-07-06 04:23:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18777370]
+[2023-07-06 04:23:32] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-06 04:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bytetrade-recommend-model-sdk
+[2023-07-06 04:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hkwTestFunction
+[2023-07-06 04:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: p4p
+[2023-07-06 04:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: srctools
+[2023-07-06 04:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deepllm
+[2023-07-06 04:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jaraco.packaging
+[2023-07-06 04:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sapphire-config
+[2023-07-06 04:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hak
+[2023-07-06 04:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mmengine
+[2023-07-06 04:23:33] WARNING root fetch - processPackages [hkwTestFunction]: Skipping, unable to determine old version
+[2023-07-06 04:23:33] INFO root fetch - main [MainThread]: End processing [hkwTestFunction] error
+[2023-07-06 04:23:33] INFO root fetch - processPackages [hak]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 04:23:33] INFO root fetch - processPackages [deepllm]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-07-06 04:23:33] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: New version: [0.0.24] Old Version: [0.0.23]
+[2023-07-06 04:23:33] WARNING root fetch - processPackages [sapphire-config]: Skipping, unable to determine old version
+[2023-07-06 04:23:33] INFO root fetch - main [MainThread]: End processing [sapphire-config] error
+[2023-07-06 04:23:33] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/05/17/ad5ef91170b7c0e991a9c8bffa9f9a2dcf3961d5e90c31185bdf3ce8f425/hak-0.0.8.tar.gz
+[2023-07-06 04:23:33] INFO root fetch - processPackages [jaraco.packaging]: New version: [9.3.0] Old Version: [9.2.0]
+[2023-07-06 04:23:33] INFO root fetch - processPackages [deepllm]: Downloading https://files.pythonhosted.org/packages/69/93/4f92bdf805e9d854e8e4b8d0d98cb08e928f2fb61cff9643e6074dc73b25/deepllm-0.5.5.tar.gz
+[2023-07-06 04:23:33] INFO root fetch - processPackages [mmengine]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-06 04:23:33] INFO root fetch - processPackages [srctools]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-07-06 04:23:33] INFO root fetch - processPackages [p4p]: New version: [4.1.8a3] Old Version: [4.1.8a2]
+[2023-07-06 04:23:33] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Downloading https://files.pythonhosted.org/packages/a2/ec/f37ddc002103becb19072aa51c4d32318f2bf0f855317210c9d5ece8bbc7/bytetrade-recommend-model-sdk-0.0.23.tar.gz
+[2023-07-06 04:23:33] INFO root fetch - processPackages [jaraco.packaging]: Downloading https://files.pythonhosted.org/packages/46/60/c8469541f6f9ef3bb1bda7e33a99d4a744ad73d1eed562fcb48111a01d64/jaraco.packaging-9.2.0.tar.gz
+[2023-07-06 04:23:33] INFO root fetch - processPackages [deepllm]: Downloading https://files.pythonhosted.org/packages/04/a4/d5a5792cd513334d774ba70f84a919ad347ad2c67cd811bbf38a9d8741b2/deepllm-0.5.6.tar.gz
+[2023-07-06 04:23:33] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/fd/2b/bf7b3451d5e3a84e9a674b47e9f046c4db1f582764a85a4dfc00e14ecf00/hak-0.0.9.tar.gz
+[2023-07-06 04:23:33] INFO root fetch - processPackages [p4p]: Downloading https://files.pythonhosted.org/packages/26/37/f4d453867e05495412cacd3448302a7dc9cd6b63251f2c701a8f7479e014/p4p-4.1.8a2.tar.gz
+[2023-07-06 04:23:33] INFO root fetch - processPackages [mmengine]: Downloading https://files.pythonhosted.org/packages/65/ee/20aa57430f1add142a7730cbe423836fd8b03f99cf2e972d7146ae3e2029/mmengine-0.8.0.tar.gz
+[2023-07-06 04:23:33] INFO root fetch - processPackages [srctools]: Downloading https://files.pythonhosted.org/packages/f7/3e/6018e9e6583399a0f2944fd34099fb53a3428ec3fce59ebc66adc8eba321/srctools-2.3.8.tar.gz
+[2023-07-06 04:23:33] INFO root fetch - processPackages [deepllm]: executing diffoscope
+[2023-07-06 04:23:33] INFO root fetch - processPackages [deepllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepllm-0.5.5.tar.gz tmp/deepllm-0.5.6.tar.gz --markdown 20230706/d/deepllm/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-07-06 04:23:33] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-07-06 04:23:33] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.8.tar.gz tmp/hak-0.0.9.tar.gz --markdown 20230706/h/hak/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 04:23:33] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Downloading https://files.pythonhosted.org/packages/4f/08/664803b91eaafc5b1d73ebb55b107c0d1f187d8cde549b079d751e64856e/bytetrade-recommend-model-sdk-0.0.24.tar.gz
+[2023-07-06 04:23:33] INFO root fetch - processPackages [jaraco.packaging]: Downloading https://files.pythonhosted.org/packages/1f/09/b99e9b7f6e77a5f65a322683a2c158bd3a86d1a542ff8fa8579de30f60ab/jaraco.packaging-9.3.0.tar.gz
+[2023-07-06 04:23:33] INFO root fetch - processPackages [p4p]: Downloading https://files.pythonhosted.org/packages/57/d0/73a4c995dd3c92261a19014e9edd53905bc13ae582b9e5ca474eb0d58e2c/p4p-4.1.8a3.tar.gz
+[2023-07-06 04:23:34] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: executing diffoscope
+[2023-07-06 04:23:34] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytetrade-recommend-model-sdk-0.0.23.tar.gz tmp/bytetrade-recommend-model-sdk-0.0.24.tar.gz --markdown 20230706/b/bytetrade-recommend-model-sdk/0.0.23-0.0.24/diff.md --exclude *.pyd
+[2023-07-06 04:23:34] INFO root fetch - processPackages [srctools]: Downloading https://files.pythonhosted.org/packages/19/ac/74971b7272c749295958890b1ec054d70a0e6269a7ede8dee2a2238b48d7/srctools-2.3.9.tar.gz
+[2023-07-06 04:23:34] INFO root fetch - processPackages [mmengine]: Downloading https://files.pythonhosted.org/packages/00/cc/08007421ea0d0b9b40c642827672c798f03251c03e618e7ca0d9fdd3f892/mmengine-0.8.1.tar.gz
+[2023-07-06 04:23:34] INFO root fetch - processPackages [jaraco.packaging]: executing diffoscope
+[2023-07-06 04:23:34] INFO root fetch - processPackages [jaraco.packaging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaraco.packaging-9.2.0.tar.gz tmp/jaraco.packaging-9.3.0.tar.gz --markdown 20230706/j/jaraco.packaging/9.2.0-9.3.0/diff.md --exclude *.pyd
+[2023-07-06 04:23:34] INFO root fetch - processPackages [p4p]: executing diffoscope
+[2023-07-06 04:23:34] INFO root fetch - processPackages [p4p]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p4p-4.1.8a2.tar.gz tmp/p4p-4.1.8a3.tar.gz --markdown 20230706/p/p4p/4.1.8a2-4.1.8a3/diff.md --exclude *.pyd
+[2023-07-06 04:23:34] INFO root fetch - processPackages [mmengine]: executing diffoscope
+[2023-07-06 04:23:34] INFO root fetch - processPackages [mmengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmengine-0.8.0.tar.gz tmp/mmengine-0.8.1.tar.gz --markdown 20230706/m/mmengine/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-06 04:23:34] INFO root fetch - processPackages [srctools]: executing diffoscope
+[2023-07-06 04:23:34] INFO root fetch - processPackages [srctools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/srctools-2.3.8.tar.gz tmp/srctools-2.3.9.tar.gz --markdown 20230706/s/srctools/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-07-06 04:23:34] INFO root fetch - processPackages [deepllm]: Remove: archive file [/home/abi/fetcher/tmp/deepllm-0.5.5.tar.gz]
+[2023-07-06 04:23:34] INFO root fetch - processPackages [deepllm]: Remove: archive file [/home/abi/fetcher/tmp/deepllm-0.5.6.tar.gz]
+[2023-07-06 04:23:34] INFO root fetch - main [MainThread]: End processing [deepllm]: success
+[2023-07-06 04:23:35] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bytetrade-recommend-model-sdk-0.0.23.tar.gz]
+[2023-07-06 04:23:35] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bytetrade-recommend-model-sdk-0.0.24.tar.gz]
+[2023-07-06 04:23:35] INFO root fetch - main [MainThread]: End processing [bytetrade-recommend-model-sdk]: success
+[2023-07-06 04:23:35] INFO root fetch - processPackages [jaraco.packaging]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.packaging-9.2.0.tar.gz]
+[2023-07-06 04:23:35] INFO root fetch - processPackages [jaraco.packaging]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.packaging-9.3.0.tar.gz]
+[2023-07-06 04:23:35] INFO root fetch - main [MainThread]: End processing [jaraco.packaging]: success
+[2023-07-06 04:23:35] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.8.tar.gz]
+[2023-07-06 04:23:35] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
+[2023-07-06 04:23:35] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-07-06 04:23:35] INFO root fetch - processPackages [p4p]: Remove: archive file [/home/abi/fetcher/tmp/p4p-4.1.8a2.tar.gz]
+[2023-07-06 04:23:35] INFO root fetch - processPackages [p4p]: Remove: archive file [/home/abi/fetcher/tmp/p4p-4.1.8a3.tar.gz]
+[2023-07-06 04:23:35] INFO root fetch - main [MainThread]: End processing [p4p]: success
+[2023-07-06 04:23:36] INFO root fetch - processPackages [srctools]: Remove: archive file [/home/abi/fetcher/tmp/srctools-2.3.8.tar.gz]
+[2023-07-06 04:23:36] INFO root fetch - processPackages [srctools]: Remove: archive file [/home/abi/fetcher/tmp/srctools-2.3.9.tar.gz]
+[2023-07-06 04:23:36] INFO root fetch - main [MainThread]: End processing [srctools]: success
+[2023-07-06 04:23:36] INFO root fetch - processPackages [mmengine]: Remove: archive file [/home/abi/fetcher/tmp/mmengine-0.8.0.tar.gz]
+[2023-07-06 04:23:36] INFO root fetch - processPackages [mmengine]: Remove: archive file [/home/abi/fetcher/tmp/mmengine-0.8.1.tar.gz]
+[2023-07-06 04:23:36] INFO root fetch - main [MainThread]: End processing [mmengine]: success
+[2023-07-06 04:23:36] INFO root fetch - main [MainThread]: Store serial: [18777455]
