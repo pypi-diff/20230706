@@ -9991,3 +9991,105 @@ AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
 [2023-07-06 04:54:58] INFO root fetch - processPackages [infotools]: Remove: archive file [/home/abi/fetcher/tmp/infotools-0.9.2.tar.gz]
 [2023-07-06 04:54:58] INFO root fetch - main [MainThread]: End processing [infotools]: success
 [2023-07-06 04:54:58] INFO root fetch - main [MainThread]: Store serial: [18777707]
+[2023-07-06 05:00:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18777707]
+[2023-07-06 05:00:06] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-06 05:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vios
+[2023-07-06 05:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SpeakerVerSim
+[2023-07-06 05:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lantrane
+[2023-07-06 05:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytest-netdut
+[2023-07-06 05:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: text2text
+[2023-07-06 05:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iam-actions
+[2023-07-06 05:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rondsspark
+[2023-07-06 05:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mpqcv
+[2023-07-06 05:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: KwoksTool
+[2023-07-06 05:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: anyon
+[2023-07-06 05:00:07] INFO root fetch - processPackages [anyon]: New version: [3.5.6] Old Version: [3.5.5]
+[2023-07-06 05:00:07] INFO root fetch - processPackages [lantrane]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-06 05:00:07] INFO root fetch - processPackages [rondsspark]: New version: [0.0.3.1] Old Version: [0.0.3]
+[2023-07-06 05:00:07] INFO root fetch - processPackages [pytest-netdut]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-07-06 05:00:07] INFO root fetch - processPackages [KwoksTool]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-06 05:00:07] WARNING root fetch - processPackages [SpeakerVerSim]: Skipping, unable to determine old version
+[2023-07-06 05:00:07] INFO root fetch - processPackages [SpeakerVerSim]: Start processing: scriptime
+[2023-07-06 05:00:07] INFO root fetch - main [MainThread]: End processing [SpeakerVerSim] error
+[2023-07-06 05:00:07] INFO root fetch - processPackages [mpqcv]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 05:00:07] INFO root fetch - processPackages [vios]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-06 05:00:07] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230706] Old Version: [1.2.20230705]
+[2023-07-06 05:00:07] INFO root fetch - processPackages [text2text]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-06 05:00:07] INFO root fetch - processPackages [scriptime]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-06 05:00:07] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/2e/13/8fe1d82afcde14187852d1ad1804353ab650cb43f784e8256f13fc638ad1/anyon-3.5.5-cp311-none-macosx_10_9_universal2.whl
+[2023-07-06 05:00:07] INFO root fetch - processPackages [rondsspark]: Downloading https://files.pythonhosted.org/packages/6c/9f/1b7904657d30d6766028ec8e01a612be46050a08d47c144b76f8953ff037/rondsspark-0.0.3.tar.gz
+[2023-07-06 05:00:07] INFO root fetch - processPackages [KwoksTool]: Downloading https://files.pythonhosted.org/packages/3f/43/a49b6ccbad7f1420873fb98fadf39004bc944da811769b1dc85a106d6c1b/KwoksTool-0.0.5.tar.gz
+[2023-07-06 05:00:07] INFO root fetch - processPackages [mpqcv]: Downloading https://files.pythonhosted.org/packages/cc/25/8e4039c5a41b03d4b5008ba696b49e2978adc10a917d4404ebbceaf3d14c/mpqcv-0.0.8.tar.gz
+[2023-07-06 05:00:07] INFO root fetch - processPackages [vios]: Downloading https://files.pythonhosted.org/packages/15/1e/362e2a248b022994cd9062a886a4a1143ad259b79773ab8204c42ea2b4e6/vios-1.0.5-py3-none-any.whl
+[2023-07-06 05:00:07] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/d8/84/badef2868385e306b3572603b47d6fb0f3972621bd69cb59e68576fdfd98/iam_actions-1.2.20230705.tar.gz
+[2023-07-06 05:00:07] INFO root fetch - processPackages [text2text]: Downloading https://files.pythonhosted.org/packages/70/29/d1ccc045429ec2af5b556393a76f212415bf00d31250e91d02fc22daacf8/text2text-1.2.1.tar.gz
+[2023-07-06 05:00:07] INFO root fetch - processPackages [lantrane]: Downloading https://files.pythonhosted.org/packages/d9/73/a26f7b01a58d7d8d32b1dcc08f3ff5d52a36b7cb5ac4587be7b04ab68af4/lantrane-0.0.1.tar.gz
+[2023-07-06 05:00:07] INFO root fetch - processPackages [scriptime]: Downloading https://files.pythonhosted.org/packages/70/5f/3bd8e3526b0626d58aefe9b757b64160d33d5afdafb583a6aad1fc5a2980/scriptime-0.0.5.tar.gz
+[2023-07-06 05:00:07] INFO root fetch - processPackages [pytest-netdut]: Downloading https://files.pythonhosted.org/packages/06/c4/9dccd74c3a0f7a7bc3bc23642a2fb5fa5403cb1ae2a1da475d214781f86f/pytest_netdut-0.7.0.tar.gz
+[2023-07-06 05:00:07] INFO root fetch - processPackages [vios]: Downloading https://files.pythonhosted.org/packages/a6/15/61d2fa5efaddc2bd96f1b9821723683b2df28c04f787c7a15e01e003491d/vios-1.0.6-py3-none-any.whl
+[2023-07-06 05:00:07] INFO root fetch - processPackages [mpqcv]: Downloading https://files.pythonhosted.org/packages/38/4f/f9ec1c5dea651268e7ffd3acfd8dc8f8617f68cf1b2b1cea9e7bb8a12019/mpqcv-0.0.9.tar.gz
+[2023-07-06 05:00:08] INFO root fetch - processPackages [rondsspark]: Downloading https://files.pythonhosted.org/packages/b9/b6/05ad20caace9c5431c8b7914b373282e775843ea7804d9f6ab89975ec3ac/rondsspark-0.0.3.1.tar.gz
+[2023-07-06 05:00:08] INFO root fetch - processPackages [text2text]: Downloading https://files.pythonhosted.org/packages/4c/12/2075c223fc27cf8ce064baa1a17d7ca65d1e7d4152988b168fc4be9e4274/text2text-1.2.2.tar.gz
+[2023-07-06 05:00:08] INFO root fetch - processPackages [vios]: executing diffoscope
+[2023-07-06 05:00:08] INFO root fetch - processPackages [vios]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vios-1.0.5-py3-none-any.whl.zip tmp/vios-1.0.6-py3-none-any.whl.zip --markdown 20230706/v/vios/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-06 05:00:08] INFO root fetch - processPackages [scriptime]: Downloading https://files.pythonhosted.org/packages/2a/ef/2c3bbd4d79ccfca4337b32397c24d3020f0f014a45e80196dc9723e61c0c/scriptime-0.0.6.tar.gz
+[2023-07-06 05:00:08] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/2e/fb/50b85831dbfe65ed4554470e63cc97a5ae1f12f2f9c1714541fde12ff559/anyon-3.5.6-cp311-none-macosx_10_9_universal2.whl
+[2023-07-06 05:00:08] INFO root fetch - processPackages [KwoksTool]: Downloading https://files.pythonhosted.org/packages/d3/c6/fa7392491d0cd144bf5861437bad5cca268f6ab6243d96ee42e76dbdba73/KwoksTool-0.0.6.tar.gz
+[2023-07-06 05:00:08] INFO root fetch - processPackages [lantrane]: Downloading https://files.pythonhosted.org/packages/6c/ec/f7753e590c29a254b5c6281acc03bd873a26e97fbb34cfc9a1072842fd6b/lantrane-0.0.2.tar.gz
+[2023-07-06 05:00:08] INFO root fetch - processPackages [mpqcv]: executing diffoscope
+[2023-07-06 05:00:08] INFO root fetch - processPackages [mpqcv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpqcv-0.0.8.tar.gz tmp/mpqcv-0.0.9.tar.gz --markdown 20230706/m/mpqcv/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 05:00:08] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/e7/b1/58f9a8e71fb7cdc715d0ce1bc09bd244cafd7aa235d16ea175bc372eb801/iam_actions-1.2.20230706.tar.gz
+[2023-07-06 05:00:08] INFO root fetch - processPackages [pytest-netdut]: Downloading https://files.pythonhosted.org/packages/8a/f2/2ddc430410097eae84e40f4327b9b59432f9ee93d04374f400971982d37e/pytest_netdut-0.8.0.tar.gz
+[2023-07-06 05:00:08] INFO root fetch - processPackages [rondsspark]: executing diffoscope
+[2023-07-06 05:00:08] INFO root fetch - processPackages [rondsspark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rondsspark-0.0.3.tar.gz tmp/rondsspark-0.0.3.1.tar.gz --markdown 20230706/r/rondsspark/0.0.3-0.0.3.1/diff.md --exclude *.pyd
+[2023-07-06 05:00:08] INFO root fetch - processPackages [text2text]: executing diffoscope
+[2023-07-06 05:00:08] INFO root fetch - processPackages [text2text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2text-1.2.1.tar.gz tmp/text2text-1.2.2.tar.gz --markdown 20230706/t/text2text/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-06 05:00:08] INFO root fetch - processPackages [scriptime]: executing diffoscope
+[2023-07-06 05:00:08] INFO root fetch - processPackages [scriptime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scriptime-0.0.5.tar.gz tmp/scriptime-0.0.6.tar.gz --markdown 20230706/s/scriptime/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-06 05:00:08] INFO root fetch - processPackages [lantrane]: executing diffoscope
+[2023-07-06 05:00:08] INFO root fetch - processPackages [lantrane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lantrane-0.0.1.tar.gz tmp/lantrane-0.0.2.tar.gz --markdown 20230706/l/lantrane/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-06 05:00:08] INFO root fetch - processPackages [KwoksTool]: executing diffoscope
+[2023-07-06 05:00:08] INFO root fetch - processPackages [KwoksTool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KwoksTool-0.0.5.tar.gz tmp/KwoksTool-0.0.6.tar.gz --markdown 20230706/K/KwoksTool/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-06 05:00:08] INFO root fetch - processPackages [anyon]: executing diffoscope
+[2023-07-06 05:00:08] INFO root fetch - processPackages [anyon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyon-3.5.5-cp311-none-macosx_10_9_universal2.whl.zip tmp/anyon-3.5.6-cp311-none-macosx_10_9_universal2.whl.zip --markdown 20230706/a/anyon/3.5.5-3.5.6/diff.md --exclude *.pyd
+[2023-07-06 05:00:08] INFO root fetch - processPackages [pytest-netdut]: executing diffoscope
+[2023-07-06 05:00:08] INFO root fetch - processPackages [pytest-netdut]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_netdut-0.7.0.tar.gz tmp/pytest_netdut-0.8.0.tar.gz --markdown 20230706/p/pytest-netdut/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-07-06 05:00:08] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-07-06 05:00:08] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230705.tar.gz tmp/iam_actions-1.2.20230706.tar.gz --markdown 20230706/i/iam-actions/1.2.20230705-1.2.20230706/diff.md --exclude *.pyd
+[2023-07-06 05:00:09] INFO root fetch - processPackages [mpqcv]: Remove: archive file [/home/abi/fetcher/tmp/mpqcv-0.0.8.tar.gz]
+[2023-07-06 05:00:09] INFO root fetch - processPackages [mpqcv]: Remove: archive file [/home/abi/fetcher/tmp/mpqcv-0.0.9.tar.gz]
+[2023-07-06 05:00:09] INFO root fetch - processPackages [mpqcv]: Start processing: micropython-pca9685
+[2023-07-06 05:00:09] INFO root fetch - main [MainThread]: End processing [mpqcv]: success
+[2023-07-06 05:00:09] INFO root fetch - processPackages [vios]: Remove: archive file [/home/abi/fetcher/tmp/vios-1.0.5-py3-none-any.whl.zip]
+[2023-07-06 05:00:09] INFO root fetch - processPackages [vios]: Remove: archive file [/home/abi/fetcher/tmp/vios-1.0.6-py3-none-any.whl.zip]
+[2023-07-06 05:00:09] INFO root fetch - processPackages [vios]: Start processing: MediaSecure
+[2023-07-06 05:00:09] INFO root fetch - main [MainThread]: End processing [vios]: success
+[2023-07-06 05:00:09] WARNING root fetch - processPackages [MediaSecure]: Skipping, unable to determine old version
+[2023-07-06 05:00:09] INFO root fetch - main [MainThread]: End processing [MediaSecure] error
+[2023-07-06 05:00:09] WARNING root fetch - processPackages [micropython-pca9685]: Skipping, unable to determine old version
+[2023-07-06 05:00:09] INFO root fetch - main [MainThread]: End processing [micropython-pca9685] error
+[2023-07-06 05:00:09] INFO root fetch - processPackages [lantrane]: Remove: archive file [/home/abi/fetcher/tmp/lantrane-0.0.1.tar.gz]
+[2023-07-06 05:00:09] INFO root fetch - processPackages [lantrane]: Remove: archive file [/home/abi/fetcher/tmp/lantrane-0.0.2.tar.gz]
+[2023-07-06 05:00:09] INFO root fetch - main [MainThread]: End processing [lantrane]: success
+[2023-07-06 05:00:10] INFO root fetch - processPackages [scriptime]: Remove: archive file [/home/abi/fetcher/tmp/scriptime-0.0.5.tar.gz]
+[2023-07-06 05:00:10] INFO root fetch - processPackages [scriptime]: Remove: archive file [/home/abi/fetcher/tmp/scriptime-0.0.6.tar.gz]
+[2023-07-06 05:00:10] INFO root fetch - main [MainThread]: End processing [scriptime]: success
+[2023-07-06 05:00:10] INFO root fetch - processPackages [rondsspark]: Remove: archive file [/home/abi/fetcher/tmp/rondsspark-0.0.3.tar.gz]
+[2023-07-06 05:00:10] INFO root fetch - processPackages [rondsspark]: Remove: archive file [/home/abi/fetcher/tmp/rondsspark-0.0.3.1.tar.gz]
+[2023-07-06 05:00:10] INFO root fetch - main [MainThread]: End processing [rondsspark]: success
+[2023-07-06 05:00:10] INFO root fetch - processPackages [text2text]: Remove: archive file [/home/abi/fetcher/tmp/text2text-1.2.1.tar.gz]
+[2023-07-06 05:00:10] INFO root fetch - processPackages [text2text]: Remove: archive file [/home/abi/fetcher/tmp/text2text-1.2.2.tar.gz]
+[2023-07-06 05:00:10] INFO root fetch - main [MainThread]: End processing [text2text]: success
+[2023-07-06 05:00:10] INFO root fetch - processPackages [KwoksTool]: Remove: archive file [/home/abi/fetcher/tmp/KwoksTool-0.0.5.tar.gz]
+[2023-07-06 05:00:10] INFO root fetch - processPackages [KwoksTool]: Remove: archive file [/home/abi/fetcher/tmp/KwoksTool-0.0.6.tar.gz]
+[2023-07-06 05:00:10] INFO root fetch - main [MainThread]: End processing [KwoksTool]: success
+[2023-07-06 05:00:10] INFO root fetch - processPackages [pytest-netdut]: Remove: archive file [/home/abi/fetcher/tmp/pytest_netdut-0.7.0.tar.gz]
+[2023-07-06 05:00:10] INFO root fetch - processPackages [pytest-netdut]: Remove: archive file [/home/abi/fetcher/tmp/pytest_netdut-0.8.0.tar.gz]
+[2023-07-06 05:00:10] INFO root fetch - main [MainThread]: End processing [pytest-netdut]: success
+[2023-07-06 05:00:10] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230705.tar.gz]
+[2023-07-06 05:00:10] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230706.tar.gz]
+[2023-07-06 05:00:10] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-07-06 05:00:22] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-3.5.5-cp311-none-macosx_10_9_universal2.whl.zip]
+[2023-07-06 05:00:22] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-3.5.6-cp311-none-macosx_10_9_universal2.whl.zip]
+[2023-07-06 05:00:22] INFO root fetch - main [MainThread]: End processing [anyon]: success
+[2023-07-06 05:00:22] INFO root fetch - main [MainThread]: Store serial: [18777750]
