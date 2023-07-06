@@ -14514,3 +14514,99 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-06 09:26:43] INFO root fetch - processPackages [DIRAC]: Remove: archive file [/home/abi/fetcher/tmp/DIRAC-8.1.0a9.tar.gz]
 [2023-07-06 09:26:43] INFO root fetch - main [MainThread]: End processing [DIRAC]: success
 [2023-07-06 09:26:43] INFO root fetch - main [MainThread]: Store serial: [18779562]
+[2023-07-06 09:31:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18779562]
+[2023-07-06 09:31:54] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-06 09:31:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyswcloader
+[2023-07-06 09:31:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gcp-ng-helpers
+[2023-07-06 09:31:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mtdctk
+[2023-07-06 09:31:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dndfog
+[2023-07-06 09:31:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: session-repository
+[2023-07-06 09:31:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: supervisely
+[2023-07-06 09:31:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: connect-extension-runner
+[2023-07-06 09:31:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yunhu
+[2023-07-06 09:31:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-adapter-villa
+[2023-07-06 09:31:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: target-permutation-importances
+[2023-07-06 09:31:54] INFO root fetch - processPackages [session-repository]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-06 09:31:54] INFO root fetch - processPackages [gcp-ng-helpers]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 09:31:54] INFO root fetch - processPackages [pyswcloader]: New version: [1.1.1] Old Version: [1.1]
+[2023-07-06 09:31:54] INFO root fetch - processPackages [yunhu]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-06 09:31:54] INFO root fetch - processPackages [nonebot-adapter-villa]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-07-06 09:31:54] INFO root fetch - processPackages [dndfog]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-06 09:31:54] WARNING root fetch - processPackages [mtdctk]: Skipping, unable to determine old version
+[2023-07-06 09:31:54] INFO root fetch - processPackages [mtdctk]: Start processing: reasoner-validator
+[2023-07-06 09:31:54] INFO root fetch - main [MainThread]: End processing [mtdctk] error
+[2023-07-06 09:31:54] INFO root fetch - processPackages [target-permutation-importances]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-06 09:31:54] INFO root fetch - processPackages [supervisely]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-07-06 09:31:54] INFO root fetch - processPackages [connect-extension-runner]: New version: [28.2] Old Version: [28.1]
+[2023-07-06 09:31:54] INFO root fetch - processPackages [reasoner-validator]: New version: [3.6.6] Old Version: [3.6.5]
+[2023-07-06 09:31:54] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/5a/d1c5e1830d747d899ac781f368bbd65eb9c02eaf0faf98d318a7dd8cce53/supervisely-6.9.1.tar.gz
+[2023-07-06 09:31:55] INFO root fetch - processPackages [target-permutation-importances]: Downloading https://files.pythonhosted.org/packages/44/3c/3b31ceb99798d2be4dc7e7cd4953490cfd835ed7d6d6a592ef95dba2e984/target_permutation_importances-1.0.8.tar.gz
+[2023-07-06 09:31:55] INFO root fetch - processPackages [gcp-ng-helpers]: Downloading https://files.pythonhosted.org/packages/54/78/15f3207f0255fc2e3b7c7eaa198c84588a50a8e4a7da118ad1c8f76f5eba/gcp_ng_helpers-0.0.8.tar.gz
+[2023-07-06 09:31:55] INFO root fetch - processPackages [session-repository]: Downloading https://files.pythonhosted.org/packages/c3/0e/b9225fcf8c265af2a44e1be3157b8a6c5c06f3c581584ddfcec97997d0ec/session-repository-0.1.6.tar.gz
+[2023-07-06 09:31:55] INFO root fetch - processPackages [pyswcloader]: Downloading https://files.pythonhosted.org/packages/9d/7d/d45dfa5d8c83c9eb205e3a3df933f5fc3082e9f7599209de5a6f425e1dd7/pyswcloader-1.1-py2.py3-none-any.whl
+[2023-07-06 09:31:55] INFO root fetch - processPackages [nonebot-adapter-villa]: Downloading https://files.pythonhosted.org/packages/93/6b/49ca859b79553013c26cef0789d2307227c2c11cc57e63b1f9dadbe07b0a/nonebot_adapter_villa-0.5.3.tar.gz
+[2023-07-06 09:31:55] INFO root fetch - processPackages [connect-extension-runner]: Downloading https://files.pythonhosted.org/packages/35/bc/283830c07ba268fb01efb18a407377b8489d3322f82576cae4e5378ab073/connect_extension_runner-28.1.tar.gz
+[2023-07-06 09:31:55] INFO root fetch - processPackages [yunhu]: Downloading https://files.pythonhosted.org/packages/a6/7f/0f2ef2e62714a605e21099e84de6ef3a56b108635d91660296777ea8eaf4/yunhu-0.0.4.tar.gz
+[2023-07-06 09:31:55] INFO root fetch - processPackages [reasoner-validator]: Downloading https://files.pythonhosted.org/packages/6d/8f/b022662ffebe4055aac7ae532cfb071d625fb33413d7d0267065048be676/reasoner_validator-3.6.5.tar.gz
+[2023-07-06 09:31:55] INFO root fetch - processPackages [dndfog]: Downloading https://files.pythonhosted.org/packages/fb/27/a8a25900f20c391c705454991b47c7b93efb820f31af724ef4904d4cc586/dndfog-0.6.2.tar.gz
+[2023-07-06 09:31:55] INFO root fetch - processPackages [target-permutation-importances]: Downloading https://files.pythonhosted.org/packages/c8/2e/0adf5d1b25bbd228db5b4fef951bafd1e29a2615910abdb7f1cd5578c947/target_permutation_importances-1.0.9.tar.gz
+[2023-07-06 09:31:55] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/56/78987e56220fcb935013105de97143fb9371ba9732a7dcdcb9451350a28f/supervisely-6.9.2.tar.gz
+[2023-07-06 09:31:55] INFO root fetch - processPackages [gcp-ng-helpers]: Downloading https://files.pythonhosted.org/packages/c9/5b/f3d84d39a61bb6b652aaf1d308da0692936d869373c6fe507bcd898f29cb/gcp_ng_helpers-0.0.9.tar.gz
+[2023-07-06 09:31:55] INFO root fetch - processPackages [session-repository]: Downloading https://files.pythonhosted.org/packages/6c/6e/ec54a9663267a8834006804e48d32e6ed989aeb7716262cfd19c7842a8fd/session-repository-0.1.7.tar.gz
+[2023-07-06 09:31:55] INFO root fetch - processPackages [target-permutation-importances]: executing diffoscope
+[2023-07-06 09:31:55] INFO root fetch - processPackages [target-permutation-importances]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/target_permutation_importances-1.0.8.tar.gz tmp/target_permutation_importances-1.0.9.tar.gz --markdown 20230706/t/target-permutation-importances/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-06 09:31:55] INFO root fetch - processPackages [supervisely]: executing diffoscope
+[2023-07-06 09:31:55] INFO root fetch - processPackages [supervisely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisely-6.9.1.tar.gz tmp/supervisely-6.9.2.tar.gz --markdown 20230706/s/supervisely/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-07-06 09:31:55] INFO root fetch - processPackages [gcp-ng-helpers]: executing diffoscope
+[2023-07-06 09:31:55] INFO root fetch - processPackages [gcp-ng-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcp_ng_helpers-0.0.8.tar.gz tmp/gcp_ng_helpers-0.0.9.tar.gz --markdown 20230706/g/gcp-ng-helpers/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 09:31:55] INFO root fetch - processPackages [nonebot-adapter-villa]: Downloading https://files.pythonhosted.org/packages/21/a3/d80013b0459f946ef19a1cec53cf2f9ca7bc67d00f57ec36fa8e099fb30d/nonebot_adapter_villa-0.5.4.tar.gz
+[2023-07-06 09:31:55] INFO root fetch - processPackages [reasoner-validator]: Downloading https://files.pythonhosted.org/packages/6f/85/ddf6202e069f53541057733e3bbd85c358cafb9b26c219d4aa33446884ff/reasoner_validator-3.6.6.tar.gz
+[2023-07-06 09:31:55] INFO root fetch - processPackages [pyswcloader]: Downloading https://files.pythonhosted.org/packages/b5/68/42ab081bd643648d90303f8a0b2e1dbf70ca29af239cfae0149fdc91d4e9/pyswcloader-1.1.1-py2.py3-none-any.whl
+[2023-07-06 09:31:55] INFO root fetch - processPackages [yunhu]: Downloading https://files.pythonhosted.org/packages/fb/1c/bf78c4a6eb0be3bd9a7d675f76bd93b3afb6ab69f4fb7e13b6d4ff1446e2/yunhu-0.0.5.tar.gz
+[2023-07-06 09:31:55] INFO root fetch - processPackages [session-repository]: executing diffoscope
+[2023-07-06 09:31:55] INFO root fetch - processPackages [session-repository]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/session-repository-0.1.6.tar.gz tmp/session-repository-0.1.7.tar.gz --markdown 20230706/s/session-repository/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-06 09:31:55] INFO root fetch - processPackages [dndfog]: Downloading https://files.pythonhosted.org/packages/9d/ac/a797050b20d982c1281eddd0f4aa97ebf5260e970fc0fc0cb7a321a4447c/dndfog-0.6.3.tar.gz
+[2023-07-06 09:31:55] INFO root fetch - processPackages [nonebot-adapter-villa]: executing diffoscope
+[2023-07-06 09:31:55] INFO root fetch - processPackages [nonebot-adapter-villa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_adapter_villa-0.5.3.tar.gz tmp/nonebot_adapter_villa-0.5.4.tar.gz --markdown 20230706/n/nonebot-adapter-villa/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-07-06 09:31:55] INFO root fetch - processPackages [reasoner-validator]: executing diffoscope
+[2023-07-06 09:31:55] INFO root fetch - processPackages [reasoner-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reasoner_validator-3.6.5.tar.gz tmp/reasoner_validator-3.6.6.tar.gz --markdown 20230706/r/reasoner-validator/3.6.5-3.6.6/diff.md --exclude *.pyd
+[2023-07-06 09:31:55] INFO root fetch - processPackages [yunhu]: executing diffoscope
+[2023-07-06 09:31:55] INFO root fetch - processPackages [pyswcloader]: executing diffoscope
+[2023-07-06 09:31:55] INFO root fetch - processPackages [yunhu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yunhu-0.0.4.tar.gz tmp/yunhu-0.0.5.tar.gz --markdown 20230706/y/yunhu/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-06 09:31:55] INFO root fetch - processPackages [pyswcloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyswcloader-1.1-py2.py3-none-any.whl.zip tmp/pyswcloader-1.1.1-py2.py3-none-any.whl.zip --markdown 20230706/p/pyswcloader/1.1-1.1.1/diff.md --exclude *.pyd
+[2023-07-06 09:31:55] INFO root fetch - processPackages [connect-extension-runner]: Downloading https://files.pythonhosted.org/packages/75/d1/0824f5f542b4a4c7a34a54c24ba595b07334b8ef47dc48845261aa012cec/connect_extension_runner-28.2.tar.gz
+[2023-07-06 09:31:56] INFO root fetch - processPackages [dndfog]: executing diffoscope
+[2023-07-06 09:31:56] INFO root fetch - processPackages [dndfog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dndfog-0.6.2.tar.gz tmp/dndfog-0.6.3.tar.gz --markdown 20230706/d/dndfog/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-06 09:31:56] INFO root fetch - processPackages [connect-extension-runner]: executing diffoscope
+[2023-07-06 09:31:56] INFO root fetch - processPackages [connect-extension-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connect_extension_runner-28.1.tar.gz tmp/connect_extension_runner-28.2.tar.gz --markdown 20230706/c/connect-extension-runner/28.1-28.2/diff.md --exclude *.pyd
+[2023-07-06 09:31:56] INFO root fetch - processPackages [target-permutation-importances]: Remove: archive file [/home/abi/fetcher/tmp/target_permutation_importances-1.0.8.tar.gz]
+[2023-07-06 09:31:56] INFO root fetch - processPackages [target-permutation-importances]: Remove: archive file [/home/abi/fetcher/tmp/target_permutation_importances-1.0.9.tar.gz]
+[2023-07-06 09:31:56] INFO root fetch - main [MainThread]: End processing [target-permutation-importances]: success
+[2023-07-06 09:31:57] INFO root fetch - processPackages [gcp-ng-helpers]: Remove: archive file [/home/abi/fetcher/tmp/gcp_ng_helpers-0.0.8.tar.gz]
+[2023-07-06 09:31:57] INFO root fetch - processPackages [gcp-ng-helpers]: Remove: archive file [/home/abi/fetcher/tmp/gcp_ng_helpers-0.0.9.tar.gz]
+[2023-07-06 09:31:57] INFO root fetch - main [MainThread]: End processing [gcp-ng-helpers]: success
+[2023-07-06 09:31:57] INFO root fetch - processPackages [session-repository]: Remove: archive file [/home/abi/fetcher/tmp/session-repository-0.1.6.tar.gz]
+[2023-07-06 09:31:57] INFO root fetch - processPackages [session-repository]: Remove: archive file [/home/abi/fetcher/tmp/session-repository-0.1.7.tar.gz]
+[2023-07-06 09:31:57] INFO root fetch - main [MainThread]: End processing [session-repository]: success
+[2023-07-06 09:31:57] INFO root fetch - processPackages [nonebot-adapter-villa]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_villa-0.5.3.tar.gz]
+[2023-07-06 09:31:57] INFO root fetch - processPackages [nonebot-adapter-villa]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_villa-0.5.4.tar.gz]
+[2023-07-06 09:31:57] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-villa]: success
+[2023-07-06 09:31:57] INFO root fetch - processPackages [pyswcloader]: Remove: archive file [/home/abi/fetcher/tmp/pyswcloader-1.1-py2.py3-none-any.whl.zip]
+[2023-07-06 09:31:57] INFO root fetch - processPackages [pyswcloader]: Remove: archive file [/home/abi/fetcher/tmp/pyswcloader-1.1.1-py2.py3-none-any.whl.zip]
+[2023-07-06 09:31:57] INFO root fetch - main [MainThread]: End processing [pyswcloader]: success
+[2023-07-06 09:31:57] INFO root fetch - processPackages [yunhu]: Remove: archive file [/home/abi/fetcher/tmp/yunhu-0.0.4.tar.gz]
+[2023-07-06 09:31:57] INFO root fetch - processPackages [yunhu]: Remove: archive file [/home/abi/fetcher/tmp/yunhu-0.0.5.tar.gz]
+[2023-07-06 09:31:57] INFO root fetch - main [MainThread]: End processing [yunhu]: success
+[2023-07-06 09:31:57] INFO root fetch - processPackages [connect-extension-runner]: Remove: archive file [/home/abi/fetcher/tmp/connect_extension_runner-28.1.tar.gz]
+[2023-07-06 09:31:57] INFO root fetch - processPackages [connect-extension-runner]: Remove: archive file [/home/abi/fetcher/tmp/connect_extension_runner-28.2.tar.gz]
+[2023-07-06 09:31:57] INFO root fetch - main [MainThread]: End processing [connect-extension-runner]: success
+[2023-07-06 09:31:57] INFO root fetch - processPackages [dndfog]: Remove: archive file [/home/abi/fetcher/tmp/dndfog-0.6.2.tar.gz]
+[2023-07-06 09:31:57] INFO root fetch - processPackages [dndfog]: Remove: archive file [/home/abi/fetcher/tmp/dndfog-0.6.3.tar.gz]
+[2023-07-06 09:31:57] INFO root fetch - main [MainThread]: End processing [dndfog]: success
+[2023-07-06 09:31:58] INFO root fetch - processPackages [reasoner-validator]: Remove: archive file [/home/abi/fetcher/tmp/reasoner_validator-3.6.5.tar.gz]
+[2023-07-06 09:31:58] INFO root fetch - processPackages [reasoner-validator]: Remove: archive file [/home/abi/fetcher/tmp/reasoner_validator-3.6.6.tar.gz]
+[2023-07-06 09:31:58] INFO root fetch - main [MainThread]: End processing [reasoner-validator]: success
+[2023-07-06 09:31:58] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.1.tar.gz]
+[2023-07-06 09:31:58] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.2.tar.gz]
+[2023-07-06 09:31:58] INFO root fetch - main [MainThread]: End processing [supervisely]: success
+[2023-07-06 09:31:58] INFO root fetch - main [MainThread]: Store serial: [18779603]
