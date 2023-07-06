@@ -13326,3 +13326,120 @@ AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
 [2023-07-06 08:25:48] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230705.tar.gz]
 [2023-07-06 08:25:48] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2023-07-06 08:25:48] INFO root fetch - main [MainThread]: Store serial: [18778997]
+[2023-07-06 08:30:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18778997]
+[2023-07-06 08:31:00] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-06 08:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: insights-core
+[2023-07-06 08:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyaml
+[2023-07-06 08:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trimnami
+[2023-07-06 08:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: satsure-ds-utils
+[2023-07-06 08:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gonchaya
+[2023-07-06 08:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zope.app.onlinehelp
+[2023-07-06 08:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xj-role
+[2023-07-06 08:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: overhave
+[2023-07-06 08:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zope.applicationcontrol
+[2023-07-06 08:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lollms
+[2023-07-06 08:31:00] INFO root fetch - processPackages [zope.app.onlinehelp]: New version: [5.0] Old Version: [4.2.0]
+[2023-07-06 08:31:00] WARNING root fetch - processPackages [satsure-ds-utils]: Skipping, unable to determine old version
+[2023-07-06 08:31:00] INFO root fetch - processPackages [satsure-ds-utils]: Start processing: yyxx-game-pkg
+[2023-07-06 08:31:00] INFO root fetch - main [MainThread]: End processing [satsure-ds-utils] error
+[2023-07-06 08:31:00] INFO root fetch - processPackages [gonchaya]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-06 08:31:00] INFO root fetch - processPackages [trimnami]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-06 08:31:00] INFO root fetch - processPackages [overhave]: New version: [4.0.5] Old Version: [4.0.4]
+[2023-07-06 08:31:00] INFO root fetch - processPackages [yyxx-game-pkg]: New version: [2023.7.6.1] Old Version: [2023.7.5.5]
+[2023-07-06 08:31:00] INFO root fetch - processPackages [zope.applicationcontrol]: New version: [5.0] Old Version: [4.3]
+[2023-07-06 08:31:00] INFO root fetch - processPackages [xj-role]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-06 08:31:00] INFO root fetch - processPackages [pyaml]: New version: [23.7.0] Old Version: [23.5.9]
+[2023-07-06 08:31:01] INFO root fetch - processPackages [lollms]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-06 08:31:01] INFO root fetch - processPackages [insights-core]: New version: [3.2.5] Old Version: [3.2.4]
+[2023-07-06 08:31:01] INFO root fetch - processPackages [overhave]: Downloading https://files.pythonhosted.org/packages/fd/a6/bf53b2758688a1db3fb29e4551180b4bc2d00f9367a156ec126f75a842e1/overhave-4.0.4.tar.gz
+[2023-07-06 08:31:01] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/55/8e/c10a453677812ff66a65c459737c99f6b99cc00da8cc2e27f3a1f924faa0/lollms-2.1.8.tar.gz
+[2023-07-06 08:31:01] INFO root fetch - processPackages [xj-role]: Downloading https://files.pythonhosted.org/packages/6b/8b/97965272d3462d0f7d0a27d169efd5145a23039e46eb22ce86c516d7eb65/xj_role-1.0.8.tar.gz
+[2023-07-06 08:31:01] INFO root fetch - processPackages [zope.app.onlinehelp]: Downloading https://files.pythonhosted.org/packages/35/e9/2eb6c2a0b8d25ac34a0ca314e7269fdc07baa0af8f36395ac212183f3e7d/zope.app.onlinehelp-4.2.0.tar.gz
+[2023-07-06 08:31:01] INFO root fetch - processPackages [trimnami]: Downloading https://files.pythonhosted.org/packages/37/66/11a9d9a79d2cd3327c8f5c9eb655aa48b3d11500b18d08a6241bd5e32dee/trimnami-0.0.2.tar.gz
+[2023-07-06 08:31:01] INFO root fetch - processPackages [insights-core]: Downloading https://files.pythonhosted.org/packages/c0/04/d5f8432da66a2363ce4400a83055be5abb1f5e94a860ef49b562854e7842/insights-core-3.2.4.tar.gz
+[2023-07-06 08:31:01] INFO root fetch - processPackages [yyxx-game-pkg]: Downloading https://files.pythonhosted.org/packages/9a/da/f3cd5c2e74394acbfd63ff7a731e53f1a8489fafecb7eda865f162cf61f5/yyxx_game_pkg-2023.7.5.5.tar.gz
+[2023-07-06 08:31:01] INFO root fetch - processPackages [zope.applicationcontrol]: Downloading https://files.pythonhosted.org/packages/4b/83/703474b801a70a26c465596ea158d7445faf5672ec2df9848a9895b9ca0b/zope.applicationcontrol-4.3.tar.gz
+[2023-07-06 08:31:01] INFO root fetch - processPackages [pyaml]: Downloading https://files.pythonhosted.org/packages/e5/c1/ad25b528ba5e7039ec0939330d6ddb05212033f5fe0041e90daf5bb3b0da/pyaml-23.5.9.tar.gz
+[2023-07-06 08:31:01] INFO root fetch - processPackages [gonchaya]: Downloading https://files.pythonhosted.org/packages/f4/84/02dd15ea71a4263fda306ec842abf96a803c4a271bb1a8267ad2d6a30af5/gonchaya-0.0.1.tar.gz
+[2023-07-06 08:31:01] INFO root fetch - processPackages [xj-role]: Downloading https://files.pythonhosted.org/packages/2c/77/ebb1d3254b61bd786e3aaebbd01dfa15310557c1a927f61995a6b9e0531e/xj_role-1.0.9.tar.gz
+[2023-07-06 08:31:01] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/6a/83/7745db4a743155e7a857ec418630027696e10e7fb67dfd6805a2496bdb64/lollms-2.1.9.tar.gz
+[2023-07-06 08:31:01] INFO root fetch - processPackages [overhave]: Downloading https://files.pythonhosted.org/packages/df/34/0375994ba1ba491cd7d91d760230a55e9dee6f2548bb9b5a7bc93914e939/overhave-4.0.5.tar.gz
+[2023-07-06 08:31:01] INFO root fetch - processPackages [zope.app.onlinehelp]: Downloading https://files.pythonhosted.org/packages/ed/c0/e7b81735b082ecadd12c2b1f8e685f3f3d4527cea4254280455de84a636d/zope.app.onlinehelp-5.0.tar.gz
+[2023-07-06 08:31:01] INFO root fetch - processPackages [xj-role]: executing diffoscope
+[2023-07-06 08:31:01] INFO root fetch - processPackages [xj-role]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_role-1.0.8.tar.gz tmp/xj_role-1.0.9.tar.gz --markdown 20230706/x/xj-role/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-06 08:31:01] INFO root fetch - processPackages [zope.applicationcontrol]: Downloading https://files.pythonhosted.org/packages/3d/d6/38e81de7e31ff8b1d3041c5211bae475f3de6a22f7863320dfa784a0da4b/zope.applicationcontrol-5.0.tar.gz
+[2023-07-06 08:31:01] INFO root fetch - processPackages [lollms]: executing diffoscope
+[2023-07-06 08:31:01] INFO root fetch - processPackages [lollms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lollms-2.1.8.tar.gz tmp/lollms-2.1.9.tar.gz --markdown 20230706/l/lollms/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-06 08:31:01] INFO root fetch - processPackages [gonchaya]: Downloading https://files.pythonhosted.org/packages/b1/62/b15c76e61f1fa4ce427708f20e4a1214981ed492c81dafcf4edf53d4e344/gonchaya-0.0.2.tar.gz
+[2023-07-06 08:31:01] INFO root fetch - processPackages [pyaml]: Downloading https://files.pythonhosted.org/packages/88/25/eec86c37e00faa6bb0e03bc160a5ebb7dd2f6c116ded286769e350be481b/pyaml-23.7.0.tar.gz
+[2023-07-06 08:31:02] INFO root fetch - processPackages [overhave]: executing diffoscope
+[2023-07-06 08:31:02] INFO root fetch - processPackages [overhave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/overhave-4.0.4.tar.gz tmp/overhave-4.0.5.tar.gz --markdown 20230706/o/overhave/4.0.4-4.0.5/diff.md --exclude *.pyd
+[2023-07-06 08:31:02] INFO root fetch - processPackages [zope.app.onlinehelp]: executing diffoscope
+[2023-07-06 08:31:02] INFO root fetch - processPackages [zope.app.onlinehelp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zope.app.onlinehelp-4.2.0.tar.gz tmp/zope.app.onlinehelp-5.0.tar.gz --markdown 20230706/z/zope.app.onlinehelp/4.2.0-5.0/diff.md --exclude *.pyd
+[2023-07-06 08:31:02] INFO root fetch - processPackages [zope.applicationcontrol]: executing diffoscope
+[2023-07-06 08:31:02] INFO root fetch - processPackages [zope.applicationcontrol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zope.applicationcontrol-4.3.tar.gz tmp/zope.applicationcontrol-5.0.tar.gz --markdown 20230706/z/zope.applicationcontrol/4.3-5.0/diff.md --exclude *.pyd
+[2023-07-06 08:31:02] INFO root fetch - processPackages [gonchaya]: executing diffoscope
+[2023-07-06 08:31:02] INFO root fetch - processPackages [gonchaya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gonchaya-0.0.1.tar.gz tmp/gonchaya-0.0.2.tar.gz --markdown 20230706/g/gonchaya/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-06 08:31:02] INFO root fetch - processPackages [pyaml]: executing diffoscope
+[2023-07-06 08:31:02] INFO root fetch - processPackages [pyaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaml-23.5.9.tar.gz tmp/pyaml-23.7.0.tar.gz --markdown 20230706/p/pyaml/23.5.9-23.7.0/diff.md --exclude *.pyd
+[2023-07-06 08:31:02] INFO root fetch - processPackages [trimnami]: Downloading https://files.pythonhosted.org/packages/a8/c4/dc51a41d52eff1b30f6b7fa14ec2650be5cf15bb3b0d9326b7f10d700470/trimnami-0.0.3.tar.gz
+[2023-07-06 08:31:02] INFO root fetch - processPackages [yyxx-game-pkg]: Downloading https://files.pythonhosted.org/packages/9b/b7/cc822920f7bf0f7fafdb31e00496522c7ca28ce20584aab633789ebd0d11/yyxx_game_pkg-2023.7.6.1.tar.gz
+[2023-07-06 08:31:02] INFO root fetch - processPackages [insights-core]: Downloading https://files.pythonhosted.org/packages/54/b5/0024f1bbc1ef0292649291a4c2f013a75eee15fbabb5b0a69eab5421c568/insights-core-3.2.5.tar.gz
+[2023-07-06 08:31:02] INFO root fetch - processPackages [insights-core]: executing diffoscope
+[2023-07-06 08:31:02] INFO root fetch - processPackages [insights-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insights-core-3.2.4.tar.gz tmp/insights-core-3.2.5.tar.gz --markdown 20230706/i/insights-core/3.2.4-3.2.5/diff.md --exclude *.pyd
+[2023-07-06 08:31:02] INFO root fetch - processPackages [yyxx-game-pkg]: executing diffoscope
+[2023-07-06 08:31:02] INFO root fetch - processPackages [yyxx-game-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yyxx_game_pkg-2023.7.5.5.tar.gz tmp/yyxx_game_pkg-2023.7.6.1.tar.gz --markdown 20230706/y/yyxx-game-pkg/2023.7.5.5-2023.7.6.1/diff.md --exclude *.pyd
+[2023-07-06 08:31:02] INFO root fetch - processPackages [trimnami]: executing diffoscope
+[2023-07-06 08:31:02] INFO root fetch - processPackages [trimnami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trimnami-0.0.2.tar.gz tmp/trimnami-0.0.3.tar.gz --markdown 20230706/t/trimnami/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-06 08:31:03] INFO root fetch - processPackages [xj-role]: Remove: archive file [/home/abi/fetcher/tmp/xj_role-1.0.8.tar.gz]
+[2023-07-06 08:31:03] INFO root fetch - processPackages [xj-role]: Remove: archive file [/home/abi/fetcher/tmp/xj_role-1.0.9.tar.gz]
+[2023-07-06 08:31:03] INFO root fetch - processPackages [xj-role]: Start processing: fun-sentence-splitter
+[2023-07-06 08:31:03] INFO root fetch - main [MainThread]: End processing [xj-role]: success
+[2023-07-06 08:31:03] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.1.8.tar.gz]
+[2023-07-06 08:31:03] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.1.9.tar.gz]
+[2023-07-06 08:31:03] INFO root fetch - processPackages [lollms]: Start processing: pbjson
+[2023-07-06 08:31:03] INFO root fetch - main [MainThread]: End processing [lollms]: success
+[2023-07-06 08:31:03] INFO root fetch - processPackages [pyaml]: Remove: archive file [/home/abi/fetcher/tmp/pyaml-23.5.9.tar.gz]
+[2023-07-06 08:31:03] INFO root fetch - processPackages [pyaml]: Remove: archive file [/home/abi/fetcher/tmp/pyaml-23.7.0.tar.gz]
+[2023-07-06 08:31:03] INFO root fetch - processPackages [pyaml]: Start processing: ansys-templates
+[2023-07-06 08:31:03] INFO root fetch - main [MainThread]: End processing [pyaml]: success
+[2023-07-06 08:31:03] WARNING root fetch - processPackages [fun-sentence-splitter]: Skipping, unable to determine old version
+[2023-07-06 08:31:03] INFO root fetch - main [MainThread]: End processing [fun-sentence-splitter] error
+[2023-07-06 08:31:03] INFO root fetch - processPackages [gonchaya]: Remove: archive file [/home/abi/fetcher/tmp/gonchaya-0.0.1.tar.gz]
+[2023-07-06 08:31:03] INFO root fetch - processPackages [gonchaya]: Remove: archive file [/home/abi/fetcher/tmp/gonchaya-0.0.2.tar.gz]
+[2023-07-06 08:31:03] INFO root fetch - main [MainThread]: End processing [gonchaya]: success
+[2023-07-06 08:31:03] INFO root fetch - processPackages [pbjson]: New version: [1.18.0] Old Version: [1.17.0]
+[2023-07-06 08:31:03] INFO root fetch - processPackages [ansys-templates]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-06 08:31:03] INFO root fetch - processPackages [zope.applicationcontrol]: Remove: archive file [/home/abi/fetcher/tmp/zope.applicationcontrol-4.3.tar.gz]
+[2023-07-06 08:31:03] INFO root fetch - processPackages [zope.applicationcontrol]: Remove: archive file [/home/abi/fetcher/tmp/zope.applicationcontrol-5.0.tar.gz]
+[2023-07-06 08:31:03] INFO root fetch - main [MainThread]: End processing [zope.applicationcontrol]: success
+[2023-07-06 08:31:03] INFO root fetch - processPackages [ansys-templates]: Downloading https://files.pythonhosted.org/packages/6f/32/e848ccaf1e760efb8cb92b32c6f0a5ef75258aaa9a25a6e70766d11a1e06/ansys_templates-1.0.0.tar.gz
+[2023-07-06 08:31:03] INFO root fetch - processPackages [pbjson]: Downloading https://files.pythonhosted.org/packages/c8/2f/168c4092d9aa30ed913579a8c9f38c14b5fec6bfec0dc3e5eca4c2f18d4e/pbjson-1.17.0.tar.gz
+[2023-07-06 08:31:03] INFO root fetch - processPackages [zope.app.onlinehelp]: Remove: archive file [/home/abi/fetcher/tmp/zope.app.onlinehelp-4.2.0.tar.gz]
+[2023-07-06 08:31:03] INFO root fetch - processPackages [zope.app.onlinehelp]: Remove: archive file [/home/abi/fetcher/tmp/zope.app.onlinehelp-5.0.tar.gz]
+[2023-07-06 08:31:03] INFO root fetch - main [MainThread]: End processing [zope.app.onlinehelp]: success
+[2023-07-06 08:31:04] INFO root fetch - processPackages [ansys-templates]: Downloading https://files.pythonhosted.org/packages/22/be/d614e64d9eee1a6715ad8e6565c5adfbc2ca4e6d112a6699a061b1dcc605/ansys_templates-1.0.1.tar.gz
+[2023-07-06 08:31:04] INFO root fetch - processPackages [pbjson]: Downloading https://files.pythonhosted.org/packages/d3/28/ead60c8a8826f6e42af13961218a7950cdf87e0369f069f49d69a623abd7/pbjson-1.18.0.tar.gz
+[2023-07-06 08:31:04] INFO root fetch - processPackages [overhave]: Remove: archive file [/home/abi/fetcher/tmp/overhave-4.0.4.tar.gz]
+[2023-07-06 08:31:04] INFO root fetch - processPackages [overhave]: Remove: archive file [/home/abi/fetcher/tmp/overhave-4.0.5.tar.gz]
+[2023-07-06 08:31:04] INFO root fetch - main [MainThread]: End processing [overhave]: success
+[2023-07-06 08:31:04] INFO root fetch - processPackages [ansys-templates]: executing diffoscope
+[2023-07-06 08:31:04] INFO root fetch - processPackages [ansys-templates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_templates-1.0.0.tar.gz tmp/ansys_templates-1.0.1.tar.gz --markdown 20230706/a/ansys-templates/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-06 08:31:04] INFO root fetch - processPackages [pbjson]: executing diffoscope
+[2023-07-06 08:31:04] INFO root fetch - processPackages [pbjson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbjson-1.17.0.tar.gz tmp/pbjson-1.18.0.tar.gz --markdown 20230706/p/pbjson/1.17.0-1.18.0/diff.md --exclude *.pyd
+[2023-07-06 08:31:04] INFO root fetch - processPackages [trimnami]: Remove: archive file [/home/abi/fetcher/tmp/trimnami-0.0.2.tar.gz]
+[2023-07-06 08:31:04] INFO root fetch - processPackages [trimnami]: Remove: archive file [/home/abi/fetcher/tmp/trimnami-0.0.3.tar.gz]
+[2023-07-06 08:31:04] INFO root fetch - main [MainThread]: End processing [trimnami]: success
+[2023-07-06 08:31:05] INFO root fetch - processPackages [yyxx-game-pkg]: Remove: archive file [/home/abi/fetcher/tmp/yyxx_game_pkg-2023.7.5.5.tar.gz]
+[2023-07-06 08:31:05] INFO root fetch - processPackages [yyxx-game-pkg]: Remove: archive file [/home/abi/fetcher/tmp/yyxx_game_pkg-2023.7.6.1.tar.gz]
+[2023-07-06 08:31:05] INFO root fetch - main [MainThread]: End processing [yyxx-game-pkg]: success
+[2023-07-06 08:31:05] INFO root fetch - processPackages [pbjson]: Remove: archive file [/home/abi/fetcher/tmp/pbjson-1.17.0.tar.gz]
+[2023-07-06 08:31:05] INFO root fetch - processPackages [pbjson]: Remove: archive file [/home/abi/fetcher/tmp/pbjson-1.18.0.tar.gz]
+[2023-07-06 08:31:05] INFO root fetch - main [MainThread]: End processing [pbjson]: success
+[2023-07-06 08:31:06] INFO root fetch - processPackages [ansys-templates]: Remove: archive file [/home/abi/fetcher/tmp/ansys_templates-1.0.0.tar.gz]
+[2023-07-06 08:31:06] INFO root fetch - processPackages [ansys-templates]: Remove: archive file [/home/abi/fetcher/tmp/ansys_templates-1.0.1.tar.gz]
+[2023-07-06 08:31:06] INFO root fetch - main [MainThread]: End processing [ansys-templates]: success
+[2023-07-06 08:31:12] INFO root fetch - processPackages [insights-core]: Remove: archive file [/home/abi/fetcher/tmp/insights-core-3.2.4.tar.gz]
+[2023-07-06 08:31:12] INFO root fetch - processPackages [insights-core]: Remove: archive file [/home/abi/fetcher/tmp/insights-core-3.2.5.tar.gz]
+[2023-07-06 08:31:12] INFO root fetch - main [MainThread]: End processing [insights-core]: success
+[2023-07-06 08:31:12] INFO root fetch - main [MainThread]: Store serial: [18779041]
