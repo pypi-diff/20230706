@@ -21886,3 +21886,142 @@ AssertionError: tmp/termkit-0.2.0a4.tar.gz does not exist
 [2023-07-06 13:31:14] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.6-cp39-cp39-manylinux1_x86_64.whl.zip]
 [2023-07-06 13:31:14] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
 [2023-07-06 13:31:14] INFO root fetch - main [MainThread]: Store serial: [18782542]
+[2023-07-06 13:36:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18782542]
+[2023-07-06 13:36:24] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-06 13:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sh-dynamodb
+[2023-07-06 13:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: resolwe
+[2023-07-06 13:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tungstenkit
+[2023-07-06 13:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-nano
+[2023-07-06 13:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: LongNet
+[2023-07-06 13:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SELDOMpy
+[2023-07-06 13:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-llm
+[2023-07-06 13:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl-chronos
+[2023-07-06 13:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pp-project-pkg
+[2023-07-06 13:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sh-dynamodb
+[2023-07-06 13:36:25] INFO root fetch - processPackages [sh-dynamodb]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-06 13:36:25] INFO root fetch - processPackages [bigdl-llm]: New version: [2.4.0b20230705] Old Version: [2.4.0b20230704]
+[2023-07-06 13:36:25] INFO root fetch - processPackages [SELDOMpy]: New version: [0.8.4.8] Old Version: [0.8.4.7]
+[2023-07-06 13:36:25] INFO root fetch - processPackages [sh-dynamodb]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-06 13:36:25] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230705] Old Version: [2.4.0b20230704]
+[2023-07-06 13:36:25] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230705] Old Version: [2.4.0b20230704]
+[2023-07-06 13:36:25] WARNING root fetch - processPackages [LongNet]: Skipping, unable to determine old version
+[2023-07-06 13:36:25] INFO root fetch - processPackages [LongNet]: Start processing: bigdl-serving
+[2023-07-06 13:36:25] INFO root fetch - main [MainThread]: End processing [LongNet] error
+[2023-07-06 13:36:25] INFO root fetch - processPackages [pp-project-pkg]: New version: [1.0.202307061132] Old Version: [1.0.202307041709]
+[2023-07-06 13:36:25] INFO root fetch - processPackages [resolwe]: New version: [9.0.0a4] Old Version: [9.0.0a3]
+[2023-07-06 13:36:25] INFO root fetch - processPackages [tungstenkit]: New version: [0.1.1a2] Old Version: [0.1.1a1]
+[2023-07-06 13:36:25] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230705] Old Version: [2.4.0b20230704]
+[2023-07-06 13:36:25] INFO root fetch - processPackages [sh-dynamodb]: Downloading https://files.pythonhosted.org/packages/84/81/f41a9791596aae1bf13f1e574520f88fdbcbda6b4e32e09dbb4d36ee22ba/sh-dynamodb-1.0.6.tar.gz
+[2023-07-06 13:36:25] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/4b/de/282b6d4664cd16f7d9467f28fa63d7be9f481796194589473185a2e3026a/SELDOMpy-0.8.4.7.tar.gz
+[2023-07-06 13:36:25] INFO root fetch - processPackages [sh-dynamodb]: Downloading https://files.pythonhosted.org/packages/84/81/f41a9791596aae1bf13f1e574520f88fdbcbda6b4e32e09dbb4d36ee22ba/sh-dynamodb-1.0.6.tar.gz
+[2023-07-06 13:36:25] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/14/b5/8315519fd05f2bb66c741b7a966748601097f808fcb492a83c74bd4f4c57/bigdl_llm-2.4.0b20230704-py3-none-win_amd64.whl
+[2023-07-06 13:36:25] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/88/09/7333e7a3cde738270709016f662b8e40d4d37ac4f98fcdb37a2a7e641878/bigdl_serving-2.4.0b20230704-py2.py3-none-any.whl
+[2023-07-06 13:36:25] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/8d/e6/7d908581455b77072c2f9498ecb9a86b8768b47994402c4094bf4773cc33/bigdl_chronos-2.4.0b20230704-py3-none-win_amd64.whl
+[2023-07-06 13:36:25] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/84/db/bff707956b51912dff713b6fa8578e9f6ba39f275f44bc82742d0a9a2513/pp_project_pkg-1.0.202307041709-py3-none-any.whl
+[2023-07-06 13:36:25] INFO root fetch - processPackages [tungstenkit]: Downloading https://files.pythonhosted.org/packages/76/50/2eda4b2f957c53f7b1a2e9a2ae9ebd994f1c2cf5bb265978f7351e9a2f95/tungstenkit-0.1.1a1.tar.gz
+[2023-07-06 13:36:25] INFO root fetch - processPackages [resolwe]: Downloading https://files.pythonhosted.org/packages/27/39/5a1ef83e99306588743d0a561a08a825b4383fd5d466c4f3c8fa59dbdbdd/resolwe-9.0.0a3.tar.gz
+[2023-07-06 13:36:25] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/0d/43/3ab3e45c4c97df279644a7a9bcc45127e51489caed3c75bba5da4c26bf09/bigdl_nano-2.4.0b20230704-py3-none-win_amd64.whl
+[2023-07-06 13:36:25] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/93/d1/57039fb158b4907a36f09bf9e98ecc483d23c0a707e2d8d6bc7b47070c01/SELDOMpy-0.8.4.8.tar.gz
+[2023-07-06 13:36:26] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/8e/d3/9c1ad5849ffff9baed62b8f1e128385225e58ccd53ca4e5d44c6293668a9/bigdl_serving-2.4.0b20230705-py2.py3-none-any.whl
+[2023-07-06 13:36:26] INFO root fetch - processPackages [sh-dynamodb]: Downloading https://files.pythonhosted.org/packages/b5/cb/9e56f3a3c1e043b278b2b98093064957dd1b796a789e47c963cedca2a9a0/sh-dynamodb-1.0.7.tar.gz
+[2023-07-06 13:36:26] INFO root fetch - processPackages [sh-dynamodb]: Downloading https://files.pythonhosted.org/packages/b5/cb/9e56f3a3c1e043b278b2b98093064957dd1b796a789e47c963cedca2a9a0/sh-dynamodb-1.0.7.tar.gz
+[2023-07-06 13:36:26] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/bb/cb/8717aa8526eaefacdc4ef56eb62a63d25a65cd643646d000c0001e536916/pp_project_pkg-1.0.202307061132-py3-none-any.whl
+[2023-07-06 13:36:26] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-07-06 13:36:26] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230704-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230705-py2.py3-none-any.whl.zip --markdown 20230706/b/bigdl-serving/2.4.0b20230704-2.4.0b20230705/diff.md --exclude *.pyd
+[2023-07-06 13:36:26] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/09/1a/044f1a4f94d5f0b1fb4cd440b2440928f57dbd4a575ce8403aae598d7fdf/bigdl_llm-2.4.0b20230705-py3-none-win_amd64.whl
+[2023-07-06 13:36:26] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/96/2c/29049b3908abe2746206d0c34339d39f10d2aaee7104fe944b41cc99fecb/bigdl_chronos-2.4.0b20230705-py3-none-win_amd64.whl
+[2023-07-06 13:36:26] INFO root fetch - processPackages [tungstenkit]: Downloading https://files.pythonhosted.org/packages/68/fd/5d548bdf4f36183af2b2ea30d4142c55b2a6575f43ea1d65d686619d6447/tungstenkit-0.1.1a2.tar.gz
+[2023-07-06 13:36:26] INFO root fetch - processPackages [sh-dynamodb]: executing diffoscope
+[2023-07-06 13:36:26] INFO root fetch - processPackages [sh-dynamodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sh-dynamodb-1.0.6.tar.gz tmp/sh-dynamodb-1.0.7.tar.gz --markdown 20230706/s/sh-dynamodb/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-06 13:36:26] INFO root fetch - processPackages [sh-dynamodb]: executing diffoscope
+[2023-07-06 13:36:26] INFO root fetch - processPackages [sh-dynamodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sh-dynamodb-1.0.6.tar.gz tmp/sh-dynamodb-1.0.7.tar.gz --markdown 20230706/s/sh-dynamodb/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-06 13:36:26] INFO root fetch - processPackages [pp-project-pkg]: executing diffoscope
+[2023-07-06 13:36:26] INFO root fetch - processPackages [pp-project-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pp_project_pkg-1.0.202307041709-py3-none-any.whl.zip tmp/pp_project_pkg-1.0.202307061132-py3-none-any.whl.zip --markdown 20230706/p/pp-project-pkg/1.0.202307041709-1.0.202307061132/diff.md --exclude *.pyd
+[2023-07-06 13:36:26] INFO root fetch - processPackages [SELDOMpy]: executing diffoscope
+[2023-07-06 13:36:26] INFO root fetch - processPackages [SELDOMpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SELDOMpy-0.8.4.7.tar.gz tmp/SELDOMpy-0.8.4.8.tar.gz --markdown 20230706/S/SELDOMpy/0.8.4.7-0.8.4.8/diff.md --exclude *.pyd
+[2023-07-06 13:36:26] INFO root fetch - processPackages [resolwe]: Downloading https://files.pythonhosted.org/packages/ca/ce/736f65f5bdceb20af592eebc6fdff8968ca39d39f2fa9bbbcb62c64ee673/resolwe-9.0.0a4.tar.gz
+[2023-07-06 13:36:26] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/1e/97/634128f2d2e4bd7ef018cbfa6773c1182d9367a1c93c76f448121051cac7/bigdl_nano-2.4.0b20230705-py3-none-win_amd64.whl
+[2023-07-06 13:36:26] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-07-06 13:36:26] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230704-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230705-py3-none-win_amd64.whl.zip --markdown 20230706/b/bigdl-chronos/2.4.0b20230704-2.4.0b20230705/diff.md --exclude *.pyd
+[2023-07-06 13:36:26] INFO root fetch - processPackages [tungstenkit]: executing diffoscope
+[2023-07-06 13:36:26] INFO root fetch - processPackages [tungstenkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tungstenkit-0.1.1a1.tar.gz tmp/tungstenkit-0.1.1a2.tar.gz --markdown 20230706/t/tungstenkit/0.1.1a1-0.1.1a2/diff.md --exclude *.pyd
+[2023-07-06 13:36:26] INFO root fetch - processPackages [resolwe]: executing diffoscope
+[2023-07-06 13:36:26] INFO root fetch - processPackages [resolwe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolwe-9.0.0a3.tar.gz tmp/resolwe-9.0.0a4.tar.gz --markdown 20230706/r/resolwe/9.0.0a3-9.0.0a4/diff.md --exclude *.pyd
+[2023-07-06 13:36:26] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2023-07-06 13:36:26] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.4.0b20230704-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.4.0b20230705-py3-none-win_amd64.whl.zip --markdown 20230706/b/bigdl-llm/2.4.0b20230704-2.4.0b20230705/diff.md --exclude *.pyd
+[2023-07-06 13:36:26] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-07-06 13:36:26] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230704-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230705-py3-none-win_amd64.whl.zip --markdown 20230706/b/bigdl-nano/2.4.0b20230704-2.4.0b20230705/diff.md --exclude *.pyd
+[2023-07-06 13:36:28] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230704-py2.py3-none-any.whl.zip]
+[2023-07-06 13:36:28] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230705-py2.py3-none-any.whl.zip]
+[2023-07-06 13:36:28] INFO root fetch - processPackages [bigdl-serving]: Start processing: msaDocModels
+[2023-07-06 13:36:28] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-07-06 13:36:28] INFO root fetch - processPackages [sh-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/sh-dynamodb-1.0.6.tar.gz]
+[2023-07-06 13:36:28] INFO root fetch - processPackages [sh-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/sh-dynamodb-1.0.7.tar.gz]
+[2023-07-06 13:36:28] INFO root fetch - processPackages [sh-dynamodb]: Start processing: cnos-connector
+[2023-07-06 13:36:28] INFO root fetch - main [MainThread]: End processing [sh-dynamodb]: success
+[2023-07-06 13:36:28] INFO root fetch - processPackages [msaDocModels]: New version: [0.0.9] Old Version: [0.0.82]
+[2023-07-06 13:36:28] INFO root fetch - processPackages [pp-project-pkg]: Remove: archive file [/home/abi/fetcher/tmp/pp_project_pkg-1.0.202307041709-py3-none-any.whl.zip]
+[2023-07-06 13:36:28] INFO root fetch - processPackages [pp-project-pkg]: Remove: archive file [/home/abi/fetcher/tmp/pp_project_pkg-1.0.202307061132-py3-none-any.whl.zip]
+[2023-07-06 13:36:28] INFO root fetch - processPackages [pp-project-pkg]: Start processing: proceso
+[2023-07-06 13:36:28] INFO root fetch - main [MainThread]: End processing [pp-project-pkg]: success
+[2023-07-06 13:36:28] INFO root fetch - processPackages [cnos-connector]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-06 13:36:28] INFO root fetch - processPackages [proceso]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-07-06 13:36:29] INFO root fetch - processPackages [msaDocModels]: Downloading https://files.pythonhosted.org/packages/aa/3b/2325342cbc28b7ea6588dc5d2089db2c51a741de24ad084a8247353fe732/msaDocModels-0.0.82.tar.gz
+[2023-07-06 13:36:29] INFO root fetch - processPackages [sh-dynamodb]: Start processing: no-api-sdk
+[2023-07-06 13:36:29] INFO root fetch - main [MainThread]: End processing [sh-dynamodb]: success
+[2023-07-06 13:36:29] INFO root fetch - processPackages [proceso]: Downloading https://files.pythonhosted.org/packages/08/5b/2f46b3ed80167bdf13ac5d1776e25db575e4de7d2771b49f6905f9f2ade0/proceso-0.0.7.tar.gz
+[2023-07-06 13:36:29] INFO root fetch - processPackages [cnos-connector]: Downloading https://files.pythonhosted.org/packages/64/a5/b59ac2cf253cfe8e1ff079396da5b941fe3d114e96677e2b2cbd728593de/cnos_connector-0.1.8.tar.gz
+[2023-07-06 13:36:29] INFO root fetch - processPackages [no-api-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-06 13:36:29] INFO root fetch - processPackages [msaDocModels]: Downloading https://files.pythonhosted.org/packages/2f/da/7c36532a600ac292c1fec4f775200d779a44eb48ddc5249e3c2fc70dbf4d/msaDocModels-0.0.9.tar.gz
+[2023-07-06 13:36:29] INFO root fetch - processPackages [proceso]: Downloading https://files.pythonhosted.org/packages/8b/38/f4f261f08a366c11c34b42cf8d634ec040e59080214bcd0cc299bd1a5ae4/proceso-0.0.9.tar.gz
+[2023-07-06 13:36:29] INFO root fetch - processPackages [msaDocModels]: executing diffoscope
+[2023-07-06 13:36:29] INFO root fetch - processPackages [msaDocModels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msaDocModels-0.0.82.tar.gz tmp/msaDocModels-0.0.9.tar.gz --markdown 20230706/m/msaDocModels/0.0.82-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 13:36:29] INFO root fetch - processPackages [cnos-connector]: Downloading https://files.pythonhosted.org/packages/2c/98/972c03479ab223b185968a06491fe4b5c16ffb53db110c2ca276d265fdd0/cnos_connector-0.1.9.tar.gz
+[2023-07-06 13:36:29] INFO root fetch - processPackages [proceso]: executing diffoscope
+[2023-07-06 13:36:29] INFO root fetch - processPackages [proceso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proceso-0.0.7.tar.gz tmp/proceso-0.0.9.tar.gz --markdown 20230706/p/proceso/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 13:36:29] INFO root fetch - processPackages [no-api-sdk]: Downloading https://files.pythonhosted.org/packages/da/9a/2860060de7f49644068ff01f350a563cddf47d1a7063d9a82ad05839e265/no_api_sdk-0.1.8-cp39-cp39-win_amd64.whl
+[2023-07-06 13:36:29] INFO root fetch - processPackages [cnos-connector]: executing diffoscope
+[2023-07-06 13:36:29] INFO root fetch - processPackages [cnos-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnos_connector-0.1.8.tar.gz tmp/cnos_connector-0.1.9.tar.gz --markdown 20230706/c/cnos-connector/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-06 13:36:29] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230704-py3-none-win_amd64.whl.zip]
+[2023-07-06 13:36:29] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230705-py3-none-win_amd64.whl.zip]
+[2023-07-06 13:36:29] INFO root fetch - processPackages [bigdl-llm]: Start processing: cybrex
+[2023-07-06 13:36:29] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2023-07-06 13:36:29] INFO root fetch - processPackages [cybrex]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-06 13:36:30] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.8.4.7.tar.gz]
+[2023-07-06 13:36:30] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.8.4.8.tar.gz]
+[2023-07-06 13:36:30] INFO root fetch - main [MainThread]: End processing [SELDOMpy]: success
+[2023-07-06 13:36:30] INFO root fetch - processPackages [cybrex]: Downloading https://files.pythonhosted.org/packages/98/fa/b36b87ba316320b0517cd00be0e9f722a343a915ea41d05d3593418b01c5/cybrex-1.0.4.tar.gz
+[2023-07-06 13:36:30] INFO root fetch - processPackages [no-api-sdk]: Downloading https://files.pythonhosted.org/packages/7f/90/b2b2512d1f836334407ecd900bbdb359b1d55a6585c9d65d2c13a00bd963/no_api_sdk-0.1.9-cp39-cp39-win_amd64.whl
+[2023-07-06 13:36:30] INFO root fetch - processPackages [no-api-sdk]: executing diffoscope
+[2023-07-06 13:36:30] INFO root fetch - processPackages [no-api-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/no_api_sdk-0.1.8-cp39-cp39-win_amd64.whl.zip tmp/no_api_sdk-0.1.9-cp39-cp39-win_amd64.whl.zip --markdown 20230706/n/no-api-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-06 13:36:30] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230704-py3-none-win_amd64.whl.zip]
+[2023-07-06 13:36:30] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230705-py3-none-win_amd64.whl.zip]
+[2023-07-06 13:36:30] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-07-06 13:36:30] INFO root fetch - processPackages [cybrex]: Downloading https://files.pythonhosted.org/packages/11/5a/b15337adf8417f415c189770550ce84eaa0764f4a20d9d9b8a909be08dad/cybrex-1.0.5.tar.gz
+[2023-07-06 13:36:30] INFO root fetch - processPackages [cybrex]: executing diffoscope
+[2023-07-06 13:36:30] INFO root fetch - processPackages [cybrex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrex-1.0.4.tar.gz tmp/cybrex-1.0.5.tar.gz --markdown 20230706/c/cybrex/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-06 13:36:31] INFO root fetch - processPackages [msaDocModels]: Remove: archive file [/home/abi/fetcher/tmp/msaDocModels-0.0.82.tar.gz]
+[2023-07-06 13:36:31] INFO root fetch - processPackages [msaDocModels]: Remove: archive file [/home/abi/fetcher/tmp/msaDocModels-0.0.9.tar.gz]
+[2023-07-06 13:36:31] INFO root fetch - main [MainThread]: End processing [msaDocModels]: success
+[2023-07-06 13:36:31] INFO root fetch - processPackages [cnos-connector]: Remove: archive file [/home/abi/fetcher/tmp/cnos_connector-0.1.8.tar.gz]
+[2023-07-06 13:36:31] INFO root fetch - processPackages [cnos-connector]: Remove: archive file [/home/abi/fetcher/tmp/cnos_connector-0.1.9.tar.gz]
+[2023-07-06 13:36:31] INFO root fetch - main [MainThread]: End processing [cnos-connector]: success
+[2023-07-06 13:36:31] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230704-py3-none-win_amd64.whl.zip]
+[2023-07-06 13:36:31] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230705-py3-none-win_amd64.whl.zip]
+[2023-07-06 13:36:31] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-07-06 13:36:31] INFO root fetch - processPackages [proceso]: Remove: archive file [/home/abi/fetcher/tmp/proceso-0.0.7.tar.gz]
+[2023-07-06 13:36:31] INFO root fetch - processPackages [proceso]: Remove: archive file [/home/abi/fetcher/tmp/proceso-0.0.9.tar.gz]
+[2023-07-06 13:36:31] INFO root fetch - main [MainThread]: End processing [proceso]: success
+[2023-07-06 13:36:31] INFO root fetch - processPackages [resolwe]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-9.0.0a3.tar.gz]
+[2023-07-06 13:36:31] INFO root fetch - processPackages [resolwe]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-9.0.0a4.tar.gz]
+[2023-07-06 13:36:31] INFO root fetch - main [MainThread]: End processing [resolwe]: success
+[2023-07-06 13:36:31] INFO root fetch - processPackages [cybrex]: Remove: archive file [/home/abi/fetcher/tmp/cybrex-1.0.4.tar.gz]
+[2023-07-06 13:36:31] INFO root fetch - processPackages [cybrex]: Remove: archive file [/home/abi/fetcher/tmp/cybrex-1.0.5.tar.gz]
+[2023-07-06 13:36:31] INFO root fetch - main [MainThread]: End processing [cybrex]: success
+[2023-07-06 13:36:31] INFO root fetch - processPackages [no-api-sdk]: Remove: archive file [/home/abi/fetcher/tmp/no_api_sdk-0.1.8-cp39-cp39-win_amd64.whl.zip]
+[2023-07-06 13:36:31] INFO root fetch - processPackages [no-api-sdk]: Remove: archive file [/home/abi/fetcher/tmp/no_api_sdk-0.1.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-06 13:36:31] INFO root fetch - main [MainThread]: End processing [no-api-sdk]: success
+[2023-07-06 13:36:38] INFO root fetch - processPackages [tungstenkit]: Remove: archive file [/home/abi/fetcher/tmp/tungstenkit-0.1.1a1.tar.gz]
+[2023-07-06 13:36:38] INFO root fetch - processPackages [tungstenkit]: Remove: archive file [/home/abi/fetcher/tmp/tungstenkit-0.1.1a2.tar.gz]
+[2023-07-06 13:36:38] INFO root fetch - main [MainThread]: End processing [tungstenkit]: success
+[2023-07-06 13:36:38] INFO root fetch - main [MainThread]: Store serial: [18782612]
