@@ -21218,3 +21218,92 @@ AssertionError: tmp/termkit-0.2.0a4.tar.gz does not exist
 [2023-07-06 12:53:56] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post883-py3-none-any.whl.zip]
 [2023-07-06 12:53:56] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
 [2023-07-06 12:53:56] INFO root fetch - main [MainThread]: Store serial: [18782266]
+[2023-07-06 12:59:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18782266]
+[2023-07-06 12:59:05] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-06 12:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: testdwg
+[2023-07-06 12:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: twscrape
+[2023-07-06 12:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PieRakNet
+[2023-07-06 12:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vehicle-lang
+[2023-07-06 12:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: web3-ethereum-defi
+[2023-07-06 12:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: EnergyCapSdk
+[2023-07-06 12:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gonchaya
+[2023-07-06 12:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oidc-drf
+[2023-07-06 12:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lusid-notification-sdk-preview
+[2023-07-06 12:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: psytricks
+[2023-07-06 12:59:05] INFO root fetch - processPackages [testdwg]: New version: [1.0.6] Old Version: [0.4.9]
+[2023-07-06 12:59:05] INFO root fetch - processPackages [gonchaya]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-06 12:59:05] INFO root fetch - processPackages [twscrape]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-06 12:59:05] INFO root fetch - processPackages [lusid-notification-sdk-preview]: New version: [0.1.772.6] Old Version: [0.1.772.5]
+[2023-07-06 12:59:05] INFO root fetch - processPackages [EnergyCapSdk]: New version: [8.2304.4631] Old Version: [8.2304.4629]
+[2023-07-06 12:59:05] INFO root fetch - processPackages [PieRakNet]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-06 12:59:05] INFO root fetch - processPackages [vehicle-lang]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-07-06 12:59:05] INFO root fetch - processPackages [web3-ethereum-defi]: New version: [0.9] Old Version: [0.8]
+[2023-07-06 12:59:05] INFO root fetch - processPackages [psytricks]: New version: [2.1.4a0] Old Version: [2.1.4]
+[2023-07-06 12:59:05] INFO root fetch - processPackages [oidc-drf]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-06 12:59:06] INFO root fetch - processPackages [gonchaya]: Downloading https://files.pythonhosted.org/packages/f4/84/02dd15ea71a4263fda306ec842abf96a803c4a271bb1a8267ad2d6a30af5/gonchaya-0.0.1.tar.gz
+[2023-07-06 12:59:06] INFO root fetch - processPackages [EnergyCapSdk]: Downloading https://files.pythonhosted.org/packages/13/30/ce0869c09fd0f7974c3c8b5269228d1b6e628da7505f236126bdd4f3846c/EnergyCapSdk-8.2304.4629.tar.gz
+[2023-07-06 12:59:06] INFO root fetch - processPackages [twscrape]: Downloading https://files.pythonhosted.org/packages/03/12/ba359376fd38a3262953ae4921eb58c7c484415bd93eceb3226d55439c77/twscrape-0.4.1.tar.gz
+[2023-07-06 12:59:06] INFO root fetch - processPackages [testdwg]: Downloading https://files.pythonhosted.org/packages/57/3a/f4fc312cd45a147c9d6cfd5329ec9cccd4258bfc593c6077b2b5b24fb493/testdwg-0.4.9.tar.gz
+[2023-07-06 12:59:06] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/36/75/0e56487388828f40b0a8d401716a3cd255d3085e731e6ca3745ab28a86d2/oidc_drf-1.2.8.tar.gz
+[2023-07-06 12:59:06] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Downloading https://files.pythonhosted.org/packages/5e/51/a12ec5fcc27524b77e284f878d41fc59395d324b0d80e443a89b18f8bbcd/lusid-notification-sdk-preview-0.1.772.5.tar.gz
+[2023-07-06 12:59:06] INFO root fetch - processPackages [PieRakNet]: Downloading https://files.pythonhosted.org/packages/2d/63/46439409e18c1270f21ffe1368322913e967b8274fae8576ea816b2c9307/PieRakNet-1.0.0.tar.gz
+[2023-07-06 12:59:06] INFO root fetch - processPackages [psytricks]: Downloading https://files.pythonhosted.org/packages/49/b6/98ed20d214ea585aaad228d2bfd751cba6c2c7ae93a652c357e469404a60/psytricks-2.1.4.tar.gz
+[2023-07-06 12:59:06] INFO root fetch - processPackages [vehicle-lang]: Downloading https://files.pythonhosted.org/packages/69/34/fc1109992aef4d6a50b7774464d7bdbd6e9ee25d98190425393ac5251078/vehicle_lang-0.5.1-cp39-cp39-win_amd64.whl
+[2023-07-06 12:59:06] INFO root fetch - processPackages [web3-ethereum-defi]: Downloading https://files.pythonhosted.org/packages/f7/34/bc567b2d884ed84729cca7ee7fa158347e0f72fc19d964b3721fd4ad740b/web3-ethereum-defi-0.8.tar.gz
+[2023-07-06 12:59:06] INFO root fetch - processPackages [gonchaya]: Downloading https://files.pythonhosted.org/packages/b1/62/b15c76e61f1fa4ce427708f20e4a1214981ed492c81dafcf4edf53d4e344/gonchaya-0.0.2.tar.gz
+[2023-07-06 12:59:06] WARNING root fetch - processPackages [vehicle-lang]: Skipping package: exceeds size limit 12049047>=10485760
+[2023-07-06 12:59:06] INFO root fetch - main [MainThread]: End processing [vehicle-lang] error
+[2023-07-06 12:59:06] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/d7/de/e7417f81d3a2bb32b6f2acb0044fcadd08723cefbe4019f55c809d6c5afe/oidc_drf-1.2.9.tar.gz
+[2023-07-06 12:59:06] INFO root fetch - processPackages [gonchaya]: executing diffoscope
+[2023-07-06 12:59:06] INFO root fetch - processPackages [gonchaya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gonchaya-0.0.1.tar.gz tmp/gonchaya-0.0.2.tar.gz --markdown 20230706/g/gonchaya/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-06 12:59:06] INFO root fetch - processPackages [testdwg]: Downloading https://files.pythonhosted.org/packages/50/d9/44aaaf7ba967f304d5f076fbc8a8f1827eae9c7150d736fdaa0c22cf1cfb/testdwg-1.0.6.tar.gz
+[2023-07-06 12:59:06] INFO root fetch - processPackages [twscrape]: Downloading https://files.pythonhosted.org/packages/fe/08/494d28759302fea6dd258b0493f4fb045657c703881b120222e70d0a0621/twscrape-0.4.2.tar.gz
+[2023-07-06 12:59:06] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Downloading https://files.pythonhosted.org/packages/c6/39/a4a7182dc4149eb43a1753410c05262a0dec856910c7ed306bda38738dd4/lusid-notification-sdk-preview-0.1.772.6.tar.gz
+[2023-07-06 12:59:06] INFO root fetch - processPackages [EnergyCapSdk]: Downloading https://files.pythonhosted.org/packages/bf/d2/88062461abb807f81868ae78387d183280dd937b21031f63d77f6475a8ec/EnergyCapSdk-8.2304.4631.tar.gz
+[2023-07-06 12:59:06] INFO root fetch - processPackages [PieRakNet]: Downloading https://files.pythonhosted.org/packages/68/03/b9efdcfb18da442e09c604ac30df114589dea97175db138f9977b7d62325/PieRakNet-1.0.1.tar.gz
+[2023-07-06 12:59:06] INFO root fetch - processPackages [testdwg]: executing diffoscope
+[2023-07-06 12:59:06] INFO root fetch - processPackages [testdwg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testdwg-0.4.9.tar.gz tmp/testdwg-1.0.6.tar.gz --markdown 20230706/t/testdwg/0.4.9-1.0.6/diff.md --exclude *.pyd
+[2023-07-06 12:59:06] INFO root fetch - processPackages [oidc-drf]: executing diffoscope
+[2023-07-06 12:59:06] INFO root fetch - processPackages [oidc-drf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oidc_drf-1.2.8.tar.gz tmp/oidc_drf-1.2.9.tar.gz --markdown 20230706/o/oidc-drf/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-06 12:59:06] INFO root fetch - processPackages [psytricks]: Downloading https://files.pythonhosted.org/packages/21/0d/b64cc3da6360c5490cd3487f35a9851432e5fbad34431937c9229f7a9b52/psytricks-2.1.4a0.tar.gz
+[2023-07-06 12:59:06] INFO root fetch - processPackages [PieRakNet]: executing diffoscope
+[2023-07-06 12:59:06] INFO root fetch - processPackages [PieRakNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PieRakNet-1.0.0.tar.gz tmp/PieRakNet-1.0.1.tar.gz --markdown 20230706/P/PieRakNet/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-06 12:59:06] INFO root fetch - processPackages [twscrape]: executing diffoscope
+[2023-07-06 12:59:06] INFO root fetch - processPackages [twscrape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twscrape-0.4.1.tar.gz tmp/twscrape-0.4.2.tar.gz --markdown 20230706/t/twscrape/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-06 12:59:06] INFO root fetch - processPackages [web3-ethereum-defi]: Downloading https://files.pythonhosted.org/packages/02/9e/0b69309d6f37b54cc726ee3588483bd2d6bd07282539b30d2a04e48b82cd/web3-ethereum-defi-0.9.tar.gz
+[2023-07-06 12:59:07] INFO root fetch - processPackages [lusid-notification-sdk-preview]: executing diffoscope
+[2023-07-06 12:59:07] INFO root fetch - processPackages [lusid-notification-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notification-sdk-preview-0.1.772.5.tar.gz tmp/lusid-notification-sdk-preview-0.1.772.6.tar.gz --markdown 20230706/l/lusid-notification-sdk-preview/0.1.772.5-0.1.772.6/diff.md --exclude *.pyd
+[2023-07-06 12:59:07] INFO root fetch - processPackages [EnergyCapSdk]: executing diffoscope
+[2023-07-06 12:59:07] INFO root fetch - processPackages [EnergyCapSdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EnergyCapSdk-8.2304.4629.tar.gz tmp/EnergyCapSdk-8.2304.4631.tar.gz --markdown 20230706/E/EnergyCapSdk/8.2304.4629-8.2304.4631/diff.md --exclude *.pyd
+[2023-07-06 12:59:07] INFO root fetch - processPackages [web3-ethereum-defi]: executing diffoscope
+[2023-07-06 12:59:07] INFO root fetch - processPackages [web3-ethereum-defi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web3-ethereum-defi-0.8.tar.gz tmp/web3-ethereum-defi-0.9.tar.gz --markdown 20230706/w/web3-ethereum-defi/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-06 12:59:07] INFO root fetch - processPackages [psytricks]: executing diffoscope
+[2023-07-06 12:59:07] INFO root fetch - processPackages [psytricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psytricks-2.1.4.tar.gz tmp/psytricks-2.1.4a0.tar.gz --markdown 20230706/p/psytricks/2.1.4-2.1.4a0/diff.md --exclude *.pyd
+[2023-07-06 12:59:07] INFO root fetch - processPackages [gonchaya]: Remove: archive file [/home/abi/fetcher/tmp/gonchaya-0.0.1.tar.gz]
+[2023-07-06 12:59:07] INFO root fetch - processPackages [gonchaya]: Remove: archive file [/home/abi/fetcher/tmp/gonchaya-0.0.2.tar.gz]
+[2023-07-06 12:59:07] INFO root fetch - main [MainThread]: End processing [gonchaya]: success
+[2023-07-06 12:59:08] INFO root fetch - processPackages [testdwg]: Remove: archive file [/home/abi/fetcher/tmp/testdwg-0.4.9.tar.gz]
+[2023-07-06 12:59:08] INFO root fetch - processPackages [testdwg]: Remove: archive file [/home/abi/fetcher/tmp/testdwg-1.0.6.tar.gz]
+[2023-07-06 12:59:08] INFO root fetch - main [MainThread]: End processing [testdwg]: success
+[2023-07-06 12:59:08] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.2.8.tar.gz]
+[2023-07-06 12:59:08] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.2.9.tar.gz]
+[2023-07-06 12:59:08] INFO root fetch - main [MainThread]: End processing [oidc-drf]: success
+[2023-07-06 12:59:08] INFO root fetch - processPackages [PieRakNet]: Remove: archive file [/home/abi/fetcher/tmp/PieRakNet-1.0.0.tar.gz]
+[2023-07-06 12:59:08] INFO root fetch - processPackages [PieRakNet]: Remove: archive file [/home/abi/fetcher/tmp/PieRakNet-1.0.1.tar.gz]
+[2023-07-06 12:59:08] INFO root fetch - main [MainThread]: End processing [PieRakNet]: success
+[2023-07-06 12:59:08] INFO root fetch - processPackages [psytricks]: Remove: archive file [/home/abi/fetcher/tmp/psytricks-2.1.4.tar.gz]
+[2023-07-06 12:59:08] INFO root fetch - processPackages [psytricks]: Remove: archive file [/home/abi/fetcher/tmp/psytricks-2.1.4a0.tar.gz]
+[2023-07-06 12:59:08] INFO root fetch - main [MainThread]: End processing [psytricks]: success
+[2023-07-06 12:59:08] INFO root fetch - processPackages [twscrape]: Remove: archive file [/home/abi/fetcher/tmp/twscrape-0.4.1.tar.gz]
+[2023-07-06 12:59:08] INFO root fetch - processPackages [twscrape]: Remove: archive file [/home/abi/fetcher/tmp/twscrape-0.4.2.tar.gz]
+[2023-07-06 12:59:08] INFO root fetch - main [MainThread]: End processing [twscrape]: success
+[2023-07-06 12:59:08] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notification-sdk-preview-0.1.772.5.tar.gz]
+[2023-07-06 12:59:08] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notification-sdk-preview-0.1.772.6.tar.gz]
+[2023-07-06 12:59:08] INFO root fetch - main [MainThread]: End processing [lusid-notification-sdk-preview]: success
+[2023-07-06 12:59:09] INFO root fetch - processPackages [web3-ethereum-defi]: Remove: archive file [/home/abi/fetcher/tmp/web3-ethereum-defi-0.8.tar.gz]
+[2023-07-06 12:59:09] INFO root fetch - processPackages [web3-ethereum-defi]: Remove: archive file [/home/abi/fetcher/tmp/web3-ethereum-defi-0.9.tar.gz]
+[2023-07-06 12:59:09] INFO root fetch - main [MainThread]: End processing [web3-ethereum-defi]: success
+[2023-07-06 12:59:20] INFO root fetch - processPackages [EnergyCapSdk]: Remove: archive file [/home/abi/fetcher/tmp/EnergyCapSdk-8.2304.4629.tar.gz]
+[2023-07-06 12:59:20] INFO root fetch - processPackages [EnergyCapSdk]: Remove: archive file [/home/abi/fetcher/tmp/EnergyCapSdk-8.2304.4631.tar.gz]
+[2023-07-06 12:59:20] INFO root fetch - main [MainThread]: End processing [EnergyCapSdk]: success
+[2023-07-06 12:59:20] INFO root fetch - main [MainThread]: Store serial: [18782307]
