@@ -15385,3 +15385,107 @@ AssertionError: tmp/SELDOMpy-0.8.4.2.tar.gz does not exist
 [2023-07-06 10:14:24] INFO root fetch - processPackages [OpenFisca-France]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France-99.0.1-py3-none-any.whl.zip]
 [2023-07-06 10:14:24] INFO root fetch - main [MainThread]: End processing [OpenFisca-France]: success
 [2023-07-06 10:14:24] INFO root fetch - main [MainThread]: Store serial: [18779971]
+[2023-07-06 10:19:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18779971]
+[2023-07-06 10:19:33] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-06 10:19:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: impose
+[2023-07-06 10:19:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: starwhale
+[2023-07-06 10:19:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: target-s3-delta
+[2023-07-06 10:19:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: metbees
+[2023-07-06 10:19:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-coreplus
+[2023-07-06 10:19:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cvat-sdk
+[2023-07-06 10:19:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: salesforce-codetf
+[2023-07-06 10:19:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fano-oss-py-sdk
+[2023-07-06 10:19:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: CTADIRAC
+[2023-07-06 10:19:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: creme-crm
+[2023-07-06 10:19:34] INFO root fetch - processPackages [impose]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-06 10:19:34] WARNING root fetch - processPackages [metbees]: Skipping, unable to determine old version
+[2023-07-06 10:19:34] INFO root fetch - processPackages [metbees]: Start processing: midjourney-py
+[2023-07-06 10:19:34] INFO root fetch - main [MainThread]: End processing [metbees] error
+[2023-07-06 10:19:34] INFO root fetch - processPackages [creme-crm]: New version: [2.4.5] Old Version: [2.4.4]
+[2023-07-06 10:19:34] WARNING root fetch - processPackages [fano-oss-py-sdk]: Skipping, unable to determine old version
+[2023-07-06 10:19:34] INFO root fetch - processPackages [fano-oss-py-sdk]: Start processing: cvat-cli
+[2023-07-06 10:19:34] INFO root fetch - main [MainThread]: End processing [fano-oss-py-sdk] error
+[2023-07-06 10:19:34] INFO root fetch - processPackages [target-s3-delta]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 10:19:34] INFO root fetch - processPackages [salesforce-codetf]: New version: [1.0.2.2] Old Version: [1.0.2.1]
+[2023-07-06 10:19:34] INFO root fetch - processPackages [starwhale]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-07-06 10:19:34] INFO root fetch - processPackages [cvat-sdk]: New version: [2.5.0] Old Version: [2.4.7]
+[2023-07-06 10:19:34] INFO root fetch - processPackages [django-coreplus]: New version: [0.4] Old Version: [0.3.9]
+[2023-07-06 10:19:34] INFO root fetch - processPackages [CTADIRAC]: New version: [2.2a3] Old Version: [2.2.9]
+[2023-07-06 10:19:34] INFO root fetch - processPackages [midjourney-py]: New version: [1.0.2] Old Version: [1.0.0]
+[2023-07-06 10:19:34] INFO root fetch - processPackages [cvat-cli]: New version: [2.5.0] Old Version: [2.4.7]
+[2023-07-06 10:19:34] INFO root fetch - processPackages [salesforce-codetf]: Downloading https://files.pythonhosted.org/packages/b7/b1/2a20080f9abcc3700e2cbb73a962ff2cf66a091d04d5854ae3fa96f23768/salesforce-codetf-1.0.2.1.tar.gz
+[2023-07-06 10:19:34] INFO root fetch - processPackages [django-coreplus]: Downloading https://files.pythonhosted.org/packages/c8/ee/302cf2b4c74443d5573ae3a671cbcaf5ad9661498c3c58b8402897eb48d5/django-coreplus-0.3.9.tar.gz
+[2023-07-06 10:19:34] INFO root fetch - processPackages [starwhale]: Downloading https://files.pythonhosted.org/packages/03/4b/c5c87fb0235c071d749f22e545ea48db694d9bcb1c2d7c5ed71b5fddd4c7/starwhale-0.5.3.tar.gz
+[2023-07-06 10:19:34] INFO root fetch - processPackages [impose]: Downloading https://files.pythonhosted.org/packages/a6/d0/fdf6f2a3d15d301aafc78acde2e77cb054051093a694b7a183ccc011f73e/impose-0.4.1.tar.gz
+[2023-07-06 10:19:34] INFO root fetch - processPackages [creme-crm]: Downloading https://files.pythonhosted.org/packages/42/b9/c822e8b30992e7f558555b291ab5a0fb0ea82e529beac0b9d6a97097703d/creme-crm-2.4.4.tar.gz
+[2023-07-06 10:19:34] INFO root fetch - processPackages [target-s3-delta]: Downloading https://files.pythonhosted.org/packages/6e/50/6609962e0ce887f6c841f96a73f490fe61ec69bc79eed9c6942d332cbd98/target_s3_delta-0.0.8.tar.gz
+[2023-07-06 10:19:34] INFO root fetch - processPackages [midjourney-py]: Downloading https://files.pythonhosted.org/packages/6b/94/b4089940baef18dc4e33de3f8af1fe186ea289fff16e530745a1d7eda88f/Midjourney-py-1.0.0.tar.gz
+[2023-07-06 10:19:34] INFO root fetch - processPackages [cvat-cli]: Downloading https://files.pythonhosted.org/packages/b0/e3/2d42fb81a94f17fc163f8b9e2ce2b0c016bcd43b6a8780bfadc6c5af63d9/cvat-cli-2.4.7.tar.gz
+[2023-07-06 10:19:34] INFO root fetch - processPackages [cvat-sdk]: Downloading https://files.pythonhosted.org/packages/1d/45/9f679cb7205c73060ca77b090f17fb05f01b2a1d91aafb97bdeb3fdb8f04/cvat_sdk-2.4.7.tar.gz
+[2023-07-06 10:19:34] INFO root fetch - processPackages [CTADIRAC]: Downloading https://files.pythonhosted.org/packages/c4/fd/863c06d80a7cb3f8b807886edd3b375bed2ee4d3a384cb8b7213479f2248/CTADIRAC-2.2.9.tar.gz
+[2023-07-06 10:19:34] WARNING root fetch - processPackages [creme-crm]: Skipping package: exceeds size limit 23319539>=10485760
+[2023-07-06 10:19:34] INFO root fetch - processPackages [creme-crm]: Start processing: yplib
+[2023-07-06 10:19:34] INFO root fetch - main [MainThread]: End processing [creme-crm] error
+[2023-07-06 10:19:34] INFO root fetch - processPackages [yplib]: New version: [2.3.0] Old Version: [2.2.9]
+[2023-07-06 10:19:34] INFO root fetch - processPackages [target-s3-delta]: Downloading https://files.pythonhosted.org/packages/fb/f8/26c91f2455b8afd469305bcff50568a081c15ba427ed9957fa9c40f0067f/target_s3_delta-0.0.9.tar.gz
+[2023-07-06 10:19:34] INFO root fetch - processPackages [midjourney-py]: Downloading https://files.pythonhosted.org/packages/e3/51/72dea7575889f25c5f7d575c6c002b862e3c9d0929bda70ccacf8716f116/midjourney-py-1.0.2.tar.gz
+[2023-07-06 10:19:34] INFO root fetch - processPackages [django-coreplus]: Downloading https://files.pythonhosted.org/packages/3b/6b/2232a0352258c060c04a2ed1596c58187fb271b23421a5475e076a8cbc63/django-coreplus-0.4.tar.gz
+[2023-07-06 10:19:34] INFO root fetch - processPackages [cvat-sdk]: Downloading https://files.pythonhosted.org/packages/e9/21/8a5245214539275c1b965f096643a2d69f5d13948f37413b24120d6be5ef/cvat_sdk-2.5.0.tar.gz
+[2023-07-06 10:19:34] INFO root fetch - processPackages [salesforce-codetf]: Downloading https://files.pythonhosted.org/packages/d3/bf/9cace01b7e20de80dcbb53670929183a902a86d7e9846573560d22882e6c/salesforce-codetf-1.0.2.2.tar.gz
+[2023-07-06 10:19:34] INFO root fetch - processPackages [target-s3-delta]: executing diffoscope
+[2023-07-06 10:19:34] INFO root fetch - processPackages [target-s3-delta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/target_s3_delta-0.0.8.tar.gz tmp/target_s3_delta-0.0.9.tar.gz --markdown 20230706/t/target-s3-delta/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 10:19:35] INFO root fetch - processPackages [cvat-cli]: Downloading https://files.pythonhosted.org/packages/a5/26/4bcf88a3bde998e6d6761344ace2df7ae6cc69bec67e4c89648862323ceb/cvat-cli-2.5.0.tar.gz
+[2023-07-06 10:19:35] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/8e/45/023662f882f1d0378196b9ec972d4245f0c9a32398828688625b5ec48d2c/yplib-2.2.9.tar.gz
+[2023-07-06 10:19:35] INFO root fetch - processPackages [midjourney-py]: executing diffoscope
+[2023-07-06 10:19:35] INFO root fetch - processPackages [midjourney-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Midjourney-py-1.0.0.tar.gz tmp/midjourney-py-1.0.2.tar.gz --markdown 20230706/m/midjourney-py/1.0.0-1.0.2/diff.md --exclude *.pyd
+[2023-07-06 10:19:35] INFO root fetch - processPackages [CTADIRAC]: Downloading https://files.pythonhosted.org/packages/b3/dc/eeb2adbd38eb21f4638e8a34f30ed6748361e02727136583e01b66570df8/CTADIRAC-2.2a3.tar.gz
+[2023-07-06 10:19:35] INFO root fetch - processPackages [starwhale]: Downloading https://files.pythonhosted.org/packages/8a/67/c511a7cc0ece6bd164f5b36a63e90898a26d9771d8309ea601643e89d629/starwhale-0.5.4.tar.gz
+[2023-07-06 10:19:35] INFO root fetch - processPackages [cvat-sdk]: executing diffoscope
+[2023-07-06 10:19:35] INFO root fetch - processPackages [cvat-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvat_sdk-2.4.7.tar.gz tmp/cvat_sdk-2.5.0.tar.gz --markdown 20230706/c/cvat-sdk/2.4.7-2.5.0/diff.md --exclude *.pyd
+[2023-07-06 10:19:35] INFO root fetch - processPackages [django-coreplus]: executing diffoscope
+[2023-07-06 10:19:35] INFO root fetch - processPackages [django-coreplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-coreplus-0.3.9.tar.gz tmp/django-coreplus-0.4.tar.gz --markdown 20230706/d/django-coreplus/0.3.9-0.4/diff.md --exclude *.pyd
+[2023-07-06 10:19:35] INFO root fetch - processPackages [cvat-cli]: executing diffoscope
+[2023-07-06 10:19:35] INFO root fetch - processPackages [cvat-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvat-cli-2.4.7.tar.gz tmp/cvat-cli-2.5.0.tar.gz --markdown 20230706/c/cvat-cli/2.4.7-2.5.0/diff.md --exclude *.pyd
+[2023-07-06 10:19:35] INFO root fetch - processPackages [impose]: Downloading https://files.pythonhosted.org/packages/7f/ea/6f05950ae4dae859b9ce3980d3ad6c04737250b5e4872eb5ff1347aee6cb/impose-0.4.2.tar.gz
+[2023-07-06 10:19:35] INFO root fetch - processPackages [CTADIRAC]: executing diffoscope
+[2023-07-06 10:19:35] INFO root fetch - processPackages [CTADIRAC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CTADIRAC-2.2.9.tar.gz tmp/CTADIRAC-2.2a3.tar.gz --markdown 20230706/C/CTADIRAC/2.2.9-2.2a3/diff.md --exclude *.pyd
+[2023-07-06 10:19:35] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/26/e9/a5501753b6203d7c479e6ce88a7aa01ae4c14ee601bb8cbf6cda03cba1cf/yplib-2.3.0.tar.gz
+[2023-07-06 10:19:35] INFO root fetch - processPackages [salesforce-codetf]: executing diffoscope
+[2023-07-06 10:19:35] INFO root fetch - processPackages [salesforce-codetf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salesforce-codetf-1.0.2.1.tar.gz tmp/salesforce-codetf-1.0.2.2.tar.gz --markdown 20230706/s/salesforce-codetf/1.0.2.1-1.0.2.2/diff.md --exclude *.pyd
+[2023-07-06 10:19:35] INFO root fetch - processPackages [impose]: executing diffoscope
+[2023-07-06 10:19:35] INFO root fetch - processPackages [impose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impose-0.4.1.tar.gz tmp/impose-0.4.2.tar.gz --markdown 20230706/i/impose/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-06 10:19:35] INFO root fetch - processPackages [starwhale]: executing diffoscope
+[2023-07-06 10:19:35] INFO root fetch - processPackages [starwhale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starwhale-0.5.3.tar.gz tmp/starwhale-0.5.4.tar.gz --markdown 20230706/s/starwhale/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-07-06 10:19:35] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-07-06 10:19:35] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-2.2.9.tar.gz tmp/yplib-2.3.0.tar.gz --markdown 20230706/y/yplib/2.2.9-2.3.0/diff.md --exclude *.pyd
+[2023-07-06 10:19:36] INFO root fetch - processPackages [target-s3-delta]: Remove: archive file [/home/abi/fetcher/tmp/target_s3_delta-0.0.8.tar.gz]
+[2023-07-06 10:19:36] INFO root fetch - processPackages [target-s3-delta]: Remove: archive file [/home/abi/fetcher/tmp/target_s3_delta-0.0.9.tar.gz]
+[2023-07-06 10:19:36] INFO root fetch - main [MainThread]: End processing [target-s3-delta]: success
+[2023-07-06 10:19:36] INFO root fetch - processPackages [midjourney-py]: Remove: archive file [/home/abi/fetcher/tmp/Midjourney-py-1.0.0.tar.gz]
+[2023-07-06 10:19:36] INFO root fetch - processPackages [midjourney-py]: Remove: archive file [/home/abi/fetcher/tmp/midjourney-py-1.0.2.tar.gz]
+[2023-07-06 10:19:36] INFO root fetch - main [MainThread]: End processing [midjourney-py]: success
+[2023-07-06 10:19:36] INFO root fetch - processPackages [cvat-cli]: Remove: archive file [/home/abi/fetcher/tmp/cvat-cli-2.4.7.tar.gz]
+[2023-07-06 10:19:36] INFO root fetch - processPackages [cvat-cli]: Remove: archive file [/home/abi/fetcher/tmp/cvat-cli-2.5.0.tar.gz]
+[2023-07-06 10:19:37] INFO root fetch - main [MainThread]: End processing [cvat-cli]: success
+[2023-07-06 10:19:37] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.2.9.tar.gz]
+[2023-07-06 10:19:37] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.3.0.tar.gz]
+[2023-07-06 10:19:37] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-07-06 10:19:38] INFO root fetch - processPackages [impose]: Remove: archive file [/home/abi/fetcher/tmp/impose-0.4.1.tar.gz]
+[2023-07-06 10:19:38] INFO root fetch - processPackages [impose]: Remove: archive file [/home/abi/fetcher/tmp/impose-0.4.2.tar.gz]
+[2023-07-06 10:19:38] INFO root fetch - main [MainThread]: End processing [impose]: success
+[2023-07-06 10:19:38] INFO root fetch - processPackages [CTADIRAC]: Remove: archive file [/home/abi/fetcher/tmp/CTADIRAC-2.2.9.tar.gz]
+[2023-07-06 10:19:38] INFO root fetch - processPackages [CTADIRAC]: Remove: archive file [/home/abi/fetcher/tmp/CTADIRAC-2.2a3.tar.gz]
+[2023-07-06 10:19:38] INFO root fetch - main [MainThread]: End processing [CTADIRAC]: success
+[2023-07-06 10:19:38] INFO root fetch - processPackages [django-coreplus]: Remove: archive file [/home/abi/fetcher/tmp/django-coreplus-0.3.9.tar.gz]
+[2023-07-06 10:19:38] INFO root fetch - processPackages [django-coreplus]: Remove: archive file [/home/abi/fetcher/tmp/django-coreplus-0.4.tar.gz]
+[2023-07-06 10:19:38] INFO root fetch - main [MainThread]: End processing [django-coreplus]: success
+[2023-07-06 10:19:40] INFO root fetch - processPackages [cvat-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cvat_sdk-2.4.7.tar.gz]
+[2023-07-06 10:19:40] INFO root fetch - processPackages [cvat-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cvat_sdk-2.5.0.tar.gz]
+[2023-07-06 10:19:40] INFO root fetch - main [MainThread]: End processing [cvat-sdk]: success
+[2023-07-06 10:19:41] INFO root fetch - processPackages [salesforce-codetf]: Remove: archive file [/home/abi/fetcher/tmp/salesforce-codetf-1.0.2.1.tar.gz]
+[2023-07-06 10:19:41] INFO root fetch - processPackages [salesforce-codetf]: Remove: archive file [/home/abi/fetcher/tmp/salesforce-codetf-1.0.2.2.tar.gz]
+[2023-07-06 10:19:41] INFO root fetch - main [MainThread]: End processing [salesforce-codetf]: success
+[2023-07-06 10:21:40] INFO root fetch - processPackages [starwhale]: Remove: archive file [/home/abi/fetcher/tmp/starwhale-0.5.3.tar.gz]
+[2023-07-06 10:21:40] INFO root fetch - processPackages [starwhale]: Remove: archive file [/home/abi/fetcher/tmp/starwhale-0.5.4.tar.gz]
+[2023-07-06 10:21:40] INFO root fetch - main [MainThread]: End processing [starwhale]: success
+[2023-07-06 10:21:40] INFO root fetch - main [MainThread]: Store serial: [18780012]
