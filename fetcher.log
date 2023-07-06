@@ -13165,3 +13165,79 @@ AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
 [2023-07-06 08:15:18] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230705.tar.gz]
 [2023-07-06 08:15:18] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-07-06 08:15:18] INFO root fetch - main [MainThread]: Store serial: [18778926]
+[2023-07-06 08:20:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18778926]
+[2023-07-06 08:20:28] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-06 08:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rondsspark
+[2023-07-06 08:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pretext
+[2023-07-06 08:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seven-cloudapp-ppmt
+[2023-07-06 08:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: localstack-core
+[2023-07-06 08:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: readyocr
+[2023-07-06 08:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pizazz
+[2023-07-06 08:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: localstack-core
+[2023-07-06 08:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alibabacloud-dytnsapi20200217
+[2023-07-06 08:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pbjson
+[2023-07-06 08:20:28] INFO root fetch - processPackages [rondsspark]: New version: [0.0.4.3] Old Version: [0.0.4.2]
+[2023-07-06 08:20:28] WARNING root fetch - processPackages [readyocr]: Skipping, unable to determine old version
+[2023-07-06 08:20:28] INFO root fetch - main [MainThread]: End processing [readyocr] error
+[2023-07-06 08:20:28] INFO root fetch - processPackages [pbjson]: New version: [1.17.0] Old Version: [1.16.0]
+[2023-07-06 08:20:28] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230706061913] Old Version: [2.1.1.dev20230706061717]
+[2023-07-06 08:20:28] INFO root fetch - processPackages [pizazz]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-07-06 08:20:28] INFO root fetch - processPackages [pretext]: New version: [1.6.1.dev20230706] Old Version: [1.6.1.dev20230704]
+[2023-07-06 08:20:28] INFO root fetch - processPackages [alibabacloud-dytnsapi20200217]: New version: [2.0.0] Old Version: [1.0.9]
+[2023-07-06 08:20:28] INFO root fetch - processPackages [seven-cloudapp-ppmt]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-06 08:20:28] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230706061913] Old Version: [2.1.1.dev20230706061717]
+[2023-07-06 08:20:28] INFO root fetch - processPackages [pbjson]: Downloading https://files.pythonhosted.org/packages/dc/13/510df2375bcc883d744ebf972e108a21a54a4b9139708e317e8fdc6fd385/pbjson-1.16.0.tar.gz
+[2023-07-06 08:20:28] INFO root fetch - processPackages [rondsspark]: Downloading https://files.pythonhosted.org/packages/ac/30/141810009ce33b2481186c520649771a4d7b6f946c49cd610bdb3f5dd49e/rondsspark-0.0.4.2.tar.gz
+[2023-07-06 08:20:28] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/9f/39/8ea4004903cc39b008714292efb0785249556c3310a464d5a451d261f86e/localstack-core-2.1.1.dev20230706061717.tar.gz
+[2023-07-06 08:20:28] INFO root fetch - processPackages [pizazz]: Downloading https://files.pythonhosted.org/packages/6e/0d/28105baf03ee635e3bbcb22f41c001018c85aecc87f3a1a965be16908339/pizazz-1.3.2.tar.gz
+[2023-07-06 08:20:28] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/9f/39/8ea4004903cc39b008714292efb0785249556c3310a464d5a451d261f86e/localstack-core-2.1.1.dev20230706061717.tar.gz
+[2023-07-06 08:20:28] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/6f/50/32eebab9d722e6e313b979882990bc584c922603f389075ef62e0cbce99f/pretext-1.6.1.dev20230704.tar.gz
+[2023-07-06 08:20:28] INFO root fetch - processPackages [alibabacloud-dytnsapi20200217]: Downloading https://files.pythonhosted.org/packages/90/e4/bfac9f37474d00b7053b752d73717630179a4aed5b0700f11ebf5327a4f4/alibabacloud_dytnsapi20200217-1.0.9.tar.gz
+[2023-07-06 08:20:28] INFO root fetch - processPackages [seven-cloudapp-ppmt]: Downloading https://files.pythonhosted.org/packages/49/bb/4c5ef14da4a1abbcce352b00403cd660d9b2653154b77adeed710528abe7/seven_cloudapp_ppmt-1.0.8.tar.gz
+[2023-07-06 08:20:28] INFO root fetch - processPackages [rondsspark]: Downloading https://files.pythonhosted.org/packages/5b/9d/e1f99f72a1d37fdbc633efab51894fe3e4f6d0be3c4aca566ae4f6f37d6c/rondsspark-0.0.4.3.tar.gz
+[2023-07-06 08:20:28] INFO root fetch - processPackages [pbjson]: Downloading https://files.pythonhosted.org/packages/c8/2f/168c4092d9aa30ed913579a8c9f38c14b5fec6bfec0dc3e5eca4c2f18d4e/pbjson-1.17.0.tar.gz
+[2023-07-06 08:20:29] INFO root fetch - processPackages [pizazz]: Downloading https://files.pythonhosted.org/packages/a6/e0/cffe39a392f63913eb42373b870e2faa3fee9f3aea0e7bea79cc7783efbb/pizazz-1.3.3.tar.gz
+[2023-07-06 08:20:29] INFO root fetch - processPackages [pizazz]: executing diffoscope
+[2023-07-06 08:20:29] INFO root fetch - processPackages [pizazz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pizazz-1.3.2.tar.gz tmp/pizazz-1.3.3.tar.gz --markdown 20230706/p/pizazz/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-07-06 08:20:29] INFO root fetch - processPackages [pbjson]: executing diffoscope
+[2023-07-06 08:20:29] INFO root fetch - processPackages [pbjson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbjson-1.16.0.tar.gz tmp/pbjson-1.17.0.tar.gz --markdown 20230706/p/pbjson/1.16.0-1.17.0/diff.md --exclude *.pyd
+[2023-07-06 08:20:29] INFO root fetch - processPackages [seven-cloudapp-ppmt]: Downloading https://files.pythonhosted.org/packages/4f/f7/97b75abfc9ffa5521609f88539631befdd3e8ba9dd4371bb2483f40b9912/seven_cloudapp_ppmt-1.0.9.tar.gz
+[2023-07-06 08:20:29] INFO root fetch - processPackages [rondsspark]: executing diffoscope
+[2023-07-06 08:20:29] INFO root fetch - processPackages [rondsspark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rondsspark-0.0.4.2.tar.gz tmp/rondsspark-0.0.4.3.tar.gz --markdown 20230706/r/rondsspark/0.0.4.2-0.0.4.3/diff.md --exclude *.pyd
+[2023-07-06 08:20:29] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/0d/c8/89e4f7616842483e232e391db8044aa63f8826510d1745d7fa32e9c74dee/pretext-1.6.1.dev20230706.tar.gz
+[2023-07-06 08:20:29] INFO root fetch - processPackages [alibabacloud-dytnsapi20200217]: Downloading https://files.pythonhosted.org/packages/fe/43/f80b4f6332401e147444eebfeb6cbb624a3def10fed4e4de9e58682d0b7a/alibabacloud_dytnsapi20200217-2.0.0.tar.gz
+[2023-07-06 08:20:29] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/91/a0/2a14e0467becc190f336c0faad6ff0e878a67085ba53cb88d4e39284c101/localstack-core-2.1.1.dev20230706061913.tar.gz
+[2023-07-06 08:20:29] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/91/a0/2a14e0467becc190f336c0faad6ff0e878a67085ba53cb88d4e39284c101/localstack-core-2.1.1.dev20230706061913.tar.gz
+[2023-07-06 08:20:29] INFO root fetch - processPackages [seven-cloudapp-ppmt]: executing diffoscope
+[2023-07-06 08:20:29] INFO root fetch - processPackages [seven-cloudapp-ppmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_ppmt-1.0.8.tar.gz tmp/seven_cloudapp_ppmt-1.0.9.tar.gz --markdown 20230706/s/seven-cloudapp-ppmt/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-06 08:20:29] INFO root fetch - processPackages [alibabacloud-dytnsapi20200217]: executing diffoscope
+[2023-07-06 08:20:29] INFO root fetch - processPackages [alibabacloud-dytnsapi20200217]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dytnsapi20200217-1.0.9.tar.gz tmp/alibabacloud_dytnsapi20200217-2.0.0.tar.gz --markdown 20230706/a/alibabacloud-dytnsapi20200217/1.0.9-2.0.0/diff.md --exclude *.pyd
+[2023-07-06 08:20:29] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-07-06 08:20:29] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.6.1.dev20230704.tar.gz tmp/pretext-1.6.1.dev20230706.tar.gz --markdown 20230706/p/pretext/1.6.1.dev20230704-1.6.1.dev20230706/diff.md --exclude *.pyd
+[2023-07-06 08:20:29] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-07-06 08:20:29] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-07-06 08:20:29] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230706061717.tar.gz tmp/localstack-core-2.1.1.dev20230706061913.tar.gz --markdown 20230706/l/localstack-core/2.1.1.dev20230706061717-2.1.1.dev20230706061913/diff.md --exclude *.pyd
+[2023-07-06 08:20:29] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230706061717.tar.gz tmp/localstack-core-2.1.1.dev20230706061913.tar.gz --markdown 20230706/l/localstack-core/2.1.1.dev20230706061717-2.1.1.dev20230706061913/diff.md --exclude *.pyd
+[2023-07-06 08:20:30] INFO root fetch - processPackages [pizazz]: Remove: archive file [/home/abi/fetcher/tmp/pizazz-1.3.2.tar.gz]
+[2023-07-06 08:20:30] INFO root fetch - processPackages [pizazz]: Remove: archive file [/home/abi/fetcher/tmp/pizazz-1.3.3.tar.gz]
+[2023-07-06 08:20:30] INFO root fetch - main [MainThread]: End processing [pizazz]: success
+[2023-07-06 08:20:30] INFO root fetch - processPackages [rondsspark]: Remove: archive file [/home/abi/fetcher/tmp/rondsspark-0.0.4.2.tar.gz]
+[2023-07-06 08:20:30] INFO root fetch - processPackages [rondsspark]: Remove: archive file [/home/abi/fetcher/tmp/rondsspark-0.0.4.3.tar.gz]
+[2023-07-06 08:20:30] INFO root fetch - main [MainThread]: End processing [rondsspark]: success
+[2023-07-06 08:20:30] INFO root fetch - processPackages [pbjson]: Remove: archive file [/home/abi/fetcher/tmp/pbjson-1.16.0.tar.gz]
+[2023-07-06 08:20:30] INFO root fetch - processPackages [pbjson]: Remove: archive file [/home/abi/fetcher/tmp/pbjson-1.17.0.tar.gz]
+[2023-07-06 08:20:30] INFO root fetch - main [MainThread]: End processing [pbjson]: success
+[2023-07-06 08:20:30] INFO root fetch - processPackages [alibabacloud-dytnsapi20200217]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dytnsapi20200217-1.0.9.tar.gz]
+[2023-07-06 08:20:30] INFO root fetch - processPackages [alibabacloud-dytnsapi20200217]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dytnsapi20200217-2.0.0.tar.gz]
+[2023-07-06 08:20:30] INFO root fetch - main [MainThread]: End processing [alibabacloud-dytnsapi20200217]: success
+[2023-07-06 08:20:30] INFO root fetch - processPackages [seven-cloudapp-ppmt]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_ppmt-1.0.8.tar.gz]
+[2023-07-06 08:20:30] INFO root fetch - processPackages [seven-cloudapp-ppmt]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_ppmt-1.0.9.tar.gz]
+[2023-07-06 08:20:30] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-ppmt]: success
+[2023-07-06 08:20:33] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230704.tar.gz]
+[2023-07-06 08:20:33] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230706.tar.gz]
+[2023-07-06 08:20:33] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-07-06 08:20:33] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230706061717.tar.gz]
+[2023-07-06 08:20:33] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230706061913.tar.gz]
+[2023-07-06 08:20:33] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-07-06 08:20:34] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-07-06 08:20:34] INFO root fetch - main [MainThread]: Store serial: [18778965]
