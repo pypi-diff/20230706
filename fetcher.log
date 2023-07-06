@@ -9059,3 +9059,105 @@ AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
 [2023-07-06 04:01:06] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.1.dev9.tar.gz]
 [2023-07-06 04:01:06] INFO root fetch - main [MainThread]: End processing [coiled]: success
 [2023-07-06 04:01:06] INFO root fetch - main [MainThread]: Store serial: [18777180]
+[2023-07-06 04:06:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18777180]
+[2023-07-06 04:06:19] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-06 04:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-wordpress
+[2023-07-06 04:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ml-plugins-2
+[2023-07-06 04:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llamabot
+[2023-07-06 04:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hak
+[2023-07-06 04:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: desc-opt
+[2023-07-06 04:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pop-tools
+[2023-07-06 04:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: edman-web
+[2023-07-06 04:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: egorovsystem
+[2023-07-06 04:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: envd
+[2023-07-06 04:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pygbop
+[2023-07-06 04:06:19] INFO root fetch - processPackages [egorovsystem]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-06 04:06:19] INFO root fetch - processPackages [llamabot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 04:06:19] INFO root fetch - processPackages [pop-tools]: New version: [2023.6.0] Old Version: [2023.3.0]
+[2023-07-06 04:06:19] INFO root fetch - processPackages [hak]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 04:06:19] INFO root fetch - processPackages [pygbop]: New version: [0.2.0.2] Old Version: [0.1.1.5]
+[2023-07-06 04:06:19] INFO root fetch - processPackages [desc-opt]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-06 04:06:19] INFO root fetch - processPackages [edman-web]: New version: [2023.7.6] Old Version: [2023.6.5]
+[2023-07-06 04:06:19] INFO root fetch - processPackages [ml-plugins-2]: New version: [0.0.23] Old Version: [0.0.22]
+[2023-07-06 04:06:19] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/31/05/7d4721877f2dde80d5bd40c84773d24b5486a794e78758d5c6c51a0e0ee0/llamabot-0.0.8.tar.gz
+[2023-07-06 04:06:19] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-06 04:06:19] INFO root fetch - processPackages [envd]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-06 04:06:20] INFO root fetch - processPackages [pygbop]: Downloading https://files.pythonhosted.org/packages/5e/60/5c60f7d9e9a0a3f9f8f5508d11e2038c39bf9b7f946415ff3af10cd43265/pygbop-0.1.1.5.tar.gz
+[2023-07-06 04:06:20] INFO root fetch - processPackages [edman-web]: Downloading https://files.pythonhosted.org/packages/f9/69/d46c2f94d8ab4e2794030dc41e43146a7a13f47632a66a15e6016a580cdb/edman_web-2023.6.5.tar.gz
+[2023-07-06 04:06:20] INFO root fetch - processPackages [egorovsystem]: Downloading https://files.pythonhosted.org/packages/5e/b7/2d8527205e5e4d5354850f920fa14049d00724d8fbcd368b36a0077a9c47/egorovsystem-0.0.1.tar.gz
+[2023-07-06 04:06:20] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/05/17/ad5ef91170b7c0e991a9c8bffa9f9a2dcf3961d5e90c31185bdf3ce8f425/hak-0.0.8.tar.gz
+[2023-07-06 04:06:20] INFO root fetch - processPackages [pop-tools]: Downloading https://files.pythonhosted.org/packages/31/84/f62abab9ca803a802c5ffa5a3d8464149ac81fbce5ddfe6d5f3709f5f397/pop-tools-2023.3.0.tar.gz
+[2023-07-06 04:06:20] INFO root fetch - processPackages [desc-opt]: Downloading https://files.pythonhosted.org/packages/dc/bb/f62c4fb4425fc976ee73cfe0d21b7271ca9d57cd2b9b6e7f7fcf52c0249f/desc-opt-0.9.0.tar.gz
+[2023-07-06 04:06:20] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/8c/77/360013b912689bcadc9699ffbfd0c59717ab5c032c425ce8f661e39484f5/llamabot-0.0.9.tar.gz
+[2023-07-06 04:06:20] INFO root fetch - processPackages [ml-plugins-2]: Downloading https://files.pythonhosted.org/packages/8a/ae/56bc2381848f1c679f0bd32dc617e9334f1a7269fee86394d604823bbe2b/ml_plugins_2-0.0.22.tar.gz
+[2023-07-06 04:06:20] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/95/5a/46730445b7c8db7cad33c0b319cbd75004ba42b6cbe2f00628d2191c5516/cdk-wordpress-0.0.98.tar.gz
+[2023-07-06 04:06:20] INFO root fetch - processPackages [envd]: Downloading https://files.pythonhosted.org/packages/40/8f/ca38bcdc6fb6476b2f39f7447c21359ec87ef0ed65e589349a047ed332cd/envd-0.3.8.tar.gz
+[2023-07-06 04:06:20] INFO root fetch - processPackages [llamabot]: executing diffoscope
+[2023-07-06 04:06:20] INFO root fetch - processPackages [llamabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamabot-0.0.8.tar.gz tmp/llamabot-0.0.9.tar.gz --markdown 20230706/l/llamabot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 04:06:20] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/fd/2b/bf7b3451d5e3a84e9a674b47e9f046c4db1f582764a85a4dfc00e14ecf00/hak-0.0.9.tar.gz
+[2023-07-06 04:06:20] INFO root fetch - processPackages [pygbop]: Downloading https://files.pythonhosted.org/packages/47/b2/8f982db2da0bc5820819841a2a8d16c01a24592d736b17f57f8c86e761f0/pygbop-0.2.0.2.tar.gz
+[2023-07-06 04:06:20] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-07-06 04:06:20] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.8.tar.gz tmp/hak-0.0.9.tar.gz --markdown 20230706/h/hak/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 04:06:20] INFO root fetch - processPackages [pygbop]: executing diffoscope
+[2023-07-06 04:06:20] INFO root fetch - processPackages [pygbop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygbop-0.1.1.5.tar.gz tmp/pygbop-0.2.0.2.tar.gz --markdown 20230706/p/pygbop/0.1.1.5-0.2.0.2/diff.md --exclude *.pyd
+[2023-07-06 04:06:20] INFO root fetch - processPackages [egorovsystem]: Downloading https://files.pythonhosted.org/packages/00/35/fe37269cffb06e6575d824ddaf8177fe6148f8249a28311c9c2b523e3260/egorovsystem-0.0.2.tar.gz
+[2023-07-06 04:06:20] INFO root fetch - processPackages [egorovsystem]: executing diffoscope
+[2023-07-06 04:06:20] INFO root fetch - processPackages [egorovsystem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/egorovsystem-0.0.1.tar.gz tmp/egorovsystem-0.0.2.tar.gz --markdown 20230706/e/egorovsystem/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-06 04:06:20] INFO root fetch - processPackages [ml-plugins-2]: Downloading https://files.pythonhosted.org/packages/8d/fb/517cd583d56e94d2d1502c3183b555fd251cb8ee48e31acdc2f53e2cdc63/ml_plugins_2-0.0.23.tar.gz
+[2023-07-06 04:06:20] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/f5/33/8bc435266e926cea52eb7df452e54c2c0657beef07580a86eae44236d88b/cdk-wordpress-0.0.99.tar.gz
+[2023-07-06 04:06:20] INFO root fetch - processPackages [pop-tools]: Downloading https://files.pythonhosted.org/packages/c3/da/6d4250a8f3ae43c2d2d22795f626903ea4601e6c31f930bd9195f953cba8/pop-tools-2023.6.0.tar.gz
+[2023-07-06 04:06:20] INFO root fetch - processPackages [desc-opt]: Downloading https://files.pythonhosted.org/packages/24/e6/53218cde5500a56f3e4641b8a91366ef4d87e1cbc217e55ad57db04632cb/desc-opt-0.9.1.tar.gz
+[2023-07-06 04:06:20] INFO root fetch - processPackages [ml-plugins-2]: executing diffoscope
+[2023-07-06 04:06:20] INFO root fetch - processPackages [ml-plugins-2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_plugins_2-0.0.22.tar.gz tmp/ml_plugins_2-0.0.23.tar.gz --markdown 20230706/m/ml-plugins-2/0.0.22-0.0.23/diff.md --exclude *.pyd
+[2023-07-06 04:06:20] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2023-07-06 04:06:20] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20230706/c/cdk-wordpress/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-06 04:06:20] INFO root fetch - processPackages [edman-web]: Downloading https://files.pythonhosted.org/packages/51/2c/b951046a0e8ace7e336abf1851ec4e742f9ce29c24b9059c49fe0d5d9501/edman_web-2023.7.6.tar.gz
+[2023-07-06 04:06:21] INFO root fetch - processPackages [edman-web]: executing diffoscope
+[2023-07-06 04:06:21] INFO root fetch - processPackages [edman-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edman_web-2023.6.5.tar.gz tmp/edman_web-2023.7.6.tar.gz --markdown 20230706/e/edman-web/2023.6.5-2023.7.6/diff.md --exclude *.pyd
+[2023-07-06 04:06:21] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.0.8.tar.gz]
+[2023-07-06 04:06:21] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.0.9.tar.gz]
+[2023-07-06 04:06:21] INFO root fetch - processPackages [llamabot]: Start processing: docker-inside
+[2023-07-06 04:06:21] INFO root fetch - main [MainThread]: End processing [llamabot]: success
+[2023-07-06 04:06:21] INFO root fetch - processPackages [desc-opt]: executing diffoscope
+[2023-07-06 04:06:21] INFO root fetch - processPackages [desc-opt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/desc-opt-0.9.0.tar.gz tmp/desc-opt-0.9.1.tar.gz --markdown 20230706/d/desc-opt/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-06 04:06:21] INFO root fetch - processPackages [pop-tools]: executing diffoscope
+[2023-07-06 04:06:21] INFO root fetch - processPackages [pop-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pop-tools-2023.3.0.tar.gz tmp/pop-tools-2023.6.0.tar.gz --markdown 20230706/p/pop-tools/2023.3.0-2023.6.0/diff.md --exclude *.pyd
+[2023-07-06 04:06:21] INFO root fetch - processPackages [pygbop]: Remove: archive file [/home/abi/fetcher/tmp/pygbop-0.1.1.5.tar.gz]
+[2023-07-06 04:06:21] INFO root fetch - processPackages [pygbop]: Remove: archive file [/home/abi/fetcher/tmp/pygbop-0.2.0.2.tar.gz]
+[2023-07-06 04:06:21] INFO root fetch - main [MainThread]: End processing [pygbop]: success
+[2023-07-06 04:06:21] INFO root fetch - processPackages [docker-inside]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-06 04:06:21] INFO root fetch - processPackages [egorovsystem]: Remove: archive file [/home/abi/fetcher/tmp/egorovsystem-0.0.1.tar.gz]
+[2023-07-06 04:06:21] INFO root fetch - processPackages [egorovsystem]: Remove: archive file [/home/abi/fetcher/tmp/egorovsystem-0.0.2.tar.gz]
+[2023-07-06 04:06:21] INFO root fetch - main [MainThread]: End processing [egorovsystem]: success
+[2023-07-06 04:06:22] INFO root fetch - processPackages [ml-plugins-2]: Remove: archive file [/home/abi/fetcher/tmp/ml_plugins_2-0.0.22.tar.gz]
+[2023-07-06 04:06:22] INFO root fetch - processPackages [ml-plugins-2]: Remove: archive file [/home/abi/fetcher/tmp/ml_plugins_2-0.0.23.tar.gz]
+[2023-07-06 04:06:22] INFO root fetch - main [MainThread]: End processing [ml-plugins-2]: success
+[2023-07-06 04:06:22] INFO root fetch - processPackages [docker-inside]: Downloading https://files.pythonhosted.org/packages/b1/b9/16203b531ee3d6d322381dea61a0f4bf8ca67ce0b55d016f57d7b0177d6b/docker-inside-0.3.8.tar.gz
+[2023-07-06 04:06:22] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.98.tar.gz]
+[2023-07-06 04:06:22] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.99.tar.gz]
+[2023-07-06 04:06:22] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2023-07-06 04:06:22] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.8.tar.gz]
+[2023-07-06 04:06:22] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
+[2023-07-06 04:06:22] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-07-06 04:06:22] INFO root fetch - processPackages [edman-web]: Remove: archive file [/home/abi/fetcher/tmp/edman_web-2023.6.5.tar.gz]
+[2023-07-06 04:06:22] INFO root fetch - processPackages [edman-web]: Remove: archive file [/home/abi/fetcher/tmp/edman_web-2023.7.6.tar.gz]
+[2023-07-06 04:06:22] INFO root fetch - main [MainThread]: End processing [edman-web]: success
+[2023-07-06 04:06:22] INFO root fetch - processPackages [docker-inside]: Downloading https://files.pythonhosted.org/packages/2d/5c/f9f5b46a8202ca96a17ab19a6e2d0590807e150a112b0605b223ae5ba4c4/docker-inside-0.3.9.tar.gz
+[2023-07-06 04:06:22] INFO root fetch - processPackages [docker-inside]: executing diffoscope
+[2023-07-06 04:06:22] INFO root fetch - processPackages [docker-inside]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docker-inside-0.3.8.tar.gz tmp/docker-inside-0.3.9.tar.gz --markdown 20230706/d/docker-inside/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-06 04:06:23] INFO root fetch - processPackages [docker-inside]: Remove: archive file [/home/abi/fetcher/tmp/docker-inside-0.3.8.tar.gz]
+[2023-07-06 04:06:23] INFO root fetch - processPackages [docker-inside]: Remove: archive file [/home/abi/fetcher/tmp/docker-inside-0.3.9.tar.gz]
+[2023-07-06 04:06:23] INFO root fetch - main [MainThread]: End processing [docker-inside]: success
+[2023-07-06 04:06:23] INFO root fetch - processPackages [pop-tools]: Remove: archive file [/home/abi/fetcher/tmp/pop-tools-2023.3.0.tar.gz]
+[2023-07-06 04:06:23] INFO root fetch - processPackages [pop-tools]: Remove: archive file [/home/abi/fetcher/tmp/pop-tools-2023.6.0.tar.gz]
+[2023-07-06 04:06:23] INFO root fetch - main [MainThread]: End processing [pop-tools]: success
+[2023-07-06 04:06:23] INFO root fetch - processPackages [envd]: Downloading https://files.pythonhosted.org/packages/6f/e2/02e4db7e4affa6e54962dd795208ba1de5a9bbca208205fca85382498bfa/envd-0.3.9.tar.gz
+[2023-07-06 04:06:25] INFO root fetch - processPackages [desc-opt]: Remove: archive file [/home/abi/fetcher/tmp/desc-opt-0.9.0.tar.gz]
+[2023-07-06 04:06:25] INFO root fetch - processPackages [desc-opt]: Remove: archive file [/home/abi/fetcher/tmp/desc-opt-0.9.1.tar.gz]
+[2023-07-06 04:06:25] INFO root fetch - main [MainThread]: End processing [desc-opt]: success
+[2023-07-06 04:06:27] INFO root fetch - processPackages [envd]: executing diffoscope
+[2023-07-06 04:06:27] INFO root fetch - processPackages [envd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/envd-0.3.8.tar.gz tmp/envd-0.3.9.tar.gz --markdown 20230706/e/envd/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-06 04:07:24] INFO root fetch - processPackages [envd]: Remove: archive file [/home/abi/fetcher/tmp/envd-0.3.8.tar.gz]
+[2023-07-06 04:07:24] INFO root fetch - processPackages [envd]: Remove: archive file [/home/abi/fetcher/tmp/envd-0.3.9.tar.gz]
+[2023-07-06 04:07:24] INFO root fetch - main [MainThread]: End processing [envd]: success
+[2023-07-06 04:07:24] INFO root fetch - main [MainThread]: Store serial: [18777278]
