@@ -11086,3 +11086,105 @@ AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
 [2023-07-06 05:53:45] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.6.9.18.40.tar.gz]
 [2023-07-06 05:53:45] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
 [2023-07-06 05:53:45] INFO root fetch - main [MainThread]: Store serial: [18778105]
+[2023-07-06 05:58:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18778105]
+[2023-07-06 05:58:55] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-06 05:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: khoj-assistant
+[2023-07-06 05:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: creatFiles
+[2023-07-06 05:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vgis-utils
+[2023-07-06 05:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wwtp-configuration
+[2023-07-06 05:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mynacode
+[2023-07-06 05:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: apache-beam
+[2023-07-06 05:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tja2fumen
+[2023-07-06 05:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lyrebird-bugit
+[2023-07-06 05:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ciocore
+[2023-07-06 05:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fnum
+[2023-07-06 05:58:55] INFO root fetch - processPackages [vgis-utils]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-06 05:58:55] INFO root fetch - processPackages [creatFiles]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-06 05:58:55] INFO root fetch - processPackages [wwtp-configuration]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-07-06 05:58:55] INFO root fetch - processPackages [fnum]: New version: [1.0.0] Old Version: [0.2.0]
+[2023-07-06 05:58:55] INFO root fetch - processPackages [tja2fumen]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-06 05:58:55] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-06 05:58:55] INFO root fetch - processPackages [lyrebird-bugit]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-06 05:58:55] INFO root fetch - processPackages [apache-beam]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-07-06 05:58:55] INFO root fetch - processPackages [vgis-utils]: Downloading https://files.pythonhosted.org/packages/c1/e5/fb9b666e1da7743012d5dffc0bb2199b5d91fec547ee459e9e04a4a2d89d/vgis_utils-1.0.4.tar.gz
+[2023-07-06 05:58:55] INFO root fetch - processPackages [khoj-assistant]: New version: [0.7.2.dev4] Old Version: [0.7.2.dev3]
+[2023-07-06 05:58:55] INFO root fetch - processPackages [ciocore]: New version: [6.3.0] Old Version: [6.1.0]
+[2023-07-06 05:58:55] INFO root fetch - processPackages [tja2fumen]: Downloading https://files.pythonhosted.org/packages/2d/db/d10a17b5df2fa3456b64ab44e1bcc2c30254d67d8c47d9a64b26a902b0f7/tja2fumen-0.3.0.tar.gz
+[2023-07-06 05:58:55] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-07-06 05:58:55] INFO root fetch - processPackages [fnum]: Downloading https://files.pythonhosted.org/packages/da/46/b35c6dee081fdf2fe9a19f1bba535de928c32b177c8b1dada6a665b3ea7c/fnum-0.2.0-py3-none-any.whl
+[2023-07-06 05:58:55] INFO root fetch - processPackages [wwtp-configuration]: Downloading https://files.pythonhosted.org/packages/c7/ec/a035ea452b8b7b68c08895a6028aa6602c604c68b7b239c0b86f756bb6ea/wwtp-configuration-0.2.3.tar.gz
+[2023-07-06 05:58:55] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/88/c6/2cb94daaed2e53ded0fb36ef4fbc2718cafb0913be3ca5a04dbbbc0b3ea2/khoj_assistant-0.7.2.dev3.tar.gz
+[2023-07-06 05:58:55] INFO root fetch - processPackages [creatFiles]: Downloading https://files.pythonhosted.org/packages/f7/f7/93980930e9819dc712eb61b34704c485c00cf6c52aaff9904bdd1a7ff711/creatFiles-0.1.1.tar.gz
+[2023-07-06 05:58:56] INFO root fetch - processPackages [apache-beam]: Downloading https://files.pythonhosted.org/packages/81/ea/11cec69a659af024f7f37e928ff533ad5e30b7a519d9982e2bb5b81fcb52/apache-beam-2.8.0.zip
+[2023-07-06 05:58:56] INFO root fetch - processPackages [lyrebird-bugit]: Downloading https://files.pythonhosted.org/packages/d3/95/eace435b1592036295ad9c2b6e0aa3e11d0bb883a7e34745dab498e8a890/lyrebird-bugit-1.9.0.tar.gz
+[2023-07-06 05:58:56] INFO root fetch - processPackages [ciocore]: Downloading https://files.pythonhosted.org/packages/86/ce/0cf6ff69001dcd166483101ec14cba03818819d6b04edd8bd36bdaa8e2b1/ciocore-6.1.0-py2.py3-none-any.whl
+[2023-07-06 05:58:56] INFO root fetch - processPackages [vgis-utils]: Downloading https://files.pythonhosted.org/packages/88/91/860c193a697af162aa1bcaeeb35e4133d03e17283989fca96af36344b049/vgis_utils-1.0.5.tar.gz
+[2023-07-06 05:58:56] INFO root fetch - processPackages [fnum]: Downloading https://files.pythonhosted.org/packages/98/a2/fb96a4071997f2e7ac96de4b095f562bcf7a9bdce40a03806b2b7f06a72a/fnum-1.0.0-py3-none-any.whl
+[2023-07-06 05:58:56] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-07-06 05:58:56] INFO root fetch - processPackages [tja2fumen]: Downloading https://files.pythonhosted.org/packages/ff/1e/23cbd0b51cc9bf8c226d70337a19d3b3890dbade2a58447fbbd1798032ce/tja2fumen-0.4.0.tar.gz
+[2023-07-06 05:58:56] INFO root fetch - processPackages [wwtp-configuration]: Downloading https://files.pythonhosted.org/packages/36/b2/e6b99ded0ab6e5fc7da281a22bcb4a53af92ea750e65aaba5864f86d39ae/wwtp-configuration-0.3.0.tar.gz
+[2023-07-06 05:58:56] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-07-06 05:58:56] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230706/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-06 05:58:56] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/73/aa/033d52c8171d9ef20ea673de1753232bb27beb74b259991bcceeabea9485/khoj_assistant-0.7.2.dev4.tar.gz
+[2023-07-06 05:58:56] INFO root fetch - processPackages [fnum]: executing diffoscope
+[2023-07-06 05:58:56] INFO root fetch - processPackages [fnum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fnum-0.2.0-py3-none-any.whl.zip tmp/fnum-1.0.0-py3-none-any.whl.zip --markdown 20230706/f/fnum/0.2.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-06 05:58:56] INFO root fetch - processPackages [vgis-utils]: executing diffoscope
+[2023-07-06 05:58:56] INFO root fetch - processPackages [vgis-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgis_utils-1.0.4.tar.gz tmp/vgis_utils-1.0.5.tar.gz --markdown 20230706/v/vgis-utils/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-06 05:58:56] INFO root fetch - processPackages [creatFiles]: Downloading https://files.pythonhosted.org/packages/7f/ad/d3a91c51ee32d7d54493b2f5c4265d8363d5149b42a90bee5a9f6ffed7f1/creatFiles-0.1.2.tar.gz
+[2023-07-06 05:58:56] INFO root fetch - processPackages [tja2fumen]: executing diffoscope
+[2023-07-06 05:58:56] INFO root fetch - processPackages [tja2fumen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tja2fumen-0.3.0.tar.gz tmp/tja2fumen-0.4.0.tar.gz --markdown 20230706/t/tja2fumen/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-06 05:58:56] INFO root fetch - processPackages [wwtp-configuration]: executing diffoscope
+[2023-07-06 05:58:56] INFO root fetch - processPackages [wwtp-configuration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwtp-configuration-0.2.3.tar.gz tmp/wwtp-configuration-0.3.0.tar.gz --markdown 20230706/w/wwtp-configuration/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-07-06 05:58:56] INFO root fetch - processPackages [ciocore]: Downloading https://files.pythonhosted.org/packages/b9/cf/6abcf652c3ae99b2e6721b50faae971f5fbc3c49ee7beefbc084ac09e948/ciocore-6.3.0-py2.py3-none-any.whl
+[2023-07-06 05:58:56] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-07-06 05:58:56] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.7.2.dev3.tar.gz tmp/khoj_assistant-0.7.2.dev4.tar.gz --markdown 20230706/k/khoj-assistant/0.7.2.dev3-0.7.2.dev4/diff.md --exclude *.pyd
+[2023-07-06 05:58:56] INFO root fetch - processPackages [creatFiles]: executing diffoscope
+[2023-07-06 05:58:56] INFO root fetch - processPackages [creatFiles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/creatFiles-0.1.1.tar.gz tmp/creatFiles-0.1.2.tar.gz --markdown 20230706/c/creatFiles/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-06 05:58:56] INFO root fetch - processPackages [ciocore]: executing diffoscope
+[2023-07-06 05:58:56] INFO root fetch - processPackages [apache-beam]: Downloading https://files.pythonhosted.org/packages/02/8f/a9cd498e0e576c8537e65c4e3aacbffe4b3dc9a189287cd8a91c93784308/apache-beam-2.9.0.zip
+[2023-07-06 05:58:56] INFO root fetch - processPackages [ciocore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ciocore-6.1.0-py2.py3-none-any.whl.zip tmp/ciocore-6.3.0-py2.py3-none-any.whl.zip --markdown 20230706/c/ciocore/6.1.0-6.3.0/diff.md --exclude *.pyd
+[2023-07-06 05:58:56] INFO root fetch - processPackages [lyrebird-bugit]: Downloading https://files.pythonhosted.org/packages/e5/f0/e11fd63cc79d9b3c22836e7848a7f61dc72450e691ccf4c287491a1fa9ee/lyrebird-bugit-1.9.1.tar.gz
+[2023-07-06 05:58:57] INFO root fetch - processPackages [lyrebird-bugit]: executing diffoscope
+[2023-07-06 05:58:57] INFO root fetch - processPackages [lyrebird-bugit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyrebird-bugit-1.9.0.tar.gz tmp/lyrebird-bugit-1.9.1.tar.gz --markdown 20230706/l/lyrebird-bugit/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-06 05:58:57] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-07-06 05:58:57] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-07-06 05:58:57] INFO root fetch - processPackages [mynacode]: Start processing: nopasaran
+[2023-07-06 05:58:57] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-07-06 05:58:57] INFO root fetch - processPackages [nopasaran]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-06 05:58:57] INFO root fetch - processPackages [vgis-utils]: Remove: archive file [/home/abi/fetcher/tmp/vgis_utils-1.0.4.tar.gz]
+[2023-07-06 05:58:57] INFO root fetch - processPackages [vgis-utils]: Remove: archive file [/home/abi/fetcher/tmp/vgis_utils-1.0.5.tar.gz]
+[2023-07-06 05:58:57] INFO root fetch - main [MainThread]: End processing [vgis-utils]: success
+[2023-07-06 05:58:57] INFO root fetch - processPackages [fnum]: Remove: archive file [/home/abi/fetcher/tmp/fnum-0.2.0-py3-none-any.whl.zip]
+[2023-07-06 05:58:57] INFO root fetch - processPackages [fnum]: Remove: archive file [/home/abi/fetcher/tmp/fnum-1.0.0-py3-none-any.whl.zip]
+[2023-07-06 05:58:57] INFO root fetch - main [MainThread]: End processing [fnum]: success
+[2023-07-06 05:58:58] INFO root fetch - processPackages [nopasaran]: Downloading https://files.pythonhosted.org/packages/d4/5e/18afa197a103977418f0b0bf5a431bd0723003ced93554ad84b9050c9553/nopasaran-0.2.2.tar.gz
+[2023-07-06 05:58:58] INFO root fetch - processPackages [tja2fumen]: Remove: archive file [/home/abi/fetcher/tmp/tja2fumen-0.3.0.tar.gz]
+[2023-07-06 05:58:58] INFO root fetch - processPackages [tja2fumen]: Remove: archive file [/home/abi/fetcher/tmp/tja2fumen-0.4.0.tar.gz]
+[2023-07-06 05:58:58] INFO root fetch - main [MainThread]: End processing [tja2fumen]: success
+[2023-07-06 05:58:58] INFO root fetch - processPackages [creatFiles]: Remove: archive file [/home/abi/fetcher/tmp/creatFiles-0.1.1.tar.gz]
+[2023-07-06 05:58:58] INFO root fetch - processPackages [wwtp-configuration]: Remove: archive file [/home/abi/fetcher/tmp/wwtp-configuration-0.2.3.tar.gz]
+[2023-07-06 05:58:58] INFO root fetch - processPackages [creatFiles]: Remove: archive file [/home/abi/fetcher/tmp/creatFiles-0.1.2.tar.gz]
+[2023-07-06 05:58:58] INFO root fetch - processPackages [wwtp-configuration]: Remove: archive file [/home/abi/fetcher/tmp/wwtp-configuration-0.3.0.tar.gz]
+[2023-07-06 05:58:58] INFO root fetch - main [MainThread]: End processing [creatFiles]: success
+[2023-07-06 05:58:58] INFO root fetch - main [MainThread]: End processing [wwtp-configuration]: success
+[2023-07-06 05:58:58] INFO root fetch - processPackages [nopasaran]: Downloading https://files.pythonhosted.org/packages/ba/11/7b6a2fb8a0a7cd91048da3f57d2218bee8e814a228326604d0265a51ce80/nopasaran-0.2.3.tar.gz
+[2023-07-06 05:58:58] INFO root fetch - processPackages [ciocore]: Remove: archive file [/home/abi/fetcher/tmp/ciocore-6.1.0-py2.py3-none-any.whl.zip]
+[2023-07-06 05:58:58] INFO root fetch - processPackages [ciocore]: Remove: archive file [/home/abi/fetcher/tmp/ciocore-6.3.0-py2.py3-none-any.whl.zip]
+[2023-07-06 05:58:58] INFO root fetch - main [MainThread]: End processing [ciocore]: success
+[2023-07-06 05:58:58] INFO root fetch - processPackages [apache-beam]: executing diffoscope
+[2023-07-06 05:58:58] INFO root fetch - processPackages [apache-beam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-beam-2.8.0.zip tmp/apache-beam-2.9.0.zip --markdown 20230706/a/apache-beam/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-07-06 05:58:58] INFO root fetch - processPackages [nopasaran]: executing diffoscope
+[2023-07-06 05:58:58] INFO root fetch - processPackages [nopasaran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nopasaran-0.2.2.tar.gz tmp/nopasaran-0.2.3.tar.gz --markdown 20230706/n/nopasaran/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-06 05:58:58] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.7.2.dev3.tar.gz]
+[2023-07-06 05:58:58] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.7.2.dev4.tar.gz]
+[2023-07-06 05:58:58] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-07-06 05:58:59] INFO root fetch - processPackages [nopasaran]: Remove: archive file [/home/abi/fetcher/tmp/nopasaran-0.2.2.tar.gz]
+[2023-07-06 05:58:59] INFO root fetch - processPackages [nopasaran]: Remove: archive file [/home/abi/fetcher/tmp/nopasaran-0.2.3.tar.gz]
+[2023-07-06 05:58:59] INFO root fetch - main [MainThread]: End processing [nopasaran]: success
+[2023-07-06 05:59:00] INFO root fetch - processPackages [lyrebird-bugit]: Remove: archive file [/home/abi/fetcher/tmp/lyrebird-bugit-1.9.0.tar.gz]
+[2023-07-06 05:59:00] INFO root fetch - processPackages [lyrebird-bugit]: Remove: archive file [/home/abi/fetcher/tmp/lyrebird-bugit-1.9.1.tar.gz]
+[2023-07-06 05:59:00] INFO root fetch - main [MainThread]: End processing [lyrebird-bugit]: success
+[2023-07-06 05:59:02] INFO root fetch - processPackages [apache-beam]: Remove: archive file [/home/abi/fetcher/tmp/apache-beam-2.8.0.zip]
+[2023-07-06 05:59:02] INFO root fetch - processPackages [apache-beam]: Remove: archive file [/home/abi/fetcher/tmp/apache-beam-2.9.0.zip]
+[2023-07-06 05:59:02] INFO root fetch - main [MainThread]: End processing [apache-beam]: success
+[2023-07-06 05:59:02] INFO root fetch - main [MainThread]: Store serial: [18778163]
