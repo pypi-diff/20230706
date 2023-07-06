@@ -15716,3 +15716,155 @@ AssertionError: tmp/SELDOMpy-0.8.4.2.tar.gz does not exist
 [2023-07-06 10:32:08] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev9.tar.gz]
 [2023-07-06 10:32:08] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
 [2023-07-06 10:32:08] INFO root fetch - main [MainThread]: Store serial: [18780110]
+[2023-07-06 10:37:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18780110]
+[2023-07-06 10:37:17] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-07-06 10:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: karaoke-video-generator
+[2023-07-06 10:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mpqobdt
+[2023-07-06 10:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: grassmanntn
+[2023-07-06 10:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly
+[2023-07-06 10:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langchain-serve
+[2023-07-06 10:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: savant-rs-etcd-dynamic-state
+[2023-07-06 10:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dc-index
+[2023-07-06 10:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: moonwiki
+[2023-07-06 10:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: orwynn
+[2023-07-06 10:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyxui
+[2023-07-06 10:37:18] INFO root fetch - processPackages [grassmanntn]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-07-06 10:37:18] WARNING root fetch - processPackages [mpqobdt]: Skipping, unable to determine old version
+[2023-07-06 10:37:18] INFO root fetch - processPackages [mpqobdt]: Start processing: forecastmanager
+[2023-07-06 10:37:18] INFO root fetch - main [MainThread]: End processing [mpqobdt] error
+[2023-07-06 10:37:18] WARNING root fetch - processPackages [karaoke-video-generator]: Skipping, unable to determine old version
+[2023-07-06 10:37:18] INFO root fetch - processPackages [karaoke-video-generator]: Start processing: python-cyborgclient
+[2023-07-06 10:37:18] INFO root fetch - main [MainThread]: End processing [karaoke-video-generator] error
+[2023-07-06 10:37:18] INFO root fetch - processPackages [orwynn]: New version: [1.0.0b7] Old Version: [1.0.0b6]
+[2023-07-06 10:37:18] INFO root fetch - processPackages [moonwiki]: New version: [2023.7.6.3] Old Version: [2023.7.6.2]
+[2023-07-06 10:37:18] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-07-06 10:37:18] WARNING root fetch - processPackages [dc-index]: Skipping, unable to determine old version
+[2023-07-06 10:37:18] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: New version: [0.1.34] Old Version: [0.1.33]
+[2023-07-06 10:37:18] INFO root fetch - processPackages [dc-index]: Start processing: sicdeploy
+[2023-07-06 10:37:18] INFO root fetch - main [MainThread]: End processing [dc-index] error
+[2023-07-06 10:37:18] INFO root fetch - processPackages [pyxui]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-07-06 10:37:18] INFO root fetch - processPackages [python-cyborgclient]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-07-06 10:37:18] INFO root fetch - processPackages [forecastmanager]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-06 10:37:18] WARNING root fetch - processPackages [sicdeploy]: Skipping, unable to determine old version
+[2023-07-06 10:37:18] INFO root fetch - processPackages [sicdeploy]: Start processing: dithering
+[2023-07-06 10:37:18] INFO root fetch - main [MainThread]: End processing [sicdeploy] error
+[2023-07-06 10:37:18] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230706] Old Version: [2.14.0.dev20230705]
+[2023-07-06 10:37:18] INFO root fetch - processPackages [grassmanntn]: Downloading https://files.pythonhosted.org/packages/b6/ba/c174ec5efa0c414832dcb34a394dbca2a6e254fd3b9a5f1a676c67abad12/grassmanntn-1.1.6.tar.gz
+[2023-07-06 10:37:18] INFO root fetch - processPackages [orwynn]: Downloading https://files.pythonhosted.org/packages/50/79/f9841fa7012036282fb19e1b8a3ad2de8d059adf4b60a08778d2b3dc91cb/orwynn-1.0.0b6.tar.gz
+[2023-07-06 10:37:18] INFO root fetch - processPackages [dithering]: New version: [0.1.19] Old Version: [0.1.18]
+[2023-07-06 10:37:18] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/b7/44/08a32d4d65d7aed7bf8a2e8d59c7c72ac5c5538be8c3e735a588d5ccf69b/langchain-serve-0.0.9.dev22.tar.gz
+[2023-07-06 10:37:18] INFO root fetch - processPackages [moonwiki]: Downloading https://files.pythonhosted.org/packages/09/c8/7a6b6c4b3568b573c89e072fd6984dbd3b7d411796327e793e0cbdb11fd1/moonwiki-2023.7.6.2.tar.gz
+[2023-07-06 10:37:18] INFO root fetch - processPackages [forecastmanager]: Downloading https://files.pythonhosted.org/packages/28/a5/a2b0021e8b6e301f623b24a7898c93a0aea7b2b539ec032c22d24c2ea99f/forecastmanager-0.0.5.tar.gz
+[2023-07-06 10:37:18] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Downloading https://files.pythonhosted.org/packages/2a/be/c27f4edcf7e0af50ddb098da32352d63fd9aad22d3d5a97b4e93961d9f67/savant_rs_etcd_dynamic_state-0.1.33-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-06 10:37:18] INFO root fetch - processPackages [python-cyborgclient]: Downloading https://files.pythonhosted.org/packages/5d/58/b3425aa6239c066752337f8072e785ff7b12a53fb719f7a32169eac6e392/python-cyborgclient-2.1.0.tar.gz
+[2023-07-06 10:37:18] INFO root fetch - processPackages [pyxui]: Downloading https://files.pythonhosted.org/packages/4f/aa/f4649fafd3e900181ce6701ab8aab00226a3e5b480f11c911591195718f7/pyxui-0.0.7.tar.gz
+[2023-07-06 10:37:18] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/95/88/51999b3cf2309b2e376a6045cd1240abb8fa6d3be17125f6fd43f7249542/tf_nightly-2.14.0.dev20230705-cp39-cp39-win_amd64.whl
+[2023-07-06 10:37:18] INFO root fetch - processPackages [dithering]: Downloading https://files.pythonhosted.org/packages/67/15/bbf84c041cfe9dade9dd86152c92583993e81698bb685eb4e99f9de44bfb/dithering-0.1.18.tar.gz
+[2023-07-06 10:37:18] INFO root fetch - processPackages [orwynn]: Downloading https://files.pythonhosted.org/packages/9a/1c/eed34ff21dbbaa472f6a425953eff9eb854c248e7a32cfd321472b4beac3/orwynn-1.0.0b7.tar.gz
+[2023-07-06 10:37:19] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/51/a3/7492d3c89e7181c3fb783593129a3de459021071c2e7075f0050494b2de4/langchain-serve-0.0.9.dev9.tar.gz
+[2023-07-06 10:37:19] INFO root fetch - processPackages [moonwiki]: Downloading https://files.pythonhosted.org/packages/28/2a/d179fbcdf8c90a0b1e0f8a90815b5261b7c79d954a416f80fa535c3aea21/moonwiki-2023.7.6.3.tar.gz
+[2023-07-06 10:37:19] INFO root fetch - processPackages [grassmanntn]: Downloading https://files.pythonhosted.org/packages/50/f9/dc25d5644e74ea6279a6d95bc239bc839b0768f4edf9c093c5a4ec2c6ea3/grassmanntn-1.1.7.tar.gz
+[2023-07-06 10:37:19] INFO root fetch - processPackages [pyxui]: Downloading https://files.pythonhosted.org/packages/0c/33/723ec677b4c8c8db2d4011e6d0bde6eec099b9861d0d18aeeefcfa253623/pyxui-0.0.9.tar.gz
+[2023-07-06 10:37:19] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/73/f4/c8abd06081f8a83ec00789c52c5c2772874847671f7c4aa9df818c937107/tf_nightly-2.14.0.dev20230706-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-06 10:37:19] INFO root fetch - processPackages [forecastmanager]: Downloading https://files.pythonhosted.org/packages/ed/29/70b4521a829a326e626715d6cf06db2395d0557842c5a8adac462bbf45a5/forecastmanager-0.0.6.tar.gz
+[2023-07-06 10:37:19] INFO root fetch - processPackages [moonwiki]: executing diffoscope
+[2023-07-06 10:37:19] INFO root fetch - processPackages [moonwiki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moonwiki-2023.7.6.2.tar.gz tmp/moonwiki-2023.7.6.3.tar.gz --markdown 20230706/m/moonwiki/2023.7.6.2-2023.7.6.3/diff.md --exclude *.pyd
+[2023-07-06 10:37:19] INFO root fetch - processPackages [orwynn]: executing diffoscope
+[2023-07-06 10:37:19] INFO root fetch - processPackages [orwynn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orwynn-1.0.0b6.tar.gz tmp/orwynn-1.0.0b7.tar.gz --markdown 20230706/o/orwynn/1.0.0b6-1.0.0b7/diff.md --exclude *.pyd
+[2023-07-06 10:37:19] INFO root fetch - processPackages [grassmanntn]: executing diffoscope
+[2023-07-06 10:37:19] INFO root fetch - processPackages [grassmanntn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grassmanntn-1.1.6.tar.gz tmp/grassmanntn-1.1.7.tar.gz --markdown 20230706/g/grassmanntn/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-07-06 10:37:19] INFO root fetch - processPackages [python-cyborgclient]: Downloading https://files.pythonhosted.org/packages/5a/b2/1699bbf1211813c3bca451005134565a3e0fae71d214d38b05f3dbebd2af/python-cyborgclient-2.2.0.tar.gz
+[2023-07-06 10:37:19] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-07-06 10:37:19] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230706/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-07-06 10:37:19] INFO root fetch - processPackages [dithering]: Downloading https://files.pythonhosted.org/packages/f0/a9/c8bd93b1ab32e32313972a66f8eba85da4ad409c60d3a40b3cc3aa124b9e/dithering-0.1.19-pp310-pypy310_pp73-manylinux_2_5_i686.manylinux1_i686.whl
+[2023-07-06 10:37:19] WARNING root fetch - processPackages [tf-nightly]: Skipping package: exceeds size limit 491068577>=10485760
+[2023-07-06 10:37:19] INFO root fetch - processPackages [tf-nightly]: Start processing: oidc-drf
+[2023-07-06 10:37:19] INFO root fetch - main [MainThread]: End processing [tf-nightly] error
+[2023-07-06 10:37:19] INFO root fetch - processPackages [forecastmanager]: executing diffoscope
+[2023-07-06 10:37:19] INFO root fetch - processPackages [forecastmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forecastmanager-0.0.5.tar.gz tmp/forecastmanager-0.0.6.tar.gz --markdown 20230706/f/forecastmanager/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-06 10:37:19] INFO root fetch - processPackages [pyxui]: executing diffoscope
+[2023-07-06 10:37:19] INFO root fetch - processPackages [pyxui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxui-0.0.7.tar.gz tmp/pyxui-0.0.9.tar.gz --markdown 20230706/p/pyxui/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 10:37:19] INFO root fetch - processPackages [oidc-drf]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-06 10:37:19] INFO root fetch - processPackages [python-cyborgclient]: executing diffoscope
+[2023-07-06 10:37:19] INFO root fetch - processPackages [python-cyborgclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-cyborgclient-2.1.0.tar.gz tmp/python-cyborgclient-2.2.0.tar.gz --markdown 20230706/p/python-cyborgclient/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-07-06 10:37:19] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/36/75/0e56487388828f40b0a8d401716a3cd255d3085e731e6ca3745ab28a86d2/oidc_drf-1.2.8.tar.gz
+[2023-07-06 10:37:19] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/d7/de/e7417f81d3a2bb32b6f2acb0044fcadd08723cefbe4019f55c809d6c5afe/oidc_drf-1.2.9.tar.gz
+[2023-07-06 10:37:20] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Downloading https://files.pythonhosted.org/packages/bc/d6/2e5ecdf3dc84b6e94cc2fccde5b288e1f5cf5f1b2bef0c2aeb6d6655532b/savant_rs_etcd_dynamic_state-0.1.34-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-06 10:37:20] INFO root fetch - processPackages [oidc-drf]: executing diffoscope
+[2023-07-06 10:37:20] INFO root fetch - processPackages [oidc-drf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oidc_drf-1.2.8.tar.gz tmp/oidc_drf-1.2.9.tar.gz --markdown 20230706/o/oidc-drf/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-06 10:37:20] INFO root fetch - processPackages [moonwiki]: Remove: archive file [/home/abi/fetcher/tmp/moonwiki-2023.7.6.2.tar.gz]
+[2023-07-06 10:37:20] INFO root fetch - processPackages [moonwiki]: Remove: archive file [/home/abi/fetcher/tmp/moonwiki-2023.7.6.3.tar.gz]
+[2023-07-06 10:37:20] INFO root fetch - processPackages [moonwiki]: Start processing: bdpycmd
+[2023-07-06 10:37:20] INFO root fetch - main [MainThread]: End processing [moonwiki]: success
+[2023-07-06 10:37:20] INFO root fetch - processPackages [bdpycmd]: New version: [1.3.5] Old Version: [1.3.18]
+[2023-07-06 10:37:20] INFO root fetch - processPackages [bdpycmd]: Downloading https://files.pythonhosted.org/packages/5d/8d/04f126a7b1656e520b27c06febe43ad8e4dd90491c49dca80a2fe1c6cda5/bdpycmd-1.3.18.tar.gz
+[2023-07-06 10:37:20] INFO root fetch - processPackages [pyxui]: Remove: archive file [/home/abi/fetcher/tmp/pyxui-0.0.7.tar.gz]
+[2023-07-06 10:37:20] INFO root fetch - processPackages [pyxui]: Remove: archive file [/home/abi/fetcher/tmp/pyxui-0.0.9.tar.gz]
+[2023-07-06 10:37:20] INFO root fetch - processPackages [pyxui]: Start processing: datawhispers
+[2023-07-06 10:37:20] INFO root fetch - main [MainThread]: End processing [pyxui]: success
+[2023-07-06 10:37:20] INFO root fetch - processPackages [grassmanntn]: Remove: archive file [/home/abi/fetcher/tmp/grassmanntn-1.1.6.tar.gz]
+[2023-07-06 10:37:20] INFO root fetch - processPackages [grassmanntn]: Remove: archive file [/home/abi/fetcher/tmp/grassmanntn-1.1.7.tar.gz]
+[2023-07-06 10:37:21] INFO root fetch - processPackages [grassmanntn]: Start processing: octavia-lib
+[2023-07-06 10:37:21] INFO root fetch - main [MainThread]: End processing [grassmanntn]: success
+[2023-07-06 10:37:21] INFO root fetch - processPackages [datawhispers]: New version: [0.2.8.6] Old Version: [0.2.8.5]
+[2023-07-06 10:37:21] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: executing diffoscope
+[2023-07-06 10:37:21] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/savant_rs_etcd_dynamic_state-0.1.33-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/savant_rs_etcd_dynamic_state-0.1.34-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230706/s/savant-rs-etcd-dynamic-state/0.1.33-0.1.34/diff.md --exclude *.pyd
+[2023-07-06 10:37:21] INFO root fetch - processPackages [dithering]: executing diffoscope
+[2023-07-06 10:37:21] INFO root fetch - processPackages [dithering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dithering-0.1.18.tar.gz tmp/dithering-0.1.19-pp310-pypy310_pp73-manylinux_2_5_i686.manylinux1_i686.whl.zip --markdown 20230706/d/dithering/0.1.18-0.1.19/diff.md --exclude *.pyd
+[2023-07-06 10:37:21] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev22.tar.gz]
+[2023-07-06 10:37:21] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev9.tar.gz]
+[2023-07-06 10:37:21] INFO root fetch - processPackages [langchain-serve]: Start processing: ppxf
+[2023-07-06 10:37:21] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-07-06 10:37:21] INFO root fetch - processPackages [octavia-lib]: New version: [3.3.0] Old Version: [3.2.0]
+[2023-07-06 10:37:21] INFO root fetch - processPackages [forecastmanager]: Remove: archive file [/home/abi/fetcher/tmp/forecastmanager-0.0.5.tar.gz]
+[2023-07-06 10:37:21] INFO root fetch - processPackages [forecastmanager]: Remove: archive file [/home/abi/fetcher/tmp/forecastmanager-0.0.6.tar.gz]
+[2023-07-06 10:37:21] INFO root fetch - processPackages [forecastmanager]: Start processing: sicdeploy
+[2023-07-06 10:37:21] INFO root fetch - main [MainThread]: End processing [forecastmanager]: success
+[2023-07-06 10:37:21] INFO root fetch - processPackages [ppxf]: New version: [8.2.5] Old Version: [8.2.4]
+[2023-07-06 10:37:21] INFO root fetch - processPackages [bdpycmd]: Downloading https://files.pythonhosted.org/packages/06/2e/64a0dc4c6af3c9a8b101f9890c412405d76cb89759707de9a5493a9d37af/bdpycmd-1.3.5.tar.gz
+[2023-07-06 10:37:21] INFO root fetch - processPackages [sicdeploy]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-06 10:37:21] INFO root fetch - processPackages [datawhispers]: Downloading https://files.pythonhosted.org/packages/79/6c/bd7e86db513b9d77a37cc60a5d7272b5cc022c803eadd6c0d73d5f50d438/datawhispers-0.2.8.5.tar.gz
+[2023-07-06 10:37:21] INFO root fetch - processPackages [octavia-lib]: Downloading https://files.pythonhosted.org/packages/3b/11/4805b547af0f5bce0cd23d4b49ddfa37161e4ffd4348e1d274d823e19192/octavia-lib-3.2.0.tar.gz
+[2023-07-06 10:37:21] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.2.8.tar.gz]
+[2023-07-06 10:37:21] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.2.9.tar.gz]
+[2023-07-06 10:37:21] INFO root fetch - processPackages [bdpycmd]: executing diffoscope
+[2023-07-06 10:37:21] INFO root fetch - processPackages [bdpycmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdpycmd-1.3.18.tar.gz tmp/bdpycmd-1.3.5.tar.gz --markdown 20230706/b/bdpycmd/1.3.18-1.3.5/diff.md --exclude *.pyd
+[2023-07-06 10:37:21] INFO root fetch - main [MainThread]: End processing [oidc-drf]: success
+[2023-07-06 10:37:21] INFO root fetch - processPackages [python-cyborgclient]: Remove: archive file [/home/abi/fetcher/tmp/python-cyborgclient-2.1.0.tar.gz]
+[2023-07-06 10:37:21] INFO root fetch - processPackages [python-cyborgclient]: Remove: archive file [/home/abi/fetcher/tmp/python-cyborgclient-2.2.0.tar.gz]
+[2023-07-06 10:37:21] INFO root fetch - main [MainThread]: End processing [python-cyborgclient]: success
+[2023-07-06 10:37:21] INFO root fetch - processPackages [ppxf]: Downloading https://files.pythonhosted.org/packages/22/cd/356fdaabb3b4f5e597ecda0334e58e299a62541c313b82e282f4efacbbdb/ppxf-8.2.4.tar.gz
+[2023-07-06 10:37:21] INFO root fetch - processPackages [sicdeploy]: Downloading https://files.pythonhosted.org/packages/5d/a2/2dec4c958cd55c2fddaeb4aaddb8681bda21f8256f092d9f706e6c00b2fc/sicdeploy-0.1.2.tar.gz
+[2023-07-06 10:37:21] WARNING root fetch - processPackages [ppxf]: Skipping package: exceeds size limit 25342458>=10485760
+[2023-07-06 10:37:21] INFO root fetch - main [MainThread]: End processing [ppxf] error
+[2023-07-06 10:37:21] INFO root fetch - processPackages [datawhispers]: Downloading https://files.pythonhosted.org/packages/b3/43/521e4b1e84ed7afdadef4638f0764580d5552df661abe218934629b024d8/datawhispers-0.2.8.6.tar.gz
+[2023-07-06 10:37:21] INFO root fetch - processPackages [orwynn]: Remove: archive file [/home/abi/fetcher/tmp/orwynn-1.0.0b6.tar.gz]
+[2023-07-06 10:37:21] INFO root fetch - processPackages [orwynn]: Remove: archive file [/home/abi/fetcher/tmp/orwynn-1.0.0b7.tar.gz]
+[2023-07-06 10:37:21] INFO root fetch - main [MainThread]: End processing [orwynn]: success
+[2023-07-06 10:37:21] INFO root fetch - processPackages [datawhispers]: executing diffoscope
+[2023-07-06 10:37:21] INFO root fetch - processPackages [datawhispers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datawhispers-0.2.8.5.tar.gz tmp/datawhispers-0.2.8.6.tar.gz --markdown 20230706/d/datawhispers/0.2.8.5-0.2.8.6/diff.md --exclude *.pyd
+[2023-07-06 10:37:21] INFO root fetch - processPackages [octavia-lib]: Downloading https://files.pythonhosted.org/packages/bd/8e/3ed31e7d74ac48734ec7e4860c33d99254f061253966eb0e70f2b61a5327/octavia-lib-3.3.0.tar.gz
+[2023-07-06 10:37:22] INFO root fetch - processPackages [sicdeploy]: Downloading https://files.pythonhosted.org/packages/a2/70/9b0f34d15a4f43b031650392535ebb5636497cb27044d9cc5fa8c10633de/sicdeploy-0.1.3.tar.gz
+[2023-07-06 10:37:22] INFO root fetch - processPackages [octavia-lib]: executing diffoscope
+[2023-07-06 10:37:22] INFO root fetch - processPackages [octavia-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octavia-lib-3.2.0.tar.gz tmp/octavia-lib-3.3.0.tar.gz --markdown 20230706/o/octavia-lib/3.2.0-3.3.0/diff.md --exclude *.pyd
+[2023-07-06 10:37:22] INFO root fetch - processPackages [dithering]: Remove: archive file [/home/abi/fetcher/tmp/dithering-0.1.18.tar.gz]
+[2023-07-06 10:37:22] INFO root fetch - processPackages [dithering]: Remove: archive file [/home/abi/fetcher/tmp/dithering-0.1.19-pp310-pypy310_pp73-manylinux_2_5_i686.manylinux1_i686.whl.zip]
+[2023-07-06 10:37:22] INFO root fetch - main [MainThread]: End processing [dithering]: success
+[2023-07-06 10:37:22] INFO root fetch - processPackages [sicdeploy]: executing diffoscope
+[2023-07-06 10:37:22] INFO root fetch - processPackages [sicdeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sicdeploy-0.1.2.tar.gz tmp/sicdeploy-0.1.3.tar.gz --markdown 20230706/s/sicdeploy/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-06 10:37:22] INFO root fetch - processPackages [bdpycmd]: Remove: archive file [/home/abi/fetcher/tmp/bdpycmd-1.3.18.tar.gz]
+[2023-07-06 10:37:22] INFO root fetch - processPackages [bdpycmd]: Remove: archive file [/home/abi/fetcher/tmp/bdpycmd-1.3.5.tar.gz]
+[2023-07-06 10:37:22] INFO root fetch - main [MainThread]: End processing [bdpycmd]: success
+[2023-07-06 10:37:22] INFO root fetch - processPackages [datawhispers]: Remove: archive file [/home/abi/fetcher/tmp/datawhispers-0.2.8.5.tar.gz]
+[2023-07-06 10:37:22] INFO root fetch - processPackages [datawhispers]: Remove: archive file [/home/abi/fetcher/tmp/datawhispers-0.2.8.6.tar.gz]
+[2023-07-06 10:37:22] INFO root fetch - main [MainThread]: End processing [datawhispers]: success
+[2023-07-06 10:37:23] INFO root fetch - processPackages [sicdeploy]: Remove: archive file [/home/abi/fetcher/tmp/sicdeploy-0.1.2.tar.gz]
+[2023-07-06 10:37:23] INFO root fetch - processPackages [sicdeploy]: Remove: archive file [/home/abi/fetcher/tmp/sicdeploy-0.1.3.tar.gz]
+[2023-07-06 10:37:23] INFO root fetch - main [MainThread]: End processing [sicdeploy]: success
+[2023-07-06 10:37:23] INFO root fetch - processPackages [octavia-lib]: Remove: archive file [/home/abi/fetcher/tmp/octavia-lib-3.2.0.tar.gz]
+[2023-07-06 10:37:23] INFO root fetch - processPackages [octavia-lib]: Remove: archive file [/home/abi/fetcher/tmp/octavia-lib-3.3.0.tar.gz]
+[2023-07-06 10:37:23] INFO root fetch - main [MainThread]: End processing [octavia-lib]: success
+[2023-07-06 10:38:39] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs_etcd_dynamic_state-0.1.33-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-06 10:38:39] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs_etcd_dynamic_state-0.1.34-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-06 10:38:39] INFO root fetch - main [MainThread]: End processing [savant-rs-etcd-dynamic-state]: success
+[2023-07-06 10:38:39] INFO root fetch - main [MainThread]: Store serial: [18780241]
