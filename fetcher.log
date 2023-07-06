@@ -17152,3 +17152,190 @@ AssertionError: tmp/termkit-0.2.0a4.tar.gz does not exist
 [2023-07-06 11:16:23] INFO root fetch - processPackages [pmx-biobb]: Remove: archive file [/home/abi/fetcher/tmp/pmx_biobb-4.1.3.tar.gz]
 [2023-07-06 11:16:23] INFO root fetch - main [MainThread]: End processing [pmx-biobb]: success
 [2023-07-06 11:16:23] INFO root fetch - main [MainThread]: Store serial: [18780821]
+[2023-07-06 11:21:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18780821]
+[2023-07-06 11:21:32] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-07-06 11:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: muffin
+[2023-07-06 11:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyams-scheduler
+[2023-07-06 11:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mktxp
+[2023-07-06 11:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xinfernce
+[2023-07-06 11:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nvfuser-cu118
+[2023-07-06 11:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nvfuser-cu117
+[2023-07-06 11:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: repo-test-sdk
+[2023-07-06 11:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: numpy-io
+[2023-07-06 11:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: test-bench-control
+[2023-07-06 11:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wiptools
+[2023-07-06 11:21:33] INFO root fetch - processPackages [wiptools]: New version: [1.2.9.dev0] Old Version: [1.2.8.dev0]
+[2023-07-06 11:21:33] INFO root fetch - processPackages [repo-test-sdk]: New version: [7.7.7] Old Version: [2.3.6]
+[2023-07-06 11:21:33] WARNING root fetch - processPackages [xinfernce]: Skipping, unable to determine old version
+[2023-07-06 11:21:33] INFO root fetch - processPackages [xinfernce]: Start processing: fast-checkers
+[2023-07-06 11:21:33] INFO root fetch - main [MainThread]: End processing [xinfernce] error
+[2023-07-06 11:21:33] INFO root fetch - processPackages [test-bench-control]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-06 11:21:33] INFO root fetch - processPackages [numpy-io]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-06 11:21:33] INFO root fetch - processPackages [muffin]: New version: [0.99.1] Old Version: [0.98.8]
+[2023-07-06 11:21:33] INFO root fetch - processPackages [nvfuser-cu117]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-07-06 11:21:33] INFO root fetch - processPackages [mktxp]: New version: [1.2.1] Old Version: [1.2]
+[2023-07-06 11:21:33] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-07-06 11:21:33] INFO root fetch - processPackages [pyams-scheduler]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-06 11:21:33] INFO root fetch - processPackages [fast-checkers]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-06 11:21:33] INFO root fetch - processPackages [wiptools]: Downloading https://files.pythonhosted.org/packages/b9/9f/1f8ba12ffb63470e6ff6d8a27d89845042922a4cbc3fd9c887309f24f7c0/wiptools-1.2.8.dev0.tar.gz
+[2023-07-06 11:21:33] INFO root fetch - processPackages [repo-test-sdk]: Downloading https://files.pythonhosted.org/packages/db/fc/47af86ec32996ee3bcf7f9f81e005bfacf090286f61e5f4e0a2bbd5bf3fb/repo-test-sdk-2.3.6.tar.gz
+[2023-07-06 11:21:33] INFO root fetch - processPackages [test-bench-control]: Downloading https://files.pythonhosted.org/packages/b4/26/bae7bcbbfbc1872002abb47312c1ce4f4b8077024bb9e35ddccf6dc3a7e3/test_bench_control-0.0.2.tar.gz
+[2023-07-06 11:21:33] INFO root fetch - processPackages [nvfuser-cu117]: Downloading https://files.pythonhosted.org/packages/97/5f/a04da4d60f1816efafaa93531502bc7956df43f23ed210d62d175d8ae006/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-06 11:21:33] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/4b/cd/4c428ce97d9be97932eb85eb49ce89f8833a6daf4081080607d7a4dd07d9/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-06 11:21:33] INFO root fetch - processPackages [fast-checkers]: Downloading https://files.pythonhosted.org/packages/2f/b7/730409c167f57f102b50b1053047d4a853480f68970532ce96951ad68c1e/fast-checkers-0.0.3.tar.gz
+[2023-07-06 11:21:33] INFO root fetch - processPackages [mktxp]: Downloading https://files.pythonhosted.org/packages/85/ed/857bf2750b1913cfa072c18f954a48e1355a16e3806f976a2f6b7874c550/mktxp-1.2.tar.gz
+[2023-07-06 11:21:33] INFO root fetch - processPackages [numpy-io]: Downloading https://files.pythonhosted.org/packages/8b/c6/e13378683d990528682ddf0a718839f84ddb58375281a7c13ee55592209b/numpy_io-0.0.5-py3-none-any.whl
+[2023-07-06 11:21:33] INFO root fetch - processPackages [pyams-scheduler]: Downloading https://files.pythonhosted.org/packages/86/fe/f48b4e17ce5df1c1e2a895b05bf0a1e423d8ea35cc9e7933eaa54025ec0b/pyams_scheduler-1.9.0.tar.gz
+[2023-07-06 11:21:33] INFO root fetch - processPackages [muffin]: Downloading https://files.pythonhosted.org/packages/6c/3e/827569b514182f1da20fb82cf2582024077be0fb934aa123db12235a11ee/muffin-0.98.8.tar.gz
+[2023-07-06 11:21:33] INFO root fetch - processPackages [wiptools]: Downloading https://files.pythonhosted.org/packages/30/d2/49c84e4c84f1b4aa0a24ebfd88fe1f23a7b822e5e92ac9279d738c981298/wiptools-1.2.9.dev0.tar.gz
+[2023-07-06 11:21:34] INFO root fetch - processPackages [repo-test-sdk]: Downloading https://files.pythonhosted.org/packages/e4/36/ed542bb196cb040c5009f865e2e7b9e647bb49a7147f695b91489c706a4b/repo-test-sdk-7.7.7.tar.gz
+[2023-07-06 11:21:34] INFO root fetch - processPackages [wiptools]: executing diffoscope
+[2023-07-06 11:21:34] INFO root fetch - processPackages [wiptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiptools-1.2.8.dev0.tar.gz tmp/wiptools-1.2.9.dev0.tar.gz --markdown 20230706/w/wiptools/1.2.8.dev0-1.2.9.dev0/diff.md --exclude *.pyd
+[2023-07-06 11:21:34] INFO root fetch - processPackages [test-bench-control]: Downloading https://files.pythonhosted.org/packages/6e/9f/bdfa8ffb38422d02db01e4d881530537208e5d78ce9caee3ad345a9fd62a/test_bench_control-0.0.3.tar.gz
+[2023-07-06 11:21:34] INFO root fetch - processPackages [repo-test-sdk]: executing diffoscope
+[2023-07-06 11:21:34] INFO root fetch - processPackages [repo-test-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repo-test-sdk-2.3.6.tar.gz tmp/repo-test-sdk-7.7.7.tar.gz --markdown 20230706/r/repo-test-sdk/2.3.6-7.7.7/diff.md --exclude *.pyd
+[2023-07-06 11:21:34] INFO root fetch - processPackages [numpy-io]: Downloading https://files.pythonhosted.org/packages/64/52/6f054fb901c9de169af6338cdff845375d8de8c05a0fa9656a5a98d1b628/numpy_io-0.0.6-py3-none-any.whl
+[2023-07-06 11:21:34] INFO root fetch - processPackages [fast-checkers]: Downloading https://files.pythonhosted.org/packages/dc/34/e29024fa9147e32295e9c793677a31346382385a97baef2d23084427f66c/fast-checkers-0.0.4.tar.gz
+[2023-07-06 11:21:34] INFO root fetch - processPackages [mktxp]: Downloading https://files.pythonhosted.org/packages/c1/db/661c7205bbfa5e68ec0ebc25f6226374d5bb56d638a75c73ede197714f72/mktxp-1.2.1.tar.gz
+[2023-07-06 11:21:34] INFO root fetch - processPackages [numpy-io]: executing diffoscope
+[2023-07-06 11:21:34] INFO root fetch - processPackages [numpy-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numpy_io-0.0.5-py3-none-any.whl.zip tmp/numpy_io-0.0.6-py3-none-any.whl.zip --markdown 20230706/n/numpy-io/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-06 11:21:34] INFO root fetch - processPackages [muffin]: Downloading https://files.pythonhosted.org/packages/4e/0e/f3e700a4e463dbc7f388f8680d06f87b803a2fc9ab33eb53c022d8548e29/muffin-0.99.1.tar.gz
+[2023-07-06 11:21:34] INFO root fetch - processPackages [nvfuser-cu117]: Downloading https://files.pythonhosted.org/packages/74/50/be3d462491ae9f70d80293010b36c2a163fbf4cce3cab00d4fd749c345ce/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-06 11:21:34] INFO root fetch - processPackages [pyams-scheduler]: Downloading https://files.pythonhosted.org/packages/b3/25/e7fce74193a910db5d2f0e5d5fe218b63b74fad4a1d7d02625c622da061c/pyams_scheduler-1.9.1.tar.gz
+[2023-07-06 11:21:34] INFO root fetch - processPackages [test-bench-control]: executing diffoscope
+[2023-07-06 11:21:34] INFO root fetch - processPackages [test-bench-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_bench_control-0.0.2.tar.gz tmp/test_bench_control-0.0.3.tar.gz --markdown 20230706/t/test-bench-control/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-06 11:21:34] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/b4/43/b31a00b4452d0b5904b6a1613a4dc7aa7a262ccdc4d4f61614f466008980/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-06 11:21:34] INFO root fetch - processPackages [fast-checkers]: executing diffoscope
+[2023-07-06 11:21:34] INFO root fetch - processPackages [fast-checkers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast-checkers-0.0.3.tar.gz tmp/fast-checkers-0.0.4.tar.gz --markdown 20230706/f/fast-checkers/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-06 11:21:34] INFO root fetch - processPackages [mktxp]: executing diffoscope
+[2023-07-06 11:21:34] INFO root fetch - processPackages [mktxp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mktxp-1.2.tar.gz tmp/mktxp-1.2.1.tar.gz --markdown 20230706/m/mktxp/1.2-1.2.1/diff.md --exclude *.pyd
+[2023-07-06 11:21:34] INFO root fetch - processPackages [muffin]: executing diffoscope
+[2023-07-06 11:21:34] INFO root fetch - processPackages [muffin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muffin-0.98.8.tar.gz tmp/muffin-0.99.1.tar.gz --markdown 20230706/m/muffin/0.98.8-0.99.1/diff.md --exclude *.pyd
+[2023-07-06 11:21:34] INFO root fetch - processPackages [pyams-scheduler]: executing diffoscope
+[2023-07-06 11:21:34] INFO root fetch - processPackages [pyams-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyams_scheduler-1.9.0.tar.gz tmp/pyams_scheduler-1.9.1.tar.gz --markdown 20230706/p/pyams-scheduler/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-06 11:21:34] INFO root fetch - processPackages [nvfuser-cu117]: executing diffoscope
+[2023-07-06 11:21:34] INFO root fetch - processPackages [nvfuser-cu117]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230706/n/nvfuser-cu117/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-07-06 11:21:35] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2023-07-06 11:21:35] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230706/n/nvfuser-cu118/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-07-06 11:21:35] INFO root fetch - processPackages [wiptools]: Remove: archive file [/home/abi/fetcher/tmp/wiptools-1.2.8.dev0.tar.gz]
+[2023-07-06 11:21:35] INFO root fetch - processPackages [wiptools]: Remove: archive file [/home/abi/fetcher/tmp/wiptools-1.2.9.dev0.tar.gz]
+[2023-07-06 11:21:35] INFO root fetch - processPackages [wiptools]: Start processing: symbolicai
+[2023-07-06 11:21:35] INFO root fetch - main [MainThread]: End processing [wiptools]: success
+[2023-07-06 11:21:35] INFO root fetch - processPackages [repo-test-sdk]: Remove: archive file [/home/abi/fetcher/tmp/repo-test-sdk-2.3.6.tar.gz]
+[2023-07-06 11:21:35] INFO root fetch - processPackages [repo-test-sdk]: Remove: archive file [/home/abi/fetcher/tmp/repo-test-sdk-7.7.7.tar.gz]
+[2023-07-06 11:21:35] INFO root fetch - processPackages [repo-test-sdk]: Start processing: pycompall
+[2023-07-06 11:21:35] INFO root fetch - main [MainThread]: End processing [repo-test-sdk]: success
+[2023-07-06 11:21:35] INFO root fetch - processPackages [test-bench-control]: Remove: archive file [/home/abi/fetcher/tmp/test_bench_control-0.0.2.tar.gz]
+[2023-07-06 11:21:35] INFO root fetch - processPackages [test-bench-control]: Remove: archive file [/home/abi/fetcher/tmp/test_bench_control-0.0.3.tar.gz]
+[2023-07-06 11:21:35] INFO root fetch - processPackages [test-bench-control]: Start processing: scaleway
+[2023-07-06 11:21:35] INFO root fetch - main [MainThread]: End processing [test-bench-control]: success
+[2023-07-06 11:21:35] INFO root fetch - processPackages [symbolicai]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-07-06 11:21:35] INFO root fetch - processPackages [pycompall]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-06 11:21:35] INFO root fetch - processPackages [scaleway]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-06 11:21:36] INFO root fetch - processPackages [numpy-io]: Remove: archive file [/home/abi/fetcher/tmp/numpy_io-0.0.5-py3-none-any.whl.zip]
+[2023-07-06 11:21:36] INFO root fetch - processPackages [numpy-io]: Remove: archive file [/home/abi/fetcher/tmp/numpy_io-0.0.6-py3-none-any.whl.zip]
+[2023-07-06 11:21:36] INFO root fetch - processPackages [numpy-io]: Start processing: KorDigits
+[2023-07-06 11:21:36] INFO root fetch - main [MainThread]: End processing [numpy-io]: success
+[2023-07-06 11:21:36] INFO root fetch - processPackages [pycompall]: Downloading https://files.pythonhosted.org/packages/9c/4a/bc8f1f394382e9684555d0425fae762e14db278812f19240cae8dc0165d3/pycompall-0.1.1.tar.gz
+[2023-07-06 11:21:36] INFO root fetch - processPackages [symbolicai]: Downloading https://files.pythonhosted.org/packages/59/14/798e49c20397acd30771571396d3eda6fd597a03aa173eaff2f7291228e3/symbolicai-0.2.7-py3-none-any.whl
+[2023-07-06 11:21:36] INFO root fetch - processPackages [KorDigits]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-06 11:21:36] INFO root fetch - processPackages [scaleway]: Downloading https://files.pythonhosted.org/packages/67/21/46013cb213bcbce9880e47a1fd5eac7b117e02988532588010d357c0a9cc/scaleway-0.8.0.tar.gz
+[2023-07-06 11:21:36] INFO root fetch - processPackages [muffin]: Remove: archive file [/home/abi/fetcher/tmp/muffin-0.98.8.tar.gz]
+[2023-07-06 11:21:36] INFO root fetch - processPackages [muffin]: Remove: archive file [/home/abi/fetcher/tmp/muffin-0.99.1.tar.gz]
+[2023-07-06 11:21:36] INFO root fetch - processPackages [muffin]: Start processing: FeishuBitableAPI
+[2023-07-06 11:21:36] INFO root fetch - main [MainThread]: End processing [muffin]: success
+[2023-07-06 11:21:36] INFO root fetch - processPackages [fast-checkers]: Remove: archive file [/home/abi/fetcher/tmp/fast-checkers-0.0.3.tar.gz]
+[2023-07-06 11:21:36] INFO root fetch - processPackages [fast-checkers]: Remove: archive file [/home/abi/fetcher/tmp/fast-checkers-0.0.4.tar.gz]
+[2023-07-06 11:21:36] INFO root fetch - processPackages [fast-checkers]: Start processing: MeUtils
+[2023-07-06 11:21:36] INFO root fetch - main [MainThread]: End processing [fast-checkers]: success
+[2023-07-06 11:21:36] INFO root fetch - processPackages [FeishuBitableAPI]: New version: [3.2.6] Old Version: [3.2.5]
+[2023-07-06 11:21:36] INFO root fetch - processPackages [KorDigits]: Downloading https://files.pythonhosted.org/packages/06/91/2b6c1fc54c4bff1fcaa5a4d95d129ecbc7b334545708119e1fec78455502/KorDigits-1.0.3-py3-none-any.whl
+[2023-07-06 11:21:36] INFO root fetch - processPackages [MeUtils]: New version: [2023.7.6.9.18.40] Old Version: [2023.7.6.9.11.22]
+[2023-07-06 11:21:36] INFO root fetch - processPackages [pycompall]: Downloading https://files.pythonhosted.org/packages/83/fa/bd12d82813c0e7cb7b460c76d66fbc7420f1bb23594b590107eea6b8a2b5/pycompall-0.1.2.tar.gz
+[2023-07-06 11:21:36] INFO root fetch - processPackages [FeishuBitableAPI]: Downloading https://files.pythonhosted.org/packages/0e/36/ecc58eb7d5129f8f91b98923604536e3874515af634f64c24acdafc87738/FeishuBitableAPI-3.2.5.tar.gz
+[2023-07-06 11:21:36] INFO root fetch - processPackages [pyams-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/pyams_scheduler-1.9.0.tar.gz]
+[2023-07-06 11:21:36] INFO root fetch - processPackages [pyams-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/pyams_scheduler-1.9.1.tar.gz]
+[2023-07-06 11:21:36] INFO root fetch - processPackages [pyams-scheduler]: Start processing: p-ttauto-crawler
+[2023-07-06 11:21:36] INFO root fetch - main [MainThread]: End processing [pyams-scheduler]: success
+[2023-07-06 11:21:36] WARNING root fetch - processPackages [KorDigits]: Skipping package: exceeds size limit 61307696>=10485760
+[2023-07-06 11:21:36] INFO root fetch - processPackages [KorDigits]: Start processing: dissect
+[2023-07-06 11:21:36] INFO root fetch - main [MainThread]: End processing [KorDigits] error
+[2023-07-06 11:21:36] INFO root fetch - processPackages [pycompall]: executing diffoscope
+[2023-07-06 11:21:36] INFO root fetch - processPackages [pycompall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycompall-0.1.1.tar.gz tmp/pycompall-0.1.2.tar.gz --markdown 20230706/p/pycompall/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-06 11:21:36] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/88/b4/8f3d255eba4d9bf5fe16efab15e0b73b1f4e3e247cfb179b7fb2434e1358/MeUtils-2023.7.6.9.11.22.tar.gz
+[2023-07-06 11:21:36] INFO root fetch - processPackages [p-ttauto-crawler]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-06 11:21:36] INFO root fetch - processPackages [dissect]: New version: [3.7.dev3] Old Version: [3.7.dev2]
+[2023-07-06 11:21:36] INFO root fetch - processPackages [symbolicai]: Downloading https://files.pythonhosted.org/packages/d4/20/d69129c72a905a1d7f198c70e94d4b5d966f97686ef827699d68d5da2a6c/symbolicai-0.2.9-py3-none-any.whl
+[2023-07-06 11:21:36] INFO root fetch - processPackages [mktxp]: Remove: archive file [/home/abi/fetcher/tmp/mktxp-1.2.tar.gz]
+[2023-07-06 11:21:36] INFO root fetch - processPackages [mktxp]: Remove: archive file [/home/abi/fetcher/tmp/mktxp-1.2.1.tar.gz]
+[2023-07-06 11:21:36] INFO root fetch - processPackages [mktxp]: Start processing: era-5g-interface
+[2023-07-06 11:21:36] INFO root fetch - main [MainThread]: End processing [mktxp]: success
+[2023-07-06 11:21:36] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/45/ff/fd444393f6289e82c5f9ff06d56363e7e9a0fbf58d947322f35f27542e2b/p-ttauto-crawler-0.1.8.tar.gz
+[2023-07-06 11:21:36] INFO root fetch - processPackages [era-5g-interface]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-06 11:21:36] INFO root fetch - processPackages [FeishuBitableAPI]: Downloading https://files.pythonhosted.org/packages/71/06/5f7cd6ceb6324b7993daf1f29a28b7c1b9167af4c39f461f416d23c4766c/FeishuBitableAPI-3.2.6.tar.gz
+[2023-07-06 11:21:36] INFO root fetch - processPackages [dissect]: Downloading https://files.pythonhosted.org/packages/aa/92/4fd306c6a3180a75b5fef624fcfda5a8016b111ff922e6efe4614637c83f/dissect-3.7.dev2.tar.gz
+[2023-07-06 11:21:36] INFO root fetch - processPackages [symbolicai]: executing diffoscope
+[2023-07-06 11:21:36] INFO root fetch - processPackages [symbolicai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symbolicai-0.2.7-py3-none-any.whl.zip tmp/symbolicai-0.2.9-py3-none-any.whl.zip --markdown 20230706/s/symbolicai/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-07-06 11:21:37] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/bc/89/e93decfa584441bc595e7c27f0d539e3c8c5adaf82e78510583f7a1f8bc6/p-ttauto-crawler-0.1.9.tar.gz
+[2023-07-06 11:21:37] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/03/c2/0074fedd9218c4324bec9cdbb7bc5f7c2c839ea18d1079a715c0d495a660/MeUtils-2023.7.6.9.18.40.tar.gz
+[2023-07-06 11:21:37] INFO root fetch - processPackages [era-5g-interface]: Downloading https://files.pythonhosted.org/packages/ae/cf/fd5f2af204995a335d36e1b827133eed5baf582360a6819b3522b13fd8d0/era_5g_interface-0.2.0.tar.gz
+[2023-07-06 11:21:37] INFO root fetch - processPackages [FeishuBitableAPI]: executing diffoscope
+[2023-07-06 11:21:37] INFO root fetch - processPackages [FeishuBitableAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FeishuBitableAPI-3.2.5.tar.gz tmp/FeishuBitableAPI-3.2.6.tar.gz --markdown 20230706/F/FeishuBitableAPI/3.2.5-3.2.6/diff.md --exclude *.pyd
+[2023-07-06 11:21:37] INFO root fetch - processPackages [scaleway]: Downloading https://files.pythonhosted.org/packages/3a/7e/88f0ee5e46853b67c7b855cc0bb27325c4930c08c2f05fadf0a4c9a0bc35/scaleway-0.9.0.tar.gz
+[2023-07-06 11:21:37] INFO root fetch - processPackages [p-ttauto-crawler]: executing diffoscope
+[2023-07-06 11:21:37] INFO root fetch - processPackages [p-ttauto-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-ttauto-crawler-0.1.8.tar.gz tmp/p-ttauto-crawler-0.1.9.tar.gz --markdown 20230706/p/p-ttauto-crawler/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-06 11:21:37] INFO root fetch - processPackages [nvfuser-cu117]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-06 11:21:37] INFO root fetch - processPackages [nvfuser-cu117]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-06 11:21:37] INFO root fetch - processPackages [nvfuser-cu117]: Start processing: dissect
+[2023-07-06 11:21:37] INFO root fetch - main [MainThread]: End processing [nvfuser-cu117]: success
+[2023-07-06 11:21:37] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-07-06 11:21:37] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.7.6.9.11.22.tar.gz tmp/MeUtils-2023.7.6.9.18.40.tar.gz --markdown 20230706/M/MeUtils/2023.7.6.9.11.22-2023.7.6.9.18.40/diff.md --exclude *.pyd
+[2023-07-06 11:21:37] INFO root fetch - processPackages [dissect]: New version: [3.7.dev3] Old Version: [3.7.dev2]
+[2023-07-06 11:21:37] INFO root fetch - processPackages [dissect]: Downloading https://files.pythonhosted.org/packages/1d/3c/631e3d7acc2640cc5fd6d812ae9de3feba4772a97bbea6845e3a139f72ba/dissect-3.7.dev3.tar.gz
+[2023-07-06 11:21:37] INFO root fetch - processPackages [scaleway]: executing diffoscope
+[2023-07-06 11:21:37] INFO root fetch - processPackages [scaleway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scaleway-0.8.0.tar.gz tmp/scaleway-0.9.0.tar.gz --markdown 20230706/s/scaleway/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-06 11:21:37] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-06 11:21:37] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-06 11:21:37] INFO root fetch - processPackages [nvfuser-cu118]: Start processing: tbp-nightly
+[2023-07-06 11:21:37] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2023-07-06 11:21:37] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-07-06 11:21:37] INFO root fetch - processPackages [era-5g-interface]: Downloading https://files.pythonhosted.org/packages/72/c9/6ea9ad656888f459a4aa54624697948f50d92a67661bcb271babe6c502a6/era_5g_interface-0.3.0.tar.gz
+[2023-07-06 11:21:37] INFO root fetch - processPackages [dissect]: executing diffoscope
+[2023-07-06 11:21:37] INFO root fetch - processPackages [dissect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect-3.7.dev2.tar.gz tmp/dissect-3.7.dev3.tar.gz --markdown 20230706/d/dissect/3.7.dev2-3.7.dev3/diff.md --exclude *.pyd
+[2023-07-06 11:21:37] INFO root fetch - processPackages [dissect]: executing diffoscope
+[2023-07-06 11:21:37] INFO root fetch - processPackages [dissect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect-3.7.dev2.tar.gz tmp/dissect-3.7.dev3.tar.gz --markdown 20230706/d/dissect/3.7.dev2-3.7.dev3/diff.md --exclude *.pyd
+[2023-07-06 11:21:37] INFO root fetch - processPackages [pycompall]: Remove: archive file [/home/abi/fetcher/tmp/pycompall-0.1.1.tar.gz]
+[2023-07-06 11:21:37] INFO root fetch - processPackages [pycompall]: Remove: archive file [/home/abi/fetcher/tmp/pycompall-0.1.2.tar.gz]
+[2023-07-06 11:21:37] INFO root fetch - main [MainThread]: End processing [pycompall]: success
+[2023-07-06 11:21:37] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2023-07-06 11:21:37] INFO root fetch - processPackages [era-5g-interface]: executing diffoscope
+[2023-07-06 11:21:37] INFO root fetch - processPackages [era-5g-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/era_5g_interface-0.2.0.tar.gz tmp/era_5g_interface-0.3.0.tar.gz --markdown 20230706/e/era-5g-interface/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-06 11:21:38] INFO root fetch - processPackages [symbolicai]: Remove: archive file [/home/abi/fetcher/tmp/symbolicai-0.2.7-py3-none-any.whl.zip]
+[2023-07-06 11:21:38] INFO root fetch - processPackages [symbolicai]: Remove: archive file [/home/abi/fetcher/tmp/symbolicai-0.2.9-py3-none-any.whl.zip]
+[2023-07-06 11:21:38] INFO root fetch - main [MainThread]: End processing [symbolicai]: success
+[2023-07-06 11:21:38] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.1.8.tar.gz]
+[2023-07-06 11:21:38] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.1.9.tar.gz]
+[2023-07-06 11:21:38] INFO root fetch - main [MainThread]: End processing [p-ttauto-crawler]: success
+[2023-07-06 11:21:38] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2023-07-06 11:21:39] INFO root fetch - processPackages [FeishuBitableAPI]: Remove: archive file [/home/abi/fetcher/tmp/FeishuBitableAPI-3.2.5.tar.gz]
+[2023-07-06 11:21:39] INFO root fetch - processPackages [FeishuBitableAPI]: Remove: archive file [/home/abi/fetcher/tmp/FeishuBitableAPI-3.2.6.tar.gz]
+[2023-07-06 11:21:39] INFO root fetch - main [MainThread]: End processing [FeishuBitableAPI]: success
+[2023-07-06 11:21:39] INFO root fetch - processPackages [era-5g-interface]: Remove: archive file [/home/abi/fetcher/tmp/era_5g_interface-0.2.0.tar.gz]
+[2023-07-06 11:21:39] INFO root fetch - processPackages [era-5g-interface]: Remove: archive file [/home/abi/fetcher/tmp/era_5g_interface-0.3.0.tar.gz]
+[2023-07-06 11:21:39] INFO root fetch - main [MainThread]: End processing [era-5g-interface]: success
+[2023-07-06 11:21:39] INFO root fetch - processPackages [dissect]: Remove: archive file [/home/abi/fetcher/tmp/dissect-3.7.dev2.tar.gz]
+[2023-07-06 11:21:39] INFO root fetch - processPackages [dissect]: Remove: archive file [/home/abi/fetcher/tmp/dissect-3.7.dev3.tar.gz]
+[2023-07-06 11:21:39] INFO root fetch - main [MainThread]: End processing [dissect]: success
+[2023-07-06 11:21:39] INFO root fetch - main [MainThread]: End processing [dissect]: success
+[2023-07-06 11:21:39] INFO root fetch - processPackages [scaleway]: Remove: archive file [/home/abi/fetcher/tmp/scaleway-0.8.0.tar.gz]
+[2023-07-06 11:21:39] INFO root fetch - processPackages [scaleway]: Remove: archive file [/home/abi/fetcher/tmp/scaleway-0.9.0.tar.gz]
+[2023-07-06 11:21:39] INFO root fetch - main [MainThread]: End processing [scaleway]: success
+[2023-07-06 11:21:39] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-07-06 11:21:39] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230706/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-07-06 11:21:41] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.6.9.11.22.tar.gz]
+[2023-07-06 11:21:41] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.6.9.18.40.tar.gz]
+[2023-07-06 11:21:41] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-07-06 11:21:42] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2023-07-06 11:21:42] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2023-07-06 11:21:42] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-07-06 11:21:42] INFO root fetch - main [MainThread]: Store serial: [18780892]
