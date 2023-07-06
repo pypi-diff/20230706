@@ -11394,3 +11394,92 @@ AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
 [2023-07-06 06:09:28] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
 [2023-07-06 06:09:28] INFO root fetch - main [MainThread]: End processing [hak]: success
 [2023-07-06 06:09:28] INFO root fetch - main [MainThread]: Store serial: [18778258]
+[2023-07-06 06:14:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18778258]
+[2023-07-06 06:14:37] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-06 06:14:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiogoogle
+[2023-07-06 06:14:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: markata
+[2023-07-06 06:14:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seleniumbase
+[2023-07-06 06:14:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fnum
+[2023-07-06 06:14:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sbase
+[2023-07-06 06:14:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: selenium-base
+[2023-07-06 06:14:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytest-sbase
+[2023-07-06 06:14:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytest-seleniumbase
+[2023-07-06 06:14:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-cloud-storages
+[2023-07-06 06:14:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: meile-gui
+[2023-07-06 06:14:37] INFO root fetch - processPackages [fnum]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-06 06:14:37] INFO root fetch - processPackages [aiogoogle]: New version: [5.4.0] Old Version: [5.3.0]
+[2023-07-06 06:14:37] INFO root fetch - processPackages [django-cloud-storages]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-07-06 06:14:37] INFO root fetch - processPackages [sbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-07-06 06:14:37] INFO root fetch - processPackages [fnum]: Downloading https://files.pythonhosted.org/packages/98/a2/fb96a4071997f2e7ac96de4b095f562bcf7a9bdce40a03806b2b7f06a72a/fnum-1.0.0-py3-none-any.whl
+[2023-07-06 06:14:37] INFO root fetch - processPackages [selenium-base]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-07-06 06:14:37] INFO root fetch - processPackages [markata]: New version: [0.7.1.dev0] Old Version: [0.7.0.dev6]
+[2023-07-06 06:14:37] INFO root fetch - processPackages [meile-gui]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-06 06:14:37] INFO root fetch - processPackages [seleniumbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-07-06 06:14:37] INFO root fetch - processPackages [pytest-sbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-07-06 06:14:37] INFO root fetch - processPackages [django-cloud-storages]: Downloading https://files.pythonhosted.org/packages/a9/90/2eb9bf51565b808763c6fb8172bf6b4283945362110b6125a8093a11befa/django_cloud_storages-1.1.7.tar.gz
+[2023-07-06 06:14:37] INFO root fetch - processPackages [pytest-seleniumbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-07-06 06:14:37] INFO root fetch - processPackages [aiogoogle]: Downloading https://files.pythonhosted.org/packages/00/71/e8b2d541cde36c2effa677a9d2f8dc141b3c046418ef312681ad9f51b5d8/aiogoogle-5.3.0.tar.gz
+[2023-07-06 06:14:37] INFO root fetch - processPackages [markata]: Downloading https://files.pythonhosted.org/packages/ee/b5/d97b0f015f5468868a451cda794b4667e033656ae7bc9b04387f4e069660/markata-0.7.0.dev6.tar.gz
+[2023-07-06 06:14:37] INFO root fetch - processPackages [sbase]: Downloading https://files.pythonhosted.org/packages/10/f9/904caa9ffcdc6c4e7625f527d7ff03e2ccbecc9c360a7557b298321e506d/sbase-4.9.8.tar.gz
+[2023-07-06 06:14:37] INFO root fetch - processPackages [selenium-base]: Downloading https://files.pythonhosted.org/packages/49/eb/ad6c55d2af108681e38505aff036aef13544a2d1c09817221f499826a6f9/selenium-base-4.9.8.tar.gz
+[2023-07-06 06:14:37] INFO root fetch - processPackages [meile-gui]: Downloading https://files.pythonhosted.org/packages/3d/94/13239b28ba753f9e05bbaec4c80899f4261468b001ed61352bae227b8b77/meile-gui-0.9.8.tar.gz
+[2023-07-06 06:14:37] INFO root fetch - processPackages [django-cloud-storages]: Downloading https://files.pythonhosted.org/packages/50/16/555fe70d032a0ddc8ea2d09ab43ba60b9c7af5407c3e67a3d12dcb80cb38/django_cloud_storages-1.1.8.tar.gz
+[2023-07-06 06:14:38] INFO root fetch - processPackages [pytest-seleniumbase]: Downloading https://files.pythonhosted.org/packages/40/bb/757cad3c5535e64c18cee852b145a86e4d539878bd9dce7c2934bcfb972d/pytest-seleniumbase-4.9.8.tar.gz
+[2023-07-06 06:14:38] INFO root fetch - processPackages [fnum]: Downloading https://files.pythonhosted.org/packages/ba/ec/91182769eae47edbdd518fb84238d28d5e4d3178ca0a6b87f82126294ff2/fnum-1.0.1-py3-none-any.whl
+[2023-07-06 06:14:38] INFO root fetch - processPackages [pytest-sbase]: Downloading https://files.pythonhosted.org/packages/91/87/a1223948d4bac31ab82915c4e7a930c22af874859aa805d6c3abd6b5bb3e/pytest-sbase-4.9.8.tar.gz
+[2023-07-06 06:14:38] INFO root fetch - processPackages [seleniumbase]: Downloading https://files.pythonhosted.org/packages/d5/06/b4c4aa69540cf3a9c497a53072da777eefd704403fc8f952a88c69208ad1/seleniumbase-4.9.8.tar.gz
+[2023-07-06 06:14:38] WARNING root fetch - processPackages [meile-gui]: Skipping package: exceeds size limit 12480847>=10485760
+[2023-07-06 06:14:38] INFO root fetch - main [MainThread]: End processing [meile-gui] error
+[2023-07-06 06:14:38] INFO root fetch - processPackages [django-cloud-storages]: executing diffoscope
+[2023-07-06 06:14:38] INFO root fetch - processPackages [django-cloud-storages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_cloud_storages-1.1.7.tar.gz tmp/django_cloud_storages-1.1.8.tar.gz --markdown 20230706/d/django-cloud-storages/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-07-06 06:14:38] INFO root fetch - processPackages [fnum]: executing diffoscope
+[2023-07-06 06:14:38] INFO root fetch - processPackages [fnum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fnum-1.0.0-py3-none-any.whl.zip tmp/fnum-1.0.1-py3-none-any.whl.zip --markdown 20230706/f/fnum/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-06 06:14:38] INFO root fetch - processPackages [markata]: Downloading https://files.pythonhosted.org/packages/82/bb/768d0e96673f1ad3ff886c4c712a4335e3f7c82a242525f9e7838eddc2b6/markata-0.7.1.dev0.tar.gz
+[2023-07-06 06:14:38] INFO root fetch - processPackages [aiogoogle]: Downloading https://files.pythonhosted.org/packages/cd/bb/78f0d5a7bb303379782156f66a146c16df4154057712911bcf0d68c015fc/aiogoogle-5.4.0.tar.gz
+[2023-07-06 06:14:38] INFO root fetch - processPackages [selenium-base]: Downloading https://files.pythonhosted.org/packages/0a/3b/8bdd54f85b1550af5050c8683212c3f88b854c0ef99e22fa6fe216094900/selenium-base-4.9.9.tar.gz
+[2023-07-06 06:14:38] INFO root fetch - processPackages [aiogoogle]: executing diffoscope
+[2023-07-06 06:14:38] INFO root fetch - processPackages [aiogoogle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiogoogle-5.3.0.tar.gz tmp/aiogoogle-5.4.0.tar.gz --markdown 20230706/a/aiogoogle/5.3.0-5.4.0/diff.md --exclude *.pyd
+[2023-07-06 06:14:38] INFO root fetch - processPackages [pytest-seleniumbase]: Downloading https://files.pythonhosted.org/packages/34/03/c67c6c24b8d7c3e49595b97d914034cf101d3d1d029f9e9453f497e0937a/pytest-seleniumbase-4.9.9.tar.gz
+[2023-07-06 06:14:38] INFO root fetch - processPackages [markata]: executing diffoscope
+[2023-07-06 06:14:38] INFO root fetch - processPackages [markata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markata-0.7.0.dev6.tar.gz tmp/markata-0.7.1.dev0.tar.gz --markdown 20230706/m/markata/0.7.0.dev6-0.7.1.dev0/diff.md --exclude *.pyd
+[2023-07-06 06:14:38] INFO root fetch - processPackages [pytest-sbase]: Downloading https://files.pythonhosted.org/packages/ea/6c/61da56c0f8d30ee6ecfbf486bd770ce073eba9a09e63981ae35863a37cb0/pytest-sbase-4.9.9.tar.gz
+[2023-07-06 06:14:38] INFO root fetch - processPackages [seleniumbase]: Downloading https://files.pythonhosted.org/packages/9d/0f/462449b9921267bb9f0f0db257c72435e50ec2fcd4219764bb131be70686/seleniumbase-4.9.9.tar.gz
+[2023-07-06 06:14:38] INFO root fetch - processPackages [selenium-base]: executing diffoscope
+[2023-07-06 06:14:38] INFO root fetch - processPackages [selenium-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium-base-4.9.8.tar.gz tmp/selenium-base-4.9.9.tar.gz --markdown 20230706/s/selenium-base/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-07-06 06:14:38] INFO root fetch - processPackages [pytest-sbase]: executing diffoscope
+[2023-07-06 06:14:38] INFO root fetch - processPackages [pytest-sbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-sbase-4.9.8.tar.gz tmp/pytest-sbase-4.9.9.tar.gz --markdown 20230706/p/pytest-sbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-07-06 06:14:38] INFO root fetch - processPackages [sbase]: Downloading https://files.pythonhosted.org/packages/d2/57/c23bf788f4a8fba6ef62c68be73c8fb443dc5aa71c69b03726c1254377f7/sbase-4.9.9.tar.gz
+[2023-07-06 06:14:38] INFO root fetch - processPackages [seleniumbase]: executing diffoscope
+[2023-07-06 06:14:38] INFO root fetch - processPackages [seleniumbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seleniumbase-4.9.8.tar.gz tmp/seleniumbase-4.9.9.tar.gz --markdown 20230706/s/seleniumbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-07-06 06:14:39] INFO root fetch - processPackages [pytest-seleniumbase]: executing diffoscope
+[2023-07-06 06:14:39] INFO root fetch - processPackages [pytest-seleniumbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-seleniumbase-4.9.8.tar.gz tmp/pytest-seleniumbase-4.9.9.tar.gz --markdown 20230706/p/pytest-seleniumbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-07-06 06:14:39] INFO root fetch - processPackages [sbase]: executing diffoscope
+[2023-07-06 06:14:39] INFO root fetch - processPackages [sbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbase-4.9.8.tar.gz tmp/sbase-4.9.9.tar.gz --markdown 20230706/s/sbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-07-06 06:14:39] INFO root fetch - processPackages [django-cloud-storages]: Remove: archive file [/home/abi/fetcher/tmp/django_cloud_storages-1.1.7.tar.gz]
+[2023-07-06 06:14:39] INFO root fetch - processPackages [django-cloud-storages]: Remove: archive file [/home/abi/fetcher/tmp/django_cloud_storages-1.1.8.tar.gz]
+[2023-07-06 06:14:39] INFO root fetch - main [MainThread]: End processing [django-cloud-storages]: success
+[2023-07-06 06:14:39] INFO root fetch - processPackages [fnum]: Remove: archive file [/home/abi/fetcher/tmp/fnum-1.0.0-py3-none-any.whl.zip]
+[2023-07-06 06:14:39] INFO root fetch - processPackages [fnum]: Remove: archive file [/home/abi/fetcher/tmp/fnum-1.0.1-py3-none-any.whl.zip]
+[2023-07-06 06:14:39] INFO root fetch - main [MainThread]: End processing [fnum]: success
+[2023-07-06 06:14:39] INFO root fetch - processPackages [aiogoogle]: Remove: archive file [/home/abi/fetcher/tmp/aiogoogle-5.3.0.tar.gz]
+[2023-07-06 06:14:39] INFO root fetch - processPackages [aiogoogle]: Remove: archive file [/home/abi/fetcher/tmp/aiogoogle-5.4.0.tar.gz]
+[2023-07-06 06:14:39] INFO root fetch - main [MainThread]: End processing [aiogoogle]: success
+[2023-07-06 06:14:40] INFO root fetch - processPackages [selenium-base]: Remove: archive file [/home/abi/fetcher/tmp/selenium-base-4.9.8.tar.gz]
+[2023-07-06 06:14:40] INFO root fetch - processPackages [selenium-base]: Remove: archive file [/home/abi/fetcher/tmp/selenium-base-4.9.9.tar.gz]
+[2023-07-06 06:14:40] INFO root fetch - main [MainThread]: End processing [selenium-base]: success
+[2023-07-06 06:14:40] INFO root fetch - processPackages [pytest-sbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-sbase-4.9.8.tar.gz]
+[2023-07-06 06:14:40] INFO root fetch - processPackages [pytest-sbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-sbase-4.9.9.tar.gz]
+[2023-07-06 06:14:40] INFO root fetch - main [MainThread]: End processing [pytest-sbase]: success
+[2023-07-06 06:14:40] INFO root fetch - processPackages [markata]: Remove: archive file [/home/abi/fetcher/tmp/markata-0.7.0.dev6.tar.gz]
+[2023-07-06 06:14:40] INFO root fetch - processPackages [markata]: Remove: archive file [/home/abi/fetcher/tmp/markata-0.7.1.dev0.tar.gz]
+[2023-07-06 06:14:40] INFO root fetch - main [MainThread]: End processing [markata]: success
+[2023-07-06 06:14:40] INFO root fetch - processPackages [pytest-seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-seleniumbase-4.9.8.tar.gz]
+[2023-07-06 06:14:40] INFO root fetch - processPackages [pytest-seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-seleniumbase-4.9.9.tar.gz]
+[2023-07-06 06:14:40] INFO root fetch - main [MainThread]: End processing [pytest-seleniumbase]: success
+[2023-07-06 06:14:40] INFO root fetch - processPackages [sbase]: Remove: archive file [/home/abi/fetcher/tmp/sbase-4.9.8.tar.gz]
+[2023-07-06 06:14:40] INFO root fetch - processPackages [sbase]: Remove: archive file [/home/abi/fetcher/tmp/sbase-4.9.9.tar.gz]
+[2023-07-06 06:14:40] INFO root fetch - main [MainThread]: End processing [sbase]: success
+[2023-07-06 06:14:40] INFO root fetch - processPackages [seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/seleniumbase-4.9.8.tar.gz]
+[2023-07-06 06:14:40] INFO root fetch - processPackages [seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/seleniumbase-4.9.9.tar.gz]
+[2023-07-06 06:14:40] INFO root fetch - main [MainThread]: End processing [seleniumbase]: success
+[2023-07-06 06:14:40] INFO root fetch - main [MainThread]: Store serial: [18778290]
