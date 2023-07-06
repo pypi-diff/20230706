@@ -15257,3 +15257,131 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-06 10:08:49] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230705.tar.gz]
 [2023-07-06 10:08:49] INFO root fetch - main [MainThread]: End processing [pyglove]: success
 [2023-07-06 10:08:49] INFO root fetch - main [MainThread]: Store serial: [18779935]
+[2023-07-06 10:13:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18779935]
+[2023-07-06 10:13:58] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-06 10:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tasksource
+[2023-07-06 10:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OpenFisca-France
+[2023-07-06 10:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SHACL2SPARQLpy
+[2023-07-06 10:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SELDOMpy
+[2023-07-06 10:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fiddler-client
+[2023-07-06 10:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydflow
+[2023-07-06 10:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: macrometa-target-oracle
+[2023-07-06 10:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wsidicomizer
+[2023-07-06 10:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openlane
+[2023-07-06 10:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dopplrSDK
+[2023-07-06 10:13:58] INFO root fetch - processPackages [macrometa-target-oracle]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-06 10:13:58] INFO root fetch - processPackages [SELDOMpy]: New version: [0.8.4.4] Old Version: [0.8.4.2]
+[2023-07-06 10:13:58] INFO root fetch - processPackages [SHACL2SPARQLpy]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-07-06 10:13:58] INFO root fetch - processPackages [fiddler-client]: New version: [2.0.0.dev6] Old Version: [2.0.0.dev5]
+[2023-07-06 10:13:58] INFO root fetch - processPackages [wsidicomizer]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-06 10:13:58] INFO root fetch - processPackages [dopplrSDK]: New version: [2.8.0] Old Version: [2.7.0]
+[2023-07-06 10:13:58] INFO root fetch - processPackages [pydflow]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-07-06 10:13:58] INFO root fetch - processPackages [tasksource]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 10:13:58] INFO root fetch - processPackages [openlane]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-07-06 10:13:58] INFO root fetch - processPackages [macrometa-target-oracle]: Downloading https://files.pythonhosted.org/packages/f4/02/842e87f8e7f78b8d4cba1a20f11af091b207cba9e6097367fecf79c7ddd9/macrometa-target-oracle-0.0.6.tar.gz
+[2023-07-06 10:13:58] INFO root fetch - processPackages [OpenFisca-France]: New version: [99.0.1] Old Version: [99.0.0]
+[2023-07-06 10:13:58] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/38/a5/68e049a3f7d9d05b67335dba765861727e450eab5c53bf8b91be0b160d3b/SELDOMpy-0.8.4.2.tar.gz
+[2023-07-06 10:13:58] INFO root fetch - processPackages [SHACL2SPARQLpy]: Downloading https://files.pythonhosted.org/packages/a5/ff/dada275466ceca90b301daf705fbcb044fd0a351e0c4b017a99b52e68f6c/SHACL2SPARQLpy-1.1.1.tar.gz
+[2023-07-06 10:13:58] INFO root fetch - processPackages [dopplrSDK]: Downloading https://files.pythonhosted.org/packages/17/1b/038758c704d65e59c3f11bb6128f94a452f7df7f604ac829a899a891e81d/dopplrSDK-2.7.0-py3-none-any.whl
+[2023-07-06 10:13:58] INFO root fetch - processPackages [wsidicomizer]: Downloading https://files.pythonhosted.org/packages/6b/84/5916082efd279aa16c977e7f16300a4bdb6e1fdfb661beb78e4b190a393c/wsidicomizer-0.9.2.tar.gz
+[2023-07-06 10:13:58] INFO root fetch - processPackages [tasksource]: Downloading https://files.pythonhosted.org/packages/c5/5a/577f24b048a52087b4bb9d752d76d480b0018786e5342599cfaa1c3572bc/tasksource-0.0.8.tar.gz
+[2023-07-06 10:13:58] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/33/96/a989d9cfcdb5dcb43d60a72640c59e2efb7fd053182742205b332006f813/pydflow-1.7.8.tar.gz
+[2023-07-06 10:13:58] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/a6/89/a05235ced8375ca35530ed2660fe44e6699c6d36879bc64f39eb9c4e9a1a/fiddler-client-2.0.0.dev5.tar.gz
+[2023-07-06 10:13:58] INFO root fetch - processPackages [OpenFisca-France]: Downloading https://files.pythonhosted.org/packages/70/8b/f7e6ae929e6bc09831757bdb5cdb964099c9af3419db607df1bdfebfe6fd/OpenFisca_France-99.0.0-py3-none-any.whl
+[2023-07-06 10:13:58] INFO root fetch - processPackages [openlane]: Downloading https://files.pythonhosted.org/packages/f9/e1/2bc6d40f7a838d2e5cfcd0d8b4d3b5f2a822440b2a94b0ce02148cab52bc/openlane-2.0.0a8.tar.gz
+[2023-07-06 10:13:59] INFO root fetch - processPackages [macrometa-target-oracle]: Downloading https://files.pythonhosted.org/packages/d4/d7/6941b3a177197677ab675d50b03400661b8550a731c30152ef4dd3b05b99/macrometa-target-oracle-0.0.7.tar.gz
+[2023-07-06 10:13:59] INFO root fetch - processPackages [SHACL2SPARQLpy]: Downloading https://files.pythonhosted.org/packages/8e/f3/8ee429d90d8718e276c238ae1435becf3f83393c5f78334509efd40bd995/SHACL2SPARQLpy-1.2.0.tar.gz
+[2023-07-06 10:13:59] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/4c/70/a0cf85122da57011851332524209ba6beb71ced656724ef935a272f6905a/SELDOMpy-0.8.4.4.tar.gz
+[2023-07-06 10:13:59] INFO root fetch - processPackages [dopplrSDK]: Downloading https://files.pythonhosted.org/packages/37/93/49eaa43c8261b96cf17b5bb61eac2d2374b3100f9976fb4f79b1a41b8ecb/dopplrSDK-2.8.0-py3-none-any.whl
+[2023-07-06 10:13:59] INFO root fetch - processPackages [wsidicomizer]: Downloading https://files.pythonhosted.org/packages/0c/8a/dcdc75bc6a23e145c8b791bdce3824f8c1df45962351ea5e4b4475342e0f/wsidicomizer-0.9.3.tar.gz
+[2023-07-06 10:13:59] INFO root fetch - processPackages [SHACL2SPARQLpy]: executing diffoscope
+[2023-07-06 10:13:59] INFO root fetch - processPackages [SHACL2SPARQLpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SHACL2SPARQLpy-1.1.1.tar.gz tmp/SHACL2SPARQLpy-1.2.0.tar.gz --markdown 20230706/S/SHACL2SPARQLpy/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-07-06 10:13:59] INFO root fetch - processPackages [macrometa-target-oracle]: executing diffoscope
+[2023-07-06 10:13:59] INFO root fetch - processPackages [macrometa-target-oracle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-oracle-0.0.6.tar.gz tmp/macrometa-target-oracle-0.0.7.tar.gz --markdown 20230706/m/macrometa-target-oracle/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-06 10:13:59] INFO root fetch - processPackages [dopplrSDK]: executing diffoscope
+[2023-07-06 10:13:59] INFO root fetch - processPackages [dopplrSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dopplrSDK-2.7.0-py3-none-any.whl.zip tmp/dopplrSDK-2.8.0-py3-none-any.whl.zip --markdown 20230706/d/dopplrSDK/2.7.0-2.8.0/diff.md --exclude *.pyd
+[2023-07-06 10:13:59] INFO root fetch - processPackages [tasksource]: Downloading https://files.pythonhosted.org/packages/79/98/5f442144303c3b9aad3c1d81a6dfca8f937304149324559064fb9f84a79f/tasksource-0.0.9.tar.gz
+[2023-07-06 10:13:59] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/9c/41/6c9bc72fde943869899725f55fade9f850f62ecbc6fa31e53b8fa79ae5a3/pydflow-1.7.9.tar.gz
+[2023-07-06 10:13:59] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/b0/e4/ecf99f1e991407e1a8eaaefe0ff7fb583e361bad1c0dbc070e4df60d3c0b/fiddler-client-2.0.0.dev6.tar.gz
+[2023-07-06 10:13:59] INFO root fetch - processPackages [SELDOMpy]: executing diffoscope
+[2023-07-06 10:13:59] INFO root fetch - processPackages [SELDOMpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SELDOMpy-0.8.4.2.tar.gz tmp/SELDOMpy-0.8.4.4.tar.gz --markdown 20230706/S/SELDOMpy/0.8.4.2-0.8.4.4/diff.md --exclude *.pyd
+[2023-07-06 10:13:59] INFO root fetch - processPackages [openlane]: Downloading https://files.pythonhosted.org/packages/3b/36/ef13f9e1e09e4ec49090d033dcc88d1ce603bd51886f214690e50b2e5357/openlane-2.0.0a9.tar.gz
+[2023-07-06 10:13:59] INFO root fetch - processPackages [tasksource]: executing diffoscope
+[2023-07-06 10:13:59] INFO root fetch - processPackages [tasksource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tasksource-0.0.8.tar.gz tmp/tasksource-0.0.9.tar.gz --markdown 20230706/t/tasksource/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 10:13:59] INFO root fetch - processPackages [wsidicomizer]: executing diffoscope
+[2023-07-06 10:13:59] INFO root fetch - processPackages [wsidicomizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wsidicomizer-0.9.2.tar.gz tmp/wsidicomizer-0.9.3.tar.gz --markdown 20230706/w/wsidicomizer/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-06 10:13:59] INFO root fetch - processPackages [fiddler-client]: executing diffoscope
+[2023-07-06 10:13:59] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-07-06 10:13:59] INFO root fetch - processPackages [fiddler-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiddler-client-2.0.0.dev5.tar.gz tmp/fiddler-client-2.0.0.dev6.tar.gz --markdown 20230706/f/fiddler-client/2.0.0.dev5-2.0.0.dev6/diff.md --exclude *.pyd
+[2023-07-06 10:13:59] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.7.8.tar.gz tmp/pydflow-1.7.9.tar.gz --markdown 20230706/p/pydflow/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-07-06 10:13:59] INFO root fetch - processPackages [openlane]: executing diffoscope
+[2023-07-06 10:13:59] INFO root fetch - processPackages [openlane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlane-2.0.0a8.tar.gz tmp/openlane-2.0.0a9.tar.gz --markdown 20230706/o/openlane/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-07-06 10:14:00] INFO root fetch - processPackages [OpenFisca-France]: Downloading https://files.pythonhosted.org/packages/b5/c6/01bc5d57d2ec6bf602cdc2aacf3444fa5f25fbb7d9e9a5bdda07728b537d/OpenFisca_France-99.0.1-py3-none-any.whl
+[2023-07-06 10:14:00] INFO root fetch - processPackages [OpenFisca-France]: executing diffoscope
+[2023-07-06 10:14:00] INFO root fetch - processPackages [OpenFisca-France]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenFisca_France-99.0.0-py3-none-any.whl.zip tmp/OpenFisca_France-99.0.1-py3-none-any.whl.zip --markdown 20230706/O/OpenFisca-France/99.0.0-99.0.1/diff.md --exclude *.pyd
+[2023-07-06 10:14:01] INFO root fetch - processPackages [macrometa-target-oracle]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-oracle-0.0.6.tar.gz]
+[2023-07-06 10:14:01] INFO root fetch - processPackages [macrometa-target-oracle]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-oracle-0.0.7.tar.gz]
+[2023-07-06 10:14:01] INFO root fetch - processPackages [macrometa-target-oracle]: Start processing: reytool
+[2023-07-06 10:14:01] INFO root fetch - main [MainThread]: End processing [macrometa-target-oracle]: success
+[2023-07-06 10:14:01] INFO root fetch - processPackages [dopplrSDK]: Remove: archive file [/home/abi/fetcher/tmp/dopplrSDK-2.7.0-py3-none-any.whl.zip]
+[2023-07-06 10:14:01] INFO root fetch - processPackages [dopplrSDK]: Remove: archive file [/home/abi/fetcher/tmp/dopplrSDK-2.8.0-py3-none-any.whl.zip]
+[2023-07-06 10:14:01] INFO root fetch - processPackages [dopplrSDK]: Start processing: SELDOMpy
+[2023-07-06 10:14:01] INFO root fetch - main [MainThread]: End processing [dopplrSDK]: success
+[2023-07-06 10:14:01] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-07-06 10:14:01] INFO root fetch - processPackages [SELDOMpy]: New version: [0.8.4.4] Old Version: [0.8.4.2]
+[2023-07-06 10:14:01] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f7/1b/12dc89a309309c9361d59a38462b453a322b261239fade997e196d798838/reytool-0.98-py3-none-any.whl
+[2023-07-06 10:14:01] INFO root fetch - processPackages [SHACL2SPARQLpy]: Remove: archive file [/home/abi/fetcher/tmp/SHACL2SPARQLpy-1.1.1.tar.gz]
+[2023-07-06 10:14:01] INFO root fetch - processPackages [SELDOMpy]: executing diffoscope
+[2023-07-06 10:14:01] INFO root fetch - processPackages [SELDOMpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SELDOMpy-0.8.4.2.tar.gz tmp/SELDOMpy-0.8.4.4.tar.gz --markdown 20230706/S/SELDOMpy/0.8.4.2-0.8.4.4/diff.md --exclude *.pyd
+[2023-07-06 10:14:01] INFO root fetch - processPackages [SHACL2SPARQLpy]: Remove: archive file [/home/abi/fetcher/tmp/SHACL2SPARQLpy-1.2.0.tar.gz]
+[2023-07-06 10:14:01] INFO root fetch - processPackages [tasksource]: Remove: archive file [/home/abi/fetcher/tmp/tasksource-0.0.8.tar.gz]
+[2023-07-06 10:14:01] INFO root fetch - main [MainThread]: End processing [SHACL2SPARQLpy]: success
+[2023-07-06 10:14:01] INFO root fetch - processPackages [tasksource]: Remove: archive file [/home/abi/fetcher/tmp/tasksource-0.0.9.tar.gz]
+[2023-07-06 10:14:01] INFO root fetch - main [MainThread]: End processing [tasksource]: success
+[2023-07-06 10:14:01] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f3/55/5da881836b0a141d1b9cfbb9118f95b0a7873ba578976b4a1a7cf3718b49/reytool-0.99-py3-none-any.whl
+[2023-07-06 10:14:01] INFO root fetch - processPackages [wsidicomizer]: Remove: archive file [/home/abi/fetcher/tmp/wsidicomizer-0.9.2.tar.gz]
+[2023-07-06 10:14:01] INFO root fetch - processPackages [wsidicomizer]: Remove: archive file [/home/abi/fetcher/tmp/wsidicomizer-0.9.3.tar.gz]
+[2023-07-06 10:14:01] INFO root fetch - main [MainThread]: End processing [wsidicomizer]: success
+[2023-07-06 10:14:01] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-07-06 10:14:01] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230706/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-07-06 10:14:02] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.8.tar.gz]
+[2023-07-06 10:14:02] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.9.tar.gz]
+[2023-07-06 10:14:02] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-07-06 10:14:02] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.8.4.2.tar.gz]
+[2023-07-06 10:14:02] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.8.4.4.tar.gz]
+[2023-07-06 10:14:02] INFO root fetch - main [MainThread]: End processing [SELDOMpy]: success
+[2023-07-06 10:14:02] INFO root fetch - processPackages [fiddler-client]: Remove: archive file [/home/abi/fetcher/tmp/fiddler-client-2.0.0.dev5.tar.gz]
+[2023-07-06 10:14:02] INFO root fetch - processPackages [fiddler-client]: Remove: archive file [/home/abi/fetcher/tmp/fiddler-client-2.0.0.dev6.tar.gz]
+[2023-07-06 10:14:02] INFO root fetch - main [MainThread]: End processing [fiddler-client]: success
+[2023-07-06 10:14:02] ERROR root fetch - processPackages [SELDOMpy]: Diffoscope failed: time="2023-07-06T10:14:01+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/SELDOMpy-0.8.4.2.tar.gz does not exist
+
+[2023-07-06 10:14:02] INFO root fetch - main [MainThread]: End processing [SELDOMpy] error
+[2023-07-06 10:14:02] INFO root fetch - processPackages [openlane]: Remove: archive file [/home/abi/fetcher/tmp/openlane-2.0.0a8.tar.gz]
+[2023-07-06 10:14:02] INFO root fetch - processPackages [openlane]: Remove: archive file [/home/abi/fetcher/tmp/openlane-2.0.0a9.tar.gz]
+[2023-07-06 10:14:02] INFO root fetch - main [MainThread]: End processing [openlane]: success
+[2023-07-06 10:14:02] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.98-py3-none-any.whl.zip]
+[2023-07-06 10:14:02] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.99-py3-none-any.whl.zip]
+[2023-07-06 10:14:02] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-07-06 10:14:24] INFO root fetch - processPackages [OpenFisca-France]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France-99.0.0-py3-none-any.whl.zip]
+[2023-07-06 10:14:24] INFO root fetch - processPackages [OpenFisca-France]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France-99.0.1-py3-none-any.whl.zip]
+[2023-07-06 10:14:24] INFO root fetch - main [MainThread]: End processing [OpenFisca-France]: success
+[2023-07-06 10:14:24] INFO root fetch - main [MainThread]: Store serial: [18779971]
