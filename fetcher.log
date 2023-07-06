@@ -21612,3 +21612,117 @@ AssertionError: tmp/termkit-0.2.0a4.tar.gz does not exist
 [2023-07-06 13:15:07] INFO root fetch - processPackages [funasr]: Remove: archive file [/home/abi/fetcher/tmp/funasr-0.6.9.tar.gz]
 [2023-07-06 13:15:07] INFO root fetch - main [MainThread]: End processing [funasr]: success
 [2023-07-06 13:15:07] INFO root fetch - main [MainThread]: Store serial: [18782438]
+[2023-07-06 13:20:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18782438]
+[2023-07-06 13:20:17] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-06 13:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mob-tool
+[2023-07-06 13:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xformers
+[2023-07-06 13:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyocf
+[2023-07-06 13:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: micrOSDevToolKit
+[2023-07-06 13:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: macrometa-target-oracle
+[2023-07-06 13:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydelorean
+[2023-07-06 13:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aliyundrive-webdav
+[2023-07-06 13:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: axion
+[2023-07-06 13:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lusid-notifications-sdk-preview
+[2023-07-06 13:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xju
+[2023-07-06 13:20:18] INFO root fetch - processPackages [macrometa-target-oracle]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 13:20:18] INFO root fetch - processPackages [micrOSDevToolKit]: New version: [1.18.0] Old Version: [1.17.9]
+[2023-07-06 13:20:18] WARNING root fetch - processPackages [axion]: Skipping, unable to determine old version
+[2023-07-06 13:20:18] INFO root fetch - processPackages [axion]: Start processing: automonisaur
+[2023-07-06 13:20:18] INFO root fetch - main [MainThread]: End processing [axion] error
+[2023-07-06 13:20:18] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: New version: [0.1.773] Old Version: [0.1.772]
+[2023-07-06 13:20:18] INFO root fetch - processPackages [xformers]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 13:20:18] INFO root fetch - processPackages [macrometa-target-oracle]: Downloading https://files.pythonhosted.org/packages/a0/80/e2b08a616a27c8e81c0443ee41200ad4d121227c68ab6f394093dad44b33/macrometa-target-oracle-0.0.8.tar.gz
+[2023-07-06 13:20:18] INFO root fetch - processPackages [pyocf]: New version: [1.0b1] Old Version: [1.0.1]
+[2023-07-06 13:20:18] INFO root fetch - processPackages [xju]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-07-06 13:20:18] INFO root fetch - processPackages [mob-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-06 13:20:18] INFO root fetch - processPackages [pydelorean]: New version: [1.1.0] Old Version: [0.3.1]
+[2023-07-06 13:20:18] INFO root fetch - processPackages [aliyundrive-webdav]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-07-06 13:20:18] INFO root fetch - processPackages [automonisaur]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-07-06 13:20:18] INFO root fetch - processPackages [micrOSDevToolKit]: Downloading https://files.pythonhosted.org/packages/d5/58/aa051aabadf89d9940815552bbd2457f9d2e712cb6c0c824124dc042afc7/micrOSDevToolKit-1.17.9.tar.gz
+[2023-07-06 13:20:18] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/2f/a0/9310d497a1db064f1b110fc53bb11af81d784edc351a333f51b79dd2f601/lusid-notifications-sdk-preview-0.1.772.tar.gz
+[2023-07-06 13:20:18] INFO root fetch - processPackages [pydelorean]: Downloading https://files.pythonhosted.org/packages/40/a5/06ed915d503affc5c2a6725643fda64ea10c9a9f7e65805899f8e0d35deb/pydelorean-0.3.1.tar.gz
+[2023-07-06 13:20:18] INFO root fetch - processPackages [mob-tool]: Downloading https://files.pythonhosted.org/packages/47/9c/4c4aa1d6859989754ded9d970d2fed62327d277ba91ca66c2a2c9f1ffcde/mob-tool-1.0.8.tar.gz
+[2023-07-06 13:20:18] INFO root fetch - processPackages [pyocf]: Downloading https://files.pythonhosted.org/packages/dc/05/a1d81313dd7a207524bb3f63a84ed15c2f0e59a1977bc80ae941e90b7cd6/pyocf-1.0.1.tar.gz
+[2023-07-06 13:20:18] INFO root fetch - processPackages [xju]: Downloading https://files.pythonhosted.org/packages/9b/01/25789beac32de8eacda9dc35b65089a8f2579833c84dcf9b44efef82c4b2/xju-1.4.0.tar.gz
+[2023-07-06 13:20:18] INFO root fetch - processPackages [aliyundrive-webdav]: Downloading https://files.pythonhosted.org/packages/9c/ed/eaee8405f4448a44336d6c1a01f332fe254e992a372944548d9c043cceb1/aliyundrive_webdav-2.2.1-py3-none-win_arm64.whl
+[2023-07-06 13:20:18] INFO root fetch - processPackages [macrometa-target-oracle]: Downloading https://files.pythonhosted.org/packages/f8/ce/aadb11448727303fc74399e4726f9128a801d5b6900e10ebdc91d4c6e5cd/macrometa-target-oracle-0.0.9.tar.gz
+[2023-07-06 13:20:18] INFO root fetch - processPackages [automonisaur]: Downloading https://files.pythonhosted.org/packages/61/56/86aa80897a31321fcc7acd2a8fc9707978367130b1907bee2d2584da976f/automonisaur-0.2.9.tar.gz
+[2023-07-06 13:20:18] INFO root fetch - processPackages [xformers]: Downloading https://files.pythonhosted.org/packages/81/d6/709a1f765f8ecb6217ecd010e71f23c871a6cacdf837e1186c057eb0372f/xformers-0.0.8.tar.gz
+[2023-07-06 13:20:18] INFO root fetch - processPackages [macrometa-target-oracle]: executing diffoscope
+[2023-07-06 13:20:18] INFO root fetch - processPackages [macrometa-target-oracle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-oracle-0.0.8.tar.gz tmp/macrometa-target-oracle-0.0.9.tar.gz --markdown 20230706/m/macrometa-target-oracle/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 13:20:19] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/32/5a/7fec162743cbac0c4bfe4c59c267d714ee2b9d032e8159312cff3d6e5851/lusid-notifications-sdk-preview-0.1.773.tar.gz
+[2023-07-06 13:20:19] INFO root fetch - processPackages [micrOSDevToolKit]: Downloading https://files.pythonhosted.org/packages/f1/b1/2151dc37a8edc9c6f50552901184c91f9b0932aa34e00823160c516d2c13/micrOSDevToolKit-1.18.0.tar.gz
+[2023-07-06 13:20:19] INFO root fetch - processPackages [xju]: Downloading https://files.pythonhosted.org/packages/88/13/5a627775c9213f1b8d0f1d49b66aca8549be10321873f2072bcae8139f44/xju-1.4.1.tar.gz
+[2023-07-06 13:20:19] INFO root fetch - processPackages [pydelorean]: Downloading https://files.pythonhosted.org/packages/ed/75/6027e9646563165a004e29b158d4ce6806eb4d1c3ab82034c0c44846c81c/pydelorean-1.1.0.tar.gz
+[2023-07-06 13:20:19] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: executing diffoscope
+[2023-07-06 13:20:19] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notifications-sdk-preview-0.1.772.tar.gz tmp/lusid-notifications-sdk-preview-0.1.773.tar.gz --markdown 20230706/l/lusid-notifications-sdk-preview/0.1.772-0.1.773/diff.md --exclude *.pyd
+[2023-07-06 13:20:19] INFO root fetch - processPackages [pyocf]: Downloading https://files.pythonhosted.org/packages/61/48/acaf814becba3907c64e02dd3e1eb6087a32a31c293aefe5c604d97a1769/pyocf-1.0b1.tar.gz
+[2023-07-06 13:20:19] INFO root fetch - processPackages [mob-tool]: Downloading https://files.pythonhosted.org/packages/c6/8f/951865f5d0589a691dbf8d5e484b2d02229b25be530131dc07e353c6fe8e/mob-tool-1.0.9.tar.gz
+[2023-07-06 13:20:19] INFO root fetch - processPackages [xformers]: Downloading https://files.pythonhosted.org/packages/8f/c2/9cfed3bb83e46be252b4a2e9a75ebb4c8a0f9df6cbb228b3646048a7d3c4/xformers-0.0.9.tar.gz
+[2023-07-06 13:20:19] INFO root fetch - processPackages [pydelorean]: executing diffoscope
+[2023-07-06 13:20:19] INFO root fetch - processPackages [pydelorean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydelorean-0.3.1.tar.gz tmp/pydelorean-1.1.0.tar.gz --markdown 20230706/p/pydelorean/0.3.1-1.1.0/diff.md --exclude *.pyd
+[2023-07-06 13:20:19] INFO root fetch - processPackages [xju]: executing diffoscope
+[2023-07-06 13:20:19] INFO root fetch - processPackages [xju]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xju-1.4.0.tar.gz tmp/xju-1.4.1.tar.gz --markdown 20230706/x/xju/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-07-06 13:20:19] INFO root fetch - processPackages [automonisaur]: Downloading https://files.pythonhosted.org/packages/ac/4c/1dd9e4c97689c274cbccd52cb6d1c74d253e73999bee16ad25e5d9581153/automonisaur-0.3.0.tar.gz
+[2023-07-06 13:20:19] INFO root fetch - processPackages [pyocf]: executing diffoscope
+[2023-07-06 13:20:19] INFO root fetch - processPackages [pyocf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyocf-1.0.1.tar.gz tmp/pyocf-1.0b1.tar.gz --markdown 20230706/p/pyocf/1.0.1-1.0b1/diff.md --exclude *.pyd
+[2023-07-06 13:20:19] INFO root fetch - processPackages [mob-tool]: executing diffoscope
+[2023-07-06 13:20:19] INFO root fetch - processPackages [mob-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mob-tool-1.0.8.tar.gz tmp/mob-tool-1.0.9.tar.gz --markdown 20230706/m/mob-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-06 13:20:19] INFO root fetch - processPackages [aliyundrive-webdav]: Downloading https://files.pythonhosted.org/packages/fa/7a/9d8099a90fbe4901bfb43dea923b9f3801ca5350131d1cb1b3cb07fd8971/aliyundrive_webdav-2.2.2-py3-none-win_arm64.whl
+[2023-07-06 13:20:19] INFO root fetch - processPackages [xformers]: executing diffoscope
+[2023-07-06 13:20:19] INFO root fetch - processPackages [xformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xformers-0.0.8.tar.gz tmp/xformers-0.0.9.tar.gz --markdown 20230706/x/xformers/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 13:20:19] INFO root fetch - processPackages [automonisaur]: executing diffoscope
+[2023-07-06 13:20:19] INFO root fetch - processPackages [automonisaur]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automonisaur-0.2.9.tar.gz tmp/automonisaur-0.3.0.tar.gz --markdown 20230706/a/automonisaur/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-07-06 13:20:19] INFO root fetch - processPackages [micrOSDevToolKit]: executing diffoscope
+[2023-07-06 13:20:19] INFO root fetch - processPackages [micrOSDevToolKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micrOSDevToolKit-1.17.9.tar.gz tmp/micrOSDevToolKit-1.18.0.tar.gz --markdown 20230706/m/micrOSDevToolKit/1.17.9-1.18.0/diff.md --exclude *.pyd
+[2023-07-06 13:20:20] INFO root fetch - processPackages [aliyundrive-webdav]: executing diffoscope
+[2023-07-06 13:20:20] INFO root fetch - processPackages [aliyundrive-webdav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyundrive_webdav-2.2.1-py3-none-win_arm64.whl.zip tmp/aliyundrive_webdav-2.2.2-py3-none-win_arm64.whl.zip --markdown 20230706/a/aliyundrive-webdav/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-07-06 13:20:20] INFO root fetch - processPackages [macrometa-target-oracle]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-oracle-0.0.8.tar.gz]
+[2023-07-06 13:20:20] INFO root fetch - processPackages [macrometa-target-oracle]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-oracle-0.0.9.tar.gz]
+[2023-07-06 13:20:20] INFO root fetch - processPackages [macrometa-target-oracle]: Start processing: qontract-reconcile
+[2023-07-06 13:20:20] INFO root fetch - main [MainThread]: End processing [macrometa-target-oracle]: success
+[2023-07-06 13:20:20] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-07-06 13:20:20] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-07-06 13:20:20] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-07-06 13:20:20] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-07-06 13:20:20] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230706/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-07-06 13:20:21] INFO root fetch - processPackages [pydelorean]: Remove: archive file [/home/abi/fetcher/tmp/pydelorean-0.3.1.tar.gz]
+[2023-07-06 13:20:21] INFO root fetch - processPackages [pydelorean]: Remove: archive file [/home/abi/fetcher/tmp/pydelorean-1.1.0.tar.gz]
+[2023-07-06 13:20:21] INFO root fetch - processPackages [pydelorean]: Start processing: mob-tool
+[2023-07-06 13:20:21] INFO root fetch - main [MainThread]: End processing [pydelorean]: success
+[2023-07-06 13:20:21] INFO root fetch - processPackages [mob-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-06 13:20:21] INFO root fetch - processPackages [mob-tool]: executing diffoscope
+[2023-07-06 13:20:21] INFO root fetch - processPackages [mob-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mob-tool-1.0.8.tar.gz tmp/mob-tool-1.0.9.tar.gz --markdown 20230706/m/mob-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-06 13:20:21] INFO root fetch - processPackages [xju]: Remove: archive file [/home/abi/fetcher/tmp/xju-1.4.0.tar.gz]
+[2023-07-06 13:20:21] INFO root fetch - processPackages [xju]: Remove: archive file [/home/abi/fetcher/tmp/xju-1.4.1.tar.gz]
+[2023-07-06 13:20:21] INFO root fetch - main [MainThread]: End processing [xju]: success
+[2023-07-06 13:20:21] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.772.tar.gz]
+[2023-07-06 13:20:21] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.773.tar.gz]
+[2023-07-06 13:20:21] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
+[2023-07-06 13:20:21] INFO root fetch - processPackages [mob-tool]: Remove: archive file [/home/abi/fetcher/tmp/mob-tool-1.0.8.tar.gz]
+[2023-07-06 13:20:21] INFO root fetch - processPackages [mob-tool]: Remove: archive file [/home/abi/fetcher/tmp/mob-tool-1.0.9.tar.gz]
+[2023-07-06 13:20:21] INFO root fetch - main [MainThread]: End processing [mob-tool]: success
+[2023-07-06 13:20:22] ERROR root fetch - processPackages [mob-tool]: Diffoscope failed: time="2023-07-06T13:20:21+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/mob-tool-1.0.8.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/mob-tool-1.0.9.tar.gz: No such file or directory
+
+[2023-07-06 13:20:22] INFO root fetch - main [MainThread]: End processing [mob-tool] error
+[2023-07-06 13:20:22] INFO root fetch - processPackages [xformers]: Remove: archive file [/home/abi/fetcher/tmp/xformers-0.0.8.tar.gz]
+[2023-07-06 13:20:22] INFO root fetch - processPackages [xformers]: Remove: archive file [/home/abi/fetcher/tmp/xformers-0.0.9.tar.gz]
+[2023-07-06 13:20:22] INFO root fetch - main [MainThread]: End processing [xformers]: success
+[2023-07-06 13:20:22] INFO root fetch - processPackages [automonisaur]: Remove: archive file [/home/abi/fetcher/tmp/automonisaur-0.2.9.tar.gz]
+[2023-07-06 13:20:22] INFO root fetch - processPackages [automonisaur]: Remove: archive file [/home/abi/fetcher/tmp/automonisaur-0.3.0.tar.gz]
+[2023-07-06 13:20:22] INFO root fetch - main [MainThread]: End processing [automonisaur]: success
+[2023-07-06 13:20:23] INFO root fetch - processPackages [pyocf]: Remove: archive file [/home/abi/fetcher/tmp/pyocf-1.0.1.tar.gz]
+[2023-07-06 13:20:23] INFO root fetch - processPackages [pyocf]: Remove: archive file [/home/abi/fetcher/tmp/pyocf-1.0b1.tar.gz]
+[2023-07-06 13:20:23] INFO root fetch - main [MainThread]: End processing [pyocf]: success
+[2023-07-06 13:20:23] INFO root fetch - processPackages [micrOSDevToolKit]: Remove: archive file [/home/abi/fetcher/tmp/micrOSDevToolKit-1.17.9.tar.gz]
+[2023-07-06 13:20:23] INFO root fetch - processPackages [micrOSDevToolKit]: Remove: archive file [/home/abi/fetcher/tmp/micrOSDevToolKit-1.18.0.tar.gz]
+[2023-07-06 13:20:23] INFO root fetch - main [MainThread]: End processing [micrOSDevToolKit]: success
+[2023-07-06 13:20:24] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-07-06 13:20:24] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-07-06 13:20:24] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-07-06 13:20:37] INFO root fetch - processPackages [aliyundrive-webdav]: Remove: archive file [/home/abi/fetcher/tmp/aliyundrive_webdav-2.2.1-py3-none-win_arm64.whl.zip]
+[2023-07-06 13:20:37] INFO root fetch - processPackages [aliyundrive-webdav]: Remove: archive file [/home/abi/fetcher/tmp/aliyundrive_webdav-2.2.2-py3-none-win_arm64.whl.zip]
+[2023-07-06 13:20:37] INFO root fetch - main [MainThread]: End processing [aliyundrive-webdav]: success
+[2023-07-06 13:20:37] INFO root fetch - main [MainThread]: Store serial: [18782490]
