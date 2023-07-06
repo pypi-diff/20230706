@@ -11628,3 +11628,83 @@ AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
 [2023-07-06 06:25:05] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
 [2023-07-06 06:25:05] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
 [2023-07-06 06:25:05] INFO root fetch - main [MainThread]: Store serial: [18778338]
+[2023-07-06 06:30:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18778338]
+[2023-07-06 06:30:14] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-06 06:30:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytak
+[2023-07-06 06:30:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastapi_amis_admin
+[2023-07-06 06:30:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tj-kits-wind
+[2023-07-06 06:30:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: markata
+[2023-07-06 06:30:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-ocr-api20210707-py2
+[2023-07-06 06:30:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-ocr-api20210707
+[2023-07-06 06:30:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: videochef
+[2023-07-06 06:30:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sophie-lang
+[2023-07-06 06:30:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: python-audio-autotest
+[2023-07-06 06:30:14] INFO root fetch - processPackages [tj-kits-wind]: New version: [0.1.0] Old Version: [0.0.6]
+[2023-07-06 06:30:14] INFO root fetch - processPackages [fastapi_amis_admin]: New version: [0.5.8] Old Version: [0.5.7a1]
+[2023-07-06 06:30:15] INFO root fetch - processPackages [pytak]: New version: [5.7.0b6] Old Version: [5.7.0b5]
+[2023-07-06 06:30:15] INFO root fetch - processPackages [videochef]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-07-06 06:30:15] INFO root fetch - processPackages [alibabacloud-ocr-api20210707]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-07-06 06:30:15] INFO root fetch - processPackages [markata]: New version: [0.7.2] Old Version: [0.7.1.dev0]
+[2023-07-06 06:30:15] INFO root fetch - processPackages [alibabacloud-ocr-api20210707-py2]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-07-06 06:30:15] INFO root fetch - processPackages [sophie-lang]: New version: [0.0.3] Old Version: [0.0.0]
+[2023-07-06 06:30:15] INFO root fetch - processPackages [videochef]: Downloading https://files.pythonhosted.org/packages/4a/2a/0c501702295ca8edbfe4453867c463ecfd5806691266da664a64604c6f3e/videochef-0.0.3.tar.gz
+[2023-07-06 06:30:15] INFO root fetch - processPackages [tj-kits-wind]: Downloading https://files.pythonhosted.org/packages/f1/a6/57ce05d546650287fb20b66fac8e1e984e26899cf793189b3cb569322250/tj_kits_wind-0.0.6.tar.gz
+[2023-07-06 06:30:15] INFO root fetch - processPackages [markata]: Downloading https://files.pythonhosted.org/packages/82/bb/768d0e96673f1ad3ff886c4c712a4335e3f7c82a242525f9e7838eddc2b6/markata-0.7.1.dev0.tar.gz
+[2023-07-06 06:30:15] INFO root fetch - processPackages [python-audio-autotest]: New version: [1.5.4rc0] Old Version: [1.5.4]
+[2023-07-06 06:30:15] INFO root fetch - processPackages [pytak]: Downloading https://files.pythonhosted.org/packages/39/4f/1f7ed267a3524dbbe7f702cdc9c6c19af4f0efc19ff8065ede63fdee425f/pytak-5.7.0b5.tar.gz
+[2023-07-06 06:30:15] INFO root fetch - processPackages [fastapi_amis_admin]: Downloading https://files.pythonhosted.org/packages/44/e5/7232da678617b9d1333efd2f53660dba4c0435b5e4892106c3b036020a85/fastapi_amis_admin-0.5.7a1.tar.gz
+[2023-07-06 06:30:15] INFO root fetch - processPackages [alibabacloud-ocr-api20210707-py2]: Downloading https://files.pythonhosted.org/packages/20/49/86afb2e7cc2b7ec3bf9f2feb8e8d46631fe6ef7154ab5cac3f247a272bbd/alibabacloud_ocr-api20210707_py2-1.1.7.tar.gz
+[2023-07-06 06:30:15] INFO root fetch - processPackages [alibabacloud-ocr-api20210707]: Downloading https://files.pythonhosted.org/packages/62/5b/35d4b56424ea06aa51c11d14e87e48bde265205d89a4579a2099024ceaee/alibabacloud_ocr-api20210707-1.1.7.tar.gz
+[2023-07-06 06:30:15] INFO root fetch - processPackages [sophie-lang]: Downloading https://files.pythonhosted.org/packages/37/f1/652a5b04172327f9750f41747bebefc66a510f6e6e2698f548132d2077b3/sophie-lang-0.0.0.tar.gz
+[2023-07-06 06:30:15] INFO root fetch - processPackages [python-audio-autotest]: Downloading https://files.pythonhosted.org/packages/08/78/196f0ca3b9e6e43a7acd34bc18395fe18cbc054a571aa68df6a8d51a44aa/python_audio_autotest-1.5.4-py3-none-any.whl
+[2023-07-06 06:30:15] INFO root fetch - processPackages [videochef]: Downloading https://files.pythonhosted.org/packages/33/63/fcb31f56111b8ae15f165043f6ebb0ce272cf5e9faa7071a05de75c07676/videochef-0.1.0.tar.gz
+[2023-07-06 06:30:15] INFO root fetch - processPackages [markata]: Downloading https://files.pythonhosted.org/packages/9e/a2/4c50e7d0f9520c3bd58285d6175e76b9f59172c738f1458c3c9387061e15/markata-0.7.2.tar.gz
+[2023-07-06 06:30:15] INFO root fetch - processPackages [tj-kits-wind]: Downloading https://files.pythonhosted.org/packages/da/32/e26968011c8b416ea670a8914d6360fe44d0e8a46b1e571c7bf29de239d5/tj_kits_wind-0.1.0.tar.gz
+[2023-07-06 06:30:15] INFO root fetch - processPackages [videochef]: executing diffoscope
+[2023-07-06 06:30:15] INFO root fetch - processPackages [videochef]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/videochef-0.0.3.tar.gz tmp/videochef-0.1.0.tar.gz --markdown 20230706/v/videochef/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-07-06 06:30:15] INFO root fetch - processPackages [pytak]: Downloading https://files.pythonhosted.org/packages/9e/58/721c7404dc76589a319222eab98d03359d02d5d2d11f9350cfd5a3bf1dc5/pytak-5.7.0b6.tar.gz
+[2023-07-06 06:30:15] INFO root fetch - processPackages [tj-kits-wind]: executing diffoscope
+[2023-07-06 06:30:15] INFO root fetch - processPackages [tj-kits-wind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tj_kits_wind-0.0.6.tar.gz tmp/tj_kits_wind-0.1.0.tar.gz --markdown 20230706/t/tj-kits-wind/0.0.6-0.1.0/diff.md --exclude *.pyd
+[2023-07-06 06:30:15] INFO root fetch - processPackages [fastapi_amis_admin]: Downloading https://files.pythonhosted.org/packages/c4/74/c74bf2740c7f591bb34d9eba661a64aeadc725df6cc37230a4962c257f96/fastapi_amis_admin-0.5.8.tar.gz
+[2023-07-06 06:30:15] WARNING root fetch - processPackages [python-audio-autotest]: Skipping package: exceeds size limit 26277706>=10485760
+[2023-07-06 06:30:15] INFO root fetch - main [MainThread]: End processing [python-audio-autotest] error
+[2023-07-06 06:30:15] INFO root fetch - processPackages [markata]: executing diffoscope
+[2023-07-06 06:30:15] INFO root fetch - processPackages [markata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markata-0.7.1.dev0.tar.gz tmp/markata-0.7.2.tar.gz --markdown 20230706/m/markata/0.7.1.dev0-0.7.2/diff.md --exclude *.pyd
+[2023-07-06 06:30:15] INFO root fetch - processPackages [alibabacloud-ocr-api20210707]: Downloading https://files.pythonhosted.org/packages/ea/0b/7ca082104ad36da09dbc786019aaf1246eab4f558ff7e65aedb379ab5468/alibabacloud_ocr-api20210707-1.1.8.tar.gz
+[2023-07-06 06:30:15] INFO root fetch - processPackages [alibabacloud-ocr-api20210707-py2]: Downloading https://files.pythonhosted.org/packages/7e/85/192c6134a8d1295129e8024b0715efd778fd2ed68d917e798065cd008b5f/alibabacloud_ocr-api20210707_py2-1.1.8.tar.gz
+[2023-07-06 06:30:15] INFO root fetch - processPackages [sophie-lang]: Downloading https://files.pythonhosted.org/packages/b4/d4/9d6c656ad3790d8a78f75993045691a1d19a17817e23d7fd1a3aaa937f6a/sophie-lang-0.0.3.tar.gz
+[2023-07-06 06:30:15] INFO root fetch - processPackages [fastapi_amis_admin]: executing diffoscope
+[2023-07-06 06:30:15] INFO root fetch - processPackages [fastapi_amis_admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_amis_admin-0.5.7a1.tar.gz tmp/fastapi_amis_admin-0.5.8.tar.gz --markdown 20230706/f/fastapi_amis_admin/0.5.7a1-0.5.8/diff.md --exclude *.pyd
+[2023-07-06 06:30:15] INFO root fetch - processPackages [pytak]: executing diffoscope
+[2023-07-06 06:30:15] INFO root fetch - processPackages [pytak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytak-5.7.0b5.tar.gz tmp/pytak-5.7.0b6.tar.gz --markdown 20230706/p/pytak/5.7.0b5-5.7.0b6/diff.md --exclude *.pyd
+[2023-07-06 06:30:16] INFO root fetch - processPackages [alibabacloud-ocr-api20210707-py2]: executing diffoscope
+[2023-07-06 06:30:16] INFO root fetch - processPackages [alibabacloud-ocr-api20210707-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ocr-api20210707_py2-1.1.7.tar.gz tmp/alibabacloud_ocr-api20210707_py2-1.1.8.tar.gz --markdown 20230706/a/alibabacloud-ocr-api20210707-py2/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-07-06 06:30:16] INFO root fetch - processPackages [alibabacloud-ocr-api20210707]: executing diffoscope
+[2023-07-06 06:30:16] INFO root fetch - processPackages [alibabacloud-ocr-api20210707]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ocr-api20210707-1.1.7.tar.gz tmp/alibabacloud_ocr-api20210707-1.1.8.tar.gz --markdown 20230706/a/alibabacloud-ocr-api20210707/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-07-06 06:30:16] INFO root fetch - processPackages [sophie-lang]: executing diffoscope
+[2023-07-06 06:30:16] INFO root fetch - processPackages [sophie-lang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sophie-lang-0.0.0.tar.gz tmp/sophie-lang-0.0.3.tar.gz --markdown 20230706/s/sophie-lang/0.0.0-0.0.3/diff.md --exclude *.pyd
+[2023-07-06 06:30:16] INFO root fetch - processPackages [videochef]: Remove: archive file [/home/abi/fetcher/tmp/videochef-0.0.3.tar.gz]
+[2023-07-06 06:30:16] INFO root fetch - processPackages [videochef]: Remove: archive file [/home/abi/fetcher/tmp/videochef-0.1.0.tar.gz]
+[2023-07-06 06:30:16] INFO root fetch - main [MainThread]: End processing [videochef]: success
+[2023-07-06 06:30:16] INFO root fetch - processPackages [tj-kits-wind]: Remove: archive file [/home/abi/fetcher/tmp/tj_kits_wind-0.0.6.tar.gz]
+[2023-07-06 06:30:16] INFO root fetch - processPackages [tj-kits-wind]: Remove: archive file [/home/abi/fetcher/tmp/tj_kits_wind-0.1.0.tar.gz]
+[2023-07-06 06:30:16] INFO root fetch - main [MainThread]: End processing [tj-kits-wind]: success
+[2023-07-06 06:30:17] INFO root fetch - processPackages [pytak]: Remove: archive file [/home/abi/fetcher/tmp/pytak-5.7.0b5.tar.gz]
+[2023-07-06 06:30:17] INFO root fetch - processPackages [pytak]: Remove: archive file [/home/abi/fetcher/tmp/pytak-5.7.0b6.tar.gz]
+[2023-07-06 06:30:17] INFO root fetch - main [MainThread]: End processing [pytak]: success
+[2023-07-06 06:30:17] INFO root fetch - processPackages [alibabacloud-ocr-api20210707-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ocr-api20210707_py2-1.1.7.tar.gz]
+[2023-07-06 06:30:17] INFO root fetch - processPackages [alibabacloud-ocr-api20210707-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ocr-api20210707_py2-1.1.8.tar.gz]
+[2023-07-06 06:30:17] INFO root fetch - main [MainThread]: End processing [alibabacloud-ocr-api20210707-py2]: success
+[2023-07-06 06:30:17] INFO root fetch - processPackages [markata]: Remove: archive file [/home/abi/fetcher/tmp/markata-0.7.1.dev0.tar.gz]
+[2023-07-06 06:30:17] INFO root fetch - processPackages [markata]: Remove: archive file [/home/abi/fetcher/tmp/markata-0.7.2.tar.gz]
+[2023-07-06 06:30:17] INFO root fetch - main [MainThread]: End processing [markata]: success
+[2023-07-06 06:30:17] INFO root fetch - processPackages [alibabacloud-ocr-api20210707]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ocr-api20210707-1.1.7.tar.gz]
+[2023-07-06 06:30:17] INFO root fetch - processPackages [alibabacloud-ocr-api20210707]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ocr-api20210707-1.1.8.tar.gz]
+[2023-07-06 06:30:17] INFO root fetch - main [MainThread]: End processing [alibabacloud-ocr-api20210707]: success
+[2023-07-06 06:30:17] INFO root fetch - processPackages [fastapi_amis_admin]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_amis_admin-0.5.7a1.tar.gz]
+[2023-07-06 06:30:17] INFO root fetch - processPackages [fastapi_amis_admin]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_amis_admin-0.5.8.tar.gz]
+[2023-07-06 06:30:17] INFO root fetch - main [MainThread]: End processing [fastapi_amis_admin]: success
+[2023-07-06 06:30:19] INFO root fetch - processPackages [sophie-lang]: Remove: archive file [/home/abi/fetcher/tmp/sophie-lang-0.0.0.tar.gz]
+[2023-07-06 06:30:19] INFO root fetch - processPackages [sophie-lang]: Remove: archive file [/home/abi/fetcher/tmp/sophie-lang-0.0.3.tar.gz]
+[2023-07-06 06:30:19] INFO root fetch - main [MainThread]: End processing [sophie-lang]: success
+[2023-07-06 06:30:19] INFO root fetch - main [MainThread]: Store serial: [18778366]
