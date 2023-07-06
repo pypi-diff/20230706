@@ -19807,3 +19807,118 @@ AssertionError: tmp/termkit-0.2.0a4.tar.gz does not exist
 [2023-07-06 12:10:23] INFO root fetch - processPackages [huaweicloudsdkroma]: Remove: archive file [/home/abi/fetcher/tmp/huaweicloudsdkroma-3.1.9-py2.py3-none-any.whl.zip]
 [2023-07-06 12:10:23] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkroma]: success
 [2023-07-06 12:10:23] INFO root fetch - main [MainThread]: Store serial: [18781655]
+[2023-07-06 12:15:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18781655]
+[2023-07-06 12:15:33] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-06 12:15:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dm-reverb-nightly
+[2023-07-06 12:15:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: raclients
+[2023-07-06 12:15:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: merlin-sdk
+[2023-07-06 12:15:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mwj-apitest
+[2023-07-06 12:15:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xfem
+[2023-07-06 12:15:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stk
+[2023-07-06 12:15:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: raclients
+[2023-07-06 12:15:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: echion
+[2023-07-06 12:15:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bycon
+[2023-07-06 12:15:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: orca-parser
+[2023-07-06 12:15:33] INFO root fetch - processPackages [bycon]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-06 12:15:33] INFO root fetch - processPackages [mwj-apitest]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-06 12:15:33] INFO root fetch - processPackages [raclients]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-07-06 12:15:33] WARNING root fetch - processPackages [echion]: Skipping, unable to determine old version
+[2023-07-06 12:15:33] INFO root fetch - processPackages [echion]: Start processing: DefyDatabase
+[2023-07-06 12:15:33] INFO root fetch - main [MainThread]: End processing [echion] error
+[2023-07-06 12:15:33] WARNING root fetch - processPackages [orca-parser]: Skipping, unable to determine old version
+[2023-07-06 12:15:33] INFO root fetch - processPackages [orca-parser]: Start processing: grai-schemas
+[2023-07-06 12:15:33] INFO root fetch - main [MainThread]: End processing [orca-parser] error
+[2023-07-06 12:15:33] INFO root fetch - processPackages [stk]: New version: [2023.7.6.0] Old Version: [2023.7.5.3]
+[2023-07-06 12:15:33] INFO root fetch - processPackages [raclients]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-07-06 12:15:33] INFO root fetch - processPackages [merlin-sdk]: New version: [0.9.1] Old Version: [0.9.0.dev0]
+[2023-07-06 12:15:33] INFO root fetch - processPackages [xfem]: New version: [2.1.2303] Old Version: [2.1.2302.post1.dev0]
+[2023-07-06 12:15:33] INFO root fetch - processPackages [DefyDatabase]: New version: [10.0.0a4.dev202307061815] Old Version: [10.0.0a4.dev202307060610]
+[2023-07-06 12:15:33] INFO root fetch - processPackages [dm-reverb-nightly]: New version: [0.9.0.dev20221207] Old Version: [0.9.0.dev20221206]
+[2023-07-06 12:15:33] INFO root fetch - processPackages [bycon]: Downloading https://files.pythonhosted.org/packages/d8/52/9205bbdcf60c69e8870bca5c3a21b54dc9acc3dc4e845822e9f9630cbb34/bycon-1.0.8.tar.gz
+[2023-07-06 12:15:33] INFO root fetch - processPackages [grai-schemas]: New version: [0.2.0a4] Old Version: [0.2.0a3]
+[2023-07-06 12:15:33] INFO root fetch - processPackages [raclients]: Downloading https://files.pythonhosted.org/packages/4f/b1/64f97cff5c786a4e9dbaabfefd4392b26e648acdec629239bc267d277daf/raclients-3.1.8.tar.gz
+[2023-07-06 12:15:33] INFO root fetch - processPackages [raclients]: Downloading https://files.pythonhosted.org/packages/4f/b1/64f97cff5c786a4e9dbaabfefd4392b26e648acdec629239bc267d277daf/raclients-3.1.8.tar.gz
+[2023-07-06 12:15:33] INFO root fetch - processPackages [merlin-sdk]: Downloading https://files.pythonhosted.org/packages/a6/93/1ec49bc87e9c3783e78f1047b5a8045a37c626115351da0f603c1ae6a894/merlin-sdk-0.9.0.dev0.tar.gz
+[2023-07-06 12:15:33] INFO root fetch - processPackages [mwj-apitest]: Downloading https://files.pythonhosted.org/packages/01/d7/b8ea4dd18bb689f0def3526463ab937dd5b5c2d3f2a7652f0238e8cc0c4e/mwj-apitest-1.0.1.tar.gz
+[2023-07-06 12:15:33] INFO root fetch - processPackages [DefyDatabase]: Downloading https://files.pythonhosted.org/packages/bf/82/57103908521d273e0f5fea74340d9b88cb738fa6fa796fdda0919edc9104/DefyDatabase-10.0.0a4.dev202307060610.tar.gz
+[2023-07-06 12:15:33] INFO root fetch - processPackages [xfem]: Downloading https://files.pythonhosted.org/packages/60/f9/1d4af21edb2f6aee71aa1cc01169cbfc78adb182c9fcd4c4def0a3553a43/xfem-2.1.2302.post1.dev0-cp39-cp39-macosx_11_0_x86_64.whl
+[2023-07-06 12:15:34] INFO root fetch - processPackages [stk]: Downloading https://files.pythonhosted.org/packages/d4/8e/781175f315e29ceff7d17f667d43c97d20796bd0c345a29fae72af11d318/stk-2023.7.5.3.tar.gz
+[2023-07-06 12:15:34] INFO root fetch - processPackages [grai-schemas]: Downloading https://files.pythonhosted.org/packages/f4/3f/d4fe988c2194215c0784d4bef37f94a0976bd9904685c60422b201b14363/grai_schemas-0.2.0a3.tar.gz
+[2023-07-06 12:15:34] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/b4/60/e92fdb2c772dd865b56f7c50bfc1c4bffe5431b4007700cd760900e7aaf2/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-06 12:15:34] INFO root fetch - processPackages [raclients]: Downloading https://files.pythonhosted.org/packages/48/c4/b58be4238b6e6264a95009ab82bb72b157a9d2251e92d24e59705fbab5b9/raclients-3.1.9.tar.gz
+[2023-07-06 12:15:34] INFO root fetch - processPackages [xfem]: Downloading https://files.pythonhosted.org/packages/d5/86/69e306fb4872d498621e5a6f62b70a9b2c6d02e736a2b321b9d91e694d1e/xfem-2.1.2303-cp39-cp39-macosx_11_0_x86_64.whl
+[2023-07-06 12:15:34] INFO root fetch - processPackages [bycon]: Downloading https://files.pythonhosted.org/packages/0c/b2/ef8a7b90b711214a2f00741f476f95ddd0b540bf9732ac39a993a39e0d03/bycon-1.0.9.tar.gz
+[2023-07-06 12:15:34] INFO root fetch - processPackages [raclients]: Downloading https://files.pythonhosted.org/packages/48/c4/b58be4238b6e6264a95009ab82bb72b157a9d2251e92d24e59705fbab5b9/raclients-3.1.9.tar.gz
+[2023-07-06 12:15:34] INFO root fetch - processPackages [DefyDatabase]: Downloading https://files.pythonhosted.org/packages/aa/30/1213cc19a26030bbe4d50bdb838a3ce74e2c8b79dab737940548fa1627cf/DefyDatabase-10.0.0a4.dev202307061815.tar.gz
+[2023-07-06 12:15:34] INFO root fetch - processPackages [mwj-apitest]: Downloading https://files.pythonhosted.org/packages/85/b5/3ef65857ca6079e4163ec3f2f704672b8bceeb3c9e48bb06e98ebc1eed46/mwj-apitest-1.0.2.tar.gz
+[2023-07-06 12:15:34] INFO root fetch - processPackages [raclients]: executing diffoscope
+[2023-07-06 12:15:34] INFO root fetch - processPackages [stk]: Downloading https://files.pythonhosted.org/packages/b0/70/14782f819986e4029f424b1cc5a0db8ea560287e8b63c4a0a133fb6af39f/stk-2023.7.6.0.tar.gz
+[2023-07-06 12:15:34] INFO root fetch - processPackages [raclients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raclients-3.1.8.tar.gz tmp/raclients-3.1.9.tar.gz --markdown 20230706/r/raclients/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-07-06 12:15:34] INFO root fetch - processPackages [merlin-sdk]: Downloading https://files.pythonhosted.org/packages/48/3b/5e6b41bed4feb59823f7fa8ccbf076c977df12a20955a3c783fab418f126/merlin-sdk-0.9.1.tar.gz
+[2023-07-06 12:15:34] INFO root fetch - processPackages [grai-schemas]: Downloading https://files.pythonhosted.org/packages/aa/4b/173b20207102d1d2a802757a7ca90c172df00421a2a8c973cda07e082be1/grai_schemas-0.2.0a4.tar.gz
+[2023-07-06 12:15:34] INFO root fetch - processPackages [raclients]: executing diffoscope
+[2023-07-06 12:15:34] INFO root fetch - processPackages [raclients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raclients-3.1.8.tar.gz tmp/raclients-3.1.9.tar.gz --markdown 20230706/r/raclients/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-07-06 12:15:34] INFO root fetch - processPackages [xfem]: executing diffoscope
+[2023-07-06 12:15:34] INFO root fetch - processPackages [xfem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xfem-2.1.2302.post1.dev0.tar.gz tmp/xfem-2.1.2303-cp39-cp39-macosx_11_0_x86_64.whl.zip --markdown 20230706/x/xfem/2.1.2302.post1.dev0-2.1.2303/diff.md --exclude *.pyd
+[2023-07-06 12:15:34] INFO root fetch - processPackages [mwj-apitest]: executing diffoscope
+[2023-07-06 12:15:34] INFO root fetch - processPackages [mwj-apitest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwj-apitest-1.0.1.tar.gz tmp/mwj-apitest-1.0.2.tar.gz --markdown 20230706/m/mwj-apitest/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-06 12:15:34] INFO root fetch - processPackages [DefyDatabase]: executing diffoscope
+[2023-07-06 12:15:34] INFO root fetch - processPackages [DefyDatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DefyDatabase-10.0.0a4.dev202307060610.tar.gz tmp/DefyDatabase-10.0.0a4.dev202307061815.tar.gz --markdown 20230706/D/DefyDatabase/10.0.0a4.dev202307060610-10.0.0a4.dev202307061815/diff.md --exclude *.pyd
+[2023-07-06 12:15:34] INFO root fetch - processPackages [bycon]: executing diffoscope
+[2023-07-06 12:15:34] INFO root fetch - processPackages [bycon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bycon-1.0.8.tar.gz tmp/bycon-1.0.9.tar.gz --markdown 20230706/b/bycon/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-06 12:15:34] INFO root fetch - processPackages [grai-schemas]: executing diffoscope
+[2023-07-06 12:15:34] INFO root fetch - processPackages [stk]: executing diffoscope
+[2023-07-06 12:15:34] INFO root fetch - processPackages [grai-schemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_schemas-0.2.0a3.tar.gz tmp/grai_schemas-0.2.0a4.tar.gz --markdown 20230706/g/grai-schemas/0.2.0a3-0.2.0a4/diff.md --exclude *.pyd
+[2023-07-06 12:15:34] INFO root fetch - processPackages [stk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stk-2023.7.5.3.tar.gz tmp/stk-2023.7.6.0.tar.gz --markdown 20230706/s/stk/2023.7.5.3-2023.7.6.0/diff.md --exclude *.pyd
+[2023-07-06 12:15:34] INFO root fetch - processPackages [merlin-sdk]: executing diffoscope
+[2023-07-06 12:15:34] INFO root fetch - processPackages [merlin-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merlin-sdk-0.9.0.dev0.tar.gz tmp/merlin-sdk-0.9.1.tar.gz --markdown 20230706/m/merlin-sdk/0.9.0.dev0-0.9.1/diff.md --exclude *.pyd
+[2023-07-06 12:15:35] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/07/ba/e9ef4e61b606a17814023d4b0a99ebf04f48787449f89134eb770db70591/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-06 12:15:35] INFO root fetch - processPackages [raclients]: Remove: archive file [/home/abi/fetcher/tmp/raclients-3.1.8.tar.gz]
+[2023-07-06 12:15:35] INFO root fetch - processPackages [raclients]: Remove: archive file [/home/abi/fetcher/tmp/raclients-3.1.9.tar.gz]
+[2023-07-06 12:15:35] INFO root fetch - processPackages [raclients]: Start processing: pyoxynet
+[2023-07-06 12:15:35] INFO root fetch - main [MainThread]: End processing [raclients]: success
+[2023-07-06 12:15:35] INFO root fetch - processPackages [raclients]: Start processing: Websocketee
+[2023-07-06 12:15:35] INFO root fetch - main [MainThread]: End processing [raclients]: success
+[2023-07-06 12:15:36] INFO root fetch - processPackages [Websocketee]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-06 12:15:36] INFO root fetch - processPackages [pyoxynet]: New version: [0.0.9.9] Old Version: [0.0.9.8]
+[2023-07-06 12:15:36] INFO root fetch - processPackages [DefyDatabase]: Remove: archive file [/home/abi/fetcher/tmp/DefyDatabase-10.0.0a4.dev202307060610.tar.gz]
+[2023-07-06 12:15:36] INFO root fetch - processPackages [DefyDatabase]: Remove: archive file [/home/abi/fetcher/tmp/DefyDatabase-10.0.0a4.dev202307061815.tar.gz]
+[2023-07-06 12:15:36] INFO root fetch - main [MainThread]: End processing [DefyDatabase]: success
+[2023-07-06 12:15:36] INFO root fetch - processPackages [dm-reverb-nightly]: executing diffoscope
+[2023-07-06 12:15:36] INFO root fetch - processPackages [dm-reverb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230706/d/dm-reverb-nightly/0.9.0.dev20221206-0.9.0.dev20221207/diff.md --exclude *.pyd
+[2023-07-06 12:15:36] INFO root fetch - processPackages [Websocketee]: Downloading https://files.pythonhosted.org/packages/41/fe/a1bfdd00bdc97e95467890956a9271cb49d58042dd2abd38dd152e73a454/Websocketee-1.0.0-py3-none-any.whl
+[2023-07-06 12:15:36] INFO root fetch - processPackages [pyoxynet]: Downloading https://files.pythonhosted.org/packages/b0/fc/515fba70151d23e2002eff3cb89de86f3323f2de498b24ac5634ad424107/pyoxynet-0.0.9.8.tar.gz
+[2023-07-06 12:15:36] INFO root fetch - processPackages [mwj-apitest]: Remove: archive file [/home/abi/fetcher/tmp/mwj-apitest-1.0.1.tar.gz]
+[2023-07-06 12:15:36] INFO root fetch - processPackages [mwj-apitest]: Remove: archive file [/home/abi/fetcher/tmp/mwj-apitest-1.0.2.tar.gz]
+[2023-07-06 12:15:36] INFO root fetch - main [MainThread]: End processing [mwj-apitest]: success
+[2023-07-06 12:15:36] INFO root fetch - processPackages [grai-schemas]: Remove: archive file [/home/abi/fetcher/tmp/grai_schemas-0.2.0a3.tar.gz]
+[2023-07-06 12:15:36] INFO root fetch - processPackages [grai-schemas]: Remove: archive file [/home/abi/fetcher/tmp/grai_schemas-0.2.0a4.tar.gz]
+[2023-07-06 12:15:36] INFO root fetch - main [MainThread]: End processing [grai-schemas]: success
+[2023-07-06 12:15:36] INFO root fetch - processPackages [Websocketee]: Downloading https://files.pythonhosted.org/packages/6e/de/cfb5c7d512934cdba1ccf49c0d898be9caf4f88a172f9f63756f965f3280/Websocketee-1.0.1.tar.gz
+[2023-07-06 12:15:36] INFO root fetch - processPackages [Websocketee]: executing diffoscope
+[2023-07-06 12:15:36] INFO root fetch - processPackages [Websocketee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Websocketee-1.0.0-py3-none-any.whl.zip tmp/Websocketee-1.0.1.tar.gz --markdown 20230706/W/Websocketee/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-06 12:15:37] INFO root fetch - processPackages [pyoxynet]: Downloading https://files.pythonhosted.org/packages/41/8b/2c3056a7fa525137845d730655c8ebdc5f75e1a43909a910d81142b5a885/pyoxynet-0.0.9.9.tar.gz
+[2023-07-06 12:15:37] INFO root fetch - processPackages [merlin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/merlin-sdk-0.9.0.dev0.tar.gz]
+[2023-07-06 12:15:37] INFO root fetch - processPackages [merlin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/merlin-sdk-0.9.1.tar.gz]
+[2023-07-06 12:15:37] INFO root fetch - main [MainThread]: End processing [merlin-sdk]: success
+[2023-07-06 12:15:37] INFO root fetch - processPackages [Websocketee]: Remove: archive file [/home/abi/fetcher/tmp/Websocketee-1.0.0-py3-none-any.whl.zip]
+[2023-07-06 12:15:37] INFO root fetch - processPackages [Websocketee]: Remove: archive file [/home/abi/fetcher/tmp/Websocketee-1.0.1.tar.gz]
+[2023-07-06 12:15:37] INFO root fetch - main [MainThread]: End processing [Websocketee]: success
+[2023-07-06 12:15:37] INFO root fetch - processPackages [pyoxynet]: executing diffoscope
+[2023-07-06 12:15:37] INFO root fetch - processPackages [pyoxynet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyoxynet-0.0.9.8.tar.gz tmp/pyoxynet-0.0.9.9.tar.gz --markdown 20230706/p/pyoxynet/0.0.9.8-0.0.9.9/diff.md --exclude *.pyd
+[2023-07-06 12:15:38] INFO root fetch - processPackages [stk]: Remove: archive file [/home/abi/fetcher/tmp/stk-2023.7.5.3.tar.gz]
+[2023-07-06 12:15:38] INFO root fetch - processPackages [stk]: Remove: archive file [/home/abi/fetcher/tmp/stk-2023.7.6.0.tar.gz]
+[2023-07-06 12:15:38] INFO root fetch - main [MainThread]: End processing [stk]: success
+[2023-07-06 12:15:39] INFO root fetch - processPackages [bycon]: Remove: archive file [/home/abi/fetcher/tmp/bycon-1.0.8.tar.gz]
+[2023-07-06 12:15:39] INFO root fetch - processPackages [bycon]: Remove: archive file [/home/abi/fetcher/tmp/bycon-1.0.9.tar.gz]
+[2023-07-06 12:15:39] INFO root fetch - main [MainThread]: End processing [bycon]: success
+[2023-07-06 12:15:39] INFO root fetch - processPackages [pyoxynet]: Remove: archive file [/home/abi/fetcher/tmp/pyoxynet-0.0.9.8.tar.gz]
+[2023-07-06 12:15:39] INFO root fetch - processPackages [pyoxynet]: Remove: archive file [/home/abi/fetcher/tmp/pyoxynet-0.0.9.9.tar.gz]
+[2023-07-06 12:15:39] INFO root fetch - main [MainThread]: End processing [pyoxynet]: success
+[2023-07-06 12:15:43] INFO root fetch - processPackages [xfem]: Remove: archive file [/home/abi/fetcher/tmp/xfem-2.1.2302.post1.dev0.tar.gz]
+[2023-07-06 12:15:43] INFO root fetch - processPackages [xfem]: Remove: archive file [/home/abi/fetcher/tmp/xfem-2.1.2303-cp39-cp39-macosx_11_0_x86_64.whl.zip]
+[2023-07-06 12:15:43] INFO root fetch - main [MainThread]: End processing [xfem]: success
+[2023-07-06 12:16:08] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-06 12:16:08] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-06 12:16:08] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
+[2023-07-06 12:16:08] INFO root fetch - main [MainThread]: Store serial: [18781729]
