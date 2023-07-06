@@ -13443,3 +13443,36 @@ AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
 [2023-07-06 08:31:12] INFO root fetch - processPackages [insights-core]: Remove: archive file [/home/abi/fetcher/tmp/insights-core-3.2.5.tar.gz]
 [2023-07-06 08:31:12] INFO root fetch - main [MainThread]: End processing [insights-core]: success
 [2023-07-06 08:31:12] INFO root fetch - main [MainThread]: Store serial: [18779041]
+[2023-07-06 08:36:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18779041]
+[2023-07-06 08:36:21] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-06 08:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yplib
+[2023-07-06 08:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyprtg-api
+[2023-07-06 08:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: anylearn
+[2023-07-06 08:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rafalmicro-matter-tool
+[2023-07-06 08:36:22] WARNING root fetch - processPackages [rafalmicro-matter-tool]: Skipping, unable to determine old version
+[2023-07-06 08:36:22] INFO root fetch - main [MainThread]: End processing [rafalmicro-matter-tool] error
+[2023-07-06 08:36:22] INFO root fetch - processPackages [anylearn]: New version: [0.18.0rc1] Old Version: [0.18.0]
+[2023-07-06 08:36:22] INFO root fetch - processPackages [pyprtg-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 08:36:22] INFO root fetch - processPackages [yplib]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-06 08:36:22] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/09/fa/99bc59c3038eea4f6f0638048da6dbf7902c9ee5e372a0fd9be2e22dc46b/yplib-2.2.8.tar.gz
+[2023-07-06 08:36:22] INFO root fetch - processPackages [anylearn]: Downloading https://files.pythonhosted.org/packages/34/35/1068427791f2fcd61a6a5723e7257c79ad2a3a9e9fed245f49a1b6f811f6/anylearn-0.18.0.tar.gz
+[2023-07-06 08:36:22] INFO root fetch - processPackages [pyprtg-api]: Downloading https://files.pythonhosted.org/packages/7a/45/0779da29ba1456cddb83959040c727378a9590313536e974783a57a801db/pyprtg-api-0.0.8.tar.gz
+[2023-07-06 08:36:22] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/8e/45/023662f882f1d0378196b9ec972d4245f0c9a32398828688625b5ec48d2c/yplib-2.2.9.tar.gz
+[2023-07-06 08:36:22] INFO root fetch - processPackages [anylearn]: Downloading https://files.pythonhosted.org/packages/ae/09/646f25eaa3e818400f0b3a70f78ae2bc3d5272086e3a8199e22725c4c33c/anylearn-0.18.0rc1.tar.gz
+[2023-07-06 08:36:22] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-07-06 08:36:22] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-2.2.8.tar.gz tmp/yplib-2.2.9.tar.gz --markdown 20230706/y/yplib/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-06 08:36:22] INFO root fetch - processPackages [pyprtg-api]: Downloading https://files.pythonhosted.org/packages/a5/53/c522fa11b05ca153616316821ab4c0ccefc7e15ca58127d2f0a0f743bc68/pyprtg-api-0.0.9.tar.gz
+[2023-07-06 08:36:22] INFO root fetch - processPackages [anylearn]: executing diffoscope
+[2023-07-06 08:36:22] INFO root fetch - processPackages [anylearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anylearn-0.18.0.tar.gz tmp/anylearn-0.18.0rc1.tar.gz --markdown 20230706/a/anylearn/0.18.0-0.18.0rc1/diff.md --exclude *.pyd
+[2023-07-06 08:36:23] INFO root fetch - processPackages [pyprtg-api]: executing diffoscope
+[2023-07-06 08:36:23] INFO root fetch - processPackages [pyprtg-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyprtg-api-0.0.8.tar.gz tmp/pyprtg-api-0.0.9.tar.gz --markdown 20230706/p/pyprtg-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 08:36:23] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.2.8.tar.gz]
+[2023-07-06 08:36:23] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.2.9.tar.gz]
+[2023-07-06 08:36:23] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-07-06 08:36:23] INFO root fetch - processPackages [pyprtg-api]: Remove: archive file [/home/abi/fetcher/tmp/pyprtg-api-0.0.8.tar.gz]
+[2023-07-06 08:36:23] INFO root fetch - processPackages [pyprtg-api]: Remove: archive file [/home/abi/fetcher/tmp/pyprtg-api-0.0.9.tar.gz]
+[2023-07-06 08:36:23] INFO root fetch - main [MainThread]: End processing [pyprtg-api]: success
+[2023-07-06 08:36:23] INFO root fetch - processPackages [anylearn]: Remove: archive file [/home/abi/fetcher/tmp/anylearn-0.18.0.tar.gz]
+[2023-07-06 08:36:23] INFO root fetch - processPackages [anylearn]: Remove: archive file [/home/abi/fetcher/tmp/anylearn-0.18.0rc1.tar.gz]
+[2023-07-06 08:36:23] INFO root fetch - main [MainThread]: End processing [anylearn]: success
+[2023-07-06 08:36:23] INFO root fetch - main [MainThread]: Store serial: [18779059]
