@@ -16890,3 +16890,139 @@ AssertionError: tmp/termkit-0.2.0a4.tar.gz does not exist
 [2023-07-06 11:05:44] INFO root fetch - processPackages [visionner]: Remove: archive file [/home/abi/fetcher/tmp/visionner-0.0.6.tar.gz]
 [2023-07-06 11:05:44] INFO root fetch - main [MainThread]: End processing [visionner]: success
 [2023-07-06 11:05:44] INFO root fetch - main [MainThread]: Store serial: [18780700]
+[2023-07-06 11:10:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18780700]
+[2023-07-06 11:10:53] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-06 11:10:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: visionner
+[2023-07-06 11:10:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: visumpy
+[2023-07-06 11:10:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DataPipelineExecutor
+[2023-07-06 11:10:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: grassmanntn
+[2023-07-06 11:10:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fwdviewpy
+[2023-07-06 11:10:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: neutron
+[2023-07-06 11:10:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alibabacloud-bpstudio20210931-py2
+[2023-07-06 11:10:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lamindb
+[2023-07-06 11:10:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wiptools
+[2023-07-06 11:10:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: panda-utils
+[2023-07-06 11:10:53] WARNING root fetch - processPackages [visumpy]: Skipping, unable to determine old version
+[2023-07-06 11:10:53] INFO root fetch - processPackages [visumpy]: Start processing: funfluid
+[2023-07-06 11:10:53] INFO root fetch - main [MainThread]: End processing [visumpy] error
+[2023-07-06 11:10:53] INFO root fetch - processPackages [fwdviewpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-06 11:10:53] INFO root fetch - processPackages [visionner]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-06 11:10:53] INFO root fetch - processPackages [panda-utils]: New version: [1.3.1] Old Version: [1.3]
+[2023-07-06 11:10:53] INFO root fetch - processPackages [wiptools]: New version: [1.2.9.dev0] Old Version: [1.2.8.dev0]
+[2023-07-06 11:10:53] INFO root fetch - processPackages [alibabacloud-bpstudio20210931-py2]: New version: [3.0.0] Old Version: [2.0.0]
+[2023-07-06 11:10:53] INFO root fetch - processPackages [DataPipelineExecutor]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-06 11:10:53] INFO root fetch - processPackages [grassmanntn]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-07-06 11:10:53] INFO root fetch - processPackages [funfluid]: New version: [202307061708] Old Version: [202307061705]
+[2023-07-06 11:10:53] INFO root fetch - processPackages [neutron]: New version: [23.0.0.0b2] Old Version: [23.0.0.0b1]
+[2023-07-06 11:10:53] INFO root fetch - processPackages [lamindb]: New version: [0.9.6] Old Version: [0.9.4]
+[2023-07-06 11:10:53] INFO root fetch - processPackages [fwdviewpy]: Downloading https://files.pythonhosted.org/packages/3e/73/2afa6fcbbdcbdb8f06826b7788d93771111bc330d73133654c81a5d742de/fwdviewpy-0.1.8.tar.gz
+[2023-07-06 11:10:53] INFO root fetch - processPackages [visionner]: Downloading https://files.pythonhosted.org/packages/3f/b6/c42dcf026e9c8fd54860843f10d419013930d6c06b6f985080f7a1c8058e/visionner-0.0.5-py3-none-any.whl
+[2023-07-06 11:10:53] INFO root fetch - processPackages [wiptools]: Downloading https://files.pythonhosted.org/packages/b9/9f/1f8ba12ffb63470e6ff6d8a27d89845042922a4cbc3fd9c887309f24f7c0/wiptools-1.2.8.dev0.tar.gz
+[2023-07-06 11:10:53] INFO root fetch - processPackages [grassmanntn]: Downloading https://files.pythonhosted.org/packages/50/f9/dc25d5644e74ea6279a6d95bc239bc839b0768f4edf9c093c5a4ec2c6ea3/grassmanntn-1.1.7.tar.gz
+[2023-07-06 11:10:53] INFO root fetch - processPackages [panda-utils]: Downloading https://files.pythonhosted.org/packages/04/47/99d7a013b39165ae9b4842a62c14eecf3f190862b2a0130d32d1421de81d/panda_utils-1.3.tar.gz
+[2023-07-06 11:10:53] INFO root fetch - processPackages [alibabacloud-bpstudio20210931-py2]: Downloading https://files.pythonhosted.org/packages/9a/c3/3e6666ac2a29ac00d0b38d50eb2883de105e8b0687dfd88f56d2af3ebf7e/alibabacloud_bpstudio20210931_py2-2.0.0.tar.gz
+[2023-07-06 11:10:53] INFO root fetch - processPackages [DataPipelineExecutor]: Downloading https://files.pythonhosted.org/packages/80/b7/30060cf3b0f03e5f7feefcb7575c1fa98fe45a2b028bb09312f3b7a8fa63/DataPipelineExecutor-0.0.4.tar.gz
+[2023-07-06 11:10:53] INFO root fetch - processPackages [funfluid]: Downloading https://files.pythonhosted.org/packages/fb/34/4f0df98aae9c4fcbc17ce6f869dd3303e5de4609bd51fd20bdfb726548ee/funfluid-202307061705.tar.gz
+[2023-07-06 11:10:53] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/15/74/34148a2f59ec5fafeee3ffbc599388444e1e8d22d525c0b2e244aa151fef/lamindb-0.9.4.tar.gz
+[2023-07-06 11:10:53] INFO root fetch - processPackages [neutron]: Downloading https://files.pythonhosted.org/packages/15/9a/0521bc5d5042ebffba8fdca282db7a66d1f29a699138003af0dcc77d4ba1/neutron-23.0.0.0b1.tar.gz
+[2023-07-06 11:10:53] INFO root fetch - processPackages [wiptools]: Downloading https://files.pythonhosted.org/packages/30/d2/49c84e4c84f1b4aa0a24ebfd88fe1f23a7b822e5e92ac9279d738c981298/wiptools-1.2.9.dev0.tar.gz
+[2023-07-06 11:10:54] INFO root fetch - processPackages [visionner]: Downloading https://files.pythonhosted.org/packages/15/03/d42ed11b325f905c15e94e95d8f447849769a74ad1b515106e50c044b96d/visionner-0.0.6.tar.gz
+[2023-07-06 11:10:54] INFO root fetch - processPackages [fwdviewpy]: Downloading https://files.pythonhosted.org/packages/8a/ad/935ce0b4a6ffdf166ff13e80c7efb896639069807f34b5d234fca7adbeaa/fwdviewpy-0.1.9.tar.gz
+[2023-07-06 11:10:54] WARNING root fetch - processPackages [neutron]: Skipping package: exceeds size limit 14037048>=10485760
+[2023-07-06 11:10:54] INFO root fetch - processPackages [neutron]: Start processing: bsc-utils
+[2023-07-06 11:10:54] INFO root fetch - main [MainThread]: End processing [neutron] error
+[2023-07-06 11:10:54] INFO root fetch - processPackages [wiptools]: executing diffoscope
+[2023-07-06 11:10:54] INFO root fetch - processPackages [wiptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiptools-1.2.8.dev0.tar.gz tmp/wiptools-1.2.9.dev0.tar.gz --markdown 20230706/w/wiptools/1.2.8.dev0-1.2.9.dev0/diff.md --exclude *.pyd
+[2023-07-06 11:10:54] INFO root fetch - processPackages [grassmanntn]: Downloading https://files.pythonhosted.org/packages/00/63/8c35e514eec62a5e602049ad92fb3dc31e67c4e4ce042037020791b0f77e/grassmanntn-1.1.8.tar.gz
+[2023-07-06 11:10:54] INFO root fetch - processPackages [bsc-utils]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-06 11:10:54] INFO root fetch - processPackages [visionner]: executing diffoscope
+[2023-07-06 11:10:54] INFO root fetch - processPackages [visionner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visionner-0.0.5-py3-none-any.whl.zip tmp/visionner-0.0.6.tar.gz --markdown 20230706/v/visionner/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-06 11:10:54] INFO root fetch - processPackages [fwdviewpy]: executing diffoscope
+[2023-07-06 11:10:54] INFO root fetch - processPackages [fwdviewpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fwdviewpy-0.1.8.tar.gz tmp/fwdviewpy-0.1.9.tar.gz --markdown 20230706/f/fwdviewpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-06 11:10:54] INFO root fetch - processPackages [DataPipelineExecutor]: Downloading https://files.pythonhosted.org/packages/e3/37/368dc668eb14410ed71be90bff0d6fb0c64e9c46a9461da973bbae65a3ca/DataPipelineExecutor-0.0.5.tar.gz
+[2023-07-06 11:10:54] INFO root fetch - processPackages [alibabacloud-bpstudio20210931-py2]: Downloading https://files.pythonhosted.org/packages/ce/4c/9798b4d093e953846b17f86cb671919bd126aa892a084be8ecf1e3f61d42/alibabacloud_bpstudio20210931_py2-3.0.0.tar.gz
+[2023-07-06 11:10:54] INFO root fetch - processPackages [funfluid]: Downloading https://files.pythonhosted.org/packages/76/e6/5e23bf23f3c0e8f1b812d9dbcfc8e19b03af7eafcc6be281969e18e2ce0b/funfluid-202307061708.tar.gz
+[2023-07-06 11:10:54] INFO root fetch - processPackages [panda-utils]: Downloading https://files.pythonhosted.org/packages/c1/8c/0a8ddb506b7cfb13b10f9d646c1d213985d05dacb81321ac057bc410e858/panda_utils-1.3.1.tar.gz
+[2023-07-06 11:10:54] INFO root fetch - processPackages [bsc-utils]: Downloading https://files.pythonhosted.org/packages/13/63/22b7e5a22d8cbd6f7e62de2d64b06f31da07b0134c5a3afb43c8ccba55d1/bsc_utils-1.0.1.tar.gz
+[2023-07-06 11:10:54] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/a8/dd/da42b7dd3f39064fda6a4977c93f1a040eefa69ef3a3cefd7b4b8d13efb6/lamindb-0.9.6.tar.gz
+[2023-07-06 11:10:54] INFO root fetch - processPackages [grassmanntn]: executing diffoscope
+[2023-07-06 11:10:54] INFO root fetch - processPackages [grassmanntn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grassmanntn-1.1.7.tar.gz tmp/grassmanntn-1.1.8.tar.gz --markdown 20230706/g/grassmanntn/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-07-06 11:10:54] INFO root fetch - processPackages [DataPipelineExecutor]: executing diffoscope
+[2023-07-06 11:10:54] INFO root fetch - processPackages [DataPipelineExecutor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DataPipelineExecutor-0.0.4.tar.gz tmp/DataPipelineExecutor-0.0.5.tar.gz --markdown 20230706/D/DataPipelineExecutor/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-06 11:10:54] INFO root fetch - processPackages [lamindb]: executing diffoscope
+[2023-07-06 11:10:54] INFO root fetch - processPackages [lamindb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb-0.9.4.tar.gz tmp/lamindb-0.9.6.tar.gz --markdown 20230706/l/lamindb/0.9.4-0.9.6/diff.md --exclude *.pyd
+[2023-07-06 11:10:54] INFO root fetch - processPackages [alibabacloud-bpstudio20210931-py2]: executing diffoscope
+[2023-07-06 11:10:54] INFO root fetch - processPackages [alibabacloud-bpstudio20210931-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_bpstudio20210931_py2-2.0.0.tar.gz tmp/alibabacloud_bpstudio20210931_py2-3.0.0.tar.gz --markdown 20230706/a/alibabacloud-bpstudio20210931-py2/2.0.0-3.0.0/diff.md --exclude *.pyd
+[2023-07-06 11:10:54] INFO root fetch - processPackages [panda-utils]: executing diffoscope
+[2023-07-06 11:10:54] INFO root fetch - processPackages [panda-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panda_utils-1.3.tar.gz tmp/panda_utils-1.3.1.tar.gz --markdown 20230706/p/panda-utils/1.3-1.3.1/diff.md --exclude *.pyd
+[2023-07-06 11:10:54] INFO root fetch - processPackages [funfluid]: executing diffoscope
+[2023-07-06 11:10:54] INFO root fetch - processPackages [funfluid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funfluid-202307061705.tar.gz tmp/funfluid-202307061708.tar.gz --markdown 20230706/f/funfluid/202307061705-202307061708/diff.md --exclude *.pyd
+[2023-07-06 11:10:54] INFO root fetch - processPackages [bsc-utils]: Downloading https://files.pythonhosted.org/packages/f1/51/48b6cfdb16e094893e1cb47e1cfc457b95b12b6c1346819818d291584f50/bsc_utils-1.0.2.tar.gz
+[2023-07-06 11:10:55] INFO root fetch - processPackages [bsc-utils]: executing diffoscope
+[2023-07-06 11:10:55] INFO root fetch - processPackages [bsc-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bsc_utils-1.0.1.tar.gz tmp/bsc_utils-1.0.2.tar.gz --markdown 20230706/b/bsc-utils/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-06 11:10:55] INFO root fetch - processPackages [visionner]: Remove: archive file [/home/abi/fetcher/tmp/visionner-0.0.5-py3-none-any.whl.zip]
+[2023-07-06 11:10:55] INFO root fetch - processPackages [visionner]: Remove: archive file [/home/abi/fetcher/tmp/visionner-0.0.6.tar.gz]
+[2023-07-06 11:10:55] INFO root fetch - processPackages [visionner]: Start processing: alibabacloud-bpstudio20210931
+[2023-07-06 11:10:55] INFO root fetch - main [MainThread]: End processing [visionner]: success
+[2023-07-06 11:10:55] INFO root fetch - processPackages [alibabacloud-bpstudio20210931]: New version: [3.0.0] Old Version: [2.0.0]
+[2023-07-06 11:10:55] INFO root fetch - processPackages [wiptools]: Remove: archive file [/home/abi/fetcher/tmp/wiptools-1.2.8.dev0.tar.gz]
+[2023-07-06 11:10:55] INFO root fetch - processPackages [wiptools]: Remove: archive file [/home/abi/fetcher/tmp/wiptools-1.2.9.dev0.tar.gz]
+[2023-07-06 11:10:55] INFO root fetch - processPackages [wiptools]: Start processing: akeyless
+[2023-07-06 11:10:55] INFO root fetch - main [MainThread]: End processing [wiptools]: success
+[2023-07-06 11:10:55] INFO root fetch - processPackages [fwdviewpy]: Remove: archive file [/home/abi/fetcher/tmp/fwdviewpy-0.1.8.tar.gz]
+[2023-07-06 11:10:55] INFO root fetch - processPackages [fwdviewpy]: Remove: archive file [/home/abi/fetcher/tmp/fwdviewpy-0.1.9.tar.gz]
+[2023-07-06 11:10:55] INFO root fetch - processPackages [fwdviewpy]: Start processing: napari-sc3D-viewer
+[2023-07-06 11:10:55] INFO root fetch - main [MainThread]: End processing [fwdviewpy]: success
+[2023-07-06 11:10:55] INFO root fetch - processPackages [akeyless]: New version: [3.3.9] Old Version: [3.3.8]
+[2023-07-06 11:10:55] INFO root fetch - processPackages [alibabacloud-bpstudio20210931]: Downloading https://files.pythonhosted.org/packages/fc/c8/d1a6f5429ef3afcac2bffbcec3500befe70557995e82e1d0be62e38e86d0/alibabacloud_bpstudio20210931-2.0.0.tar.gz
+[2023-07-06 11:10:55] INFO root fetch - processPackages [akeyless]: Downloading https://files.pythonhosted.org/packages/8f/f6/fbd396d214afe12c1f95383c7caea9cde8cff3f92242905d99ff7110ff91/akeyless-3.3.8.tar.gz
+[2023-07-06 11:10:55] INFO root fetch - processPackages [napari-sc3D-viewer]: New version: [1.0.0] Old Version: [0.3.1]
+[2023-07-06 11:10:55] INFO root fetch - processPackages [DataPipelineExecutor]: Remove: archive file [/home/abi/fetcher/tmp/DataPipelineExecutor-0.0.4.tar.gz]
+[2023-07-06 11:10:55] INFO root fetch - processPackages [DataPipelineExecutor]: Remove: archive file [/home/abi/fetcher/tmp/DataPipelineExecutor-0.0.5.tar.gz]
+[2023-07-06 11:10:55] INFO root fetch - processPackages [DataPipelineExecutor]: Start processing: carbon-guard
+[2023-07-06 11:10:55] INFO root fetch - main [MainThread]: End processing [DataPipelineExecutor]: success
+[2023-07-06 11:10:56] INFO root fetch - processPackages [akeyless]: Downloading https://files.pythonhosted.org/packages/2a/b5/50ae6c4c5d2ec98060599a92755611e74c1e561ca9bc7dae41c508e187bc/akeyless-3.3.9.tar.gz
+[2023-07-06 11:10:56] ERROR root fetch - processPackages [carbon-guard]: Unable to get metadata: No such project 'carbon-guard'
+[2023-07-06 11:10:56] INFO root fetch - processPackages [carbon-guard]: Start processing: neutron
+[2023-07-06 11:10:56] INFO root fetch - main [MainThread]: End processing [carbon-guard] error
+[2023-07-06 11:10:56] INFO root fetch - processPackages [grassmanntn]: Remove: archive file [/home/abi/fetcher/tmp/grassmanntn-1.1.7.tar.gz]
+[2023-07-06 11:10:56] INFO root fetch - processPackages [grassmanntn]: Remove: archive file [/home/abi/fetcher/tmp/grassmanntn-1.1.8.tar.gz]
+[2023-07-06 11:10:56] INFO root fetch - main [MainThread]: End processing [grassmanntn]: success
+[2023-07-06 11:10:56] INFO root fetch - processPackages [alibabacloud-bpstudio20210931]: Downloading https://files.pythonhosted.org/packages/10/08/90131b4bcd759981db6c10455e5205544c35d5bb92d4d347e25e9c517558/alibabacloud_bpstudio20210931-3.0.0.tar.gz
+[2023-07-06 11:10:56] INFO root fetch - processPackages [neutron]: New version: [23.0.0.0b2] Old Version: [23.0.0.0b1]
+[2023-07-06 11:10:56] INFO root fetch - processPackages [napari-sc3D-viewer]: Downloading https://files.pythonhosted.org/packages/59/75/4a8a6c7a3a6381c41a4e7f5276611bb9308ec6a91c65d1d4ccfe80172395/napari-sc3D-viewer-0.3.1.tar.gz
+[2023-07-06 11:10:56] INFO root fetch - processPackages [akeyless]: executing diffoscope
+[2023-07-06 11:10:56] INFO root fetch - processPackages [akeyless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akeyless-3.3.8.tar.gz tmp/akeyless-3.3.9.tar.gz --markdown 20230706/a/akeyless/3.3.8-3.3.9/diff.md --exclude *.pyd
+[2023-07-06 11:10:56] INFO root fetch - processPackages [neutron]: Downloading https://files.pythonhosted.org/packages/15/9a/0521bc5d5042ebffba8fdca282db7a66d1f29a699138003af0dcc77d4ba1/neutron-23.0.0.0b1.tar.gz
+[2023-07-06 11:10:56] WARNING root fetch - processPackages [neutron]: Skipping package: exceeds size limit 14037048>=10485760
+[2023-07-06 11:10:56] INFO root fetch - main [MainThread]: End processing [neutron] error
+[2023-07-06 11:10:56] INFO root fetch - processPackages [funfluid]: Remove: archive file [/home/abi/fetcher/tmp/funfluid-202307061705.tar.gz]
+[2023-07-06 11:10:56] INFO root fetch - processPackages [funfluid]: Remove: archive file [/home/abi/fetcher/tmp/funfluid-202307061708.tar.gz]
+[2023-07-06 11:10:56] INFO root fetch - main [MainThread]: End processing [funfluid]: success
+[2023-07-06 11:10:56] INFO root fetch - processPackages [alibabacloud-bpstudio20210931-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_bpstudio20210931_py2-2.0.0.tar.gz]
+[2023-07-06 11:10:56] INFO root fetch - processPackages [alibabacloud-bpstudio20210931-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_bpstudio20210931_py2-3.0.0.tar.gz]
+[2023-07-06 11:10:56] INFO root fetch - main [MainThread]: End processing [alibabacloud-bpstudio20210931-py2]: success
+[2023-07-06 11:10:56] INFO root fetch - processPackages [alibabacloud-bpstudio20210931]: executing diffoscope
+[2023-07-06 11:10:56] INFO root fetch - processPackages [alibabacloud-bpstudio20210931]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_bpstudio20210931-2.0.0.tar.gz tmp/alibabacloud_bpstudio20210931-3.0.0.tar.gz --markdown 20230706/a/alibabacloud-bpstudio20210931/2.0.0-3.0.0/diff.md --exclude *.pyd
+[2023-07-06 11:10:56] INFO root fetch - processPackages [panda-utils]: Remove: archive file [/home/abi/fetcher/tmp/panda_utils-1.3.tar.gz]
+[2023-07-06 11:10:56] INFO root fetch - processPackages [panda-utils]: Remove: archive file [/home/abi/fetcher/tmp/panda_utils-1.3.1.tar.gz]
+[2023-07-06 11:10:56] INFO root fetch - main [MainThread]: End processing [panda-utils]: success
+[2023-07-06 11:10:56] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.4.tar.gz]
+[2023-07-06 11:10:56] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.6.tar.gz]
+[2023-07-06 11:10:56] INFO root fetch - main [MainThread]: End processing [lamindb]: success
+[2023-07-06 11:10:56] INFO root fetch - processPackages [bsc-utils]: Remove: archive file [/home/abi/fetcher/tmp/bsc_utils-1.0.1.tar.gz]
+[2023-07-06 11:10:56] INFO root fetch - processPackages [bsc-utils]: Remove: archive file [/home/abi/fetcher/tmp/bsc_utils-1.0.2.tar.gz]
+[2023-07-06 11:10:56] INFO root fetch - main [MainThread]: End processing [bsc-utils]: success
+[2023-07-06 11:10:56] INFO root fetch - processPackages [napari-sc3D-viewer]: Downloading https://files.pythonhosted.org/packages/c8/44/33867658d45122d96a4ff7d654b0a373139c561f86878709db3678479414/napari-sc3D-viewer-1.0.0.tar.gz
+[2023-07-06 11:10:56] INFO root fetch - processPackages [napari-sc3D-viewer]: executing diffoscope
+[2023-07-06 11:10:56] INFO root fetch - processPackages [napari-sc3D-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-sc3D-viewer-0.3.1.tar.gz tmp/napari-sc3D-viewer-1.0.0.tar.gz --markdown 20230706/n/napari-sc3D-viewer/0.3.1-1.0.0/diff.md --exclude *.pyd
+[2023-07-06 11:10:57] INFO root fetch - processPackages [alibabacloud-bpstudio20210931]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_bpstudio20210931-2.0.0.tar.gz]
+[2023-07-06 11:10:57] INFO root fetch - processPackages [alibabacloud-bpstudio20210931]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_bpstudio20210931-3.0.0.tar.gz]
+[2023-07-06 11:10:57] INFO root fetch - main [MainThread]: End processing [alibabacloud-bpstudio20210931]: success
+[2023-07-06 11:10:57] INFO root fetch - processPackages [napari-sc3D-viewer]: Remove: archive file [/home/abi/fetcher/tmp/napari-sc3D-viewer-0.3.1.tar.gz]
+[2023-07-06 11:10:57] INFO root fetch - processPackages [napari-sc3D-viewer]: Remove: archive file [/home/abi/fetcher/tmp/napari-sc3D-viewer-1.0.0.tar.gz]
+[2023-07-06 11:10:57] INFO root fetch - main [MainThread]: End processing [napari-sc3D-viewer]: success
+[2023-07-06 11:11:05] INFO root fetch - processPackages [akeyless]: Remove: archive file [/home/abi/fetcher/tmp/akeyless-3.3.8.tar.gz]
+[2023-07-06 11:11:05] INFO root fetch - processPackages [akeyless]: Remove: archive file [/home/abi/fetcher/tmp/akeyless-3.3.9.tar.gz]
+[2023-07-06 11:11:05] INFO root fetch - main [MainThread]: End processing [akeyless]: success
+[2023-07-06 11:11:05] INFO root fetch - main [MainThread]: Store serial: [18780762]
