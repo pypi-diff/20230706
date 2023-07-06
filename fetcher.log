@@ -11708,3 +11708,60 @@ AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
 [2023-07-06 06:30:19] INFO root fetch - processPackages [sophie-lang]: Remove: archive file [/home/abi/fetcher/tmp/sophie-lang-0.0.3.tar.gz]
 [2023-07-06 06:30:19] INFO root fetch - main [MainThread]: End processing [sophie-lang]: success
 [2023-07-06 06:30:19] INFO root fetch - main [MainThread]: Store serial: [18778366]
+[2023-07-06 06:35:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18778366]
+[2023-07-06 06:35:28] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-06 06:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addons-oca-partner-contact
+[2023-07-06 06:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytak
+[2023-07-06 06:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llamabot
+[2023-07-06 06:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clp-ffi-py
+[2023-07-06 06:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: plutous-trade-crypto
+[2023-07-06 06:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fnum
+[2023-07-06 06:35:28] INFO root fetch - processPackages [fnum]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-06 06:35:28] INFO root fetch - processPackages [pytak]: New version: [6.0.0] Old Version: [5.7.0b6]
+[2023-07-06 06:35:28] INFO root fetch - processPackages [clp-ffi-py]: New version: [0.0.0b0] Old Version: [0.0.0]
+[2023-07-06 06:35:28] INFO root fetch - processPackages [llamabot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 06:35:28] INFO root fetch - processPackages [plutous-trade-crypto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 06:35:28] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: New version: [16.0.20230705.0] Old Version: [16.0.20230704.0]
+[2023-07-06 06:35:28] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/31/05/7d4721877f2dde80d5bd40c84773d24b5486a794e78758d5c6c51a0e0ee0/llamabot-0.0.8.tar.gz
+[2023-07-06 06:35:28] INFO root fetch - processPackages [pytak]: Downloading https://files.pythonhosted.org/packages/9e/58/721c7404dc76589a319222eab98d03359d02d5d2d11f9350cfd5a3bf1dc5/pytak-5.7.0b6.tar.gz
+[2023-07-06 06:35:29] INFO root fetch - processPackages [fnum]: Downloading https://files.pythonhosted.org/packages/5a/3a/dcd826d2c243ca190fd5598fac14296ee186db50d602a0998c1ba0736e8e/fnum-1.0.2-py3-none-any.whl
+[2023-07-06 06:35:29] INFO root fetch - processPackages [clp-ffi-py]: Downloading https://files.pythonhosted.org/packages/c3/78/0cf11a5994014e008371185b8a40db31734afd2c49d34daf819d42e0a8b9/clp_ffi_py-0.0.0.tar.gz
+[2023-07-06 06:35:29] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/e3/db/d32a1544d7f944ad8af411383551ea4aa42adfdd0f238ff44a5a3edaa00e/plutous_trade_crypto-0.0.8.tar.gz
+[2023-07-06 06:35:29] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: Downloading https://files.pythonhosted.org/packages/ce/6a/b430804da4552adae11638dba7dbcd56fb984bccc6509f44ce6e6011f8bd/odoo_addons_oca_partner_contact-16.0.20230704.0-py3-none-any.whl
+[2023-07-06 06:35:29] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/8c/77/360013b912689bcadc9699ffbfd0c59717ab5c032c425ce8f661e39484f5/llamabot-0.0.9.tar.gz
+[2023-07-06 06:35:29] INFO root fetch - processPackages [fnum]: Downloading https://files.pythonhosted.org/packages/1c/39/5d644a65c3ff4e3392773e395b69154a909945b5c87530684f2c92c3d37d/fnum-1.0.3-py3-none-any.whl
+[2023-07-06 06:35:29] INFO root fetch - processPackages [pytak]: Downloading https://files.pythonhosted.org/packages/d3/ce/47f2c897045f96e829568086c3880d0be58b9850bd7cade2cfa2a19deaf0/pytak-6.0.0.tar.gz
+[2023-07-06 06:35:29] INFO root fetch - processPackages [llamabot]: executing diffoscope
+[2023-07-06 06:35:29] INFO root fetch - processPackages [llamabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamabot-0.0.8.tar.gz tmp/llamabot-0.0.9.tar.gz --markdown 20230706/l/llamabot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 06:35:29] INFO root fetch - processPackages [fnum]: executing diffoscope
+[2023-07-06 06:35:29] INFO root fetch - processPackages [fnum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fnum-1.0.2-py3-none-any.whl.zip tmp/fnum-1.0.3-py3-none-any.whl.zip --markdown 20230706/f/fnum/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-06 06:35:29] INFO root fetch - processPackages [pytak]: executing diffoscope
+[2023-07-06 06:35:29] INFO root fetch - processPackages [pytak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytak-5.7.0b6.tar.gz tmp/pytak-6.0.0.tar.gz --markdown 20230706/p/pytak/5.7.0b6-6.0.0/diff.md --exclude *.pyd
+[2023-07-06 06:35:29] INFO root fetch - processPackages [clp-ffi-py]: Downloading https://files.pythonhosted.org/packages/d0/b1/06ffd629df2b910c8d34c5723b3708621d25e0d3eb198fc557f6948421f2/clp_ffi_py-0.0.0b0.tar.gz
+[2023-07-06 06:35:29] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: Downloading https://files.pythonhosted.org/packages/9c/8e/ae8af216a7e334b3e271cda2eb85f0e8dfd481b705aa7f496ee79738ae4f/odoo_addons_oca_partner_contact-16.0.20230705.0-py3-none-any.whl
+[2023-07-06 06:35:29] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/b4/a4/200ca398a36203e8bd51a034e50c51963506316cbf5e7a47866700accaee/plutous_trade_crypto-0.0.9.tar.gz
+[2023-07-06 06:35:29] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: executing diffoscope
+[2023-07-06 06:35:29] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_partner_contact-16.0.20230704.0-py3-none-any.whl.zip tmp/odoo_addons_oca_partner_contact-16.0.20230705.0-py3-none-any.whl.zip --markdown 20230706/o/odoo-addons-oca-partner-contact/16.0.20230704.0-16.0.20230705.0/diff.md --exclude *.pyd
+[2023-07-06 06:35:29] INFO root fetch - processPackages [clp-ffi-py]: executing diffoscope
+[2023-07-06 06:35:29] INFO root fetch - processPackages [clp-ffi-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clp_ffi_py-0.0.0.tar.gz tmp/clp_ffi_py-0.0.0b0.tar.gz --markdown 20230706/c/clp-ffi-py/0.0.0-0.0.0b0/diff.md --exclude *.pyd
+[2023-07-06 06:35:29] INFO root fetch - processPackages [plutous-trade-crypto]: executing diffoscope
+[2023-07-06 06:35:29] INFO root fetch - processPackages [plutous-trade-crypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plutous_trade_crypto-0.0.8.tar.gz tmp/plutous_trade_crypto-0.0.9.tar.gz --markdown 20230706/p/plutous-trade-crypto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 06:35:30] INFO root fetch - processPackages [fnum]: Remove: archive file [/home/abi/fetcher/tmp/fnum-1.0.2-py3-none-any.whl.zip]
+[2023-07-06 06:35:30] INFO root fetch - processPackages [fnum]: Remove: archive file [/home/abi/fetcher/tmp/fnum-1.0.3-py3-none-any.whl.zip]
+[2023-07-06 06:35:30] INFO root fetch - main [MainThread]: End processing [fnum]: success
+[2023-07-06 06:35:30] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.0.8.tar.gz]
+[2023-07-06 06:35:30] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.0.9.tar.gz]
+[2023-07-06 06:35:30] INFO root fetch - main [MainThread]: End processing [llamabot]: success
+[2023-07-06 06:35:30] INFO root fetch - processPackages [pytak]: Remove: archive file [/home/abi/fetcher/tmp/pytak-5.7.0b6.tar.gz]
+[2023-07-06 06:35:30] INFO root fetch - processPackages [pytak]: Remove: archive file [/home/abi/fetcher/tmp/pytak-6.0.0.tar.gz]
+[2023-07-06 06:35:30] INFO root fetch - main [MainThread]: End processing [pytak]: success
+[2023-07-06 06:35:30] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_partner_contact-16.0.20230704.0-py3-none-any.whl.zip]
+[2023-07-06 06:35:30] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_partner_contact-16.0.20230705.0-py3-none-any.whl.zip]
+[2023-07-06 06:35:30] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-partner-contact]: success
+[2023-07-06 06:35:30] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.8.tar.gz]
+[2023-07-06 06:35:30] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.9.tar.gz]
+[2023-07-06 06:35:30] INFO root fetch - main [MainThread]: End processing [plutous-trade-crypto]: success
+[2023-07-06 06:35:31] INFO root fetch - processPackages [clp-ffi-py]: Remove: archive file [/home/abi/fetcher/tmp/clp_ffi_py-0.0.0.tar.gz]
+[2023-07-06 06:35:31] INFO root fetch - processPackages [clp-ffi-py]: Remove: archive file [/home/abi/fetcher/tmp/clp_ffi_py-0.0.0b0.tar.gz]
+[2023-07-06 06:35:31] INFO root fetch - main [MainThread]: End processing [clp-ffi-py]: success
+[2023-07-06 06:35:31] INFO root fetch - main [MainThread]: Store serial: [18778381]
