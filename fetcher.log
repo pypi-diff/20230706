@@ -5623,3 +5623,78 @@ AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
 [2023-07-06 03:35:25] INFO root fetch - processPackages [flet]: Remove: archive file [/home/abi/fetcher/tmp/flet-0.8.0.dev1601.tar.gz]
 [2023-07-06 03:35:25] INFO root fetch - main [MainThread]: End processing [flet]: success
 [2023-07-06 03:35:25] INFO root fetch - main [MainThread]: Store serial: [18776011]
+[2023-07-06 03:40:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18776011]
+[2023-07-06 03:40:35] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-06 03:40:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-stdlib
+[2023-07-06 03:40:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-lambda-subminute
+[2023-07-06 03:40:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flet-pyodide
+[2023-07-06 03:40:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-numpy
+[2023-07-06 03:40:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-pandas
+[2023-07-06 03:40:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bioregistry
+[2023-07-06 03:40:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ccdt
+[2023-07-06 03:40:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-pytorch
+[2023-07-06 03:40:35] INFO root fetch - processPackages [flet-pyodide]: New version: [0.8.0.dev1601] Old Version: [0.8.0.dev1597]
+[2023-07-06 03:40:35] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-06 03:40:35] INFO root fetch - processPackages [bioregistry]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-06 03:40:35] INFO root fetch - processPackages [ccdt]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-06 03:40:35] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-06 03:40:35] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-06 03:40:35] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-06 03:40:35] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-06 03:40:35] INFO root fetch - processPackages [flet-pyodide]: Downloading https://files.pythonhosted.org/packages/42/24/ca199db8eaae2d2989ac178fdc6fbda2120aca44bd26d63408c57663aacc/flet_pyodide-0.8.0.dev1597.tar.gz
+[2023-07-06 03:40:35] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/4e/f6/973ccd4316a05888c3eb85264c9bad233e8f486e3bd1d3ed06d5c5e3504c/bioregistry-0.9.8.tar.gz
+[2023-07-06 03:40:35] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-07-06 03:40:35] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/4b/74/4580a005cbe4f6dc4e16ce3a9feb5716c4cf901b4839d048dfff2001ee3d/ccdt-2.1.8.tar.gz
+[2023-07-06 03:40:35] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-07-06 03:40:35] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-07-06 03:40:36] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/e5/12/963a9c9137cb30feaf66b7d9cb7a08a6ea591ebef038343c3b132f84bba7/cdk_lambda_subminute-2.0.98.tar.gz
+[2023-07-06 03:40:36] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-07-06 03:40:36] INFO root fetch - processPackages [flet-pyodide]: Downloading https://files.pythonhosted.org/packages/a2/8f/fad09c4c5abfd70f49b8c486053f915234c4beaa9e85c22c37d01b2b7571/flet_pyodide-0.8.0.dev1601.tar.gz
+[2023-07-06 03:40:36] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-07-06 03:40:36] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-07-06 03:40:36] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/d5/f2/7926d58fa933cd6e8d4ce55e92df2097043f323dba456534345b8dd248c1/ccdt-2.1.9.tar.gz
+[2023-07-06 03:40:36] INFO root fetch - processPackages [flet-pyodide]: executing diffoscope
+[2023-07-06 03:40:36] INFO root fetch - processPackages [flet-pyodide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_pyodide-0.8.0.dev1597.tar.gz tmp/flet_pyodide-0.8.0.dev1601.tar.gz --markdown 20230706/f/flet-pyodide/0.8.0.dev1597-0.8.0.dev1601/diff.md --exclude *.pyd
+[2023-07-06 03:40:36] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-07-06 03:40:36] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-07-06 03:40:36] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230706/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-06 03:40:36] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-07-06 03:40:36] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230706/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-06 03:40:36] INFO root fetch - processPackages [ccdt]: executing diffoscope
+[2023-07-06 03:40:36] INFO root fetch - processPackages [ccdt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccdt-2.1.8.tar.gz tmp/ccdt-2.1.9.tar.gz --markdown 20230706/c/ccdt/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-06 03:40:36] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/5b/a2/66d69f3acb3d998356aaa7ccffe5395fb3221c2f99dd12100c6abf1826b4/bioregistry-0.9.9.tar.gz
+[2023-07-06 03:40:36] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-07-06 03:40:36] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230706/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-06 03:40:36] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/72/85/0d48595efd9bc93c2b767982602157ef78a97896735d1d14075242ba3a9f/cdk_lambda_subminute-2.0.99.tar.gz
+[2023-07-06 03:40:36] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-07-06 03:40:36] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-07-06 03:40:36] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230706/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-06 03:40:36] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-07-06 03:40:36] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230706/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-06 03:40:36] INFO root fetch - processPackages [bioregistry]: executing diffoscope
+[2023-07-06 03:40:36] INFO root fetch - processPackages [bioregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioregistry-0.9.8.tar.gz tmp/bioregistry-0.9.9.tar.gz --markdown 20230706/b/bioregistry/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-06 03:40:37] INFO root fetch - processPackages [flet-pyodide]: Remove: archive file [/home/abi/fetcher/tmp/flet_pyodide-0.8.0.dev1597.tar.gz]
+[2023-07-06 03:40:37] INFO root fetch - processPackages [flet-pyodide]: Remove: archive file [/home/abi/fetcher/tmp/flet_pyodide-0.8.0.dev1601.tar.gz]
+[2023-07-06 03:40:37] INFO root fetch - main [MainThread]: End processing [flet-pyodide]: success
+[2023-07-06 03:40:37] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-07-06 03:40:37] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-07-06 03:40:37] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-07-06 03:40:37] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-07-06 03:40:37] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-07-06 03:40:37] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-07-06 03:40:37] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-07-06 03:40:37] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-07-06 03:40:37] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-07-06 03:40:37] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.98.tar.gz]
+[2023-07-06 03:40:37] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.99.tar.gz]
+[2023-07-06 03:40:37] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-07-06 03:40:37] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.8.tar.gz]
+[2023-07-06 03:40:37] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.9.tar.gz]
+[2023-07-06 03:40:37] INFO root fetch - main [MainThread]: End processing [ccdt]: success
+[2023-07-06 03:40:37] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-07-06 03:40:37] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-07-06 03:40:37] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-07-06 03:42:34] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.8.tar.gz]
+[2023-07-06 03:42:34] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.9.tar.gz]
+[2023-07-06 03:42:34] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
+[2023-07-06 03:42:34] INFO root fetch - main [MainThread]: Store serial: [18776048]
