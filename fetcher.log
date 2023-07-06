@@ -1663,3 +1663,78 @@
 [2023-07-06 01:56:56] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
 [2023-07-06 01:56:56] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-07-06 01:56:56] INFO root fetch - main [MainThread]: Store serial: [18774467]
+[2023-07-06 02:02:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18774467]
+[2023-07-06 02:02:05] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-06 02:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyMELTScalc
+[2023-07-06 02:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hyfi
+[2023-07-06 02:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: axion
+[2023-07-06 02:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: anyon
+[2023-07-06 02:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oloren
+[2023-07-06 02:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: arlulacore
+[2023-07-06 02:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: owe-python-sdk
+[2023-07-06 02:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: retake
+[2023-07-06 02:02:05] INFO root fetch - processPackages [owe-python-sdk]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-07-06 02:02:05] INFO root fetch - processPackages [retake]: New version: [0.1.4.dev0] Old Version: [0.1.3.dev0]
+[2023-07-06 02:02:05] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 02:02:05] INFO root fetch - processPackages [pyMELTScalc]: New version: [0.1.23] Old Version: [0.1.22]
+[2023-07-06 02:02:05] INFO root fetch - processPackages [owe-python-sdk]: Downloading https://files.pythonhosted.org/packages/b7/87/2ed4496794411461faafd9b31cde5a571ee0b54f11200933d019777ca951/owe_python_sdk-0.0.1a8.tar.gz
+[2023-07-06 02:02:05] INFO root fetch - processPackages [retake]: Downloading https://files.pythonhosted.org/packages/e0/36/4c50c307c40221b0a593dc71c88f412936c14e643e95d1abdca21427340e/retake-0.1.3.dev0.tar.gz
+[2023-07-06 02:02:05] INFO root fetch - processPackages [hyfi]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-06 02:02:05] INFO root fetch - processPackages [arlulacore]: New version: [3.2.0] Old Version: [3.1.0]
+[2023-07-06 02:02:05] INFO root fetch - processPackages [anyon]: New version: [3.5.5] Old Version: [3.5.4]
+[2023-07-06 02:02:05] INFO root fetch - processPackages [axion]: New version: [3.4.8] Old Version: [3.4.7]
+[2023-07-06 02:02:05] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/a3/76/06db9dcd349a4094baa829da1112066fd4fe60d5748d1b0c8c0833367603/oloren-0.0.8.tar.gz
+[2023-07-06 02:02:05] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/94/1a/7dca015c8d10e1d8b48373369b7455f0b28a931901f27ff9afcbfad5a768/axion-3.4.7-cp311-none-win_amd64.whl
+[2023-07-06 02:02:05] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/57/15/13dfc106a90cf054a85d8f92b97fcfd0c88e0f6195d4562a47f49badf004/anyon-3.5.4-cp311-none-win_amd64.whl
+[2023-07-06 02:02:05] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/6a/2b/f3a3fd939e5645b0cc5261bdec2754e400ec14fe7e605e7b54c584be1388/hyfi-1.0.4.tar.gz
+[2023-07-06 02:02:05] INFO root fetch - processPackages [arlulacore]: Downloading https://files.pythonhosted.org/packages/8b/5e/ca722e49a7ea01e0fcd158c63eb9e68c864cba0c28b42e406fe07bcf6ccc/arlulacore-3.1.0.tar.gz
+[2023-07-06 02:02:05] INFO root fetch - processPackages [retake]: Downloading https://files.pythonhosted.org/packages/44/aa/b4255e569f950a9a6ff57954614e938600524ef6e7a0c6e8cee2b52dd62a/retake-0.1.4.dev0.tar.gz
+[2023-07-06 02:02:05] INFO root fetch - processPackages [owe-python-sdk]: Downloading https://files.pythonhosted.org/packages/31/27/a7a614b3213736597496297134f4cd10fd0ecee2f977d8e86784bb925c43/owe_python_sdk-0.0.1a9.tar.gz
+[2023-07-06 02:02:05] INFO root fetch - processPackages [pyMELTScalc]: Downloading https://files.pythonhosted.org/packages/ec/24/bb0aefd1e0cc5eceac2f90535ed1583ae03c070817c006c29efbe733fb5d/pyMELTScalc-0.1.22.tar.gz
+[2023-07-06 02:02:06] INFO root fetch - processPackages [retake]: executing diffoscope
+[2023-07-06 02:02:06] INFO root fetch - processPackages [retake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retake-0.1.3.dev0.tar.gz tmp/retake-0.1.4.dev0.tar.gz --markdown 20230706/r/retake/0.1.3.dev0-0.1.4.dev0/diff.md --exclude *.pyd
+[2023-07-06 02:02:06] INFO root fetch - processPackages [owe-python-sdk]: executing diffoscope
+[2023-07-06 02:02:06] INFO root fetch - processPackages [owe-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owe_python_sdk-0.0.1a8.tar.gz tmp/owe_python_sdk-0.0.1a9.tar.gz --markdown 20230706/o/owe-python-sdk/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-07-06 02:02:06] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/8f/84/66581190d09357a5dd522267963c2d727e20650e6690064dc2efadd1c020/oloren-0.0.9.tar.gz
+[2023-07-06 02:02:06] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/ef/99/84f04bd3c64467014f138a4a390ed8fb9f257bbf7cfd7da5a39114ee5277/hyfi-1.0.5.tar.gz
+[2023-07-06 02:02:06] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/2e/13/8fe1d82afcde14187852d1ad1804353ab650cb43f784e8256f13fc638ad1/anyon-3.5.5-cp311-none-macosx_10_9_universal2.whl
+[2023-07-06 02:02:06] INFO root fetch - processPackages [arlulacore]: Downloading https://files.pythonhosted.org/packages/1c/4e/f5d31d60353eec185ce31f9e792df1766b90d2499bea5f7ed9bae4851f67/arlulacore-3.2.0.tar.gz
+[2023-07-06 02:02:06] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/6e/31/61d250c08f371ce192fb13462cc6f328c0b75d6e6808debef4d3746bbf72/axion-3.4.8-cp311-none-macosx_10_9_universal2.whl
+[2023-07-06 02:02:06] INFO root fetch - processPackages [pyMELTScalc]: Downloading https://files.pythonhosted.org/packages/92/cb/f194b25d6279bf615f862a913edc53bdbb96f7db01919af4ba84c6bf65cf/pyMELTScalc-0.1.23.tar.gz
+[2023-07-06 02:02:06] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-07-06 02:02:06] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-1.0.4.tar.gz tmp/hyfi-1.0.5.tar.gz --markdown 20230706/h/hyfi/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-06 02:02:06] INFO root fetch - processPackages [arlulacore]: executing diffoscope
+[2023-07-06 02:02:06] INFO root fetch - processPackages [arlulacore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arlulacore-3.1.0.tar.gz tmp/arlulacore-3.2.0.tar.gz --markdown 20230706/a/arlulacore/3.1.0-3.2.0/diff.md --exclude *.pyd
+[2023-07-06 02:02:06] INFO root fetch - processPackages [pyMELTScalc]: executing diffoscope
+[2023-07-06 02:02:06] INFO root fetch - processPackages [pyMELTScalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyMELTScalc-0.1.22.tar.gz tmp/pyMELTScalc-0.1.23.tar.gz --markdown 20230706/p/pyMELTScalc/0.1.22-0.1.23/diff.md --exclude *.pyd
+[2023-07-06 02:02:06] INFO root fetch - processPackages [anyon]: executing diffoscope
+[2023-07-06 02:02:06] INFO root fetch - processPackages [anyon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyon-3.5.4-cp311-none-win_amd64.whl.zip tmp/anyon-3.5.5-cp311-none-macosx_10_9_universal2.whl.zip --markdown 20230706/a/anyon/3.5.4-3.5.5/diff.md --exclude *.pyd
+[2023-07-06 02:02:06] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-07-06 02:02:06] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230706/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 02:02:06] INFO root fetch - processPackages [axion]: executing diffoscope
+[2023-07-06 02:02:06] INFO root fetch - processPackages [axion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axion-3.4.7-cp311-none-win_amd64.whl.zip tmp/axion-3.4.8-cp311-none-macosx_10_9_universal2.whl.zip --markdown 20230706/a/axion/3.4.7-3.4.8/diff.md --exclude *.pyd
+[2023-07-06 02:02:07] INFO root fetch - processPackages [owe-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/owe_python_sdk-0.0.1a8.tar.gz]
+[2023-07-06 02:02:07] INFO root fetch - processPackages [owe-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/owe_python_sdk-0.0.1a9.tar.gz]
+[2023-07-06 02:02:07] INFO root fetch - main [MainThread]: End processing [owe-python-sdk]: success
+[2023-07-06 02:02:07] INFO root fetch - processPackages [retake]: Remove: archive file [/home/abi/fetcher/tmp/retake-0.1.3.dev0.tar.gz]
+[2023-07-06 02:02:07] INFO root fetch - processPackages [retake]: Remove: archive file [/home/abi/fetcher/tmp/retake-0.1.4.dev0.tar.gz]
+[2023-07-06 02:02:07] INFO root fetch - main [MainThread]: End processing [retake]: success
+[2023-07-06 02:02:07] INFO root fetch - processPackages [arlulacore]: Remove: archive file [/home/abi/fetcher/tmp/arlulacore-3.1.0.tar.gz]
+[2023-07-06 02:02:07] INFO root fetch - processPackages [arlulacore]: Remove: archive file [/home/abi/fetcher/tmp/arlulacore-3.2.0.tar.gz]
+[2023-07-06 02:02:07] INFO root fetch - main [MainThread]: End processing [arlulacore]: success
+[2023-07-06 02:02:07] INFO root fetch - processPackages [pyMELTScalc]: Remove: archive file [/home/abi/fetcher/tmp/pyMELTScalc-0.1.22.tar.gz]
+[2023-07-06 02:02:07] INFO root fetch - processPackages [pyMELTScalc]: Remove: archive file [/home/abi/fetcher/tmp/pyMELTScalc-0.1.23.tar.gz]
+[2023-07-06 02:02:07] INFO root fetch - main [MainThread]: End processing [pyMELTScalc]: success
+[2023-07-06 02:02:07] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-3.5.4-cp311-none-win_amd64.whl.zip]
+[2023-07-06 02:02:07] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-3.5.5-cp311-none-macosx_10_9_universal2.whl.zip]
+[2023-07-06 02:02:07] INFO root fetch - main [MainThread]: End processing [anyon]: success
+[2023-07-06 02:02:08] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.0.4.tar.gz]
+[2023-07-06 02:02:08] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.0.5.tar.gz]
+[2023-07-06 02:02:08] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-07-06 02:02:08] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-3.4.7-cp311-none-win_amd64.whl.zip]
+[2023-07-06 02:02:08] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-3.4.8-cp311-none-macosx_10_9_universal2.whl.zip]
+[2023-07-06 02:02:08] INFO root fetch - main [MainThread]: End processing [axion]: success
+[2023-07-06 02:02:11] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.8.tar.gz]
+[2023-07-06 02:02:11] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
+[2023-07-06 02:02:11] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-07-06 02:02:11] INFO root fetch - main [MainThread]: Store serial: [18774488]
