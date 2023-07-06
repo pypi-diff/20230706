@@ -12476,3 +12476,95 @@ AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
 [2023-07-06 07:23:05] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.1.0.2.tar.gz]
 [2023-07-06 07:23:05] INFO root fetch - main [MainThread]: End processing [openmetadata-ingestion]: success
 [2023-07-06 07:23:05] INFO root fetch - main [MainThread]: Store serial: [18778679]
+[2023-07-06 07:28:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18778679]
+[2023-07-06 07:28:14] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-06 07:28:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pawnlib
+[2023-07-06 07:28:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openmetadata-managed-apis
+[2023-07-06 07:28:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plotly-extend-wrapper
+[2023-07-06 07:28:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo10-addon-stock-orderpoint-automatic-creation
+[2023-07-06 07:28:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fdi
+[2023-07-06 07:28:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MeUtils
+[2023-07-06 07:28:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: make-argocd-fly
+[2023-07-06 07:28:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: quiltcore
+[2023-07-06 07:28:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: macrometa-target-oracle
+[2023-07-06 07:28:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: signe
+[2023-07-06 07:28:14] INFO root fetch - processPackages [make-argocd-fly]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-06 07:28:14] INFO root fetch - processPackages [quiltcore]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-06 07:28:14] INFO root fetch - processPackages [odoo10-addon-stock-orderpoint-automatic-creation]: New version: [10.0.1.0.1.99.dev2] Old Version: [10.0.1.0.1.99.dev1]
+[2023-07-06 07:28:14] INFO root fetch - processPackages [signe]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-06 07:28:14] INFO root fetch - processPackages [macrometa-target-oracle]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-06 07:28:14] WARNING root fetch - processPackages [plotly-extend-wrapper]: Skipping, unable to determine old version
+[2023-07-06 07:28:14] INFO root fetch - processPackages [plotly-extend-wrapper]: Start processing: pyxdi
+[2023-07-06 07:28:14] INFO root fetch - main [MainThread]: End processing [plotly-extend-wrapper] error
+[2023-07-06 07:28:14] INFO root fetch - processPackages [pawnlib]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-06 07:28:14] INFO root fetch - processPackages [openmetadata-managed-apis]: New version: [1.1.0.2] Old Version: [1.1.0.1]
+[2023-07-06 07:28:14] INFO root fetch - processPackages [fdi]: New version: [1.9.2] Old Version: [1.8.1]
+[2023-07-06 07:28:15] INFO root fetch - processPackages [MeUtils]: New version: [2023.7.6.9.18.40] Old Version: [2023.7.6.9.11.22]
+[2023-07-06 07:28:15] INFO root fetch - processPackages [pyxdi]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-06 07:28:15] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/88/b4/8f3d255eba4d9bf5fe16efab15e0b73b1f4e3e247cfb179b7fb2434e1358/MeUtils-2023.7.6.9.11.22.tar.gz
+[2023-07-06 07:28:15] INFO root fetch - processPackages [make-argocd-fly]: Downloading https://files.pythonhosted.org/packages/93/0c/283b025350a9251d57b518123a8688a6d88cb040fc394ed720fc7ab991a9/make_argocd_fly-0.0.5.tar.gz
+[2023-07-06 07:28:15] INFO root fetch - processPackages [quiltcore]: Downloading https://files.pythonhosted.org/packages/60/d6/41b12995308f1b96f18ef2a5dfa7560facd914d32c4c27855a949959b696/quiltcore-0.1.2.tar.gz
+[2023-07-06 07:28:15] INFO root fetch - processPackages [odoo10-addon-stock-orderpoint-automatic-creation]: Downloading https://files.pythonhosted.org/packages/0b/8b/70b3df730d14ed40fd9061bf63b590d844cc3fb17336319d0b447a5bd3b8/odoo10_addon_stock_orderpoint_automatic_creation-10.0.1.0.1.99.dev1-py2-none-any.whl
+[2023-07-06 07:28:15] INFO root fetch - processPackages [macrometa-target-oracle]: Downloading https://files.pythonhosted.org/packages/27/b3/e50835807c82f638aa26401c3712f39f2aa15ffdfab2fce0030c33dd499e/macrometa-target-oracle-0.0.4.tar.gz
+[2023-07-06 07:28:15] INFO root fetch - processPackages [signe]: Downloading https://files.pythonhosted.org/packages/bc/67/b96cf79f1711c0363a5205e67f2a15d395685d605c8d858ae03fd82aab90/signe-0.1.2.tar.gz
+[2023-07-06 07:28:15] INFO root fetch - processPackages [fdi]: Downloading https://files.pythonhosted.org/packages/22/f2/c4af7e5cacb547020fa23511aa61d9ea4e8c8282c7bfaff6df3f8f9df58c/fdi-1.8.1.tar.gz
+[2023-07-06 07:28:15] INFO root fetch - processPackages [pawnlib]: Downloading https://files.pythonhosted.org/packages/a8/cb/7634b1c7ed6d9e45660fa8b6470f28587fe4cfd16ad19beb5c54c4b9a41c/pawnlib-1.0.8-py3-none-any.whl
+[2023-07-06 07:28:15] INFO root fetch - processPackages [pyxdi]: Downloading https://files.pythonhosted.org/packages/27/55/a1b5b4bd6e45d73ca7a025ca1ff8928b16ffa69b07f64f6da6e526f48042/pyxdi-0.8.0.tar.gz
+[2023-07-06 07:28:15] INFO root fetch - processPackages [openmetadata-managed-apis]: Downloading https://files.pythonhosted.org/packages/71/03/d9c20cb13818d8d8f394fd5003e7f2f106afb55837b8356c473e39b87441/openmetadata_managed_apis-1.1.0.1.tar.gz
+[2023-07-06 07:28:15] WARNING root fetch - processPackages [fdi]: Skipping package: exceeds size limit 16444027>=10485760
+[2023-07-06 07:28:15] INFO root fetch - main [MainThread]: End processing [fdi] error
+[2023-07-06 07:28:15] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/03/c2/0074fedd9218c4324bec9cdbb7bc5f7c2c839ea18d1079a715c0d495a660/MeUtils-2023.7.6.9.18.40.tar.gz
+[2023-07-06 07:28:15] INFO root fetch - processPackages [quiltcore]: Downloading https://files.pythonhosted.org/packages/63/8a/445ce9f08dfefc02bdb03b916acbc229328a840472813b7f5cb4114a5a90/quiltcore-0.2.0.tar.gz
+[2023-07-06 07:28:15] INFO root fetch - processPackages [macrometa-target-oracle]: Downloading https://files.pythonhosted.org/packages/d0/fa/f3e98ecb8c52abfa2184c3310fa0eff394725be522671d31c5a3c27a2589/macrometa-target-oracle-0.0.5.tar.gz
+[2023-07-06 07:28:15] INFO root fetch - processPackages [odoo10-addon-stock-orderpoint-automatic-creation]: Downloading https://files.pythonhosted.org/packages/27/93/97ac58e623fed57820ae637a32c1efc04c09d17c9d19293919e820f87cae/odoo10_addon_stock_orderpoint_automatic_creation-10.0.1.0.1.99.dev2-py2-none-any.whl
+[2023-07-06 07:28:15] INFO root fetch - processPackages [make-argocd-fly]: Downloading https://files.pythonhosted.org/packages/03/30/b5a1fffec6652c29400c4a32bd6fb27334d6d55f1886866327ce6ee7751a/make_argocd_fly-0.0.6.tar.gz
+[2023-07-06 07:28:15] INFO root fetch - processPackages [signe]: Downloading https://files.pythonhosted.org/packages/a1/d1/a4fa190e06877a46bd078064861d6d22f0b169ea889a57dc60e89974108b/signe-0.1.3.tar.gz
+[2023-07-06 07:28:15] INFO root fetch - processPackages [pyxdi]: Downloading https://files.pythonhosted.org/packages/35/d0/d7f47f282bd060c3329acec77ca2b7e3c82658406503d58ac50d045ea3ee/pyxdi-0.9.0.tar.gz
+[2023-07-06 07:28:15] INFO root fetch - processPackages [macrometa-target-oracle]: executing diffoscope
+[2023-07-06 07:28:15] INFO root fetch - processPackages [macrometa-target-oracle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-oracle-0.0.4.tar.gz tmp/macrometa-target-oracle-0.0.5.tar.gz --markdown 20230706/m/macrometa-target-oracle/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-06 07:28:15] INFO root fetch - processPackages [signe]: executing diffoscope
+[2023-07-06 07:28:15] INFO root fetch - processPackages [signe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/signe-0.1.2.tar.gz tmp/signe-0.1.3.tar.gz --markdown 20230706/s/signe/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-06 07:28:15] INFO root fetch - processPackages [openmetadata-managed-apis]: Downloading https://files.pythonhosted.org/packages/23/87/8c3c162988a742f2a0ad62971fe0d34424691556f429738ad3e6072843a0/openmetadata_managed_apis-1.1.0.2.tar.gz
+[2023-07-06 07:28:15] INFO root fetch - processPackages [pawnlib]: Downloading https://files.pythonhosted.org/packages/e5/1a/be9c0c6b988781b2019b731f112202f032371d0b5b489297fb2912c7d8ca/pawnlib-1.0.9-py3-none-any.whl
+[2023-07-06 07:28:15] INFO root fetch - processPackages [quiltcore]: executing diffoscope
+[2023-07-06 07:28:15] INFO root fetch - processPackages [quiltcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quiltcore-0.1.2.tar.gz tmp/quiltcore-0.2.0.tar.gz --markdown 20230706/q/quiltcore/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-07-06 07:28:16] INFO root fetch - processPackages [make-argocd-fly]: executing diffoscope
+[2023-07-06 07:28:16] INFO root fetch - processPackages [make-argocd-fly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/make_argocd_fly-0.0.5.tar.gz tmp/make_argocd_fly-0.0.6.tar.gz --markdown 20230706/m/make-argocd-fly/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-06 07:28:16] INFO root fetch - processPackages [odoo10-addon-stock-orderpoint-automatic-creation]: executing diffoscope
+[2023-07-06 07:28:16] INFO root fetch - processPackages [odoo10-addon-stock-orderpoint-automatic-creation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_stock_orderpoint_automatic_creation-10.0.1.0.1.99.dev1-py2-none-any.whl.zip tmp/odoo10_addon_stock_orderpoint_automatic_creation-10.0.1.0.1.99.dev2-py2-none-any.whl.zip --markdown 20230706/o/odoo10-addon-stock-orderpoint-automatic-creation/10.0.1.0.1.99.dev1-10.0.1.0.1.99.dev2/diff.md --exclude *.pyd
+[2023-07-06 07:28:16] INFO root fetch - processPackages [pyxdi]: executing diffoscope
+[2023-07-06 07:28:16] INFO root fetch - processPackages [pyxdi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxdi-0.8.0.tar.gz tmp/pyxdi-0.9.0.tar.gz --markdown 20230706/p/pyxdi/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-06 07:28:16] INFO root fetch - processPackages [openmetadata-managed-apis]: executing diffoscope
+[2023-07-06 07:28:16] INFO root fetch - processPackages [openmetadata-managed-apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmetadata_managed_apis-1.1.0.1.tar.gz tmp/openmetadata_managed_apis-1.1.0.2.tar.gz --markdown 20230706/o/openmetadata-managed-apis/1.1.0.1-1.1.0.2/diff.md --exclude *.pyd
+[2023-07-06 07:28:16] INFO root fetch - processPackages [pawnlib]: executing diffoscope
+[2023-07-06 07:28:16] INFO root fetch - processPackages [pawnlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pawnlib-1.0.8-py3-none-any.whl.zip tmp/pawnlib-1.0.9-py3-none-any.whl.zip --markdown 20230706/p/pawnlib/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-06 07:28:16] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-07-06 07:28:16] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.7.6.9.11.22.tar.gz tmp/MeUtils-2023.7.6.9.18.40.tar.gz --markdown 20230706/M/MeUtils/2023.7.6.9.11.22-2023.7.6.9.18.40/diff.md --exclude *.pyd
+[2023-07-06 07:28:17] INFO root fetch - processPackages [macrometa-target-oracle]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-oracle-0.0.4.tar.gz]
+[2023-07-06 07:28:17] INFO root fetch - processPackages [macrometa-target-oracle]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-oracle-0.0.5.tar.gz]
+[2023-07-06 07:28:17] INFO root fetch - main [MainThread]: End processing [macrometa-target-oracle]: success
+[2023-07-06 07:28:17] INFO root fetch - processPackages [signe]: Remove: archive file [/home/abi/fetcher/tmp/signe-0.1.2.tar.gz]
+[2023-07-06 07:28:17] INFO root fetch - processPackages [signe]: Remove: archive file [/home/abi/fetcher/tmp/signe-0.1.3.tar.gz]
+[2023-07-06 07:28:17] INFO root fetch - main [MainThread]: End processing [signe]: success
+[2023-07-06 07:28:17] INFO root fetch - processPackages [quiltcore]: Remove: archive file [/home/abi/fetcher/tmp/quiltcore-0.1.2.tar.gz]
+[2023-07-06 07:28:17] INFO root fetch - processPackages [quiltcore]: Remove: archive file [/home/abi/fetcher/tmp/quiltcore-0.2.0.tar.gz]
+[2023-07-06 07:28:17] INFO root fetch - main [MainThread]: End processing [quiltcore]: success
+[2023-07-06 07:28:17] INFO root fetch - processPackages [make-argocd-fly]: Remove: archive file [/home/abi/fetcher/tmp/make_argocd_fly-0.0.5.tar.gz]
+[2023-07-06 07:28:17] INFO root fetch - processPackages [make-argocd-fly]: Remove: archive file [/home/abi/fetcher/tmp/make_argocd_fly-0.0.6.tar.gz]
+[2023-07-06 07:28:17] INFO root fetch - main [MainThread]: End processing [make-argocd-fly]: success
+[2023-07-06 07:28:17] INFO root fetch - processPackages [pyxdi]: Remove: archive file [/home/abi/fetcher/tmp/pyxdi-0.8.0.tar.gz]
+[2023-07-06 07:28:17] INFO root fetch - processPackages [pyxdi]: Remove: archive file [/home/abi/fetcher/tmp/pyxdi-0.9.0.tar.gz]
+[2023-07-06 07:28:17] INFO root fetch - main [MainThread]: End processing [pyxdi]: success
+[2023-07-06 07:28:17] INFO root fetch - processPackages [odoo10-addon-stock-orderpoint-automatic-creation]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_stock_orderpoint_automatic_creation-10.0.1.0.1.99.dev1-py2-none-any.whl.zip]
+[2023-07-06 07:28:17] INFO root fetch - processPackages [odoo10-addon-stock-orderpoint-automatic-creation]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_stock_orderpoint_automatic_creation-10.0.1.0.1.99.dev2-py2-none-any.whl.zip]
+[2023-07-06 07:28:17] INFO root fetch - main [MainThread]: End processing [odoo10-addon-stock-orderpoint-automatic-creation]: success
+[2023-07-06 07:28:17] INFO root fetch - processPackages [openmetadata-managed-apis]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata_managed_apis-1.1.0.1.tar.gz]
+[2023-07-06 07:28:17] INFO root fetch - processPackages [openmetadata-managed-apis]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata_managed_apis-1.1.0.2.tar.gz]
+[2023-07-06 07:28:17] INFO root fetch - main [MainThread]: End processing [openmetadata-managed-apis]: success
+[2023-07-06 07:28:17] INFO root fetch - processPackages [pawnlib]: Remove: archive file [/home/abi/fetcher/tmp/pawnlib-1.0.8-py3-none-any.whl.zip]
+[2023-07-06 07:28:17] INFO root fetch - processPackages [pawnlib]: Remove: archive file [/home/abi/fetcher/tmp/pawnlib-1.0.9-py3-none-any.whl.zip]
+[2023-07-06 07:28:17] INFO root fetch - main [MainThread]: End processing [pawnlib]: success
+[2023-07-06 07:28:20] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.6.9.11.22.tar.gz]
+[2023-07-06 07:28:20] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.6.9.18.40.tar.gz]
+[2023-07-06 07:28:20] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-07-06 07:28:20] INFO root fetch - main [MainThread]: Store serial: [18778721]
