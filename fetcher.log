@@ -12899,3 +12899,100 @@ AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
 [2023-07-06 07:59:37] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.6.9.18.40.tar.gz]
 [2023-07-06 07:59:37] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
 [2023-07-06 07:59:37] INFO root fetch - main [MainThread]: Store serial: [18778834]
+[2023-07-06 08:04:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18778834]
+[2023-07-06 08:04:46] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-06 08:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openqaoa-braket
+[2023-07-06 08:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openqaoa-pyquil
+[2023-07-06 08:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-compileall
+[2023-07-06 08:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-maintenance-request-repair
+[2023-07-06 08:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openqaoa-azure
+[2023-07-06 08:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mynacode
+[2023-07-06 08:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openqaoa
+[2023-07-06 08:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: llmflows
+[2023-07-06 08:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: yid-langchain-extensions
+[2023-07-06 08:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: MeUtils
+[2023-07-06 08:04:46] INFO root fetch - processPackages [openqaoa]: New version: [0.2.0rc1] Old Version: [0.1.3rc1]
+[2023-07-06 08:04:46] INFO root fetch - processPackages [yid-langchain-extensions]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-06 08:04:46] WARNING root fetch - processPackages [py-compileall]: Skipping, unable to determine old version
+[2023-07-06 08:04:46] INFO root fetch - processPackages [py-compileall]: Start processing: mynacode
+[2023-07-06 08:04:46] INFO root fetch - main [MainThread]: End processing [py-compileall] error
+[2023-07-06 08:04:46] INFO root fetch - processPackages [odoo-addon-maintenance-request-repair]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.4]
+[2023-07-06 08:04:46] INFO root fetch - processPackages [openqaoa-braket]: New version: [0.2.0rc1] Old Version: [0.1.3rc1]
+[2023-07-06 08:04:46] INFO root fetch - processPackages [llmflows]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-06 08:04:46] INFO root fetch - processPackages [openqaoa-azure]: New version: [0.2.0rc1] Old Version: [0.1.3rc1]
+[2023-07-06 08:04:46] INFO root fetch - processPackages [openqaoa-pyquil]: New version: [0.2.0rc1] Old Version: [0.1.3rc1]
+[2023-07-06 08:04:46] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-06 08:04:47] INFO root fetch - processPackages [MeUtils]: New version: [2023.7.6.9.18.40] Old Version: [2023.7.6.9.11.22]
+[2023-07-06 08:04:47] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-06 08:04:47] INFO root fetch - processPackages [yid-langchain-extensions]: Downloading https://files.pythonhosted.org/packages/3b/ad/5a14d2e0db79c4c9e25625b1b4d6b4abf5e8bf7fb0bb06ba3461611b3181/yid_langchain_extensions-0.4.8.tar.gz
+[2023-07-06 08:04:47] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/88/b4/8f3d255eba4d9bf5fe16efab15e0b73b1f4e3e247cfb179b7fb2434e1358/MeUtils-2023.7.6.9.11.22.tar.gz
+[2023-07-06 08:04:47] INFO root fetch - processPackages [openqaoa-braket]: Downloading https://files.pythonhosted.org/packages/a5/ba/8f10b99c61241d1e73a8150430493065a8464cdd8a29c9914996db92dc2b/openqaoa-braket-0.1.3rc1.tar.gz
+[2023-07-06 08:04:47] INFO root fetch - processPackages [openqaoa]: Downloading https://files.pythonhosted.org/packages/cf/88/dea4d6d38303779b14c951569fdbf7f34b3e8aeb7f21be42edcd22fcef9e/openqaoa-0.1.3rc1.tar.gz
+[2023-07-06 08:04:47] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-07-06 08:04:47] INFO root fetch - processPackages [llmflows]: Downloading https://files.pythonhosted.org/packages/08/3c/df54e8ed0fded019b53e98b2655417e3b4e4ecba17d524860dee62d39b25/llmflows-0.0.4.tar.gz
+[2023-07-06 08:04:47] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-07-06 08:04:47] INFO root fetch - processPackages [odoo-addon-maintenance-request-repair]: Downloading https://files.pythonhosted.org/packages/3b/4c/f4f9d0ddfb2661ac6dc43d6d46b4e4cf080e94080e4eabe5a6301802554f/odoo_addon_maintenance_request_repair-15.0.1.0.0.4-py3-none-any.whl
+[2023-07-06 08:04:47] INFO root fetch - processPackages [openqaoa-pyquil]: Downloading https://files.pythonhosted.org/packages/c9/32/06bbf7b8fd563004548e1a05ac74d061bc57fc85a413d9b95e52ceca62d7/openqaoa-pyquil-0.1.3rc1.tar.gz
+[2023-07-06 08:04:47] INFO root fetch - processPackages [openqaoa-azure]: Downloading https://files.pythonhosted.org/packages/d1/1d/e0ed485cf7f75b464df8dd5dd0d2659d9fa018e2f93337110d4df27234f6/openqaoa-azure-0.1.3rc1.tar.gz
+[2023-07-06 08:04:47] INFO root fetch - processPackages [yid-langchain-extensions]: Downloading https://files.pythonhosted.org/packages/72/ba/67d200561c62c1dbd583ac75ded2fb95737bee8f62900d9aaf0aeda17ef8/yid_langchain_extensions-0.4.9.tar.gz
+[2023-07-06 08:04:47] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-07-06 08:04:47] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-07-06 08:04:47] INFO root fetch - processPackages [openqaoa-braket]: Downloading https://files.pythonhosted.org/packages/f0/22/8c62ea4c2a8f9771cb74d0fdb64c61fdc7a38c3153806c1a24df1cfca07b/openqaoa-braket-0.2.0rc1.tar.gz
+[2023-07-06 08:04:47] INFO root fetch - processPackages [llmflows]: Downloading https://files.pythonhosted.org/packages/59/dc/a7fe8ed30f72a52b6290b25633b733b441fc1e95f51d5663e70bcfbdeb54/llmflows-0.0.5.tar.gz
+[2023-07-06 08:04:47] INFO root fetch - processPackages [openqaoa]: Downloading https://files.pythonhosted.org/packages/d6/a5/c8a602153fe6a0ef625586b40c740c4e696f8f39984ad40020f3114dff52/openqaoa-0.2.0rc1.tar.gz
+[2023-07-06 08:04:47] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-07-06 08:04:47] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230706/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-06 08:04:47] INFO root fetch - processPackages [odoo-addon-maintenance-request-repair]: Downloading https://files.pythonhosted.org/packages/dc/f7/96b904593962a1ac2ef1598e6e15a86e16984029a003a90a9b98df4e078e/odoo_addon_maintenance_request_repair-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-06 08:04:47] INFO root fetch - processPackages [yid-langchain-extensions]: executing diffoscope
+[2023-07-06 08:04:47] INFO root fetch - processPackages [yid-langchain-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yid_langchain_extensions-0.4.8.tar.gz tmp/yid_langchain_extensions-0.4.9.tar.gz --markdown 20230706/y/yid-langchain-extensions/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-06 08:04:47] INFO root fetch - processPackages [openqaoa-pyquil]: Downloading https://files.pythonhosted.org/packages/b8/ba/a1c0aaf304a29a47083fd61dd91e36c02bf60bcc0d833567aadb84baecd3/openqaoa-pyquil-0.2.0rc1.tar.gz
+[2023-07-06 08:04:47] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-07-06 08:04:47] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230706/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-06 08:04:47] INFO root fetch - processPackages [openqaoa-azure]: Downloading https://files.pythonhosted.org/packages/ff/27/b01daabf6a210bdf37558e4b1292eb7de4710e6521bab9316de89dfefe78/openqaoa-azure-0.2.0rc1.tar.gz
+[2023-07-06 08:04:47] INFO root fetch - processPackages [openqaoa-braket]: executing diffoscope
+[2023-07-06 08:04:47] INFO root fetch - processPackages [openqaoa-braket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openqaoa-braket-0.1.3rc1.tar.gz tmp/openqaoa-braket-0.2.0rc1.tar.gz --markdown 20230706/o/openqaoa-braket/0.1.3rc1-0.2.0rc1/diff.md --exclude *.pyd
+[2023-07-06 08:04:47] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/03/c2/0074fedd9218c4324bec9cdbb7bc5f7c2c839ea18d1079a715c0d495a660/MeUtils-2023.7.6.9.18.40.tar.gz
+[2023-07-06 08:04:48] INFO root fetch - processPackages [odoo-addon-maintenance-request-repair]: executing diffoscope
+[2023-07-06 08:04:48] INFO root fetch - processPackages [odoo-addon-maintenance-request-repair]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_maintenance_request_repair-15.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_maintenance_request_repair-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230706/o/odoo-addon-maintenance-request-repair/15.0.1.0.0.4-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-07-06 08:04:48] INFO root fetch - processPackages [openqaoa-pyquil]: executing diffoscope
+[2023-07-06 08:04:48] INFO root fetch - processPackages [openqaoa-pyquil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openqaoa-pyquil-0.1.3rc1.tar.gz tmp/openqaoa-pyquil-0.2.0rc1.tar.gz --markdown 20230706/o/openqaoa-pyquil/0.1.3rc1-0.2.0rc1/diff.md --exclude *.pyd
+[2023-07-06 08:04:48] INFO root fetch - processPackages [llmflows]: executing diffoscope
+[2023-07-06 08:04:48] INFO root fetch - processPackages [llmflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmflows-0.0.4.tar.gz tmp/llmflows-0.0.5.tar.gz --markdown 20230706/l/llmflows/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-06 08:04:48] INFO root fetch - processPackages [openqaoa-azure]: executing diffoscope
+[2023-07-06 08:04:48] INFO root fetch - processPackages [openqaoa-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openqaoa-azure-0.1.3rc1.tar.gz tmp/openqaoa-azure-0.2.0rc1.tar.gz --markdown 20230706/o/openqaoa-azure/0.1.3rc1-0.2.0rc1/diff.md --exclude *.pyd
+[2023-07-06 08:04:48] INFO root fetch - processPackages [openqaoa]: executing diffoscope
+[2023-07-06 08:04:48] INFO root fetch - processPackages [openqaoa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openqaoa-0.1.3rc1.tar.gz tmp/openqaoa-0.2.0rc1.tar.gz --markdown 20230706/o/openqaoa/0.1.3rc1-0.2.0rc1/diff.md --exclude *.pyd
+[2023-07-06 08:04:48] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-07-06 08:04:48] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.7.6.9.11.22.tar.gz tmp/MeUtils-2023.7.6.9.18.40.tar.gz --markdown 20230706/M/MeUtils/2023.7.6.9.11.22-2023.7.6.9.18.40/diff.md --exclude *.pyd
+[2023-07-06 08:04:49] INFO root fetch - processPackages [yid-langchain-extensions]: Remove: archive file [/home/abi/fetcher/tmp/yid_langchain_extensions-0.4.8.tar.gz]
+[2023-07-06 08:04:49] INFO root fetch - processPackages [yid-langchain-extensions]: Remove: archive file [/home/abi/fetcher/tmp/yid_langchain_extensions-0.4.9.tar.gz]
+[2023-07-06 08:04:49] INFO root fetch - processPackages [yid-langchain-extensions]: Start processing: pycompall
+[2023-07-06 08:04:49] INFO root fetch - main [MainThread]: End processing [yid-langchain-extensions]: success
+[2023-07-06 08:04:49] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-07-06 08:04:49] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-07-06 08:04:49] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-07-06 08:04:49] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-07-06 08:04:49] ERROR root fetch - processPackages [pycompall]: Unable to get metadata: No such project 'pycompall'
+[2023-07-06 08:04:49] INFO root fetch - main [MainThread]: End processing [pycompall] error
+[2023-07-06 08:04:49] INFO root fetch - processPackages [openqaoa-braket]: Remove: archive file [/home/abi/fetcher/tmp/openqaoa-braket-0.1.3rc1.tar.gz]
+[2023-07-06 08:04:49] INFO root fetch - processPackages [openqaoa-braket]: Remove: archive file [/home/abi/fetcher/tmp/openqaoa-braket-0.2.0rc1.tar.gz]
+[2023-07-06 08:04:49] INFO root fetch - main [MainThread]: End processing [openqaoa-braket]: success
+[2023-07-06 08:04:49] INFO root fetch - processPackages [openqaoa-azure]: Remove: archive file [/home/abi/fetcher/tmp/openqaoa-azure-0.1.3rc1.tar.gz]
+[2023-07-06 08:04:49] INFO root fetch - processPackages [openqaoa-azure]: Remove: archive file [/home/abi/fetcher/tmp/openqaoa-azure-0.2.0rc1.tar.gz]
+[2023-07-06 08:04:49] INFO root fetch - main [MainThread]: End processing [openqaoa-azure]: success
+[2023-07-06 08:04:49] INFO root fetch - processPackages [llmflows]: Remove: archive file [/home/abi/fetcher/tmp/llmflows-0.0.4.tar.gz]
+[2023-07-06 08:04:49] INFO root fetch - processPackages [llmflows]: Remove: archive file [/home/abi/fetcher/tmp/llmflows-0.0.5.tar.gz]
+[2023-07-06 08:04:49] INFO root fetch - main [MainThread]: End processing [llmflows]: success
+[2023-07-06 08:04:49] INFO root fetch - processPackages [odoo-addon-maintenance-request-repair]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_request_repair-15.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-06 08:04:49] INFO root fetch - processPackages [odoo-addon-maintenance-request-repair]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_request_repair-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-06 08:04:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-maintenance-request-repair]: success
+[2023-07-06 08:04:49] INFO root fetch - processPackages [openqaoa-pyquil]: Remove: archive file [/home/abi/fetcher/tmp/openqaoa-pyquil-0.1.3rc1.tar.gz]
+[2023-07-06 08:04:49] INFO root fetch - processPackages [openqaoa-pyquil]: Remove: archive file [/home/abi/fetcher/tmp/openqaoa-pyquil-0.2.0rc1.tar.gz]
+[2023-07-06 08:04:49] INFO root fetch - main [MainThread]: End processing [openqaoa-pyquil]: success
+[2023-07-06 08:04:50] INFO root fetch - processPackages [openqaoa]: Remove: archive file [/home/abi/fetcher/tmp/openqaoa-0.1.3rc1.tar.gz]
+[2023-07-06 08:04:50] INFO root fetch - processPackages [openqaoa]: Remove: archive file [/home/abi/fetcher/tmp/openqaoa-0.2.0rc1.tar.gz]
+[2023-07-06 08:04:50] INFO root fetch - main [MainThread]: End processing [openqaoa]: success
+[2023-07-06 08:04:52] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.6.9.11.22.tar.gz]
+[2023-07-06 08:04:52] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.6.9.18.40.tar.gz]
+[2023-07-06 08:04:52] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-07-06 08:04:52] INFO root fetch - main [MainThread]: Store serial: [18778871]
