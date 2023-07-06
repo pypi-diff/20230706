@@ -17339,3 +17339,175 @@ AssertionError: tmp/termkit-0.2.0a4.tar.gz does not exist
 [2023-07-06 11:21:42] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
 [2023-07-06 11:21:42] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
 [2023-07-06 11:21:42] INFO root fetch - main [MainThread]: Store serial: [18780892]
+[2023-07-06 11:26:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18780892]
+[2023-07-06 11:26:51] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-06 11:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: archivebox-likn
+[2023-07-06 11:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-material-admin-plus
+[2023-07-06 11:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycompall
+[2023-07-06 11:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lfinancial
+[2023-07-06 11:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: planqk-quantum
+[2023-07-06 11:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MeUtils
+[2023-07-06 11:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wiptools
+[2023-07-06 11:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spanishconjugator
+[2023-07-06 11:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: shared-atomic-enterprise
+[2023-07-06 11:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lsst-pex-config
+[2023-07-06 11:26:51] INFO root fetch - processPackages [archivebox-likn]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-06 11:26:51] INFO root fetch - processPackages [wiptools]: New version: [1.2.9.dev0] Old Version: [1.2.8.dev0]
+[2023-07-06 11:26:51] INFO root fetch - processPackages [lfinancial]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-06 11:26:51] WARNING root fetch - processPackages [django-material-admin-plus]: Skipping, unable to determine old version
+[2023-07-06 11:26:51] INFO root fetch - processPackages [django-material-admin-plus]: Start processing: spanishconjugator
+[2023-07-06 11:26:51] INFO root fetch - main [MainThread]: End processing [django-material-admin-plus] error
+[2023-07-06 11:26:51] INFO root fetch - processPackages [pycompall]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-06 11:26:51] INFO root fetch - processPackages [lsst-pex-config]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-07-06 11:26:51] INFO root fetch - processPackages [planqk-quantum]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-07-06 11:26:51] INFO root fetch - processPackages [shared-atomic-enterprise]: New version: [5!2.3.6] Old Version: [5!2.3.5]
+[2023-07-06 11:26:51] INFO root fetch - processPackages [MeUtils]: New version: [2023.7.6.9.18.40] Old Version: [2023.7.6.9.11.22]
+[2023-07-06 11:26:51] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-06 11:26:51] INFO root fetch - processPackages [wiptools]: Downloading https://files.pythonhosted.org/packages/b9/9f/1f8ba12ffb63470e6ff6d8a27d89845042922a4cbc3fd9c887309f24f7c0/wiptools-1.2.8.dev0.tar.gz
+[2023-07-06 11:26:51] INFO root fetch - processPackages [archivebox-likn]: Downloading https://files.pythonhosted.org/packages/a3/6f/7ab18aec0f4c6891ae241e3fc5777465ee77e5a7586bf809ce881a1fd5dd/archivebox_likn-0.6.2.tar.gz
+[2023-07-06 11:26:51] INFO root fetch - processPackages [lfinancial]: Downloading https://files.pythonhosted.org/packages/f7/7a/47bbcc51aff4576587f3f5d8692b9278f2c3b28149277462468dbc587b4a/lfinancial-0.1.9.tar.gz
+[2023-07-06 11:26:51] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/88/b4/8f3d255eba4d9bf5fe16efab15e0b73b1f4e3e247cfb179b7fb2434e1358/MeUtils-2023.7.6.9.11.22.tar.gz
+[2023-07-06 11:26:52] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-06 11:26:52] INFO root fetch - processPackages [pycompall]: Downloading https://files.pythonhosted.org/packages/83/fa/bd12d82813c0e7cb7b460c76d66fbc7420f1bb23594b590107eea6b8a2b5/pycompall-0.1.2.tar.gz
+[2023-07-06 11:26:52] INFO root fetch - processPackages [planqk-quantum]: Downloading https://files.pythonhosted.org/packages/ba/e5/66d73e8fdc89915575c868abcab45a7707b503d51ea8e84159e161bfa0d7/planqk-quantum-1.8.0.tar.gz
+[2023-07-06 11:26:52] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-06 11:26:52] INFO root fetch - processPackages [lsst-pex-config]: Downloading https://files.pythonhosted.org/packages/d7/0c/0464eaef88f46db58e9972a38d5221f68038faa115510c0cb95799422145/lsst-pex-config-26.0.0a20230400.tar.gz
+[2023-07-06 11:26:52] INFO root fetch - processPackages [shared-atomic-enterprise]: Downloading https://files.pythonhosted.org/packages/18/19/5169d4149e8c2a4ec4524f09fa1342f87736dc4a34ddddc3cde3eaff49a0/shared_atomic_enterprise-5!2.3.5-py39-none-win_amd64.whl
+[2023-07-06 11:26:52] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-06 11:26:52] INFO root fetch - processPackages [wiptools]: Downloading https://files.pythonhosted.org/packages/30/d2/49c84e4c84f1b4aa0a24ebfd88fe1f23a7b822e5e92ac9279d738c981298/wiptools-1.2.9.dev0.tar.gz
+[2023-07-06 11:26:52] INFO root fetch - processPackages [lfinancial]: Downloading https://files.pythonhosted.org/packages/54/bc/e10a87df20eb4b269fe46e8f23499db66acffcf8442815f0d1bd32b4974a/lfinancial-0.2.0.tar.gz
+[2023-07-06 11:26:52] INFO root fetch - processPackages [archivebox-likn]: Downloading https://files.pythonhosted.org/packages/e3/d8/55da9b755b12a61551d78317daaab55ac13df0dd6f0a1639e9b8f71fdd61/archivebox_likn-0.6.3.tar.gz
+[2023-07-06 11:26:52] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-06 11:26:52] INFO root fetch - processPackages [pycompall]: Downloading https://files.pythonhosted.org/packages/3c/3a/06155e52d5ab9369d79674a28f889b3cc66d172627fd0fabc61c3f5f54ef/pycompall-0.1.3.tar.gz
+[2023-07-06 11:26:52] INFO root fetch - processPackages [planqk-quantum]: Downloading https://files.pythonhosted.org/packages/4d/df/e39411b386f622eac6d984d121b4d4dd4df50cf045d7a56dbed1e9b98e30/planqk-quantum-1.8.1.tar.gz
+[2023-07-06 11:26:52] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-06 11:26:52] INFO root fetch - processPackages [wiptools]: executing diffoscope
+[2023-07-06 11:26:52] INFO root fetch - processPackages [wiptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiptools-1.2.8.dev0.tar.gz tmp/wiptools-1.2.9.dev0.tar.gz --markdown 20230706/w/wiptools/1.2.8.dev0-1.2.9.dev0/diff.md --exclude *.pyd
+[2023-07-06 11:26:52] INFO root fetch - processPackages [lfinancial]: executing diffoscope
+[2023-07-06 11:26:52] INFO root fetch - processPackages [lfinancial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lfinancial-0.1.9.tar.gz tmp/lfinancial-0.2.0.tar.gz --markdown 20230706/l/lfinancial/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-06 11:26:52] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-06 11:26:52] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230706/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-06 11:26:52] INFO root fetch - processPackages [lsst-pex-config]: Downloading https://files.pythonhosted.org/packages/cb/e7/b5b77ed48e975232d6d946423eca1f7883eb826cf1844d70b96ddddd1696/lsst-pex-config-26.0.0a20230500.tar.gz
+[2023-07-06 11:26:52] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/03/c2/0074fedd9218c4324bec9cdbb7bc5f7c2c839ea18d1079a715c0d495a660/MeUtils-2023.7.6.9.18.40.tar.gz
+[2023-07-06 11:26:52] INFO root fetch - processPackages [archivebox-likn]: executing diffoscope
+[2023-07-06 11:26:52] INFO root fetch - processPackages [archivebox-likn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archivebox_likn-0.6.2.tar.gz tmp/archivebox_likn-0.6.3.tar.gz --markdown 20230706/a/archivebox-likn/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-06 11:26:52] INFO root fetch - processPackages [pycompall]: executing diffoscope
+[2023-07-06 11:26:52] INFO root fetch - processPackages [pycompall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycompall-0.1.2.tar.gz tmp/pycompall-0.1.3.tar.gz --markdown 20230706/p/pycompall/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-06 11:26:52] INFO root fetch - processPackages [planqk-quantum]: executing diffoscope
+[2023-07-06 11:26:52] INFO root fetch - processPackages [planqk-quantum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planqk-quantum-1.8.0.tar.gz tmp/planqk-quantum-1.8.1.tar.gz --markdown 20230706/p/planqk-quantum/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-07-06 11:26:52] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-06 11:26:52] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230706/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-06 11:26:52] INFO root fetch - processPackages [lsst-pex-config]: executing diffoscope
+[2023-07-06 11:26:52] INFO root fetch - processPackages [lsst-pex-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-pex-config-26.0.0a20230400.tar.gz tmp/lsst-pex-config-26.0.0a20230500.tar.gz --markdown 20230706/l/lsst-pex-config/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-07-06 11:26:52] INFO root fetch - processPackages [shared-atomic-enterprise]: Downloading https://files.pythonhosted.org/packages/b8/82/ab5e52b1eb51a88e49693141b09cfece0fcbe631b3b900f08cad836b3ccd/shared_atomic_enterprise-5!2.3.6-py39-none-win_amd64.whl
+[2023-07-06 11:26:53] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-07-06 11:26:53] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.7.6.9.11.22.tar.gz tmp/MeUtils-2023.7.6.9.18.40.tar.gz --markdown 20230706/M/MeUtils/2023.7.6.9.11.22-2023.7.6.9.18.40/diff.md --exclude *.pyd
+[2023-07-06 11:26:53] INFO root fetch - processPackages [shared-atomic-enterprise]: executing diffoscope
+[2023-07-06 11:26:53] INFO root fetch - processPackages [shared-atomic-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shared_atomic_enterprise-5!2.3.5-py39-none-win_amd64.whl.zip tmp/shared_atomic_enterprise-5!2.3.6-py39-none-win_amd64.whl.zip --markdown 20230706/s/shared-atomic-enterprise/5!2.3.5-5!2.3.6/diff.md --exclude *.pyd
+[2023-07-06 11:26:54] INFO root fetch - processPackages [lfinancial]: Remove: archive file [/home/abi/fetcher/tmp/lfinancial-0.1.9.tar.gz]
+[2023-07-06 11:26:54] INFO root fetch - processPackages [lfinancial]: Remove: archive file [/home/abi/fetcher/tmp/lfinancial-0.2.0.tar.gz]
+[2023-07-06 11:26:54] INFO root fetch - processPackages [lfinancial]: Start processing: centaur-client
+[2023-07-06 11:26:54] INFO root fetch - main [MainThread]: End processing [lfinancial]: success
+[2023-07-06 11:26:54] INFO root fetch - processPackages [centaur-client]: New version: [0.0.11] Old Version: [0.0.10]
+[2023-07-06 11:26:54] INFO root fetch - processPackages [pycompall]: Remove: archive file [/home/abi/fetcher/tmp/pycompall-0.1.2.tar.gz]
+[2023-07-06 11:26:54] INFO root fetch - processPackages [pycompall]: Remove: archive file [/home/abi/fetcher/tmp/pycompall-0.1.3.tar.gz]
+[2023-07-06 11:26:54] INFO root fetch - processPackages [pycompall]: Start processing: SELDOMpy
+[2023-07-06 11:26:54] INFO root fetch - main [MainThread]: End processing [pycompall]: success
+[2023-07-06 11:26:54] INFO root fetch - processPackages [SELDOMpy]: New version: [0.8.4.6] Old Version: [0.8.4.5]
+[2023-07-06 11:26:54] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-06 11:26:54] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-06 11:26:54] INFO root fetch - processPackages [spanishconjugator]: Start processing: keras-data-format-converter
+[2023-07-06 11:26:54] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-06 11:26:54] INFO root fetch - processPackages [planqk-quantum]: Remove: archive file [/home/abi/fetcher/tmp/planqk-quantum-1.8.0.tar.gz]
+[2023-07-06 11:26:54] INFO root fetch - processPackages [planqk-quantum]: Remove: archive file [/home/abi/fetcher/tmp/planqk-quantum-1.8.1.tar.gz]
+[2023-07-06 11:26:54] INFO root fetch - processPackages [planqk-quantum]: Start processing: grai-client
+[2023-07-06 11:26:54] INFO root fetch - main [MainThread]: End processing [planqk-quantum]: success
+[2023-07-06 11:26:54] INFO root fetch - processPackages [centaur-client]: Downloading https://files.pythonhosted.org/packages/2c/1b/e7b6ce4f5c5b023159b143233185412be1abec344542b8560f2dd6f15370/centaur_client-0.0.10-py3-none-any.whl
+[2023-07-06 11:26:54] INFO root fetch - processPackages [grai-client]: New version: [0.3.0a9] Old Version: [0.3.0a8]
+[2023-07-06 11:26:54] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/33/26/aa5519e5f6c8d27b0efc1094c4983a3e6430f2ae9ea179440f54e623774a/SELDOMpy-0.8.4.5.tar.gz
+[2023-07-06 11:26:54] INFO root fetch - processPackages [wiptools]: Remove: archive file [/home/abi/fetcher/tmp/wiptools-1.2.8.dev0.tar.gz]
+[2023-07-06 11:26:54] INFO root fetch - processPackages [wiptools]: Remove: archive file [/home/abi/fetcher/tmp/wiptools-1.2.9.dev0.tar.gz]
+[2023-07-06 11:26:54] INFO root fetch - processPackages [wiptools]: Start processing: example-package-eladpt
+[2023-07-06 11:26:54] INFO root fetch - main [MainThread]: End processing [wiptools]: success
+[2023-07-06 11:26:54] INFO root fetch - processPackages [spanishconjugator]: Start processing: gvec-to-python
+[2023-07-06 11:26:54] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-06 11:26:54] INFO root fetch - processPackages [keras-data-format-converter]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-06 11:26:54] INFO root fetch - processPackages [grai-client]: Downloading https://files.pythonhosted.org/packages/7b/0c/3ea2e50fbd7275dd1c4003dc273a6673f7f6072e73030d815eb008c57cf7/grai_client-0.3.0a8.tar.gz
+[2023-07-06 11:26:55] INFO root fetch - processPackages [lsst-pex-config]: Remove: archive file [/home/abi/fetcher/tmp/lsst-pex-config-26.0.0a20230400.tar.gz]
+[2023-07-06 11:26:55] INFO root fetch - processPackages [lsst-pex-config]: Remove: archive file [/home/abi/fetcher/tmp/lsst-pex-config-26.0.0a20230500.tar.gz]
+[2023-07-06 11:26:55] INFO root fetch - processPackages [lsst-pex-config]: Start processing: odoo-addon-openupgrade-scripts
+[2023-07-06 11:26:55] INFO root fetch - main [MainThread]: End processing [lsst-pex-config]: success
+[2023-07-06 11:26:55] WARNING root fetch - processPackages [example-package-eladpt]: Skipping, unable to determine old version
+[2023-07-06 11:26:55] INFO root fetch - processPackages [example-package-eladpt]: Start processing: pylatent
+[2023-07-06 11:26:55] INFO root fetch - main [MainThread]: End processing [example-package-eladpt] error
+[2023-07-06 11:26:55] INFO root fetch - processPackages [gvec-to-python]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-06 11:26:55] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: New version: [16.0.1.0.3.9] Old Version: [16.0.1.0.3.7]
+[2023-07-06 11:26:55] INFO root fetch - processPackages [centaur-client]: Downloading https://files.pythonhosted.org/packages/1c/1c/9595fb0ec717f5dba41078593d59afb5d8c9138eb5b841134a626a1fa90c/centaur_client-0.0.11-py3-none-any.whl
+[2023-07-06 11:26:55] INFO root fetch - processPackages [keras-data-format-converter]: Downloading https://files.pythonhosted.org/packages/69/e1/6197f82986aa58e2d3224b180105d7a7989563b02dcb30c65c985b251139/keras-data-format-converter-0.1.8.tar.gz
+[2023-07-06 11:26:55] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/6d/d3/beef0a0333b8de07f567e5bb590e4e55f47226a03863bdc65e95f9fbd59e/SELDOMpy-0.8.4.6.tar.gz
+[2023-07-06 11:26:55] WARNING root fetch - processPackages [pylatent]: Skipping, unable to determine old version
+[2023-07-06 11:26:55] INFO root fetch - processPackages [pylatent]: Start processing: astro-metadata-translator
+[2023-07-06 11:26:55] INFO root fetch - main [MainThread]: End processing [pylatent] error
+[2023-07-06 11:26:55] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/d2/29/e2cb7ea93979e027e6d5309d7a314ee9e6d65f7021f477e355ae236a55c9/odoo_addon_openupgrade_scripts-16.0.1.0.3.7-py3-none-any.whl
+[2023-07-06 11:26:55] INFO root fetch - processPackages [gvec-to-python]: Downloading https://files.pythonhosted.org/packages/fc/a3/6dfc24ba86eaf67e34fa24a684af055c56b6e1870e99ef5067090db96f21/gvec-to-python-1.1.1.tar.gz
+[2023-07-06 11:26:55] INFO root fetch - processPackages [grai-client]: Downloading https://files.pythonhosted.org/packages/99/fe/aff0ad822eae61047cf64181e643629668c44ac5d46f6baf5af3086d1f1b/grai_client-0.3.0a9.tar.gz
+[2023-07-06 11:26:55] INFO root fetch - processPackages [centaur-client]: executing diffoscope
+[2023-07-06 11:26:55] INFO root fetch - processPackages [centaur-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/centaur_client-0.0.10-py3-none-any.whl.zip tmp/centaur_client-0.0.11-py3-none-any.whl.zip --markdown 20230706/c/centaur-client/0.0.10-0.0.11/diff.md --exclude *.pyd
+[2023-07-06 11:26:55] INFO root fetch - processPackages [astro-metadata-translator]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-07-06 11:26:55] INFO root fetch - processPackages [SELDOMpy]: executing diffoscope
+[2023-07-06 11:26:55] INFO root fetch - processPackages [SELDOMpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SELDOMpy-0.8.4.5.tar.gz tmp/SELDOMpy-0.8.4.6.tar.gz --markdown 20230706/S/SELDOMpy/0.8.4.5-0.8.4.6/diff.md --exclude *.pyd
+[2023-07-06 11:26:55] INFO root fetch - processPackages [grai-client]: executing diffoscope
+[2023-07-06 11:26:55] INFO root fetch - processPackages [grai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_client-0.3.0a8.tar.gz tmp/grai_client-0.3.0a9.tar.gz --markdown 20230706/g/grai-client/0.3.0a8-0.3.0a9/diff.md --exclude *.pyd
+[2023-07-06 11:26:55] INFO root fetch - processPackages [keras-data-format-converter]: Downloading https://files.pythonhosted.org/packages/93/1b/13aef5e3bb4f3c7729fe70dc704b3626c0a713391d3afecfb63569f0a120/keras-data-format-converter-0.1.9.tar.gz
+[2023-07-06 11:26:55] INFO root fetch - processPackages [astro-metadata-translator]: Downloading https://files.pythonhosted.org/packages/88/0f/ddf4d690ba71629b94ef331c1dcf381615f5fa0220cfb725331d64d70fe9/astro-metadata-translator-26.0.0a20230400.tar.gz
+[2023-07-06 11:26:55] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/17/81/574f2d588623a030241dff9b1e5a89ed58aca17a00ce25c81995ecf57f8c/odoo_addon_openupgrade_scripts-16.0.1.0.3.9-py3-none-any.whl
+[2023-07-06 11:26:55] INFO root fetch - processPackages [gvec-to-python]: Downloading https://files.pythonhosted.org/packages/04/34/fff2669e498e90575dd109d4961317543faf6cf1bdf61dad4cba7129a4e0/gvec-to-python-1.1.2.tar.gz
+[2023-07-06 11:26:55] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: executing diffoscope
+[2023-07-06 11:26:55] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.7-py3-none-any.whl.zip tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.9-py3-none-any.whl.zip --markdown 20230706/o/odoo-addon-openupgrade-scripts/16.0.1.0.3.7-16.0.1.0.3.9/diff.md --exclude *.pyd
+[2023-07-06 11:26:55] INFO root fetch - processPackages [keras-data-format-converter]: executing diffoscope
+[2023-07-06 11:26:55] INFO root fetch - processPackages [keras-data-format-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-data-format-converter-0.1.8.tar.gz tmp/keras-data-format-converter-0.1.9.tar.gz --markdown 20230706/k/keras-data-format-converter/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-06 11:26:56] INFO root fetch - processPackages [gvec-to-python]: executing diffoscope
+[2023-07-06 11:26:56] INFO root fetch - processPackages [gvec-to-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gvec-to-python-1.1.1.tar.gz tmp/gvec-to-python-1.1.2.tar.gz --markdown 20230706/g/gvec-to-python/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-06 11:26:56] INFO root fetch - processPackages [archivebox-likn]: Remove: archive file [/home/abi/fetcher/tmp/archivebox_likn-0.6.2.tar.gz]
+[2023-07-06 11:26:56] INFO root fetch - processPackages [archivebox-likn]: Remove: archive file [/home/abi/fetcher/tmp/archivebox_likn-0.6.3.tar.gz]
+[2023-07-06 11:26:56] INFO root fetch - processPackages [archivebox-likn]: Start processing: tencentcloud-dlc-jupyter
+[2023-07-06 11:26:56] INFO root fetch - main [MainThread]: End processing [archivebox-likn]: success
+[2023-07-06 11:26:56] INFO root fetch - processPackages [astro-metadata-translator]: Downloading https://files.pythonhosted.org/packages/f6/a2/6962018c4d5dc18839328422a99767c526540467659fab3d4282192e3763/astro-metadata-translator-26.0.0a20230500.tar.gz
+[2023-07-06 11:26:56] INFO root fetch - processPackages [tencentcloud-dlc-jupyter]: New version: [1.1.0] Old Version: [1.0.0b0]
+[2023-07-06 11:26:56] INFO root fetch - processPackages [astro-metadata-translator]: executing diffoscope
+[2023-07-06 11:26:56] INFO root fetch - processPackages [astro-metadata-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro-metadata-translator-26.0.0a20230400.tar.gz tmp/astro-metadata-translator-26.0.0a20230500.tar.gz --markdown 20230706/a/astro-metadata-translator/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-07-06 11:26:56] INFO root fetch - processPackages [tencentcloud-dlc-jupyter]: Downloading https://files.pythonhosted.org/packages/f4/14/396c4bf380fef55e32c3d6d643c14b51015f28c0683ddbf1244194126a6e/tencentcloud-dlc-jupyter-1.0.0b0.tar.gz
+[2023-07-06 11:26:56] INFO root fetch - processPackages [centaur-client]: Remove: archive file [/home/abi/fetcher/tmp/centaur_client-0.0.10-py3-none-any.whl.zip]
+[2023-07-06 11:26:56] INFO root fetch - processPackages [centaur-client]: Remove: archive file [/home/abi/fetcher/tmp/centaur_client-0.0.11-py3-none-any.whl.zip]
+[2023-07-06 11:26:57] INFO root fetch - main [MainThread]: End processing [centaur-client]: success
+[2023-07-06 11:26:57] INFO root fetch - processPackages [tencentcloud-dlc-jupyter]: Downloading https://files.pythonhosted.org/packages/28/85/3d350b5350233f3bf6142f1925442beb6ebfcaef1565668d498ab187bf42/tencentcloud-dlc-jupyter-1.1.0.tar.gz
+[2023-07-06 11:26:57] INFO root fetch - processPackages [grai-client]: Remove: archive file [/home/abi/fetcher/tmp/grai_client-0.3.0a8.tar.gz]
+[2023-07-06 11:26:57] INFO root fetch - processPackages [grai-client]: Remove: archive file [/home/abi/fetcher/tmp/grai_client-0.3.0a9.tar.gz]
+[2023-07-06 11:26:57] INFO root fetch - main [MainThread]: End processing [grai-client]: success
+[2023-07-06 11:26:57] INFO root fetch - processPackages [tencentcloud-dlc-jupyter]: executing diffoscope
+[2023-07-06 11:26:57] INFO root fetch - processPackages [tencentcloud-dlc-jupyter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-dlc-jupyter-1.0.0b0.tar.gz tmp/tencentcloud-dlc-jupyter-1.1.0.tar.gz --markdown 20230706/t/tencentcloud-dlc-jupyter/1.0.0b0-1.1.0/diff.md --exclude *.pyd
+[2023-07-06 11:26:57] INFO root fetch - processPackages [keras-data-format-converter]: Remove: archive file [/home/abi/fetcher/tmp/keras-data-format-converter-0.1.8.tar.gz]
+[2023-07-06 11:26:57] INFO root fetch - processPackages [keras-data-format-converter]: Remove: archive file [/home/abi/fetcher/tmp/keras-data-format-converter-0.1.9.tar.gz]
+[2023-07-06 11:26:57] INFO root fetch - main [MainThread]: End processing [keras-data-format-converter]: success
+[2023-07-06 11:26:57] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.8.4.5.tar.gz]
+[2023-07-06 11:26:57] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.8.4.6.tar.gz]
+[2023-07-06 11:26:57] INFO root fetch - main [MainThread]: End processing [SELDOMpy]: success
+[2023-07-06 11:26:57] INFO root fetch - processPackages [astro-metadata-translator]: Remove: archive file [/home/abi/fetcher/tmp/astro-metadata-translator-26.0.0a20230400.tar.gz]
+[2023-07-06 11:26:57] INFO root fetch - processPackages [astro-metadata-translator]: Remove: archive file [/home/abi/fetcher/tmp/astro-metadata-translator-26.0.0a20230500.tar.gz]
+[2023-07-06 11:26:57] INFO root fetch - main [MainThread]: End processing [astro-metadata-translator]: success
+[2023-07-06 11:26:57] INFO root fetch - processPackages [gvec-to-python]: Remove: archive file [/home/abi/fetcher/tmp/gvec-to-python-1.1.1.tar.gz]
+[2023-07-06 11:26:57] INFO root fetch - processPackages [gvec-to-python]: Remove: archive file [/home/abi/fetcher/tmp/gvec-to-python-1.1.2.tar.gz]
+[2023-07-06 11:26:57] INFO root fetch - main [MainThread]: End processing [gvec-to-python]: success
+[2023-07-06 11:26:58] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.6.9.11.22.tar.gz]
+[2023-07-06 11:26:58] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.6.9.18.40.tar.gz]
+[2023-07-06 11:26:58] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-07-06 11:26:58] INFO root fetch - processPackages [tencentcloud-dlc-jupyter]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-dlc-jupyter-1.0.0b0.tar.gz]
+[2023-07-06 11:26:58] INFO root fetch - processPackages [tencentcloud-dlc-jupyter]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-dlc-jupyter-1.1.0.tar.gz]
+[2023-07-06 11:26:58] INFO root fetch - main [MainThread]: End processing [tencentcloud-dlc-jupyter]: success
+[2023-07-06 11:26:59] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.7-py3-none-any.whl.zip]
+[2023-07-06 11:26:59] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.9-py3-none-any.whl.zip]
+[2023-07-06 11:26:59] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
+[2023-07-06 11:27:01] INFO root fetch - processPackages [shared-atomic-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/shared_atomic_enterprise-5!2.3.5-py39-none-win_amd64.whl.zip]
+[2023-07-06 11:27:01] INFO root fetch - processPackages [shared-atomic-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/shared_atomic_enterprise-5!2.3.6-py39-none-win_amd64.whl.zip]
+[2023-07-06 11:27:01] INFO root fetch - main [MainThread]: End processing [shared-atomic-enterprise]: success
+[2023-07-06 11:27:01] INFO root fetch - main [MainThread]: Store serial: [18780962]
