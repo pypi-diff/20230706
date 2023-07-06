@@ -14738,3 +14738,150 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-06 09:47:39] INFO root fetch - processPackages [ibm-watson-machine-learning]: Remove: archive file [/home/abi/fetcher/tmp/ibm_watson_machine_learning-1.0.99.tar.gz]
 [2023-07-06 09:47:39] INFO root fetch - main [MainThread]: End processing [ibm-watson-machine-learning]: success
 [2023-07-06 09:47:39] INFO root fetch - main [MainThread]: Store serial: [18779682]
+[2023-07-06 09:52:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18779682]
+[2023-07-06 09:52:48] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-06 09:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keras-nightly
+[2023-07-06 09:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gradio-orz
+[2023-07-06 09:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: audio-stats
+[2023-07-06 09:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: few-shot-priming
+[2023-07-06 09:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-chalk-it
+[2023-07-06 09:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: beamngpy
+[2023-07-06 09:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: microcat
+[2023-07-06 09:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: macrometa-target-oracle
+[2023-07-06 09:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: itk-ultrasound
+[2023-07-06 09:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: SELDOMpy
+[2023-07-06 09:52:48] INFO root fetch - processPackages [microcat]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-06 09:52:48] INFO root fetch - processPackages [macrometa-target-oracle]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-06 09:52:48] INFO root fetch - processPackages [py-chalk-it]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-06 09:52:48] INFO root fetch - processPackages [SELDOMpy]: New version: [0.8.4.1] Old Version: [0.8.3.19]
+[2023-07-06 09:52:48] INFO root fetch - processPackages [gradio-orz]: New version: [3.35.3] Old Version: [3.35.2]
+[2023-07-06 09:52:48] INFO root fetch - processPackages [beamngpy]: New version: [1.9.1] Old Version: [1.9]
+[2023-07-06 09:52:48] INFO root fetch - processPackages [audio-stats]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-07-06 09:52:48] INFO root fetch - processPackages [itk-ultrasound]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-06 09:52:48] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-07-06 09:52:48] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-07-06 09:52:48] INFO root fetch - processPackages [microcat]: Downloading https://files.pythonhosted.org/packages/24/74/daf5f8cbb9fdad46635bd8caad7643979098b14530a54a50b74393fe03c9/microcat-0.1.7.tar.gz
+[2023-07-06 09:52:48] INFO root fetch - processPackages [macrometa-target-oracle]: Downloading https://files.pythonhosted.org/packages/d0/fa/f3e98ecb8c52abfa2184c3310fa0eff394725be522671d31c5a3c27a2589/macrometa-target-oracle-0.0.5.tar.gz
+[2023-07-06 09:52:48] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-07-06 09:52:48] INFO root fetch - processPackages [py-chalk-it]: Downloading https://files.pythonhosted.org/packages/05/bf/deb259d9145eca25b9ddbcd63e5c6c2e9e709932d81eb570034e3a851f56/py-chalk-it-0.3.1.tar.gz
+[2023-07-06 09:52:48] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/9c/ac/df626672be5af4204ef9c477f1110050afecb7a0f086fef8a6a2e3469a56/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl
+[2023-07-06 09:52:48] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/be/1e/cab90cc2748f23f4ed747026caeddac868ad2a1c6c687818cbbf030b89d5/SELDOMpy-0.8.3.19.tar.gz
+[2023-07-06 09:52:48] INFO root fetch - processPackages [audio-stats]: Downloading https://files.pythonhosted.org/packages/8a/19/2b3fa4421603a61ce2a44cb839776fbf92f3a7d5c76b8db8e24c6ebb1f76/audio-stats-0.0.1.tar.gz
+[2023-07-06 09:52:48] INFO root fetch - processPackages [itk-ultrasound]: Downloading https://files.pythonhosted.org/packages/65/08/6de3a73107c4ff4fb18e727ee84893fbd1b64cbf5cbcf9d0ab9252e106b0/itk_ultrasound-0.6.1-cp39-cp39-win_amd64.whl
+[2023-07-06 09:52:48] INFO root fetch - processPackages [gradio-orz]: Downloading https://files.pythonhosted.org/packages/cf/75/9b31ec912f0e046da601589342717a17677c8756dc25e1e9e0d862e0bf6b/gradio_orz-3.35.2.tar.gz
+[2023-07-06 09:52:49] INFO root fetch - processPackages [beamngpy]: Downloading https://files.pythonhosted.org/packages/41/53/86188ad2707120db33cb674d6ee3183eb030c286ad09ba0376d336a58a66/beamngpy-1.9.tar.gz
+[2023-07-06 09:52:49] WARNING root fetch - processPackages [py-chalk-it]: Skipping package: exceeds size limit 33405522>=10485760
+[2023-07-06 09:52:49] INFO root fetch - processPackages [py-chalk-it]: Start processing: coconut-develop
+[2023-07-06 09:52:49] INFO root fetch - main [MainThread]: End processing [py-chalk-it] error
+[2023-07-06 09:52:49] WARNING root fetch - processPackages [beamngpy]: Skipping package: exceeds size limit 13802392>=10485760
+[2023-07-06 09:52:49] INFO root fetch - processPackages [beamngpy]: Start processing: zope.principalregistry
+[2023-07-06 09:52:49] INFO root fetch - main [MainThread]: End processing [beamngpy] error
+[2023-07-06 09:52:49] INFO root fetch - processPackages [zope.principalregistry]: New version: [5.0] Old Version: [4.3]
+[2023-07-06 09:52:49] INFO root fetch - processPackages [macrometa-target-oracle]: Downloading https://files.pythonhosted.org/packages/f4/02/842e87f8e7f78b8d4cba1a20f11af091b207cba9e6097367fecf79c7ddd9/macrometa-target-oracle-0.0.6.tar.gz
+[2023-07-06 09:52:49] INFO root fetch - processPackages [coconut-develop]: New version: [3.0.2.post0.dev9] Old Version: [3.0.2.post0.dev8]
+[2023-07-06 09:52:49] WARNING root fetch - processPackages [gradio-orz]: Skipping package: exceeds size limit 10905516>=10485760
+[2023-07-06 09:52:49] INFO root fetch - processPackages [gradio-orz]: Start processing: tf-nightly-cpu
+[2023-07-06 09:52:49] INFO root fetch - main [MainThread]: End processing [gradio-orz] error
+[2023-07-06 09:52:49] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-07-06 09:52:49] INFO root fetch - processPackages [microcat]: Downloading https://files.pythonhosted.org/packages/f5/37/770d01daf60f837efd62d4ad121fe0b3ac6935821eb9cb1efded7808d0e8/microcat-0.1.8.tar.gz
+[2023-07-06 09:52:49] INFO root fetch - processPackages [audio-stats]: Downloading https://files.pythonhosted.org/packages/91/9d/5437995a1cc6b0ef706558e726854022f6ee16341c88890fdfe6b1d64506/audio-stats-0.0.3.tar.gz
+[2023-07-06 09:52:49] INFO root fetch - processPackages [macrometa-target-oracle]: executing diffoscope
+[2023-07-06 09:52:49] INFO root fetch - processPackages [macrometa-target-oracle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-oracle-0.0.5.tar.gz tmp/macrometa-target-oracle-0.0.6.tar.gz --markdown 20230706/m/macrometa-target-oracle/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-06 09:52:49] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230706] Old Version: [2.14.0.dev20230705]
+[2023-07-06 09:52:49] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/e8/be/e2fb536be9fec69cb13a7ac08f154518e15a478e463d4e6908db64d4a017/SELDOMpy-0.8.4.1.tar.gz
+[2023-07-06 09:52:49] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-07-06 09:52:49] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230706/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-07-06 09:52:49] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/76/ba/83f4a7e45967086c125a6525e086526f469362e3a1327a44f8df15d67400/coconut-develop-3.0.2.post0.dev8.tar.gz
+[2023-07-06 09:52:49] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/64/5c/effcf86e94e42de7429f684d499233617aaa054e929986d65d4d72fb5c19/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl
+[2023-07-06 09:52:49] INFO root fetch - processPackages [zope.principalregistry]: Downloading https://files.pythonhosted.org/packages/3b/3b/21ca45a8a22abc7f35c68b7ed1fd60da40608829bc3956f5d7fc884be5f0/zope.principalregistry-4.3.tar.gz
+[2023-07-06 09:52:49] INFO root fetch - processPackages [microcat]: executing diffoscope
+[2023-07-06 09:52:49] INFO root fetch - processPackages [microcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microcat-0.1.7.tar.gz tmp/microcat-0.1.8.tar.gz --markdown 20230706/m/microcat/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-06 09:52:49] INFO root fetch - processPackages [audio-stats]: executing diffoscope
+[2023-07-06 09:52:49] INFO root fetch - processPackages [audio-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audio-stats-0.0.1.tar.gz tmp/audio-stats-0.0.3.tar.gz --markdown 20230706/a/audio-stats/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-07-06 09:52:49] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/fe/c9/3769deef2ac53d2e1a249f0427493d98c3f5e4622f4609e3396d18f3c6c4/tf_nightly_cpu-2.14.0.dev20230705-cp39-cp39-win_amd64.whl
+[2023-07-06 09:52:49] INFO root fetch - processPackages [SELDOMpy]: executing diffoscope
+[2023-07-06 09:52:49] INFO root fetch - processPackages [SELDOMpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SELDOMpy-0.8.3.19.tar.gz tmp/SELDOMpy-0.8.4.1.tar.gz --markdown 20230706/S/SELDOMpy/0.8.3.19-0.8.4.1/diff.md --exclude *.pyd
+[2023-07-06 09:52:49] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-07-06 09:52:49] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230706/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-07-06 09:52:49] INFO root fetch - processPackages [zope.principalregistry]: Downloading https://files.pythonhosted.org/packages/2f/b9/ea9c92bc00cb0f39a3ddbaa4e96773f227371d8ea571e9d68b3826cddb49/zope.principalregistry-5.0.tar.gz
+[2023-07-06 09:52:50] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/d7/8d/949a59bb813ee853bbb1d03d15a3f5a3de89562602ada8e1a9cca581a8d5/coconut-develop-3.0.2.post0.dev9.tar.gz
+[2023-07-06 09:52:50] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/45/3e/3f77b9eeee94d488853ba641c28415308e224a10cc5e19d10bf85d8ca490/tf_nightly_cpu-2.14.0.dev20230706-cp39-cp39-win_amd64.whl
+[2023-07-06 09:52:50] INFO root fetch - processPackages [zope.principalregistry]: executing diffoscope
+[2023-07-06 09:52:50] INFO root fetch - processPackages [zope.principalregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zope.principalregistry-4.3.tar.gz tmp/zope.principalregistry-5.0.tar.gz --markdown 20230706/z/zope.principalregistry/4.3-5.0/diff.md --exclude *.pyd
+[2023-07-06 09:52:50] INFO root fetch - processPackages [coconut-develop]: executing diffoscope
+[2023-07-06 09:52:50] INFO root fetch - processPackages [coconut-develop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coconut-develop-3.0.2.post0.dev8.tar.gz tmp/coconut-develop-3.0.2.post0.dev9.tar.gz --markdown 20230706/c/coconut-develop/3.0.2.post0.dev8-3.0.2.post0.dev9/diff.md --exclude *.pyd
+[2023-07-06 09:52:50] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-07-06 09:52:50] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230705-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230706-cp39-cp39-win_amd64.whl.zip --markdown 20230706/t/tf-nightly-cpu/2.14.0.dev20230705-2.14.0.dev20230706/diff.md --exclude *.pyd
+[2023-07-06 09:52:50] INFO root fetch - processPackages [macrometa-target-oracle]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-oracle-0.0.5.tar.gz]
+[2023-07-06 09:52:50] INFO root fetch - processPackages [macrometa-target-oracle]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-oracle-0.0.6.tar.gz]
+[2023-07-06 09:52:50] INFO root fetch - processPackages [macrometa-target-oracle]: Start processing: EasyDeL
+[2023-07-06 09:52:50] INFO root fetch - main [MainThread]: End processing [macrometa-target-oracle]: success
+[2023-07-06 09:52:50] INFO root fetch - processPackages [EasyDeL]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 09:52:50] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-07-06 09:52:50] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-07-06 09:52:50] INFO root fetch - processPackages [few-shot-priming]: Start processing: assisted-service-client
+[2023-07-06 09:52:50] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-07-06 09:52:50] INFO root fetch - processPackages [EasyDeL]: Downloading https://files.pythonhosted.org/packages/0b/01/765632e4f48f400658c26b4a653df55e20dc326b64fd0991020f7fb5c16b/EasyDeL-0.0.8.tar.gz
+[2023-07-06 09:52:50] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-07-06 09:52:50] INFO root fetch - processPackages [audio-stats]: Remove: archive file [/home/abi/fetcher/tmp/audio-stats-0.0.1.tar.gz]
+[2023-07-06 09:52:50] INFO root fetch - processPackages [audio-stats]: Remove: archive file [/home/abi/fetcher/tmp/audio-stats-0.0.3.tar.gz]
+[2023-07-06 09:52:50] INFO root fetch - processPackages [audio-stats]: Start processing: verse-core
+[2023-07-06 09:52:50] INFO root fetch - main [MainThread]: End processing [audio-stats]: success
+[2023-07-06 09:52:50] INFO root fetch - processPackages [verse-core]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 09:52:50] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2023-07-06 09:52:50] INFO root fetch - processPackages [verse-core]: Downloading https://files.pythonhosted.org/packages/87/58/fe0990bb53f33fbb33f83b2e9e6ffab9bf709efdc65ccdb77ea1ec83d4d4/verse-core-0.0.8.tar.gz
+[2023-07-06 09:52:51] INFO root fetch - processPackages [microcat]: Remove: archive file [/home/abi/fetcher/tmp/microcat-0.1.7.tar.gz]
+[2023-07-06 09:52:51] INFO root fetch - processPackages [microcat]: Remove: archive file [/home/abi/fetcher/tmp/microcat-0.1.8.tar.gz]
+[2023-07-06 09:52:51] INFO root fetch - processPackages [microcat]: Start processing: archivebox-likn
+[2023-07-06 09:52:51] INFO root fetch - main [MainThread]: End processing [microcat]: success
+[2023-07-06 09:52:51] INFO root fetch - processPackages [EasyDeL]: Downloading https://files.pythonhosted.org/packages/8a/e3/914fc5ccc4d98c608c3f2bac8f8e325f940afda206011c7e1425cf00d471/EasyDeL-0.0.9.tar.gz
+[2023-07-06 09:52:51] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2023-07-06 09:52:51] INFO root fetch - processPackages [archivebox-likn]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-06 09:52:51] INFO root fetch - processPackages [verse-core]: Downloading https://files.pythonhosted.org/packages/7d/78/6941139614540bdd1b28a38eaa3d582bb418254917805cd425aae3304e76/verse-core-0.0.9.tar.gz
+[2023-07-06 09:52:51] INFO root fetch - processPackages [EasyDeL]: executing diffoscope
+[2023-07-06 09:52:51] INFO root fetch - processPackages [EasyDeL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EasyDeL-0.0.8.tar.gz tmp/EasyDeL-0.0.9.tar.gz --markdown 20230706/E/EasyDeL/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 09:52:51] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-07-06 09:52:51] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230706/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-07-06 09:52:51] INFO root fetch - processPackages [verse-core]: executing diffoscope
+[2023-07-06 09:52:51] INFO root fetch - processPackages [verse-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/verse-core-0.0.8.tar.gz tmp/verse-core-0.0.9.tar.gz --markdown 20230706/v/verse-core/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 09:52:51] INFO root fetch - processPackages [archivebox-likn]: Downloading https://files.pythonhosted.org/packages/a3/6f/7ab18aec0f4c6891ae241e3fc5777465ee77e5a7586bf809ce881a1fd5dd/archivebox_likn-0.6.2.tar.gz
+[2023-07-06 09:52:51] INFO root fetch - processPackages [zope.principalregistry]: Remove: archive file [/home/abi/fetcher/tmp/zope.principalregistry-4.3.tar.gz]
+[2023-07-06 09:52:51] INFO root fetch - processPackages [zope.principalregistry]: Remove: archive file [/home/abi/fetcher/tmp/zope.principalregistry-5.0.tar.gz]
+[2023-07-06 09:52:51] INFO root fetch - processPackages [zope.principalregistry]: Start processing: moonwiki
+[2023-07-06 09:52:51] INFO root fetch - main [MainThread]: End processing [zope.principalregistry]: success
+[2023-07-06 09:52:51] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.8.3.19.tar.gz]
+[2023-07-06 09:52:51] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.8.4.1.tar.gz]
+[2023-07-06 09:52:51] INFO root fetch - main [MainThread]: End processing [SELDOMpy]: success
+[2023-07-06 09:52:51] INFO root fetch - processPackages [itk-ultrasound]: Downloading https://files.pythonhosted.org/packages/16/b1/6c266eb5cb6163fb91459a46f24b35008ea42751c279e752d25edce22eac/itk_ultrasound-0.6.2-cp39-cp39-win_amd64.whl
+[2023-07-06 09:52:51] WARNING root fetch - processPackages [moonwiki]: Skipping, unable to determine old version
+[2023-07-06 09:52:51] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230705-cp39-cp39-win_amd64.whl.zip]
+[2023-07-06 09:52:51] INFO root fetch - main [MainThread]: End processing [moonwiki] error
+[2023-07-06 09:52:51] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230706-cp39-cp39-win_amd64.whl.zip]
+[2023-07-06 09:52:51] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-07-06 09:52:51] INFO root fetch - processPackages [archivebox-likn]: Downloading https://files.pythonhosted.org/packages/e3/d8/55da9b755b12a61551d78317daaab55ac13df0dd6f0a1639e9b8f71fdd61/archivebox_likn-0.6.3.tar.gz
+[2023-07-06 09:52:52] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.2.post0.dev8.tar.gz]
+[2023-07-06 09:52:52] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.2.post0.dev9.tar.gz]
+[2023-07-06 09:52:52] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
+[2023-07-06 09:52:52] INFO root fetch - processPackages [archivebox-likn]: executing diffoscope
+[2023-07-06 09:52:52] INFO root fetch - processPackages [archivebox-likn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archivebox_likn-0.6.2.tar.gz tmp/archivebox_likn-0.6.3.tar.gz --markdown 20230706/a/archivebox-likn/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-06 09:52:52] INFO root fetch - processPackages [verse-core]: Remove: archive file [/home/abi/fetcher/tmp/verse-core-0.0.8.tar.gz]
+[2023-07-06 09:52:52] INFO root fetch - processPackages [verse-core]: Remove: archive file [/home/abi/fetcher/tmp/verse-core-0.0.9.tar.gz]
+[2023-07-06 09:52:52] INFO root fetch - main [MainThread]: End processing [verse-core]: success
+[2023-07-06 09:52:52] INFO root fetch - processPackages [EasyDeL]: Remove: archive file [/home/abi/fetcher/tmp/EasyDeL-0.0.8.tar.gz]
+[2023-07-06 09:52:52] INFO root fetch - processPackages [EasyDeL]: Remove: archive file [/home/abi/fetcher/tmp/EasyDeL-0.0.9.tar.gz]
+[2023-07-06 09:52:52] INFO root fetch - main [MainThread]: End processing [EasyDeL]: success
+[2023-07-06 09:52:53] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2023-07-06 09:52:53] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2023-07-06 09:52:53] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-07-06 09:52:53] INFO root fetch - processPackages [itk-ultrasound]: executing diffoscope
+[2023-07-06 09:52:53] INFO root fetch - processPackages [itk-ultrasound]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itk_ultrasound-0.6.1-cp39-cp39-win_amd64.whl.zip tmp/itk_ultrasound-0.6.2-cp39-cp39-win_amd64.whl.zip --markdown 20230706/i/itk-ultrasound/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-06 09:52:54] INFO root fetch - processPackages [archivebox-likn]: Remove: archive file [/home/abi/fetcher/tmp/archivebox_likn-0.6.2.tar.gz]
+[2023-07-06 09:52:54] INFO root fetch - processPackages [archivebox-likn]: Remove: archive file [/home/abi/fetcher/tmp/archivebox_likn-0.6.3.tar.gz]
+[2023-07-06 09:52:54] INFO root fetch - main [MainThread]: End processing [archivebox-likn]: success
+[2023-07-06 09:52:54] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip]
+[2023-07-06 09:52:54] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
+[2023-07-06 09:52:54] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-07-06 09:52:56] INFO root fetch - processPackages [itk-ultrasound]: Remove: archive file [/home/abi/fetcher/tmp/itk_ultrasound-0.6.1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-06 09:52:56] INFO root fetch - processPackages [itk-ultrasound]: Remove: archive file [/home/abi/fetcher/tmp/itk_ultrasound-0.6.2-cp39-cp39-win_amd64.whl.zip]
+[2023-07-06 09:52:56] INFO root fetch - main [MainThread]: End processing [itk-ultrasound]: success
+[2023-07-06 09:52:56] INFO root fetch - main [MainThread]: Store serial: [18779757]
