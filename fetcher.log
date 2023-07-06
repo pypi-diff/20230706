@@ -14691,3 +14691,50 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-06 09:42:24] INFO root fetch - processPackages [pynmeagps]: Remove: archive file [/home/abi/fetcher/tmp/pynmeagps-1.0.9.tar.gz]
 [2023-07-06 09:42:24] INFO root fetch - main [MainThread]: End processing [pynmeagps]: success
 [2023-07-06 09:42:24] INFO root fetch - main [MainThread]: Store serial: [18779661]
+[2023-07-06 09:47:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18779661]
+[2023-07-06 09:47:33] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-06 09:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ibm-watson-machine-learning
+[2023-07-06 09:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: verse-core
+[2023-07-06 09:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: QssStyle
+[2023-07-06 09:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: limberer
+[2023-07-06 09:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: AlgorithmLib
+[2023-07-06 09:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: omnivoreql
+[2023-07-06 09:47:33] WARNING root fetch - processPackages [QssStyle]: Skipping, unable to determine old version
+[2023-07-06 09:47:33] INFO root fetch - main [MainThread]: End processing [QssStyle] error
+[2023-07-06 09:47:33] INFO root fetch - processPackages [omnivoreql]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-06 09:47:33] INFO root fetch - processPackages [AlgorithmLib]: New version: [3.9.9] Old Version: [3.9.8]
+[2023-07-06 09:47:33] INFO root fetch - processPackages [verse-core]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 09:47:33] INFO root fetch - processPackages [limberer]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-06 09:47:33] INFO root fetch - processPackages [ibm-watson-machine-learning]: New version: [1.0.99] Old Version: [1.0.96]
+[2023-07-06 09:47:33] INFO root fetch - processPackages [limberer]: Downloading https://files.pythonhosted.org/packages/1f/4d/a84a20e1a36238919e40bc4c99982a9b34906da2bd1551510d2a1807df4b/limberer-0.3.2.tar.gz
+[2023-07-06 09:47:33] INFO root fetch - processPackages [AlgorithmLib]: Downloading https://files.pythonhosted.org/packages/78/f1/2fbac4aa9ef115eda50059c81431330d595bbf744e9ac898466afc3a85ee/AlgorithmLib-3.9.8.tar.gz
+[2023-07-06 09:47:33] INFO root fetch - processPackages [omnivoreql]: Downloading https://files.pythonhosted.org/packages/e7/51/509eb5bdab09e144d2d69c69a021cbb7cc732d8e0b78530b772a895965f2/omnivoreql-0.1.3.tar.gz
+[2023-07-06 09:47:33] WARNING root fetch - processPackages [AlgorithmLib]: Skipping package: exceeds size limit 14952675>=10485760
+[2023-07-06 09:47:33] INFO root fetch - main [MainThread]: End processing [AlgorithmLib] error
+[2023-07-06 09:47:33] INFO root fetch - processPackages [verse-core]: Downloading https://files.pythonhosted.org/packages/87/58/fe0990bb53f33fbb33f83b2e9e6ffab9bf709efdc65ccdb77ea1ec83d4d4/verse-core-0.0.8.tar.gz
+[2023-07-06 09:47:33] INFO root fetch - processPackages [ibm-watson-machine-learning]: Downloading https://files.pythonhosted.org/packages/58/40/a775ffda5d16f4fbab37ee9184852d0b9f96e7d7b19db541f8a51082509e/ibm_watson_machine_learning-1.0.96.tar.gz
+[2023-07-06 09:47:33] INFO root fetch - processPackages [omnivoreql]: Downloading https://files.pythonhosted.org/packages/96/f5/23222f254c447998d4256ad3c513991145c31ed2ec29e3f1084a2caa8f1a/omnivoreql-0.1.4.tar.gz
+[2023-07-06 09:47:33] INFO root fetch - processPackages [limberer]: Downloading https://files.pythonhosted.org/packages/c1/11/138cb716bde678d069e9c7756156d9bab810d3e5b359cadd4b6c9eafbd21/limberer-0.3.3.tar.gz
+[2023-07-06 09:47:34] INFO root fetch - processPackages [verse-core]: Downloading https://files.pythonhosted.org/packages/7d/78/6941139614540bdd1b28a38eaa3d582bb418254917805cd425aae3304e76/verse-core-0.0.9.tar.gz
+[2023-07-06 09:47:34] INFO root fetch - processPackages [omnivoreql]: executing diffoscope
+[2023-07-06 09:47:34] INFO root fetch - processPackages [omnivoreql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnivoreql-0.1.3.tar.gz tmp/omnivoreql-0.1.4.tar.gz --markdown 20230706/o/omnivoreql/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-06 09:47:34] INFO root fetch - processPackages [verse-core]: executing diffoscope
+[2023-07-06 09:47:34] INFO root fetch - processPackages [verse-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/verse-core-0.0.8.tar.gz tmp/verse-core-0.0.9.tar.gz --markdown 20230706/v/verse-core/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 09:47:34] INFO root fetch - processPackages [limberer]: executing diffoscope
+[2023-07-06 09:47:34] INFO root fetch - processPackages [limberer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/limberer-0.3.2.tar.gz tmp/limberer-0.3.3.tar.gz --markdown 20230706/l/limberer/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-06 09:47:34] INFO root fetch - processPackages [ibm-watson-machine-learning]: Downloading https://files.pythonhosted.org/packages/48/45/3f32e9a705a7e6bf8b19591a86cc7099b54ca88fcf8660798dff04d4e6c2/ibm_watson_machine_learning-1.0.99.tar.gz
+[2023-07-06 09:47:34] INFO root fetch - processPackages [ibm-watson-machine-learning]: executing diffoscope
+[2023-07-06 09:47:34] INFO root fetch - processPackages [ibm-watson-machine-learning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibm_watson_machine_learning-1.0.96.tar.gz tmp/ibm_watson_machine_learning-1.0.99.tar.gz --markdown 20230706/i/ibm-watson-machine-learning/1.0.96-1.0.99/diff.md --exclude *.pyd
+[2023-07-06 09:47:34] INFO root fetch - processPackages [omnivoreql]: Remove: archive file [/home/abi/fetcher/tmp/omnivoreql-0.1.3.tar.gz]
+[2023-07-06 09:47:34] INFO root fetch - processPackages [omnivoreql]: Remove: archive file [/home/abi/fetcher/tmp/omnivoreql-0.1.4.tar.gz]
+[2023-07-06 09:47:34] INFO root fetch - main [MainThread]: End processing [omnivoreql]: success
+[2023-07-06 09:47:35] INFO root fetch - processPackages [verse-core]: Remove: archive file [/home/abi/fetcher/tmp/verse-core-0.0.8.tar.gz]
+[2023-07-06 09:47:35] INFO root fetch - processPackages [verse-core]: Remove: archive file [/home/abi/fetcher/tmp/verse-core-0.0.9.tar.gz]
+[2023-07-06 09:47:35] INFO root fetch - main [MainThread]: End processing [verse-core]: success
+[2023-07-06 09:47:35] INFO root fetch - processPackages [limberer]: Remove: archive file [/home/abi/fetcher/tmp/limberer-0.3.2.tar.gz]
+[2023-07-06 09:47:35] INFO root fetch - processPackages [limberer]: Remove: archive file [/home/abi/fetcher/tmp/limberer-0.3.3.tar.gz]
+[2023-07-06 09:47:35] INFO root fetch - main [MainThread]: End processing [limberer]: success
+[2023-07-06 09:47:39] INFO root fetch - processPackages [ibm-watson-machine-learning]: Remove: archive file [/home/abi/fetcher/tmp/ibm_watson_machine_learning-1.0.96.tar.gz]
+[2023-07-06 09:47:39] INFO root fetch - processPackages [ibm-watson-machine-learning]: Remove: archive file [/home/abi/fetcher/tmp/ibm_watson_machine_learning-1.0.99.tar.gz]
+[2023-07-06 09:47:39] INFO root fetch - main [MainThread]: End processing [ibm-watson-machine-learning]: success
+[2023-07-06 09:47:39] INFO root fetch - main [MainThread]: Store serial: [18779682]
