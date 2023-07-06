@@ -1738,3 +1738,72 @@
 [2023-07-06 02:02:11] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
 [2023-07-06 02:02:11] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-07-06 02:02:11] INFO root fetch - main [MainThread]: Store serial: [18774488]
+[2023-07-06 02:07:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18774488]
+[2023-07-06 02:07:19] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-06 02:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: retake
+[2023-07-06 02:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chima
+[2023-07-06 02:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arviz-base
+[2023-07-06 02:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchdatasets-nightly
+[2023-07-06 02:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mct-nightly
+[2023-07-06 02:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jaxkern-nightly
+[2023-07-06 02:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ml-starter
+[2023-07-06 02:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jaxutils-nightly
+[2023-07-06 02:07:20] INFO root fetch - processPackages [ml-starter]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-06 02:07:20] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230705] Old Version: [0.0.8.dev20230704]
+[2023-07-06 02:07:20] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1688515458] Old Version: [1688429034]
+[2023-07-06 02:07:20] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-07-06 02:07:20] INFO root fetch - processPackages [mct-nightly]: New version: [1.9.0.20230705.post427] Old Version: [1.9.0.20230704.post446]
+[2023-07-06 02:07:20] INFO root fetch - processPackages [chima]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 02:07:20] WARNING root fetch - processPackages [arviz-base]: Skipping, unable to determine old version
+[2023-07-06 02:07:20] INFO root fetch - main [MainThread]: End processing [arviz-base] error
+[2023-07-06 02:07:20] INFO root fetch - processPackages [retake]: New version: [0.1.5.dev0] Old Version: [0.1.4.dev0]
+[2023-07-06 02:07:20] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-07-06 02:07:20] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/f1/6e/ab5edbd173735efb035421e439282ab35dea267430a8049f476e1d08ff16/ml-starter-0.1.8.tar.gz
+[2023-07-06 02:07:20] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/fc/28/59f4f0c26e11e6de6f4ece13a2daf01e4b06d2019ce3a883d389054fa806/jaxutils-nightly-0.0.8.dev20230704.tar.gz
+[2023-07-06 02:07:20] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/9f/48/e4f2bf7e845c1f141ac61396164ff3a553217203fffcffb00de1e776111f/torchdatasets-nightly-1688429034.tar.gz
+[2023-07-06 02:07:20] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/48/d9/2d710ff07bf8b4281dfc7f076a0071f206c358906fe0ff7c674208da98a1/mct-nightly-1.9.0.20230704.post446.tar.gz
+[2023-07-06 02:07:20] INFO root fetch - processPackages [chima]: Downloading https://files.pythonhosted.org/packages/9a/3d/11b770dc58d2b75c58442deb2971499f66c8a510b4b49baaddd1752beb81/chima-0.0.8.tar.gz
+[2023-07-06 02:07:20] INFO root fetch - processPackages [retake]: Downloading https://files.pythonhosted.org/packages/44/aa/b4255e569f950a9a6ff57954614e938600524ef6e7a0c6e8cee2b52dd62a/retake-0.1.4.dev0.tar.gz
+[2023-07-06 02:07:20] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-07-06 02:07:20] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/44/9f/ffb6ae287f30a52a4bcc5aae269e948d3ffcd9bd7ab6aafda6ce73f567c8/ml-starter-0.1.9.tar.gz
+[2023-07-06 02:07:20] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-07-06 02:07:20] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230706/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-07-06 02:07:20] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/5b/0c/1e5fb17fa770e0fc556e3aace2a772428689e044aba0b7f888b3a2d20552/jaxutils-nightly-0.0.8.dev20230705.tar.gz
+[2023-07-06 02:07:20] INFO root fetch - processPackages [ml-starter]: executing diffoscope
+[2023-07-06 02:07:20] INFO root fetch - processPackages [ml-starter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-starter-0.1.8.tar.gz tmp/ml-starter-0.1.9.tar.gz --markdown 20230706/m/ml-starter/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-06 02:07:20] INFO root fetch - processPackages [chima]: Downloading https://files.pythonhosted.org/packages/76/50/145f581fdbaac6a541c615987d5bdf818f3aa19de5578423cd52b460e3dd/chima-0.0.9.tar.gz
+[2023-07-06 02:07:20] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/d9/2c/2dbcf2165ddf40019e426d5eed9855c750a90185b4bdd4b13df9b6c6e3fe/torchdatasets-nightly-1688515458.tar.gz
+[2023-07-06 02:07:20] INFO root fetch - processPackages [retake]: Downloading https://files.pythonhosted.org/packages/47/41/b27785b633ef484568b883fb075f46b6cf60c7e6ccebeacc6a4c7c432218/retake-0.1.5.dev0.tar.gz
+[2023-07-06 02:07:20] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/23/78/dcacd80927f9036c5c3401cf4ba9e63f9718099101bc57770a2722de4940/mct-nightly-1.9.0.20230705.post427.tar.gz
+[2023-07-06 02:07:21] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-07-06 02:07:21] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230704.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230705.tar.gz --markdown 20230706/j/jaxutils-nightly/0.0.8.dev20230704-0.0.8.dev20230705/diff.md --exclude *.pyd
+[2023-07-06 02:07:21] INFO root fetch - processPackages [chima]: executing diffoscope
+[2023-07-06 02:07:21] INFO root fetch - processPackages [chima]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chima-0.0.8.tar.gz tmp/chima-0.0.9.tar.gz --markdown 20230706/c/chima/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 02:07:21] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-07-06 02:07:21] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1688429034.tar.gz tmp/torchdatasets-nightly-1688515458.tar.gz --markdown 20230706/t/torchdatasets-nightly/1688429034-1688515458/diff.md --exclude *.pyd
+[2023-07-06 02:07:21] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-07-06 02:07:21] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.9.0.20230704.post446.tar.gz tmp/mct-nightly-1.9.0.20230705.post427.tar.gz --markdown 20230706/m/mct-nightly/1.9.0.20230704.post446-1.9.0.20230705.post427/diff.md --exclude *.pyd
+[2023-07-06 02:07:21] INFO root fetch - processPackages [retake]: executing diffoscope
+[2023-07-06 02:07:21] INFO root fetch - processPackages [retake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retake-0.1.4.dev0.tar.gz tmp/retake-0.1.5.dev0.tar.gz --markdown 20230706/r/retake/0.1.4.dev0-0.1.5.dev0/diff.md --exclude *.pyd
+[2023-07-06 02:07:21] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2023-07-06 02:07:21] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2023-07-06 02:07:21] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-07-06 02:07:22] INFO root fetch - processPackages [chima]: Remove: archive file [/home/abi/fetcher/tmp/chima-0.0.8.tar.gz]
+[2023-07-06 02:07:22] INFO root fetch - processPackages [chima]: Remove: archive file [/home/abi/fetcher/tmp/chima-0.0.9.tar.gz]
+[2023-07-06 02:07:22] INFO root fetch - main [MainThread]: End processing [chima]: success
+[2023-07-06 02:07:22] INFO root fetch - processPackages [retake]: Remove: archive file [/home/abi/fetcher/tmp/retake-0.1.4.dev0.tar.gz]
+[2023-07-06 02:07:22] INFO root fetch - processPackages [retake]: Remove: archive file [/home/abi/fetcher/tmp/retake-0.1.5.dev0.tar.gz]
+[2023-07-06 02:07:22] INFO root fetch - main [MainThread]: End processing [retake]: success
+[2023-07-06 02:07:22] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230704.tar.gz]
+[2023-07-06 02:07:22] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230705.tar.gz]
+[2023-07-06 02:07:22] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-07-06 02:07:22] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1688429034.tar.gz]
+[2023-07-06 02:07:22] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1688515458.tar.gz]
+[2023-07-06 02:07:22] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-07-06 02:07:22] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.8.tar.gz]
+[2023-07-06 02:07:22] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.9.tar.gz]
+[2023-07-06 02:07:22] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
+[2023-07-06 02:07:24] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230704.post446.tar.gz]
+[2023-07-06 02:07:24] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230705.post427.tar.gz]
+[2023-07-06 02:07:24] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-07-06 02:07:24] INFO root fetch - main [MainThread]: Store serial: [18774515]
