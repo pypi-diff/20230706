@@ -4959,3 +4959,68 @@ AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
 [2023-07-06 02:51:16] INFO root fetch - processPackages [Geode-Common]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Common-26.1.2rc3-cp39-cp39-win_amd64.whl.zip]
 [2023-07-06 02:51:16] INFO root fetch - main [MainThread]: End processing [Geode-Common]: success
 [2023-07-06 02:51:16] INFO root fetch - main [MainThread]: Store serial: [18775601]
+[2023-07-06 02:56:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18775601]
+[2023-07-06 02:56:30] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-06 02:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eesunhong
+[2023-07-06 02:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: codedapertures
+[2023-07-06 02:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ovos-tts-plugin-piper
+[2023-07-06 02:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zlx7.6
+[2023-07-06 02:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zny
+[2023-07-06 02:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pycde
+[2023-07-06 02:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ovos-tts-plugin-piper
+[2023-07-06 02:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lbj
+[2023-07-06 02:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-comprehend-s3olap
+[2023-07-06 02:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: picogo
+[2023-07-06 02:56:30] INFO root fetch - processPackages [picogo]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 02:56:30] INFO root fetch - processPackages [pycde]: New version: [0.2.1.dev9] Old Version: [0.2.1.dev881]
+[2023-07-06 02:56:30] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-06 02:56:30] INFO root fetch - processPackages [picogo]: Downloading https://files.pythonhosted.org/packages/e0/c6/77373684ea1f516996aac52ca016925d0213e38509750abc53603201b2ca/picogo-0.0.8.tar.gz
+[2023-07-06 02:56:30] INFO root fetch - processPackages [eesunhong]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-06 02:56:30] INFO root fetch - processPackages [codedapertures]: New version: [0.1.1] Old Version: [0.1]
+[2023-07-06 02:56:30] INFO root fetch - processPackages [ovos-tts-plugin-piper]: New version: [0.0.1a6] Old Version: [0.0.1a5]
+[2023-07-06 02:56:30] INFO root fetch - processPackages [ovos-tts-plugin-piper]: New version: [0.0.1a6] Old Version: [0.0.1a5]
+[2023-07-06 02:56:30] WARNING root fetch - processPackages [zlx7.6]: Skipping, unable to determine old version
+[2023-07-06 02:56:30] INFO root fetch - main [MainThread]: End processing [zlx7.6] error
+[2023-07-06 02:56:30] WARNING root fetch - processPackages [zny]: Skipping, unable to determine old version
+[2023-07-06 02:56:30] INFO root fetch - main [MainThread]: End processing [zny] error
+[2023-07-06 02:56:30] WARNING root fetch - processPackages [lbj]: Skipping, unable to determine old version
+[2023-07-06 02:56:30] INFO root fetch - main [MainThread]: End processing [lbj] error
+[2023-07-06 02:56:30] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-07-06 02:56:30] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/a4/35/a69f9dbc57988959ce57d9afc4f33441b5c9a9a25926a36aecf0e72aecd3/pycde-0.2.1.dev881-cp39-cp39-win_amd64.whl
+[2023-07-06 02:56:30] INFO root fetch - processPackages [ovos-tts-plugin-piper]: Downloading https://files.pythonhosted.org/packages/72/dd/ce2f8853aea619ab54fb80434103d2b80c0ae531375448a148275ebd5884/ovos_tts_plugin_piper-0.0.1a5-py3-none-any.whl
+[2023-07-06 02:56:30] INFO root fetch - processPackages [ovos-tts-plugin-piper]: Downloading https://files.pythonhosted.org/packages/72/dd/ce2f8853aea619ab54fb80434103d2b80c0ae531375448a148275ebd5884/ovos_tts_plugin_piper-0.0.1a5-py3-none-any.whl
+[2023-07-06 02:56:30] INFO root fetch - processPackages [eesunhong]: Downloading https://files.pythonhosted.org/packages/ac/7d/da98aad2939799521c395a4687bbe049501c056ead74226f474b735561cb/eesunhong-0.1.0.tar.gz
+[2023-07-06 02:56:30] INFO root fetch - processPackages [codedapertures]: Downloading https://files.pythonhosted.org/packages/14/7f/7e3417ae2e8f9b63b9b246aee72d4eac29a6505e4078cf1863f5ea94b7af/codedapertures-0.1.tar.gz
+[2023-07-06 02:56:31] INFO root fetch - processPackages [picogo]: Downloading https://files.pythonhosted.org/packages/8e/0e/15b62bee1afe22a0f2411879a5c23ffe6e8cdfc8228a677dc7ce8e6bcfef/picogo-0.0.9.tar.gz
+[2023-07-06 02:56:31] WARNING root fetch - processPackages [eesunhong]: Skipping package: exceeds size limit 13787874>=10485760
+[2023-07-06 02:56:31] INFO root fetch - main [MainThread]: End processing [eesunhong] error
+[2023-07-06 02:56:31] INFO root fetch - processPackages [picogo]: executing diffoscope
+[2023-07-06 02:56:31] INFO root fetch - processPackages [picogo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picogo-0.0.8.tar.gz tmp/picogo-0.0.9.tar.gz --markdown 20230706/p/picogo/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 02:56:31] INFO root fetch - processPackages [ovos-tts-plugin-piper]: Downloading https://files.pythonhosted.org/packages/e7/e8/8ba8d7aada7e3dd56ad5e8a7b83664329dc8da178764ff251298d25aea4c/ovos_tts_plugin_piper-0.0.1a6-py3-none-any.whl
+[2023-07-06 02:56:31] INFO root fetch - processPackages [ovos-tts-plugin-piper]: Downloading https://files.pythonhosted.org/packages/e7/e8/8ba8d7aada7e3dd56ad5e8a7b83664329dc8da178764ff251298d25aea4c/ovos_tts_plugin_piper-0.0.1a6-py3-none-any.whl
+[2023-07-06 02:56:31] INFO root fetch - processPackages [codedapertures]: Downloading https://files.pythonhosted.org/packages/df/17/94c6f885e7503f73eba34c73725d02351f640d57dcf76151bd97827d193d/codedapertures-0.1.1.tar.gz
+[2023-07-06 02:56:31] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-07-06 02:56:31] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-07-06 02:56:31] INFO root fetch - processPackages [ovos-tts-plugin-piper]: executing diffoscope
+[2023-07-06 02:56:31] INFO root fetch - processPackages [ovos-tts-plugin-piper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_tts_plugin_piper-0.0.1a5-py3-none-any.whl.zip tmp/ovos_tts_plugin_piper-0.0.1a6-py3-none-any.whl.zip --markdown 20230706/o/ovos-tts-plugin-piper/0.0.1a5-0.0.1a6/diff.md --exclude *.pyd
+[2023-07-06 02:56:31] INFO root fetch - processPackages [ovos-tts-plugin-piper]: executing diffoscope
+[2023-07-06 02:56:31] INFO root fetch - processPackages [ovos-tts-plugin-piper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_tts_plugin_piper-0.0.1a5-py3-none-any.whl.zip tmp/ovos_tts_plugin_piper-0.0.1a6-py3-none-any.whl.zip --markdown 20230706/o/ovos-tts-plugin-piper/0.0.1a5-0.0.1a6/diff.md --exclude *.pyd
+[2023-07-06 02:56:31] INFO root fetch - processPackages [codedapertures]: executing diffoscope
+[2023-07-06 02:56:31] INFO root fetch - processPackages [codedapertures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codedapertures-0.1.tar.gz tmp/codedapertures-0.1.1.tar.gz --markdown 20230706/c/codedapertures/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-07-06 02:56:32] INFO root fetch - processPackages [picogo]: Remove: archive file [/home/abi/fetcher/tmp/picogo-0.0.8.tar.gz]
+[2023-07-06 02:56:32] INFO root fetch - processPackages [picogo]: Remove: archive file [/home/abi/fetcher/tmp/picogo-0.0.9.tar.gz]
+[2023-07-06 02:56:32] INFO root fetch - main [MainThread]: End processing [picogo]: success
+[2023-07-06 02:56:32] INFO root fetch - processPackages [codedapertures]: Remove: archive file [/home/abi/fetcher/tmp/codedapertures-0.1.tar.gz]
+[2023-07-06 02:56:32] INFO root fetch - processPackages [codedapertures]: Remove: archive file [/home/abi/fetcher/tmp/codedapertures-0.1.1.tar.gz]
+[2023-07-06 02:56:32] INFO root fetch - main [MainThread]: End processing [codedapertures]: success
+[2023-07-06 02:56:32] INFO root fetch - processPackages [ovos-tts-plugin-piper]: Remove: archive file [/home/abi/fetcher/tmp/ovos_tts_plugin_piper-0.0.1a5-py3-none-any.whl.zip]
+[2023-07-06 02:56:32] INFO root fetch - processPackages [ovos-tts-plugin-piper]: Remove: archive file [/home/abi/fetcher/tmp/ovos_tts_plugin_piper-0.0.1a6-py3-none-any.whl.zip]
+[2023-07-06 02:56:32] INFO root fetch - main [MainThread]: End processing [ovos-tts-plugin-piper]: success
+[2023-07-06 02:56:32] INFO root fetch - main [MainThread]: End processing [ovos-tts-plugin-piper]: success
+[2023-07-06 02:56:32] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/02/67/a0802e854af7f826dd695e46eb4ae1d0ab14c4a75671d50c34a7eb8074a8/pycde-0.2.1.dev9-cp39-cp39-win_amd64.whl
+[2023-07-06 02:56:34] INFO root fetch - processPackages [pycde]: executing diffoscope
+[2023-07-06 02:56:34] INFO root fetch - processPackages [pycde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycde-0.2.1.dev881-cp39-cp39-win_amd64.whl.zip tmp/pycde-0.2.1.dev9-cp39-cp39-win_amd64.whl.zip --markdown 20230706/p/pycde/0.2.1.dev881-0.2.1.dev9/diff.md --exclude *.pyd
+[2023-07-06 02:56:57] INFO root fetch - processPackages [pycde]: Remove: archive file [/home/abi/fetcher/tmp/pycde-0.2.1.dev881-cp39-cp39-win_amd64.whl.zip]
+[2023-07-06 02:56:57] INFO root fetch - processPackages [pycde]: Remove: archive file [/home/abi/fetcher/tmp/pycde-0.2.1.dev9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-06 02:56:57] INFO root fetch - main [MainThread]: End processing [pycde]: success
+[2023-07-06 02:56:57] INFO root fetch - main [MainThread]: Store serial: [18775683]
