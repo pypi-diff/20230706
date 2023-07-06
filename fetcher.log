@@ -12705,3 +12705,42 @@ AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
 [2023-07-06 07:43:53] INFO root fetch - processPackages [mofmt]: Remove: archive file [/home/abi/fetcher/tmp/mofmt-0.2.1-py3-none-any.whl.zip]
 [2023-07-06 07:43:53] INFO root fetch - main [MainThread]: End processing [mofmt]: success
 [2023-07-06 07:43:53] INFO root fetch - main [MainThread]: Store serial: [18778770]
+[2023-07-06 07:48:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18778770]
+[2023-07-06 07:49:02] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-06 07:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shared-atomic-enterprise
+[2023-07-06 07:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: breidablik
+[2023-07-06 07:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bagbag
+[2023-07-06 07:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RITMO
+[2023-07-06 07:49:02] INFO root fetch - processPackages [breidablik]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-06 07:49:03] INFO root fetch - processPackages [RITMO]: New version: [1.6.0] Old Version: [1.5.3]
+[2023-07-06 07:49:03] INFO root fetch - processPackages [bagbag]: New version: [0.60.9] Old Version: [0.60.8]
+[2023-07-06 07:49:03] INFO root fetch - processPackages [shared-atomic-enterprise]: New version: [5!2.3.6] Old Version: [5!2.3.5]
+[2023-07-06 07:49:03] INFO root fetch - processPackages [breidablik]: Downloading https://files.pythonhosted.org/packages/cf/52/78c602d25fbc82049b2b4742774bccdfdbb4c3d127f7f817434f8cc4bdbe/breidablik-1.1.0.tar.gz
+[2023-07-06 07:49:03] INFO root fetch - processPackages [RITMO]: Downloading https://files.pythonhosted.org/packages/e7/9d/8be3cb3afbc99ec49346518ad55397770e8b32a4a694a9263a12b1fda7da/RITMO-1.5.3.tar.gz
+[2023-07-06 07:49:03] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/9c/d9/18fcc3667854a152644716d257d55e30c5845485e0c8c0086d1449f5fca5/bagbag-0.60.8.tar.gz
+[2023-07-06 07:49:03] INFO root fetch - processPackages [shared-atomic-enterprise]: Downloading https://files.pythonhosted.org/packages/18/19/5169d4149e8c2a4ec4524f09fa1342f87736dc4a34ddddc3cde3eaff49a0/shared_atomic_enterprise-5!2.3.5-py39-none-win_amd64.whl
+[2023-07-06 07:49:03] INFO root fetch - processPackages [breidablik]: Downloading https://files.pythonhosted.org/packages/5d/8d/c376eb9132b4b30e72b5a6c322dfa80261a5c88922b88934c3e8ba8d2c90/breidablik-1.2.0.tar.gz
+[2023-07-06 07:49:03] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/c5/51/7ae0a1a526da702787345e0082bd8b3269a7b0c64300d0b309a215fbe724/bagbag-0.60.9.tar.gz
+[2023-07-06 07:49:03] INFO root fetch - processPackages [RITMO]: Downloading https://files.pythonhosted.org/packages/c1/3d/c9c263f2f7358fc98226bbf2fb07798ecc9b5fc2553a5b70c3e7bf8c3437/RITMO-1.6.0.tar.gz
+[2023-07-06 07:49:03] INFO root fetch - processPackages [breidablik]: executing diffoscope
+[2023-07-06 07:49:03] INFO root fetch - processPackages [breidablik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/breidablik-1.1.0.tar.gz tmp/breidablik-1.2.0.tar.gz --markdown 20230706/b/breidablik/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-06 07:49:03] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-07-06 07:49:03] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.60.8.tar.gz tmp/bagbag-0.60.9.tar.gz --markdown 20230706/b/bagbag/0.60.8-0.60.9/diff.md --exclude *.pyd
+[2023-07-06 07:49:03] INFO root fetch - processPackages [RITMO]: executing diffoscope
+[2023-07-06 07:49:03] INFO root fetch - processPackages [RITMO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RITMO-1.5.3.tar.gz tmp/RITMO-1.6.0.tar.gz --markdown 20230706/R/RITMO/1.5.3-1.6.0/diff.md --exclude *.pyd
+[2023-07-06 07:49:04] INFO root fetch - processPackages [shared-atomic-enterprise]: Downloading https://files.pythonhosted.org/packages/b8/82/ab5e52b1eb51a88e49693141b09cfece0fcbe631b3b900f08cad836b3ccd/shared_atomic_enterprise-5!2.3.6-py39-none-win_amd64.whl
+[2023-07-06 07:49:04] INFO root fetch - processPackages [shared-atomic-enterprise]: executing diffoscope
+[2023-07-06 07:49:04] INFO root fetch - processPackages [shared-atomic-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shared_atomic_enterprise-5!2.3.5-py39-none-win_amd64.whl.zip tmp/shared_atomic_enterprise-5!2.3.6-py39-none-win_amd64.whl.zip --markdown 20230706/s/shared-atomic-enterprise/5!2.3.5-5!2.3.6/diff.md --exclude *.pyd
+[2023-07-06 07:49:04] INFO root fetch - processPackages [RITMO]: Remove: archive file [/home/abi/fetcher/tmp/RITMO-1.5.3.tar.gz]
+[2023-07-06 07:49:04] INFO root fetch - processPackages [RITMO]: Remove: archive file [/home/abi/fetcher/tmp/RITMO-1.6.0.tar.gz]
+[2023-07-06 07:49:04] INFO root fetch - main [MainThread]: End processing [RITMO]: success
+[2023-07-06 07:49:04] INFO root fetch - processPackages [breidablik]: Remove: archive file [/home/abi/fetcher/tmp/breidablik-1.1.0.tar.gz]
+[2023-07-06 07:49:04] INFO root fetch - processPackages [breidablik]: Remove: archive file [/home/abi/fetcher/tmp/breidablik-1.2.0.tar.gz]
+[2023-07-06 07:49:04] INFO root fetch - main [MainThread]: End processing [breidablik]: success
+[2023-07-06 07:49:05] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.8.tar.gz]
+[2023-07-06 07:49:05] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.9.tar.gz]
+[2023-07-06 07:49:05] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-07-06 07:49:10] INFO root fetch - processPackages [shared-atomic-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/shared_atomic_enterprise-5!2.3.5-py39-none-win_amd64.whl.zip]
+[2023-07-06 07:49:10] INFO root fetch - processPackages [shared-atomic-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/shared_atomic_enterprise-5!2.3.6-py39-none-win_amd64.whl.zip]
+[2023-07-06 07:49:10] INFO root fetch - main [MainThread]: End processing [shared-atomic-enterprise]: success
+[2023-07-06 07:49:10] INFO root fetch - main [MainThread]: Store serial: [18778785]
