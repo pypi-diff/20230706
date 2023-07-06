@@ -13047,3 +13047,121 @@ AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
 [2023-07-06 08:10:04] INFO root fetch - processPackages [gravitorch]: Remove: archive file [/home/abi/fetcher/tmp/gravitorch-0.0.9.tar.gz]
 [2023-07-06 08:10:04] INFO root fetch - main [MainThread]: End processing [gravitorch]: success
 [2023-07-06 08:10:04] INFO root fetch - main [MainThread]: Store serial: [18778890]
+[2023-07-06 08:15:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18778890]
+[2023-07-06 08:15:13] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-06 08:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pizazz
+[2023-07-06 08:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lollms
+[2023-07-06 08:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zope.error
+[2023-07-06 08:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ansys-templates
+[2023-07-06 08:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yplib
+[2023-07-06 08:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: weaviate-client
+[2023-07-06 08:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyg-nightly
+[2023-07-06 08:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: RITMO
+[2023-07-06 08:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: miniagent
+[2023-07-06 08:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pycompall
+[2023-07-06 08:15:13] INFO root fetch - processPackages [lollms]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-06 08:15:13] INFO root fetch - processPackages [pycompall]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-06 08:15:13] INFO root fetch - processPackages [ansys-templates]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-06 08:15:13] INFO root fetch - processPackages [pizazz]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-07-06 08:15:13] INFO root fetch - processPackages [RITMO]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-07-06 08:15:13] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230705] Old Version: [2.4.0.dev20230704]
+[2023-07-06 08:15:13] INFO root fetch - processPackages [miniagent]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 08:15:13] INFO root fetch - processPackages [zope.error]: New version: [5.0] Old Version: [4.6]
+[2023-07-06 08:15:13] INFO root fetch - processPackages [weaviate-client]: New version: [3.9.0b0] Old Version: [3.9.0.dev2]
+[2023-07-06 08:15:13] INFO root fetch - processPackages [yplib]: New version: [2.2.8] Old Version: [2.2.7]
+[2023-07-06 08:15:13] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/55/8e/c10a453677812ff66a65c459737c99f6b99cc00da8cc2e27f3a1f924faa0/lollms-2.1.8.tar.gz
+[2023-07-06 08:15:13] INFO root fetch - processPackages [RITMO]: Downloading https://files.pythonhosted.org/packages/c1/3d/c9c263f2f7358fc98226bbf2fb07798ecc9b5fc2553a5b70c3e7bf8c3437/RITMO-1.6.0.tar.gz
+[2023-07-06 08:15:13] INFO root fetch - processPackages [ansys-templates]: Downloading https://files.pythonhosted.org/packages/6f/32/e848ccaf1e760efb8cb92b32c6f0a5ef75258aaa9a25a6e70766d11a1e06/ansys_templates-1.0.0.tar.gz
+[2023-07-06 08:15:13] INFO root fetch - processPackages [miniagent]: Downloading https://files.pythonhosted.org/packages/61/fe/ddee9f7a8915f85ae86d21e121b9930e76846662b7905185edc01f253eaa/miniagent-0.0.8-py3-none-any.whl
+[2023-07-06 08:15:13] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/04/c2/8fc2fd48666a619e91c03f6de342faa35c49f6950804c70eacbf07f64fea/pyg_nightly-2.4.0.dev20230704.tar.gz
+[2023-07-06 08:15:13] INFO root fetch - processPackages [pycompall]: Downloading https://files.pythonhosted.org/packages/0f/66/f5e928de05391b7897039945e5fbc94a9f403f790fac725c2d45d35869c2/pycompall-0.0.3.tar.gz
+[2023-07-06 08:15:13] INFO root fetch - processPackages [pizazz]: Downloading https://files.pythonhosted.org/packages/9c/53/83053ea6cba1f9ace624a9573bb959c3ac8af3eb57b10f6aa6f27b6905cd/pizazz-1.3.1.tar.gz
+[2023-07-06 08:15:13] INFO root fetch - processPackages [zope.error]: Downloading https://files.pythonhosted.org/packages/a6/9f/db6cca8fc50c9e34e9fab148ec3d2b0c5b0a8b659d3f26531fcf8a3d7003/zope.error-4.6.tar.gz
+[2023-07-06 08:15:13] INFO root fetch - processPackages [weaviate-client]: Downloading https://files.pythonhosted.org/packages/a8/cb/8ca3061906481a9a6997baefa6ecc800dcaed0f08e1c84c55c609182fe2b/weaviate-client-3.9.0.dev2.tar.gz
+[2023-07-06 08:15:13] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/b5/fa/904bc3044df01bbdb46e94fc6a9123b4560b5290c9dc7af5839d47a17ef2/yplib-2.2.7.tar.gz
+[2023-07-06 08:15:14] INFO root fetch - processPackages [miniagent]: Downloading https://files.pythonhosted.org/packages/92/e5/684583b07fce6c155c48f3ef92f5aade89cf5a39088f833b45de3c073fdf/miniagent-0.0.9-py3-none-any.whl
+[2023-07-06 08:15:14] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/6a/83/7745db4a743155e7a857ec418630027696e10e7fb67dfd6805a2496bdb64/lollms-2.1.9.tar.gz
+[2023-07-06 08:15:14] INFO root fetch - processPackages [RITMO]: Downloading https://files.pythonhosted.org/packages/a9/1c/af57c7ca3a335c78662f8b89d2fa596aa3b56055ec5bcba5fb209dff3545/RITMO-1.6.1.tar.gz
+[2023-07-06 08:15:14] INFO root fetch - processPackages [pycompall]: Downloading https://files.pythonhosted.org/packages/19/7b/fd9ad36d46f1085975aa402d09f264d0d26cdc48421df77c1857eb6ed6f7/pycompall-0.0.4.tar.gz
+[2023-07-06 08:15:14] INFO root fetch - processPackages [miniagent]: executing diffoscope
+[2023-07-06 08:15:14] INFO root fetch - processPackages [miniagent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniagent-0.0.8-py3-none-any.whl.zip tmp/miniagent-0.0.9-py3-none-any.whl.zip --markdown 20230706/m/miniagent/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 08:15:14] INFO root fetch - processPackages [ansys-templates]: Downloading https://files.pythonhosted.org/packages/22/be/d614e64d9eee1a6715ad8e6565c5adfbc2ca4e6d112a6699a061b1dcc605/ansys_templates-1.0.1.tar.gz
+[2023-07-06 08:15:14] INFO root fetch - processPackages [pizazz]: Downloading https://files.pythonhosted.org/packages/6e/0d/28105baf03ee635e3bbcb22f41c001018c85aecc87f3a1a965be16908339/pizazz-1.3.2.tar.gz
+[2023-07-06 08:15:14] INFO root fetch - processPackages [zope.error]: Downloading https://files.pythonhosted.org/packages/2f/4b/6947a0fd1a86181e8314f81103aa09b0e0ed1a101d1efdecc707198ea9c8/zope.error-5.0.tar.gz
+[2023-07-06 08:15:14] INFO root fetch - processPackages [RITMO]: executing diffoscope
+[2023-07-06 08:15:14] INFO root fetch - processPackages [RITMO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RITMO-1.6.0.tar.gz tmp/RITMO-1.6.1.tar.gz --markdown 20230706/R/RITMO/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-07-06 08:15:14] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/09/fa/99bc59c3038eea4f6f0638048da6dbf7902c9ee5e372a0fd9be2e22dc46b/yplib-2.2.8.tar.gz
+[2023-07-06 08:15:14] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/ef/77/94622f9577a05b4640c272adff4dd811c298403ddea301af4ec243fb464c/pyg_nightly-2.4.0.dev20230705.tar.gz
+[2023-07-06 08:15:14] INFO root fetch - processPackages [weaviate-client]: Downloading https://files.pythonhosted.org/packages/10/6b/0e242b95dd9ee12ed89f4af97e7bd0c82317c708e5a1de27406f7832d4e2/weaviate-client-3.9.0b0.tar.gz
+[2023-07-06 08:15:14] INFO root fetch - processPackages [pycompall]: executing diffoscope
+[2023-07-06 08:15:14] INFO root fetch - processPackages [pycompall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycompall-0.0.3.tar.gz tmp/pycompall-0.0.4.tar.gz --markdown 20230706/p/pycompall/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-06 08:15:14] INFO root fetch - processPackages [lollms]: executing diffoscope
+[2023-07-06 08:15:14] INFO root fetch - processPackages [lollms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lollms-2.1.8.tar.gz tmp/lollms-2.1.9.tar.gz --markdown 20230706/l/lollms/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-06 08:15:14] INFO root fetch - processPackages [pizazz]: executing diffoscope
+[2023-07-06 08:15:14] INFO root fetch - processPackages [pizazz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pizazz-1.3.1.tar.gz tmp/pizazz-1.3.2.tar.gz --markdown 20230706/p/pizazz/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-07-06 08:15:14] INFO root fetch - processPackages [zope.error]: executing diffoscope
+[2023-07-06 08:15:14] INFO root fetch - processPackages [zope.error]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zope.error-4.6.tar.gz tmp/zope.error-5.0.tar.gz --markdown 20230706/z/zope.error/4.6-5.0/diff.md --exclude *.pyd
+[2023-07-06 08:15:14] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-07-06 08:15:14] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-2.2.7.tar.gz tmp/yplib-2.2.8.tar.gz --markdown 20230706/y/yplib/2.2.7-2.2.8/diff.md --exclude *.pyd
+[2023-07-06 08:15:14] INFO root fetch - processPackages [weaviate-client]: executing diffoscope
+[2023-07-06 08:15:14] INFO root fetch - processPackages [weaviate-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weaviate-client-3.9.0.dev2.tar.gz tmp/weaviate-client-3.9.0b0.tar.gz --markdown 20230706/w/weaviate-client/3.9.0.dev2-3.9.0b0/diff.md --exclude *.pyd
+[2023-07-06 08:15:14] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-07-06 08:15:14] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230704.tar.gz tmp/pyg_nightly-2.4.0.dev20230705.tar.gz --markdown 20230706/p/pyg-nightly/2.4.0.dev20230704-2.4.0.dev20230705/diff.md --exclude *.pyd
+[2023-07-06 08:15:15] INFO root fetch - processPackages [ansys-templates]: executing diffoscope
+[2023-07-06 08:15:15] INFO root fetch - processPackages [ansys-templates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_templates-1.0.0.tar.gz tmp/ansys_templates-1.0.1.tar.gz --markdown 20230706/a/ansys-templates/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-06 08:15:15] INFO root fetch - processPackages [RITMO]: Remove: archive file [/home/abi/fetcher/tmp/RITMO-1.6.0.tar.gz]
+[2023-07-06 08:15:15] INFO root fetch - processPackages [RITMO]: Remove: archive file [/home/abi/fetcher/tmp/RITMO-1.6.1.tar.gz]
+[2023-07-06 08:15:15] INFO root fetch - processPackages [RITMO]: Start processing: lollms
+[2023-07-06 08:15:15] INFO root fetch - main [MainThread]: End processing [RITMO]: success
+[2023-07-06 08:15:15] INFO root fetch - processPackages [miniagent]: Remove: archive file [/home/abi/fetcher/tmp/miniagent-0.0.8-py3-none-any.whl.zip]
+[2023-07-06 08:15:15] INFO root fetch - processPackages [miniagent]: Remove: archive file [/home/abi/fetcher/tmp/miniagent-0.0.9-py3-none-any.whl.zip]
+[2023-07-06 08:15:15] INFO root fetch - processPackages [miniagent]: Start processing: phpf
+[2023-07-06 08:15:15] INFO root fetch - main [MainThread]: End processing [miniagent]: success
+[2023-07-06 08:15:15] INFO root fetch - processPackages [lollms]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-06 08:15:15] INFO root fetch - processPackages [pycompall]: Remove: archive file [/home/abi/fetcher/tmp/pycompall-0.0.3.tar.gz]
+[2023-07-06 08:15:15] INFO root fetch - processPackages [pycompall]: Remove: archive file [/home/abi/fetcher/tmp/pycompall-0.0.4.tar.gz]
+[2023-07-06 08:15:16] INFO root fetch - processPackages [pycompall]: Start processing: phpf
+[2023-07-06 08:15:16] INFO root fetch - main [MainThread]: End processing [pycompall]: success
+[2023-07-06 08:15:16] INFO root fetch - processPackages [phpf]: New version: [7.6.604] Old Version: [5.27.858]
+[2023-07-06 08:15:16] INFO root fetch - processPackages [phpf]: New version: [7.6.604] Old Version: [5.27.858]
+[2023-07-06 08:15:16] INFO root fetch - processPackages [lollms]: executing diffoscope
+[2023-07-06 08:15:16] INFO root fetch - processPackages [lollms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lollms-2.1.8.tar.gz tmp/lollms-2.1.9.tar.gz --markdown 20230706/l/lollms/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-06 08:15:16] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.1.8.tar.gz]
+[2023-07-06 08:15:16] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.1.9.tar.gz]
+[2023-07-06 08:15:16] INFO root fetch - main [MainThread]: End processing [lollms]: success
+[2023-07-06 08:15:16] INFO root fetch - processPackages [pizazz]: Remove: archive file [/home/abi/fetcher/tmp/pizazz-1.3.1.tar.gz]
+[2023-07-06 08:15:16] INFO root fetch - processPackages [pizazz]: Remove: archive file [/home/abi/fetcher/tmp/pizazz-1.3.2.tar.gz]
+[2023-07-06 08:15:16] INFO root fetch - main [MainThread]: End processing [pizazz]: success
+[2023-07-06 08:15:16] INFO root fetch - processPackages [zope.error]: Remove: archive file [/home/abi/fetcher/tmp/zope.error-4.6.tar.gz]
+[2023-07-06 08:15:16] INFO root fetch - processPackages [zope.error]: Remove: archive file [/home/abi/fetcher/tmp/zope.error-5.0.tar.gz]
+[2023-07-06 08:15:16] INFO root fetch - main [MainThread]: End processing [zope.error]: success
+[2023-07-06 08:15:16] INFO root fetch - processPackages [phpf]: Downloading https://files.pythonhosted.org/packages/0b/99/eb10172f406a10892c93cf2c42425585612e08e9f7a9838e4498ca444559/phpf-5.27.858.tar.gz
+[2023-07-06 08:15:16] INFO root fetch - processPackages [phpf]: Downloading https://files.pythonhosted.org/packages/0b/99/eb10172f406a10892c93cf2c42425585612e08e9f7a9838e4498ca444559/phpf-5.27.858.tar.gz
+[2023-07-06 08:15:16] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.2.7.tar.gz]
+[2023-07-06 08:15:16] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.2.8.tar.gz]
+[2023-07-06 08:15:16] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-07-06 08:15:16] INFO root fetch - processPackages [weaviate-client]: Remove: archive file [/home/abi/fetcher/tmp/weaviate-client-3.9.0.dev2.tar.gz]
+[2023-07-06 08:15:16] INFO root fetch - processPackages [weaviate-client]: Remove: archive file [/home/abi/fetcher/tmp/weaviate-client-3.9.0b0.tar.gz]
+[2023-07-06 08:15:16] INFO root fetch - main [MainThread]: End processing [weaviate-client]: success
+[2023-07-06 08:15:16] INFO root fetch - processPackages [phpf]: Downloading https://files.pythonhosted.org/packages/90/bf/8ecc10a95082af3432599aef39a12d0d0b7df3993e84a9869277fe2bdf62/phpf-7.6.604.tar.gz
+[2023-07-06 08:15:16] INFO root fetch - processPackages [phpf]: Downloading https://files.pythonhosted.org/packages/90/bf/8ecc10a95082af3432599aef39a12d0d0b7df3993e84a9869277fe2bdf62/phpf-7.6.604.tar.gz
+[2023-07-06 08:15:16] ERROR root fetch - processPackages [lollms]: Diffoscope failed: time="2023-07-06T08:15:16+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/lollms-2.1.8.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/lollms-2.1.9.tar.gz: No such file or directory
+
+[2023-07-06 08:15:16] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-07-06 08:15:16] INFO root fetch - processPackages [phpf]: executing diffoscope
+[2023-07-06 08:15:16] INFO root fetch - processPackages [phpf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phpf-5.27.858.tar.gz tmp/phpf-7.6.604.tar.gz --markdown 20230706/p/phpf/5.27.858-7.6.604/diff.md --exclude *.pyd
+[2023-07-06 08:15:16] INFO root fetch - processPackages [phpf]: executing diffoscope
+[2023-07-06 08:15:16] INFO root fetch - processPackages [phpf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phpf-5.27.858.tar.gz tmp/phpf-7.6.604.tar.gz --markdown 20230706/p/phpf/5.27.858-7.6.604/diff.md --exclude *.pyd
+[2023-07-06 08:15:17] INFO root fetch - processPackages [ansys-templates]: Remove: archive file [/home/abi/fetcher/tmp/ansys_templates-1.0.0.tar.gz]
+[2023-07-06 08:15:17] INFO root fetch - processPackages [ansys-templates]: Remove: archive file [/home/abi/fetcher/tmp/ansys_templates-1.0.1.tar.gz]
+[2023-07-06 08:15:17] INFO root fetch - main [MainThread]: End processing [ansys-templates]: success
+[2023-07-06 08:15:17] INFO root fetch - processPackages [phpf]: Remove: archive file [/home/abi/fetcher/tmp/phpf-5.27.858.tar.gz]
+[2023-07-06 08:15:17] INFO root fetch - processPackages [phpf]: Remove: archive file [/home/abi/fetcher/tmp/phpf-7.6.604.tar.gz]
+[2023-07-06 08:15:17] INFO root fetch - main [MainThread]: End processing [phpf]: success
+[2023-07-06 08:15:18] INFO root fetch - main [MainThread]: End processing [phpf]: success
+[2023-07-06 08:15:18] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230704.tar.gz]
+[2023-07-06 08:15:18] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230705.tar.gz]
+[2023-07-06 08:15:18] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-07-06 08:15:18] INFO root fetch - main [MainThread]: Store serial: [18778926]
