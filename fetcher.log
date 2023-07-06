@@ -16242,3 +16242,119 @@ AssertionError: tmp/SELDOMpy-0.8.4.2.tar.gz does not exist
 [2023-07-06 10:49:32] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2023-07-06 10:49:32] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-07-06 10:49:32] INFO root fetch - main [MainThread]: Store serial: [18780468]
+[2023-07-06 10:54:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18780468]
+[2023-07-06 10:54:40] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-06 10:54:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deeplc
+[2023-07-06 10:54:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: packg
+[2023-07-06 10:54:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fc-client
+[2023-07-06 10:54:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fc-client-docker
+[2023-07-06 10:54:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fc-guarder
+[2023-07-06 10:54:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yplib
+[2023-07-06 10:54:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vbcore
+[2023-07-06 10:54:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fc-server
+[2023-07-06 10:54:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: reytool
+[2023-07-06 10:54:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qontract-reconcile
+[2023-07-06 10:54:41] INFO root fetch - processPackages [deeplc]: New version: [2.2.4] Old Version: [2.2.3]
+[2023-07-06 10:54:41] INFO root fetch - processPackages [fc-server]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-06 10:54:41] INFO root fetch - processPackages [vbcore]: New version: [2.2.0rc2] Old Version: [2.2.0rc1]
+[2023-07-06 10:54:41] INFO root fetch - processPackages [fc-guarder]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-06 10:54:41] INFO root fetch - processPackages [packg]: New version: [0.2.18] Old Version: [0.2.16]
+[2023-07-06 10:54:41] INFO root fetch - processPackages [fc-client]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-06 10:54:41] INFO root fetch - processPackages [fc-client-docker]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-06 10:54:41] INFO root fetch - processPackages [yplib]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-07-06 10:54:41] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-07-06 10:54:41] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-07-06 10:54:41] INFO root fetch - processPackages [fc-server]: Downloading https://files.pythonhosted.org/packages/78/95/59cce621553e5404cb779950af513300fae0a02d4823d7d1f30d81407a7e/fc-server-0.6.1.tar.gz
+[2023-07-06 10:54:41] INFO root fetch - processPackages [fc-guarder]: Downloading https://files.pythonhosted.org/packages/9c/8a/169e76a789557eef5567bc9be485e3b8ff7c3a8f307d6385acae0be22098/fc-guarder-0.6.1.tar.gz
+[2023-07-06 10:54:41] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/26/e9/a5501753b6203d7c479e6ce88a7aa01ae4c14ee601bb8cbf6cda03cba1cf/yplib-2.3.0.tar.gz
+[2023-07-06 10:54:41] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f7/1b/12dc89a309309c9361d59a38462b453a322b261239fade997e196d798838/reytool-0.98-py3-none-any.whl
+[2023-07-06 10:54:41] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-07-06 10:54:41] INFO root fetch - processPackages [deeplc]: Downloading https://files.pythonhosted.org/packages/c3/24/b4b060cca74a0c5ddfbeff4e5fcb94f17380dbc863652ab471157ee51728/deeplc-2.2.3.tar.gz
+[2023-07-06 10:54:41] INFO root fetch - processPackages [fc-client-docker]: Downloading https://files.pythonhosted.org/packages/6a/6d/30b64746daa1823b5adf4843a0c89bb3f50d738c6968cc2058c3c9b4da88/fc-client-docker-0.6.1.tar.gz
+[2023-07-06 10:54:41] INFO root fetch - processPackages [fc-client]: Downloading https://files.pythonhosted.org/packages/52/97/8187f1847a16b91959c135daa7a6cd03a2335c5969d3a588d82a52fbc213/fc-client-0.6.1.tar.gz
+[2023-07-06 10:54:41] INFO root fetch - processPackages [packg]: Downloading https://files.pythonhosted.org/packages/10/0d/e44691b814b09ae851f83e2371da36aca20d632fbc59846b3b5a884431d7/packg-0.2.16.tar.gz
+[2023-07-06 10:54:41] INFO root fetch - processPackages [vbcore]: Downloading https://files.pythonhosted.org/packages/74/0b/58ff54b5ca8e3a67afe43e24f7fffe51d02eaf8eaee330a27a5793c870d0/vbcore-2.2.0rc1.tar.gz
+[2023-07-06 10:54:41] WARNING root fetch - processPackages [deeplc]: Skipping package: exceeds size limit 32146641>=10485760
+[2023-07-06 10:54:41] INFO root fetch - processPackages [deeplc]: Start processing: symbolicai
+[2023-07-06 10:54:41] INFO root fetch - main [MainThread]: End processing [deeplc] error
+[2023-07-06 10:54:41] INFO root fetch - processPackages [symbolicai]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-07-06 10:54:41] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f3/55/5da881836b0a141d1b9cfbb9118f95b0a7873ba578976b4a1a7cf3718b49/reytool-0.99-py3-none-any.whl
+[2023-07-06 10:54:41] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-07-06 10:54:41] INFO root fetch - processPackages [fc-guarder]: Downloading https://files.pythonhosted.org/packages/fa/77/ed91a753076394fc2afdd3ac4bb790855cf06544e4e49252bd7d5c607b07/fc-guarder-0.6.2.tar.gz
+[2023-07-06 10:54:41] INFO root fetch - processPackages [fc-client-docker]: Downloading https://files.pythonhosted.org/packages/3d/38/19903ba0b0d365eeb28e7f26b02a99014ea99df9f947e3155f2b7a1de727/fc-client-docker-0.6.2.tar.gz
+[2023-07-06 10:54:41] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/9e/0f/dfae993154d86260bf0a6539255856334cd6be6719bab2af6dd2cd5039b9/yplib-2.3.1.tar.gz
+[2023-07-06 10:54:41] INFO root fetch - processPackages [fc-server]: Downloading https://files.pythonhosted.org/packages/29/3e/a365b207ad75a14dd93a516638f8578e1bbb10ccee8f8a4a68aeb8567689/fc-server-0.6.2.tar.gz
+[2023-07-06 10:54:42] INFO root fetch - processPackages [symbolicai]: Downloading https://files.pythonhosted.org/packages/59/14/798e49c20397acd30771571396d3eda6fd597a03aa173eaff2f7291228e3/symbolicai-0.2.7-py3-none-any.whl
+[2023-07-06 10:54:42] INFO root fetch - processPackages [fc-client]: Downloading https://files.pythonhosted.org/packages/90/d7/ccdb337442a6f96644e2041311171e804a2ffb08bf487b8d03a0d00d9592/fc-client-0.6.2.tar.gz
+[2023-07-06 10:54:42] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-07-06 10:54:42] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230706/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-07-06 10:54:42] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-07-06 10:54:42] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230706/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-07-06 10:54:42] INFO root fetch - processPackages [packg]: Downloading https://files.pythonhosted.org/packages/60/08/8873f4abbf2803d24597ef26094735b89a976593685fff16a9aa1d76af45/packg-0.2.18.tar.gz
+[2023-07-06 10:54:42] INFO root fetch - processPackages [fc-guarder]: executing diffoscope
+[2023-07-06 10:54:42] INFO root fetch - processPackages [fc-guarder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fc-guarder-0.6.1.tar.gz tmp/fc-guarder-0.6.2.tar.gz --markdown 20230706/f/fc-guarder/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-06 10:54:42] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-07-06 10:54:42] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-2.3.0.tar.gz tmp/yplib-2.3.1.tar.gz --markdown 20230706/y/yplib/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-07-06 10:54:42] INFO root fetch - processPackages [fc-client-docker]: executing diffoscope
+[2023-07-06 10:54:42] INFO root fetch - processPackages [fc-client-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fc-client-docker-0.6.1.tar.gz tmp/fc-client-docker-0.6.2.tar.gz --markdown 20230706/f/fc-client-docker/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-06 10:54:42] INFO root fetch - processPackages [fc-server]: executing diffoscope
+[2023-07-06 10:54:42] INFO root fetch - processPackages [fc-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fc-server-0.6.1.tar.gz tmp/fc-server-0.6.2.tar.gz --markdown 20230706/f/fc-server/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-06 10:54:42] INFO root fetch - processPackages [fc-client]: executing diffoscope
+[2023-07-06 10:54:42] INFO root fetch - processPackages [fc-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fc-client-0.6.1.tar.gz tmp/fc-client-0.6.2.tar.gz --markdown 20230706/f/fc-client/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-06 10:54:42] INFO root fetch - processPackages [packg]: executing diffoscope
+[2023-07-06 10:54:42] INFO root fetch - processPackages [packg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packg-0.2.16.tar.gz tmp/packg-0.2.18.tar.gz --markdown 20230706/p/packg/0.2.16-0.2.18/diff.md --exclude *.pyd
+[2023-07-06 10:54:42] INFO root fetch - processPackages [vbcore]: Downloading https://files.pythonhosted.org/packages/2f/38/1cb2bb2ce029d00f521f12e9680d94f2864a863d86328c1c264495b9dda1/vbcore-2.2.0rc2.tar.gz
+[2023-07-06 10:54:42] INFO root fetch - processPackages [vbcore]: executing diffoscope
+[2023-07-06 10:54:42] INFO root fetch - processPackages [vbcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbcore-2.2.0rc1.tar.gz tmp/vbcore-2.2.0rc2.tar.gz --markdown 20230706/v/vbcore/2.2.0rc1-2.2.0rc2/diff.md --exclude *.pyd
+[2023-07-06 10:54:43] INFO root fetch - processPackages [symbolicai]: Downloading https://files.pythonhosted.org/packages/d4/20/d69129c72a905a1d7f198c70e94d4b5d966f97686ef827699d68d5da2a6c/symbolicai-0.2.9-py3-none-any.whl
+[2023-07-06 10:54:44] INFO root fetch - processPackages [fc-server]: Remove: archive file [/home/abi/fetcher/tmp/fc-server-0.6.1.tar.gz]
+[2023-07-06 10:54:44] INFO root fetch - processPackages [fc-server]: Remove: archive file [/home/abi/fetcher/tmp/fc-server-0.6.2.tar.gz]
+[2023-07-06 10:54:44] INFO root fetch - processPackages [fc-server]: Start processing: miuc
+[2023-07-06 10:54:44] INFO root fetch - main [MainThread]: End processing [fc-server]: success
+[2023-07-06 10:54:44] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.98-py3-none-any.whl.zip]
+[2023-07-06 10:54:44] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.99-py3-none-any.whl.zip]
+[2023-07-06 10:54:44] INFO root fetch - processPackages [reytool]: Start processing: checkov
+[2023-07-06 10:54:44] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-07-06 10:54:44] INFO root fetch - processPackages [miuc]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-06 10:54:44] INFO root fetch - processPackages [fc-client]: Remove: archive file [/home/abi/fetcher/tmp/fc-client-0.6.1.tar.gz]
+[2023-07-06 10:54:44] INFO root fetch - processPackages [fc-client]: Remove: archive file [/home/abi/fetcher/tmp/fc-client-0.6.2.tar.gz]
+[2023-07-06 10:54:44] INFO root fetch - main [MainThread]: End processing [fc-client]: success
+[2023-07-06 10:54:44] INFO root fetch - processPackages [fc-client-docker]: Remove: archive file [/home/abi/fetcher/tmp/fc-client-docker-0.6.1.tar.gz]
+[2023-07-06 10:54:44] INFO root fetch - processPackages [fc-client-docker]: Remove: archive file [/home/abi/fetcher/tmp/fc-client-docker-0.6.2.tar.gz]
+[2023-07-06 10:54:44] INFO root fetch - main [MainThread]: End processing [fc-client-docker]: success
+[2023-07-06 10:54:44] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.3.0.tar.gz]
+[2023-07-06 10:54:44] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.3.1.tar.gz]
+[2023-07-06 10:54:44] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-07-06 10:54:44] INFO root fetch - processPackages [fc-guarder]: Remove: archive file [/home/abi/fetcher/tmp/fc-guarder-0.6.1.tar.gz]
+[2023-07-06 10:54:44] INFO root fetch - processPackages [fc-guarder]: Remove: archive file [/home/abi/fetcher/tmp/fc-guarder-0.6.2.tar.gz]
+[2023-07-06 10:54:44] INFO root fetch - main [MainThread]: End processing [fc-guarder]: success
+[2023-07-06 10:54:44] INFO root fetch - processPackages [miuc]: Downloading https://files.pythonhosted.org/packages/af/bb/9656071ed65f3df415ffacd3f4f829a5e7efb7ab41832a25b1ad24057f23/miuc-0.1.8.tar.gz
+[2023-07-06 10:54:44] INFO root fetch - processPackages [packg]: Remove: archive file [/home/abi/fetcher/tmp/packg-0.2.16.tar.gz]
+[2023-07-06 10:54:44] INFO root fetch - processPackages [packg]: Remove: archive file [/home/abi/fetcher/tmp/packg-0.2.18.tar.gz]
+[2023-07-06 10:54:44] INFO root fetch - main [MainThread]: End processing [packg]: success
+[2023-07-06 10:54:44] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-06 10:54:44] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8f/c0/b3713d4cbc03ff63d42af6bc96060bf07ac510f578af21d0beb23a58ebd5/checkov-2.3.98.tar.gz
+[2023-07-06 10:54:44] INFO root fetch - processPackages [symbolicai]: executing diffoscope
+[2023-07-06 10:54:44] INFO root fetch - processPackages [symbolicai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symbolicai-0.2.7-py3-none-any.whl.zip tmp/symbolicai-0.2.9-py3-none-any.whl.zip --markdown 20230706/s/symbolicai/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-07-06 10:54:44] INFO root fetch - processPackages [miuc]: Downloading https://files.pythonhosted.org/packages/97/72/3b0ef2bc7c6926ece589a3d9b2bab797de718992dcd38f7f5dd81c087e0a/miuc-0.1.9.tar.gz
+[2023-07-06 10:54:44] INFO root fetch - processPackages [miuc]: executing diffoscope
+[2023-07-06 10:54:44] INFO root fetch - processPackages [miuc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miuc-0.1.8.tar.gz tmp/miuc-0.1.9.tar.gz --markdown 20230706/m/miuc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-06 10:54:44] INFO root fetch - processPackages [vbcore]: Remove: archive file [/home/abi/fetcher/tmp/vbcore-2.2.0rc1.tar.gz]
+[2023-07-06 10:54:44] INFO root fetch - processPackages [vbcore]: Remove: archive file [/home/abi/fetcher/tmp/vbcore-2.2.0rc2.tar.gz]
+[2023-07-06 10:54:44] INFO root fetch - main [MainThread]: End processing [vbcore]: success
+[2023-07-06 10:54:45] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/36/b2/faea7cf4d04d72880327d7e73a0327922cb8cd1c61a51e8fd38f344e9f2f/checkov-2.3.99.tar.gz
+[2023-07-06 10:54:45] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-07-06 10:54:45] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230706/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-06 10:54:45] INFO root fetch - processPackages [symbolicai]: Remove: archive file [/home/abi/fetcher/tmp/symbolicai-0.2.7-py3-none-any.whl.zip]
+[2023-07-06 10:54:45] INFO root fetch - processPackages [symbolicai]: Remove: archive file [/home/abi/fetcher/tmp/symbolicai-0.2.9-py3-none-any.whl.zip]
+[2023-07-06 10:54:45] INFO root fetch - main [MainThread]: End processing [symbolicai]: success
+[2023-07-06 10:54:45] INFO root fetch - processPackages [miuc]: Remove: archive file [/home/abi/fetcher/tmp/miuc-0.1.8.tar.gz]
+[2023-07-06 10:54:45] INFO root fetch - processPackages [miuc]: Remove: archive file [/home/abi/fetcher/tmp/miuc-0.1.9.tar.gz]
+[2023-07-06 10:54:45] INFO root fetch - main [MainThread]: End processing [miuc]: success
+[2023-07-06 10:54:46] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-07-06 10:54:46] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-07-06 10:54:46] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-07-06 10:54:59] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.98.tar.gz]
+[2023-07-06 10:54:59] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
+[2023-07-06 10:54:59] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-07-06 10:54:59] INFO root fetch - main [MainThread]: Store serial: [18780512]
