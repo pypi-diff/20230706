@@ -17511,3 +17511,316 @@ AssertionError: tmp/termkit-0.2.0a4.tar.gz does not exist
 [2023-07-06 11:27:01] INFO root fetch - processPackages [shared-atomic-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/shared_atomic_enterprise-5!2.3.6-py39-none-win_amd64.whl.zip]
 [2023-07-06 11:27:01] INFO root fetch - main [MainThread]: End processing [shared-atomic-enterprise]: success
 [2023-07-06 11:27:01] INFO root fetch - main [MainThread]: Store serial: [18780962]
+[2023-07-06 11:32:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18780962]
+[2023-07-06 11:32:10] INFO root fetch - main [MainThread]: Found 36 changed packages
+[2023-07-06 11:32:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-dlc-jupyter
+[2023-07-06 11:32:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lsst-utils
+[2023-07-06 11:32:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mlserver-alibi-detect
+[2023-07-06 11:32:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mlserver-mlflow
+[2023-07-06 11:32:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: grai-source-fivetran
+[2023-07-06 11:32:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mlserver-huggingface
+[2023-07-06 11:32:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mlserver-xgboost
+[2023-07-06 11:32:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mlserver-lightgbm
+[2023-07-06 11:32:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mlserver-sklearn
+[2023-07-06 11:32:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: forecastmanager
+[2023-07-06 11:32:11] INFO root fetch - processPackages [lsst-utils]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-07-06 11:32:11] INFO root fetch - processPackages [tencentcloud-dlc-jupyter]: New version: [1.1.0] Old Version: [1.0.0b0]
+[2023-07-06 11:32:11] INFO root fetch - processPackages [mlserver-alibi-detect]: New version: [1.4.0.dev3] Old Version: [1.4.0.dev2]
+[2023-07-06 11:32:11] INFO root fetch - processPackages [mlserver-huggingface]: New version: [1.4.0.dev3] Old Version: [1.4.0.dev2]
+[2023-07-06 11:32:11] INFO root fetch - processPackages [grai-source-fivetran]: New version: [0.1.0a5] Old Version: [0.1.0a4]
+[2023-07-06 11:32:11] INFO root fetch - processPackages [mlserver-mlflow]: New version: [1.4.0.dev3] Old Version: [1.4.0.dev2]
+[2023-07-06 11:32:11] INFO root fetch - processPackages [mlserver-sklearn]: New version: [1.4.0.dev3] Old Version: [1.4.0.dev2]
+[2023-07-06 11:32:11] INFO root fetch - processPackages [forecastmanager]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-06 11:32:11] INFO root fetch - processPackages [mlserver-lightgbm]: New version: [1.4.0.dev3] Old Version: [1.4.0.dev2]
+[2023-07-06 11:32:11] INFO root fetch - processPackages [mlserver-xgboost]: New version: [1.4.0.dev3] Old Version: [1.4.0.dev2]
+[2023-07-06 11:32:11] INFO root fetch - processPackages [tencentcloud-dlc-jupyter]: Downloading https://files.pythonhosted.org/packages/f4/14/396c4bf380fef55e32c3d6d643c14b51015f28c0683ddbf1244194126a6e/tencentcloud-dlc-jupyter-1.0.0b0.tar.gz
+[2023-07-06 11:32:11] INFO root fetch - processPackages [mlserver-huggingface]: Downloading https://files.pythonhosted.org/packages/f0/83/2735b6f081605f7c92fa3d85a4716cadd7b0eb1a50a71cdf6ec89daf1698/mlserver-huggingface-1.4.0.dev2.tar.gz
+[2023-07-06 11:32:11] INFO root fetch - processPackages [lsst-utils]: Downloading https://files.pythonhosted.org/packages/95/d2/5d16674a9fbd9d5c6dd08502fdaf2392373a5ee644f82312b6433f0688b3/lsst-utils-26.0.0a20230400.tar.gz
+[2023-07-06 11:32:11] INFO root fetch - processPackages [forecastmanager]: Downloading https://files.pythonhosted.org/packages/ed/29/70b4521a829a326e626715d6cf06db2395d0557842c5a8adac462bbf45a5/forecastmanager-0.0.6.tar.gz
+[2023-07-06 11:32:11] INFO root fetch - processPackages [mlserver-xgboost]: Downloading https://files.pythonhosted.org/packages/a9/4e/d37fe531858b5a0b361eadf69589e29ca81641b6d2581ebfb3010d756d63/mlserver-xgboost-1.4.0.dev2.tar.gz
+[2023-07-06 11:32:11] INFO root fetch - processPackages [mlserver-sklearn]: Downloading https://files.pythonhosted.org/packages/a9/1f/259c6b8407fa04124af450e06afbcdf10587f4feada8aba9f8fd1415f8f7/mlserver-sklearn-1.4.0.dev2.tar.gz
+[2023-07-06 11:32:11] INFO root fetch - processPackages [mlserver-lightgbm]: Downloading https://files.pythonhosted.org/packages/45/33/3f2748f79aa1b4bef981eec337edc621a424474f69062004e620da744793/mlserver-lightgbm-1.4.0.dev2.tar.gz
+[2023-07-06 11:32:11] INFO root fetch - processPackages [mlserver-alibi-detect]: Downloading https://files.pythonhosted.org/packages/1e/9b/d8de9dd6f90d71c11ff42051fb1c8ea4f84b45d6f1568c2847cbef247ac6/mlserver-alibi-detect-1.4.0.dev2.tar.gz
+[2023-07-06 11:32:11] INFO root fetch - processPackages [mlserver-mlflow]: Downloading https://files.pythonhosted.org/packages/30/19/1aaf2cad4df35702cdb9d097b2df2c2b58d1cbfb9df3c6f3e39b559a2264/mlserver-mlflow-1.4.0.dev2.tar.gz
+[2023-07-06 11:32:11] INFO root fetch - processPackages [grai-source-fivetran]: Downloading https://files.pythonhosted.org/packages/33/ac/8c7a6c8fa7138b71065a2799ec00edd04413fd31b913bbff32e13bf745fc/grai_source_fivetran-0.1.0a4.tar.gz
+[2023-07-06 11:32:11] INFO root fetch - processPackages [mlserver-lightgbm]: Downloading https://files.pythonhosted.org/packages/e7/61/87ff2b79a8d691a6dadd7cf815e83a432ef6b84ea96198e13f2223c6b877/mlserver_lightgbm-1.4.0.dev3.tar.gz
+[2023-07-06 11:32:11] INFO root fetch - processPackages [mlserver-sklearn]: Downloading https://files.pythonhosted.org/packages/32/83/cd5259c555fdd6488f79d61fe77bd3185b7d48a7e40b44690d24e11bff66/mlserver_sklearn-1.4.0.dev3.tar.gz
+[2023-07-06 11:32:11] INFO root fetch - processPackages [mlserver-huggingface]: Downloading https://files.pythonhosted.org/packages/7c/34/967667ccf1b22d9f0143a6abde3d03affb2039337dd90b163bb1b67d9ee9/mlserver_huggingface-1.4.0.dev3.tar.gz
+[2023-07-06 11:32:12] INFO root fetch - processPackages [tencentcloud-dlc-jupyter]: Downloading https://files.pythonhosted.org/packages/28/85/3d350b5350233f3bf6142f1925442beb6ebfcaef1565668d498ab187bf42/tencentcloud-dlc-jupyter-1.1.0.tar.gz
+[2023-07-06 11:32:12] INFO root fetch - processPackages [mlserver-xgboost]: Downloading https://files.pythonhosted.org/packages/93/5b/a662059db44ac1ed313834fbcb2975924a14ceecbdbcf6df94e707dc8bca/mlserver_xgboost-1.4.0.dev3.tar.gz
+[2023-07-06 11:32:12] INFO root fetch - processPackages [mlserver-alibi-detect]: Downloading https://files.pythonhosted.org/packages/24/89/7b1c58258d5d5631a337e75b60e0935d706f424d9d4d6fe26928df6fc4b2/mlserver_alibi_detect-1.4.0.dev3.tar.gz
+[2023-07-06 11:32:12] INFO root fetch - processPackages [lsst-utils]: Downloading https://files.pythonhosted.org/packages/72/74/81575ebd50afb9ebc10787897207947703ae9d32205910da14de85cdef05/lsst-utils-26.0.0a20230500.tar.gz
+[2023-07-06 11:32:12] INFO root fetch - processPackages [forecastmanager]: Downloading https://files.pythonhosted.org/packages/39/84/dd32c22cceed1c5229cea7413dc12960c9d9ac5f0b581ae9176903d0ca21/forecastmanager-0.0.7.tar.gz
+[2023-07-06 11:32:12] INFO root fetch - processPackages [mlserver-lightgbm]: executing diffoscope
+[2023-07-06 11:32:12] INFO root fetch - processPackages [mlserver-lightgbm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlserver-lightgbm-1.4.0.dev2.tar.gz tmp/mlserver_lightgbm-1.4.0.dev3.tar.gz --markdown 20230706/m/mlserver-lightgbm/1.4.0.dev2-1.4.0.dev3/diff.md --exclude *.pyd
+[2023-07-06 11:32:12] INFO root fetch - processPackages [mlserver-huggingface]: executing diffoscope
+[2023-07-06 11:32:12] INFO root fetch - processPackages [mlserver-huggingface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlserver-huggingface-1.4.0.dev2.tar.gz tmp/mlserver_huggingface-1.4.0.dev3.tar.gz --markdown 20230706/m/mlserver-huggingface/1.4.0.dev2-1.4.0.dev3/diff.md --exclude *.pyd
+[2023-07-06 11:32:12] INFO root fetch - processPackages [mlserver-sklearn]: executing diffoscope
+[2023-07-06 11:32:12] INFO root fetch - processPackages [mlserver-sklearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlserver-sklearn-1.4.0.dev2.tar.gz tmp/mlserver_sklearn-1.4.0.dev3.tar.gz --markdown 20230706/m/mlserver-sklearn/1.4.0.dev2-1.4.0.dev3/diff.md --exclude *.pyd
+[2023-07-06 11:32:12] INFO root fetch - processPackages [grai-source-fivetran]: Downloading https://files.pythonhosted.org/packages/fc/69/b914285070c48d5ce17ea3c5f2938bdba754c9d2bd2cb145adf3604f891b/grai_source_fivetran-0.1.0a5.tar.gz
+[2023-07-06 11:32:12] INFO root fetch - processPackages [mlserver-mlflow]: Downloading https://files.pythonhosted.org/packages/25/b5/4076220156f85444e7b7377a157cc7631a9a19ffc7614b4ec0df32112dad/mlserver_mlflow-1.4.0.dev3.tar.gz
+[2023-07-06 11:32:12] INFO root fetch - processPackages [mlserver-xgboost]: executing diffoscope
+[2023-07-06 11:32:12] INFO root fetch - processPackages [mlserver-xgboost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlserver-xgboost-1.4.0.dev2.tar.gz tmp/mlserver_xgboost-1.4.0.dev3.tar.gz --markdown 20230706/m/mlserver-xgboost/1.4.0.dev2-1.4.0.dev3/diff.md --exclude *.pyd
+[2023-07-06 11:32:12] INFO root fetch - processPackages [tencentcloud-dlc-jupyter]: executing diffoscope
+[2023-07-06 11:32:12] INFO root fetch - processPackages [tencentcloud-dlc-jupyter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-dlc-jupyter-1.0.0b0.tar.gz tmp/tencentcloud-dlc-jupyter-1.1.0.tar.gz --markdown 20230706/t/tencentcloud-dlc-jupyter/1.0.0b0-1.1.0/diff.md --exclude *.pyd
+[2023-07-06 11:32:12] INFO root fetch - processPackages [lsst-utils]: executing diffoscope
+[2023-07-06 11:32:12] INFO root fetch - processPackages [lsst-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-utils-26.0.0a20230400.tar.gz tmp/lsst-utils-26.0.0a20230500.tar.gz --markdown 20230706/l/lsst-utils/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-07-06 11:32:12] INFO root fetch - processPackages [mlserver-alibi-detect]: executing diffoscope
+[2023-07-06 11:32:12] INFO root fetch - processPackages [mlserver-alibi-detect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlserver-alibi-detect-1.4.0.dev2.tar.gz tmp/mlserver_alibi_detect-1.4.0.dev3.tar.gz --markdown 20230706/m/mlserver-alibi-detect/1.4.0.dev2-1.4.0.dev3/diff.md --exclude *.pyd
+[2023-07-06 11:32:12] INFO root fetch - processPackages [forecastmanager]: executing diffoscope
+[2023-07-06 11:32:12] INFO root fetch - processPackages [forecastmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forecastmanager-0.0.6.tar.gz tmp/forecastmanager-0.0.7.tar.gz --markdown 20230706/f/forecastmanager/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-06 11:32:12] INFO root fetch - processPackages [mlserver-mlflow]: executing diffoscope
+[2023-07-06 11:32:12] INFO root fetch - processPackages [mlserver-mlflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlserver-mlflow-1.4.0.dev2.tar.gz tmp/mlserver_mlflow-1.4.0.dev3.tar.gz --markdown 20230706/m/mlserver-mlflow/1.4.0.dev2-1.4.0.dev3/diff.md --exclude *.pyd
+[2023-07-06 11:32:12] INFO root fetch - processPackages [grai-source-fivetran]: executing diffoscope
+[2023-07-06 11:32:12] INFO root fetch - processPackages [grai-source-fivetran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_source_fivetran-0.1.0a4.tar.gz tmp/grai_source_fivetran-0.1.0a5.tar.gz --markdown 20230706/g/grai-source-fivetran/0.1.0a4-0.1.0a5/diff.md --exclude *.pyd
+[2023-07-06 11:32:13] INFO root fetch - processPackages [mlserver-lightgbm]: Remove: archive file [/home/abi/fetcher/tmp/mlserver-lightgbm-1.4.0.dev2.tar.gz]
+[2023-07-06 11:32:13] INFO root fetch - processPackages [mlserver-lightgbm]: Remove: archive file [/home/abi/fetcher/tmp/mlserver_lightgbm-1.4.0.dev3.tar.gz]
+[2023-07-06 11:32:13] INFO root fetch - processPackages [mlserver-lightgbm]: Start processing: sh-dynamodb
+[2023-07-06 11:32:13] INFO root fetch - main [MainThread]: End processing [mlserver-lightgbm]: success
+[2023-07-06 11:32:14] WARNING root fetch - processPackages [sh-dynamodb]: Skipping, unable to determine old version
+[2023-07-06 11:32:14] INFO root fetch - processPackages [sh-dynamodb]: Start processing: mlserver-mllib
+[2023-07-06 11:32:14] INFO root fetch - main [MainThread]: End processing [sh-dynamodb] error
+[2023-07-06 11:32:14] INFO root fetch - processPackages [mlserver-mllib]: New version: [1.4.0.dev3] Old Version: [1.4.0.dev2]
+[2023-07-06 11:32:14] INFO root fetch - processPackages [mlserver-sklearn]: Remove: archive file [/home/abi/fetcher/tmp/mlserver-sklearn-1.4.0.dev2.tar.gz]
+[2023-07-06 11:32:14] INFO root fetch - processPackages [mlserver-sklearn]: Remove: archive file [/home/abi/fetcher/tmp/mlserver_sklearn-1.4.0.dev3.tar.gz]
+[2023-07-06 11:32:14] INFO root fetch - processPackages [mlserver-sklearn]: Start processing: mlserver-alibi-explain
+[2023-07-06 11:32:14] INFO root fetch - main [MainThread]: End processing [mlserver-sklearn]: success
+[2023-07-06 11:32:14] INFO root fetch - processPackages [mlserver-huggingface]: Remove: archive file [/home/abi/fetcher/tmp/mlserver-huggingface-1.4.0.dev2.tar.gz]
+[2023-07-06 11:32:14] INFO root fetch - processPackages [mlserver-huggingface]: Remove: archive file [/home/abi/fetcher/tmp/mlserver_huggingface-1.4.0.dev3.tar.gz]
+[2023-07-06 11:32:14] INFO root fetch - processPackages [mlserver-huggingface]: Start processing: lsst-resources
+[2023-07-06 11:32:14] INFO root fetch - main [MainThread]: End processing [mlserver-huggingface]: success
+[2023-07-06 11:32:14] INFO root fetch - processPackages [mlserver-mllib]: Downloading https://files.pythonhosted.org/packages/58/bb/f4a9f4208e47476294a4fe6e1e997c99d4884bae6544ba565f968ebcd0b4/mlserver-mllib-1.4.0.dev2.tar.gz
+[2023-07-06 11:32:14] INFO root fetch - processPackages [mlserver-xgboost]: Remove: archive file [/home/abi/fetcher/tmp/mlserver-xgboost-1.4.0.dev2.tar.gz]
+[2023-07-06 11:32:14] INFO root fetch - processPackages [mlserver-xgboost]: Remove: archive file [/home/abi/fetcher/tmp/mlserver_xgboost-1.4.0.dev3.tar.gz]
+[2023-07-06 11:32:14] INFO root fetch - processPackages [mlserver-xgboost]: Start processing: shared-atomic-enterprise
+[2023-07-06 11:32:14] INFO root fetch - main [MainThread]: End processing [mlserver-xgboost]: success
+[2023-07-06 11:32:14] INFO root fetch - processPackages [lsst-resources]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-07-06 11:32:14] INFO root fetch - processPackages [mlserver-alibi-explain]: New version: [1.4.0.dev3] Old Version: [1.4.0.dev2]
+[2023-07-06 11:32:14] INFO root fetch - processPackages [shared-atomic-enterprise]: New version: [5!3.0.0] Old Version: [5!2.3.6]
+[2023-07-06 11:32:14] INFO root fetch - processPackages [mlserver-alibi-detect]: Remove: archive file [/home/abi/fetcher/tmp/mlserver-alibi-detect-1.4.0.dev2.tar.gz]
+[2023-07-06 11:32:14] INFO root fetch - processPackages [mlserver-alibi-detect]: Remove: archive file [/home/abi/fetcher/tmp/mlserver_alibi_detect-1.4.0.dev3.tar.gz]
+[2023-07-06 11:32:14] INFO root fetch - processPackages [mlserver-alibi-detect]: Start processing: crop-utils
+[2023-07-06 11:32:14] INFO root fetch - main [MainThread]: End processing [mlserver-alibi-detect]: success
+[2023-07-06 11:32:14] INFO root fetch - processPackages [mlserver-mlflow]: Remove: archive file [/home/abi/fetcher/tmp/mlserver-mlflow-1.4.0.dev2.tar.gz]
+[2023-07-06 11:32:14] INFO root fetch - processPackages [mlserver-mlflow]: Remove: archive file [/home/abi/fetcher/tmp/mlserver_mlflow-1.4.0.dev3.tar.gz]
+[2023-07-06 11:32:14] INFO root fetch - processPackages [mlserver-mlflow]: Start processing: jsonschema
+[2023-07-06 11:32:14] INFO root fetch - main [MainThread]: End processing [mlserver-mlflow]: success
+[2023-07-06 11:32:14] INFO root fetch - processPackages [crop-utils]: New version: [4.3.5] Old Version: [4.3.4]
+[2023-07-06 11:32:14] INFO root fetch - processPackages [shared-atomic-enterprise]: Downloading https://files.pythonhosted.org/packages/b8/82/ab5e52b1eb51a88e49693141b09cfece0fcbe631b3b900f08cad836b3ccd/shared_atomic_enterprise-5!2.3.6-py39-none-win_amd64.whl
+[2023-07-06 11:32:14] INFO root fetch - processPackages [mlserver-alibi-explain]: Downloading https://files.pythonhosted.org/packages/4c/ff/8fee52bea3e7c1e8ae468fcbc17d72675b3e31f4c766303a884ef0a13022/mlserver-alibi-explain-1.4.0.dev2.tar.gz
+[2023-07-06 11:32:14] INFO root fetch - processPackages [mlserver-mllib]: Downloading https://files.pythonhosted.org/packages/33/ba/6e083ec243b4665e60f4eeca4595eb7d4064cfd7a4cb8711e932500173bc/mlserver_mllib-1.4.0.dev3.tar.gz
+[2023-07-06 11:32:14] INFO root fetch - processPackages [jsonschema]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-07-06 11:32:14] INFO root fetch - processPackages [lsst-resources]: Downloading https://files.pythonhosted.org/packages/52/45/0dcc92ba8f25516fe59b89e0b4b6425fc82775a8f89d22382ac6ff4365d5/lsst-resources-26.0.0a20230400.tar.gz
+[2023-07-06 11:32:14] INFO root fetch - processPackages [grai-source-fivetran]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_fivetran-0.1.0a4.tar.gz]
+[2023-07-06 11:32:14] INFO root fetch - processPackages [grai-source-fivetran]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_fivetran-0.1.0a5.tar.gz]
+[2023-07-06 11:32:14] INFO root fetch - processPackages [grai-source-fivetran]: Start processing: lsst-ctrl-bps
+[2023-07-06 11:32:14] INFO root fetch - main [MainThread]: End processing [grai-source-fivetran]: success
+[2023-07-06 11:32:14] INFO root fetch - processPackages [lsst-ctrl-bps]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-07-06 11:32:14] INFO root fetch - processPackages [mlserver-mllib]: executing diffoscope
+[2023-07-06 11:32:14] INFO root fetch - processPackages [mlserver-mllib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlserver-mllib-1.4.0.dev2.tar.gz tmp/mlserver_mllib-1.4.0.dev3.tar.gz --markdown 20230706/m/mlserver-mllib/1.4.0.dev2-1.4.0.dev3/diff.md --exclude *.pyd
+[2023-07-06 11:32:14] INFO root fetch - processPackages [crop-utils]: Downloading https://files.pythonhosted.org/packages/68/29/f4b353b6cdf99709e5a3d41c217350a3c38e7f3c53f119584e1c70271ecd/crop_utils-4.3.4.tar.gz
+[2023-07-06 11:32:15] INFO root fetch - processPackages [lsst-utils]: Remove: archive file [/home/abi/fetcher/tmp/lsst-utils-26.0.0a20230400.tar.gz]
+[2023-07-06 11:32:15] INFO root fetch - processPackages [lsst-utils]: Remove: archive file [/home/abi/fetcher/tmp/lsst-utils-26.0.0a20230500.tar.gz]
+[2023-07-06 11:32:15] INFO root fetch - processPackages [jsonschema]: Downloading https://files.pythonhosted.org/packages/02/96/901e5735f16cb438eccff95b534d0bdd058237dab1ae4731b5e1e1ddc9b4/jsonschema-4.9.0.tar.gz
+[2023-07-06 11:32:15] INFO root fetch - processPackages [lsst-utils]: Start processing: lsst-daf-relation
+[2023-07-06 11:32:15] INFO root fetch - main [MainThread]: End processing [lsst-utils]: success
+[2023-07-06 11:32:15] INFO root fetch - processPackages [mlserver-alibi-explain]: Downloading https://files.pythonhosted.org/packages/e0/12/335f98efbdf5a8678b3cd3eca889377fb08606cdd00cec4afdc41e6979dd/mlserver_alibi_explain-1.4.0.dev3.tar.gz
+[2023-07-06 11:32:15] INFO root fetch - processPackages [forecastmanager]: Remove: archive file [/home/abi/fetcher/tmp/forecastmanager-0.0.6.tar.gz]
+[2023-07-06 11:32:15] INFO root fetch - processPackages [forecastmanager]: Remove: archive file [/home/abi/fetcher/tmp/forecastmanager-0.0.7.tar.gz]
+[2023-07-06 11:32:15] INFO root fetch - processPackages [forecastmanager]: Start processing: sirqle
+[2023-07-06 11:32:15] INFO root fetch - main [MainThread]: End processing [forecastmanager]: success
+[2023-07-06 11:32:15] INFO root fetch - processPackages [sirqle]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-06 11:32:15] INFO root fetch - processPackages [lsst-daf-relation]: New version: [1.0.0a20230500] Old Version: [1.0.0a20230400]
+[2023-07-06 11:32:15] INFO root fetch - processPackages [lsst-ctrl-bps]: Downloading https://files.pythonhosted.org/packages/3f/25/dd5788122d831e91f7a5b6df98e8e2d65df587d64b2a7e8e703b9f85d293/lsst-ctrl-bps-26.0.0a20230400.tar.gz
+[2023-07-06 11:32:15] INFO root fetch - processPackages [shared-atomic-enterprise]: Downloading https://files.pythonhosted.org/packages/2c/89/592ba8be1bf6e35e21daa5edf11a641f60d359e69987e7f72c30b2ba0126/shared_atomic_enterprise-5!3.0.0-py39-none-win_amd64.whl
+[2023-07-06 11:32:15] INFO root fetch - processPackages [mlserver-alibi-explain]: executing diffoscope
+[2023-07-06 11:32:15] INFO root fetch - processPackages [mlserver-alibi-explain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlserver-alibi-explain-1.4.0.dev2.tar.gz tmp/mlserver_alibi_explain-1.4.0.dev3.tar.gz --markdown 20230706/m/mlserver-alibi-explain/1.4.0.dev2-1.4.0.dev3/diff.md --exclude *.pyd
+[2023-07-06 11:32:15] INFO root fetch - processPackages [tencentcloud-dlc-jupyter]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-dlc-jupyter-1.0.0b0.tar.gz]
+[2023-07-06 11:32:15] INFO root fetch - processPackages [tencentcloud-dlc-jupyter]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-dlc-jupyter-1.1.0.tar.gz]
+[2023-07-06 11:32:15] INFO root fetch - processPackages [tencentcloud-dlc-jupyter]: Start processing: lsst-pipe-base
+[2023-07-06 11:32:15] INFO root fetch - main [MainThread]: End processing [tencentcloud-dlc-jupyter]: success
+[2023-07-06 11:32:15] INFO root fetch - processPackages [sirqle]: Downloading https://files.pythonhosted.org/packages/50/15/6500569c914507ff96330a29a7d39e6f3d9be82ae875a17518638c6337d6/sirqle-0.2.6.tar.gz
+[2023-07-06 11:32:15] INFO root fetch - processPackages [lsst-resources]: Downloading https://files.pythonhosted.org/packages/a1/31/225778e738d8196a59aa0442a433f627643f68797e49472ba8e7b8594e59/lsst-resources-26.0.0a20230500.tar.gz
+[2023-07-06 11:32:15] INFO root fetch - processPackages [lsst-pipe-base]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-07-06 11:32:15] INFO root fetch - processPackages [shared-atomic-enterprise]: executing diffoscope
+[2023-07-06 11:32:15] INFO root fetch - processPackages [shared-atomic-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shared_atomic_enterprise-5!2.3.6-py39-none-win_amd64.whl.zip tmp/shared_atomic_enterprise-5!3.0.0-py39-none-win_amd64.whl.zip --markdown 20230706/s/shared-atomic-enterprise/5!2.3.6-5!3.0.0/diff.md --exclude *.pyd
+[2023-07-06 11:32:15] INFO root fetch - processPackages [crop-utils]: Downloading https://files.pythonhosted.org/packages/78/23/b228e2ec3b81bfd897ed595023a394d72957d15bd1a215545a038b7f49d5/crop_utils-4.3.5.tar.gz
+[2023-07-06 11:32:15] INFO root fetch - processPackages [lsst-daf-relation]: Downloading https://files.pythonhosted.org/packages/cf/ba/39bf44ae9e7557239b4e75ccc2395eff1e08c3015340be39cd798f07fb37/lsst-daf-relation-1.0.0a20230400.tar.gz
+[2023-07-06 11:32:15] INFO root fetch - processPackages [jsonschema]: Downloading https://files.pythonhosted.org/packages/e6/a9/569ad03b90093c956bd396a6b3151c17e6005d8ac139d9419e89339c02df/jsonschema-4.9.1.tar.gz
+[2023-07-06 11:32:15] INFO root fetch - processPackages [lsst-resources]: executing diffoscope
+[2023-07-06 11:32:15] INFO root fetch - processPackages [lsst-resources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-resources-26.0.0a20230400.tar.gz tmp/lsst-resources-26.0.0a20230500.tar.gz --markdown 20230706/l/lsst-resources/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-07-06 11:32:15] INFO root fetch - processPackages [crop-utils]: executing diffoscope
+[2023-07-06 11:32:15] INFO root fetch - processPackages [crop-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crop_utils-4.3.4.tar.gz tmp/crop_utils-4.3.5.tar.gz --markdown 20230706/c/crop-utils/4.3.4-4.3.5/diff.md --exclude *.pyd
+[2023-07-06 11:32:15] INFO root fetch - processPackages [sirqle]: Downloading https://files.pythonhosted.org/packages/07/c2/b7d21b747cfb8a41f6fde1915fdefec0c841e63bae4a797e6e94ba6a8e7f/sirqle-0.2.7.tar.gz
+[2023-07-06 11:32:15] INFO root fetch - processPackages [jsonschema]: executing diffoscope
+[2023-07-06 11:32:15] INFO root fetch - processPackages [jsonschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonschema-4.9.0.tar.gz tmp/jsonschema-4.9.1.tar.gz --markdown 20230706/j/jsonschema/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2023-07-06 11:32:15] INFO root fetch - processPackages [lsst-pipe-base]: Downloading https://files.pythonhosted.org/packages/4a/2a/d7e53c7284052c1d3edb447a5c44734c2eb2276c39ac6857f02d9a0e77d3/lsst-pipe-base-26.0.0a20230400.tar.gz
+[2023-07-06 11:32:15] INFO root fetch - processPackages [sirqle]: executing diffoscope
+[2023-07-06 11:32:15] INFO root fetch - processPackages [sirqle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sirqle-0.2.6.tar.gz tmp/sirqle-0.2.7.tar.gz --markdown 20230706/s/sirqle/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-07-06 11:32:16] INFO root fetch - processPackages [lsst-daf-relation]: Downloading https://files.pythonhosted.org/packages/5e/5f/8e71741c69e90c32fd13e64e116dae04c056109846e98b96beed49ce1d01/lsst-daf-relation-1.0.0a20230500.tar.gz
+[2023-07-06 11:32:16] INFO root fetch - processPackages [lsst-ctrl-bps]: Downloading https://files.pythonhosted.org/packages/74/ca/f9dbc4fb6958267f1ee9ce347a76bcb3d1dcb671ceaf427711055ab6c67c/lsst-ctrl-bps-26.0.0a20230500.tar.gz
+[2023-07-06 11:32:16] INFO root fetch - processPackages [lsst-pipe-base]: Downloading https://files.pythonhosted.org/packages/43/b8/e01f76a3da14b328fd43a97c36653216b676c2f3b0fd8c71e30d4ff1132e/lsst-pipe-base-26.0.0a20230500.tar.gz
+[2023-07-06 11:32:16] INFO root fetch - processPackages [lsst-ctrl-bps]: executing diffoscope
+[2023-07-06 11:32:16] INFO root fetch - processPackages [lsst-ctrl-bps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-26.0.0a20230400.tar.gz tmp/lsst-ctrl-bps-26.0.0a20230500.tar.gz --markdown 20230706/l/lsst-ctrl-bps/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-07-06 11:32:16] INFO root fetch - processPackages [lsst-daf-relation]: executing diffoscope
+[2023-07-06 11:32:16] INFO root fetch - processPackages [lsst-daf-relation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-daf-relation-1.0.0a20230400.tar.gz tmp/lsst-daf-relation-1.0.0a20230500.tar.gz --markdown 20230706/l/lsst-daf-relation/1.0.0a20230400-1.0.0a20230500/diff.md --exclude *.pyd
+[2023-07-06 11:32:16] INFO root fetch - processPackages [mlserver-mllib]: Remove: archive file [/home/abi/fetcher/tmp/mlserver-mllib-1.4.0.dev2.tar.gz]
+[2023-07-06 11:32:16] INFO root fetch - processPackages [mlserver-mllib]: Remove: archive file [/home/abi/fetcher/tmp/mlserver_mllib-1.4.0.dev3.tar.gz]
+[2023-07-06 11:32:16] INFO root fetch - processPackages [mlserver-mllib]: Start processing: pycompall
+[2023-07-06 11:32:16] INFO root fetch - main [MainThread]: End processing [mlserver-mllib]: success
+[2023-07-06 11:32:16] INFO root fetch - processPackages [pycompall]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-06 11:32:16] INFO root fetch - processPackages [lsst-pipe-base]: executing diffoscope
+[2023-07-06 11:32:16] INFO root fetch - processPackages [lsst-pipe-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-pipe-base-26.0.0a20230400.tar.gz tmp/lsst-pipe-base-26.0.0a20230500.tar.gz --markdown 20230706/l/lsst-pipe-base/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-07-06 11:32:16] INFO root fetch - processPackages [pycompall]: Downloading https://files.pythonhosted.org/packages/50/98/60332b5f3feb4be8ed51d8751a8a975addce242f6c04d93f47496c34f5a1/pycompall-0.1.5.tar.gz
+[2023-07-06 11:32:17] INFO root fetch - processPackages [mlserver-alibi-explain]: Remove: archive file [/home/abi/fetcher/tmp/mlserver-alibi-explain-1.4.0.dev2.tar.gz]
+[2023-07-06 11:32:17] INFO root fetch - processPackages [mlserver-alibi-explain]: Remove: archive file [/home/abi/fetcher/tmp/mlserver_alibi_explain-1.4.0.dev3.tar.gz]
+[2023-07-06 11:32:17] INFO root fetch - processPackages [mlserver-alibi-explain]: Start processing: pycompall
+[2023-07-06 11:32:17] INFO root fetch - main [MainThread]: End processing [mlserver-alibi-explain]: success
+[2023-07-06 11:32:17] INFO root fetch - processPackages [pycompall]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-06 11:32:17] INFO root fetch - processPackages [pycompall]: Downloading https://files.pythonhosted.org/packages/e6/d0/8fac252a9a696282999836ad909f3945e7aaa17666309561b4a3b73acef1/pycompall-0.1.6.tar.gz
+[2023-07-06 11:32:17] INFO root fetch - processPackages [pycompall]: executing diffoscope
+[2023-07-06 11:32:17] INFO root fetch - processPackages [pycompall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycompall-0.1.5.tar.gz tmp/pycompall-0.1.6.tar.gz --markdown 20230706/p/pycompall/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-06 11:32:17] INFO root fetch - processPackages [pycompall]: executing diffoscope
+[2023-07-06 11:32:17] INFO root fetch - processPackages [pycompall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycompall-0.1.5.tar.gz tmp/pycompall-0.1.6.tar.gz --markdown 20230706/p/pycompall/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-06 11:32:17] INFO root fetch - processPackages [crop-utils]: Remove: archive file [/home/abi/fetcher/tmp/crop_utils-4.3.4.tar.gz]
+[2023-07-06 11:32:17] INFO root fetch - processPackages [crop-utils]: Remove: archive file [/home/abi/fetcher/tmp/crop_utils-4.3.5.tar.gz]
+[2023-07-06 11:32:17] INFO root fetch - processPackages [crop-utils]: Start processing: grassmanntn
+[2023-07-06 11:32:17] INFO root fetch - main [MainThread]: End processing [crop-utils]: success
+[2023-07-06 11:32:17] INFO root fetch - processPackages [sirqle]: Remove: archive file [/home/abi/fetcher/tmp/sirqle-0.2.6.tar.gz]
+[2023-07-06 11:32:17] INFO root fetch - processPackages [sirqle]: Remove: archive file [/home/abi/fetcher/tmp/sirqle-0.2.7.tar.gz]
+[2023-07-06 11:32:17] INFO root fetch - processPackages [sirqle]: Start processing: mly-pipeline
+[2023-07-06 11:32:17] INFO root fetch - main [MainThread]: End processing [sirqle]: success
+[2023-07-06 11:32:18] INFO root fetch - processPackages [grassmanntn]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-06 11:32:18] INFO root fetch - processPackages [lsst-resources]: Remove: archive file [/home/abi/fetcher/tmp/lsst-resources-26.0.0a20230400.tar.gz]
+[2023-07-06 11:32:18] INFO root fetch - processPackages [lsst-resources]: Remove: archive file [/home/abi/fetcher/tmp/lsst-resources-26.0.0a20230500.tar.gz]
+[2023-07-06 11:32:18] INFO root fetch - processPackages [lsst-resources]: Start processing: cobanov
+[2023-07-06 11:32:18] INFO root fetch - main [MainThread]: End processing [lsst-resources]: success
+[2023-07-06 11:32:18] INFO root fetch - processPackages [mly-pipeline]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-07-06 11:32:18] WARNING root fetch - processPackages [cobanov]: Skipping, unable to determine old version
+[2023-07-06 11:32:18] INFO root fetch - processPackages [cobanov]: Start processing: pyracetimegg
+[2023-07-06 11:32:18] INFO root fetch - main [MainThread]: End processing [cobanov] error
+[2023-07-06 11:32:18] INFO root fetch - processPackages [grassmanntn]: Downloading https://files.pythonhosted.org/packages/00/63/8c35e514eec62a5e602049ad92fb3dc31e67c4e4ce042037020791b0f77e/grassmanntn-1.1.8.tar.gz
+[2023-07-06 11:32:18] INFO root fetch - processPackages [pyracetimegg]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-07-06 11:32:18] INFO root fetch - processPackages [mly-pipeline]: Downloading https://files.pythonhosted.org/packages/c5/24/2b7e85c819280e851c1389de23559aa67673538b63a73f5c0cfba26833ea/mly_pipeline-0.5.3.tar.gz
+[2023-07-06 11:32:18] INFO root fetch - processPackages [pyracetimegg]: Downloading https://files.pythonhosted.org/packages/b9/fc/540523d76c82d34a9d1f6485573046e955df5718e323a891030ad47f6c45/pyracetimegg-2.2.0-py3-none-any.whl
+[2023-07-06 11:32:18] INFO root fetch - processPackages [grassmanntn]: Downloading https://files.pythonhosted.org/packages/9a/6a/38af9036bc7e2828f2270774cedd765679be0dddf566bb7089e3d441cd66/grassmanntn-1.1.9.tar.gz
+[2023-07-06 11:32:18] INFO root fetch - processPackages [grassmanntn]: executing diffoscope
+[2023-07-06 11:32:18] INFO root fetch - processPackages [grassmanntn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grassmanntn-1.1.8.tar.gz tmp/grassmanntn-1.1.9.tar.gz --markdown 20230706/g/grassmanntn/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-06 11:32:18] INFO root fetch - processPackages [mly-pipeline]: Downloading https://files.pythonhosted.org/packages/44/77/5e9e1922a831599d58e9970b4f24708cc1b8d28455f370b74b003d3c0273/mly_pipeline-0.5.4.tar.gz
+[2023-07-06 11:32:18] INFO root fetch - processPackages [lsst-ctrl-bps]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-26.0.0a20230400.tar.gz]
+[2023-07-06 11:32:18] INFO root fetch - processPackages [lsst-ctrl-bps]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-26.0.0a20230500.tar.gz]
+[2023-07-06 11:32:18] INFO root fetch - processPackages [lsst-ctrl-bps]: Start processing: pycompall
+[2023-07-06 11:32:18] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps]: success
+[2023-07-06 11:32:18] INFO root fetch - processPackages [lsst-daf-relation]: Remove: archive file [/home/abi/fetcher/tmp/lsst-daf-relation-1.0.0a20230400.tar.gz]
+[2023-07-06 11:32:18] INFO root fetch - processPackages [lsst-daf-relation]: Remove: archive file [/home/abi/fetcher/tmp/lsst-daf-relation-1.0.0a20230500.tar.gz]
+[2023-07-06 11:32:18] INFO root fetch - processPackages [lsst-daf-relation]: Start processing: macrometa-target-oracle
+[2023-07-06 11:32:18] INFO root fetch - main [MainThread]: End processing [lsst-daf-relation]: success
+[2023-07-06 11:32:18] INFO root fetch - processPackages [pyracetimegg]: Downloading https://files.pythonhosted.org/packages/f0/d8/993a6e286c16eb0d7de00e019b3aee6e49101bac14e140bd9f93bed5f231/pyracetimegg-2.3.0-py3-none-any.whl
+[2023-07-06 11:32:18] INFO root fetch - processPackages [pycompall]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-06 11:32:18] INFO root fetch - processPackages [mly-pipeline]: executing diffoscope
+[2023-07-06 11:32:18] INFO root fetch - processPackages [mly-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mly_pipeline-0.5.3.tar.gz tmp/mly_pipeline-0.5.4.tar.gz --markdown 20230706/m/mly-pipeline/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-07-06 11:32:18] INFO root fetch - processPackages [macrometa-target-oracle]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-06 11:32:18] INFO root fetch - processPackages [pycompall]: Remove: archive file [/home/abi/fetcher/tmp/pycompall-0.1.5.tar.gz]
+[2023-07-06 11:32:18] INFO root fetch - processPackages [pycompall]: Remove: archive file [/home/abi/fetcher/tmp/pycompall-0.1.6.tar.gz]
+[2023-07-06 11:32:18] INFO root fetch - processPackages [pycompall]: Start processing: th2-check2-recon
+[2023-07-06 11:32:18] INFO root fetch - main [MainThread]: End processing [pycompall]: success
+[2023-07-06 11:32:19] INFO root fetch - processPackages [pyracetimegg]: executing diffoscope
+[2023-07-06 11:32:19] INFO root fetch - processPackages [pyracetimegg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyracetimegg-2.2.0-py3-none-any.whl.zip tmp/pyracetimegg-2.3.0-py3-none-any.whl.zip --markdown 20230706/p/pyracetimegg/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-07-06 11:32:19] INFO root fetch - processPackages [pycompall]: Downloading https://files.pythonhosted.org/packages/50/98/60332b5f3feb4be8ed51d8751a8a975addce242f6c04d93f47496c34f5a1/pycompall-0.1.5.tar.gz
+[2023-07-06 11:32:19] INFO root fetch - processPackages [th2-check2-recon]: New version: [4.0.0.dev4312132973] Old Version: [4.0.0.dev3884233338]
+[2023-07-06 11:32:19] INFO root fetch - processPackages [macrometa-target-oracle]: Downloading https://files.pythonhosted.org/packages/d4/d7/6941b3a177197677ab675d50b03400661b8550a731c30152ef4dd3b05b99/macrometa-target-oracle-0.0.7.tar.gz
+[2023-07-06 11:32:19] INFO root fetch - processPackages [th2-check2-recon]: Downloading https://files.pythonhosted.org/packages/21/8e/29b366312c8bd19e0082fa999b1a20cdf5c0870a085a5a70323b731808e3/th2_check2_recon-4.0.0.dev3884233338.tar.gz
+[2023-07-06 11:32:19] INFO root fetch - processPackages [lsst-pipe-base]: Remove: archive file [/home/abi/fetcher/tmp/lsst-pipe-base-26.0.0a20230400.tar.gz]
+[2023-07-06 11:32:19] INFO root fetch - processPackages [lsst-pipe-base]: Remove: archive file [/home/abi/fetcher/tmp/lsst-pipe-base-26.0.0a20230500.tar.gz]
+[2023-07-06 11:32:19] INFO root fetch - processPackages [lsst-pipe-base]: Start processing: Digital-Farming-Solution
+[2023-07-06 11:32:19] INFO root fetch - main [MainThread]: End processing [lsst-pipe-base]: success
+[2023-07-06 11:32:19] INFO root fetch - processPackages [pycompall]: Remove: archive file [/home/abi/fetcher/tmp/pycompall-0.1.5.tar.gz]
+[2023-07-06 11:32:19] INFO root fetch - processPackages [pycompall]: Start processing: bluepymm
+[2023-07-06 11:32:19] INFO root fetch - main [MainThread]: End processing [pycompall]: success
+[2023-07-06 11:32:19] INFO root fetch - processPackages [pycompall]: Downloading https://files.pythonhosted.org/packages/e6/d0/8fac252a9a696282999836ad909f3945e7aaa17666309561b4a3b73acef1/pycompall-0.1.6.tar.gz
+[2023-07-06 11:32:19] INFO root fetch - processPackages [Digital-Farming-Solution]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-06 11:32:19] INFO root fetch - processPackages [bluepymm]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-06 11:32:19] INFO root fetch - processPackages [pycompall]: executing diffoscope
+[2023-07-06 11:32:19] INFO root fetch - processPackages [pycompall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycompall-0.1.5.tar.gz tmp/pycompall-0.1.6.tar.gz --markdown 20230706/p/pycompall/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-06 11:32:19] INFO root fetch - processPackages [macrometa-target-oracle]: Downloading https://files.pythonhosted.org/packages/a0/80/e2b08a616a27c8e81c0443ee41200ad4d121227c68ab6f394093dad44b33/macrometa-target-oracle-0.0.8.tar.gz
+[2023-07-06 11:32:19] INFO root fetch - processPackages [th2-check2-recon]: Downloading https://files.pythonhosted.org/packages/17/cd/330081b9a886f5f5194c556f84e05cb2e324ec5d1b3922530f3a9efc04f2/th2_check2_recon-4.0.0.dev4312132973.tar.gz
+[2023-07-06 11:32:19] INFO root fetch - processPackages [bluepymm]: Downloading https://files.pythonhosted.org/packages/48/32/15e98f01a92d6728db7fbdb55ab237f2a43eb2a1b2e7da4f791fea74b38a/bluepymm-0.9.0.tar.gz
+[2023-07-06 11:32:19] INFO root fetch - processPackages [macrometa-target-oracle]: executing diffoscope
+[2023-07-06 11:32:19] INFO root fetch - processPackages [macrometa-target-oracle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-oracle-0.0.7.tar.gz tmp/macrometa-target-oracle-0.0.8.tar.gz --markdown 20230706/m/macrometa-target-oracle/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-06 11:32:19] INFO root fetch - processPackages [th2-check2-recon]: executing diffoscope
+[2023-07-06 11:32:19] INFO root fetch - processPackages [th2-check2-recon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_check2_recon-4.0.0.dev3884233338.tar.gz tmp/th2_check2_recon-4.0.0.dev4312132973.tar.gz --markdown 20230706/t/th2-check2-recon/4.0.0.dev3884233338-4.0.0.dev4312132973/diff.md --exclude *.pyd
+[2023-07-06 11:32:19] INFO root fetch - processPackages [Digital-Farming-Solution]: Downloading https://files.pythonhosted.org/packages/d6/69/5fb9c03e5ec1c8078926ed664f5565bf4d64291c1b548c4dd66124e08a83/Digital_Farming_Solution-0.1.8.tar.gz
+[2023-07-06 11:32:19] INFO root fetch - processPackages [bluepymm]: Downloading https://files.pythonhosted.org/packages/f8/c7/470865fc27add151206d612b65d871bc647f7b078771dc7d73f77c476b40/bluepymm-0.9.1.tar.gz
+[2023-07-06 11:32:20] INFO root fetch - processPackages [bluepymm]: executing diffoscope
+[2023-07-06 11:32:20] INFO root fetch - processPackages [bluepymm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluepymm-0.9.0.tar.gz tmp/bluepymm-0.9.1.tar.gz --markdown 20230706/b/bluepymm/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-06 11:32:20] INFO root fetch - processPackages [Digital-Farming-Solution]: Downloading https://files.pythonhosted.org/packages/72/1a/d8e8a9832927a837d926da2ecb845407e5e87a8c1a303bc5912428380147/Digital_Farming_Solution-0.1.9.tar.gz
+[2023-07-06 11:32:20] ERROR root fetch - processPackages [pycompall]: Diffoscope failed: time="2023-07-06T11:32:19+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/pycompall-0.1.5.tar.gz: No such file or directory
+
+[2023-07-06 11:32:20] INFO root fetch - processPackages [pycompall]: Start processing: lsst-ctrl-mpexec
+[2023-07-06 11:32:20] INFO root fetch - main [MainThread]: End processing [pycompall] error
+[2023-07-06 11:32:20] INFO root fetch - processPackages [Digital-Farming-Solution]: executing diffoscope
+[2023-07-06 11:32:20] INFO root fetch - processPackages [Digital-Farming-Solution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Digital_Farming_Solution-0.1.8.tar.gz tmp/Digital_Farming_Solution-0.1.9.tar.gz --markdown 20230706/D/Digital-Farming-Solution/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-06 11:32:20] INFO root fetch - processPackages [lsst-ctrl-mpexec]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-07-06 11:32:20] INFO root fetch - processPackages [lsst-ctrl-mpexec]: Downloading https://files.pythonhosted.org/packages/7d/95/1fd49d0ac8149861738d465629d14648e00335b6f27b60edea825d22869f/lsst-ctrl-mpexec-26.0.0a20230400.tar.gz
+[2023-07-06 11:32:20] INFO root fetch - processPackages [grassmanntn]: Remove: archive file [/home/abi/fetcher/tmp/grassmanntn-1.1.8.tar.gz]
+[2023-07-06 11:32:20] INFO root fetch - processPackages [grassmanntn]: Remove: archive file [/home/abi/fetcher/tmp/grassmanntn-1.1.9.tar.gz]
+[2023-07-06 11:32:20] INFO root fetch - processPackages [grassmanntn]: Start processing: planqk-quantum
+[2023-07-06 11:32:20] INFO root fetch - main [MainThread]: End processing [grassmanntn]: success
+[2023-07-06 11:32:20] INFO root fetch - processPackages [planqk-quantum]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-07-06 11:32:21] INFO root fetch - processPackages [planqk-quantum]: Downloading https://files.pythonhosted.org/packages/4d/df/e39411b386f622eac6d984d121b4d4dd4df50cf045d7a56dbed1e9b98e30/planqk-quantum-1.8.1.tar.gz
+[2023-07-06 11:32:21] INFO root fetch - processPackages [pyracetimegg]: Remove: archive file [/home/abi/fetcher/tmp/pyracetimegg-2.2.0-py3-none-any.whl.zip]
+[2023-07-06 11:32:21] INFO root fetch - processPackages [pyracetimegg]: Remove: archive file [/home/abi/fetcher/tmp/pyracetimegg-2.3.0-py3-none-any.whl.zip]
+[2023-07-06 11:32:21] INFO root fetch - processPackages [pyracetimegg]: Start processing: onnx2kerastl
+[2023-07-06 11:32:21] INFO root fetch - main [MainThread]: End processing [pyracetimegg]: success
+[2023-07-06 11:32:21] INFO root fetch - processPackages [onnx2kerastl]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-06 11:32:21] INFO root fetch - processPackages [onnx2kerastl]: Downloading https://files.pythonhosted.org/packages/56/30/4fe6a62a391b7a1f4849721540cb3c2ac08682ab3718cd0bf95ad8649005/onnx2kerastl-0.0.98.tar.gz
+[2023-07-06 11:32:21] INFO root fetch - processPackages [lsst-ctrl-mpexec]: Downloading https://files.pythonhosted.org/packages/61/b7/81e5f821fadf907a5b8aba51baef7441e1a4b2d1899448ea4c15512f8b33/lsst-ctrl-mpexec-26.0.0a20230500.tar.gz
+[2023-07-06 11:32:21] INFO root fetch - processPackages [th2-check2-recon]: Remove: archive file [/home/abi/fetcher/tmp/th2_check2_recon-4.0.0.dev3884233338.tar.gz]
+[2023-07-06 11:32:21] INFO root fetch - processPackages [th2-check2-recon]: Remove: archive file [/home/abi/fetcher/tmp/th2_check2_recon-4.0.0.dev4312132973.tar.gz]
+[2023-07-06 11:32:21] INFO root fetch - processPackages [th2-check2-recon]: Start processing: mlserver
+[2023-07-06 11:32:21] INFO root fetch - main [MainThread]: End processing [th2-check2-recon]: success
+[2023-07-06 11:32:21] INFO root fetch - processPackages [macrometa-target-oracle]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-oracle-0.0.7.tar.gz]
+[2023-07-06 11:32:21] INFO root fetch - processPackages [macrometa-target-oracle]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-oracle-0.0.8.tar.gz]
+[2023-07-06 11:32:21] INFO root fetch - main [MainThread]: End processing [macrometa-target-oracle]: success
+[2023-07-06 11:32:21] INFO root fetch - processPackages [mlserver]: New version: [1.4.0.dev3] Old Version: [1.4.0.dev2]
+[2023-07-06 11:32:21] INFO root fetch - processPackages [planqk-quantum]: Downloading https://files.pythonhosted.org/packages/27/cd/7c7417ae486194a10bad744eb1a1602eeab50810db30e13ce59cca68bf99/planqk-quantum-1.8.2.tar.gz
+[2023-07-06 11:32:21] INFO root fetch - processPackages [onnx2kerastl]: Downloading https://files.pythonhosted.org/packages/42/31/7e8fff9b0c93088de0c4c5543ffd14e079e872d9a350b1b6f99febee59e8/onnx2kerastl-0.0.99.tar.gz
+[2023-07-06 11:32:21] INFO root fetch - processPackages [lsst-ctrl-mpexec]: executing diffoscope
+[2023-07-06 11:32:21] INFO root fetch - processPackages [lsst-ctrl-mpexec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-mpexec-26.0.0a20230400.tar.gz tmp/lsst-ctrl-mpexec-26.0.0a20230500.tar.gz --markdown 20230706/l/lsst-ctrl-mpexec/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-07-06 11:32:21] INFO root fetch - processPackages [mlserver]: Downloading https://files.pythonhosted.org/packages/5d/e9/3e344dce4950484ad82639f03f62c93f144f135e8d5e5f9af13e64b531a4/mlserver-1.4.0.dev2.tar.gz
+[2023-07-06 11:32:21] INFO root fetch - processPackages [planqk-quantum]: executing diffoscope
+[2023-07-06 11:32:21] INFO root fetch - processPackages [planqk-quantum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planqk-quantum-1.8.1.tar.gz tmp/planqk-quantum-1.8.2.tar.gz --markdown 20230706/p/planqk-quantum/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-07-06 11:32:21] INFO root fetch - processPackages [onnx2kerastl]: executing diffoscope
+[2023-07-06 11:32:21] INFO root fetch - processPackages [onnx2kerastl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2kerastl-0.0.98.tar.gz tmp/onnx2kerastl-0.0.99.tar.gz --markdown 20230706/o/onnx2kerastl/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-06 11:32:21] INFO root fetch - processPackages [mlserver]: Downloading https://files.pythonhosted.org/packages/bd/9b/6ab0e479f12ce544a54e4266c2469e57bb8f4264912eef16cc26190c7be3/mlserver-1.4.0.dev3.tar.gz
+[2023-07-06 11:32:22] INFO root fetch - processPackages [mly-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/mly_pipeline-0.5.3.tar.gz]
+[2023-07-06 11:32:22] INFO root fetch - processPackages [mly-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/mly_pipeline-0.5.4.tar.gz]
+[2023-07-06 11:32:22] INFO root fetch - main [MainThread]: End processing [mly-pipeline]: success
+[2023-07-06 11:32:22] INFO root fetch - processPackages [jsonschema]: Remove: archive file [/home/abi/fetcher/tmp/jsonschema-4.9.0.tar.gz]
+[2023-07-06 11:32:22] INFO root fetch - processPackages [jsonschema]: Remove: archive file [/home/abi/fetcher/tmp/jsonschema-4.9.1.tar.gz]
+[2023-07-06 11:32:22] INFO root fetch - main [MainThread]: End processing [jsonschema]: success
+[2023-07-06 11:32:22] INFO root fetch - processPackages [mlserver]: executing diffoscope
+[2023-07-06 11:32:22] INFO root fetch - processPackages [mlserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlserver-1.4.0.dev2.tar.gz tmp/mlserver-1.4.0.dev3.tar.gz --markdown 20230706/m/mlserver/1.4.0.dev2-1.4.0.dev3/diff.md --exclude *.pyd
+[2023-07-06 11:32:22] INFO root fetch - processPackages [Digital-Farming-Solution]: Remove: archive file [/home/abi/fetcher/tmp/Digital_Farming_Solution-0.1.8.tar.gz]
+[2023-07-06 11:32:22] INFO root fetch - processPackages [Digital-Farming-Solution]: Remove: archive file [/home/abi/fetcher/tmp/Digital_Farming_Solution-0.1.9.tar.gz]
+[2023-07-06 11:32:22] INFO root fetch - main [MainThread]: End processing [Digital-Farming-Solution]: success
+[2023-07-06 11:32:22] INFO root fetch - processPackages [bluepymm]: Remove: archive file [/home/abi/fetcher/tmp/bluepymm-0.9.0.tar.gz]
+[2023-07-06 11:32:22] INFO root fetch - processPackages [bluepymm]: Remove: archive file [/home/abi/fetcher/tmp/bluepymm-0.9.1.tar.gz]
+[2023-07-06 11:32:22] INFO root fetch - main [MainThread]: End processing [bluepymm]: success
+[2023-07-06 11:32:23] INFO root fetch - processPackages [onnx2kerastl]: Remove: archive file [/home/abi/fetcher/tmp/onnx2kerastl-0.0.98.tar.gz]
+[2023-07-06 11:32:23] INFO root fetch - processPackages [onnx2kerastl]: Remove: archive file [/home/abi/fetcher/tmp/onnx2kerastl-0.0.99.tar.gz]
+[2023-07-06 11:32:23] INFO root fetch - main [MainThread]: End processing [onnx2kerastl]: success
+[2023-07-06 11:32:23] INFO root fetch - processPackages [planqk-quantum]: Remove: archive file [/home/abi/fetcher/tmp/planqk-quantum-1.8.1.tar.gz]
+[2023-07-06 11:32:23] INFO root fetch - processPackages [planqk-quantum]: Remove: archive file [/home/abi/fetcher/tmp/planqk-quantum-1.8.2.tar.gz]
+[2023-07-06 11:32:23] INFO root fetch - main [MainThread]: End processing [planqk-quantum]: success
+[2023-07-06 11:32:23] INFO root fetch - processPackages [lsst-ctrl-mpexec]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-mpexec-26.0.0a20230400.tar.gz]
+[2023-07-06 11:32:23] INFO root fetch - processPackages [lsst-ctrl-mpexec]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-mpexec-26.0.0a20230500.tar.gz]
+[2023-07-06 11:32:23] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-mpexec]: success
+[2023-07-06 11:32:23] INFO root fetch - processPackages [mlserver]: Remove: archive file [/home/abi/fetcher/tmp/mlserver-1.4.0.dev2.tar.gz]
+[2023-07-06 11:32:23] INFO root fetch - processPackages [mlserver]: Remove: archive file [/home/abi/fetcher/tmp/mlserver-1.4.0.dev3.tar.gz]
+[2023-07-06 11:32:23] INFO root fetch - main [MainThread]: End processing [mlserver]: success
+[2023-07-06 11:32:25] INFO root fetch - processPackages [shared-atomic-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/shared_atomic_enterprise-5!2.3.6-py39-none-win_amd64.whl.zip]
+[2023-07-06 11:32:25] INFO root fetch - processPackages [shared-atomic-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/shared_atomic_enterprise-5!3.0.0-py39-none-win_amd64.whl.zip]
+[2023-07-06 11:32:25] INFO root fetch - main [MainThread]: End processing [shared-atomic-enterprise]: success
+[2023-07-06 11:32:25] INFO root fetch - main [MainThread]: Store serial: [18781076]
