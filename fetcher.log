@@ -4744,3 +4744,140 @@
 [2023-07-06 02:40:35] INFO root fetch - processPackages [non-local-detector]: Remove: archive file [/home/abi/fetcher/tmp/non_local_detector-0.2.8.dev0.tar.gz]
 [2023-07-06 02:40:35] INFO root fetch - main [MainThread]: End processing [non-local-detector]: success
 [2023-07-06 02:40:35] INFO root fetch - main [MainThread]: Store serial: [18775516]
+[2023-07-06 02:45:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18775516]
+[2023-07-06 02:45:44] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-06 02:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qontract-reconcile
+[2023-07-06 02:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aeppl-nightly
+[2023-07-06 02:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coiled
+[2023-07-06 02:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sweepai
+[2023-07-06 02:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk8s-plus-26
+[2023-07-06 02:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: srsgui
+[2023-07-06 02:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ircrobots
+[2023-07-06 02:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: owe-python-sdk
+[2023-07-06 02:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-tree
+[2023-07-06 02:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yplib
+[2023-07-06 02:45:44] INFO root fetch - processPackages [sweepai]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-06 02:45:44] INFO root fetch - processPackages [owe-python-sdk]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-07-06 02:45:44] INFO root fetch - processPackages [yplib]: New version: [2.2.6] Old Version: [2.2.5]
+[2023-07-06 02:45:44] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-07-06 02:45:44] INFO root fetch - processPackages [coiled]: New version: [0.8.1.dev9] Old Version: [0.8.1.dev8]
+[2023-07-06 02:45:44] INFO root fetch - processPackages [ircrobots]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-07-06 02:45:44] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.5.dev20230706] Old Version: [0.1.5.dev20230705]
+[2023-07-06 02:45:44] INFO root fetch - processPackages [django-tree]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-07-06 02:45:44] INFO root fetch - processPackages [srsgui]: New version: [0.4.1] Old Version: [0.4.0.1]
+[2023-07-06 02:45:44] INFO root fetch - processPackages [sweepai]: Downloading https://files.pythonhosted.org/packages/43/d2/5c8f830c91f6b22b2cdeb01b828ccd42c5acc380b5171c234c7895f8edf8/sweepai-0.2.4.tar.gz
+[2023-07-06 02:45:44] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-07-06 02:45:44] INFO root fetch - processPackages [owe-python-sdk]: Downloading https://files.pythonhosted.org/packages/b7/87/2ed4496794411461faafd9b31cde5a571ee0b54f11200933d019777ca951/owe_python_sdk-0.0.1a8.tar.gz
+[2023-07-06 02:45:44] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/6b/c4/ca78f2534fcd6fa938f5b5afdce2bc5d4b2e4aca2bd70a7a76993d55cb1a/cdk8s-plus-26-2.4.8.tar.gz
+[2023-07-06 02:45:44] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/db/eb/49e1cc3adcc0166cdf92dfa9f95154c12570c1a1abf9bee8d5c35a39a48b/yplib-2.2.5.tar.gz
+[2023-07-06 02:45:44] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/e1/61/6a536a80ecefe37ae22892e35c01c023b516781b9222ef159cb4823df439/coiled-0.8.1.dev8.tar.gz
+[2023-07-06 02:45:44] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/75/04/035a60d6320463843378b85fe3d105d3445ea38c58dcacb4632de004a1e3/aeppl-nightly-0.1.5.dev20230705.tar.gz
+[2023-07-06 02:45:45] INFO root fetch - processPackages [django-tree]: Downloading https://files.pythonhosted.org/packages/7c/4a/6bec1d4394f273b756cc315033a2098065cdf3c69da84ecd8e57313e3de4/django-tree-0.4.1.tar.gz
+[2023-07-06 02:45:45] INFO root fetch - processPackages [ircrobots]: Downloading https://files.pythonhosted.org/packages/cf/2a/a8da16a743b891e1294e6aacc4494dbb3c9b449722a0c4cb8d8a4ecbde1d/ircrobots-0.6.3.tar.gz
+[2023-07-06 02:45:45] INFO root fetch - processPackages [srsgui]: Downloading https://files.pythonhosted.org/packages/9c/4e/635e04fb64856fe0abd5bc96a03f47367628028f40e6694cfb7e9dc50328/srsgui-0.4.0.1.tar.gz
+[2023-07-06 02:45:45] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-07-06 02:45:45] INFO root fetch - processPackages [owe-python-sdk]: Downloading https://files.pythonhosted.org/packages/31/27/a7a614b3213736597496297134f4cd10fd0ecee2f977d8e86784bb925c43/owe_python_sdk-0.0.1a9.tar.gz
+[2023-07-06 02:45:45] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/0c/fa/e3b2faae0ae5060a6be0ff817c783c85d8c868885f941975a4b61286fcca/yplib-2.2.6.tar.gz
+[2023-07-06 02:45:45] INFO root fetch - processPackages [sweepai]: Downloading https://files.pythonhosted.org/packages/b5/1a/1fcfe30ccbb6261edb3911d2344cb21e17d25f2f64ad72b5d0a16eb02195/sweepai-0.2.5.tar.gz
+[2023-07-06 02:45:45] INFO root fetch - processPackages [owe-python-sdk]: executing diffoscope
+[2023-07-06 02:45:45] INFO root fetch - processPackages [owe-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owe_python_sdk-0.0.1a8.tar.gz tmp/owe_python_sdk-0.0.1a9.tar.gz --markdown 20230706/o/owe-python-sdk/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-07-06 02:45:45] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/18/4f/cbe9bc5a6a7b45e2c701ff2ffc269abc6cca5f79b8bf2834a103706c4d06/coiled-0.8.1.dev9.tar.gz
+[2023-07-06 02:45:45] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-07-06 02:45:45] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-2.2.5.tar.gz tmp/yplib-2.2.6.tar.gz --markdown 20230706/y/yplib/2.2.5-2.2.6/diff.md --exclude *.pyd
+[2023-07-06 02:45:45] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/20/3d/a3b8eeb4f101c4c0e5eec995ea1c102412a861b81c18eee0d10bad4570fb/cdk8s-plus-26-2.4.9.tar.gz
+[2023-07-06 02:45:45] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/c0/2e/e4ac73aa53d98fd24ead6dbaaa405366c3829c32735ff4cb80cf1669f6e2/aeppl-nightly-0.1.5.dev20230706.tar.gz
+[2023-07-06 02:45:45] INFO root fetch - processPackages [srsgui]: Downloading https://files.pythonhosted.org/packages/79/46/acb8f05646eac659e3789914bfee517e2b189e07a4787b1dd7e33ae715d9/srsgui-0.4.1.tar.gz
+[2023-07-06 02:45:45] INFO root fetch - processPackages [sweepai]: executing diffoscope
+[2023-07-06 02:45:45] INFO root fetch - processPackages [sweepai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweepai-0.2.4.tar.gz tmp/sweepai-0.2.5.tar.gz --markdown 20230706/s/sweepai/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-06 02:45:45] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-07-06 02:45:45] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.8.tar.gz tmp/cdk8s-plus-26-2.4.9.tar.gz --markdown 20230706/c/cdk8s-plus-26/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-07-06 02:45:45] INFO root fetch - processPackages [django-tree]: Downloading https://files.pythonhosted.org/packages/4e/76/c25e3728920fc503c0e356728e114dbe3d71338c0e4f4ca2f69b61cf020a/django-tree-0.5.0.tar.gz
+[2023-07-06 02:45:45] INFO root fetch - processPackages [ircrobots]: Downloading https://files.pythonhosted.org/packages/c2/d3/e7f32736ff7914b2a75820ac88546f7e6ce20ae2c5a14069b59984a9773a/ircrobots-0.6.4.tar.gz
+[2023-07-06 02:45:45] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-07-06 02:45:45] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-06 02:45:45] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.8.1.dev8.tar.gz tmp/coiled-0.8.1.dev9.tar.gz --markdown 20230706/c/coiled/0.8.1.dev8-0.8.1.dev9/diff.md --exclude *.pyd
+[2023-07-06 02:45:45] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2023-07-06 02:45:45] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl-nightly-0.1.5.dev20230705.tar.gz tmp/aeppl-nightly-0.1.5.dev20230706.tar.gz --markdown 20230706/a/aeppl-nightly/0.1.5.dev20230705-0.1.5.dev20230706/diff.md --exclude *.pyd
+[2023-07-06 02:45:45] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-07-06 02:45:45] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230706/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-07-06 02:45:45] INFO root fetch - processPackages [srsgui]: executing diffoscope
+[2023-07-06 02:45:45] INFO root fetch - processPackages [srsgui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/srsgui-0.4.0.1.tar.gz tmp/srsgui-0.4.1.tar.gz --markdown 20230706/s/srsgui/0.4.0.1-0.4.1/diff.md --exclude *.pyd
+[2023-07-06 02:45:45] INFO root fetch - processPackages [django-tree]: executing diffoscope
+[2023-07-06 02:45:45] INFO root fetch - processPackages [ircrobots]: executing diffoscope
+[2023-07-06 02:45:45] INFO root fetch - processPackages [django-tree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-tree-0.4.1.tar.gz tmp/django-tree-0.5.0.tar.gz --markdown 20230706/d/django-tree/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-07-06 02:45:45] INFO root fetch - processPackages [ircrobots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ircrobots-0.6.3.tar.gz tmp/ircrobots-0.6.4.tar.gz --markdown 20230706/i/ircrobots/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-07-06 02:45:46] INFO root fetch - processPackages [owe-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/owe_python_sdk-0.0.1a8.tar.gz]
+[2023-07-06 02:45:46] INFO root fetch - processPackages [owe-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/owe_python_sdk-0.0.1a9.tar.gz]
+[2023-07-06 02:45:46] INFO root fetch - processPackages [owe-python-sdk]: Start processing: state-machine-semaphore
+[2023-07-06 02:45:46] INFO root fetch - main [MainThread]: End processing [owe-python-sdk]: success
+[2023-07-06 02:45:46] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.2.5.tar.gz]
+[2023-07-06 02:45:46] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.2.6.tar.gz]
+[2023-07-06 02:45:46] INFO root fetch - processPackages [yplib]: Start processing: ircrobots
+[2023-07-06 02:45:46] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-07-06 02:45:46] INFO root fetch - processPackages [ircrobots]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-07-06 02:45:46] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-06 02:45:47] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2023-07-06 02:45:47] INFO root fetch - processPackages [ircrobots]: executing diffoscope
+[2023-07-06 02:45:47] INFO root fetch - processPackages [ircrobots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ircrobots-0.6.3.tar.gz tmp/ircrobots-0.6.4.tar.gz --markdown 20230706/i/ircrobots/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-07-06 02:45:47] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2023-07-06 02:45:47] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2023-07-06 02:45:47] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20230706/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-06 02:45:47] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-0.2.4.tar.gz]
+[2023-07-06 02:45:47] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-0.2.5.tar.gz]
+[2023-07-06 02:45:47] INFO root fetch - processPackages [sweepai]: Start processing: tfds-nightly
+[2023-07-06 02:45:47] INFO root fetch - main [MainThread]: End processing [sweepai]: success
+[2023-07-06 02:45:47] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202307050045] Old Version: [4.9.2.dev202307040046]
+[2023-07-06 02:45:47] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.1.dev8.tar.gz]
+[2023-07-06 02:45:47] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.8.tar.gz]
+[2023-07-06 02:45:47] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.1.dev9.tar.gz]
+[2023-07-06 02:45:47] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.9.tar.gz]
+[2023-07-06 02:45:47] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-06 02:45:47] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-07-06 02:45:47] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20230705.tar.gz]
+[2023-07-06 02:45:47] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20230706.tar.gz]
+[2023-07-06 02:45:47] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2023-07-06 02:45:47] INFO root fetch - processPackages [ircrobots]: Remove: archive file [/home/abi/fetcher/tmp/ircrobots-0.6.3.tar.gz]
+[2023-07-06 02:45:47] INFO root fetch - processPackages [ircrobots]: Remove: archive file [/home/abi/fetcher/tmp/ircrobots-0.6.4.tar.gz]
+[2023-07-06 02:45:47] INFO root fetch - processPackages [django-tree]: Remove: archive file [/home/abi/fetcher/tmp/django-tree-0.4.1.tar.gz]
+[2023-07-06 02:45:47] INFO root fetch - main [MainThread]: End processing [ircrobots]: success
+[2023-07-06 02:45:47] INFO root fetch - processPackages [django-tree]: Remove: archive file [/home/abi/fetcher/tmp/django-tree-0.5.0.tar.gz]
+[2023-07-06 02:45:47] INFO root fetch - main [MainThread]: End processing [django-tree]: success
+[2023-07-06 02:45:47] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/bf/6c/7f2f9028a3091c72ce4b603a03d710acdc85c0c4170ed43d45ff5d2eb120/tfds_nightly-4.9.2.dev202307040046-py3-none-any.whl
+[2023-07-06 02:45:48] ERROR root fetch - processPackages [ircrobots]: Diffoscope failed: time="2023-07-06T02:45:47+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
+
+[2023-07-06 02:45:48] INFO root fetch - main [MainThread]: End processing [ircrobots] error
+[2023-07-06 02:45:48] INFO root fetch - processPackages [srsgui]: Remove: archive file [/home/abi/fetcher/tmp/srsgui-0.4.0.1.tar.gz]
+[2023-07-06 02:45:48] INFO root fetch - processPackages [srsgui]: Remove: archive file [/home/abi/fetcher/tmp/srsgui-0.4.1.tar.gz]
+[2023-07-06 02:45:48] INFO root fetch - main [MainThread]: End processing [srsgui]: success
+[2023-07-06 02:45:48] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/aa/cc/219a128a615fddccae9ff4b5c31262bba58c324f9c25bcab9d3ae1128783/tfds-nightly-4.9.2.dev202307050045.tar.gz
+[2023-07-06 02:45:48] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2023-07-06 02:45:48] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2023-07-06 02:45:48] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2023-07-06 02:45:48] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-07-06 02:45:48] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds_nightly-4.9.2.dev202307040046-py3-none-any.whl.zip tmp/tfds-nightly-4.9.2.dev202307050045.tar.gz --markdown 20230706/t/tfds-nightly/4.9.2.dev202307040046-4.9.2.dev202307050045/diff.md --exclude *.pyd
+[2023-07-06 02:45:49] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-07-06 02:45:49] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-07-06 02:45:49] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-07-06 02:45:51] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds_nightly-4.9.2.dev202307040046-py3-none-any.whl.zip]
+[2023-07-06 02:45:51] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202307050045.tar.gz]
+[2023-07-06 02:45:51] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-07-06 02:45:51] INFO root fetch - main [MainThread]: Store serial: [18775558]
