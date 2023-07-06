@@ -13761,3 +13761,109 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-06 08:49:24] INFO root fetch - processPackages [jdcloud-sdk]: Remove: archive file [/home/abi/fetcher/tmp/jdcloud_sdk-1.6.99.tar.gz]
 [2023-07-06 08:49:24] INFO root fetch - main [MainThread]: End processing [jdcloud-sdk]: success
 [2023-07-06 08:49:24] INFO root fetch - main [MainThread]: Store serial: [18779183]
+[2023-07-06 08:54:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18779183]
+[2023-07-06 08:54:34] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-06 08:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ragbooster
+[2023-07-06 08:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xesai
+[2023-07-06 08:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: robotcloud-client
+[2023-07-06 08:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pontos
+[2023-07-06 08:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gajula
+[2023-07-06 08:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gajula
+[2023-07-06 08:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hak
+[2023-07-06 08:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qt5-cef
+[2023-07-06 08:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: event-vision-library
+[2023-07-06 08:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bemserver-ui
+[2023-07-06 08:54:34] WARNING root fetch - processPackages [xesai]: Skipping, unable to determine old version
+[2023-07-06 08:54:34] INFO root fetch - processPackages [xesai]: Start processing: click-extra
+[2023-07-06 08:54:34] INFO root fetch - main [MainThread]: End processing [xesai] error
+[2023-07-06 08:54:34] INFO root fetch - processPackages [gajula]: New version: [0.0.7] Old Version: [0.0.3]
+[2023-07-06 08:54:34] INFO root fetch - processPackages [qt5-cef]: New version: [1.1.9] Old Version: [1.1.7]
+[2023-07-06 08:54:34] INFO root fetch - processPackages [bemserver-ui]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-06 08:54:34] INFO root fetch - processPackages [ragbooster]: New version: [0.1.1] Old Version: [0.1.0rc3]
+[2023-07-06 08:54:34] INFO root fetch - processPackages [gajula]: New version: [0.0.7] Old Version: [0.0.3]
+[2023-07-06 08:54:34] INFO root fetch - processPackages [hak]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 08:54:34] INFO root fetch - processPackages [robotcloud-client]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-06 08:54:34] INFO root fetch - processPackages [event-vision-library]: New version: [0.0.1b0] Old Version: [0.0.1]
+[2023-07-06 08:54:34] INFO root fetch - processPackages [pontos]: New version: [23.7.3] Old Version: [23.7.2]
+[2023-07-06 08:54:34] INFO root fetch - processPackages [click-extra]: New version: [4.5.0] Old Version: [4.4.0]
+[2023-07-06 08:54:34] INFO root fetch - processPackages [bemserver-ui]: Downloading https://files.pythonhosted.org/packages/77/02/0623338c06dffd6d43e217cb7310265275d113d35b1d82d6cf0b39c471f2/bemserver-ui-0.6.0.tar.gz
+[2023-07-06 08:54:34] INFO root fetch - processPackages [gajula]: Downloading https://files.pythonhosted.org/packages/bf/0d/3e9b0c86a368703697b510f82f36702ec9222fe218f039242fc30f2372bf/gajula-0.0.3.tar.gz
+[2023-07-06 08:54:34] INFO root fetch - processPackages [gajula]: Downloading https://files.pythonhosted.org/packages/bf/0d/3e9b0c86a368703697b510f82f36702ec9222fe218f039242fc30f2372bf/gajula-0.0.3.tar.gz
+[2023-07-06 08:54:34] INFO root fetch - processPackages [ragbooster]: Downloading https://files.pythonhosted.org/packages/85/21/3dd73d0ef6999dce02e2756a126c8202cc2b770c510633c7a32d4f70c6ab/ragbooster-0.1.0rc3-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-06 08:54:34] INFO root fetch - processPackages [qt5-cef]: Downloading https://files.pythonhosted.org/packages/37/95/3cad9ba62356abef266a0f8040d3811ce13be52092c8a7b9b2a61a2e0c17/qt5-cef-1.1.7.tar.gz
+[2023-07-06 08:54:34] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/05/17/ad5ef91170b7c0e991a9c8bffa9f9a2dcf3961d5e90c31185bdf3ce8f425/hak-0.0.8.tar.gz
+[2023-07-06 08:54:34] INFO root fetch - processPackages [event-vision-library]: Downloading https://files.pythonhosted.org/packages/a5/cd/fe601c074e995b443e6ca0c1560b641b611f3d175e472ded0b67bad389ab/event_vision_library-0.0.1.tar.gz
+[2023-07-06 08:54:34] INFO root fetch - processPackages [robotcloud-client]: Downloading https://files.pythonhosted.org/packages/6a/bd/d897a7df3daffe92f8983a93fcb7db0c1d48c982836ee7e1b154bd794423/robotcloud-client-0.0.6.tar.gz
+[2023-07-06 08:54:34] INFO root fetch - processPackages [click-extra]: Downloading https://files.pythonhosted.org/packages/b0/1d/a24986747398c53ae81f3ce3c449f46119978a8afb1287a105c2a8b30b6c/click_extra-4.4.0.tar.gz
+[2023-07-06 08:54:34] INFO root fetch - processPackages [pontos]: Downloading https://files.pythonhosted.org/packages/87/b5/6a9730dac425a6c09ccd582098ac5c41a8256d0448920fd8e4bd24dd93e6/pontos-23.7.2.tar.gz
+[2023-07-06 08:54:35] INFO root fetch - processPackages [bemserver-ui]: Downloading https://files.pythonhosted.org/packages/79/87/76412507e80f932de9655b05d43467948d924b470806cb7caa0a088c1a06/bemserver-ui-0.6.1.tar.gz
+[2023-07-06 08:54:35] INFO root fetch - processPackages [gajula]: Downloading https://files.pythonhosted.org/packages/76/6f/96cc0c096d0a8acabc3ef916c4a189b8a7bf9b4075bcd9b6a78d71de04fe/gajula-0.0.7.tar.gz
+[2023-07-06 08:54:35] INFO root fetch - processPackages [gajula]: Downloading https://files.pythonhosted.org/packages/76/6f/96cc0c096d0a8acabc3ef916c4a189b8a7bf9b4075bcd9b6a78d71de04fe/gajula-0.0.7.tar.gz
+[2023-07-06 08:54:35] INFO root fetch - processPackages [ragbooster]: Downloading https://files.pythonhosted.org/packages/a1/5a/439257274768b915f72b100a5bea51e1832b507de6e9fb393a7e2af9bc16/ragbooster-0.1.1-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-06 08:54:35] INFO root fetch - processPackages [event-vision-library]: Downloading https://files.pythonhosted.org/packages/b3/62/169eb41f35db13ec0dc828c8a2a10abcb68f3b6c5b67ad1f97d4a01a6941/event_vision_library-0.0.1b0.tar.gz
+[2023-07-06 08:54:35] INFO root fetch - processPackages [gajula]: executing diffoscope
+[2023-07-06 08:54:35] INFO root fetch - processPackages [gajula]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gajula-0.0.3.tar.gz tmp/gajula-0.0.7.tar.gz --markdown 20230706/g/gajula/0.0.3-0.0.7/diff.md --exclude *.pyd
+[2023-07-06 08:54:35] INFO root fetch - processPackages [robotcloud-client]: Downloading https://files.pythonhosted.org/packages/a1/1e/e161f38f895780a3cf6481f2d61feb66b14da0e7c30bcfc7579ae3446ecf/robotcloud-client-0.0.7.tar.gz
+[2023-07-06 08:54:35] INFO root fetch - processPackages [qt5-cef]: Downloading https://files.pythonhosted.org/packages/3a/6a/4a90ad788d78aa29c4fb4e3f1d89cd60740e104bad9d1e9ca3ba78df95f0/qt5-cef-1.1.9.tar.gz
+[2023-07-06 08:54:35] INFO root fetch - processPackages [gajula]: executing diffoscope
+[2023-07-06 08:54:35] INFO root fetch - processPackages [gajula]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gajula-0.0.3.tar.gz tmp/gajula-0.0.7.tar.gz --markdown 20230706/g/gajula/0.0.3-0.0.7/diff.md --exclude *.pyd
+[2023-07-06 08:54:35] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/fd/2b/bf7b3451d5e3a84e9a674b47e9f046c4db1f582764a85a4dfc00e14ecf00/hak-0.0.9.tar.gz
+[2023-07-06 08:54:35] INFO root fetch - processPackages [click-extra]: Downloading https://files.pythonhosted.org/packages/c0/77/2a3cae089a6c785c6e96e02658118c3d79139b829a558687fcf164427e93/click_extra-4.5.0.tar.gz
+[2023-07-06 08:54:35] INFO root fetch - processPackages [pontos]: Downloading https://files.pythonhosted.org/packages/11/5e/fe9e08d6971aa531f59a60e764ccf9f027819b4f3e1546bb603a9760cb7a/pontos-23.7.3.tar.gz
+[2023-07-06 08:54:35] INFO root fetch - processPackages [event-vision-library]: executing diffoscope
+[2023-07-06 08:54:35] INFO root fetch - processPackages [event-vision-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/event_vision_library-0.0.1.tar.gz tmp/event_vision_library-0.0.1b0.tar.gz --markdown 20230706/e/event-vision-library/0.0.1-0.0.1b0/diff.md --exclude *.pyd
+[2023-07-06 08:54:35] INFO root fetch - processPackages [bemserver-ui]: executing diffoscope
+[2023-07-06 08:54:35] INFO root fetch - processPackages [bemserver-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bemserver-ui-0.6.0.tar.gz tmp/bemserver-ui-0.6.1.tar.gz --markdown 20230706/b/bemserver-ui/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-06 08:54:35] INFO root fetch - processPackages [robotcloud-client]: executing diffoscope
+[2023-07-06 08:54:35] INFO root fetch - processPackages [robotcloud-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcloud-client-0.0.6.tar.gz tmp/robotcloud-client-0.0.7.tar.gz --markdown 20230706/r/robotcloud-client/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-06 08:54:35] INFO root fetch - processPackages [qt5-cef]: executing diffoscope
+[2023-07-06 08:54:35] INFO root fetch - processPackages [qt5-cef]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qt5-cef-1.1.7.tar.gz tmp/qt5-cef-1.1.9.tar.gz --markdown 20230706/q/qt5-cef/1.1.7-1.1.9/diff.md --exclude *.pyd
+[2023-07-06 08:54:35] INFO root fetch - processPackages [click-extra]: executing diffoscope
+[2023-07-06 08:54:35] INFO root fetch - processPackages [click-extra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/click_extra-4.4.0.tar.gz tmp/click_extra-4.5.0.tar.gz --markdown 20230706/c/click-extra/4.4.0-4.5.0/diff.md --exclude *.pyd
+[2023-07-06 08:54:35] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-07-06 08:54:35] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.8.tar.gz tmp/hak-0.0.9.tar.gz --markdown 20230706/h/hak/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 08:54:35] INFO root fetch - processPackages [pontos]: executing diffoscope
+[2023-07-06 08:54:35] INFO root fetch - processPackages [pontos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pontos-23.7.2.tar.gz tmp/pontos-23.7.3.tar.gz --markdown 20230706/p/pontos/23.7.2-23.7.3/diff.md --exclude *.pyd
+[2023-07-06 08:54:35] INFO root fetch - processPackages [ragbooster]: executing diffoscope
+[2023-07-06 08:54:35] INFO root fetch - processPackages [ragbooster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragbooster-0.1.0rc3-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/ragbooster-0.1.1-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230706/r/ragbooster/0.1.0rc3-0.1.1/diff.md --exclude *.pyd
+[2023-07-06 08:54:36] INFO root fetch - processPackages [gajula]: Remove: archive file [/home/abi/fetcher/tmp/gajula-0.0.3.tar.gz]
+[2023-07-06 08:54:36] INFO root fetch - processPackages [gajula]: Remove: archive file [/home/abi/fetcher/tmp/gajula-0.0.7.tar.gz]
+[2023-07-06 08:54:36] INFO root fetch - processPackages [gajula]: Start processing: daam
+[2023-07-06 08:54:36] INFO root fetch - main [MainThread]: End processing [gajula]: success
+[2023-07-06 08:54:37] INFO root fetch - processPackages [gajula]: Start processing: serializer-service
+[2023-07-06 08:54:37] INFO root fetch - main [MainThread]: End processing [gajula]: success
+[2023-07-06 08:54:37] INFO root fetch - processPackages [daam]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-07-06 08:54:37] WARNING root fetch - processPackages [serializer-service]: Skipping, unable to determine old version
+[2023-07-06 08:54:37] INFO root fetch - main [MainThread]: End processing [serializer-service] error
+[2023-07-06 08:54:37] INFO root fetch - processPackages [robotcloud-client]: Remove: archive file [/home/abi/fetcher/tmp/robotcloud-client-0.0.6.tar.gz]
+[2023-07-06 08:54:37] INFO root fetch - processPackages [robotcloud-client]: Remove: archive file [/home/abi/fetcher/tmp/robotcloud-client-0.0.7.tar.gz]
+[2023-07-06 08:54:37] INFO root fetch - main [MainThread]: End processing [robotcloud-client]: success
+[2023-07-06 08:54:37] INFO root fetch - processPackages [qt5-cef]: Remove: archive file [/home/abi/fetcher/tmp/qt5-cef-1.1.7.tar.gz]
+[2023-07-06 08:54:37] INFO root fetch - processPackages [qt5-cef]: Remove: archive file [/home/abi/fetcher/tmp/qt5-cef-1.1.9.tar.gz]
+[2023-07-06 08:54:37] INFO root fetch - main [MainThread]: End processing [qt5-cef]: success
+[2023-07-06 08:54:37] INFO root fetch - processPackages [daam]: Downloading https://files.pythonhosted.org/packages/1d/65/a74b3fb69d50a2d3d432525022a3988da386a6929ac9daf6894056fe77d4/daam-0.0.9.tar.gz
+[2023-07-06 08:54:37] INFO root fetch - processPackages [event-vision-library]: Remove: archive file [/home/abi/fetcher/tmp/event_vision_library-0.0.1.tar.gz]
+[2023-07-06 08:54:37] INFO root fetch - processPackages [event-vision-library]: Remove: archive file [/home/abi/fetcher/tmp/event_vision_library-0.0.1b0.tar.gz]
+[2023-07-06 08:54:37] INFO root fetch - main [MainThread]: End processing [event-vision-library]: success
+[2023-07-06 08:54:37] INFO root fetch - processPackages [click-extra]: Remove: archive file [/home/abi/fetcher/tmp/click_extra-4.4.0.tar.gz]
+[2023-07-06 08:54:37] INFO root fetch - processPackages [click-extra]: Remove: archive file [/home/abi/fetcher/tmp/click_extra-4.5.0.tar.gz]
+[2023-07-06 08:54:37] INFO root fetch - main [MainThread]: End processing [click-extra]: success
+[2023-07-06 08:54:37] INFO root fetch - processPackages [daam]: Downloading https://files.pythonhosted.org/packages/14/66/dcca3d458daf9c06de2596b90ed56f8637e57dd772e5f8017fdca581235d/daam-0.1.0.tar.gz
+[2023-07-06 08:54:37] INFO root fetch - processPackages [daam]: executing diffoscope
+[2023-07-06 08:54:37] INFO root fetch - processPackages [daam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daam-0.0.9.tar.gz tmp/daam-0.1.0.tar.gz --markdown 20230706/d/daam/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-07-06 08:54:37] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.8.tar.gz]
+[2023-07-06 08:54:37] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
+[2023-07-06 08:54:37] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-07-06 08:54:38] INFO root fetch - processPackages [pontos]: Remove: archive file [/home/abi/fetcher/tmp/pontos-23.7.2.tar.gz]
+[2023-07-06 08:54:38] INFO root fetch - processPackages [pontos]: Remove: archive file [/home/abi/fetcher/tmp/pontos-23.7.3.tar.gz]
+[2023-07-06 08:54:38] INFO root fetch - main [MainThread]: End processing [pontos]: success
+[2023-07-06 08:54:38] INFO root fetch - processPackages [daam]: Remove: archive file [/home/abi/fetcher/tmp/daam-0.0.9.tar.gz]
+[2023-07-06 08:54:38] INFO root fetch - processPackages [daam]: Remove: archive file [/home/abi/fetcher/tmp/daam-0.1.0.tar.gz]
+[2023-07-06 08:54:38] INFO root fetch - main [MainThread]: End processing [daam]: success
+[2023-07-06 08:54:38] INFO root fetch - processPackages [bemserver-ui]: Remove: archive file [/home/abi/fetcher/tmp/bemserver-ui-0.6.0.tar.gz]
+[2023-07-06 08:54:38] INFO root fetch - processPackages [bemserver-ui]: Remove: archive file [/home/abi/fetcher/tmp/bemserver-ui-0.6.1.tar.gz]
+[2023-07-06 08:54:38] INFO root fetch - main [MainThread]: End processing [bemserver-ui]: success
+[2023-07-06 08:54:43] INFO root fetch - processPackages [ragbooster]: Remove: archive file [/home/abi/fetcher/tmp/ragbooster-0.1.0rc3-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-06 08:54:43] INFO root fetch - processPackages [ragbooster]: Remove: archive file [/home/abi/fetcher/tmp/ragbooster-0.1.1-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-06 08:54:43] INFO root fetch - main [MainThread]: End processing [ragbooster]: success
+[2023-07-06 08:54:43] INFO root fetch - main [MainThread]: Store serial: [18779268]
