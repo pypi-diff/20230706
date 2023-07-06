@@ -14114,3 +14114,93 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-06 09:05:19] INFO root fetch - processPackages [aliyun-python-sdk-dms-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-dms-enterprise-1.9.0.tar.gz]
 [2023-07-06 09:05:19] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-dms-enterprise]: success
 [2023-07-06 09:05:19] INFO root fetch - main [MainThread]: Store serial: [18779358]
+[2023-07-06 09:10:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18779358]
+[2023-07-06 09:10:28] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-06 09:10:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: th2-check2-recon
+[2023-07-06 09:10:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: QssStyle
+[2023-07-06 09:10:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lyrics-transcriber
+[2023-07-06 09:10:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: piel
+[2023-07-06 09:10:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nexrpa
+[2023-07-06 09:10:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: NeoBase
+[2023-07-06 09:10:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dithering
+[2023-07-06 09:10:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hydrusvideodeduplicator
+[2023-07-06 09:10:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vai-utils
+[2023-07-06 09:10:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: oc-portal-commons
+[2023-07-06 09:10:29] WARNING root fetch - processPackages [nexrpa]: Skipping, unable to determine old version
+[2023-07-06 09:10:29] INFO root fetch - processPackages [nexrpa]: Start processing: limberer
+[2023-07-06 09:10:29] INFO root fetch - main [MainThread]: End processing [nexrpa] error
+[2023-07-06 09:10:29] INFO root fetch - processPackages [piel]: New version: [0.0.37] Old Version: [0.0.36]
+[2023-07-06 09:10:29] INFO root fetch - processPackages [lyrics-transcriber]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-06 09:10:29] WARNING root fetch - processPackages [QssStyle]: Skipping, unable to determine old version
+[2023-07-06 09:10:29] INFO root fetch - main [MainThread]: End processing [QssStyle] error
+[2023-07-06 09:10:29] INFO root fetch - processPackages [dithering]: New version: [0.1.18] Old Version: [0.1.17]
+[2023-07-06 09:10:29] INFO root fetch - processPackages [vai-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 09:10:29] INFO root fetch - processPackages [oc-portal-commons]: New version: [11.0.4] Old Version: [11.0.3]
+[2023-07-06 09:10:29] INFO root fetch - processPackages [hydrusvideodeduplicator]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-06 09:10:29] INFO root fetch - processPackages [NeoBase]: New version: [0.9] Old Version: [0.8]
+[2023-07-06 09:10:29] INFO root fetch - processPackages [limberer]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-06 09:10:29] INFO root fetch - processPackages [th2-check2-recon]: New version: [4.0.0.dev4312132973] Old Version: [4.0.0.dev3884233338]
+[2023-07-06 09:10:29] INFO root fetch - processPackages [dithering]: Downloading https://files.pythonhosted.org/packages/f0/ad/76f49fb748a27c65fdbd8cdf7cdc7d814e020fa20068cb46a4b4ce0fad51/dithering-0.1.17.tar.gz
+[2023-07-06 09:10:29] INFO root fetch - processPackages [lyrics-transcriber]: Downloading https://files.pythonhosted.org/packages/d2/f3/c12f925ade2d876e385960d422d04323c1a69ddcf7350ee43be998a25a24/lyrics_transcriber-0.5.0.tar.gz
+[2023-07-06 09:10:29] INFO root fetch - processPackages [oc-portal-commons]: Downloading https://files.pythonhosted.org/packages/6e/38/23ef2d2a97af6c484c63453015e49f2c52f0105d122b76ae75b70b840bab/oc_portal_commons-11.0.3-py3-none-any.whl
+[2023-07-06 09:10:29] INFO root fetch - processPackages [vai-utils]: Downloading https://files.pythonhosted.org/packages/2a/c5/b650201e1ea7e829855614f40907ef2defa39710f779531e35c319e50057/vai_utils-0.0.8.tar.gz
+[2023-07-06 09:10:29] INFO root fetch - processPackages [limberer]: Downloading https://files.pythonhosted.org/packages/be/dc/a9c192b08f50bad4773f41fd2cc5a6547cd2531c5b327827a1a967766afa/limberer-0.3.1.tar.gz
+[2023-07-06 09:10:29] INFO root fetch - processPackages [th2-check2-recon]: Downloading https://files.pythonhosted.org/packages/21/8e/29b366312c8bd19e0082fa999b1a20cdf5c0870a085a5a70323b731808e3/th2_check2_recon-4.0.0.dev3884233338.tar.gz
+[2023-07-06 09:10:29] INFO root fetch - processPackages [hydrusvideodeduplicator]: Downloading https://files.pythonhosted.org/packages/68/71/36aa9e441606a25c0c3f6f128b186957a17d00e2b9f2359f6f667ca53d75/hydrusvideodeduplicator-0.2.0.tar.gz
+[2023-07-06 09:10:29] INFO root fetch - processPackages [piel]: Downloading https://files.pythonhosted.org/packages/36/fe/c9d0669485a14a17157d74d43a673a7ec668b1aaf102f8780545fcbfea83/piel-0.0.36.tar.gz
+[2023-07-06 09:10:29] INFO root fetch - processPackages [NeoBase]: Downloading https://files.pythonhosted.org/packages/b4/53/4b4f01141b8169f2bc36cbab336187c93b3d7c513e01de94771feafd459d/NeoBase-0.8.tar.gz
+[2023-07-06 09:10:29] INFO root fetch - processPackages [limberer]: Downloading https://files.pythonhosted.org/packages/1f/4d/a84a20e1a36238919e40bc4c99982a9b34906da2bd1551510d2a1807df4b/limberer-0.3.2.tar.gz
+[2023-07-06 09:10:29] INFO root fetch - processPackages [vai-utils]: Downloading https://files.pythonhosted.org/packages/50/d6/c8a89feec709275794b4ada17977186c2238b1c83c33a83b29230047b749/vai_utils-0.0.9.tar.gz
+[2023-07-06 09:10:29] INFO root fetch - processPackages [th2-check2-recon]: Downloading https://files.pythonhosted.org/packages/17/cd/330081b9a886f5f5194c556f84e05cb2e324ec5d1b3922530f3a9efc04f2/th2_check2_recon-4.0.0.dev4312132973.tar.gz
+[2023-07-06 09:10:29] INFO root fetch - processPackages [lyrics-transcriber]: Downloading https://files.pythonhosted.org/packages/e3/0a/b4b5feb83745cad74fbc642cf2ab0c1d6c9f04a911c0305a2528707aede5/lyrics_transcriber-0.5.1.tar.gz
+[2023-07-06 09:10:29] INFO root fetch - processPackages [oc-portal-commons]: Downloading https://files.pythonhosted.org/packages/0f/c8/22cde88cc1bb3237c5bd666da71aaf9cc1b881a6b2f3ef030a451294180b/oc_portal_commons-11.0.4-py3-none-any.whl
+[2023-07-06 09:10:29] INFO root fetch - processPackages [dithering]: Downloading https://files.pythonhosted.org/packages/43/d3/ea6facaea042718b03896cd94568fe1d15ed6d9d98e2d938f98ec75ff24b/dithering-0.1.18-pp37-pypy37_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-07-06 09:10:30] INFO root fetch - processPackages [piel]: Downloading https://files.pythonhosted.org/packages/49/8d/111e54a6bbd01ca6a30bbe2d7f8b05c2ef6bf550827238f347ba12991b26/piel-0.0.37.tar.gz
+[2023-07-06 09:10:30] INFO root fetch - processPackages [hydrusvideodeduplicator]: Downloading https://files.pythonhosted.org/packages/e0/68/d17f950110478e2b680b9215b7b8266cdfd9de8e278033f36bd2c96441e6/hydrusvideodeduplicator-0.2.1.tar.gz
+[2023-07-06 09:10:30] INFO root fetch - processPackages [lyrics-transcriber]: executing diffoscope
+[2023-07-06 09:10:30] INFO root fetch - processPackages [lyrics-transcriber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyrics_transcriber-0.5.0.tar.gz tmp/lyrics_transcriber-0.5.1.tar.gz --markdown 20230706/l/lyrics-transcriber/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-06 09:10:30] INFO root fetch - processPackages [th2-check2-recon]: executing diffoscope
+[2023-07-06 09:10:30] INFO root fetch - processPackages [th2-check2-recon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_check2_recon-4.0.0.dev3884233338.tar.gz tmp/th2_check2_recon-4.0.0.dev4312132973.tar.gz --markdown 20230706/t/th2-check2-recon/4.0.0.dev3884233338-4.0.0.dev4312132973/diff.md --exclude *.pyd
+[2023-07-06 09:10:30] INFO root fetch - processPackages [limberer]: executing diffoscope
+[2023-07-06 09:10:30] INFO root fetch - processPackages [limberer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/limberer-0.3.1.tar.gz tmp/limberer-0.3.2.tar.gz --markdown 20230706/l/limberer/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-06 09:10:30] INFO root fetch - processPackages [vai-utils]: executing diffoscope
+[2023-07-06 09:10:30] INFO root fetch - processPackages [vai-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vai_utils-0.0.8.tar.gz tmp/vai_utils-0.0.9.tar.gz --markdown 20230706/v/vai-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 09:10:30] INFO root fetch - processPackages [oc-portal-commons]: executing diffoscope
+[2023-07-06 09:10:30] INFO root fetch - processPackages [oc-portal-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oc_portal_commons-11.0.3-py3-none-any.whl.zip tmp/oc_portal_commons-11.0.4-py3-none-any.whl.zip --markdown 20230706/o/oc-portal-commons/11.0.3-11.0.4/diff.md --exclude *.pyd
+[2023-07-06 09:10:30] INFO root fetch - processPackages [piel]: executing diffoscope
+[2023-07-06 09:10:30] INFO root fetch - processPackages [piel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piel-0.0.36.tar.gz tmp/piel-0.0.37.tar.gz --markdown 20230706/p/piel/0.0.36-0.0.37/diff.md --exclude *.pyd
+[2023-07-06 09:10:30] INFO root fetch - processPackages [hydrusvideodeduplicator]: executing diffoscope
+[2023-07-06 09:10:30] INFO root fetch - processPackages [hydrusvideodeduplicator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydrusvideodeduplicator-0.2.0.tar.gz tmp/hydrusvideodeduplicator-0.2.1.tar.gz --markdown 20230706/h/hydrusvideodeduplicator/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-06 09:10:30] INFO root fetch - processPackages [NeoBase]: Downloading https://files.pythonhosted.org/packages/1c/f1/8a7eff769f23a3a8cfc58c10f83fd688a54ca4051adf2fc99487632e3c4b/NeoBase-0.9.tar.gz
+[2023-07-06 09:10:31] INFO root fetch - processPackages [NeoBase]: executing diffoscope
+[2023-07-06 09:10:31] INFO root fetch - processPackages [NeoBase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NeoBase-0.8.tar.gz tmp/NeoBase-0.9.tar.gz --markdown 20230706/N/NeoBase/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-06 09:10:31] INFO root fetch - processPackages [dithering]: executing diffoscope
+[2023-07-06 09:10:31] INFO root fetch - processPackages [dithering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dithering-0.1.17.tar.gz tmp/dithering-0.1.18-pp37-pypy37_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20230706/d/dithering/0.1.17-0.1.18/diff.md --exclude *.pyd
+[2023-07-06 09:10:31] INFO root fetch - processPackages [lyrics-transcriber]: Remove: archive file [/home/abi/fetcher/tmp/lyrics_transcriber-0.5.0.tar.gz]
+[2023-07-06 09:10:31] INFO root fetch - processPackages [lyrics-transcriber]: Remove: archive file [/home/abi/fetcher/tmp/lyrics_transcriber-0.5.1.tar.gz]
+[2023-07-06 09:10:31] INFO root fetch - main [MainThread]: End processing [lyrics-transcriber]: success
+[2023-07-06 09:10:31] INFO root fetch - processPackages [th2-check2-recon]: Remove: archive file [/home/abi/fetcher/tmp/th2_check2_recon-4.0.0.dev3884233338.tar.gz]
+[2023-07-06 09:10:31] INFO root fetch - processPackages [th2-check2-recon]: Remove: archive file [/home/abi/fetcher/tmp/th2_check2_recon-4.0.0.dev4312132973.tar.gz]
+[2023-07-06 09:10:31] INFO root fetch - main [MainThread]: End processing [th2-check2-recon]: success
+[2023-07-06 09:10:31] INFO root fetch - processPackages [vai-utils]: Remove: archive file [/home/abi/fetcher/tmp/vai_utils-0.0.8.tar.gz]
+[2023-07-06 09:10:31] INFO root fetch - processPackages [vai-utils]: Remove: archive file [/home/abi/fetcher/tmp/vai_utils-0.0.9.tar.gz]
+[2023-07-06 09:10:31] INFO root fetch - main [MainThread]: End processing [vai-utils]: success
+[2023-07-06 09:10:31] INFO root fetch - processPackages [limberer]: Remove: archive file [/home/abi/fetcher/tmp/limberer-0.3.1.tar.gz]
+[2023-07-06 09:10:31] INFO root fetch - processPackages [limberer]: Remove: archive file [/home/abi/fetcher/tmp/limberer-0.3.2.tar.gz]
+[2023-07-06 09:10:31] INFO root fetch - main [MainThread]: End processing [limberer]: success
+[2023-07-06 09:10:32] INFO root fetch - processPackages [oc-portal-commons]: Remove: archive file [/home/abi/fetcher/tmp/oc_portal_commons-11.0.3-py3-none-any.whl.zip]
+[2023-07-06 09:10:32] INFO root fetch - processPackages [oc-portal-commons]: Remove: archive file [/home/abi/fetcher/tmp/oc_portal_commons-11.0.4-py3-none-any.whl.zip]
+[2023-07-06 09:10:32] INFO root fetch - main [MainThread]: End processing [oc-portal-commons]: success
+[2023-07-06 09:10:32] INFO root fetch - processPackages [hydrusvideodeduplicator]: Remove: archive file [/home/abi/fetcher/tmp/hydrusvideodeduplicator-0.2.0.tar.gz]
+[2023-07-06 09:10:32] INFO root fetch - processPackages [hydrusvideodeduplicator]: Remove: archive file [/home/abi/fetcher/tmp/hydrusvideodeduplicator-0.2.1.tar.gz]
+[2023-07-06 09:10:32] INFO root fetch - main [MainThread]: End processing [hydrusvideodeduplicator]: success
+[2023-07-06 09:10:32] INFO root fetch - processPackages [piel]: Remove: archive file [/home/abi/fetcher/tmp/piel-0.0.36.tar.gz]
+[2023-07-06 09:10:32] INFO root fetch - processPackages [piel]: Remove: archive file [/home/abi/fetcher/tmp/piel-0.0.37.tar.gz]
+[2023-07-06 09:10:32] INFO root fetch - main [MainThread]: End processing [piel]: success
+[2023-07-06 09:10:32] INFO root fetch - processPackages [dithering]: Remove: archive file [/home/abi/fetcher/tmp/dithering-0.1.17.tar.gz]
+[2023-07-06 09:10:32] INFO root fetch - processPackages [dithering]: Remove: archive file [/home/abi/fetcher/tmp/dithering-0.1.18-pp37-pypy37_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
+[2023-07-06 09:10:32] INFO root fetch - main [MainThread]: End processing [dithering]: success
+[2023-07-06 09:10:33] INFO root fetch - processPackages [NeoBase]: Remove: archive file [/home/abi/fetcher/tmp/NeoBase-0.8.tar.gz]
+[2023-07-06 09:10:33] INFO root fetch - processPackages [NeoBase]: Remove: archive file [/home/abi/fetcher/tmp/NeoBase-0.9.tar.gz]
+[2023-07-06 09:10:33] INFO root fetch - main [MainThread]: End processing [NeoBase]: success
+[2023-07-06 09:10:33] INFO root fetch - main [MainThread]: Store serial: [18779446]
