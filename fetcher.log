@@ -21410,3 +21410,112 @@ AssertionError: tmp/termkit-0.2.0a4.tar.gz does not exist
 [2023-07-06 13:04:34] INFO root fetch - processPackages [diamond-next]: Remove: archive file [/home/abi/fetcher/tmp/diamond-next-5.0.0.tar.gz]
 [2023-07-06 13:04:34] INFO root fetch - main [MainThread]: End processing [diamond-next]: success
 [2023-07-06 13:04:34] INFO root fetch - main [MainThread]: Store serial: [18782365]
+[2023-07-06 13:09:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18782365]
+[2023-07-06 13:09:44] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-06 13:09:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: audiostretchy
+[2023-07-06 13:09:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CRYSTALpytools
+[2023-07-06 13:09:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: testdwg
+[2023-07-06 13:09:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sphinx-typo3-theme
+[2023-07-06 13:09:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arraylib-solve
+[2023-07-06 13:09:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: treams
+[2023-07-06 13:09:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mobio-dedupe-sdk-test
+[2023-07-06 13:09:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sh-dynamodb
+[2023-07-06 13:09:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyoxynet
+[2023-07-06 13:09:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: arraylib-solve
+[2023-07-06 13:09:44] INFO root fetch - processPackages [treams]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-06 13:09:44] INFO root fetch - processPackages [sh-dynamodb]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-06 13:09:44] INFO root fetch - processPackages [arraylib-solve]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-06 13:09:44] INFO root fetch - processPackages [testdwg]: New version: [1.0.9] Old Version: [1.0.6]
+[2023-07-06 13:09:44] INFO root fetch - processPackages [arraylib-solve]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-06 13:09:44] INFO root fetch - processPackages [pyoxynet]: New version: [0.0.9.9] Old Version: [0.0.9.8]
+[2023-07-06 13:09:44] INFO root fetch - processPackages [audiostretchy]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-07-06 13:09:44] INFO root fetch - processPackages [treams]: Downloading https://files.pythonhosted.org/packages/2e/a4/6c1c00cebbffb47c9e8531d7a65c052aee95c13bd461b7d098c902e68e22/treams-0.3.0.tar.gz
+[2023-07-06 13:09:44] INFO root fetch - processPackages [sphinx-typo3-theme]: New version: [4.9.0] Old Version: [4.8.0]
+[2023-07-06 13:09:44] INFO root fetch - processPackages [CRYSTALpytools]: New version: [2023.7.6] Old Version: [2023.6.7]
+[2023-07-06 13:09:44] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-06 13:09:44] INFO root fetch - processPackages [arraylib-solve]: Downloading https://files.pythonhosted.org/packages/54/a8/3ce0db62e41731b9c9bc19b0b253b6db4486b7a766443276c20c5d0f00d5/arraylib_solve-0.8.0.tar.gz
+[2023-07-06 13:09:44] INFO root fetch - processPackages [pyoxynet]: Downloading https://files.pythonhosted.org/packages/b0/fc/515fba70151d23e2002eff3cb89de86f3323f2de498b24ac5634ad424107/pyoxynet-0.0.9.8.tar.gz
+[2023-07-06 13:09:44] INFO root fetch - processPackages [testdwg]: Downloading https://files.pythonhosted.org/packages/50/d9/44aaaf7ba967f304d5f076fbc8a8f1827eae9c7150d736fdaa0c22cf1cfb/testdwg-1.0.6.tar.gz
+[2023-07-06 13:09:44] INFO root fetch - processPackages [arraylib-solve]: Downloading https://files.pythonhosted.org/packages/54/a8/3ce0db62e41731b9c9bc19b0b253b6db4486b7a766443276c20c5d0f00d5/arraylib_solve-0.8.0.tar.gz
+[2023-07-06 13:09:44] INFO root fetch - processPackages [sh-dynamodb]: Downloading https://files.pythonhosted.org/packages/4a/16/07ad40fc14d51ad133703ed0a3dd5add57039ca91c57fb9991e6571ec360/sh-dynamodb-1.0.3.tar.gz
+[2023-07-06 13:09:45] INFO root fetch - processPackages [audiostretchy]: Downloading https://files.pythonhosted.org/packages/13/90/41da00af125c3fa1e282bf93e5b2380daeb493c515c1e47e14695ebf865e/audiostretchy-1.3.1.tar.gz
+[2023-07-06 13:09:45] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: Downloading https://files.pythonhosted.org/packages/98/0a/f80291d79092ba71951b6a26781203de5b206e3b53648fcad156d782fef1/mobio-dedupe-sdk-test-1.0.8.tar.gz
+[2023-07-06 13:09:45] INFO root fetch - processPackages [sphinx-typo3-theme]: Downloading https://files.pythonhosted.org/packages/90/a0/5354ade74861569ed725e6ac62642b29a1b9859210996c6f2f9ca96c7640/sphinx_typo3_theme-4.8.0-py2.py3-none-any.whl
+[2023-07-06 13:09:45] INFO root fetch - processPackages [CRYSTALpytools]: Downloading https://files.pythonhosted.org/packages/37/5b/f8961dbba10734695afb7d242256cb83ae0a79e58044dc38191da05c32ac/CRYSTALpytools-2023.6.7.tar.gz
+[2023-07-06 13:09:45] INFO root fetch - processPackages [arraylib-solve]: Downloading https://files.pythonhosted.org/packages/99/da/01f7df718ea448ff62fb19424a662d999214580ce453370bbadaf861d9bf/arraylib_solve-0.9.0.tar.gz
+[2023-07-06 13:09:45] INFO root fetch - processPackages [testdwg]: Downloading https://files.pythonhosted.org/packages/fc/ea/35bbc5577271cd8393b7c56a5dfc6fa5f872ca248dbd7f156a9f8290ad12/testdwg-1.0.9.tar.gz
+[2023-07-06 13:09:45] INFO root fetch - processPackages [sh-dynamodb]: Downloading https://files.pythonhosted.org/packages/c7/4d/62750b7d87a50117f585cc51887f2f383788a91f00c722db77f9bbf42421/sh-dynamodb-1.0.4.tar.gz
+[2023-07-06 13:09:45] INFO root fetch - processPackages [treams]: Downloading https://files.pythonhosted.org/packages/2e/de/91e774a45f2a38b69c0a2e191532095d183f045b76e1145ed2ee2ed394e2/treams-0.3.1.tar.gz
+[2023-07-06 13:09:45] INFO root fetch - processPackages [arraylib-solve]: Downloading https://files.pythonhosted.org/packages/99/da/01f7df718ea448ff62fb19424a662d999214580ce453370bbadaf861d9bf/arraylib_solve-0.9.0.tar.gz
+[2023-07-06 13:09:45] INFO root fetch - processPackages [testdwg]: executing diffoscope
+[2023-07-06 13:09:45] INFO root fetch - processPackages [testdwg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testdwg-1.0.6.tar.gz tmp/testdwg-1.0.9.tar.gz --markdown 20230706/t/testdwg/1.0.6-1.0.9/diff.md --exclude *.pyd
+[2023-07-06 13:09:45] INFO root fetch - processPackages [arraylib-solve]: executing diffoscope
+[2023-07-06 13:09:45] INFO root fetch - processPackages [arraylib-solve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arraylib_solve-0.8.0.tar.gz tmp/arraylib_solve-0.9.0.tar.gz --markdown 20230706/a/arraylib-solve/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-06 13:09:45] INFO root fetch - processPackages [sh-dynamodb]: executing diffoscope
+[2023-07-06 13:09:45] INFO root fetch - processPackages [sh-dynamodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sh-dynamodb-1.0.3.tar.gz tmp/sh-dynamodb-1.0.4.tar.gz --markdown 20230706/s/sh-dynamodb/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-06 13:09:45] INFO root fetch - processPackages [pyoxynet]: Downloading https://files.pythonhosted.org/packages/41/8b/2c3056a7fa525137845d730655c8ebdc5f75e1a43909a910d81142b5a885/pyoxynet-0.0.9.9.tar.gz
+[2023-07-06 13:09:45] INFO root fetch - processPackages [arraylib-solve]: executing diffoscope
+[2023-07-06 13:09:45] INFO root fetch - processPackages [arraylib-solve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arraylib_solve-0.8.0.tar.gz tmp/arraylib_solve-0.9.0.tar.gz --markdown 20230706/a/arraylib-solve/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-06 13:09:45] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: Downloading https://files.pythonhosted.org/packages/fb/55/bea5bcd8c73ef0540ea1f104c083c029da19c180d5e0975d46423db7c71c/mobio-dedupe-sdk-test-1.0.9.tar.gz
+[2023-07-06 13:09:45] INFO root fetch - processPackages [CRYSTALpytools]: Downloading https://files.pythonhosted.org/packages/9f/c4/c4625697b4239585991dc6437e0ad1f34d9a3bbae6864a3a0d15c52fa693/CRYSTALpytools-2023.7.6.tar.gz
+[2023-07-06 13:09:45] INFO root fetch - processPackages [treams]: executing diffoscope
+[2023-07-06 13:09:45] INFO root fetch - processPackages [treams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/treams-0.3.0.tar.gz tmp/treams-0.3.1.tar.gz --markdown 20230706/t/treams/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-06 13:09:45] INFO root fetch - processPackages [audiostretchy]: Downloading https://files.pythonhosted.org/packages/e8/e0/bf7a171e4c7dd9b46585fe7298183c7716dd65134ee1ec3dae013ed07dc8/audiostretchy-1.3.2.tar.gz
+[2023-07-06 13:09:45] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: executing diffoscope
+[2023-07-06 13:09:45] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobio-dedupe-sdk-test-1.0.8.tar.gz tmp/mobio-dedupe-sdk-test-1.0.9.tar.gz --markdown 20230706/m/mobio-dedupe-sdk-test/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-06 13:09:45] INFO root fetch - processPackages [sphinx-typo3-theme]: Downloading https://files.pythonhosted.org/packages/84/d0/dff2fb5417d0ff4ad517c388a0380c9b362c87d482e581a4f304b1e8d088/sphinx_typo3_theme-4.9.0-py2.py3-none-any.whl
+[2023-07-06 13:09:45] INFO root fetch - processPackages [CRYSTALpytools]: executing diffoscope
+[2023-07-06 13:09:45] INFO root fetch - processPackages [CRYSTALpytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CRYSTALpytools-2023.6.7.tar.gz tmp/CRYSTALpytools-2023.7.6.tar.gz --markdown 20230706/C/CRYSTALpytools/2023.6.7-2023.7.6/diff.md --exclude *.pyd
+[2023-07-06 13:09:45] INFO root fetch - processPackages [pyoxynet]: executing diffoscope
+[2023-07-06 13:09:45] INFO root fetch - processPackages [pyoxynet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyoxynet-0.0.9.8.tar.gz tmp/pyoxynet-0.0.9.9.tar.gz --markdown 20230706/p/pyoxynet/0.0.9.8-0.0.9.9/diff.md --exclude *.pyd
+[2023-07-06 13:09:46] INFO root fetch - processPackages [audiostretchy]: executing diffoscope
+[2023-07-06 13:09:46] INFO root fetch - processPackages [audiostretchy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiostretchy-1.3.1.tar.gz tmp/audiostretchy-1.3.2.tar.gz --markdown 20230706/a/audiostretchy/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-07-06 13:09:46] INFO root fetch - processPackages [sphinx-typo3-theme]: executing diffoscope
+[2023-07-06 13:09:46] INFO root fetch - processPackages [sphinx-typo3-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_typo3_theme-4.8.0-py2.py3-none-any.whl.zip tmp/sphinx_typo3_theme-4.9.0-py2.py3-none-any.whl.zip --markdown 20230706/s/sphinx-typo3-theme/4.8.0-4.9.0/diff.md --exclude *.pyd
+[2023-07-06 13:09:47] INFO root fetch - processPackages [testdwg]: Remove: archive file [/home/abi/fetcher/tmp/testdwg-1.0.6.tar.gz]
+[2023-07-06 13:09:47] INFO root fetch - processPackages [testdwg]: Remove: archive file [/home/abi/fetcher/tmp/testdwg-1.0.9.tar.gz]
+[2023-07-06 13:09:47] INFO root fetch - processPackages [testdwg]: Start processing: najapy
+[2023-07-06 13:09:47] INFO root fetch - main [MainThread]: End processing [testdwg]: success
+[2023-07-06 13:09:47] INFO root fetch - processPackages [arraylib-solve]: Remove: archive file [/home/abi/fetcher/tmp/arraylib_solve-0.8.0.tar.gz]
+[2023-07-06 13:09:47] INFO root fetch - processPackages [arraylib-solve]: Remove: archive file [/home/abi/fetcher/tmp/arraylib_solve-0.9.0.tar.gz]
+[2023-07-06 13:09:47] INFO root fetch - processPackages [arraylib-solve]: Start processing: sunpeek
+[2023-07-06 13:09:47] INFO root fetch - main [MainThread]: End processing [arraylib-solve]: success
+[2023-07-06 13:09:47] INFO root fetch - processPackages [najapy]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-07-06 13:09:47] INFO root fetch - processPackages [sunpeek]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-06 13:09:47] INFO root fetch - processPackages [sh-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/sh-dynamodb-1.0.3.tar.gz]
+[2023-07-06 13:09:47] INFO root fetch - processPackages [sh-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/sh-dynamodb-1.0.4.tar.gz]
+[2023-07-06 13:09:47] INFO root fetch - main [MainThread]: End processing [sh-dynamodb]: success
+[2023-07-06 13:09:47] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: Remove: archive file [/home/abi/fetcher/tmp/mobio-dedupe-sdk-test-1.0.8.tar.gz]
+[2023-07-06 13:09:47] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: Remove: archive file [/home/abi/fetcher/tmp/mobio-dedupe-sdk-test-1.0.9.tar.gz]
+[2023-07-06 13:09:47] INFO root fetch - main [MainThread]: End processing [mobio-dedupe-sdk-test]: success
+[2023-07-06 13:09:47] INFO root fetch - main [MainThread]: End processing [arraylib-solve]: success
+[2023-07-06 13:09:47] INFO root fetch - processPackages [sunpeek]: Downloading https://files.pythonhosted.org/packages/7d/87/fc2d2721ed03813871d259741139dcbcb0f1a5a7686743ee6d533d5af952/sunpeek-0.2.8-py3-none-any.whl
+[2023-07-06 13:09:47] INFO root fetch - processPackages [najapy]: Downloading https://files.pythonhosted.org/packages/8d/f7/7fa644554597be1e4f5032f518ada285b6f09a7677dd95173482b99c8d75/najapy-1.3.0.tar.gz
+[2023-07-06 13:09:47] INFO root fetch - processPackages [CRYSTALpytools]: Remove: archive file [/home/abi/fetcher/tmp/CRYSTALpytools-2023.6.7.tar.gz]
+[2023-07-06 13:09:47] INFO root fetch - processPackages [CRYSTALpytools]: Remove: archive file [/home/abi/fetcher/tmp/CRYSTALpytools-2023.7.6.tar.gz]
+[2023-07-06 13:09:47] INFO root fetch - main [MainThread]: End processing [CRYSTALpytools]: success
+[2023-07-06 13:09:47] INFO root fetch - processPackages [sunpeek]: Downloading https://files.pythonhosted.org/packages/a5/83/92e0e84a50850a618aae14d33638554bcbb3ccc7fc4a8bad2c03cfa0ed20/sunpeek-0.2.9-py3-none-any.whl
+[2023-07-06 13:09:47] INFO root fetch - processPackages [najapy]: Downloading https://files.pythonhosted.org/packages/8a/70/55af7d35bfbdb0adc2c6f44278132d39abc3f1261b55e1c8f1906f7cd52e/najapy-1.3.1.tar.gz
+[2023-07-06 13:09:47] INFO root fetch - processPackages [audiostretchy]: Remove: archive file [/home/abi/fetcher/tmp/audiostretchy-1.3.1.tar.gz]
+[2023-07-06 13:09:47] INFO root fetch - processPackages [audiostretchy]: Remove: archive file [/home/abi/fetcher/tmp/audiostretchy-1.3.2.tar.gz]
+[2023-07-06 13:09:47] INFO root fetch - main [MainThread]: End processing [audiostretchy]: success
+[2023-07-06 13:09:47] INFO root fetch - processPackages [sunpeek]: executing diffoscope
+[2023-07-06 13:09:47] INFO root fetch - processPackages [sunpeek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunpeek-0.2.8-py3-none-any.whl.zip tmp/sunpeek-0.2.9-py3-none-any.whl.zip --markdown 20230706/s/sunpeek/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-06 13:09:47] INFO root fetch - processPackages [najapy]: executing diffoscope
+[2023-07-06 13:09:47] INFO root fetch - processPackages [najapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/najapy-1.3.0.tar.gz tmp/najapy-1.3.1.tar.gz --markdown 20230706/n/najapy/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-07-06 13:09:48] INFO root fetch - processPackages [sphinx-typo3-theme]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_typo3_theme-4.8.0-py2.py3-none-any.whl.zip]
+[2023-07-06 13:09:48] INFO root fetch - processPackages [sphinx-typo3-theme]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_typo3_theme-4.9.0-py2.py3-none-any.whl.zip]
+[2023-07-06 13:09:48] INFO root fetch - main [MainThread]: End processing [sphinx-typo3-theme]: success
+[2023-07-06 13:09:48] INFO root fetch - processPackages [pyoxynet]: Remove: archive file [/home/abi/fetcher/tmp/pyoxynet-0.0.9.8.tar.gz]
+[2023-07-06 13:09:48] INFO root fetch - processPackages [pyoxynet]: Remove: archive file [/home/abi/fetcher/tmp/pyoxynet-0.0.9.9.tar.gz]
+[2023-07-06 13:09:48] INFO root fetch - main [MainThread]: End processing [pyoxynet]: success
+[2023-07-06 13:09:48] INFO root fetch - processPackages [sunpeek]: Remove: archive file [/home/abi/fetcher/tmp/sunpeek-0.2.8-py3-none-any.whl.zip]
+[2023-07-06 13:09:48] INFO root fetch - processPackages [sunpeek]: Remove: archive file [/home/abi/fetcher/tmp/sunpeek-0.2.9-py3-none-any.whl.zip]
+[2023-07-06 13:09:48] INFO root fetch - main [MainThread]: End processing [sunpeek]: success
+[2023-07-06 13:09:49] INFO root fetch - processPackages [najapy]: Remove: archive file [/home/abi/fetcher/tmp/najapy-1.3.0.tar.gz]
+[2023-07-06 13:09:49] INFO root fetch - processPackages [najapy]: Remove: archive file [/home/abi/fetcher/tmp/najapy-1.3.1.tar.gz]
+[2023-07-06 13:09:49] INFO root fetch - main [MainThread]: End processing [najapy]: success
+[2023-07-06 13:09:51] INFO root fetch - processPackages [treams]: Remove: archive file [/home/abi/fetcher/tmp/treams-0.3.0.tar.gz]
+[2023-07-06 13:09:51] INFO root fetch - processPackages [treams]: Remove: archive file [/home/abi/fetcher/tmp/treams-0.3.1.tar.gz]
+[2023-07-06 13:09:51] INFO root fetch - main [MainThread]: End processing [treams]: success
+[2023-07-06 13:09:51] INFO root fetch - main [MainThread]: Store serial: [18782408]
