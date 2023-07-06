@@ -21307,3 +21307,106 @@ AssertionError: tmp/termkit-0.2.0a4.tar.gz does not exist
 [2023-07-06 12:59:20] INFO root fetch - processPackages [EnergyCapSdk]: Remove: archive file [/home/abi/fetcher/tmp/EnergyCapSdk-8.2304.4631.tar.gz]
 [2023-07-06 12:59:20] INFO root fetch - main [MainThread]: End processing [EnergyCapSdk]: success
 [2023-07-06 12:59:20] INFO root fetch - main [MainThread]: Store serial: [18782307]
+[2023-07-06 13:04:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18782307]
+[2023-07-06 13:04:30] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-06 13:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-datalab
+[2023-07-06 13:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: diamond-next
+[2023-07-06 13:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trainyolo-py
+[2023-07-06 13:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydantic-resolve
+[2023-07-06 13:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MT-PY-django-I18n
+[2023-07-06 13:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyoxynet
+[2023-07-06 13:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: port-pulumi
+[2023-07-06 13:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sh-dynamodb
+[2023-07-06 13:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: stc-geck
+[2023-07-06 13:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: testdwg
+[2023-07-06 13:04:30] INFO root fetch - processPackages [pyoxynet]: New version: [0.0.9.9] Old Version: [0.0.9.8]
+[2023-07-06 13:04:30] WARNING root fetch - processPackages [MT-PY-django-I18n]: Skipping, unable to determine old version
+[2023-07-06 13:04:30] INFO root fetch - processPackages [MT-PY-django-I18n]: Start processing: py-datalab
+[2023-07-06 13:04:30] INFO root fetch - main [MainThread]: End processing [MT-PY-django-I18n] error
+[2023-07-06 13:04:30] INFO root fetch - processPackages [stc-geck]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-07-06 13:04:30] INFO root fetch - processPackages [pydantic-resolve]: New version: [1.4.0] Old Version: [1.3.2]
+[2023-07-06 13:04:30] INFO root fetch - processPackages [py-datalab]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-06 13:04:30] INFO root fetch - processPackages [diamond-next]: New version: [5.0.0] Old Version: [4.0.515]
+[2023-07-06 13:04:30] INFO root fetch - processPackages [testdwg]: New version: [1.0.9] Old Version: [1.0.6]
+[2023-07-06 13:04:30] INFO root fetch - processPackages [trainyolo-py]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 13:04:30] INFO root fetch - processPackages [port-pulumi]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-06 13:04:30] INFO root fetch - processPackages [sh-dynamodb]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-06 13:04:30] INFO root fetch - processPackages [py-datalab]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-06 13:04:30] INFO root fetch - processPackages [pyoxynet]: Downloading https://files.pythonhosted.org/packages/b0/fc/515fba70151d23e2002eff3cb89de86f3323f2de498b24ac5634ad424107/pyoxynet-0.0.9.8.tar.gz
+[2023-07-06 13:04:30] INFO root fetch - processPackages [diamond-next]: Downloading https://files.pythonhosted.org/packages/be/dd/0ddb47e92b0a4e63789d1f886601cc8145ba79307087f6806a3d64085806/diamond-next-4.0.515.tar.gz
+[2023-07-06 13:04:30] INFO root fetch - processPackages [stc-geck]: Downloading https://files.pythonhosted.org/packages/3f/01/34ca6241c537adf0c504cfa332055999654614d7b79e96dd30d3898be608/stc-geck-1.3.0.tar.gz
+[2023-07-06 13:04:30] INFO root fetch - processPackages [py-datalab]: Downloading https://files.pythonhosted.org/packages/1e/bb/a03ddea29a780ed67c77bce79dbb5084f1322d0ed3a5f06a7187d40c8ae8/py-datalab-0.1.1.tar.gz
+[2023-07-06 13:04:30] INFO root fetch - processPackages [sh-dynamodb]: Downloading https://files.pythonhosted.org/packages/4a/16/07ad40fc14d51ad133703ed0a3dd5add57039ca91c57fb9991e6571ec360/sh-dynamodb-1.0.3.tar.gz
+[2023-07-06 13:04:30] INFO root fetch - processPackages [trainyolo-py]: Downloading https://files.pythonhosted.org/packages/b7/28/4fe7cee84cea0d03053c56a9423b4c13518cf63ae263c9c726d70c9c5857/trainyolo-py-0.0.8.tar.gz
+[2023-07-06 13:04:30] INFO root fetch - processPackages [py-datalab]: Downloading https://files.pythonhosted.org/packages/1e/bb/a03ddea29a780ed67c77bce79dbb5084f1322d0ed3a5f06a7187d40c8ae8/py-datalab-0.1.1.tar.gz
+[2023-07-06 13:04:30] INFO root fetch - processPackages [testdwg]: Downloading https://files.pythonhosted.org/packages/50/d9/44aaaf7ba967f304d5f076fbc8a8f1827eae9c7150d736fdaa0c22cf1cfb/testdwg-1.0.6.tar.gz
+[2023-07-06 13:04:30] INFO root fetch - processPackages [pydantic-resolve]: Downloading https://files.pythonhosted.org/packages/62/0b/7d899f089aa4b40dd1d7192caaf4c9880e2e48dc6bfedbea306a72deee64/pydantic_resolve-1.3.2.tar.gz
+[2023-07-06 13:04:30] INFO root fetch - processPackages [port-pulumi]: Downloading https://files.pythonhosted.org/packages/2d/75/b12c0e1a4a2df899a7949a6c7b54bf8b612b59594ea6147490486ad06c5d/port_pulumi-0.9.3.tar.gz
+[2023-07-06 13:04:31] INFO root fetch - processPackages [trainyolo-py]: Downloading https://files.pythonhosted.org/packages/be/fb/40e84a7f0e8aa55cd054e4588169d4fee0dae2bf83b41fb6340417efa662/trainyolo-py-0.0.9.tar.gz
+[2023-07-06 13:04:31] INFO root fetch - processPackages [stc-geck]: Downloading https://files.pythonhosted.org/packages/8d/03/994a72992652eefd77f119e8a785d7e084468dfcc82afc33c45a3c642406/stc-geck-1.3.1.tar.gz
+[2023-07-06 13:04:31] INFO root fetch - processPackages [diamond-next]: Downloading https://files.pythonhosted.org/packages/ed/b2/1814c0fdfb40e7720cc9b7b6d90d88889d5ca1c23a546fed329e27f18deb/diamond-next-5.0.0.tar.gz
+[2023-07-06 13:04:31] INFO root fetch - processPackages [testdwg]: Downloading https://files.pythonhosted.org/packages/fc/ea/35bbc5577271cd8393b7c56a5dfc6fa5f872ca248dbd7f156a9f8290ad12/testdwg-1.0.9.tar.gz
+[2023-07-06 13:04:31] INFO root fetch - processPackages [sh-dynamodb]: Downloading https://files.pythonhosted.org/packages/c7/4d/62750b7d87a50117f585cc51887f2f383788a91f00c722db77f9bbf42421/sh-dynamodb-1.0.4.tar.gz
+[2023-07-06 13:04:31] INFO root fetch - processPackages [py-datalab]: Downloading https://files.pythonhosted.org/packages/87/50/84414b3688c0d6270d60f14433e12438f4ed99ae6006ec9228c684a8866b/py-datalab-0.1.2.tar.gz
+[2023-07-06 13:04:31] INFO root fetch - processPackages [py-datalab]: Downloading https://files.pythonhosted.org/packages/87/50/84414b3688c0d6270d60f14433e12438f4ed99ae6006ec9228c684a8866b/py-datalab-0.1.2.tar.gz
+[2023-07-06 13:04:31] INFO root fetch - processPackages [pydantic-resolve]: Downloading https://files.pythonhosted.org/packages/34/0f/471c5f8ff9df0e7850f0647545239217cfcea261c9897f308b4621cb61b3/pydantic_resolve-1.4.0.tar.gz
+[2023-07-06 13:04:31] INFO root fetch - processPackages [pyoxynet]: Downloading https://files.pythonhosted.org/packages/41/8b/2c3056a7fa525137845d730655c8ebdc5f75e1a43909a910d81142b5a885/pyoxynet-0.0.9.9.tar.gz
+[2023-07-06 13:04:31] INFO root fetch - processPackages [trainyolo-py]: executing diffoscope
+[2023-07-06 13:04:31] INFO root fetch - processPackages [trainyolo-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trainyolo-py-0.0.8.tar.gz tmp/trainyolo-py-0.0.9.tar.gz --markdown 20230706/t/trainyolo-py/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 13:04:31] INFO root fetch - processPackages [port-pulumi]: Downloading https://files.pythonhosted.org/packages/17/fd/d9b5bb0f85aa2b86069302587f2f78d16ee0bac97524b41aad9ffe3592e0/port_pulumi-0.9.4.tar.gz
+[2023-07-06 13:04:31] INFO root fetch - processPackages [stc-geck]: executing diffoscope
+[2023-07-06 13:04:31] INFO root fetch - processPackages [stc-geck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stc-geck-1.3.0.tar.gz tmp/stc-geck-1.3.1.tar.gz --markdown 20230706/s/stc-geck/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-07-06 13:04:31] INFO root fetch - processPackages [diamond-next]: executing diffoscope
+[2023-07-06 13:04:31] INFO root fetch - processPackages [diamond-next]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diamond-next-4.0.515.tar.gz tmp/diamond-next-5.0.0.tar.gz --markdown 20230706/d/diamond-next/4.0.515-5.0.0/diff.md --exclude *.pyd
+[2023-07-06 13:04:31] INFO root fetch - processPackages [py-datalab]: executing diffoscope
+[2023-07-06 13:04:31] INFO root fetch - processPackages [py-datalab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-datalab-0.1.1.tar.gz tmp/py-datalab-0.1.2.tar.gz --markdown 20230706/p/py-datalab/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-06 13:04:31] INFO root fetch - processPackages [pydantic-resolve]: executing diffoscope
+[2023-07-06 13:04:31] INFO root fetch - processPackages [pydantic-resolve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_resolve-1.3.2.tar.gz tmp/pydantic_resolve-1.4.0.tar.gz --markdown 20230706/p/pydantic-resolve/1.3.2-1.4.0/diff.md --exclude *.pyd
+[2023-07-06 13:04:31] INFO root fetch - processPackages [py-datalab]: executing diffoscope
+[2023-07-06 13:04:31] INFO root fetch - processPackages [py-datalab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-datalab-0.1.1.tar.gz tmp/py-datalab-0.1.2.tar.gz --markdown 20230706/p/py-datalab/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-06 13:04:31] INFO root fetch - processPackages [testdwg]: executing diffoscope
+[2023-07-06 13:04:31] INFO root fetch - processPackages [testdwg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testdwg-1.0.6.tar.gz tmp/testdwg-1.0.9.tar.gz --markdown 20230706/t/testdwg/1.0.6-1.0.9/diff.md --exclude *.pyd
+[2023-07-06 13:04:31] INFO root fetch - processPackages [sh-dynamodb]: executing diffoscope
+[2023-07-06 13:04:31] INFO root fetch - processPackages [sh-dynamodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sh-dynamodb-1.0.3.tar.gz tmp/sh-dynamodb-1.0.4.tar.gz --markdown 20230706/s/sh-dynamodb/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-06 13:04:31] INFO root fetch - processPackages [port-pulumi]: executing diffoscope
+[2023-07-06 13:04:31] INFO root fetch - processPackages [port-pulumi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/port_pulumi-0.9.3.tar.gz tmp/port_pulumi-0.9.4.tar.gz --markdown 20230706/p/port-pulumi/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-06 13:04:31] INFO root fetch - processPackages [pyoxynet]: executing diffoscope
+[2023-07-06 13:04:31] INFO root fetch - processPackages [pyoxynet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyoxynet-0.0.9.8.tar.gz tmp/pyoxynet-0.0.9.9.tar.gz --markdown 20230706/p/pyoxynet/0.0.9.8-0.0.9.9/diff.md --exclude *.pyd
+[2023-07-06 13:04:32] INFO root fetch - processPackages [trainyolo-py]: Remove: archive file [/home/abi/fetcher/tmp/trainyolo-py-0.0.8.tar.gz]
+[2023-07-06 13:04:32] INFO root fetch - processPackages [trainyolo-py]: Remove: archive file [/home/abi/fetcher/tmp/trainyolo-py-0.0.9.tar.gz]
+[2023-07-06 13:04:32] INFO root fetch - processPackages [trainyolo-py]: Start processing: FPC
+[2023-07-06 13:04:32] INFO root fetch - main [MainThread]: End processing [trainyolo-py]: success
+[2023-07-06 13:04:33] INFO root fetch - processPackages [FPC]: New version: [0.9] Old Version: [0.8]
+[2023-07-06 13:04:33] INFO root fetch - processPackages [py-datalab]: Remove: archive file [/home/abi/fetcher/tmp/py-datalab-0.1.1.tar.gz]
+[2023-07-06 13:04:33] INFO root fetch - processPackages [py-datalab]: Remove: archive file [/home/abi/fetcher/tmp/py-datalab-0.1.2.tar.gz]
+[2023-07-06 13:04:33] INFO root fetch - main [MainThread]: End processing [py-datalab]: success
+[2023-07-06 13:04:33] INFO root fetch - processPackages [stc-geck]: Remove: archive file [/home/abi/fetcher/tmp/stc-geck-1.3.0.tar.gz]
+[2023-07-06 13:04:33] INFO root fetch - processPackages [stc-geck]: Remove: archive file [/home/abi/fetcher/tmp/stc-geck-1.3.1.tar.gz]
+[2023-07-06 13:04:33] INFO root fetch - main [MainThread]: End processing [stc-geck]: success
+[2023-07-06 13:04:33] INFO root fetch - main [MainThread]: End processing [py-datalab]: success
+[2023-07-06 13:04:33] INFO root fetch - processPackages [testdwg]: Remove: archive file [/home/abi/fetcher/tmp/testdwg-1.0.6.tar.gz]
+[2023-07-06 13:04:33] INFO root fetch - processPackages [testdwg]: Remove: archive file [/home/abi/fetcher/tmp/testdwg-1.0.9.tar.gz]
+[2023-07-06 13:04:33] INFO root fetch - main [MainThread]: End processing [testdwg]: success
+[2023-07-06 13:04:33] INFO root fetch - processPackages [pydantic-resolve]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_resolve-1.3.2.tar.gz]
+[2023-07-06 13:04:33] INFO root fetch - processPackages [pydantic-resolve]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_resolve-1.4.0.tar.gz]
+[2023-07-06 13:04:33] INFO root fetch - main [MainThread]: End processing [pydantic-resolve]: success
+[2023-07-06 13:04:33] INFO root fetch - processPackages [sh-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/sh-dynamodb-1.0.3.tar.gz]
+[2023-07-06 13:04:33] INFO root fetch - processPackages [sh-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/sh-dynamodb-1.0.4.tar.gz]
+[2023-07-06 13:04:33] INFO root fetch - main [MainThread]: End processing [sh-dynamodb]: success
+[2023-07-06 13:04:33] INFO root fetch - processPackages [FPC]: Downloading https://files.pythonhosted.org/packages/21/8e/cb3fde359346e40cec7994e595614ef647675f843dea133076850fd2db07/FPC-0.8.tar.gz
+[2023-07-06 13:04:33] INFO root fetch - processPackages [port-pulumi]: Remove: archive file [/home/abi/fetcher/tmp/port_pulumi-0.9.3.tar.gz]
+[2023-07-06 13:04:33] INFO root fetch - processPackages [port-pulumi]: Remove: archive file [/home/abi/fetcher/tmp/port_pulumi-0.9.4.tar.gz]
+[2023-07-06 13:04:33] INFO root fetch - main [MainThread]: End processing [port-pulumi]: success
+[2023-07-06 13:04:33] INFO root fetch - processPackages [FPC]: Downloading https://files.pythonhosted.org/packages/2e/52/6ad17c7fd21298054bcd96fc5e86fe54f07e006467ce5452d57c016d92bc/FPC-0.9.tar.gz
+[2023-07-06 13:04:33] INFO root fetch - processPackages [FPC]: executing diffoscope
+[2023-07-06 13:04:33] INFO root fetch - processPackages [FPC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FPC-0.8.tar.gz tmp/FPC-0.9.tar.gz --markdown 20230706/F/FPC/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-06 13:04:34] INFO root fetch - processPackages [pyoxynet]: Remove: archive file [/home/abi/fetcher/tmp/pyoxynet-0.0.9.8.tar.gz]
+[2023-07-06 13:04:34] INFO root fetch - processPackages [pyoxynet]: Remove: archive file [/home/abi/fetcher/tmp/pyoxynet-0.0.9.9.tar.gz]
+[2023-07-06 13:04:34] INFO root fetch - main [MainThread]: End processing [pyoxynet]: success
+[2023-07-06 13:04:34] INFO root fetch - processPackages [FPC]: Remove: archive file [/home/abi/fetcher/tmp/FPC-0.8.tar.gz]
+[2023-07-06 13:04:34] INFO root fetch - processPackages [FPC]: Remove: archive file [/home/abi/fetcher/tmp/FPC-0.9.tar.gz]
+[2023-07-06 13:04:34] INFO root fetch - main [MainThread]: End processing [FPC]: success
+[2023-07-06 13:04:34] INFO root fetch - processPackages [diamond-next]: Remove: archive file [/home/abi/fetcher/tmp/diamond-next-4.0.515.tar.gz]
+[2023-07-06 13:04:34] INFO root fetch - processPackages [diamond-next]: Remove: archive file [/home/abi/fetcher/tmp/diamond-next-5.0.0.tar.gz]
+[2023-07-06 13:04:34] INFO root fetch - main [MainThread]: End processing [diamond-next]: success
+[2023-07-06 13:04:34] INFO root fetch - main [MainThread]: Store serial: [18782365]
