@@ -12568,3 +12568,65 @@ AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
 [2023-07-06 07:28:20] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.6.9.18.40.tar.gz]
 [2023-07-06 07:28:20] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
 [2023-07-06 07:28:20] INFO root fetch - main [MainThread]: Store serial: [18778721]
+[2023-07-06 07:33:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18778721]
+[2023-07-06 07:33:29] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-06 07:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ladybug-vectorworks
+[2023-07-06 07:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlean-driver
+[2023-07-06 07:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo13-addons-oca-stock-logistics-workflow
+[2023-07-06 07:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openplugincore
+[2023-07-06 07:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mlflow-registry-mongostore
+[2023-07-06 07:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastdatasets
+[2023-07-06 07:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: crazy-thursday
+[2023-07-06 07:33:29] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.7.6.0] Old Version: [2023.7.5.1]
+[2023-07-06 07:33:29] INFO root fetch - processPackages [mlflow-registry-mongostore]: New version: [0.1.2] Old Version: [0.1]
+[2023-07-06 07:33:29] INFO root fetch - processPackages [openplugincore]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-07-06 07:33:29] INFO root fetch - processPackages [ladybug-vectorworks]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-06 07:33:29] INFO root fetch - processPackages [odoo13-addons-oca-stock-logistics-workflow]: New version: [13.0.20230705.0] Old Version: [13.0.20230507.0]
+[2023-07-06 07:33:29] INFO root fetch - processPackages [fastdatasets]: New version: [0.9.9.post0] Old Version: [0.9.9]
+[2023-07-06 07:33:29] INFO root fetch - processPackages [sqlean-driver]: New version: [0.0.1a3] Old Version: [0.0.1a2]
+[2023-07-06 07:33:29] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/47/53/dbbbfdc40a128a772d2dda48ed9030fd564556cbfc8821ec33d3e29e2356/crazy-thursday-2023.7.5.1.tar.gz
+[2023-07-06 07:33:29] INFO root fetch - processPackages [fastdatasets]: Downloading https://files.pythonhosted.org/packages/ed/f0/8d4ae8c973115bec20261c6cbbe41b9db84edefd982957e48b4b0a972e30/fastdatasets-0.9.9-py3-none-any.whl
+[2023-07-06 07:33:29] INFO root fetch - processPackages [sqlean-driver]: Downloading https://files.pythonhosted.org/packages/85/48/a627ff4f6fd0fbc406e8669c9ee70e99e8b064f5a4ac83d5622e445ba5be/sqlean_driver-0.0.1a2.tar.gz
+[2023-07-06 07:33:29] INFO root fetch - processPackages [mlflow-registry-mongostore]: Downloading https://files.pythonhosted.org/packages/f0/8a/3ecfb338aff5e15c84ef3442cb7b74b143059565c2b9e0af4b45da2ef17b/mlflow_registry_mongostore-0.1-py3-none-any.whl
+[2023-07-06 07:33:29] INFO root fetch - processPackages [openplugincore]: Downloading https://files.pythonhosted.org/packages/94/2c/732c9d59fbe0a8863c86d3db8ff9292beef808dba65a2bb289b2c5240289/openplugincore-0.3.3.tar.gz
+[2023-07-06 07:33:29] INFO root fetch - processPackages [odoo13-addons-oca-stock-logistics-workflow]: Downloading https://files.pythonhosted.org/packages/da/15/6f346eab3c6b71c5f27b7a4528198f92d6ed9308bbfb822f4faf373cbbea/odoo13_addons_oca_stock_logistics_workflow-13.0.20230507.0-py3-none-any.whl
+[2023-07-06 07:33:29] INFO root fetch - processPackages [ladybug-vectorworks]: Downloading https://files.pythonhosted.org/packages/95/32/2c7b67ec63c7ef9bb2bea6b08a3acca12cb72bf0ba28e2b1bb1767f2211f/ladybug_vectorworks-0.2.5.tar.gz
+[2023-07-06 07:33:30] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/89/15/d583d0c7ea7f6c5601fa345136f4d347e74c921001dbb6f5114f8978e00b/crazy-thursday-2023.7.6.0.tar.gz
+[2023-07-06 07:33:30] INFO root fetch - processPackages [fastdatasets]: Downloading https://files.pythonhosted.org/packages/65/30/d1e7d5ef82d3002c7bad796f1b5a58090fab5042710a409eeeb1f1f215e4/fastdatasets-0.9.9.post0-py3-none-any.whl
+[2023-07-06 07:33:30] WARNING root fetch - processPackages [ladybug-vectorworks]: Skipping package: exceeds size limit 36676964>=10485760
+[2023-07-06 07:33:30] INFO root fetch - main [MainThread]: End processing [ladybug-vectorworks] error
+[2023-07-06 07:33:30] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-07-06 07:33:30] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.7.5.1.tar.gz tmp/crazy-thursday-2023.7.6.0.tar.gz --markdown 20230706/c/crazy-thursday/2023.7.5.1-2023.7.6.0/diff.md --exclude *.pyd
+[2023-07-06 07:33:30] INFO root fetch - processPackages [fastdatasets]: executing diffoscope
+[2023-07-06 07:33:30] INFO root fetch - processPackages [fastdatasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastdatasets-0.9.9-py3-none-any.whl.zip tmp/fastdatasets-0.9.9.post0-py3-none-any.whl.zip --markdown 20230706/f/fastdatasets/0.9.9-0.9.9.post0/diff.md --exclude *.pyd
+[2023-07-06 07:33:30] INFO root fetch - processPackages [sqlean-driver]: Downloading https://files.pythonhosted.org/packages/6c/24/c319f871e4183d3c90c0bf493ff1880d3f0d186f59268c3669d5b73e2fdc/sqlean_driver-0.0.1a3.tar.gz
+[2023-07-06 07:33:30] INFO root fetch - processPackages [mlflow-registry-mongostore]: Downloading https://files.pythonhosted.org/packages/2f/5a/5e6050d09e910150e4dd18a3a2bdba529c741081ee5efba5e13a06dc817c/mlflow_registry_mongostore-0.1.2-py3-none-any.whl
+[2023-07-06 07:33:30] INFO root fetch - processPackages [openplugincore]: Downloading https://files.pythonhosted.org/packages/9e/86/bd572ca9db0030cd3e4fb838349bce850ef9788f32bc5b66aad32bbc2237/openplugincore-0.4.0.tar.gz
+[2023-07-06 07:33:30] INFO root fetch - processPackages [odoo13-addons-oca-stock-logistics-workflow]: Downloading https://files.pythonhosted.org/packages/56/33/b1aa7534b929beffe492e502d372843739f31d56d9b48988a8f75acfdc7c/odoo13_addons_oca_stock_logistics_workflow-13.0.20230705.0-py3-none-any.whl
+[2023-07-06 07:33:30] INFO root fetch - processPackages [sqlean-driver]: executing diffoscope
+[2023-07-06 07:33:30] INFO root fetch - processPackages [sqlean-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlean_driver-0.0.1a2.tar.gz tmp/sqlean_driver-0.0.1a3.tar.gz --markdown 20230706/s/sqlean-driver/0.0.1a2-0.0.1a3/diff.md --exclude *.pyd
+[2023-07-06 07:33:30] INFO root fetch - processPackages [openplugincore]: executing diffoscope
+[2023-07-06 07:33:30] INFO root fetch - processPackages [openplugincore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openplugincore-0.3.3.tar.gz tmp/openplugincore-0.4.0.tar.gz --markdown 20230706/o/openplugincore/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-07-06 07:33:30] INFO root fetch - processPackages [odoo13-addons-oca-stock-logistics-workflow]: executing diffoscope
+[2023-07-06 07:33:30] INFO root fetch - processPackages [odoo13-addons-oca-stock-logistics-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addons_oca_stock_logistics_workflow-13.0.20230507.0-py3-none-any.whl.zip tmp/odoo13_addons_oca_stock_logistics_workflow-13.0.20230705.0-py3-none-any.whl.zip --markdown 20230706/o/odoo13-addons-oca-stock-logistics-workflow/13.0.20230507.0-13.0.20230705.0/diff.md --exclude *.pyd
+[2023-07-06 07:33:30] INFO root fetch - processPackages [mlflow-registry-mongostore]: executing diffoscope
+[2023-07-06 07:33:30] INFO root fetch - processPackages [mlflow-registry-mongostore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlflow_registry_mongostore-0.1-py3-none-any.whl.zip tmp/mlflow_registry_mongostore-0.1.2-py3-none-any.whl.zip --markdown 20230706/m/mlflow-registry-mongostore/0.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-06 07:33:31] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.5.1.tar.gz]
+[2023-07-06 07:33:31] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.6.0.tar.gz]
+[2023-07-06 07:33:31] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-07-06 07:33:31] INFO root fetch - processPackages [fastdatasets]: Remove: archive file [/home/abi/fetcher/tmp/fastdatasets-0.9.9-py3-none-any.whl.zip]
+[2023-07-06 07:33:31] INFO root fetch - processPackages [fastdatasets]: Remove: archive file [/home/abi/fetcher/tmp/fastdatasets-0.9.9.post0-py3-none-any.whl.zip]
+[2023-07-06 07:33:31] INFO root fetch - main [MainThread]: End processing [fastdatasets]: success
+[2023-07-06 07:33:31] INFO root fetch - processPackages [openplugincore]: Remove: archive file [/home/abi/fetcher/tmp/openplugincore-0.3.3.tar.gz]
+[2023-07-06 07:33:31] INFO root fetch - processPackages [openplugincore]: Remove: archive file [/home/abi/fetcher/tmp/openplugincore-0.4.0.tar.gz]
+[2023-07-06 07:33:31] INFO root fetch - main [MainThread]: End processing [openplugincore]: success
+[2023-07-06 07:33:31] INFO root fetch - processPackages [sqlean-driver]: Remove: archive file [/home/abi/fetcher/tmp/sqlean_driver-0.0.1a2.tar.gz]
+[2023-07-06 07:33:31] INFO root fetch - processPackages [sqlean-driver]: Remove: archive file [/home/abi/fetcher/tmp/sqlean_driver-0.0.1a3.tar.gz]
+[2023-07-06 07:33:31] INFO root fetch - main [MainThread]: End processing [sqlean-driver]: success
+[2023-07-06 07:33:31] INFO root fetch - processPackages [mlflow-registry-mongostore]: Remove: archive file [/home/abi/fetcher/tmp/mlflow_registry_mongostore-0.1-py3-none-any.whl.zip]
+[2023-07-06 07:33:31] INFO root fetch - processPackages [mlflow-registry-mongostore]: Remove: archive file [/home/abi/fetcher/tmp/mlflow_registry_mongostore-0.1.2-py3-none-any.whl.zip]
+[2023-07-06 07:33:31] INFO root fetch - main [MainThread]: End processing [mlflow-registry-mongostore]: success
+[2023-07-06 07:33:31] INFO root fetch - processPackages [odoo13-addons-oca-stock-logistics-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addons_oca_stock_logistics_workflow-13.0.20230507.0-py3-none-any.whl.zip]
+[2023-07-06 07:33:31] INFO root fetch - processPackages [odoo13-addons-oca-stock-logistics-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addons_oca_stock_logistics_workflow-13.0.20230705.0-py3-none-any.whl.zip]
+[2023-07-06 07:33:31] INFO root fetch - main [MainThread]: End processing [odoo13-addons-oca-stock-logistics-workflow]: success
+[2023-07-06 07:33:31] INFO root fetch - main [MainThread]: Store serial: [18778742]
