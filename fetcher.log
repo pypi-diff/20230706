@@ -11483,3 +11483,33 @@ AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
 [2023-07-06 06:14:40] INFO root fetch - processPackages [seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/seleniumbase-4.9.9.tar.gz]
 [2023-07-06 06:14:40] INFO root fetch - main [MainThread]: End processing [seleniumbase]: success
 [2023-07-06 06:14:40] INFO root fetch - main [MainThread]: Store serial: [18778290]
+[2023-07-06 06:19:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18778290]
+[2023-07-06 06:19:49] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-06 06:19:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vgis-utils
+[2023-07-06 06:19:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: macrometa-target-oracle
+[2023-07-06 06:19:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: markata
+[2023-07-06 06:19:49] INFO root fetch - processPackages [vgis-utils]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-06 06:19:49] INFO root fetch - processPackages [markata]: New version: [0.7.1.dev0] Old Version: [0.7.0.dev6]
+[2023-07-06 06:19:49] INFO root fetch - processPackages [macrometa-target-oracle]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-06 06:19:49] INFO root fetch - processPackages [vgis-utils]: Downloading https://files.pythonhosted.org/packages/c1/e5/fb9b666e1da7743012d5dffc0bb2199b5d91fec547ee459e9e04a4a2d89d/vgis_utils-1.0.4.tar.gz
+[2023-07-06 06:19:49] INFO root fetch - processPackages [macrometa-target-oracle]: Downloading https://files.pythonhosted.org/packages/82/99/f3e5382ca98ef838495d604622fb6caa16bbf9bbd42d760ceb249efede01/macrometa-target-oracle-0.0.2.tar.gz
+[2023-07-06 06:19:50] INFO root fetch - processPackages [markata]: Downloading https://files.pythonhosted.org/packages/ee/b5/d97b0f015f5468868a451cda794b4667e033656ae7bc9b04387f4e069660/markata-0.7.0.dev6.tar.gz
+[2023-07-06 06:19:50] INFO root fetch - processPackages [vgis-utils]: Downloading https://files.pythonhosted.org/packages/88/91/860c193a697af162aa1bcaeeb35e4133d03e17283989fca96af36344b049/vgis_utils-1.0.5.tar.gz
+[2023-07-06 06:19:50] INFO root fetch - processPackages [macrometa-target-oracle]: Downloading https://files.pythonhosted.org/packages/5a/a1/de875d45fa1f749798fb83b1808f433bf17c36da95ece9ab15ba5da5970c/macrometa-target-oracle-0.0.3.tar.gz
+[2023-07-06 06:19:50] INFO root fetch - processPackages [macrometa-target-oracle]: executing diffoscope
+[2023-07-06 06:19:50] INFO root fetch - processPackages [macrometa-target-oracle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-oracle-0.0.2.tar.gz tmp/macrometa-target-oracle-0.0.3.tar.gz --markdown 20230706/m/macrometa-target-oracle/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-06 06:19:50] INFO root fetch - processPackages [vgis-utils]: executing diffoscope
+[2023-07-06 06:19:50] INFO root fetch - processPackages [vgis-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgis_utils-1.0.4.tar.gz tmp/vgis_utils-1.0.5.tar.gz --markdown 20230706/v/vgis-utils/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-06 06:19:50] INFO root fetch - processPackages [markata]: Downloading https://files.pythonhosted.org/packages/82/bb/768d0e96673f1ad3ff886c4c712a4335e3f7c82a242525f9e7838eddc2b6/markata-0.7.1.dev0.tar.gz
+[2023-07-06 06:19:50] INFO root fetch - processPackages [markata]: executing diffoscope
+[2023-07-06 06:19:50] INFO root fetch - processPackages [markata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markata-0.7.0.dev6.tar.gz tmp/markata-0.7.1.dev0.tar.gz --markdown 20230706/m/markata/0.7.0.dev6-0.7.1.dev0/diff.md --exclude *.pyd
+[2023-07-06 06:19:51] INFO root fetch - processPackages [vgis-utils]: Remove: archive file [/home/abi/fetcher/tmp/vgis_utils-1.0.4.tar.gz]
+[2023-07-06 06:19:51] INFO root fetch - processPackages [vgis-utils]: Remove: archive file [/home/abi/fetcher/tmp/vgis_utils-1.0.5.tar.gz]
+[2023-07-06 06:19:51] INFO root fetch - main [MainThread]: End processing [vgis-utils]: success
+[2023-07-06 06:19:51] INFO root fetch - processPackages [macrometa-target-oracle]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-oracle-0.0.2.tar.gz]
+[2023-07-06 06:19:51] INFO root fetch - processPackages [macrometa-target-oracle]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-oracle-0.0.3.tar.gz]
+[2023-07-06 06:19:51] INFO root fetch - main [MainThread]: End processing [macrometa-target-oracle]: success
+[2023-07-06 06:19:51] INFO root fetch - processPackages [markata]: Remove: archive file [/home/abi/fetcher/tmp/markata-0.7.0.dev6.tar.gz]
+[2023-07-06 06:19:51] INFO root fetch - processPackages [markata]: Remove: archive file [/home/abi/fetcher/tmp/markata-0.7.1.dev0.tar.gz]
+[2023-07-06 06:19:51] INFO root fetch - main [MainThread]: End processing [markata]: success
+[2023-07-06 06:19:51] INFO root fetch - main [MainThread]: Store serial: [18778301]
