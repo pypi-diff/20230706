@@ -22542,3 +22542,189 @@ AssertionError: tmp/test_setup_test-1.0.1.tar.gz does not exist
 [2023-07-06 13:53:03] INFO root fetch - processPackages [pydevd-pycharm]: Remove: archive file [/home/abi/fetcher/tmp/pydevd-pycharm-232.8296.19.tar.gz]
 [2023-07-06 13:53:03] INFO root fetch - main [MainThread]: End processing [pydevd-pycharm]: success
 [2023-07-06 13:53:03] INFO root fetch - main [MainThread]: Store serial: [18782854]
+[2023-07-06 13:58:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18782854]
+[2023-07-06 13:58:13] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-06 13:58:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autopacmen-Paulocracy
+[2023-07-06 13:58:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lamindb_setup
+[2023-07-06 13:58:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: funfluid
+[2023-07-06 13:58:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qontract-reconcile
+[2023-07-06 13:58:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: elasticsearch
+[2023-07-06 13:58:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: elasticsearch8
+[2023-07-06 13:58:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gtki-module-exex
+[2023-07-06 13:58:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: termux-language-server
+[2023-07-06 13:58:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ibmsecurity
+[2023-07-06 13:58:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: whatsapp-chatbot-python
+[2023-07-06 13:58:13] INFO root fetch - processPackages [elasticsearch]: New version: [8.8.1] Old Version: [8.8.0]
+[2023-07-06 13:58:14] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-07-06 13:58:14] INFO root fetch - processPackages [funfluid]: New version: [202307061944] Old Version: [202307061936]
+[2023-07-06 13:58:14] INFO root fetch - processPackages [elasticsearch8]: New version: [8.8.1] Old Version: [8.8.0]
+[2023-07-06 13:58:14] INFO root fetch - processPackages [whatsapp-chatbot-python]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-06 13:58:14] INFO root fetch - processPackages [gtki-module-exex]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-06 13:58:14] INFO root fetch - processPackages [autopacmen-Paulocracy]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-06 13:58:14] INFO root fetch - processPackages [termux-language-server]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-06 13:58:14] INFO root fetch - processPackages [funfluid]: Downloading https://files.pythonhosted.org/packages/49/4c/513aae4b9126b65f3e3a86305868d0379e476ebb943899a4a8d5e5ea41f0/funfluid-202307061936.tar.gz
+[2023-07-06 13:58:14] INFO root fetch - processPackages [lamindb_setup]: New version: [0.48.4] Old Version: [0.48.3]
+[2023-07-06 13:58:14] INFO root fetch - processPackages [ibmsecurity]: New version: [2023.7.6.0] Old Version: [2023.7.4.0]
+[2023-07-06 13:58:14] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-07-06 13:58:14] INFO root fetch - processPackages [elasticsearch]: Downloading https://files.pythonhosted.org/packages/ab/ee/0185edf87ae3049a1e7f0309f1bf2ba92640bef8073d980bae726cd15bd8/elasticsearch-8.8.0.tar.gz
+[2023-07-06 13:58:14] INFO root fetch - processPackages [whatsapp-chatbot-python]: Downloading https://files.pythonhosted.org/packages/4e/db/1e5c80375a0159cee6ac673832cd666a50ae46c5ce0b0657b1d31c79832c/whatsapp-chatbot-python-0.5.0.tar.gz
+[2023-07-06 13:58:14] INFO root fetch - processPackages [elasticsearch8]: Downloading https://files.pythonhosted.org/packages/ea/27/ebbaadb1f2e8ec968fb1352fe109e31096fa6b3c9e180619d2e12f07a5cf/elasticsearch8-8.8.0.tar.gz
+[2023-07-06 13:58:14] INFO root fetch - processPackages [lamindb_setup]: Downloading https://files.pythonhosted.org/packages/bf/b1/e191585fc3895d81d799e0420fe0eeed8d1e6d4af04a02111b6e9179da2c/lamindb_setup-0.48.3.tar.gz
+[2023-07-06 13:58:14] INFO root fetch - processPackages [ibmsecurity]: Downloading https://files.pythonhosted.org/packages/3e/a2/4327bcffc81f4da06ad98a96a6de8284e7e7042aca565e4e0520e9684c41/ibmsecurity-2023.7.4.0.tar.gz
+[2023-07-06 13:58:14] INFO root fetch - processPackages [gtki-module-exex]: Downloading https://files.pythonhosted.org/packages/d7/d2/0067407c01f0be958839649c93b8c783d509c1a67fa8cd1c7432e1817e82/gtki_module_exex-0.0.5-py3-none-any.whl
+[2023-07-06 13:58:14] INFO root fetch - processPackages [autopacmen-Paulocracy]: Downloading https://files.pythonhosted.org/packages/2e/dc/09e88e735b6d22e4267a20c0581a3374b782772255f2bff3e9556de7761b/autopacmen-Paulocracy-0.6.1.tar.gz
+[2023-07-06 13:58:14] INFO root fetch - processPackages [termux-language-server]: Downloading https://files.pythonhosted.org/packages/bc/f1/b2bb7b7f9753b4d69b186e4494ffebc420e465d742ca6053d449c3739b31/termux-language-server-0.0.1.tar.gz
+[2023-07-06 13:58:14] INFO root fetch - processPackages [funfluid]: Downloading https://files.pythonhosted.org/packages/bb/26/7ce12024cc503ed699cb29aa23818c6489db85eda8c844c76a76937c3b54/funfluid-202307061944.tar.gz
+[2023-07-06 13:58:14] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-07-06 13:58:14] INFO root fetch - processPackages [elasticsearch]: Downloading https://files.pythonhosted.org/packages/b4/2a/893907a270aa5b55caa424ec5e27b5af360336d82743e1713255e069dc2e/elasticsearch-8.8.1.tar.gz
+[2023-07-06 13:58:14] INFO root fetch - processPackages [whatsapp-chatbot-python]: Downloading https://files.pythonhosted.org/packages/bb/37/2192893a4d5c7bc75e04407006461f43ea5575ff22b235e98dfdfff63686/whatsapp-chatbot-python-0.5.1.tar.gz
+[2023-07-06 13:58:14] INFO root fetch - processPackages [funfluid]: executing diffoscope
+[2023-07-06 13:58:14] INFO root fetch - processPackages [funfluid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funfluid-202307061936.tar.gz tmp/funfluid-202307061944.tar.gz --markdown 20230706/f/funfluid/202307061936-202307061944/diff.md --exclude *.pyd
+[2023-07-06 13:58:14] INFO root fetch - processPackages [elasticsearch8]: Downloading https://files.pythonhosted.org/packages/a7/38/e8395425f3a4b313227e1cb31d8c716af7fe5b833b828a35a8bb4fc1ea6d/elasticsearch8-8.8.1.tar.gz
+[2023-07-06 13:58:14] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-07-06 13:58:14] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230706/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-07-06 13:58:14] INFO root fetch - processPackages [ibmsecurity]: Downloading https://files.pythonhosted.org/packages/f5/07/ae8d7fdc96fabf0b73414958fe2c915f291e21970595a3aa0bbc3b65800b/ibmsecurity-2023.7.6.0.tar.gz
+[2023-07-06 13:58:14] INFO root fetch - processPackages [lamindb_setup]: Downloading https://files.pythonhosted.org/packages/e2/9a/880c9c702829a2b8ffe7e151ef1502025b0b0cfb0f06a8a3817c2137d42d/lamindb_setup-0.48.4.tar.gz
+[2023-07-06 13:58:15] INFO root fetch - processPackages [gtki-module-exex]: Downloading https://files.pythonhosted.org/packages/31/5e/e5c14572161fdb0f54f1ea11836b991264f78bd93ecf70a1a20e8c088a1c/gtki_module_exex-0.0.6-py3-none-any.whl
+[2023-07-06 13:58:15] INFO root fetch - processPackages [elasticsearch]: executing diffoscope
+[2023-07-06 13:58:15] INFO root fetch - processPackages [elasticsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elasticsearch-8.8.0.tar.gz tmp/elasticsearch-8.8.1.tar.gz --markdown 20230706/e/elasticsearch/8.8.0-8.8.1/diff.md --exclude *.pyd
+[2023-07-06 13:58:15] INFO root fetch - processPackages [termux-language-server]: Downloading https://files.pythonhosted.org/packages/0f/b1/456066b080b341b6fdd12c7586507efe7c1bade5e722e0710a9a1aadc470/termux-language-server-0.0.2.tar.gz
+[2023-07-06 13:58:15] INFO root fetch - processPackages [autopacmen-Paulocracy]: Downloading https://files.pythonhosted.org/packages/71/aa/4a40828f1264b0d9e9df178dcd1ffe4257b0d18157c757c537c304462ca4/autopacmen-Paulocracy-0.6.2.tar.gz
+[2023-07-06 13:58:15] INFO root fetch - processPackages [whatsapp-chatbot-python]: executing diffoscope
+[2023-07-06 13:58:15] INFO root fetch - processPackages [whatsapp-chatbot-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whatsapp-chatbot-python-0.5.0.tar.gz tmp/whatsapp-chatbot-python-0.5.1.tar.gz --markdown 20230706/w/whatsapp-chatbot-python/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-06 13:58:15] INFO root fetch - processPackages [elasticsearch8]: executing diffoscope
+[2023-07-06 13:58:15] INFO root fetch - processPackages [elasticsearch8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elasticsearch8-8.8.0.tar.gz tmp/elasticsearch8-8.8.1.tar.gz --markdown 20230706/e/elasticsearch8/8.8.0-8.8.1/diff.md --exclude *.pyd
+[2023-07-06 13:58:15] INFO root fetch - processPackages [gtki-module-exex]: executing diffoscope
+[2023-07-06 13:58:15] INFO root fetch - processPackages [gtki-module-exex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gtki_module_exex-0.0.5-py3-none-any.whl.zip tmp/gtki_module_exex-0.0.6-py3-none-any.whl.zip --markdown 20230706/g/gtki-module-exex/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-06 13:58:15] INFO root fetch - processPackages [lamindb_setup]: executing diffoscope
+[2023-07-06 13:58:15] INFO root fetch - processPackages [lamindb_setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb_setup-0.48.3.tar.gz tmp/lamindb_setup-0.48.4.tar.gz --markdown 20230706/l/lamindb_setup/0.48.3-0.48.4/diff.md --exclude *.pyd
+[2023-07-06 13:58:15] INFO root fetch - processPackages [ibmsecurity]: executing diffoscope
+[2023-07-06 13:58:15] INFO root fetch - processPackages [ibmsecurity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibmsecurity-2023.7.4.0.tar.gz tmp/ibmsecurity-2023.7.6.0.tar.gz --markdown 20230706/i/ibmsecurity/2023.7.4.0-2023.7.6.0/diff.md --exclude *.pyd
+[2023-07-06 13:58:15] INFO root fetch - processPackages [termux-language-server]: executing diffoscope
+[2023-07-06 13:58:15] INFO root fetch - processPackages [termux-language-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/termux-language-server-0.0.1.tar.gz tmp/termux-language-server-0.0.2.tar.gz --markdown 20230706/t/termux-language-server/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-06 13:58:15] INFO root fetch - processPackages [autopacmen-Paulocracy]: executing diffoscope
+[2023-07-06 13:58:15] INFO root fetch - processPackages [autopacmen-Paulocracy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopacmen-Paulocracy-0.6.1.tar.gz tmp/autopacmen-Paulocracy-0.6.2.tar.gz --markdown 20230706/a/autopacmen-Paulocracy/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-06 13:58:16] INFO root fetch - processPackages [funfluid]: Remove: archive file [/home/abi/fetcher/tmp/funfluid-202307061936.tar.gz]
+[2023-07-06 13:58:16] INFO root fetch - processPackages [funfluid]: Remove: archive file [/home/abi/fetcher/tmp/funfluid-202307061944.tar.gz]
+[2023-07-06 13:58:16] INFO root fetch - processPackages [funfluid]: Start processing: oidcish
+[2023-07-06 13:58:16] INFO root fetch - main [MainThread]: End processing [funfluid]: success
+[2023-07-06 13:58:16] INFO root fetch - processPackages [gtki-module-exex]: Remove: archive file [/home/abi/fetcher/tmp/gtki_module_exex-0.0.5-py3-none-any.whl.zip]
+[2023-07-06 13:58:16] INFO root fetch - processPackages [gtki-module-exex]: Remove: archive file [/home/abi/fetcher/tmp/gtki_module_exex-0.0.6-py3-none-any.whl.zip]
+[2023-07-06 13:58:16] INFO root fetch - processPackages [gtki-module-exex]: Start processing: weave-py-api
+[2023-07-06 13:58:16] INFO root fetch - main [MainThread]: End processing [gtki-module-exex]: success
+[2023-07-06 13:58:16] INFO root fetch - processPackages [oidcish]: New version: [1.0.0] Old Version: [0.3.1]
+[2023-07-06 13:58:16] INFO root fetch - processPackages [whatsapp-chatbot-python]: Remove: archive file [/home/abi/fetcher/tmp/whatsapp-chatbot-python-0.5.0.tar.gz]
+[2023-07-06 13:58:16] INFO root fetch - processPackages [whatsapp-chatbot-python]: Remove: archive file [/home/abi/fetcher/tmp/whatsapp-chatbot-python-0.5.1.tar.gz]
+[2023-07-06 13:58:16] INFO root fetch - processPackages [whatsapp-chatbot-python]: Start processing: hyperparameter
+[2023-07-06 13:58:16] INFO root fetch - main [MainThread]: End processing [whatsapp-chatbot-python]: success
+[2023-07-06 13:58:17] INFO root fetch - processPackages [weave-py-api]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-06 13:58:17] INFO root fetch - processPackages [hyperparameter]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-07-06 13:58:17] INFO root fetch - processPackages [termux-language-server]: Remove: archive file [/home/abi/fetcher/tmp/termux-language-server-0.0.1.tar.gz]
+[2023-07-06 13:58:17] INFO root fetch - processPackages [termux-language-server]: Remove: archive file [/home/abi/fetcher/tmp/termux-language-server-0.0.2.tar.gz]
+[2023-07-06 13:58:17] INFO root fetch - processPackages [termux-language-server]: Start processing: barbell2-bodycomp
+[2023-07-06 13:58:17] INFO root fetch - main [MainThread]: End processing [termux-language-server]: success
+[2023-07-06 13:58:17] INFO root fetch - processPackages [oidcish]: Downloading https://files.pythonhosted.org/packages/d0/6d/63b5b8987aef6ce5fc1cb06ff01a01975aec01c3591c7a128cd7d3157b61/oidcish-0.3.1.tar.gz
+[2023-07-06 13:58:17] INFO root fetch - processPackages [weave-py-api]: Downloading https://files.pythonhosted.org/packages/1f/af/6919893c2a4508ce2fab21c5cd4abe7c19d7a25756569c7a18bc774ef1ab/weave-py-api-1.2.0.tar.gz
+[2023-07-06 13:58:17] INFO root fetch - processPackages [barbell2-bodycomp]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-06 13:58:17] INFO root fetch - processPackages [hyperparameter]: Downloading https://files.pythonhosted.org/packages/27/e1/2ac7f51b1d636ec798c0eba1c535971cb236a2248d7e36e5a1267743aea3/hyperparameter-0.5.4.tar.gz
+[2023-07-06 13:58:17] INFO root fetch - processPackages [lamindb_setup]: Remove: archive file [/home/abi/fetcher/tmp/lamindb_setup-0.48.3.tar.gz]
+[2023-07-06 13:58:17] INFO root fetch - processPackages [lamindb_setup]: Remove: archive file [/home/abi/fetcher/tmp/lamindb_setup-0.48.4.tar.gz]
+[2023-07-06 13:58:17] INFO root fetch - processPackages [lamindb_setup]: Start processing: xilinx-language-server
+[2023-07-06 13:58:17] INFO root fetch - main [MainThread]: End processing [lamindb_setup]: success
+[2023-07-06 13:58:17] INFO root fetch - processPackages [autopacmen-Paulocracy]: Remove: archive file [/home/abi/fetcher/tmp/autopacmen-Paulocracy-0.6.1.tar.gz]
+[2023-07-06 13:58:17] INFO root fetch - processPackages [autopacmen-Paulocracy]: Remove: archive file [/home/abi/fetcher/tmp/autopacmen-Paulocracy-0.6.2.tar.gz]
+[2023-07-06 13:58:17] INFO root fetch - processPackages [autopacmen-Paulocracy]: Start processing: meo
+[2023-07-06 13:58:17] INFO root fetch - main [MainThread]: End processing [autopacmen-Paulocracy]: success
+[2023-07-06 13:58:17] INFO root fetch - processPackages [xilinx-language-server]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-06 13:58:17] INFO root fetch - processPackages [meo]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-06 13:58:17] INFO root fetch - processPackages [barbell2-bodycomp]: Downloading https://files.pythonhosted.org/packages/67/d5/4bf343dbcb552ce4e0d45469f1ad42b9895ccc7f37341e8faffecbd05726/barbell2_bodycomp-0.8.0.tar.gz
+[2023-07-06 13:58:17] INFO root fetch - processPackages [oidcish]: Downloading https://files.pythonhosted.org/packages/ab/ce/6bff99b978704f8d970f79803a059297fa819b553bd3b913156b21978e1e/oidcish-1.0.0.tar.gz
+[2023-07-06 13:58:17] INFO root fetch - processPackages [elasticsearch]: Remove: archive file [/home/abi/fetcher/tmp/elasticsearch-8.8.0.tar.gz]
+[2023-07-06 13:58:17] INFO root fetch - processPackages [elasticsearch]: Remove: archive file [/home/abi/fetcher/tmp/elasticsearch-8.8.1.tar.gz]
+[2023-07-06 13:58:17] INFO root fetch - processPackages [elasticsearch]: Start processing: sinol-make
+[2023-07-06 13:58:17] INFO root fetch - main [MainThread]: End processing [elasticsearch]: success
+[2023-07-06 13:58:17] INFO root fetch - processPackages [hyperparameter]: Downloading https://files.pythonhosted.org/packages/99/c0/5762419d748dfda73b3b15f73ced145eb56e76816206716030f596a8cfbe/hyperparameter-0.5.5.tar.gz
+[2023-07-06 13:58:17] INFO root fetch - processPackages [weave-py-api]: Downloading https://files.pythonhosted.org/packages/68/c3/8c8afc9ec054b45b2a1c92cf84bd72e8c83ff258d13fce8cf0a570680c68/weave-py-api-1.2.1.tar.gz
+[2023-07-06 13:58:17] INFO root fetch - processPackages [xilinx-language-server]: Downloading https://files.pythonhosted.org/packages/87/ae/6b2b75f677813d3fd30bf4963f7724f31be2c91dea219a715ac25b62fc6f/xilinx-language-server-0.0.3.tar.gz
+[2023-07-06 13:58:17] INFO root fetch - processPackages [meo]: Downloading https://files.pythonhosted.org/packages/06/0f/14df855902e0d84a289198fb7353a544a3dc1e16b369d90a81df34ca6f32/meo-0.1.5.tar.gz
+[2023-07-06 13:58:17] INFO root fetch - processPackages [sinol-make]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-06 13:58:17] INFO root fetch - processPackages [elasticsearch8]: Remove: archive file [/home/abi/fetcher/tmp/elasticsearch8-8.8.0.tar.gz]
+[2023-07-06 13:58:17] INFO root fetch - processPackages [elasticsearch8]: Remove: archive file [/home/abi/fetcher/tmp/elasticsearch8-8.8.1.tar.gz]
+[2023-07-06 13:58:17] INFO root fetch - processPackages [elasticsearch8]: Start processing: example-package-eladpt
+[2023-07-06 13:58:17] INFO root fetch - main [MainThread]: End processing [elasticsearch8]: success
+[2023-07-06 13:58:17] INFO root fetch - processPackages [example-package-eladpt]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 13:58:17] INFO root fetch - processPackages [oidcish]: executing diffoscope
+[2023-07-06 13:58:17] INFO root fetch - processPackages [oidcish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oidcish-0.3.1.tar.gz tmp/oidcish-1.0.0.tar.gz --markdown 20230706/o/oidcish/0.3.1-1.0.0/diff.md --exclude *.pyd
+[2023-07-06 13:58:17] INFO root fetch - processPackages [hyperparameter]: executing diffoscope
+[2023-07-06 13:58:17] INFO root fetch - processPackages [hyperparameter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperparameter-0.5.4.tar.gz tmp/hyperparameter-0.5.5.tar.gz --markdown 20230706/h/hyperparameter/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-07-06 13:58:18] INFO root fetch - processPackages [weave-py-api]: executing diffoscope
+[2023-07-06 13:58:18] INFO root fetch - processPackages [weave-py-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weave-py-api-1.2.0.tar.gz tmp/weave-py-api-1.2.1.tar.gz --markdown 20230706/w/weave-py-api/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-06 13:58:18] INFO root fetch - processPackages [example-package-eladpt]: Downloading https://files.pythonhosted.org/packages/2a/63/145753cb261b048829789d2a1deff84f0d9720c72edd48d8c8ba6a85ba8a/example_package_eladpt-0.0.8-py3-none-any.whl
+[2023-07-06 13:58:18] INFO root fetch - processPackages [sinol-make]: Downloading https://files.pythonhosted.org/packages/8a/34/cbc308067f710ebf1ad964cd17d96f1d51b79de14200bd8019fd0be81a3e/sinol-make-1.2.1.tar.gz
+[2023-07-06 13:58:18] INFO root fetch - processPackages [barbell2-bodycomp]: Downloading https://files.pythonhosted.org/packages/d7/b2/5c4c1c66995b10cf7e25ca1730dd1b837cea894e9f0d0ce2f17ac75d6066/barbell2_bodycomp-0.9.0.tar.gz
+[2023-07-06 13:58:18] INFO root fetch - processPackages [xilinx-language-server]: Downloading https://files.pythonhosted.org/packages/eb/ad/ac4f769b6ffabfba3d307a62c108968df8e1919ff49e94e6f5bed2c1baee/xilinx-language-server-0.0.4.tar.gz
+[2023-07-06 13:58:18] INFO root fetch - processPackages [meo]: Downloading https://files.pythonhosted.org/packages/94/21/4334ac049c1f957c2eaa7fffdf5b20074d55da1dbf9244cb67b657b2906b/meo-0.1.6.tar.gz
+[2023-07-06 13:58:18] INFO root fetch - processPackages [example-package-eladpt]: Downloading https://files.pythonhosted.org/packages/d9/0a/98838577dfa6afdbe182094c84569d96c188845621bd3e07b8349efc8ae4/example_package_eladpt-0.0.9-py3-none-any.whl
+[2023-07-06 13:58:18] INFO root fetch - processPackages [barbell2-bodycomp]: executing diffoscope
+[2023-07-06 13:58:18] INFO root fetch - processPackages [barbell2-bodycomp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/barbell2_bodycomp-0.8.0.tar.gz tmp/barbell2_bodycomp-0.9.0.tar.gz --markdown 20230706/b/barbell2-bodycomp/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-06 13:58:18] INFO root fetch - processPackages [example-package-eladpt]: executing diffoscope
+[2023-07-06 13:58:18] INFO root fetch - processPackages [example-package-eladpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/example_package_eladpt-0.0.8-py3-none-any.whl.zip tmp/example_package_eladpt-0.0.9-py3-none-any.whl.zip --markdown 20230706/e/example-package-eladpt/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 13:58:18] INFO root fetch - processPackages [sinol-make]: Downloading https://files.pythonhosted.org/packages/3b/84/6401869b75924ca075dba84251fad0fa3ada3f002197a58565483eeed6f8/sinol-make-1.2.2.tar.gz
+[2023-07-06 13:58:18] INFO root fetch - processPackages [xilinx-language-server]: executing diffoscope
+[2023-07-06 13:58:18] INFO root fetch - processPackages [xilinx-language-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xilinx-language-server-0.0.3.tar.gz tmp/xilinx-language-server-0.0.4.tar.gz --markdown 20230706/x/xilinx-language-server/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-06 13:58:18] INFO root fetch - processPackages [meo]: executing diffoscope
+[2023-07-06 13:58:18] INFO root fetch - processPackages [meo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meo-0.1.5.tar.gz tmp/meo-0.1.6.tar.gz --markdown 20230706/m/meo/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-06 13:58:18] INFO root fetch - processPackages [sinol-make]: executing diffoscope
+[2023-07-06 13:58:18] INFO root fetch - processPackages [sinol-make]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinol-make-1.2.1.tar.gz tmp/sinol-make-1.2.2.tar.gz --markdown 20230706/s/sinol-make/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-06 13:58:19] INFO root fetch - processPackages [oidcish]: Remove: archive file [/home/abi/fetcher/tmp/oidcish-0.3.1.tar.gz]
+[2023-07-06 13:58:19] INFO root fetch - processPackages [oidcish]: Remove: archive file [/home/abi/fetcher/tmp/oidcish-1.0.0.tar.gz]
+[2023-07-06 13:58:19] INFO root fetch - processPackages [oidcish]: Start processing: assisted-service-client
+[2023-07-06 13:58:19] INFO root fetch - main [MainThread]: End processing [oidcish]: success
+[2023-07-06 13:58:19] INFO root fetch - processPackages [weave-py-api]: Remove: archive file [/home/abi/fetcher/tmp/weave-py-api-1.2.0.tar.gz]
+[2023-07-06 13:58:19] INFO root fetch - processPackages [weave-py-api]: Remove: archive file [/home/abi/fetcher/tmp/weave-py-api-1.2.1.tar.gz]
+[2023-07-06 13:58:19] INFO root fetch - processPackages [weave-py-api]: Start processing: TheSilent
+[2023-07-06 13:58:19] INFO root fetch - main [MainThread]: End processing [weave-py-api]: success
+[2023-07-06 13:58:19] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-06 13:58:19] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-07-06 13:58:19] INFO root fetch - processPackages [example-package-eladpt]: Remove: archive file [/home/abi/fetcher/tmp/example_package_eladpt-0.0.8-py3-none-any.whl.zip]
+[2023-07-06 13:58:19] INFO root fetch - processPackages [example-package-eladpt]: Remove: archive file [/home/abi/fetcher/tmp/example_package_eladpt-0.0.9-py3-none-any.whl.zip]
+[2023-07-06 13:58:19] INFO root fetch - processPackages [example-package-eladpt]: Start processing: qeplot
+[2023-07-06 13:58:19] INFO root fetch - main [MainThread]: End processing [example-package-eladpt]: success
+[2023-07-06 13:58:19] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-06 13:58:19] INFO root fetch - processPackages [hyperparameter]: Remove: archive file [/home/abi/fetcher/tmp/hyperparameter-0.5.4.tar.gz]
+[2023-07-06 13:58:19] INFO root fetch - processPackages [hyperparameter]: Remove: archive file [/home/abi/fetcher/tmp/hyperparameter-0.5.5.tar.gz]
+[2023-07-06 13:58:19] INFO root fetch - main [MainThread]: End processing [hyperparameter]: success
+[2023-07-06 13:58:19] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2023-07-06 13:58:19] INFO root fetch - processPackages [ibmsecurity]: Remove: archive file [/home/abi/fetcher/tmp/ibmsecurity-2023.7.4.0.tar.gz]
+[2023-07-06 13:58:19] INFO root fetch - processPackages [ibmsecurity]: Remove: archive file [/home/abi/fetcher/tmp/ibmsecurity-2023.7.6.0.tar.gz]
+[2023-07-06 13:58:19] INFO root fetch - main [MainThread]: End processing [ibmsecurity]: success
+[2023-07-06 13:58:20] WARNING root fetch - processPackages [qeplot]: Skipping, unable to determine old version
+[2023-07-06 13:58:20] INFO root fetch - main [MainThread]: End processing [qeplot] error
+[2023-07-06 13:58:20] INFO root fetch - processPackages [meo]: Remove: archive file [/home/abi/fetcher/tmp/meo-0.1.5.tar.gz]
+[2023-07-06 13:58:20] INFO root fetch - processPackages [meo]: Remove: archive file [/home/abi/fetcher/tmp/meo-0.1.6.tar.gz]
+[2023-07-06 13:58:20] INFO root fetch - main [MainThread]: End processing [meo]: success
+[2023-07-06 13:58:20] INFO root fetch - processPackages [barbell2-bodycomp]: Remove: archive file [/home/abi/fetcher/tmp/barbell2_bodycomp-0.8.0.tar.gz]
+[2023-07-06 13:58:20] INFO root fetch - processPackages [barbell2-bodycomp]: Remove: archive file [/home/abi/fetcher/tmp/barbell2_bodycomp-0.9.0.tar.gz]
+[2023-07-06 13:58:20] INFO root fetch - main [MainThread]: End processing [barbell2-bodycomp]: success
+[2023-07-06 13:58:20] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-07-06 13:58:20] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-07-06 13:58:20] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-07-06 13:58:20] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-06 13:58:20] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2023-07-06 13:58:20] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-06 13:58:20] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230706/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-06 13:58:20] INFO root fetch - processPackages [sinol-make]: Remove: archive file [/home/abi/fetcher/tmp/sinol-make-1.2.1.tar.gz]
+[2023-07-06 13:58:20] INFO root fetch - processPackages [sinol-make]: Remove: archive file [/home/abi/fetcher/tmp/sinol-make-1.2.2.tar.gz]
+[2023-07-06 13:58:20] INFO root fetch - main [MainThread]: End processing [sinol-make]: success
+[2023-07-06 13:58:20] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-07-06 13:58:20] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230706/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-07-06 13:58:20] INFO root fetch - processPackages [xilinx-language-server]: Remove: archive file [/home/abi/fetcher/tmp/xilinx-language-server-0.0.3.tar.gz]
+[2023-07-06 13:58:20] INFO root fetch - processPackages [xilinx-language-server]: Remove: archive file [/home/abi/fetcher/tmp/xilinx-language-server-0.0.4.tar.gz]
+[2023-07-06 13:58:20] INFO root fetch - main [MainThread]: End processing [xilinx-language-server]: success
+[2023-07-06 13:58:22] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-06 13:58:22] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-06 13:58:22] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-06 13:58:23] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2023-07-06 13:58:23] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2023-07-06 13:58:23] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-07-06 13:58:23] INFO root fetch - main [MainThread]: Store serial: [18782934]
