@@ -17899,3 +17899,127 @@ AssertionError: tmp/termkit-0.2.0a4.tar.gz does not exist
 [2023-07-06 11:37:54] INFO root fetch - processPackages [leap-model-parser]: Remove: archive file [/home/abi/fetcher/tmp/leap_model_parser-0.1.99.tar.gz]
 [2023-07-06 11:37:54] INFO root fetch - main [MainThread]: End processing [leap-model-parser]: success
 [2023-07-06 11:37:54] INFO root fetch - main [MainThread]: Store serial: [18781110]
+[2023-07-06 11:42:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18781110]
+[2023-07-06 11:43:03] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-06 11:43:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lsst-daf-butler
+[2023-07-06 11:43:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycompall
+[2023-07-06 11:43:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-fastapi-logging
+[2023-07-06 11:43:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MeUtils
+[2023-07-06 11:43:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: containerdevs
+[2023-07-06 11:43:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pycompall
+[2023-07-06 11:43:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: edpop-explorer
+[2023-07-06 11:43:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-material-admin-plus
+[2023-07-06 11:43:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lusid-notification-sdk-preview
+[2023-07-06 11:43:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: visionner
+[2023-07-06 11:43:03] INFO root fetch - processPackages [py-fastapi-logging]: New version: [0.4.0] Old Version: [0.3.5]
+[2023-07-06 11:43:03] INFO root fetch - processPackages [visionner]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-06 11:43:03] INFO root fetch - processPackages [pycompall]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-06 11:43:03] WARNING root fetch - processPackages [django-material-admin-plus]: Skipping, unable to determine old version
+[2023-07-06 11:43:03] INFO root fetch - processPackages [django-material-admin-plus]: Start processing: dfipy
+[2023-07-06 11:43:03] INFO root fetch - main [MainThread]: End processing [django-material-admin-plus] error
+[2023-07-06 11:43:03] WARNING root fetch - processPackages [edpop-explorer]: Skipping, unable to determine old version
+[2023-07-06 11:43:03] INFO root fetch - processPackages [lusid-notification-sdk-preview]: New version: [0.1.772.3] Old Version: [0.1.772]
+[2023-07-06 11:43:03] INFO root fetch - processPackages [edpop-explorer]: Start processing: nkululeko
+[2023-07-06 11:43:03] INFO root fetch - processPackages [pycompall]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-06 11:43:03] INFO root fetch - main [MainThread]: End processing [edpop-explorer] error
+[2023-07-06 11:43:03] INFO root fetch - processPackages [lsst-daf-butler]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-07-06 11:43:03] INFO root fetch - processPackages [dfipy]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-06 11:43:03] WARNING root fetch - processPackages [containerdevs]: Skipping, unable to determine old version
+[2023-07-06 11:43:03] INFO root fetch - processPackages [containerdevs]: Start processing: django-idp-user
+[2023-07-06 11:43:03] INFO root fetch - main [MainThread]: End processing [containerdevs] error
+[2023-07-06 11:43:03] INFO root fetch - processPackages [nkululeko]: New version: [0.52.0] Old Version: [0.51.0]
+[2023-07-06 11:43:03] INFO root fetch - processPackages [MeUtils]: New version: [2023.7.6.9.18.40] Old Version: [2023.7.6.9.11.22]
+[2023-07-06 11:43:03] INFO root fetch - processPackages [django-idp-user]: New version: [2.2.dev0] Old Version: [2.1.0]
+[2023-07-06 11:43:03] INFO root fetch - processPackages [pycompall]: Downloading https://files.pythonhosted.org/packages/dc/19/f0e2050aa91617c397300904881f496127e31f4952e3596e0028edb222d7/pycompall-0.1.7.tar.gz
+[2023-07-06 11:43:03] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/88/b4/8f3d255eba4d9bf5fe16efab15e0b73b1f4e3e247cfb179b7fb2434e1358/MeUtils-2023.7.6.9.11.22.tar.gz
+[2023-07-06 11:43:03] INFO root fetch - processPackages [py-fastapi-logging]: Downloading https://files.pythonhosted.org/packages/71/5b/19812bcd0a74af84da3c93a14bcbfade45dc3f340f975551c90b4fd05480/py_fastapi_logging-0.3.5.tar.gz
+[2023-07-06 11:43:03] INFO root fetch - processPackages [pycompall]: Downloading https://files.pythonhosted.org/packages/dc/19/f0e2050aa91617c397300904881f496127e31f4952e3596e0028edb222d7/pycompall-0.1.7.tar.gz
+[2023-07-06 11:43:03] INFO root fetch - processPackages [visionner]: Downloading https://files.pythonhosted.org/packages/15/03/d42ed11b325f905c15e94e95d8f447849769a74ad1b515106e50c044b96d/visionner-0.0.6.tar.gz
+[2023-07-06 11:43:03] INFO root fetch - processPackages [dfipy]: Downloading https://files.pythonhosted.org/packages/78/b0/e4b9780e74518ad82f11bfb588c9c693a8b4e73c28ef4d1bb0d4346d3e72/dfipy-1.0.1.tar.gz
+[2023-07-06 11:43:03] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Downloading https://files.pythonhosted.org/packages/0a/21/2d0c28b27b86672b1338199b495aab8cf776dacd7ff4887d21563ae7e5cb/lusid-notification-sdk-preview-0.1.772.tar.gz
+[2023-07-06 11:43:03] INFO root fetch - processPackages [nkululeko]: Downloading https://files.pythonhosted.org/packages/f7/85/c34037b97c8f5c974c734ef43d41a8de4b4a64ee888227464d6a0937d098/nkululeko-0.51.0.tar.gz
+[2023-07-06 11:43:03] INFO root fetch - processPackages [django-idp-user]: Downloading https://files.pythonhosted.org/packages/17/d8/7a9bf7c6f65b14540101ade6ace5cf198676121b84a823f69f09bd7cb360/django_idp_user-2.1.0.tar.gz
+[2023-07-06 11:43:03] INFO root fetch - processPackages [lsst-daf-butler]: Downloading https://files.pythonhosted.org/packages/dc/b1/9f18559a0567653c67511c02f80d8778d9d0fd3e9873efffb923379924eb/lsst-daf-butler-26.0.0a20230400.tar.gz
+[2023-07-06 11:43:04] INFO root fetch - processPackages [pycompall]: Downloading https://files.pythonhosted.org/packages/54/ed/03cd04e39d8544c2316500a98a5e0243d524d10a61a1a04562f83aab0950/pycompall-0.1.8.tar.gz
+[2023-07-06 11:43:04] INFO root fetch - processPackages [pycompall]: Downloading https://files.pythonhosted.org/packages/54/ed/03cd04e39d8544c2316500a98a5e0243d524d10a61a1a04562f83aab0950/pycompall-0.1.8.tar.gz
+[2023-07-06 11:43:04] INFO root fetch - processPackages [visionner]: Downloading https://files.pythonhosted.org/packages/18/bf/521b8719f6c643da1af790752067badb028e8b87808edd3a05f0aceff4dc/visionner-0.0.7.tar.gz
+[2023-07-06 11:43:04] INFO root fetch - processPackages [py-fastapi-logging]: Downloading https://files.pythonhosted.org/packages/8d/ed/8adc7f07268a03adcb9be8546a8c23d76d5389ef26140816e5c982b4ab6e/py_fastapi_logging-0.4.0.tar.gz
+[2023-07-06 11:43:04] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/03/c2/0074fedd9218c4324bec9cdbb7bc5f7c2c839ea18d1079a715c0d495a660/MeUtils-2023.7.6.9.18.40.tar.gz
+[2023-07-06 11:43:04] INFO root fetch - processPackages [nkululeko]: Downloading https://files.pythonhosted.org/packages/8c/9f/5094183328b4c97e4eb3e8be64b8fcc9ae9788668e7fa32918ca6d53f838/nkululeko-0.52.0.tar.gz
+[2023-07-06 11:43:04] INFO root fetch - processPackages [pycompall]: executing diffoscope
+[2023-07-06 11:43:04] INFO root fetch - processPackages [pycompall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycompall-0.1.7.tar.gz tmp/pycompall-0.1.8.tar.gz --markdown 20230706/p/pycompall/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-06 11:43:04] INFO root fetch - processPackages [django-idp-user]: Downloading https://files.pythonhosted.org/packages/7b/7c/ce7badd3c77023e76fd058973f711170b4ca6b3c9ee4f7c39e37bf7f7d81/django_idp_user-2.2.dev0.tar.gz
+[2023-07-06 11:43:04] INFO root fetch - processPackages [pycompall]: executing diffoscope
+[2023-07-06 11:43:04] INFO root fetch - processPackages [pycompall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycompall-0.1.7.tar.gz tmp/pycompall-0.1.8.tar.gz --markdown 20230706/p/pycompall/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-06 11:43:04] INFO root fetch - processPackages [dfipy]: Downloading https://files.pythonhosted.org/packages/ab/4a/504b69b16b7f920c4149f7d7c43be36a70f8a462dff716cd639b0385892d/dfipy-1.0.2.tar.gz
+[2023-07-06 11:43:04] INFO root fetch - processPackages [visionner]: executing diffoscope
+[2023-07-06 11:43:04] INFO root fetch - processPackages [visionner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visionner-0.0.6.tar.gz tmp/visionner-0.0.7.tar.gz --markdown 20230706/v/visionner/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-06 11:43:04] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Downloading https://files.pythonhosted.org/packages/5b/5c/c2f37b8311bfac9ac96189acf236c3a14575de7f4c7f234309f45470dd5e/lusid-notification-sdk-preview-0.1.772.3.tar.gz
+[2023-07-06 11:43:04] INFO root fetch - processPackages [nkululeko]: executing diffoscope
+[2023-07-06 11:43:04] INFO root fetch - processPackages [nkululeko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nkululeko-0.51.0.tar.gz tmp/nkululeko-0.52.0.tar.gz --markdown 20230706/n/nkululeko/0.51.0-0.52.0/diff.md --exclude *.pyd
+[2023-07-06 11:43:04] INFO root fetch - processPackages [py-fastapi-logging]: executing diffoscope
+[2023-07-06 11:43:04] INFO root fetch - processPackages [py-fastapi-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_fastapi_logging-0.3.5.tar.gz tmp/py_fastapi_logging-0.4.0.tar.gz --markdown 20230706/p/py-fastapi-logging/0.3.5-0.4.0/diff.md --exclude *.pyd
+[2023-07-06 11:43:04] INFO root fetch - processPackages [dfipy]: executing diffoscope
+[2023-07-06 11:43:04] INFO root fetch - processPackages [dfipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfipy-1.0.1.tar.gz tmp/dfipy-1.0.2.tar.gz --markdown 20230706/d/dfipy/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-06 11:43:04] INFO root fetch - processPackages [lsst-daf-butler]: Downloading https://files.pythonhosted.org/packages/63/f1/05460b4cbb11577f16194d576ae8d564636b13a457f218b01be5e8977fcc/lsst-daf-butler-26.0.0a20230500.tar.gz
+[2023-07-06 11:43:04] WARNING root fetch - processPackages [django-idp-user]: Skipping package: exceeds size limit 27696350>=10485760
+[2023-07-06 11:43:04] INFO root fetch - processPackages [django-idp-user]: Start processing: scikit-misc
+[2023-07-06 11:43:04] INFO root fetch - main [MainThread]: End processing [django-idp-user] error
+[2023-07-06 11:43:04] INFO root fetch - processPackages [lusid-notification-sdk-preview]: executing diffoscope
+[2023-07-06 11:43:04] INFO root fetch - processPackages [lusid-notification-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notification-sdk-preview-0.1.772.tar.gz tmp/lusid-notification-sdk-preview-0.1.772.3.tar.gz --markdown 20230706/l/lusid-notification-sdk-preview/0.1.772-0.1.772.3/diff.md --exclude *.pyd
+[2023-07-06 11:43:04] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-07-06 11:43:04] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.7.6.9.11.22.tar.gz tmp/MeUtils-2023.7.6.9.18.40.tar.gz --markdown 20230706/M/MeUtils/2023.7.6.9.11.22-2023.7.6.9.18.40/diff.md --exclude *.pyd
+[2023-07-06 11:43:04] INFO root fetch - processPackages [scikit-misc]: New version: [0.3.0] Old Version: [0.2.0rc4]
+[2023-07-06 11:43:04] INFO root fetch - processPackages [lsst-daf-butler]: executing diffoscope
+[2023-07-06 11:43:04] INFO root fetch - processPackages [lsst-daf-butler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-daf-butler-26.0.0a20230400.tar.gz tmp/lsst-daf-butler-26.0.0a20230500.tar.gz --markdown 20230706/l/lsst-daf-butler/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-07-06 11:43:04] INFO root fetch - processPackages [scikit-misc]: Downloading https://files.pythonhosted.org/packages/1f/8f/8e2d7ed6069d7ec772de14a463ca455258e4d0afd9008433d7ed4543136c/scikit_misc-0.2.0rc4-cp39-cp39-macosx_12_0_arm64.whl
+[2023-07-06 11:43:06] INFO root fetch - processPackages [pycompall]: Remove: archive file [/home/abi/fetcher/tmp/pycompall-0.1.7.tar.gz]
+[2023-07-06 11:43:06] INFO root fetch - processPackages [pycompall]: Remove: archive file [/home/abi/fetcher/tmp/pycompall-0.1.8.tar.gz]
+[2023-07-06 11:43:06] INFO root fetch - processPackages [pycompall]: Start processing: macrometa-target-oracle
+[2023-07-06 11:43:06] INFO root fetch - main [MainThread]: End processing [pycompall]: success
+[2023-07-06 11:43:06] INFO root fetch - processPackages [visionner]: Remove: archive file [/home/abi/fetcher/tmp/visionner-0.0.6.tar.gz]
+[2023-07-06 11:43:06] INFO root fetch - processPackages [visionner]: Remove: archive file [/home/abi/fetcher/tmp/visionner-0.0.7.tar.gz]
+[2023-07-06 11:43:06] INFO root fetch - processPackages [visionner]: Start processing: dopplrSDK
+[2023-07-06 11:43:06] INFO root fetch - main [MainThread]: End processing [visionner]: success
+[2023-07-06 11:43:06] INFO root fetch - processPackages [macrometa-target-oracle]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-06 11:43:06] INFO root fetch - processPackages [dopplrSDK]: New version: [2.8.0] Old Version: [2.7.0]
+[2023-07-06 11:43:06] INFO root fetch - main [MainThread]: End processing [pycompall]: success
+[2023-07-06 11:43:06] INFO root fetch - processPackages [macrometa-target-oracle]: Downloading https://files.pythonhosted.org/packages/d4/d7/6941b3a177197677ab675d50b03400661b8550a731c30152ef4dd3b05b99/macrometa-target-oracle-0.0.7.tar.gz
+[2023-07-06 11:43:06] INFO root fetch - processPackages [dopplrSDK]: Downloading https://files.pythonhosted.org/packages/17/1b/038758c704d65e59c3f11bb6128f94a452f7df7f604ac829a899a891e81d/dopplrSDK-2.7.0-py3-none-any.whl
+[2023-07-06 11:43:06] INFO root fetch - processPackages [dopplrSDK]: Downloading https://files.pythonhosted.org/packages/37/93/49eaa43c8261b96cf17b5bb61eac2d2374b3100f9976fb4f79b1a41b8ecb/dopplrSDK-2.8.0-py3-none-any.whl
+[2023-07-06 11:43:06] INFO root fetch - processPackages [macrometa-target-oracle]: Downloading https://files.pythonhosted.org/packages/a0/80/e2b08a616a27c8e81c0443ee41200ad4d121227c68ab6f394093dad44b33/macrometa-target-oracle-0.0.8.tar.gz
+[2023-07-06 11:43:06] INFO root fetch - processPackages [dfipy]: Remove: archive file [/home/abi/fetcher/tmp/dfipy-1.0.1.tar.gz]
+[2023-07-06 11:43:06] INFO root fetch - processPackages [dfipy]: Remove: archive file [/home/abi/fetcher/tmp/dfipy-1.0.2.tar.gz]
+[2023-07-06 11:43:06] INFO root fetch - main [MainThread]: End processing [dfipy]: success
+[2023-07-06 11:43:06] INFO root fetch - processPackages [py-fastapi-logging]: Remove: archive file [/home/abi/fetcher/tmp/py_fastapi_logging-0.3.5.tar.gz]
+[2023-07-06 11:43:06] INFO root fetch - processPackages [py-fastapi-logging]: Remove: archive file [/home/abi/fetcher/tmp/py_fastapi_logging-0.4.0.tar.gz]
+[2023-07-06 11:43:06] INFO root fetch - main [MainThread]: End processing [py-fastapi-logging]: success
+[2023-07-06 11:43:06] INFO root fetch - processPackages [macrometa-target-oracle]: executing diffoscope
+[2023-07-06 11:43:06] INFO root fetch - processPackages [macrometa-target-oracle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-oracle-0.0.7.tar.gz tmp/macrometa-target-oracle-0.0.8.tar.gz --markdown 20230706/m/macrometa-target-oracle/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-06 11:43:06] INFO root fetch - processPackages [dopplrSDK]: executing diffoscope
+[2023-07-06 11:43:06] INFO root fetch - processPackages [dopplrSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dopplrSDK-2.7.0-py3-none-any.whl.zip tmp/dopplrSDK-2.8.0-py3-none-any.whl.zip --markdown 20230706/d/dopplrSDK/2.7.0-2.8.0/diff.md --exclude *.pyd
+[2023-07-06 11:43:06] INFO root fetch - processPackages [nkululeko]: Remove: archive file [/home/abi/fetcher/tmp/nkululeko-0.51.0.tar.gz]
+[2023-07-06 11:43:06] INFO root fetch - processPackages [nkululeko]: Remove: archive file [/home/abi/fetcher/tmp/nkululeko-0.52.0.tar.gz]
+[2023-07-06 11:43:06] INFO root fetch - main [MainThread]: End processing [nkululeko]: success
+[2023-07-06 11:43:07] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notification-sdk-preview-0.1.772.tar.gz]
+[2023-07-06 11:43:07] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notification-sdk-preview-0.1.772.3.tar.gz]
+[2023-07-06 11:43:07] INFO root fetch - main [MainThread]: End processing [lusid-notification-sdk-preview]: success
+[2023-07-06 11:43:07] INFO root fetch - processPackages [dopplrSDK]: Remove: archive file [/home/abi/fetcher/tmp/dopplrSDK-2.7.0-py3-none-any.whl.zip]
+[2023-07-06 11:43:07] INFO root fetch - processPackages [dopplrSDK]: Remove: archive file [/home/abi/fetcher/tmp/dopplrSDK-2.8.0-py3-none-any.whl.zip]
+[2023-07-06 11:43:07] INFO root fetch - main [MainThread]: End processing [dopplrSDK]: success
+[2023-07-06 11:43:07] INFO root fetch - processPackages [scikit-misc]: Downloading https://files.pythonhosted.org/packages/ea/bb/590124a8a674dd87da72785be8ba942684e758d516ec0b13332a1d3b8671/scikit_misc-0.3.0.tar.gz
+[2023-07-06 11:43:07] INFO root fetch - processPackages [macrometa-target-oracle]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-oracle-0.0.7.tar.gz]
+[2023-07-06 11:43:07] INFO root fetch - processPackages [macrometa-target-oracle]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-oracle-0.0.8.tar.gz]
+[2023-07-06 11:43:07] INFO root fetch - main [MainThread]: End processing [macrometa-target-oracle]: success
+[2023-07-06 11:43:07] INFO root fetch - processPackages [scikit-misc]: executing diffoscope
+[2023-07-06 11:43:07] INFO root fetch - processPackages [scikit-misc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit_misc-0.2.0rc4-cp39-cp39-macosx_12_0_arm64.whl.zip tmp/scikit_misc-0.3.0.tar.gz --markdown 20230706/s/scikit-misc/0.2.0rc4-0.3.0/diff.md --exclude *.pyd
+[2023-07-06 11:43:08] INFO root fetch - processPackages [lsst-daf-butler]: Remove: archive file [/home/abi/fetcher/tmp/lsst-daf-butler-26.0.0a20230400.tar.gz]
+[2023-07-06 11:43:08] INFO root fetch - processPackages [lsst-daf-butler]: Remove: archive file [/home/abi/fetcher/tmp/lsst-daf-butler-26.0.0a20230500.tar.gz]
+[2023-07-06 11:43:08] INFO root fetch - main [MainThread]: End processing [lsst-daf-butler]: success
+[2023-07-06 11:43:09] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.6.9.11.22.tar.gz]
+[2023-07-06 11:43:09] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.6.9.18.40.tar.gz]
+[2023-07-06 11:43:09] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-07-06 11:43:11] INFO root fetch - processPackages [scikit-misc]: Remove: archive file [/home/abi/fetcher/tmp/scikit_misc-0.2.0rc4-cp39-cp39-macosx_12_0_arm64.whl.zip]
+[2023-07-06 11:43:11] INFO root fetch - processPackages [scikit-misc]: Remove: archive file [/home/abi/fetcher/tmp/scikit_misc-0.3.0.tar.gz]
+[2023-07-06 11:43:11] INFO root fetch - main [MainThread]: End processing [scikit-misc]: success
+[2023-07-06 11:43:11] INFO root fetch - main [MainThread]: Store serial: [18781174]
