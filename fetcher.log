@@ -17026,3 +17026,129 @@ AssertionError: tmp/termkit-0.2.0a4.tar.gz does not exist
 [2023-07-06 11:11:05] INFO root fetch - processPackages [akeyless]: Remove: archive file [/home/abi/fetcher/tmp/akeyless-3.3.9.tar.gz]
 [2023-07-06 11:11:05] INFO root fetch - main [MainThread]: End processing [akeyless]: success
 [2023-07-06 11:11:05] INFO root fetch - main [MainThread]: Store serial: [18780762]
+[2023-07-06 11:16:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18780762]
+[2023-07-06 11:16:14] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-06 11:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chellow
+[2023-07-06 11:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: funfluid
+[2023-07-06 11:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quantizeml
+[2023-07-06 11:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: layerx-sdk-beta
+[2023-07-06 11:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: staticpython
+[2023-07-06 11:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xj-role
+[2023-07-06 11:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: FeishuBitableAPI
+[2023-07-06 11:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: galvoplotter
+[2023-07-06 11:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bluepymm
+[2023-07-06 11:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pmx-biobb
+[2023-07-06 11:16:14] INFO root fetch - processPackages [funfluid]: New version: [202307061711] Old Version: [202307061708]
+[2023-07-06 11:16:14] WARNING root fetch - processPackages [staticpython]: Skipping, unable to determine old version
+[2023-07-06 11:16:14] INFO root fetch - processPackages [staticpython]: Start processing: dlg-paletteGen
+[2023-07-06 11:16:14] INFO root fetch - main [MainThread]: End processing [staticpython] error
+[2023-07-06 11:16:14] INFO root fetch - processPackages [layerx-sdk-beta]: New version: [1.0.9b2] Old Version: [1.0.9b1]
+[2023-07-06 11:16:14] INFO root fetch - processPackages [pmx-biobb]: New version: [4.1.3] Old Version: [4.1.2]
+[2023-07-06 11:16:14] WARNING root fetch - processPackages [galvoplotter]: Skipping, unable to determine old version
+[2023-07-06 11:16:14] INFO root fetch - processPackages [galvoplotter]: Start processing: directory-sso-api-client
+[2023-07-06 11:16:14] INFO root fetch - main [MainThread]: End processing [galvoplotter] error
+[2023-07-06 11:16:14] INFO root fetch - processPackages [quantizeml]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-06 11:16:14] INFO root fetch - processPackages [FeishuBitableAPI]: New version: [3.2.5] Old Version: [3.1.7]
+[2023-07-06 11:16:14] INFO root fetch - processPackages [bluepymm]: New version: [0.9.0] Old Version: [0.8.7]
+[2023-07-06 11:16:14] INFO root fetch - processPackages [xj-role]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-06 11:16:14] INFO root fetch - processPackages [chellow]: New version: [2827] Old Version: [2826]
+[2023-07-06 11:16:14] INFO root fetch - processPackages [dlg-paletteGen]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-06 11:16:14] INFO root fetch - processPackages [directory-sso-api-client]: New version: [7.2.3] Old Version: [7.2.2]
+[2023-07-06 11:16:15] INFO root fetch - processPackages [xj-role]: Downloading https://files.pythonhosted.org/packages/6b/8b/97965272d3462d0f7d0a27d169efd5145a23039e46eb22ce86c516d7eb65/xj_role-1.0.8.tar.gz
+[2023-07-06 11:16:15] INFO root fetch - processPackages [bluepymm]: Downloading https://files.pythonhosted.org/packages/94/98/33cec304bbe4e47730a5c8f9cef739ba29ef3e1cf30ad8c09b066b2ec852/bluepymm-0.8.7.tar.gz
+[2023-07-06 11:16:15] INFO root fetch - processPackages [dlg-paletteGen]: Downloading https://files.pythonhosted.org/packages/25/12/bee66af4a7e61a8579993c7eab5691e8ec404147777e1341ee557cb24f20/dlg_paletteGen-0.1.8.tar.gz
+[2023-07-06 11:16:15] INFO root fetch - processPackages [funfluid]: Downloading https://files.pythonhosted.org/packages/76/e6/5e23bf23f3c0e8f1b812d9dbcfc8e19b03af7eafcc6be281969e18e2ce0b/funfluid-202307061708.tar.gz
+[2023-07-06 11:16:15] INFO root fetch - processPackages [directory-sso-api-client]: Downloading https://files.pythonhosted.org/packages/cc/cf/fe1de5d5d6f39c20135f6a41a2a6c6671cd441109e3cd4d199ece418af07/directory_sso_api_client-7.2.2-py3-none-any.whl
+[2023-07-06 11:16:15] INFO root fetch - processPackages [pmx-biobb]: Downloading https://files.pythonhosted.org/packages/de/e6/7e0419f8305191fb52c09e3f36db33fa8e37e029e6e2d0c361cb384cfefa/pmx_biobb-4.1.2.tar.gz
+[2023-07-06 11:16:15] INFO root fetch - processPackages [layerx-sdk-beta]: Downloading https://files.pythonhosted.org/packages/82/30/49db849a17663ef31174e31654b943efd6d652d8fead1d082f103f9ab59e/layerx-sdk-beta-1.0.9b1.tar.gz
+[2023-07-06 11:16:15] INFO root fetch - processPackages [FeishuBitableAPI]: Downloading https://files.pythonhosted.org/packages/73/ab/561c83a0144672c8e05594d135b0249559686e638a453e1665447e8d9983/FeishuBitableAPI-3.1.7.tar.gz
+[2023-07-06 11:16:15] INFO root fetch - processPackages [quantizeml]: Downloading https://files.pythonhosted.org/packages/18/96/967a3d6e1b8b62d079572282a396251d7bc009595ce4cac538d3bb254340/quantizeml-0.5.0.tar.gz
+[2023-07-06 11:16:15] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/53/7f/0c0b4c6862d01d54d05680973dafeac8063cadbc1558cc789060e11e064a/chellow-2826.tar.gz
+[2023-07-06 11:16:15] INFO root fetch - processPackages [xj-role]: Downloading https://files.pythonhosted.org/packages/2c/77/ebb1d3254b61bd786e3aaebbd01dfa15310557c1a927f61995a6b9e0531e/xj_role-1.0.9.tar.gz
+[2023-07-06 11:16:15] INFO root fetch - processPackages [dlg-paletteGen]: Downloading https://files.pythonhosted.org/packages/f4/af/1168c22bc592bf352e8c0c01adc8339076e21c405cfcedcb07291b53688f/dlg_paletteGen-0.1.9.tar.gz
+[2023-07-06 11:16:15] INFO root fetch - processPackages [xj-role]: executing diffoscope
+[2023-07-06 11:16:15] INFO root fetch - processPackages [xj-role]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_role-1.0.8.tar.gz tmp/xj_role-1.0.9.tar.gz --markdown 20230706/x/xj-role/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-06 11:16:15] INFO root fetch - processPackages [bluepymm]: Downloading https://files.pythonhosted.org/packages/48/32/15e98f01a92d6728db7fbdb55ab237f2a43eb2a1b2e7da4f791fea74b38a/bluepymm-0.9.0.tar.gz
+[2023-07-06 11:16:15] INFO root fetch - processPackages [funfluid]: Downloading https://files.pythonhosted.org/packages/51/6a/c2fea1f31f1bdce7eaa24155eb6029e2bc67c30d8c9ef51d33c024091524/funfluid-202307061711.tar.gz
+[2023-07-06 11:16:15] INFO root fetch - processPackages [directory-sso-api-client]: Downloading https://files.pythonhosted.org/packages/9e/74/28f786d9603bd6555f78093e6f2c10728bd05466a61e26c467fb3089c662/directory_sso_api_client-7.2.3-py3-none-any.whl
+[2023-07-06 11:16:15] INFO root fetch - processPackages [dlg-paletteGen]: executing diffoscope
+[2023-07-06 11:16:15] INFO root fetch - processPackages [dlg-paletteGen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlg_paletteGen-0.1.8.tar.gz tmp/dlg_paletteGen-0.1.9.tar.gz --markdown 20230706/d/dlg-paletteGen/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-06 11:16:15] INFO root fetch - processPackages [funfluid]: executing diffoscope
+[2023-07-06 11:16:15] INFO root fetch - processPackages [funfluid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funfluid-202307061708.tar.gz tmp/funfluid-202307061711.tar.gz --markdown 20230706/f/funfluid/202307061708-202307061711/diff.md --exclude *.pyd
+[2023-07-06 11:16:15] INFO root fetch - processPackages [layerx-sdk-beta]: Downloading https://files.pythonhosted.org/packages/80/17/9c39f674089d0687a6ebb4bb5cb263194817e74bbf02632c5b1f95ed63ed/layerx-sdk-beta-1.0.9b2.tar.gz
+[2023-07-06 11:16:15] INFO root fetch - processPackages [bluepymm]: executing diffoscope
+[2023-07-06 11:16:15] INFO root fetch - processPackages [bluepymm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluepymm-0.8.7.tar.gz tmp/bluepymm-0.9.0.tar.gz --markdown 20230706/b/bluepymm/0.8.7-0.9.0/diff.md --exclude *.pyd
+[2023-07-06 11:16:15] INFO root fetch - processPackages [FeishuBitableAPI]: Downloading https://files.pythonhosted.org/packages/0e/36/ecc58eb7d5129f8f91b98923604536e3874515af634f64c24acdafc87738/FeishuBitableAPI-3.2.5.tar.gz
+[2023-07-06 11:16:15] INFO root fetch - processPackages [layerx-sdk-beta]: executing diffoscope
+[2023-07-06 11:16:15] INFO root fetch - processPackages [layerx-sdk-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/layerx-sdk-beta-1.0.9b1.tar.gz tmp/layerx-sdk-beta-1.0.9b2.tar.gz --markdown 20230706/l/layerx-sdk-beta/1.0.9b1-1.0.9b2/diff.md --exclude *.pyd
+[2023-07-06 11:16:15] INFO root fetch - processPackages [quantizeml]: Downloading https://files.pythonhosted.org/packages/2d/46/befd79ddd5fbe71253b84c3182b9a034174429f2c43f905fce67b47ea2fa/quantizeml-0.5.1.tar.gz
+[2023-07-06 11:16:15] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/bc/64/ec72bd83957d5f6ad5cfc5f2b156b41dad4c98bee657040bbb6b98ac80b6/chellow-2827.tar.gz
+[2023-07-06 11:16:15] INFO root fetch - processPackages [quantizeml]: executing diffoscope
+[2023-07-06 11:16:15] INFO root fetch - processPackages [quantizeml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantizeml-0.5.0.tar.gz tmp/quantizeml-0.5.1.tar.gz --markdown 20230706/q/quantizeml/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-06 11:16:16] INFO root fetch - processPackages [FeishuBitableAPI]: executing diffoscope
+[2023-07-06 11:16:16] INFO root fetch - processPackages [FeishuBitableAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FeishuBitableAPI-3.1.7.tar.gz tmp/FeishuBitableAPI-3.2.5.tar.gz --markdown 20230706/F/FeishuBitableAPI/3.1.7-3.2.5/diff.md --exclude *.pyd
+[2023-07-06 11:16:16] INFO root fetch - processPackages [directory-sso-api-client]: executing diffoscope
+[2023-07-06 11:16:16] INFO root fetch - processPackages [directory-sso-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/directory_sso_api_client-7.2.2-py3-none-any.whl.zip tmp/directory_sso_api_client-7.2.3-py3-none-any.whl.zip --markdown 20230706/d/directory-sso-api-client/7.2.2-7.2.3/diff.md --exclude *.pyd
+[2023-07-06 11:16:16] INFO root fetch - processPackages [chellow]: executing diffoscope
+[2023-07-06 11:16:16] INFO root fetch - processPackages [chellow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chellow-2826.tar.gz tmp/chellow-2827.tar.gz --markdown 20230706/c/chellow/2826-2827/diff.md --exclude *.pyd
+[2023-07-06 11:16:16] INFO root fetch - processPackages [pmx-biobb]: Downloading https://files.pythonhosted.org/packages/ff/3a/d6a0cec96cc00189a683995a26e729c9d09e503129b35192923c46bd93ed/pmx_biobb-4.1.3.tar.gz
+[2023-07-06 11:16:17] INFO root fetch - processPackages [xj-role]: Remove: archive file [/home/abi/fetcher/tmp/xj_role-1.0.8.tar.gz]
+[2023-07-06 11:16:17] INFO root fetch - processPackages [xj-role]: Remove: archive file [/home/abi/fetcher/tmp/xj_role-1.0.9.tar.gz]
+[2023-07-06 11:16:17] INFO root fetch - processPackages [xj-role]: Start processing: sunpeek
+[2023-07-06 11:16:17] INFO root fetch - main [MainThread]: End processing [xj-role]: success
+[2023-07-06 11:16:17] INFO root fetch - processPackages [sunpeek]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-06 11:16:17] INFO root fetch - processPackages [pmx-biobb]: executing diffoscope
+[2023-07-06 11:16:17] INFO root fetch - processPackages [pmx-biobb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmx_biobb-4.1.2.tar.gz tmp/pmx_biobb-4.1.3.tar.gz --markdown 20230706/p/pmx-biobb/4.1.2-4.1.3/diff.md --exclude *.pyd
+[2023-07-06 11:16:17] INFO root fetch - processPackages [dlg-paletteGen]: Remove: archive file [/home/abi/fetcher/tmp/dlg_paletteGen-0.1.8.tar.gz]
+[2023-07-06 11:16:17] INFO root fetch - processPackages [dlg-paletteGen]: Remove: archive file [/home/abi/fetcher/tmp/dlg_paletteGen-0.1.9.tar.gz]
+[2023-07-06 11:16:17] INFO root fetch - processPackages [dlg-paletteGen]: Start processing: sicdeploy
+[2023-07-06 11:16:17] INFO root fetch - main [MainThread]: End processing [dlg-paletteGen]: success
+[2023-07-06 11:16:17] INFO root fetch - processPackages [sicdeploy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-06 11:16:17] INFO root fetch - processPackages [sunpeek]: Downloading https://files.pythonhosted.org/packages/7d/87/fc2d2721ed03813871d259741139dcbcb0f1a5a7686743ee6d533d5af952/sunpeek-0.2.8-py3-none-any.whl
+[2023-07-06 11:16:17] INFO root fetch - processPackages [funfluid]: Remove: archive file [/home/abi/fetcher/tmp/funfluid-202307061708.tar.gz]
+[2023-07-06 11:16:17] INFO root fetch - processPackages [funfluid]: Remove: archive file [/home/abi/fetcher/tmp/funfluid-202307061711.tar.gz]
+[2023-07-06 11:16:17] INFO root fetch - processPackages [funfluid]: Start processing: nvfuser-cu121
+[2023-07-06 11:16:17] INFO root fetch - main [MainThread]: End processing [funfluid]: success
+[2023-07-06 11:16:18] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-07-06 11:16:18] INFO root fetch - processPackages [bluepymm]: Remove: archive file [/home/abi/fetcher/tmp/bluepymm-0.8.7.tar.gz]
+[2023-07-06 11:16:18] INFO root fetch - processPackages [bluepymm]: Remove: archive file [/home/abi/fetcher/tmp/bluepymm-0.9.0.tar.gz]
+[2023-07-06 11:16:18] INFO root fetch - main [MainThread]: End processing [bluepymm]: success
+[2023-07-06 11:16:18] INFO root fetch - processPackages [sicdeploy]: Downloading https://files.pythonhosted.org/packages/3b/4c/dd763bdee5257058860674e04ec631efbf4c008b1cdfa3e92237ae86077d/sicdeploy-0.1.8-py3-none-any.whl
+[2023-07-06 11:16:18] INFO root fetch - processPackages [layerx-sdk-beta]: Remove: archive file [/home/abi/fetcher/tmp/layerx-sdk-beta-1.0.9b1.tar.gz]
+[2023-07-06 11:16:18] INFO root fetch - processPackages [layerx-sdk-beta]: Remove: archive file [/home/abi/fetcher/tmp/layerx-sdk-beta-1.0.9b2.tar.gz]
+[2023-07-06 11:16:18] INFO root fetch - main [MainThread]: End processing [layerx-sdk-beta]: success
+[2023-07-06 11:16:18] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/b3/bf/667bd4aad6c776a5e62ad2f63da6dd5bb51f013f1ff3284d04efbf109991/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-06 11:16:18] INFO root fetch - processPackages [quantizeml]: Remove: archive file [/home/abi/fetcher/tmp/quantizeml-0.5.0.tar.gz]
+[2023-07-06 11:16:18] INFO root fetch - processPackages [quantizeml]: Remove: archive file [/home/abi/fetcher/tmp/quantizeml-0.5.1.tar.gz]
+[2023-07-06 11:16:18] INFO root fetch - main [MainThread]: End processing [quantizeml]: success
+[2023-07-06 11:16:18] INFO root fetch - processPackages [FeishuBitableAPI]: Remove: archive file [/home/abi/fetcher/tmp/FeishuBitableAPI-3.1.7.tar.gz]
+[2023-07-06 11:16:18] INFO root fetch - processPackages [FeishuBitableAPI]: Remove: archive file [/home/abi/fetcher/tmp/FeishuBitableAPI-3.2.5.tar.gz]
+[2023-07-06 11:16:18] INFO root fetch - main [MainThread]: End processing [FeishuBitableAPI]: success
+[2023-07-06 11:16:18] INFO root fetch - processPackages [sunpeek]: Downloading https://files.pythonhosted.org/packages/a5/83/92e0e84a50850a618aae14d33638554bcbb3ccc7fc4a8bad2c03cfa0ed20/sunpeek-0.2.9-py3-none-any.whl
+[2023-07-06 11:16:18] INFO root fetch - processPackages [directory-sso-api-client]: Remove: archive file [/home/abi/fetcher/tmp/directory_sso_api_client-7.2.2-py3-none-any.whl.zip]
+[2023-07-06 11:16:18] INFO root fetch - processPackages [directory-sso-api-client]: Remove: archive file [/home/abi/fetcher/tmp/directory_sso_api_client-7.2.3-py3-none-any.whl.zip]
+[2023-07-06 11:16:18] INFO root fetch - main [MainThread]: End processing [directory-sso-api-client]: success
+[2023-07-06 11:16:18] INFO root fetch - processPackages [sicdeploy]: Downloading https://files.pythonhosted.org/packages/2a/ad/23de3b83d453b3270c3f8372291a5ae917e441497407273506169f7781ec/sicdeploy-0.1.9-py3-none-any.whl
+[2023-07-06 11:16:18] INFO root fetch - processPackages [sunpeek]: executing diffoscope
+[2023-07-06 11:16:18] INFO root fetch - processPackages [sunpeek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunpeek-0.2.8-py3-none-any.whl.zip tmp/sunpeek-0.2.9-py3-none-any.whl.zip --markdown 20230706/s/sunpeek/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-06 11:16:18] INFO root fetch - processPackages [sicdeploy]: executing diffoscope
+[2023-07-06 11:16:18] INFO root fetch - processPackages [sicdeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sicdeploy-0.1.8-py3-none-any.whl.zip tmp/sicdeploy-0.1.9-py3-none-any.whl.zip --markdown 20230706/s/sicdeploy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-06 11:16:19] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/05/3d/6c84b5f07a9f69349df1b20f64065b4cbd84158521710f47bb31051a8ee9/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-06 11:16:19] INFO root fetch - processPackages [sicdeploy]: Remove: archive file [/home/abi/fetcher/tmp/sicdeploy-0.1.8-py3-none-any.whl.zip]
+[2023-07-06 11:16:19] INFO root fetch - processPackages [sicdeploy]: Remove: archive file [/home/abi/fetcher/tmp/sicdeploy-0.1.9-py3-none-any.whl.zip]
+[2023-07-06 11:16:19] INFO root fetch - main [MainThread]: End processing [sicdeploy]: success
+[2023-07-06 11:16:19] INFO root fetch - processPackages [sunpeek]: Remove: archive file [/home/abi/fetcher/tmp/sunpeek-0.2.8-py3-none-any.whl.zip]
+[2023-07-06 11:16:19] INFO root fetch - processPackages [sunpeek]: Remove: archive file [/home/abi/fetcher/tmp/sunpeek-0.2.9-py3-none-any.whl.zip]
+[2023-07-06 11:16:19] INFO root fetch - main [MainThread]: End processing [sunpeek]: success
+[2023-07-06 11:16:20] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2023-07-06 11:16:20] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230706/n/nvfuser-cu121/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-07-06 11:16:20] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2826.tar.gz]
+[2023-07-06 11:16:20] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2827.tar.gz]
+[2023-07-06 11:16:20] INFO root fetch - main [MainThread]: End processing [chellow]: success
+[2023-07-06 11:16:21] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-06 11:16:21] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-06 11:16:21] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2023-07-06 11:16:23] INFO root fetch - processPackages [pmx-biobb]: Remove: archive file [/home/abi/fetcher/tmp/pmx_biobb-4.1.2.tar.gz]
+[2023-07-06 11:16:23] INFO root fetch - processPackages [pmx-biobb]: Remove: archive file [/home/abi/fetcher/tmp/pmx_biobb-4.1.3.tar.gz]
+[2023-07-06 11:16:23] INFO root fetch - main [MainThread]: End processing [pmx-biobb]: success
+[2023-07-06 11:16:23] INFO root fetch - main [MainThread]: Store serial: [18780821]
