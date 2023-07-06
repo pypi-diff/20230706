@@ -11956,3 +11956,27 @@ AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
 [2023-07-06 06:40:47] INFO root fetch - processPackages [backend.ai-manager]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-manager-23.3.8.tar.gz]
 [2023-07-06 06:40:47] INFO root fetch - main [MainThread]: End processing [backend.ai-manager]: success
 [2023-07-06 06:40:47] INFO root fetch - main [MainThread]: Store serial: [18778481]
+[2023-07-06 06:45:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18778481]
+[2023-07-06 06:45:57] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-06 06:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cjm-yolox-pytorch
+[2023-07-06 06:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: audio-stats
+[2023-07-06 06:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: EasyDeL
+[2023-07-06 06:45:57] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 06:45:57] WARNING root fetch - processPackages [audio-stats]: Skipping, unable to determine old version
+[2023-07-06 06:45:57] INFO root fetch - main [MainThread]: End processing [audio-stats] error
+[2023-07-06 06:45:57] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/81/56/c42c32e49fb4026f015287fa1a38d74d2be3163719b4d87ac8d2d48172ac/cjm-yolox-pytorch-0.0.8.tar.gz
+[2023-07-06 06:45:57] INFO root fetch - processPackages [EasyDeL]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-06 06:45:57] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-06 06:45:57] INFO root fetch - processPackages [EasyDeL]: Downloading https://files.pythonhosted.org/packages/d7/27/f95a6460833bb8fdf4a96e29dd36a474be5061e06192f270102df6d289a1/EasyDeL-0.0.7.tar.gz
+[2023-07-06 06:45:57] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-06 06:45:57] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.8.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230706/c/cjm-yolox-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 06:45:57] INFO root fetch - processPackages [EasyDeL]: Downloading https://files.pythonhosted.org/packages/0b/01/765632e4f48f400658c26b4a653df55e20dc326b64fd0991020f7fb5c16b/EasyDeL-0.0.8.tar.gz
+[2023-07-06 06:45:58] INFO root fetch - processPackages [EasyDeL]: executing diffoscope
+[2023-07-06 06:45:58] INFO root fetch - processPackages [EasyDeL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EasyDeL-0.0.7.tar.gz tmp/EasyDeL-0.0.8.tar.gz --markdown 20230706/E/EasyDeL/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-06 06:45:58] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.8.tar.gz]
+[2023-07-06 06:45:58] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.9.tar.gz]
+[2023-07-06 06:45:58] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-06 06:45:58] INFO root fetch - processPackages [EasyDeL]: Remove: archive file [/home/abi/fetcher/tmp/EasyDeL-0.0.7.tar.gz]
+[2023-07-06 06:45:58] INFO root fetch - processPackages [EasyDeL]: Remove: archive file [/home/abi/fetcher/tmp/EasyDeL-0.0.8.tar.gz]
+[2023-07-06 06:45:58] INFO root fetch - main [MainThread]: End processing [EasyDeL]: success
+[2023-07-06 06:45:58] INFO root fetch - main [MainThread]: Store serial: [18778491]
