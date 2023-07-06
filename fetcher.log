@@ -16061,3 +16061,184 @@ AssertionError: tmp/SELDOMpy-0.8.4.2.tar.gz does not exist
 [2023-07-06 10:44:12] INFO root fetch - processPackages [sqlmap]: Remove: archive file [/home/abi/fetcher/tmp/sqlmap-1.7.7.tar.gz]
 [2023-07-06 10:44:12] INFO root fetch - main [MainThread]: End processing [sqlmap]: success
 [2023-07-06 10:44:12] INFO root fetch - main [MainThread]: Store serial: [18780338]
+[2023-07-06 10:49:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18780338]
+[2023-07-06 10:49:22] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-07-06 10:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aliyun-python-sdk-bpstudio
+[2023-07-06 10:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mstrio-py
+[2023-07-06 10:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ppxf
+[2023-07-06 10:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sicdeploy
+[2023-07-06 10:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dc-index
+[2023-07-06 10:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dolphie
+[2023-07-06 10:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wiptools
+[2023-07-06 10:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tfp-nightly
+[2023-07-06 10:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: echoviz-MALOU
+[2023-07-06 10:49:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: echofish-aws-indexing-lambda
+[2023-07-06 10:49:22] INFO root fetch - processPackages [sicdeploy]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-06 10:49:22] INFO root fetch - processPackages [aliyun-python-sdk-bpstudio]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-06 10:49:22] INFO root fetch - processPackages [wiptools]: New version: [1.2.9.dev0] Old Version: [1.2.8.dev0]
+[2023-07-06 10:49:22] INFO root fetch - processPackages [dolphie]: New version: [2.0.7] Old Version: [2.0.6]
+[2023-07-06 10:49:22] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: New version: [1.0.0.dev20230706084341] Old Version: [1.0.0.dev20230706083726]
+[2023-07-06 10:49:22] INFO root fetch - processPackages [echoviz-MALOU]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-06 10:49:22] INFO root fetch - processPackages [mstrio-py]: New version: [11.3.9.103] Old Version: [11.3.9.101]
+[2023-07-06 10:49:22] WARNING root fetch - processPackages [dc-index]: Skipping, unable to determine old version
+[2023-07-06 10:49:22] INFO root fetch - processPackages [dc-index]: Start processing: sicdeploy
+[2023-07-06 10:49:22] INFO root fetch - main [MainThread]: End processing [dc-index] error
+[2023-07-06 10:49:22] INFO root fetch - processPackages [ppxf]: New version: [8.2.6] Old Version: [8.2.4]
+[2023-07-06 10:49:22] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-07-06 10:49:22] INFO root fetch - processPackages [sicdeploy]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-06 10:49:22] INFO root fetch - processPackages [sicdeploy]: Downloading https://files.pythonhosted.org/packages/23/f0/641473cbc003fc8d4028f438ece8a17c087a1b3fa6cf9ab8e4a63624946c/sicdeploy-0.1.6-py3-none-any.whl
+[2023-07-06 10:49:22] INFO root fetch - processPackages [dolphie]: Downloading https://files.pythonhosted.org/packages/c3/70/addfaac72ad09047349d3f1b3903a54b5ed957b09b1904a7c8bdd08ef69b/dolphie-2.0.6.tar.gz
+[2023-07-06 10:49:22] INFO root fetch - processPackages [wiptools]: Downloading https://files.pythonhosted.org/packages/b9/9f/1f8ba12ffb63470e6ff6d8a27d89845042922a4cbc3fd9c887309f24f7c0/wiptools-1.2.8.dev0.tar.gz
+[2023-07-06 10:49:22] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2023-07-06 10:49:22] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: Downloading https://files.pythonhosted.org/packages/8c/3e/bfb128c219773af31da3f8e3445653aaab4d17e5cd1519b1d0ba30cb7f7f/echofish-aws-indexing-lambda-1.0.0.dev20230706083726.tar.gz
+[2023-07-06 10:49:22] INFO root fetch - processPackages [sicdeploy]: Downloading https://files.pythonhosted.org/packages/23/f0/641473cbc003fc8d4028f438ece8a17c087a1b3fa6cf9ab8e4a63624946c/sicdeploy-0.1.6-py3-none-any.whl
+[2023-07-06 10:49:22] INFO root fetch - processPackages [mstrio-py]: Downloading https://files.pythonhosted.org/packages/a4/d2/b42ff7f4678478c1e261af14f326b5e893d426d1ec4aed816b5f09208632/mstrio-py-11.3.9.101.tar.gz
+[2023-07-06 10:49:22] INFO root fetch - processPackages [aliyun-python-sdk-bpstudio]: Downloading https://files.pythonhosted.org/packages/79/b5/e9269734234e736032dfbaa812f0d7f2427b73d45b2fd1269cdbda58078d/aliyun-python-sdk-bpstudio-1.0.3.tar.gz
+[2023-07-06 10:49:22] INFO root fetch - processPackages [echoviz-MALOU]: Downloading https://files.pythonhosted.org/packages/56/8d/6405befc8e0d3eebd59c886ceb77d0f898de7c04d0ec298720e1732a146e/echoviz-MALOU-0.1.2.tar.gz
+[2023-07-06 10:49:22] INFO root fetch - processPackages [ppxf]: Downloading https://files.pythonhosted.org/packages/22/cd/356fdaabb3b4f5e597ecda0334e58e299a62541c313b82e282f4efacbbdb/ppxf-8.2.4.tar.gz
+[2023-07-06 10:49:22] WARNING root fetch - processPackages [ppxf]: Skipping package: exceeds size limit 25342458>=10485760
+[2023-07-06 10:49:22] INFO root fetch - processPackages [ppxf]: Start processing: oidc-drf
+[2023-07-06 10:49:22] INFO root fetch - main [MainThread]: End processing [ppxf] error
+[2023-07-06 10:49:23] INFO root fetch - processPackages [oidc-drf]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-06 10:49:23] INFO root fetch - processPackages [dolphie]: Downloading https://files.pythonhosted.org/packages/0a/b8/766e0cb9f6097ce11646955732d1ff5a20020fceb902b95f82ef35e0690e/dolphie-2.0.7.tar.gz
+[2023-07-06 10:49:23] INFO root fetch - processPackages [wiptools]: Downloading https://files.pythonhosted.org/packages/30/d2/49c84e4c84f1b4aa0a24ebfd88fe1f23a7b822e5e92ac9279d738c981298/wiptools-1.2.9.dev0.tar.gz
+[2023-07-06 10:49:23] INFO root fetch - processPackages [sicdeploy]: Downloading https://files.pythonhosted.org/packages/1d/c4/e467c0a7a67f6187a45f82e8f3a3c4e4913533eff8b19a72864155fac867/sicdeploy-0.1.7-py3-none-any.whl
+[2023-07-06 10:49:23] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: Downloading https://files.pythonhosted.org/packages/f5/63/e23df7dca94120550beb3b17319cd19ab12f550be9ae6ed14e33a4179c83/echofish-aws-indexing-lambda-1.0.0.dev20230706084341.tar.gz
+[2023-07-06 10:49:23] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/36/75/0e56487388828f40b0a8d401716a3cd255d3085e731e6ca3745ab28a86d2/oidc_drf-1.2.8.tar.gz
+[2023-07-06 10:49:23] INFO root fetch - processPackages [aliyun-python-sdk-bpstudio]: Downloading https://files.pythonhosted.org/packages/c6/ea/81990ba30bd89877d2ed652735788917aca83f0aed94a6d0015101b78875/aliyun-python-sdk-bpstudio-1.0.4.tar.gz
+[2023-07-06 10:49:23] INFO root fetch - processPackages [dolphie]: executing diffoscope
+[2023-07-06 10:49:23] INFO root fetch - processPackages [dolphie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dolphie-2.0.6.tar.gz tmp/dolphie-2.0.7.tar.gz --markdown 20230706/d/dolphie/2.0.6-2.0.7/diff.md --exclude *.pyd
+[2023-07-06 10:49:23] INFO root fetch - processPackages [wiptools]: executing diffoscope
+[2023-07-06 10:49:23] INFO root fetch - processPackages [wiptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiptools-1.2.8.dev0.tar.gz tmp/wiptools-1.2.9.dev0.tar.gz --markdown 20230706/w/wiptools/1.2.8.dev0-1.2.9.dev0/diff.md --exclude *.pyd
+[2023-07-06 10:49:23] INFO root fetch - processPackages [sicdeploy]: Downloading https://files.pythonhosted.org/packages/1d/c4/e467c0a7a67f6187a45f82e8f3a3c4e4913533eff8b19a72864155fac867/sicdeploy-0.1.7-py3-none-any.whl
+[2023-07-06 10:49:23] INFO root fetch - processPackages [echoviz-MALOU]: Downloading https://files.pythonhosted.org/packages/fc/0f/36fe3554f2be42f432434b6c162e9d5f15ab0798ecd7af91e52afad60ad5/echoviz_MALOU-0.1.3-py3-none-any.whl
+[2023-07-06 10:49:23] INFO root fetch - processPackages [sicdeploy]: executing diffoscope
+[2023-07-06 10:49:23] INFO root fetch - processPackages [sicdeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sicdeploy-0.1.6-py3-none-any.whl.zip tmp/sicdeploy-0.1.7-py3-none-any.whl.zip --markdown 20230706/s/sicdeploy/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-06 10:49:23] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2023-07-06 10:49:23] INFO root fetch - processPackages [aliyun-python-sdk-bpstudio]: executing diffoscope
+[2023-07-06 10:49:23] INFO root fetch - processPackages [aliyun-python-sdk-bpstudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-bpstudio-1.0.3.tar.gz tmp/aliyun-python-sdk-bpstudio-1.0.4.tar.gz --markdown 20230706/a/aliyun-python-sdk-bpstudio/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-06 10:49:23] INFO root fetch - processPackages [mstrio-py]: Downloading https://files.pythonhosted.org/packages/89/7d/26554e41bec458147ea8ec867cfb44d29d9bad1d5219f1a9685e5787dd94/mstrio-py-11.3.9.103.tar.gz
+[2023-07-06 10:49:23] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: executing diffoscope
+[2023-07-06 10:49:23] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echofish-aws-indexing-lambda-1.0.0.dev20230706083726.tar.gz tmp/echofish-aws-indexing-lambda-1.0.0.dev20230706084341.tar.gz --markdown 20230706/e/echofish-aws-indexing-lambda/1.0.0.dev20230706083726-1.0.0.dev20230706084341/diff.md --exclude *.pyd
+[2023-07-06 10:49:23] INFO root fetch - processPackages [sicdeploy]: executing diffoscope
+[2023-07-06 10:49:23] INFO root fetch - processPackages [sicdeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sicdeploy-0.1.6-py3-none-any.whl.zip tmp/sicdeploy-0.1.7-py3-none-any.whl.zip --markdown 20230706/s/sicdeploy/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-06 10:49:23] INFO root fetch - processPackages [echoviz-MALOU]: executing diffoscope
+[2023-07-06 10:49:23] INFO root fetch - processPackages [echoviz-MALOU]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echoviz-MALOU-0.1.2.tar.gz tmp/echoviz_MALOU-0.1.3-py3-none-any.whl.zip --markdown 20230706/e/echoviz-MALOU/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-06 10:49:23] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/d7/de/e7417f81d3a2bb32b6f2acb0044fcadd08723cefbe4019f55c809d6c5afe/oidc_drf-1.2.9.tar.gz
+[2023-07-06 10:49:23] INFO root fetch - processPackages [oidc-drf]: executing diffoscope
+[2023-07-06 10:49:23] INFO root fetch - processPackages [oidc-drf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oidc_drf-1.2.8.tar.gz tmp/oidc_drf-1.2.9.tar.gz --markdown 20230706/o/oidc-drf/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-06 10:49:23] INFO root fetch - processPackages [mstrio-py]: executing diffoscope
+[2023-07-06 10:49:23] INFO root fetch - processPackages [mstrio-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mstrio-py-11.3.9.101.tar.gz tmp/mstrio-py-11.3.9.103.tar.gz --markdown 20230706/m/mstrio-py/11.3.9.101-11.3.9.103/diff.md --exclude *.pyd
+[2023-07-06 10:49:23] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-07-06 10:49:23] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230706/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-07-06 10:49:25] INFO root fetch - processPackages [sicdeploy]: Remove: archive file [/home/abi/fetcher/tmp/sicdeploy-0.1.6-py3-none-any.whl.zip]
+[2023-07-06 10:49:25] INFO root fetch - processPackages [sicdeploy]: Remove: archive file [/home/abi/fetcher/tmp/sicdeploy-0.1.7-py3-none-any.whl.zip]
+[2023-07-06 10:49:25] INFO root fetch - processPackages [sicdeploy]: Start processing: wiptools
+[2023-07-06 10:49:25] INFO root fetch - main [MainThread]: End processing [sicdeploy]: success
+[2023-07-06 10:49:25] INFO root fetch - processPackages [wiptools]: New version: [1.2.9.dev0] Old Version: [1.2.8.dev0]
+[2023-07-06 10:49:25] INFO root fetch - processPackages [wiptools]: executing diffoscope
+[2023-07-06 10:49:25] INFO root fetch - processPackages [wiptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiptools-1.2.8.dev0.tar.gz tmp/wiptools-1.2.9.dev0.tar.gz --markdown 20230706/w/wiptools/1.2.8.dev0-1.2.9.dev0/diff.md --exclude *.pyd
+[2023-07-06 10:49:25] INFO root fetch - processPackages [sicdeploy]: Start processing: dithering
+[2023-07-06 10:49:25] INFO root fetch - main [MainThread]: End processing [sicdeploy]: success
+[2023-07-06 10:49:25] INFO root fetch - processPackages [dolphie]: Remove: archive file [/home/abi/fetcher/tmp/dolphie-2.0.6.tar.gz]
+[2023-07-06 10:49:25] INFO root fetch - processPackages [dolphie]: Remove: archive file [/home/abi/fetcher/tmp/dolphie-2.0.7.tar.gz]
+[2023-07-06 10:49:25] INFO root fetch - processPackages [dolphie]: Start processing: SELDOMpy
+[2023-07-06 10:49:25] INFO root fetch - main [MainThread]: End processing [dolphie]: success
+[2023-07-06 10:49:25] INFO root fetch - processPackages [dithering]: New version: [0.1.20] Old Version: [0.1.19]
+[2023-07-06 10:49:25] INFO root fetch - processPackages [SELDOMpy]: New version: [0.8.4.6] Old Version: [0.8.4.5]
+[2023-07-06 10:49:25] INFO root fetch - processPackages [echoviz-MALOU]: Remove: archive file [/home/abi/fetcher/tmp/echoviz-MALOU-0.1.2.tar.gz]
+[2023-07-06 10:49:25] INFO root fetch - processPackages [echoviz-MALOU]: Remove: archive file [/home/abi/fetcher/tmp/echoviz_MALOU-0.1.3-py3-none-any.whl.zip]
+[2023-07-06 10:49:25] INFO root fetch - processPackages [echoviz-MALOU]: Start processing: ovsdbapp
+[2023-07-06 10:49:25] INFO root fetch - main [MainThread]: End processing [echoviz-MALOU]: success
+[2023-07-06 10:49:25] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: Remove: archive file [/home/abi/fetcher/tmp/echofish-aws-indexing-lambda-1.0.0.dev20230706083726.tar.gz]
+[2023-07-06 10:49:25] INFO root fetch - processPackages [aliyun-python-sdk-bpstudio]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-bpstudio-1.0.3.tar.gz]
+[2023-07-06 10:49:25] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: Remove: archive file [/home/abi/fetcher/tmp/echofish-aws-indexing-lambda-1.0.0.dev20230706084341.tar.gz]
+[2023-07-06 10:49:25] INFO root fetch - processPackages [aliyun-python-sdk-bpstudio]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-bpstudio-1.0.4.tar.gz]
+[2023-07-06 10:49:25] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: Start processing: sicdeploy
+[2023-07-06 10:49:25] INFO root fetch - processPackages [aliyun-python-sdk-bpstudio]: Start processing: vik
+[2023-07-06 10:49:25] INFO root fetch - main [MainThread]: End processing [echofish-aws-indexing-lambda]: success
+[2023-07-06 10:49:25] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-bpstudio]: success
+[2023-07-06 10:49:25] INFO root fetch - processPackages [ovsdbapp]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-06 10:49:25] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.2.8.tar.gz]
+[2023-07-06 10:49:25] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.2.9.tar.gz]
+[2023-07-06 10:49:25] INFO root fetch - processPackages [oidc-drf]: Start processing: gradio-orz
+[2023-07-06 10:49:25] INFO root fetch - main [MainThread]: End processing [oidc-drf]: success
+[2023-07-06 10:49:25] INFO root fetch - processPackages [wiptools]: Remove: archive file [/home/abi/fetcher/tmp/wiptools-1.2.8.dev0.tar.gz]
+[2023-07-06 10:49:25] INFO root fetch - processPackages [wiptools]: Remove: archive file [/home/abi/fetcher/tmp/wiptools-1.2.9.dev0.tar.gz]
+[2023-07-06 10:49:25] INFO root fetch - processPackages [sicdeploy]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-06 10:49:25] INFO root fetch - processPackages [wiptools]: Start processing: langful
+[2023-07-06 10:49:25] INFO root fetch - main [MainThread]: End processing [wiptools]: success
+[2023-07-06 10:49:25] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/33/26/aa5519e5f6c8d27b0efc1094c4983a3e6430f2ae9ea179440f54e623774a/SELDOMpy-0.8.4.5.tar.gz
+[2023-07-06 10:49:25] INFO root fetch - processPackages [vik]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-06 10:49:25] INFO root fetch - processPackages [gradio-orz]: New version: [3.35.3] Old Version: [3.35.2]
+[2023-07-06 10:49:26] INFO root fetch - processPackages [dithering]: Downloading https://files.pythonhosted.org/packages/80/75/071abc904d1c382b3bd61c573860857dd1f032fd2bd8e70c74521983ff83/dithering-0.1.19.tar.gz
+[2023-07-06 10:49:26] INFO root fetch - processPackages [sicdeploy]: Downloading https://files.pythonhosted.org/packages/23/f0/641473cbc003fc8d4028f438ece8a17c087a1b3fa6cf9ab8e4a63624946c/sicdeploy-0.1.6-py3-none-any.whl
+[2023-07-06 10:49:26] INFO root fetch - processPackages [langful]: New version: [0.33] Old Version: [0.32]
+[2023-07-06 10:49:26] INFO root fetch - processPackages [gradio-orz]: Downloading https://files.pythonhosted.org/packages/cf/75/9b31ec912f0e046da601589342717a17677c8756dc25e1e9e0d862e0bf6b/gradio_orz-3.35.2.tar.gz
+[2023-07-06 10:49:26] INFO root fetch - processPackages [ovsdbapp]: Downloading https://files.pythonhosted.org/packages/d7/91/0b95850d8d46e371bacc18d80a5f393ce928ab3e3daaf05001b73a1166cc/ovsdbapp-2.3.0.tar.gz
+[2023-07-06 10:49:26] WARNING root fetch - processPackages [gradio-orz]: Skipping package: exceeds size limit 10905516>=10485760
+[2023-07-06 10:49:26] INFO root fetch - processPackages [gradio-orz]: Start processing: hawkflow
+[2023-07-06 10:49:26] INFO root fetch - main [MainThread]: End processing [gradio-orz] error
+[2023-07-06 10:49:26] INFO root fetch - processPackages [vik]: Downloading https://files.pythonhosted.org/packages/8f/b7/2aac97621a915ae75472144e4525e07e40ced89a739f63b001403c3cd31f/vik-1.0.3.tar.gz
+[2023-07-06 10:49:26] INFO root fetch - processPackages [hawkflow]: New version: [0.0.94] Old Version: [0.0.92]
+[2023-07-06 10:49:26] INFO root fetch - processPackages [sicdeploy]: Downloading https://files.pythonhosted.org/packages/1d/c4/e467c0a7a67f6187a45f82e8f3a3c4e4913533eff8b19a72864155fac867/sicdeploy-0.1.7-py3-none-any.whl
+[2023-07-06 10:49:26] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/6d/d3/beef0a0333b8de07f567e5bb590e4e55f47226a03863bdc65e95f9fbd59e/SELDOMpy-0.8.4.6.tar.gz
+[2023-07-06 10:49:26] INFO root fetch - processPackages [langful]: Downloading https://files.pythonhosted.org/packages/a6/32/ac29a996fd39b6a7c1ecde175d128f2c5f4a4b1324ebf94ea56fee7dffad/langful-0.32-py3-none-any.whl
+[2023-07-06 10:49:26] ERROR root fetch - processPackages [wiptools]: Diffoscope failed: time="2023-07-06T10:49:25+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/wiptools-1.2.8.dev0.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/wiptools-1.2.9.dev0.tar.gz: No such file or directory
+
+[2023-07-06 10:49:26] INFO root fetch - processPackages [wiptools]: Start processing: deeplc
+[2023-07-06 10:49:26] INFO root fetch - main [MainThread]: End processing [wiptools] error
+[2023-07-06 10:49:26] INFO root fetch - processPackages [hawkflow]: Downloading https://files.pythonhosted.org/packages/13/8a/e56623576f36d8359301eb8613b8b7ac59e9e9b0d25e3e8598bf1060536b/hawkflow-0.0.92.tar.gz
+[2023-07-06 10:49:26] INFO root fetch - processPackages [sicdeploy]: executing diffoscope
+[2023-07-06 10:49:26] INFO root fetch - processPackages [sicdeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sicdeploy-0.1.6-py3-none-any.whl.zip tmp/sicdeploy-0.1.7-py3-none-any.whl.zip --markdown 20230706/s/sicdeploy/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-06 10:49:26] INFO root fetch - processPackages [dithering]: Downloading https://files.pythonhosted.org/packages/60/b5/576f27a313267aa7b76bbe15fb8c86bd20b203a171b933914c92d4e745c7/dithering-0.1.20.tar.gz
+[2023-07-06 10:49:26] INFO root fetch - processPackages [ovsdbapp]: Downloading https://files.pythonhosted.org/packages/43/74/775927186b9db8d5d4dcc6858bd9ac5ef90390d7460c965da432e809b266/ovsdbapp-2.4.0.tar.gz
+[2023-07-06 10:49:26] INFO root fetch - processPackages [SELDOMpy]: executing diffoscope
+[2023-07-06 10:49:26] INFO root fetch - processPackages [SELDOMpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SELDOMpy-0.8.4.5.tar.gz tmp/SELDOMpy-0.8.4.6.tar.gz --markdown 20230706/S/SELDOMpy/0.8.4.5-0.8.4.6/diff.md --exclude *.pyd
+[2023-07-06 10:49:26] INFO root fetch - processPackages [deeplc]: New version: [2.2.4] Old Version: [2.2.3]
+[2023-07-06 10:49:26] INFO root fetch - processPackages [vik]: Downloading https://files.pythonhosted.org/packages/50/05/204b9aaed7da25a282eabd4ef3d79b3667958bf9bbf834a2d0f88169269c/vik-1.0.4.tar.gz
+[2023-07-06 10:49:26] INFO root fetch - processPackages [ovsdbapp]: executing diffoscope
+[2023-07-06 10:49:26] INFO root fetch - processPackages [ovsdbapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovsdbapp-2.3.0.tar.gz tmp/ovsdbapp-2.4.0.tar.gz --markdown 20230706/o/ovsdbapp/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-06 10:49:26] INFO root fetch - processPackages [vik]: executing diffoscope
+[2023-07-06 10:49:26] INFO root fetch - processPackages [vik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vik-1.0.3.tar.gz tmp/vik-1.0.4.tar.gz --markdown 20230706/v/vik/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-06 10:49:26] INFO root fetch - processPackages [langful]: Downloading https://files.pythonhosted.org/packages/f4/eb/ade0233b0de423bf1ae98579e092a69b31529458e4204efcf0609694e1e3/langful-0.33-py3-none-any.whl
+[2023-07-06 10:49:26] INFO root fetch - processPackages [hawkflow]: Downloading https://files.pythonhosted.org/packages/ba/ef/7b9299afca478f466a180e255f0bbd479722f3f433751f410267018bcd43/hawkflow-0.0.94.tar.gz
+[2023-07-06 10:49:26] INFO root fetch - processPackages [deeplc]: Downloading https://files.pythonhosted.org/packages/c3/24/b4b060cca74a0c5ddfbeff4e5fcb94f17380dbc863652ab471157ee51728/deeplc-2.2.3.tar.gz
+[2023-07-06 10:49:26] INFO root fetch - processPackages [dithering]: executing diffoscope
+[2023-07-06 10:49:26] INFO root fetch - processPackages [dithering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dithering-0.1.19.tar.gz tmp/dithering-0.1.20.tar.gz --markdown 20230706/d/dithering/0.1.19-0.1.20/diff.md --exclude *.pyd
+[2023-07-06 10:49:27] WARNING root fetch - processPackages [deeplc]: Skipping package: exceeds size limit 32146641>=10485760
+[2023-07-06 10:49:27] INFO root fetch - main [MainThread]: End processing [deeplc] error
+[2023-07-06 10:49:27] INFO root fetch - processPackages [langful]: executing diffoscope
+[2023-07-06 10:49:27] INFO root fetch - processPackages [langful]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langful-0.32-py3-none-any.whl.zip tmp/langful-0.33-py3-none-any.whl.zip --markdown 20230706/l/langful/0.32-0.33/diff.md --exclude *.pyd
+[2023-07-06 10:49:27] INFO root fetch - processPackages [hawkflow]: executing diffoscope
+[2023-07-06 10:49:27] INFO root fetch - processPackages [hawkflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hawkflow-0.0.92.tar.gz tmp/hawkflow-0.0.94.tar.gz --markdown 20230706/h/hawkflow/0.0.92-0.0.94/diff.md --exclude *.pyd
+[2023-07-06 10:49:28] INFO root fetch - processPackages [sicdeploy]: Remove: archive file [/home/abi/fetcher/tmp/sicdeploy-0.1.6-py3-none-any.whl.zip]
+[2023-07-06 10:49:28] INFO root fetch - processPackages [sicdeploy]: Remove: archive file [/home/abi/fetcher/tmp/sicdeploy-0.1.7-py3-none-any.whl.zip]
+[2023-07-06 10:49:28] INFO root fetch - main [MainThread]: End processing [sicdeploy]: success
+[2023-07-06 10:49:28] INFO root fetch - processPackages [vik]: Remove: archive file [/home/abi/fetcher/tmp/vik-1.0.3.tar.gz]
+[2023-07-06 10:49:28] INFO root fetch - processPackages [vik]: Remove: archive file [/home/abi/fetcher/tmp/vik-1.0.4.tar.gz]
+[2023-07-06 10:49:28] INFO root fetch - main [MainThread]: End processing [vik]: success
+[2023-07-06 10:49:28] INFO root fetch - processPackages [dithering]: Remove: archive file [/home/abi/fetcher/tmp/dithering-0.1.19.tar.gz]
+[2023-07-06 10:49:28] INFO root fetch - processPackages [dithering]: Remove: archive file [/home/abi/fetcher/tmp/dithering-0.1.20.tar.gz]
+[2023-07-06 10:49:28] INFO root fetch - main [MainThread]: End processing [dithering]: success
+[2023-07-06 10:49:28] INFO root fetch - processPackages [langful]: Remove: archive file [/home/abi/fetcher/tmp/langful-0.32-py3-none-any.whl.zip]
+[2023-07-06 10:49:28] INFO root fetch - processPackages [langful]: Remove: archive file [/home/abi/fetcher/tmp/langful-0.33-py3-none-any.whl.zip]
+[2023-07-06 10:49:28] INFO root fetch - main [MainThread]: End processing [langful]: success
+[2023-07-06 10:49:28] INFO root fetch - processPackages [hawkflow]: Remove: archive file [/home/abi/fetcher/tmp/hawkflow-0.0.92.tar.gz]
+[2023-07-06 10:49:28] INFO root fetch - processPackages [hawkflow]: Remove: archive file [/home/abi/fetcher/tmp/hawkflow-0.0.94.tar.gz]
+[2023-07-06 10:49:29] INFO root fetch - main [MainThread]: End processing [hawkflow]: success
+[2023-07-06 10:49:29] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.8.4.5.tar.gz]
+[2023-07-06 10:49:29] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.8.4.6.tar.gz]
+[2023-07-06 10:49:29] INFO root fetch - main [MainThread]: End processing [SELDOMpy]: success
+[2023-07-06 10:49:29] INFO root fetch - processPackages [ovsdbapp]: Remove: archive file [/home/abi/fetcher/tmp/ovsdbapp-2.3.0.tar.gz]
+[2023-07-06 10:49:29] INFO root fetch - processPackages [ovsdbapp]: Remove: archive file [/home/abi/fetcher/tmp/ovsdbapp-2.4.0.tar.gz]
+[2023-07-06 10:49:29] INFO root fetch - main [MainThread]: End processing [ovsdbapp]: success
+[2023-07-06 10:49:30] INFO root fetch - processPackages [mstrio-py]: Remove: archive file [/home/abi/fetcher/tmp/mstrio-py-11.3.9.101.tar.gz]
+[2023-07-06 10:49:30] INFO root fetch - processPackages [mstrio-py]: Remove: archive file [/home/abi/fetcher/tmp/mstrio-py-11.3.9.103.tar.gz]
+[2023-07-06 10:49:30] INFO root fetch - main [MainThread]: End processing [mstrio-py]: success
+[2023-07-06 10:49:32] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2023-07-06 10:49:32] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2023-07-06 10:49:32] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-07-06 10:49:32] INFO root fetch - main [MainThread]: Store serial: [18780468]
