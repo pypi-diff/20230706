@@ -15611,3 +15611,108 @@ AssertionError: tmp/SELDOMpy-0.8.4.2.tar.gz does not exist
 [2023-07-06 10:26:55] INFO root fetch - processPackages [Beaconet]: Remove: archive file [/home/abi/fetcher/tmp/Beaconet-1.0.6-py3-none-any.whl.zip]
 [2023-07-06 10:26:55] INFO root fetch - main [MainThread]: End processing [Beaconet]: success
 [2023-07-06 10:26:55] INFO root fetch - main [MainThread]: Store serial: [18780060]
+[2023-07-06 10:31:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18780060]
+[2023-07-06 10:32:04] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-06 10:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: donpapi
+[2023-07-06 10:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smart-chromadb
+[2023-07-06 10:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: midjourney-py
+[2023-07-06 10:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: few-shot-priming
+[2023-07-06 10:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oidc-drf
+[2023-07-06 10:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lib310-lite
+[2023-07-06 10:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SELDOMpy
+[2023-07-06 10:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: savant-rs
+[2023-07-06 10:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: benimang
+[2023-07-06 10:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sicdeploy
+[2023-07-06 10:32:04] INFO root fetch - processPackages [SELDOMpy]: New version: [0.8.4.5] Old Version: [0.8.4.4]
+[2023-07-06 10:32:04] INFO root fetch - processPackages [donpapi]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-06 10:32:04] INFO root fetch - processPackages [smart-chromadb]: New version: [0.1.dev734] Old Version: [0.1.dev733]
+[2023-07-06 10:32:04] ERROR root fetch - processPackages [sicdeploy]: Unable to get metadata: No such project 'sicdeploy'
+[2023-07-06 10:32:04] INFO root fetch - processPackages [sicdeploy]: Start processing: verse-core
+[2023-07-06 10:32:04] INFO root fetch - main [MainThread]: End processing [sicdeploy] error
+[2023-07-06 10:32:04] INFO root fetch - processPackages [benimang]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-07-06 10:32:04] INFO root fetch - processPackages [midjourney-py]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-06 10:32:04] INFO root fetch - processPackages [lib310-lite]: New version: [0.1.0.dev1] Old Version: [0.0.9]
+[2023-07-06 10:32:04] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-07-06 10:32:04] INFO root fetch - processPackages [oidc-drf]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-06 10:32:04] INFO root fetch - processPackages [savant-rs]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-07-06 10:32:04] INFO root fetch - processPackages [midjourney-py]: Downloading https://files.pythonhosted.org/packages/e3/51/72dea7575889f25c5f7d575c6c002b862e3c9d0929bda70ccacf8716f116/midjourney-py-1.0.2.tar.gz
+[2023-07-06 10:32:04] INFO root fetch - processPackages [verse-core]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 10:32:04] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/4c/70/a0cf85122da57011851332524209ba6beb71ced656724ef935a272f6905a/SELDOMpy-0.8.4.4.tar.gz
+[2023-07-06 10:32:04] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/36/75/0e56487388828f40b0a8d401716a3cd255d3085e731e6ca3745ab28a86d2/oidc_drf-1.2.8.tar.gz
+[2023-07-06 10:32:04] INFO root fetch - processPackages [benimang]: Downloading https://files.pythonhosted.org/packages/95/7f/550b0baac032f2f29ca73642135c042e229e932de7a887e6b2219191f1fc/benimang-0.3.6.tar.gz
+[2023-07-06 10:32:04] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-07-06 10:32:04] INFO root fetch - processPackages [smart-chromadb]: Downloading https://files.pythonhosted.org/packages/a6/95/99df93412c2126ae42e70cf8a9e798cebeb789d75bf437a8b7a1bd0e3892/smart_chromadb-0.1.dev733.tar.gz
+[2023-07-06 10:32:04] INFO root fetch - processPackages [donpapi]: Downloading https://files.pythonhosted.org/packages/1a/93/08eee13bd7cbd582d179d92adbeb7cc84dbdff353eb77439247e8846562a/donpapi-1.0.0.tar.gz
+[2023-07-06 10:32:04] INFO root fetch - processPackages [verse-core]: Downloading https://files.pythonhosted.org/packages/87/58/fe0990bb53f33fbb33f83b2e9e6ffab9bf709efdc65ccdb77ea1ec83d4d4/verse-core-0.0.8.tar.gz
+[2023-07-06 10:32:05] INFO root fetch - processPackages [savant-rs]: Downloading https://files.pythonhosted.org/packages/c4/00/2644997dc31784c2debfbda253c475ca3463024586165f400ebc3871aaba/savant_rs-0.1.7.tar.gz
+[2023-07-06 10:32:05] INFO root fetch - processPackages [lib310-lite]: Downloading https://files.pythonhosted.org/packages/c2/47/ae54cf654defd7565606225f3c484272d6795a65e08e5ae265600b704386/lib310_lite-0.0.9.tar.gz
+[2023-07-06 10:32:05] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/d7/de/e7417f81d3a2bb32b6f2acb0044fcadd08723cefbe4019f55c809d6c5afe/oidc_drf-1.2.9.tar.gz
+[2023-07-06 10:32:05] INFO root fetch - processPackages [verse-core]: Downloading https://files.pythonhosted.org/packages/7d/78/6941139614540bdd1b28a38eaa3d582bb418254917805cd425aae3304e76/verse-core-0.0.9.tar.gz
+[2023-07-06 10:32:05] INFO root fetch - processPackages [benimang]: Downloading https://files.pythonhosted.org/packages/f4/2b/932329d268078a3611ec69baca59201e7ea70ac87bf5fae9f664c9753f72/benimang-0.3.7.tar.gz
+[2023-07-06 10:32:05] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-07-06 10:32:05] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/33/26/aa5519e5f6c8d27b0efc1094c4983a3e6430f2ae9ea179440f54e623774a/SELDOMpy-0.8.4.5.tar.gz
+[2023-07-06 10:32:05] INFO root fetch - processPackages [oidc-drf]: executing diffoscope
+[2023-07-06 10:32:05] INFO root fetch - processPackages [oidc-drf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oidc_drf-1.2.8.tar.gz tmp/oidc_drf-1.2.9.tar.gz --markdown 20230706/o/oidc-drf/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-06 10:32:05] INFO root fetch - processPackages [verse-core]: executing diffoscope
+[2023-07-06 10:32:05] INFO root fetch - processPackages [verse-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/verse-core-0.0.8.tar.gz tmp/verse-core-0.0.9.tar.gz --markdown 20230706/v/verse-core/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 10:32:05] INFO root fetch - processPackages [benimang]: executing diffoscope
+[2023-07-06 10:32:05] INFO root fetch - processPackages [benimang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benimang-0.3.6.tar.gz tmp/benimang-0.3.7.tar.gz --markdown 20230706/b/benimang/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-07-06 10:32:05] INFO root fetch - processPackages [midjourney-py]: Downloading https://files.pythonhosted.org/packages/c1/b5/67ed167c2b3f93c011d842b535f49a9a3a4061c4e68eab72d67e9760ddab/midjourney-py-1.0.3.tar.gz
+[2023-07-06 10:32:05] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-07-06 10:32:05] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230706/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-07-06 10:32:05] INFO root fetch - processPackages [savant-rs]: Downloading https://files.pythonhosted.org/packages/14/6f/20424ad55aaad55bea7d3a27e5a0cc5fe726f0b4507b2b6f406d79e8015a/savant_rs-0.1.9.tar.gz
+[2023-07-06 10:32:05] INFO root fetch - processPackages [donpapi]: Downloading https://files.pythonhosted.org/packages/2c/36/fd5f2b1aa86691d7d8225409046be0a2104ce45f7f739a5fc84d182bf286/donpapi-1.0.1.tar.gz
+[2023-07-06 10:32:05] INFO root fetch - processPackages [lib310-lite]: Downloading https://files.pythonhosted.org/packages/65/1a/b9828845ab0a894067de4bdbd1eda54924ea98ea9d09dc3dc6c720ce550e/lib310_lite-0.1.0.dev1.tar.gz
+[2023-07-06 10:32:05] INFO root fetch - processPackages [SELDOMpy]: executing diffoscope
+[2023-07-06 10:32:05] INFO root fetch - processPackages [SELDOMpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SELDOMpy-0.8.4.4.tar.gz tmp/SELDOMpy-0.8.4.5.tar.gz --markdown 20230706/S/SELDOMpy/0.8.4.4-0.8.4.5/diff.md --exclude *.pyd
+[2023-07-06 10:32:05] INFO root fetch - processPackages [midjourney-py]: executing diffoscope
+[2023-07-06 10:32:05] INFO root fetch - processPackages [midjourney-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/midjourney-py-1.0.2.tar.gz tmp/midjourney-py-1.0.3.tar.gz --markdown 20230706/m/midjourney-py/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-06 10:32:05] INFO root fetch - processPackages [smart-chromadb]: Downloading https://files.pythonhosted.org/packages/71/2b/3685ed6fd687ba8299a9869b0818e313540c1bccf7cd2e90a23cfadb8478/smart_chromadb-0.1.dev734.tar.gz
+[2023-07-06 10:32:05] INFO root fetch - processPackages [savant-rs]: executing diffoscope
+[2023-07-06 10:32:05] INFO root fetch - processPackages [savant-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/savant_rs-0.1.7.tar.gz tmp/savant_rs-0.1.9.tar.gz --markdown 20230706/s/savant-rs/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-07-06 10:32:05] INFO root fetch - processPackages [lib310-lite]: executing diffoscope
+[2023-07-06 10:32:05] INFO root fetch - processPackages [lib310-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib310_lite-0.0.9.tar.gz tmp/lib310_lite-0.1.0.dev1.tar.gz --markdown 20230706/l/lib310-lite/0.0.9-0.1.0.dev1/diff.md --exclude *.pyd
+[2023-07-06 10:32:05] INFO root fetch - processPackages [smart-chromadb]: executing diffoscope
+[2023-07-06 10:32:05] INFO root fetch - processPackages [smart-chromadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smart_chromadb-0.1.dev733.tar.gz tmp/smart_chromadb-0.1.dev734.tar.gz --markdown 20230706/s/smart-chromadb/0.1.dev733-0.1.dev734/diff.md --exclude *.pyd
+[2023-07-06 10:32:06] INFO root fetch - processPackages [donpapi]: executing diffoscope
+[2023-07-06 10:32:06] INFO root fetch - processPackages [donpapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/donpapi-1.0.0.tar.gz tmp/donpapi-1.0.1.tar.gz --markdown 20230706/d/donpapi/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-06 10:32:07] INFO root fetch - processPackages [verse-core]: Remove: archive file [/home/abi/fetcher/tmp/verse-core-0.0.8.tar.gz]
+[2023-07-06 10:32:07] INFO root fetch - processPackages [verse-core]: Remove: archive file [/home/abi/fetcher/tmp/verse-core-0.0.9.tar.gz]
+[2023-07-06 10:32:07] INFO root fetch - processPackages [verse-core]: Start processing: langchain-serve
+[2023-07-06 10:32:07] INFO root fetch - main [MainThread]: End processing [verse-core]: success
+[2023-07-06 10:32:07] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-07-06 10:32:07] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.2.8.tar.gz]
+[2023-07-06 10:32:07] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.2.9.tar.gz]
+[2023-07-06 10:32:07] INFO root fetch - main [MainThread]: End processing [oidc-drf]: success
+[2023-07-06 10:32:07] INFO root fetch - processPackages [benimang]: Remove: archive file [/home/abi/fetcher/tmp/benimang-0.3.6.tar.gz]
+[2023-07-06 10:32:07] INFO root fetch - processPackages [benimang]: Remove: archive file [/home/abi/fetcher/tmp/benimang-0.3.7.tar.gz]
+[2023-07-06 10:32:07] INFO root fetch - main [MainThread]: End processing [benimang]: success
+[2023-07-06 10:32:07] INFO root fetch - processPackages [midjourney-py]: Remove: archive file [/home/abi/fetcher/tmp/midjourney-py-1.0.2.tar.gz]
+[2023-07-06 10:32:07] INFO root fetch - processPackages [midjourney-py]: Remove: archive file [/home/abi/fetcher/tmp/midjourney-py-1.0.3.tar.gz]
+[2023-07-06 10:32:07] INFO root fetch - main [MainThread]: End processing [midjourney-py]: success
+[2023-07-06 10:32:07] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-07-06 10:32:07] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-07-06 10:32:07] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-07-06 10:32:07] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/b7/44/08a32d4d65d7aed7bf8a2e8d59c7c72ac5c5538be8c3e735a588d5ccf69b/langchain-serve-0.0.9.dev22.tar.gz
+[2023-07-06 10:32:07] INFO root fetch - processPackages [lib310-lite]: Remove: archive file [/home/abi/fetcher/tmp/lib310_lite-0.0.9.tar.gz]
+[2023-07-06 10:32:07] INFO root fetch - processPackages [lib310-lite]: Remove: archive file [/home/abi/fetcher/tmp/lib310_lite-0.1.0.dev1.tar.gz]
+[2023-07-06 10:32:07] INFO root fetch - main [MainThread]: End processing [lib310-lite]: success
+[2023-07-06 10:32:07] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/51/a3/7492d3c89e7181c3fb783593129a3de459021071c2e7075f0050494b2de4/langchain-serve-0.0.9.dev9.tar.gz
+[2023-07-06 10:32:07] INFO root fetch - processPackages [savant-rs]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs-0.1.7.tar.gz]
+[2023-07-06 10:32:07] INFO root fetch - processPackages [savant-rs]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs-0.1.9.tar.gz]
+[2023-07-06 10:32:07] INFO root fetch - main [MainThread]: End processing [savant-rs]: success
+[2023-07-06 10:32:08] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-07-06 10:32:08] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230706/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-07-06 10:32:08] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.8.4.4.tar.gz]
+[2023-07-06 10:32:08] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.8.4.5.tar.gz]
+[2023-07-06 10:32:08] INFO root fetch - main [MainThread]: End processing [SELDOMpy]: success
+[2023-07-06 10:32:08] INFO root fetch - processPackages [smart-chromadb]: Remove: archive file [/home/abi/fetcher/tmp/smart_chromadb-0.1.dev733.tar.gz]
+[2023-07-06 10:32:08] INFO root fetch - processPackages [smart-chromadb]: Remove: archive file [/home/abi/fetcher/tmp/smart_chromadb-0.1.dev734.tar.gz]
+[2023-07-06 10:32:08] INFO root fetch - main [MainThread]: End processing [smart-chromadb]: success
+[2023-07-06 10:32:08] INFO root fetch - processPackages [donpapi]: Remove: archive file [/home/abi/fetcher/tmp/donpapi-1.0.0.tar.gz]
+[2023-07-06 10:32:08] INFO root fetch - processPackages [donpapi]: Remove: archive file [/home/abi/fetcher/tmp/donpapi-1.0.1.tar.gz]
+[2023-07-06 10:32:08] INFO root fetch - main [MainThread]: End processing [donpapi]: success
+[2023-07-06 10:32:08] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev22.tar.gz]
+[2023-07-06 10:32:08] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev9.tar.gz]
+[2023-07-06 10:32:08] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-07-06 10:32:08] INFO root fetch - main [MainThread]: Store serial: [18780110]
