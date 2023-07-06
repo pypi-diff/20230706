@@ -15116,3 +15116,144 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-06 10:03:29] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2023-07-06 10:03:29] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-07-06 10:03:29] INFO root fetch - main [MainThread]: Store serial: [18779876]
+[2023-07-06 10:08:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18779876]
+[2023-07-06 10:08:43] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-06 10:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyappbundler
+[2023-07-06 10:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metabase-mate
+[2023-07-06 10:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nvidia-dali-tf-plugin-nightly-cuda110
+[2023-07-06 10:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: funasr-onnx
+[2023-07-06 10:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wizata-dsapi
+[2023-07-06 10:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: timespan-python
+[2023-07-06 10:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nvidia-dali-nightly-cuda110
+[2023-07-06 10:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: djangoautoconf
+[2023-07-06 10:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: QssStyle
+[2023-07-06 10:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alpyvantage
+[2023-07-06 10:08:43] WARNING root fetch - processPackages [pyappbundler]: Skipping, unable to determine old version
+[2023-07-06 10:08:43] INFO root fetch - processPackages [pyappbundler]: Start processing: embedchain
+[2023-07-06 10:08:43] INFO root fetch - main [MainThread]: End processing [pyappbundler] error
+[2023-07-06 10:08:43] INFO root fetch - processPackages [funasr-onnx]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-06 10:08:43] INFO root fetch - processPackages [QssStyle]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-06 10:08:43] WARNING root fetch - processPackages [metabase-mate]: Skipping, unable to determine old version
+[2023-07-06 10:08:43] INFO root fetch - processPackages [metabase-mate]: Start processing: empack
+[2023-07-06 10:08:43] INFO root fetch - main [MainThread]: End processing [metabase-mate] error
+[2023-07-06 10:08:43] INFO root fetch - processPackages [alpyvantage]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-06 10:08:43] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-06 10:08:43] WARNING root fetch - processPackages [timespan-python]: Skipping, unable to determine old version
+[2023-07-06 10:08:43] INFO root fetch - processPackages [timespan-python]: Start processing: paasta-tools
+[2023-07-06 10:08:43] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: New version: [1.28.0.dev20230704] Old Version: [1.28.0.dev20230703]
+[2023-07-06 10:08:43] INFO root fetch - main [MainThread]: End processing [timespan-python] error
+[2023-07-06 10:08:43] INFO root fetch - processPackages [djangoautoconf]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-06 10:08:43] INFO root fetch - processPackages [embedchain]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 10:08:44] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: New version: [1.28.0.dev20230705] Old Version: [1.28.0.dev20230704]
+[2023-07-06 10:08:44] INFO root fetch - processPackages [empack]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-07-06 10:08:44] INFO root fetch - processPackages [paasta-tools]: New version: [0.92.1] Old Version: [0.92.0]
+[2023-07-06 10:08:44] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/2d/2f/05a7993c5a46648d5412dfcb93b9ea31d88229b9d71ba38c237d55544559/nvidia-dali-nightly-cuda110-1.28.0.dev20230703.tar.gz
+[2023-07-06 10:08:44] INFO root fetch - processPackages [embedchain]: Downloading https://files.pythonhosted.org/packages/fa/9b/8bddb3074933011cc682eee04982b4e3d03a699688eddf581404927a62ff/embedchain-0.0.8.tar.gz
+[2023-07-06 10:08:44] INFO root fetch - processPackages [djangoautoconf]: Downloading https://files.pythonhosted.org/packages/a3/ca/0190bdb67e481656f0053e39c94690f155e73bba38d1f562c023eba3c4f6/djangoautoconf-2.0.8.tar.gz
+[2023-07-06 10:08:44] INFO root fetch - processPackages [QssStyle]: Downloading https://files.pythonhosted.org/packages/0a/e8/6eed8b4de21b96dbceef5262edd8e27598a6f57fde38fca4d2d49ded2048/QssStyle-0.0.3.tar.gz
+[2023-07-06 10:08:44] INFO root fetch - processPackages [alpyvantage]: Downloading https://files.pythonhosted.org/packages/3f/81/0bb4e5a442136bebcbf7cfa33f1e720146f4a1d74b06871bad07ccbd4ad0/alpyvantage-0.2.0.tar.gz
+[2023-07-06 10:08:44] INFO root fetch - processPackages [empack]: Downloading https://files.pythonhosted.org/packages/51/58/0ad6d9394360bf4afccfcf78ad0b5ba40f7b989b1a29c3660335722d3973/empack-3.0.0.tar.gz
+[2023-07-06 10:08:44] INFO root fetch - processPackages [funasr-onnx]: Downloading https://files.pythonhosted.org/packages/5f/9d/1eb72d999d4f0f144ad72045eb6e9dc39d4d267b436eb1bcd0f0116ee9e4/funasr_onnx-0.1.1.tar.gz
+[2023-07-06 10:08:44] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/2f/44/ddb95decf3e6ccb88e50fdb380f5dcd23461679027f0771bfe4c96102aca/wizata-dsapi-0.2.1.tar.gz
+[2023-07-06 10:08:44] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/f9/7b/f79bcb935815876720b0c6f2853fbeed684b473df7889d3fb3ec613c418d/nvidia-dali-tf-plugin-nightly-cuda110-1.28.0.dev20230704.tar.gz
+[2023-07-06 10:08:44] INFO root fetch - processPackages [paasta-tools]: Downloading https://files.pythonhosted.org/packages/4a/0d/4404f538f73fd9262e827faffa3ec48b8413a24ff7a44cb416e30e89634c/paasta-tools-0.92.0.tar.gz
+[2023-07-06 10:08:44] INFO root fetch - processPackages [embedchain]: Downloading https://files.pythonhosted.org/packages/98/a5/0216839ba1829bc10c9f2f04d82d04da661bb99f228ec27d73c564f77135/embedchain-0.0.9.tar.gz
+[2023-07-06 10:08:44] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/14/2e/03559e20f34652e794f5a4e3c28ab21a56947fd504b354d93be6931d0231/nvidia-dali-nightly-cuda110-1.28.0.dev20230704.tar.gz
+[2023-07-06 10:08:44] INFO root fetch - processPackages [djangoautoconf]: Downloading https://files.pythonhosted.org/packages/20/1a/8fe983b325d568b2cfc73425b11e42510fbde31b2c3edbc23dafc3168a6b/djangoautoconf-2.0.9.tar.gz
+[2023-07-06 10:08:44] INFO root fetch - processPackages [QssStyle]: Downloading https://files.pythonhosted.org/packages/53/6c/417febe42d1b72b4dbceb2d94e533cf4f52a008a96ec934e58cea2bdd0e9/QssStyle-0.0.4.tar.gz
+[2023-07-06 10:08:44] INFO root fetch - processPackages [embedchain]: executing diffoscope
+[2023-07-06 10:08:44] INFO root fetch - processPackages [embedchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embedchain-0.0.8.tar.gz tmp/embedchain-0.0.9.tar.gz --markdown 20230706/e/embedchain/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 10:08:44] INFO root fetch - processPackages [empack]: Downloading https://files.pythonhosted.org/packages/8a/0f/529262f5a0f6ad587214926a61de59e10b459c8f3a3ba3911e6286abebef/empack-3.0.1.tar.gz
+[2023-07-06 10:08:44] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: executing diffoscope
+[2023-07-06 10:08:44] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-nightly-cuda110-1.28.0.dev20230703.tar.gz tmp/nvidia-dali-nightly-cuda110-1.28.0.dev20230704.tar.gz --markdown 20230706/n/nvidia-dali-nightly-cuda110/1.28.0.dev20230703-1.28.0.dev20230704/diff.md --exclude *.pyd
+[2023-07-06 10:08:44] INFO root fetch - processPackages [QssStyle]: executing diffoscope
+[2023-07-06 10:08:44] INFO root fetch - processPackages [QssStyle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QssStyle-0.0.3.tar.gz tmp/QssStyle-0.0.4.tar.gz --markdown 20230706/Q/QssStyle/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-06 10:08:44] INFO root fetch - processPackages [funasr-onnx]: Downloading https://files.pythonhosted.org/packages/8f/7c/ee8c66e9fc71378acc6960a2aea43251b3dbb9869641371385801d3e6d99/funasr_onnx-0.1.2.tar.gz
+[2023-07-06 10:08:44] INFO root fetch - processPackages [djangoautoconf]: executing diffoscope
+[2023-07-06 10:08:44] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/a3/1f/bd1d255623df910c0b5168f52bcbb608878164b779a15da5d040bf414556/nvidia-dali-tf-plugin-nightly-cuda110-1.28.0.dev20230705.tar.gz
+[2023-07-06 10:08:44] INFO root fetch - processPackages [djangoautoconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoautoconf-2.0.8.tar.gz tmp/djangoautoconf-2.0.9.tar.gz --markdown 20230706/d/djangoautoconf/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-06 10:08:44] INFO root fetch - processPackages [alpyvantage]: Downloading https://files.pythonhosted.org/packages/38/89/9da6bc76fc5ae87556906a658d442bc3c285a32406e94edd8d9362decbe2/alpyvantage-0.2.1.tar.gz
+[2023-07-06 10:08:44] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/be/8b/aa077b13d0942395fb318aa5a0aec25df6eff8242d763b06d8c43c871311/wizata-dsapi-0.2.2.tar.gz
+[2023-07-06 10:08:45] INFO root fetch - processPackages [empack]: executing diffoscope
+[2023-07-06 10:08:45] INFO root fetch - processPackages [empack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/empack-3.0.0.tar.gz tmp/empack-3.0.1.tar.gz --markdown 20230706/e/empack/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-07-06 10:08:45] INFO root fetch - processPackages [paasta-tools]: Downloading https://files.pythonhosted.org/packages/d8/f5/9a4c0134f4d0862da0cbcc57381d5c9f52e37ea937fa628e123433ccb7a4/paasta-tools-0.92.1.tar.gz
+[2023-07-06 10:08:45] INFO root fetch - processPackages [funasr-onnx]: executing diffoscope
+[2023-07-06 10:08:45] INFO root fetch - processPackages [funasr-onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funasr_onnx-0.1.1.tar.gz tmp/funasr_onnx-0.1.2.tar.gz --markdown 20230706/f/funasr-onnx/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-06 10:08:45] INFO root fetch - processPackages [alpyvantage]: executing diffoscope
+[2023-07-06 10:08:45] INFO root fetch - processPackages [alpyvantage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alpyvantage-0.2.0.tar.gz tmp/alpyvantage-0.2.1.tar.gz --markdown 20230706/a/alpyvantage/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-06 10:08:45] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-07-06 10:08:45] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.2.1.tar.gz tmp/wizata-dsapi-0.2.2.tar.gz --markdown 20230706/w/wizata-dsapi/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-06 10:08:45] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: executing diffoscope
+[2023-07-06 10:08:45] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-tf-plugin-nightly-cuda110-1.28.0.dev20230704.tar.gz tmp/nvidia-dali-tf-plugin-nightly-cuda110-1.28.0.dev20230705.tar.gz --markdown 20230706/n/nvidia-dali-tf-plugin-nightly-cuda110/1.28.0.dev20230704-1.28.0.dev20230705/diff.md --exclude *.pyd
+[2023-07-06 10:08:45] INFO root fetch - processPackages [paasta-tools]: executing diffoscope
+[2023-07-06 10:08:45] INFO root fetch - processPackages [paasta-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paasta-tools-0.92.0.tar.gz tmp/paasta-tools-0.92.1.tar.gz --markdown 20230706/p/paasta-tools/0.92.0-0.92.1/diff.md --exclude *.pyd
+[2023-07-06 10:08:46] INFO root fetch - processPackages [QssStyle]: Remove: archive file [/home/abi/fetcher/tmp/QssStyle-0.0.3.tar.gz]
+[2023-07-06 10:08:46] INFO root fetch - processPackages [QssStyle]: Remove: archive file [/home/abi/fetcher/tmp/QssStyle-0.0.4.tar.gz]
+[2023-07-06 10:08:46] INFO root fetch - processPackages [QssStyle]: Start processing: spark-quality-rules-tools
+[2023-07-06 10:08:46] INFO root fetch - main [MainThread]: End processing [QssStyle]: success
+[2023-07-06 10:08:46] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-nightly-cuda110-1.28.0.dev20230703.tar.gz]
+[2023-07-06 10:08:46] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-nightly-cuda110-1.28.0.dev20230704.tar.gz]
+[2023-07-06 10:08:46] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Start processing: pyglove
+[2023-07-06 10:08:46] INFO root fetch - main [MainThread]: End processing [nvidia-dali-nightly-cuda110]: success
+[2023-07-06 10:08:46] INFO root fetch - processPackages [embedchain]: Remove: archive file [/home/abi/fetcher/tmp/embedchain-0.0.8.tar.gz]
+[2023-07-06 10:08:46] INFO root fetch - processPackages [embedchain]: Remove: archive file [/home/abi/fetcher/tmp/embedchain-0.0.9.tar.gz]
+[2023-07-06 10:08:46] INFO root fetch - processPackages [embedchain]: Start processing: fano-oss-py-sdk
+[2023-07-06 10:08:46] INFO root fetch - main [MainThread]: End processing [embedchain]: success
+[2023-07-06 10:08:46] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230705] Old Version: [0.3.1.dev20230704]
+[2023-07-06 10:08:46] INFO root fetch - processPackages [spark-quality-rules-tools]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-06 10:08:46] WARNING root fetch - processPackages [fano-oss-py-sdk]: Skipping, unable to determine old version
+[2023-07-06 10:08:46] INFO root fetch - processPackages [fano-oss-py-sdk]: Start processing: climify-api
+[2023-07-06 10:08:46] INFO root fetch - main [MainThread]: End processing [fano-oss-py-sdk] error
+[2023-07-06 10:08:46] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/1d/04/c037b1f360d2a93cf9037935c60b43daa437a82efeed918aef874f7d21aa/pyglove-0.3.1.dev20230704.tar.gz
+[2023-07-06 10:08:46] INFO root fetch - processPackages [spark-quality-rules-tools]: Downloading https://files.pythonhosted.org/packages/82/1e/f50cc89974e146fc8d3859b71d23f762d02cf32f5b0a87e3a641e0f9cfa9/spark_quality_rules_tools-0.5.0.tar.gz
+[2023-07-06 10:08:46] INFO root fetch - processPackages [climify-api]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-06 10:08:46] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-nightly-cuda110-1.28.0.dev20230704.tar.gz]
+[2023-07-06 10:08:46] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-nightly-cuda110-1.28.0.dev20230705.tar.gz]
+[2023-07-06 10:08:46] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Start processing: moonwiki
+[2023-07-06 10:08:46] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-nightly-cuda110]: success
+[2023-07-06 10:08:46] INFO root fetch - processPackages [funasr-onnx]: Remove: archive file [/home/abi/fetcher/tmp/funasr_onnx-0.1.1.tar.gz]
+[2023-07-06 10:08:46] INFO root fetch - processPackages [funasr-onnx]: Remove: archive file [/home/abi/fetcher/tmp/funasr_onnx-0.1.2.tar.gz]
+[2023-07-06 10:08:46] INFO root fetch - main [MainThread]: End processing [funasr-onnx]: success
+[2023-07-06 10:08:46] INFO root fetch - processPackages [moonwiki]: New version: [2023.7.6.1] Old Version: [2023.7.6.0]
+[2023-07-06 10:08:46] INFO root fetch - processPackages [empack]: Remove: archive file [/home/abi/fetcher/tmp/empack-3.0.0.tar.gz]
+[2023-07-06 10:08:46] INFO root fetch - processPackages [empack]: Remove: archive file [/home/abi/fetcher/tmp/empack-3.0.1.tar.gz]
+[2023-07-06 10:08:46] INFO root fetch - main [MainThread]: End processing [empack]: success
+[2023-07-06 10:08:46] INFO root fetch - processPackages [alpyvantage]: Remove: archive file [/home/abi/fetcher/tmp/alpyvantage-0.2.0.tar.gz]
+[2023-07-06 10:08:46] INFO root fetch - processPackages [alpyvantage]: Remove: archive file [/home/abi/fetcher/tmp/alpyvantage-0.2.1.tar.gz]
+[2023-07-06 10:08:46] INFO root fetch - main [MainThread]: End processing [alpyvantage]: success
+[2023-07-06 10:08:47] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.2.1.tar.gz]
+[2023-07-06 10:08:47] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.2.2.tar.gz]
+[2023-07-06 10:08:47] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-07-06 10:08:47] INFO root fetch - processPackages [djangoautoconf]: Remove: archive file [/home/abi/fetcher/tmp/djangoautoconf-2.0.8.tar.gz]
+[2023-07-06 10:08:47] INFO root fetch - processPackages [djangoautoconf]: Remove: archive file [/home/abi/fetcher/tmp/djangoautoconf-2.0.9.tar.gz]
+[2023-07-06 10:08:47] INFO root fetch - main [MainThread]: End processing [djangoautoconf]: success
+[2023-07-06 10:08:47] INFO root fetch - processPackages [climify-api]: Downloading https://files.pythonhosted.org/packages/c7/85/2ca933d1ce9859ffbf64c7a1f1bd2fc15c6ff2b6ad5ab32de8cb8a0ac381/climify_api-1.0.8.tar.gz
+[2023-07-06 10:08:47] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/83/33/c01c76f76ee274899e3689d4b8e6a7c39ec3f4c575987ad0fa9b0c08fa9a/pyglove-0.3.1.dev20230705.tar.gz
+[2023-07-06 10:08:47] INFO root fetch - processPackages [moonwiki]: Downloading https://files.pythonhosted.org/packages/80/47/f37e6a288b1d793d9180c731507880f23e79d4ab89d39f7f71f78e06b7eb/moonwiki-2023.7.6.0.tar.gz
+[2023-07-06 10:08:47] INFO root fetch - processPackages [spark-quality-rules-tools]: Downloading https://files.pythonhosted.org/packages/52/0d/bd2dcd6d331aba33e35d9038c64ea594ede6a4f21cd090207acfc93a2f10/spark_quality_rules_tools-0.6.0.tar.gz
+[2023-07-06 10:08:47] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-07-06 10:08:47] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230704.tar.gz tmp/pyglove-0.3.1.dev20230705.tar.gz --markdown 20230706/p/pyglove/0.3.1.dev20230704-0.3.1.dev20230705/diff.md --exclude *.pyd
+[2023-07-06 10:08:47] INFO root fetch - processPackages [spark-quality-rules-tools]: executing diffoscope
+[2023-07-06 10:08:47] INFO root fetch - processPackages [spark-quality-rules-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_quality_rules_tools-0.5.0.tar.gz tmp/spark_quality_rules_tools-0.6.0.tar.gz --markdown 20230706/s/spark-quality-rules-tools/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-06 10:08:47] INFO root fetch - processPackages [moonwiki]: Downloading https://files.pythonhosted.org/packages/27/e4/b56c047e95edf6d16a922180c74c2f8011bdd8c2bc5a9398b85e40b80d4a/moonwiki-2023.7.6.1.tar.gz
+[2023-07-06 10:08:47] INFO root fetch - processPackages [climify-api]: Downloading https://files.pythonhosted.org/packages/33/f9/a6ddc4ec479e3d0a39fc4f48dc23b14962dd59195960aa64469e4ddfe041/climify_api-1.0.9.tar.gz
+[2023-07-06 10:08:47] INFO root fetch - processPackages [moonwiki]: executing diffoscope
+[2023-07-06 10:08:47] INFO root fetch - processPackages [moonwiki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moonwiki-2023.7.6.0.tar.gz tmp/moonwiki-2023.7.6.1.tar.gz --markdown 20230706/m/moonwiki/2023.7.6.0-2023.7.6.1/diff.md --exclude *.pyd
+[2023-07-06 10:08:47] INFO root fetch - processPackages [climify-api]: executing diffoscope
+[2023-07-06 10:08:47] INFO root fetch - processPackages [climify-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/climify_api-1.0.8.tar.gz tmp/climify_api-1.0.9.tar.gz --markdown 20230706/c/climify-api/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-06 10:08:47] INFO root fetch - processPackages [paasta-tools]: Remove: archive file [/home/abi/fetcher/tmp/paasta-tools-0.92.0.tar.gz]
+[2023-07-06 10:08:47] INFO root fetch - processPackages [paasta-tools]: Remove: archive file [/home/abi/fetcher/tmp/paasta-tools-0.92.1.tar.gz]
+[2023-07-06 10:08:47] INFO root fetch - main [MainThread]: End processing [paasta-tools]: success
+[2023-07-06 10:08:48] INFO root fetch - processPackages [spark-quality-rules-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_quality_rules_tools-0.5.0.tar.gz]
+[2023-07-06 10:08:48] INFO root fetch - processPackages [spark-quality-rules-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_quality_rules_tools-0.6.0.tar.gz]
+[2023-07-06 10:08:48] INFO root fetch - main [MainThread]: End processing [spark-quality-rules-tools]: success
+[2023-07-06 10:08:48] INFO root fetch - processPackages [moonwiki]: Remove: archive file [/home/abi/fetcher/tmp/moonwiki-2023.7.6.0.tar.gz]
+[2023-07-06 10:08:48] INFO root fetch - processPackages [moonwiki]: Remove: archive file [/home/abi/fetcher/tmp/moonwiki-2023.7.6.1.tar.gz]
+[2023-07-06 10:08:48] INFO root fetch - main [MainThread]: End processing [moonwiki]: success
+[2023-07-06 10:08:48] INFO root fetch - processPackages [climify-api]: Remove: archive file [/home/abi/fetcher/tmp/climify_api-1.0.8.tar.gz]
+[2023-07-06 10:08:48] INFO root fetch - processPackages [climify-api]: Remove: archive file [/home/abi/fetcher/tmp/climify_api-1.0.9.tar.gz]
+[2023-07-06 10:08:48] INFO root fetch - main [MainThread]: End processing [climify-api]: success
+[2023-07-06 10:08:49] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230704.tar.gz]
+[2023-07-06 10:08:49] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230705.tar.gz]
+[2023-07-06 10:08:49] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-07-06 10:08:49] INFO root fetch - main [MainThread]: Store serial: [18779935]
