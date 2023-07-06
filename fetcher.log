@@ -21726,3 +21726,65 @@ AssertionError: tmp/termkit-0.2.0a4.tar.gz does not exist
 [2023-07-06 13:20:37] INFO root fetch - processPackages [aliyundrive-webdav]: Remove: archive file [/home/abi/fetcher/tmp/aliyundrive_webdav-2.2.2-py3-none-win_arm64.whl.zip]
 [2023-07-06 13:20:37] INFO root fetch - main [MainThread]: End processing [aliyundrive-webdav]: success
 [2023-07-06 13:20:37] INFO root fetch - main [MainThread]: Store serial: [18782490]
+[2023-07-06 13:25:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18782490]
+[2023-07-06 13:25:55] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-06 13:25:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: titan-iris
+[2023-07-06 13:25:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AutoFun
+[2023-07-06 13:25:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kodexa
+[2023-07-06 13:25:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tb-nightly
+[2023-07-06 13:25:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: laboneq
+[2023-07-06 13:25:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sh-dynamodb
+[2023-07-06 13:25:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torchtnt-nightly
+[2023-07-06 13:25:56] INFO root fetch - processPackages [AutoFun]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-06 13:25:56] INFO root fetch - processPackages [sh-dynamodb]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-06 13:25:56] INFO root fetch - processPackages [laboneq]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-07-06 13:25:56] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.7.5] Old Version: [2023.7.4]
+[2023-07-06 13:25:56] INFO root fetch - processPackages [titan-iris]: New version: [0.9.0] Old Version: [0.8.9]
+[2023-07-06 13:25:56] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-07-06 13:25:56] INFO root fetch - processPackages [kodexa]: New version: [6.2.3a5260876523] Old Version: [6.2.3a5260620995]
+[2023-07-06 13:25:56] INFO root fetch - processPackages [sh-dynamodb]: Downloading https://files.pythonhosted.org/packages/dc/c0/65f19e26723e4abd8b1d1bcb1b1223e3f31190c16af104132b56048f1c2e/sh-dynamodb-1.0.5.tar.gz
+[2023-07-06 13:25:56] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/58/c6/0a7d5e1350623848e6dd70e822517738236bf16fc1bbf19176b3a2bff3ac/torchtnt-nightly-2023.7.4.tar.gz
+[2023-07-06 13:25:56] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2023-07-06 13:25:56] INFO root fetch - processPackages [laboneq]: Downloading https://files.pythonhosted.org/packages/8c/66/9cbe789d55155adc9d577d42d38f36e55fb8aa8c0800768033c4bbb069be/laboneq-2.8.0-py3-none-any.whl
+[2023-07-06 13:25:56] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/5d/4b/e7ced7ca14408b830a8328f39e2d8f45aaf6d9ecbf973158d33f0eb56629/kodexa-6.2.3a5260620995.tar.gz
+[2023-07-06 13:25:56] INFO root fetch - processPackages [sh-dynamodb]: Downloading https://files.pythonhosted.org/packages/84/81/f41a9791596aae1bf13f1e574520f88fdbcbda6b4e32e09dbb4d36ee22ba/sh-dynamodb-1.0.6.tar.gz
+[2023-07-06 13:25:56] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/04/25/22091a26775676cd76db565c11730d38d18cffe45cb89330ebf3fd074e77/titan-iris-0.8.9.tar.gz
+[2023-07-06 13:25:56] INFO root fetch - processPackages [AutoFun]: Downloading https://files.pythonhosted.org/packages/6d/85/279de912dfd86b7879f37f77c5c39ae00a9494aaaa37c06107212b72ef03/AutoFun-0.3.9.tar.gz
+[2023-07-06 13:25:56] INFO root fetch - processPackages [sh-dynamodb]: executing diffoscope
+[2023-07-06 13:25:56] INFO root fetch - processPackages [sh-dynamodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sh-dynamodb-1.0.5.tar.gz tmp/sh-dynamodb-1.0.6.tar.gz --markdown 20230706/s/sh-dynamodb/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-06 13:25:56] WARNING root fetch - processPackages [AutoFun]: Skipping package: exceeds size limit 61458619>=10485760
+[2023-07-06 13:25:56] INFO root fetch - main [MainThread]: End processing [AutoFun] error
+[2023-07-06 13:25:56] INFO root fetch - processPackages [laboneq]: Downloading https://files.pythonhosted.org/packages/3a/a1/716f6b29a1371e0e662d6a06e60a314276283acae5e30b79bec567dbae0a/laboneq-2.9.0-py3-none-any.whl
+[2023-07-06 13:25:56] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/d2/9f/758aa5d200a018605f61f369106dbd8fabac0df216763b205207d9608386/torchtnt-nightly-2023.7.5.tar.gz
+[2023-07-06 13:25:56] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/59/19/b9297c9d7dda71cd733cbb4c9e65d7394e868ebe2e1fd61e1d20c9c3d817/titan-iris-0.9.0.tar.gz
+[2023-07-06 13:25:56] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-07-06 13:25:56] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.7.4.tar.gz tmp/torchtnt-nightly-2023.7.5.tar.gz --markdown 20230706/t/torchtnt-nightly/2023.7.4-2023.7.5/diff.md --exclude *.pyd
+[2023-07-06 13:25:56] INFO root fetch - processPackages [laboneq]: executing diffoscope
+[2023-07-06 13:25:56] INFO root fetch - processPackages [laboneq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laboneq-2.8.0-py3-none-any.whl.zip tmp/laboneq-2.9.0-py3-none-any.whl.zip --markdown 20230706/l/laboneq/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-07-06 13:25:56] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/4a/66/617dd208a245435e376984f62632bbda4041e15ec88b301ccf1e07f3d6fd/kodexa-6.2.3a5260876523.tar.gz
+[2023-07-06 13:25:56] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-07-06 13:25:56] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.8.9.tar.gz tmp/titan-iris-0.9.0.tar.gz --markdown 20230706/t/titan-iris/0.8.9-0.9.0/diff.md --exclude *.pyd
+[2023-07-06 13:25:57] INFO root fetch - processPackages [kodexa]: executing diffoscope
+[2023-07-06 13:25:57] INFO root fetch - processPackages [kodexa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa-6.2.3a5260620995.tar.gz tmp/kodexa-6.2.3a5260876523.tar.gz --markdown 20230706/k/kodexa/6.2.3a5260620995-6.2.3a5260876523/diff.md --exclude *.pyd
+[2023-07-06 13:25:57] INFO root fetch - processPackages [sh-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/sh-dynamodb-1.0.5.tar.gz]
+[2023-07-06 13:25:57] INFO root fetch - processPackages [sh-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/sh-dynamodb-1.0.6.tar.gz]
+[2023-07-06 13:25:57] INFO root fetch - main [MainThread]: End processing [sh-dynamodb]: success
+[2023-07-06 13:25:57] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2023-07-06 13:25:57] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.8.9.tar.gz]
+[2023-07-06 13:25:57] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.9.0.tar.gz]
+[2023-07-06 13:25:57] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-07-06 13:25:58] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-6.2.3a5260620995.tar.gz]
+[2023-07-06 13:25:58] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-6.2.3a5260876523.tar.gz]
+[2023-07-06 13:25:58] INFO root fetch - main [MainThread]: End processing [kodexa]: success
+[2023-07-06 13:25:58] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.7.4.tar.gz]
+[2023-07-06 13:25:58] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.7.5.tar.gz]
+[2023-07-06 13:25:58] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-07-06 13:25:58] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-07-06 13:25:58] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230706/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-07-06 13:25:59] INFO root fetch - processPackages [laboneq]: Remove: archive file [/home/abi/fetcher/tmp/laboneq-2.8.0-py3-none-any.whl.zip]
+[2023-07-06 13:25:59] INFO root fetch - processPackages [laboneq]: Remove: archive file [/home/abi/fetcher/tmp/laboneq-2.9.0-py3-none-any.whl.zip]
+[2023-07-06 13:25:59] INFO root fetch - main [MainThread]: End processing [laboneq]: success
+[2023-07-06 13:26:00] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2023-07-06 13:26:00] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2023-07-06 13:26:00] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-07-06 13:26:00] INFO root fetch - main [MainThread]: Store serial: [18782513]
