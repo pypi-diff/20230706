@@ -10197,3 +10197,105 @@ AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
 [2023-07-06 05:05:38] INFO root fetch - processPackages [odoo-addon-account-credit-control]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_credit_control-16.0.1.0.2.1-py3-none-any.whl.zip]
 [2023-07-06 05:05:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-credit-control]: success
 [2023-07-06 05:05:38] INFO root fetch - main [MainThread]: Store serial: [18777789]
+[2023-07-06 05:10:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18777789]
+[2023-07-06 05:10:48] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-06 05:10:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-credit-control
+[2023-07-06 05:10:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-credit-control
+[2023-07-06 05:10:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: minium
+[2023-07-06 05:10:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xxx-chat
+[2023-07-06 05:10:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: khoj-assistant
+[2023-07-06 05:10:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-currency-rate-update
+[2023-07-06 05:10:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-currency-rate-update-xe
+[2023-07-06 05:10:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: otter-grader
+[2023-07-06 05:10:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rondsspark
+[2023-07-06 05:10:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yuptools
+[2023-07-06 05:10:48] INFO root fetch - processPackages [odoo-addons-oca-credit-control]: New version: [16.0.20230705.0] Old Version: [16.0.20230529.0]
+[2023-07-06 05:10:48] INFO root fetch - processPackages [odoo-addon-account-credit-control]: New version: [16.0.1.0.2.2] Old Version: [16.0.1.0.2.1]
+[2023-07-06 05:10:48] INFO root fetch - processPackages [minium]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-07-06 05:10:48] INFO root fetch - processPackages [odoo-addon-currency-rate-update-xe]: New version: [15.0.1.0.0.3] Old Version: [15.0.1.0.0.2]
+[2023-07-06 05:10:48] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: New version: [16.0.1.1.1.3] Old Version: [16.0.1.1.1.2]
+[2023-07-06 05:10:48] INFO root fetch - processPackages [yuptools]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-06 05:10:48] INFO root fetch - processPackages [rondsspark]: New version: [0.0.3.2] Old Version: [0.0.3.1]
+[2023-07-06 05:10:48] INFO root fetch - processPackages [xxx-chat]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-06 05:10:48] INFO root fetch - processPackages [otter-grader]: New version: [4.4.0] Old Version: [4.3.4]
+[2023-07-06 05:10:48] INFO root fetch - processPackages [khoj-assistant]: New version: [0.7.2.dev4] Old Version: [0.7.2.dev3]
+[2023-07-06 05:10:48] INFO root fetch - processPackages [odoo-addon-account-credit-control]: Downloading https://files.pythonhosted.org/packages/d3/8e/897472535fe1aae932c8f6c7a18796491504c3c722fa6deb5b2845753957/odoo_addon_account_credit_control-16.0.1.0.2.1-py3-none-any.whl
+[2023-07-06 05:10:48] INFO root fetch - processPackages [rondsspark]: Downloading https://files.pythonhosted.org/packages/b9/b6/05ad20caace9c5431c8b7914b373282e775843ea7804d9f6ab89975ec3ac/rondsspark-0.0.3.1.tar.gz
+[2023-07-06 05:10:48] INFO root fetch - processPackages [odoo-addons-oca-credit-control]: Downloading https://files.pythonhosted.org/packages/32/f0/0b498e3ae3cbf2185f9e953bd0a96e3eae0cea082da252472718ab3acf8f/odoo_addons_oca_credit_control-16.0.20230529.0-py3-none-any.whl
+[2023-07-06 05:10:48] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: Downloading https://files.pythonhosted.org/packages/ad/b8/23890133a19303a839baf066399e9a061e70f509d57629cd4bde5568913e/odoo_addon_currency_rate_update-16.0.1.1.1.2-py3-none-any.whl
+[2023-07-06 05:10:48] INFO root fetch - processPackages [minium]: Downloading https://files.pythonhosted.org/packages/3a/77/c87e39a90fd8000d502dacbe670ae214822748880566d6e87d6d7eab482d/minium-1.4.2.tar.gz
+[2023-07-06 05:10:48] INFO root fetch - processPackages [odoo-addon-currency-rate-update-xe]: Downloading https://files.pythonhosted.org/packages/8e/d6/9677fdf7de1584d2df9681dc4232f8f3b08a518ae6f7cac1fa552da590a8/odoo_addon_currency_rate_update_xe-15.0.1.0.0.2-py3-none-any.whl
+[2023-07-06 05:10:48] INFO root fetch - processPackages [xxx-chat]: Downloading https://files.pythonhosted.org/packages/2c/08/663fcbf168847c35a635ff50f1b537e953bbb9fda4ec118de0014a7818d0/xxx-chat-0.0.1.tar.gz
+[2023-07-06 05:10:48] INFO root fetch - processPackages [otter-grader]: Downloading https://files.pythonhosted.org/packages/4f/25/6c99e4669a678675a996bb18be1050a24a90f431a69054b69327878f3166/otter-grader-4.3.4.tar.gz
+[2023-07-06 05:10:48] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/88/c6/2cb94daaed2e53ded0fb36ef4fbc2718cafb0913be3ca5a04dbbbc0b3ea2/khoj_assistant-0.7.2.dev3.tar.gz
+[2023-07-06 05:10:48] INFO root fetch - processPackages [yuptools]: Downloading https://files.pythonhosted.org/packages/56/aa/bc5642c81409d4344618f66b481fa6382c736dc7590109b9f4d218a0309d/yuptools-0.1.4.tar.gz
+[2023-07-06 05:10:49] INFO root fetch - processPackages [odoo-addon-account-credit-control]: Downloading https://files.pythonhosted.org/packages/2a/93/6f9d5b0fa46a04726ec049ecca629bd78d5de685b31852878eaf21c63908/odoo_addon_account_credit_control-16.0.1.0.2.2-py3-none-any.whl
+[2023-07-06 05:10:49] INFO root fetch - processPackages [rondsspark]: Downloading https://files.pythonhosted.org/packages/b5/c1/f595dc18bae7681e12572714422e9e6587a9c90c30281bf1f54447f6fd7b/rondsspark-0.0.3.2.tar.gz
+[2023-07-06 05:10:49] INFO root fetch - processPackages [odoo-addons-oca-credit-control]: Downloading https://files.pythonhosted.org/packages/2e/43/fb1ad78bf61ed307588380f5bed648812afdaac7cc492dd890bf7726ffbf/odoo_addons_oca_credit_control-16.0.20230705.0-py3-none-any.whl
+[2023-07-06 05:10:49] INFO root fetch - processPackages [xxx-chat]: Downloading https://files.pythonhosted.org/packages/9d/7f/040c5b1a249d388f4de02ef2e7f98789414e8e00592d593159848fa73021/xxx-chat-0.0.2.tar.gz
+[2023-07-06 05:10:49] INFO root fetch - processPackages [odoo-addon-currency-rate-update-xe]: Downloading https://files.pythonhosted.org/packages/8c/49/c9a3267e52c40463f465adda256d72f75addab204b72a8359e493eb6db2d/odoo_addon_currency_rate_update_xe-15.0.1.0.0.3-py3-none-any.whl
+[2023-07-06 05:10:49] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: Downloading https://files.pythonhosted.org/packages/b4/d7/7dcaa505f7fff528cdb521de02112889d60479670aded56b702a54a4dfa1/odoo_addon_currency_rate_update-16.0.1.1.1.3-py3-none-any.whl
+[2023-07-06 05:10:49] INFO root fetch - processPackages [odoo-addons-oca-credit-control]: executing diffoscope
+[2023-07-06 05:10:49] INFO root fetch - processPackages [odoo-addons-oca-credit-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_credit_control-16.0.20230529.0-py3-none-any.whl.zip tmp/odoo_addons_oca_credit_control-16.0.20230705.0-py3-none-any.whl.zip --markdown 20230706/o/odoo-addons-oca-credit-control/16.0.20230529.0-16.0.20230705.0/diff.md --exclude *.pyd
+[2023-07-06 05:10:49] INFO root fetch - processPackages [rondsspark]: executing diffoscope
+[2023-07-06 05:10:49] INFO root fetch - processPackages [rondsspark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rondsspark-0.0.3.1.tar.gz tmp/rondsspark-0.0.3.2.tar.gz --markdown 20230706/r/rondsspark/0.0.3.1-0.0.3.2/diff.md --exclude *.pyd
+[2023-07-06 05:10:49] INFO root fetch - processPackages [yuptools]: Downloading https://files.pythonhosted.org/packages/fb/4d/e18fc266496249cbd97135f9399c7648e1e469eecba9f5e7e457d3866fda/yuptools-0.1.5.tar.gz
+[2023-07-06 05:10:49] INFO root fetch - processPackages [otter-grader]: Downloading https://files.pythonhosted.org/packages/eb/50/a4c54f1c589689ba224f4ddbf160dff5ea4ca3da38a63fbaab3a17b819c2/otter-grader-4.4.0.tar.gz
+[2023-07-06 05:10:49] INFO root fetch - processPackages [xxx-chat]: executing diffoscope
+[2023-07-06 05:10:49] INFO root fetch - processPackages [xxx-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xxx-chat-0.0.1.tar.gz tmp/xxx-chat-0.0.2.tar.gz --markdown 20230706/x/xxx-chat/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-06 05:10:49] INFO root fetch - processPackages [odoo-addon-account-credit-control]: executing diffoscope
+[2023-07-06 05:10:49] INFO root fetch - processPackages [odoo-addon-account-credit-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_credit_control-16.0.1.0.2.1-py3-none-any.whl.zip tmp/odoo_addon_account_credit_control-16.0.1.0.2.2-py3-none-any.whl.zip --markdown 20230706/o/odoo-addon-account-credit-control/16.0.1.0.2.1-16.0.1.0.2.2/diff.md --exclude *.pyd
+[2023-07-06 05:10:49] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/73/aa/033d52c8171d9ef20ea673de1753232bb27beb74b259991bcceeabea9485/khoj_assistant-0.7.2.dev4.tar.gz
+[2023-07-06 05:10:49] INFO root fetch - processPackages [minium]: Downloading https://files.pythonhosted.org/packages/bf/1c/b046b0cecf46f327fb1ea7ac7fd3312b90538ff74489a27a4573f9cc43e2/minium-1.4.3.tar.gz
+[2023-07-06 05:10:49] INFO root fetch - processPackages [odoo-addon-currency-rate-update-xe]: executing diffoscope
+[2023-07-06 05:10:49] INFO root fetch - processPackages [odoo-addon-currency-rate-update-xe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_currency_rate_update_xe-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_currency_rate_update_xe-15.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230706/o/odoo-addon-currency-rate-update-xe/15.0.1.0.0.2-15.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-07-06 05:10:49] INFO root fetch - processPackages [yuptools]: executing diffoscope
+[2023-07-06 05:10:49] INFO root fetch - processPackages [yuptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yuptools-0.1.4.tar.gz tmp/yuptools-0.1.5.tar.gz --markdown 20230706/y/yuptools/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-06 05:10:49] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: executing diffoscope
+[2023-07-06 05:10:49] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_currency_rate_update-16.0.1.1.1.2-py3-none-any.whl.zip tmp/odoo_addon_currency_rate_update-16.0.1.1.1.3-py3-none-any.whl.zip --markdown 20230706/o/odoo-addon-currency-rate-update/16.0.1.1.1.2-16.0.1.1.1.3/diff.md --exclude *.pyd
+[2023-07-06 05:10:49] INFO root fetch - processPackages [otter-grader]: executing diffoscope
+[2023-07-06 05:10:49] INFO root fetch - processPackages [otter-grader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otter-grader-4.3.4.tar.gz tmp/otter-grader-4.4.0.tar.gz --markdown 20230706/o/otter-grader/4.3.4-4.4.0/diff.md --exclude *.pyd
+[2023-07-06 05:10:49] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-07-06 05:10:49] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.7.2.dev3.tar.gz tmp/khoj_assistant-0.7.2.dev4.tar.gz --markdown 20230706/k/khoj-assistant/0.7.2.dev3-0.7.2.dev4/diff.md --exclude *.pyd
+[2023-07-06 05:10:49] INFO root fetch - processPackages [minium]: executing diffoscope
+[2023-07-06 05:10:49] INFO root fetch - processPackages [minium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minium-1.4.2.tar.gz tmp/minium-1.4.3.tar.gz --markdown 20230706/m/minium/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-07-06 05:10:50] INFO root fetch - processPackages [odoo-addons-oca-credit-control]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_credit_control-16.0.20230529.0-py3-none-any.whl.zip]
+[2023-07-06 05:10:50] INFO root fetch - processPackages [odoo-addons-oca-credit-control]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_credit_control-16.0.20230705.0-py3-none-any.whl.zip]
+[2023-07-06 05:10:50] INFO root fetch - processPackages [odoo-addons-oca-credit-control]: Start processing: odoo14-addon-ddmrp
+[2023-07-06 05:10:50] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-credit-control]: success
+[2023-07-06 05:10:50] INFO root fetch - processPackages [odoo14-addon-ddmrp]: New version: [14.0.1.9.1.dev1] Old Version: [14.0.1.9.0]
+[2023-07-06 05:10:51] INFO root fetch - processPackages [xxx-chat]: Remove: archive file [/home/abi/fetcher/tmp/xxx-chat-0.0.1.tar.gz]
+[2023-07-06 05:10:51] INFO root fetch - processPackages [xxx-chat]: Remove: archive file [/home/abi/fetcher/tmp/xxx-chat-0.0.2.tar.gz]
+[2023-07-06 05:10:51] INFO root fetch - main [MainThread]: End processing [xxx-chat]: success
+[2023-07-06 05:10:51] INFO root fetch - processPackages [odoo14-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/92/c5/5cc91e541a0dfd7e1a564e2754c43b3bf8dad8a3f510617e8a7c737dd29e/odoo14_addon_ddmrp-14.0.1.9.0-py3-none-any.whl
+[2023-07-06 05:10:51] INFO root fetch - processPackages [rondsspark]: Remove: archive file [/home/abi/fetcher/tmp/rondsspark-0.0.3.1.tar.gz]
+[2023-07-06 05:10:51] INFO root fetch - processPackages [rondsspark]: Remove: archive file [/home/abi/fetcher/tmp/rondsspark-0.0.3.2.tar.gz]
+[2023-07-06 05:10:51] INFO root fetch - main [MainThread]: End processing [rondsspark]: success
+[2023-07-06 05:10:51] INFO root fetch - processPackages [odoo-addon-currency-rate-update-xe]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_currency_rate_update_xe-15.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-06 05:10:51] INFO root fetch - processPackages [odoo-addon-currency-rate-update-xe]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_currency_rate_update_xe-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-06 05:10:51] INFO root fetch - main [MainThread]: End processing [odoo-addon-currency-rate-update-xe]: success
+[2023-07-06 05:10:51] INFO root fetch - processPackages [odoo14-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/47/ef/92f082c955236c0b4ec84ba6f9e93d400901d2b87e31d1399f2d4e310029/odoo14_addon_ddmrp-14.0.1.9.1.dev1-py3-none-any.whl
+[2023-07-06 05:10:51] INFO root fetch - processPackages [yuptools]: Remove: archive file [/home/abi/fetcher/tmp/yuptools-0.1.4.tar.gz]
+[2023-07-06 05:10:51] INFO root fetch - processPackages [yuptools]: Remove: archive file [/home/abi/fetcher/tmp/yuptools-0.1.5.tar.gz]
+[2023-07-06 05:10:51] INFO root fetch - main [MainThread]: End processing [yuptools]: success
+[2023-07-06 05:10:51] INFO root fetch - processPackages [odoo14-addon-ddmrp]: executing diffoscope
+[2023-07-06 05:10:51] INFO root fetch - processPackages [odoo14-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ddmrp-14.0.1.9.0-py3-none-any.whl.zip tmp/odoo14_addon_ddmrp-14.0.1.9.1.dev1-py3-none-any.whl.zip --markdown 20230706/o/odoo14-addon-ddmrp/14.0.1.9.0-14.0.1.9.1.dev1/diff.md --exclude *.pyd
+[2023-07-06 05:10:51] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_currency_rate_update-16.0.1.1.1.2-py3-none-any.whl.zip]
+[2023-07-06 05:10:51] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_currency_rate_update-16.0.1.1.1.3-py3-none-any.whl.zip]
+[2023-07-06 05:10:51] INFO root fetch - main [MainThread]: End processing [odoo-addon-currency-rate-update]: success
+[2023-07-06 05:10:52] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.7.2.dev3.tar.gz]
+[2023-07-06 05:10:52] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.7.2.dev4.tar.gz]
+[2023-07-06 05:10:52] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-07-06 05:10:52] INFO root fetch - processPackages [otter-grader]: Remove: archive file [/home/abi/fetcher/tmp/otter-grader-4.3.4.tar.gz]
+[2023-07-06 05:10:52] INFO root fetch - processPackages [otter-grader]: Remove: archive file [/home/abi/fetcher/tmp/otter-grader-4.4.0.tar.gz]
+[2023-07-06 05:10:52] INFO root fetch - main [MainThread]: End processing [otter-grader]: success
+[2023-07-06 05:10:52] INFO root fetch - processPackages [odoo-addon-account-credit-control]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_credit_control-16.0.1.0.2.1-py3-none-any.whl.zip]
+[2023-07-06 05:10:52] INFO root fetch - processPackages [odoo-addon-account-credit-control]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_credit_control-16.0.1.0.2.2-py3-none-any.whl.zip]
+[2023-07-06 05:10:52] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-credit-control]: success
+[2023-07-06 05:10:52] INFO root fetch - processPackages [minium]: Remove: archive file [/home/abi/fetcher/tmp/minium-1.4.2.tar.gz]
+[2023-07-06 05:10:52] INFO root fetch - processPackages [minium]: Remove: archive file [/home/abi/fetcher/tmp/minium-1.4.3.tar.gz]
+[2023-07-06 05:10:52] INFO root fetch - main [MainThread]: End processing [minium]: success
+[2023-07-06 05:10:52] INFO root fetch - processPackages [odoo14-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ddmrp-14.0.1.9.0-py3-none-any.whl.zip]
+[2023-07-06 05:10:52] INFO root fetch - processPackages [odoo14-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ddmrp-14.0.1.9.1.dev1-py3-none-any.whl.zip]
+[2023-07-06 05:10:52] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ddmrp]: success
+[2023-07-06 05:10:52] INFO root fetch - main [MainThread]: Store serial: [18777816]
