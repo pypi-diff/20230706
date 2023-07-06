@@ -5024,3 +5024,123 @@ AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
 [2023-07-06 02:56:57] INFO root fetch - processPackages [pycde]: Remove: archive file [/home/abi/fetcher/tmp/pycde-0.2.1.dev9-cp39-cp39-win_amd64.whl.zip]
 [2023-07-06 02:56:57] INFO root fetch - main [MainThread]: End processing [pycde]: success
 [2023-07-06 02:56:57] INFO root fetch - main [MainThread]: Store serial: [18775683]
+[2023-07-06 03:02:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18775683]
+[2023-07-06 03:02:18] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-06 03:02:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jys
+[2023-07-06 03:02:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llm-inference
+[2023-07-06 03:02:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opr
+[2023-07-06 03:02:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: blender-script
+[2023-07-06 03:02:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CalSim
+[2023-07-06 03:02:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ircrobots
+[2023-07-06 03:02:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: feffery-antd-components
+[2023-07-06 03:02:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Geode-Conversion
+[2023-07-06 03:02:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: OpenGeode-GeosciencesIO
+[2023-07-06 03:02:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: owe-python-sdk
+[2023-07-06 03:02:18] INFO root fetch - processPackages [llm-inference]: New version: [0.0.5.dev0] Old Version: [0.0.4]
+[2023-07-06 03:02:18] WARNING root fetch - processPackages [jys]: Skipping, unable to determine old version
+[2023-07-06 03:02:18] INFO root fetch - processPackages [jys]: Start processing: Geode-Numerics
+[2023-07-06 03:02:18] INFO root fetch - main [MainThread]: End processing [jys] error
+[2023-07-06 03:02:18] INFO root fetch - processPackages [ircrobots]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-07-06 03:02:18] INFO root fetch - processPackages [owe-python-sdk]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-07-06 03:02:18] INFO root fetch - processPackages [opr]: New version: [230] Old Version: [220]
+[2023-07-06 03:02:18] INFO root fetch - processPackages [CalSim]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-06 03:02:18] WARNING root fetch - processPackages [blender-script]: Skipping, unable to determine old version
+[2023-07-06 03:02:18] INFO root fetch - processPackages [blender-script]: Start processing: cdk-slack-chatbot
+[2023-07-06 03:02:18] INFO root fetch - main [MainThread]: End processing [blender-script] error
+[2023-07-06 03:02:18] INFO root fetch - processPackages [feffery-antd-components]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-06 03:02:18] INFO root fetch - processPackages [Geode-Numerics]: New version: [3.0.6rc1] Old Version: [3.0.6]
+[2023-07-06 03:02:18] INFO root fetch - processPackages [ircrobots]: Downloading https://files.pythonhosted.org/packages/cf/2a/a8da16a743b891e1294e6aacc4494dbb3c9b449722a0c4cb8d8a4ecbde1d/ircrobots-0.6.3.tar.gz
+[2023-07-06 03:02:18] INFO root fetch - processPackages [owe-python-sdk]: Downloading https://files.pythonhosted.org/packages/b7/87/2ed4496794411461faafd9b31cde5a571ee0b54f11200933d019777ca951/owe_python_sdk-0.0.1a8.tar.gz
+[2023-07-06 03:02:19] INFO root fetch - processPackages [Geode-Conversion]: New version: [5.0.9rc1] Old Version: [5.0.9]
+[2023-07-06 03:02:19] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: New version: [4.1.6rc1] Old Version: [4.1.6]
+[2023-07-06 03:02:19] INFO root fetch - processPackages [cdk-slack-chatbot]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-06 03:02:19] INFO root fetch - processPackages [CalSim]: Downloading https://files.pythonhosted.org/packages/31/10/1dcf7b7f8807f76f620381ed96f188a4423c5fdb85575afb673611a27c62/calsim-0.0.5.tar.gz
+[2023-07-06 03:02:19] INFO root fetch - processPackages [llm-inference]: Downloading https://files.pythonhosted.org/packages/d1/44/5ee70859c66498cc47410cf81488713ef75b3a25a68fbd15184664c5fced/llm_inference-0.0.4.tar.gz
+[2023-07-06 03:02:19] INFO root fetch - processPackages [opr]: Downloading https://files.pythonhosted.org/packages/21/46/fd6ba0bd0c6b9d0c162c7620e25b5a714daee9c2f480e5ac3c95b3ca9308/opr-220.tar.gz
+[2023-07-06 03:02:19] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: Downloading https://files.pythonhosted.org/packages/1c/4f/061e11bb60e783247feb9913550d222e70e7647a5e14b4fa72826fc20b5c/OpenGeode_GeosciencesIO-4.1.6-cp39-cp39-win_amd64.whl
+[2023-07-06 03:02:19] INFO root fetch - processPackages [feffery-antd-components]: Downloading https://files.pythonhosted.org/packages/54/82/f35103c609f66540f561267cee21d87261dc90f7a6909eba705aab10d074/feffery_antd_components-0.2.8.tar.gz
+[2023-07-06 03:02:19] INFO root fetch - processPackages [ircrobots]: Downloading https://files.pythonhosted.org/packages/c2/d3/e7f32736ff7914b2a75820ac88546f7e6ce20ae2c5a14069b59984a9773a/ircrobots-0.6.4.tar.gz
+[2023-07-06 03:02:19] INFO root fetch - processPackages [Geode-Conversion]: Downloading https://files.pythonhosted.org/packages/c1/8d/d968863bba692d1343d269e8dabaf6b69fce474f9078a923ca936ef1fc5b/Geode_Conversion-5.0.9-cp39-cp39-win_amd64.whl
+[2023-07-06 03:02:19] INFO root fetch - processPackages [owe-python-sdk]: Downloading https://files.pythonhosted.org/packages/31/27/a7a614b3213736597496297134f4cd10fd0ecee2f977d8e86784bb925c43/owe_python_sdk-0.0.1a9.tar.gz
+[2023-07-06 03:02:19] INFO root fetch - processPackages [Geode-Numerics]: Downloading https://files.pythonhosted.org/packages/7f/11/8892dd50f3d23fe1d9c2f824b3ceed3a4707491c5b3f83cf8c6a9e9c22e8/Geode_Numerics-3.0.6-cp39-cp39-win_amd64.whl
+[2023-07-06 03:02:19] INFO root fetch - processPackages [cdk-slack-chatbot]: Downloading https://files.pythonhosted.org/packages/18/e1/39c7ef0a63f08b4cdd9206beb69861062b890aa42bf0ead00ce61f92d7e4/cdk-slack-chatbot-1.0.98.tar.gz
+[2023-07-06 03:02:19] INFO root fetch - processPackages [ircrobots]: executing diffoscope
+[2023-07-06 03:02:19] INFO root fetch - processPackages [ircrobots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ircrobots-0.6.3.tar.gz tmp/ircrobots-0.6.4.tar.gz --markdown 20230706/i/ircrobots/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-07-06 03:02:19] INFO root fetch - processPackages [owe-python-sdk]: executing diffoscope
+[2023-07-06 03:02:19] INFO root fetch - processPackages [owe-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owe_python_sdk-0.0.1a8.tar.gz tmp/owe_python_sdk-0.0.1a9.tar.gz --markdown 20230706/o/owe-python-sdk/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-07-06 03:02:19] INFO root fetch - processPackages [CalSim]: Downloading https://files.pythonhosted.org/packages/15/bb/0256d9c579522412b5c2cb58c7ea657b93be69ca356718ee6cdc5744e648/calsim-0.0.6.tar.gz
+[2023-07-06 03:02:19] INFO root fetch - processPackages [opr]: Downloading https://files.pythonhosted.org/packages/d6/2a/4eb8d1d5971df2117d89de8a4283b13facdb261a4dcb58819a2d26bcd2b4/opr-230.tar.gz
+[2023-07-06 03:02:19] INFO root fetch - processPackages [llm-inference]: Downloading https://files.pythonhosted.org/packages/d6/3f/47454518415e406e67e3b4f6ade659ddbc0e36ddfe04d2e1f8c57e4fd848/llm_inference-0.0.5.dev0.tar.gz
+[2023-07-06 03:02:19] INFO root fetch - processPackages [CalSim]: executing diffoscope
+[2023-07-06 03:02:19] INFO root fetch - processPackages [CalSim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calsim-0.0.5.tar.gz tmp/calsim-0.0.6.tar.gz --markdown 20230706/C/CalSim/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-06 03:02:19] INFO root fetch - processPackages [opr]: executing diffoscope
+[2023-07-06 03:02:19] INFO root fetch - processPackages [opr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opr-220.tar.gz tmp/opr-230.tar.gz --markdown 20230706/o/opr/220-230/diff.md --exclude *.pyd
+[2023-07-06 03:02:19] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: Downloading https://files.pythonhosted.org/packages/c0/1f/a8790df505a37ba27affa5395a8d20843d9ebeea3165d3e33bf76d0d4ef9/OpenGeode_GeosciencesIO-4.1.6rc1-cp39-cp39-win_amd64.whl
+[2023-07-06 03:02:19] INFO root fetch - processPackages [feffery-antd-components]: Downloading https://files.pythonhosted.org/packages/94/81/17fc6b7cca34abb81e767c58edbacfc6dbc509dc49bf7acfbfdcda1007ca/feffery_antd_components-0.2.9.tar.gz
+[2023-07-06 03:02:19] INFO root fetch - processPackages [llm-inference]: executing diffoscope
+[2023-07-06 03:02:19] INFO root fetch - processPackages [llm-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_inference-0.0.4.tar.gz tmp/llm_inference-0.0.5.dev0.tar.gz --markdown 20230706/l/llm-inference/0.0.4-0.0.5.dev0/diff.md --exclude *.pyd
+[2023-07-06 03:02:20] INFO root fetch - processPackages [cdk-slack-chatbot]: Downloading https://files.pythonhosted.org/packages/12/72/dc851f78a8ed85e11196ca9ee9dd0d9524d10ba5e6a193ae2ce79645cb38/cdk-slack-chatbot-1.0.99.tar.gz
+[2023-07-06 03:02:20] INFO root fetch - processPackages [Geode-Conversion]: Downloading https://files.pythonhosted.org/packages/ab/9f/1c8270cd0d910fd058edfa5e5f5f0af67dfc9941982a03f5e4036bc966fd/Geode_Conversion-5.0.9rc1-cp39-cp39-win_amd64.whl
+[2023-07-06 03:02:20] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: executing diffoscope
+[2023-07-06 03:02:20] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_GeosciencesIO-4.1.6-cp39-cp39-win_amd64.whl.zip tmp/OpenGeode_GeosciencesIO-4.1.6rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230706/O/OpenGeode-GeosciencesIO/4.1.6-4.1.6rc1/diff.md --exclude *.pyd
+[2023-07-06 03:02:20] INFO root fetch - processPackages [cdk-slack-chatbot]: executing diffoscope
+[2023-07-06 03:02:20] INFO root fetch - processPackages [cdk-slack-chatbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-slack-chatbot-1.0.98.tar.gz tmp/cdk-slack-chatbot-1.0.99.tar.gz --markdown 20230706/c/cdk-slack-chatbot/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-06 03:02:20] INFO root fetch - processPackages [feffery-antd-components]: executing diffoscope
+[2023-07-06 03:02:20] INFO root fetch - processPackages [feffery-antd-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feffery_antd_components-0.2.8.tar.gz tmp/feffery_antd_components-0.2.9.tar.gz --markdown 20230706/f/feffery-antd-components/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-06 03:02:20] INFO root fetch - processPackages [Geode-Conversion]: executing diffoscope
+[2023-07-06 03:02:20] INFO root fetch - processPackages [Geode-Conversion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Conversion-5.0.9-cp39-cp39-win_amd64.whl.zip tmp/Geode_Conversion-5.0.9rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230706/G/Geode-Conversion/5.0.9-5.0.9rc1/diff.md --exclude *.pyd
+[2023-07-06 03:02:20] INFO root fetch - processPackages [Geode-Numerics]: Downloading https://files.pythonhosted.org/packages/d4/8a/95e4313a082a002eeff88e5998e1eb02e206086ae068012a4d92096ee869/Geode_Numerics-3.0.6rc1-cp39-cp39-win_amd64.whl
+[2023-07-06 03:02:20] INFO root fetch - processPackages [Geode-Numerics]: executing diffoscope
+[2023-07-06 03:02:20] INFO root fetch - processPackages [Geode-Numerics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Numerics-3.0.6-cp39-cp39-win_amd64.whl.zip tmp/Geode_Numerics-3.0.6rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230706/G/Geode-Numerics/3.0.6-3.0.6rc1/diff.md --exclude *.pyd
+[2023-07-06 03:02:20] INFO root fetch - processPackages [ircrobots]: Remove: archive file [/home/abi/fetcher/tmp/ircrobots-0.6.3.tar.gz]
+[2023-07-06 03:02:20] INFO root fetch - processPackages [ircrobots]: Remove: archive file [/home/abi/fetcher/tmp/ircrobots-0.6.4.tar.gz]
+[2023-07-06 03:02:20] INFO root fetch - processPackages [ircrobots]: Start processing: Geode-Background
+[2023-07-06 03:02:20] INFO root fetch - main [MainThread]: End processing [ircrobots]: success
+[2023-07-06 03:02:20] INFO root fetch - processPackages [owe-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/owe_python_sdk-0.0.1a8.tar.gz]
+[2023-07-06 03:02:20] INFO root fetch - processPackages [owe-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/owe_python_sdk-0.0.1a9.tar.gz]
+[2023-07-06 03:02:20] INFO root fetch - processPackages [owe-python-sdk]: Start processing: yangpingLiuTestFunction
+[2023-07-06 03:02:20] INFO root fetch - main [MainThread]: End processing [owe-python-sdk]: success
+[2023-07-06 03:02:20] INFO root fetch - processPackages [Geode-Background]: New version: [7.3.0rc4] Old Version: [7.3.0rc3]
+[2023-07-06 03:02:20] WARNING root fetch - processPackages [yangpingLiuTestFunction]: Skipping, unable to determine old version
+[2023-07-06 03:02:20] INFO root fetch - processPackages [yangpingLiuTestFunction]: Start processing: deadpool-executor
+[2023-07-06 03:02:20] INFO root fetch - main [MainThread]: End processing [yangpingLiuTestFunction] error
+[2023-07-06 03:02:21] INFO root fetch - processPackages [deadpool-executor]: New version: [2023.7.1] Old Version: [2022.9.6]
+[2023-07-06 03:02:21] INFO root fetch - processPackages [Geode-Background]: Downloading https://files.pythonhosted.org/packages/4c/b4/d828a8b292472d94fc70455ff583caacb388a961089ef10de27bb008bb71/Geode_Background-7.3.0rc3-cp39-cp39-win_amd64.whl
+[2023-07-06 03:02:21] INFO root fetch - processPackages [CalSim]: Remove: archive file [/home/abi/fetcher/tmp/calsim-0.0.5.tar.gz]
+[2023-07-06 03:02:21] INFO root fetch - processPackages [CalSim]: Remove: archive file [/home/abi/fetcher/tmp/calsim-0.0.6.tar.gz]
+[2023-07-06 03:02:21] INFO root fetch - main [MainThread]: End processing [CalSim]: success
+[2023-07-06 03:02:21] INFO root fetch - processPackages [opr]: Remove: archive file [/home/abi/fetcher/tmp/opr-220.tar.gz]
+[2023-07-06 03:02:21] INFO root fetch - processPackages [opr]: Remove: archive file [/home/abi/fetcher/tmp/opr-230.tar.gz]
+[2023-07-06 03:02:21] INFO root fetch - main [MainThread]: End processing [opr]: success
+[2023-07-06 03:02:21] INFO root fetch - processPackages [deadpool-executor]: Downloading https://files.pythonhosted.org/packages/b2/77/7e1916a2aa5966af97b6c1f864cf4c610de35c8f91ee9fd4e7a7aae89e1b/deadpool-executor-2022.9.6.tar.gz
+[2023-07-06 03:02:21] INFO root fetch - processPackages [cdk-slack-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/cdk-slack-chatbot-1.0.98.tar.gz]
+[2023-07-06 03:02:21] INFO root fetch - processPackages [cdk-slack-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/cdk-slack-chatbot-1.0.99.tar.gz]
+[2023-07-06 03:02:21] INFO root fetch - main [MainThread]: End processing [cdk-slack-chatbot]: success
+[2023-07-06 03:02:21] INFO root fetch - processPackages [llm-inference]: Remove: archive file [/home/abi/fetcher/tmp/llm_inference-0.0.4.tar.gz]
+[2023-07-06 03:02:21] INFO root fetch - processPackages [llm-inference]: Remove: archive file [/home/abi/fetcher/tmp/llm_inference-0.0.5.dev0.tar.gz]
+[2023-07-06 03:02:21] INFO root fetch - main [MainThread]: End processing [llm-inference]: success
+[2023-07-06 03:02:21] INFO root fetch - processPackages [deadpool-executor]: Downloading https://files.pythonhosted.org/packages/30/a8/d5d018ee8fc73d96660a835d9c4d11d2c754ae475c9150c0530162240391/deadpool_executor-2023.7.1.tar.gz
+[2023-07-06 03:02:21] INFO root fetch - processPackages [Geode-Background]: Downloading https://files.pythonhosted.org/packages/4d/36/6b4ff4f27a5652a68c2ce0cf4fd23b116e0fba8ed6b57391d38257466b02/Geode_Background-7.3.0rc4-cp39-cp39-win_amd64.whl
+[2023-07-06 03:02:22] INFO root fetch - processPackages [deadpool-executor]: executing diffoscope
+[2023-07-06 03:02:22] INFO root fetch - processPackages [deadpool-executor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deadpool-executor-2022.9.6.tar.gz tmp/deadpool_executor-2023.7.1.tar.gz --markdown 20230706/d/deadpool-executor/2022.9.6-2023.7.1/diff.md --exclude *.pyd
+[2023-07-06 03:02:22] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_GeosciencesIO-4.1.6-cp39-cp39-win_amd64.whl.zip]
+[2023-07-06 03:02:22] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_GeosciencesIO-4.1.6rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-06 03:02:22] INFO root fetch - main [MainThread]: End processing [OpenGeode-GeosciencesIO]: success
+[2023-07-06 03:02:22] INFO root fetch - processPackages [deadpool-executor]: Remove: archive file [/home/abi/fetcher/tmp/deadpool-executor-2022.9.6.tar.gz]
+[2023-07-06 03:02:22] INFO root fetch - processPackages [deadpool-executor]: Remove: archive file [/home/abi/fetcher/tmp/deadpool_executor-2023.7.1.tar.gz]
+[2023-07-06 03:02:22] INFO root fetch - main [MainThread]: End processing [deadpool-executor]: success
+[2023-07-06 03:02:22] INFO root fetch - processPackages [Geode-Background]: executing diffoscope
+[2023-07-06 03:02:22] INFO root fetch - processPackages [Geode-Background]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Background-7.3.0rc3-cp39-cp39-win_amd64.whl.zip tmp/Geode_Background-7.3.0rc4-cp39-cp39-win_amd64.whl.zip --markdown 20230706/G/Geode-Background/7.3.0rc3-7.3.0rc4/diff.md --exclude *.pyd
+[2023-07-06 03:02:26] INFO root fetch - processPackages [Geode-Conversion]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Conversion-5.0.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-06 03:02:26] INFO root fetch - processPackages [Geode-Conversion]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Conversion-5.0.9rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-06 03:02:26] INFO root fetch - main [MainThread]: End processing [Geode-Conversion]: success
+[2023-07-06 03:02:30] INFO root fetch - processPackages [Geode-Numerics]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Numerics-3.0.6-cp39-cp39-win_amd64.whl.zip]
+[2023-07-06 03:02:30] INFO root fetch - processPackages [Geode-Numerics]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Numerics-3.0.6rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-06 03:02:30] INFO root fetch - main [MainThread]: End processing [Geode-Numerics]: success
+[2023-07-06 03:02:35] INFO root fetch - processPackages [Geode-Background]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Background-7.3.0rc3-cp39-cp39-win_amd64.whl.zip]
+[2023-07-06 03:02:35] INFO root fetch - processPackages [Geode-Background]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Background-7.3.0rc4-cp39-cp39-win_amd64.whl.zip]
+[2023-07-06 03:02:35] INFO root fetch - main [MainThread]: End processing [Geode-Background]: success
+[2023-07-06 03:02:45] INFO root fetch - processPackages [feffery-antd-components]: Remove: archive file [/home/abi/fetcher/tmp/feffery_antd_components-0.2.8.tar.gz]
+[2023-07-06 03:02:45] INFO root fetch - processPackages [feffery-antd-components]: Remove: archive file [/home/abi/fetcher/tmp/feffery_antd_components-0.2.9.tar.gz]
+[2023-07-06 03:02:45] INFO root fetch - main [MainThread]: End processing [feffery-antd-components]: success
+[2023-07-06 03:02:45] INFO root fetch - main [MainThread]: Store serial: [18775759]
