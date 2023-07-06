@@ -15868,3 +15868,196 @@ AssertionError: tmp/SELDOMpy-0.8.4.2.tar.gz does not exist
 [2023-07-06 10:38:39] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs_etcd_dynamic_state-0.1.34-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-06 10:38:39] INFO root fetch - main [MainThread]: End processing [savant-rs-etcd-dynamic-state]: success
 [2023-07-06 10:38:39] INFO root fetch - main [MainThread]: Store serial: [18780241]
+[2023-07-06 10:43:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18780241]
+[2023-07-06 10:44:00] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-07-06 10:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sardana-nxsrecorder
+[2023-07-06 10:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-troveclient
+[2023-07-06 10:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-estimator-nightly
+[2023-07-06 10:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Grid2Op
+[2023-07-06 10:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: topic-wizard
+[2023-07-06 10:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oidc-drf
+[2023-07-06 10:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: boris-behav-obs
+[2023-07-06 10:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: echofish-aws-indexing-lambda
+[2023-07-06 10:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: molcas-suite
+[2023-07-06 10:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pykechain
+[2023-07-06 10:44:00] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: New version: [1.0.0.dev20230706083726] Old Version: [1.0.0.dev20230705212354]
+[2023-07-06 10:44:00] INFO root fetch - processPackages [boris-behav-obs]: New version: [8.9.8] Old Version: [8.9.6]
+[2023-07-06 10:44:00] INFO root fetch - processPackages [sardana-nxsrecorder]: New version: [3.9.2] Old Version: [3.9.1]
+[2023-07-06 10:44:00] INFO root fetch - processPackages [molcas-suite]: New version: [1.24.1] Old Version: [1.24.0]
+[2023-07-06 10:44:01] INFO root fetch - processPackages [python-troveclient]: New version: [8.2.0] Old Version: [8.1.0]
+[2023-07-06 10:44:01] INFO root fetch - processPackages [topic-wizard]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-06 10:44:01] INFO root fetch - processPackages [oidc-drf]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-06 10:44:01] INFO root fetch - processPackages [Grid2Op]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-06 10:44:01] INFO root fetch - processPackages [pykechain]: New version: [4.8.1] Old Version: [4.7.0]
+[2023-07-06 10:44:01] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-07-06 10:44:01] INFO root fetch - processPackages [molcas-suite]: Downloading https://files.pythonhosted.org/packages/b5/44/d0fb6bb53ae3f1655946ecc6a19b9eb15b46a903ca9d9611bd7eef797519/molcas_suite-1.24.0.tar.gz
+[2023-07-06 10:44:01] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/36/75/0e56487388828f40b0a8d401716a3cd255d3085e731e6ca3745ab28a86d2/oidc_drf-1.2.8.tar.gz
+[2023-07-06 10:44:01] INFO root fetch - processPackages [python-troveclient]: Downloading https://files.pythonhosted.org/packages/34/32/6cc52c89b1c1fe2410e36fe25266f5864d01e324680de792a066e9d986df/python-troveclient-8.1.0.tar.gz
+[2023-07-06 10:44:01] INFO root fetch - processPackages [boris-behav-obs]: Downloading https://files.pythonhosted.org/packages/2d/3e/6f6c330e82f398b4100063d33d9c4466e119c98f185886c388e40cbf3183/boris-behav-obs-8.9.6.tar.gz
+[2023-07-06 10:44:01] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: Downloading https://files.pythonhosted.org/packages/3d/09/2c99965cc6a837018d1c8e9c12bb2d96edbf9ae9da98d8b776fd020f7756/echofish-aws-indexing-lambda-1.0.0.dev20230705212354.tar.gz
+[2023-07-06 10:44:01] INFO root fetch - processPackages [sardana-nxsrecorder]: Downloading https://files.pythonhosted.org/packages/1d/1c/abdf8355a1e02a330d34c8a32f2717b6b3ac504f21d6dec10aa008fbb851/sardana-nxsrecorder-3.9.1.tar.gz
+[2023-07-06 10:44:01] INFO root fetch - processPackages [topic-wizard]: Downloading https://files.pythonhosted.org/packages/66/de/aafb721b7f46b3704c1f3d311089b6b0a112bd97a4d51dce18945f6d77cf/topic_wizard-0.3.0.tar.gz
+[2023-07-06 10:44:01] INFO root fetch - processPackages [pykechain]: Downloading https://files.pythonhosted.org/packages/c4/7b/0058dc992eeda73ef41028da38918fdd3ad2ee4986bb152fef2d8cc2875c/pykechain-4.7.0.tar.gz
+[2023-07-06 10:44:01] INFO root fetch - processPackages [Grid2Op]: Downloading https://files.pythonhosted.org/packages/c5/3a/bee825d418d9cae590235886a37860cbd6e5bbc0cc003ea3678407b16619/Grid2Op-1.9.0.tar.gz
+[2023-07-06 10:44:01] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/31/a0/5e1b898e43043b32d95e8719e2eb127692fd8261edbdad4801876a46893f/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl
+[2023-07-06 10:44:01] WARNING root fetch - processPackages [Grid2Op]: Skipping package: exceeds size limit 12336503>=10485760
+[2023-07-06 10:44:01] INFO root fetch - processPackages [Grid2Op]: Start processing: sicdeploy
+[2023-07-06 10:44:01] INFO root fetch - main [MainThread]: End processing [Grid2Op] error
+[2023-07-06 10:44:01] INFO root fetch - processPackages [sicdeploy]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-06 10:44:01] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/d7/de/e7417f81d3a2bb32b6f2acb0044fcadd08723cefbe4019f55c809d6c5afe/oidc_drf-1.2.9.tar.gz
+[2023-07-06 10:44:01] INFO root fetch - processPackages [sicdeploy]: Downloading https://files.pythonhosted.org/packages/a2/70/9b0f34d15a4f43b031650392535ebb5636497cb27044d9cc5fa8c10633de/sicdeploy-0.1.3.tar.gz
+[2023-07-06 10:44:01] INFO root fetch - processPackages [molcas-suite]: Downloading https://files.pythonhosted.org/packages/8a/65/c2639743589e08d87d6b6302f97f35917c34a215d3c1fb5ff63c1c553c95/molcas_suite-1.24.1.tar.gz
+[2023-07-06 10:44:01] INFO root fetch - processPackages [oidc-drf]: executing diffoscope
+[2023-07-06 10:44:01] INFO root fetch - processPackages [oidc-drf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oidc_drf-1.2.8.tar.gz tmp/oidc_drf-1.2.9.tar.gz --markdown 20230706/o/oidc-drf/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-06 10:44:01] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: Downloading https://files.pythonhosted.org/packages/8c/3e/bfb128c219773af31da3f8e3445653aaab4d17e5cd1519b1d0ba30cb7f7f/echofish-aws-indexing-lambda-1.0.0.dev20230706083726.tar.gz
+[2023-07-06 10:44:01] INFO root fetch - processPackages [python-troveclient]: Downloading https://files.pythonhosted.org/packages/61/a3/80348057df2a02aea9ee48328c7a9a8dfef46fcf696883ea01a0c9d556eb/python-troveclient-8.2.0.tar.gz
+[2023-07-06 10:44:01] INFO root fetch - processPackages [boris-behav-obs]: Downloading https://files.pythonhosted.org/packages/bf/55/6955e9da039eb026b773b540596c8bc85b790aeea5a08d162704522d2174/boris-behav-obs-8.9.8.tar.gz
+[2023-07-06 10:44:01] INFO root fetch - processPackages [topic-wizard]: Downloading https://files.pythonhosted.org/packages/5c/dc/c7017b426093ef275457fd72e3ee9e04a26c4880655fd1f94dc228281c5c/topic_wizard-0.3.1.tar.gz
+[2023-07-06 10:44:01] INFO root fetch - processPackages [sardana-nxsrecorder]: Downloading https://files.pythonhosted.org/packages/22/56/3ba2b4035af19c2da8e7160365c3c06e834b747c243650261705211be616/sardana-nxsrecorder-3.9.2.tar.gz
+[2023-07-06 10:44:01] INFO root fetch - processPackages [molcas-suite]: executing diffoscope
+[2023-07-06 10:44:01] INFO root fetch - processPackages [molcas-suite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molcas_suite-1.24.0.tar.gz tmp/molcas_suite-1.24.1.tar.gz --markdown 20230706/m/molcas-suite/1.24.0-1.24.1/diff.md --exclude *.pyd
+[2023-07-06 10:44:02] INFO root fetch - processPackages [topic-wizard]: executing diffoscope
+[2023-07-06 10:44:02] INFO root fetch - processPackages [topic-wizard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/topic_wizard-0.3.0.tar.gz tmp/topic_wizard-0.3.1.tar.gz --markdown 20230706/t/topic-wizard/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-06 10:44:02] INFO root fetch - processPackages [pykechain]: Downloading https://files.pythonhosted.org/packages/19/68/4e3c7360ec765f6ca987799f883d59abddd8ad88f6c2740f650ae0d13f5a/pykechain-4.8.1.tar.gz
+[2023-07-06 10:44:02] INFO root fetch - processPackages [python-troveclient]: executing diffoscope
+[2023-07-06 10:44:02] INFO root fetch - processPackages [python-troveclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-troveclient-8.1.0.tar.gz tmp/python-troveclient-8.2.0.tar.gz --markdown 20230706/p/python-troveclient/8.1.0-8.2.0/diff.md --exclude *.pyd
+[2023-07-06 10:44:02] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: executing diffoscope
+[2023-07-06 10:44:02] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echofish-aws-indexing-lambda-1.0.0.dev20230705212354.tar.gz tmp/echofish-aws-indexing-lambda-1.0.0.dev20230706083726.tar.gz --markdown 20230706/e/echofish-aws-indexing-lambda/1.0.0.dev20230705212354-1.0.0.dev20230706083726/diff.md --exclude *.pyd
+[2023-07-06 10:44:02] INFO root fetch - processPackages [sicdeploy]: Downloading https://files.pythonhosted.org/packages/21/3b/5a28169959410d68b72ebceb483709f201b9df3e5b57095b4814f736d2b2/sicdeploy-0.1.4.tar.gz
+[2023-07-06 10:44:02] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b6/fe4f7077ae036fd90bf9dfdc09b52cf611b857e7a26c3bc44a2e76c94af2/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl
+[2023-07-06 10:44:02] INFO root fetch - processPackages [boris-behav-obs]: executing diffoscope
+[2023-07-06 10:44:02] INFO root fetch - processPackages [boris-behav-obs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boris-behav-obs-8.9.6.tar.gz tmp/boris-behav-obs-8.9.8.tar.gz --markdown 20230706/b/boris-behav-obs/8.9.6-8.9.8/diff.md --exclude *.pyd
+[2023-07-06 10:44:02] INFO root fetch - processPackages [sardana-nxsrecorder]: executing diffoscope
+[2023-07-06 10:44:02] INFO root fetch - processPackages [sardana-nxsrecorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sardana-nxsrecorder-3.9.1.tar.gz tmp/sardana-nxsrecorder-3.9.2.tar.gz --markdown 20230706/s/sardana-nxsrecorder/3.9.1-3.9.2/diff.md --exclude *.pyd
+[2023-07-06 10:44:02] INFO root fetch - processPackages [sicdeploy]: executing diffoscope
+[2023-07-06 10:44:02] INFO root fetch - processPackages [sicdeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sicdeploy-0.1.3.tar.gz tmp/sicdeploy-0.1.4.tar.gz --markdown 20230706/s/sicdeploy/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-06 10:44:02] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-07-06 10:44:02] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230706/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-07-06 10:44:02] INFO root fetch - processPackages [pykechain]: executing diffoscope
+[2023-07-06 10:44:02] INFO root fetch - processPackages [pykechain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykechain-4.7.0.tar.gz tmp/pykechain-4.8.1.tar.gz --markdown 20230706/p/pykechain/4.7.0-4.8.1/diff.md --exclude *.pyd
+[2023-07-06 10:44:03] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.2.8.tar.gz]
+[2023-07-06 10:44:03] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.2.9.tar.gz]
+[2023-07-06 10:44:03] INFO root fetch - processPackages [oidc-drf]: Start processing: datawhispers
+[2023-07-06 10:44:03] INFO root fetch - main [MainThread]: End processing [oidc-drf]: success
+[2023-07-06 10:44:03] INFO root fetch - processPackages [datawhispers]: New version: [0.2.8.7] Old Version: [0.2.8.6]
+[2023-07-06 10:44:03] INFO root fetch - processPackages [datawhispers]: Downloading https://files.pythonhosted.org/packages/b3/43/521e4b1e84ed7afdadef4638f0764580d5552df661abe218934629b024d8/datawhispers-0.2.8.6.tar.gz
+[2023-07-06 10:44:03] INFO root fetch - processPackages [molcas-suite]: Remove: archive file [/home/abi/fetcher/tmp/molcas_suite-1.24.0.tar.gz]
+[2023-07-06 10:44:03] INFO root fetch - processPackages [molcas-suite]: Remove: archive file [/home/abi/fetcher/tmp/molcas_suite-1.24.1.tar.gz]
+[2023-07-06 10:44:03] INFO root fetch - processPackages [molcas-suite]: Start processing: tff-nightly
+[2023-07-06 10:44:03] INFO root fetch - main [MainThread]: End processing [molcas-suite]: success
+[2023-07-06 10:44:03] INFO root fetch - processPackages [datawhispers]: Downloading https://files.pythonhosted.org/packages/bd/bd/2a4a4dde0727198a45f771ad2f45b4ce237eb572ed17d462be75d0eb091c/datawhispers-0.2.8.7.tar.gz
+[2023-07-06 10:44:03] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: Remove: archive file [/home/abi/fetcher/tmp/echofish-aws-indexing-lambda-1.0.0.dev20230705212354.tar.gz]
+[2023-07-06 10:44:03] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: Remove: archive file [/home/abi/fetcher/tmp/echofish-aws-indexing-lambda-1.0.0.dev20230706083726.tar.gz]
+[2023-07-06 10:44:03] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: Start processing: bihc
+[2023-07-06 10:44:03] INFO root fetch - main [MainThread]: End processing [echofish-aws-indexing-lambda]: success
+[2023-07-06 10:44:03] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230705] Old Version: [0.0.1.dev20230704]
+[2023-07-06 10:44:03] INFO root fetch - processPackages [bihc]: New version: [0.0.8.3] Old Version: [0.0.8.2]
+[2023-07-06 10:44:04] INFO root fetch - processPackages [datawhispers]: executing diffoscope
+[2023-07-06 10:44:04] INFO root fetch - processPackages [datawhispers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datawhispers-0.2.8.6.tar.gz tmp/datawhispers-0.2.8.7.tar.gz --markdown 20230706/d/datawhispers/0.2.8.6-0.2.8.7/diff.md --exclude *.pyd
+[2023-07-06 10:44:04] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/1d/52/278b9ad9518439b15371151d12eb24e0c28e95ca25813365fa163017477e/tff_nightly-0.0.1.dev20230704-py2.py3-none-any.whl
+[2023-07-06 10:44:04] INFO root fetch - processPackages [sicdeploy]: Remove: archive file [/home/abi/fetcher/tmp/sicdeploy-0.1.3.tar.gz]
+[2023-07-06 10:44:04] INFO root fetch - processPackages [sicdeploy]: Remove: archive file [/home/abi/fetcher/tmp/sicdeploy-0.1.4.tar.gz]
+[2023-07-06 10:44:04] INFO root fetch - processPackages [sicdeploy]: Start processing: py3seed
+[2023-07-06 10:44:04] INFO root fetch - main [MainThread]: End processing [sicdeploy]: success
+[2023-07-06 10:44:04] INFO root fetch - processPackages [bihc]: Downloading https://files.pythonhosted.org/packages/1a/ec/f93967501805d818ab88cb460d077546ddf5aa18859515251702df93b187/bihc-0.0.8.2.tar.gz
+[2023-07-06 10:44:04] INFO root fetch - processPackages [topic-wizard]: Remove: archive file [/home/abi/fetcher/tmp/topic_wizard-0.3.0.tar.gz]
+[2023-07-06 10:44:04] INFO root fetch - processPackages [topic-wizard]: Remove: archive file [/home/abi/fetcher/tmp/topic_wizard-0.3.1.tar.gz]
+[2023-07-06 10:44:04] INFO root fetch - processPackages [topic-wizard]: Start processing: normaltext
+[2023-07-06 10:44:04] INFO root fetch - main [MainThread]: End processing [topic-wizard]: success
+[2023-07-06 10:44:04] INFO root fetch - processPackages [py3seed]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-06 10:44:04] INFO root fetch - processPackages [sardana-nxsrecorder]: Remove: archive file [/home/abi/fetcher/tmp/sardana-nxsrecorder-3.9.1.tar.gz]
+[2023-07-06 10:44:04] INFO root fetch - processPackages [sardana-nxsrecorder]: Remove: archive file [/home/abi/fetcher/tmp/sardana-nxsrecorder-3.9.2.tar.gz]
+[2023-07-06 10:44:04] INFO root fetch - processPackages [sardana-nxsrecorder]: Start processing: bambooapi-client
+[2023-07-06 10:44:04] INFO root fetch - main [MainThread]: End processing [sardana-nxsrecorder]: success
+[2023-07-06 10:44:04] WARNING root fetch - processPackages [normaltext]: Skipping, unable to determine old version
+[2023-07-06 10:44:04] INFO root fetch - processPackages [normaltext]: Start processing: python-neutronclient
+[2023-07-06 10:44:04] INFO root fetch - main [MainThread]: End processing [normaltext] error
+[2023-07-06 10:44:04] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/66/d5/a825f7db717c1620973cd8767341a38e12e68949560a6fdcf9080b610f92/tff_nightly-0.0.1.dev20230705-py2.py3-none-any.whl
+[2023-07-06 10:44:04] WARNING root fetch - processPackages [bambooapi-client]: Skipping, unable to determine old version
+[2023-07-06 10:44:04] INFO root fetch - processPackages [bambooapi-client]: Start processing: dc-index
+[2023-07-06 10:44:04] INFO root fetch - main [MainThread]: End processing [bambooapi-client] error
+[2023-07-06 10:44:04] INFO root fetch - processPackages [python-neutronclient]: New version: [9.0.0] Old Version: [8.2.1]
+[2023-07-06 10:44:04] WARNING root fetch - processPackages [dc-index]: Skipping, unable to determine old version
+[2023-07-06 10:44:04] INFO root fetch - processPackages [dc-index]: Start processing: alphastats
+[2023-07-06 10:44:04] INFO root fetch - main [MainThread]: End processing [dc-index] error
+[2023-07-06 10:44:04] INFO root fetch - processPackages [py3seed]: Downloading https://files.pythonhosted.org/packages/ff/b6/76061d3a7bcd5c4cdb5ce0425a24040c3c0e9a1289c6404f357ece6dcc75/py3seed-0.0.98.tar.gz
+[2023-07-06 10:44:04] INFO root fetch - processPackages [bihc]: Downloading https://files.pythonhosted.org/packages/13/31/646591a87c07ad737df97ca9aeab962a86f63729a1d83b8e662ed9533671/bihc-0.0.8.3.tar.gz
+[2023-07-06 10:44:04] INFO root fetch - processPackages [alphastats]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-06 10:44:04] INFO root fetch - processPackages [bihc]: executing diffoscope
+[2023-07-06 10:44:04] INFO root fetch - processPackages [bihc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bihc-0.0.8.2.tar.gz tmp/bihc-0.0.8.3.tar.gz --markdown 20230706/b/bihc/0.0.8.2-0.0.8.3/diff.md --exclude *.pyd
+[2023-07-06 10:44:04] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-07-06 10:44:04] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230704-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230705-py2.py3-none-any.whl.zip --markdown 20230706/t/tff-nightly/0.0.1.dev20230704-0.0.1.dev20230705/diff.md --exclude *.pyd
+[2023-07-06 10:44:04] INFO root fetch - processPackages [python-neutronclient]: Downloading https://files.pythonhosted.org/packages/02/b3/0c7942e654eec1428544237e1e0911c792e5abf763403bd825ce0c3bef07/python-neutronclient-8.2.1.tar.gz
+[2023-07-06 10:44:05] INFO root fetch - processPackages [alphastats]: Downloading https://files.pythonhosted.org/packages/57/8b/687506bbb7749fa83a6ae1d93e26512db0e5306f26fca7323774fc989194/alphastats-0.6.2.tar.gz
+[2023-07-06 10:44:05] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip]
+[2023-07-06 10:44:05] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip]
+[2023-07-06 10:44:05] INFO root fetch - processPackages [tf-estimator-nightly]: Start processing: merlin-sdk
+[2023-07-06 10:44:05] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-07-06 10:44:05] INFO root fetch - processPackages [boris-behav-obs]: Remove: archive file [/home/abi/fetcher/tmp/boris-behav-obs-8.9.6.tar.gz]
+[2023-07-06 10:44:05] INFO root fetch - processPackages [boris-behav-obs]: Remove: archive file [/home/abi/fetcher/tmp/boris-behav-obs-8.9.8.tar.gz]
+[2023-07-06 10:44:05] INFO root fetch - processPackages [boris-behav-obs]: Start processing: certora-cli-alpha-master
+[2023-07-06 10:44:05] INFO root fetch - main [MainThread]: End processing [boris-behav-obs]: success
+[2023-07-06 10:44:05] INFO root fetch - processPackages [merlin-sdk]: New version: [0.9.1] Old Version: [0.9.0.dev0]
+[2023-07-06 10:44:05] INFO root fetch - processPackages [py3seed]: Downloading https://files.pythonhosted.org/packages/fa/d9/9c55d1713df8a2096cd5fd9a5a79c1c3db3f14526d2f24768efab63fbff6/py3seed-0.0.99.tar.gz
+[2023-07-06 10:44:05] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230705.9.54.503079] Old Version: [20230705.9.16.987799]
+[2023-07-06 10:44:05] INFO root fetch - processPackages [python-neutronclient]: Downloading https://files.pythonhosted.org/packages/ef/e4/107865bfbdd8153e15431e2fb9988a29b69de5558b928fd4a4671ceed972/python-neutronclient-9.0.0.tar.gz
+[2023-07-06 10:44:05] INFO root fetch - processPackages [merlin-sdk]: Downloading https://files.pythonhosted.org/packages/a6/93/1ec49bc87e9c3783e78f1047b5a8045a37c626115351da0f603c1ae6a894/merlin-sdk-0.9.0.dev0.tar.gz
+[2023-07-06 10:44:05] INFO root fetch - processPackages [python-troveclient]: Remove: archive file [/home/abi/fetcher/tmp/python-troveclient-8.1.0.tar.gz]
+[2023-07-06 10:44:05] INFO root fetch - processPackages [python-troveclient]: Remove: archive file [/home/abi/fetcher/tmp/python-troveclient-8.2.0.tar.gz]
+[2023-07-06 10:44:05] INFO root fetch - processPackages [python-troveclient]: Start processing: sqlmap
+[2023-07-06 10:44:05] INFO root fetch - main [MainThread]: End processing [python-troveclient]: success
+[2023-07-06 10:44:05] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/fa/3b/e5e4ab310ee8675fd90fac6ef3eb3580f369d468c0d2646bd4530a879aa7/certora-cli-alpha-master-20230705.9.16.987799.tar.gz
+[2023-07-06 10:44:05] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 40645366>=10485760
+[2023-07-06 10:44:05] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: neural-data-simulator
+[2023-07-06 10:44:05] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-07-06 10:44:05] INFO root fetch - processPackages [py3seed]: executing diffoscope
+[2023-07-06 10:44:05] INFO root fetch - processPackages [py3seed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3seed-0.0.98.tar.gz tmp/py3seed-0.0.99.tar.gz --markdown 20230706/p/py3seed/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-06 10:44:05] INFO root fetch - processPackages [datawhispers]: Remove: archive file [/home/abi/fetcher/tmp/datawhispers-0.2.8.6.tar.gz]
+[2023-07-06 10:44:05] INFO root fetch - processPackages [datawhispers]: Remove: archive file [/home/abi/fetcher/tmp/datawhispers-0.2.8.7.tar.gz]
+[2023-07-06 10:44:05] INFO root fetch - processPackages [python-neutronclient]: executing diffoscope
+[2023-07-06 10:44:05] INFO root fetch - processPackages [python-neutronclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-neutronclient-8.2.1.tar.gz tmp/python-neutronclient-9.0.0.tar.gz --markdown 20230706/p/python-neutronclient/8.2.1-9.0.0/diff.md --exclude *.pyd
+[2023-07-06 10:44:05] INFO root fetch - main [MainThread]: End processing [datawhispers]: success
+[2023-07-06 10:44:05] INFO root fetch - processPackages [sqlmap]: New version: [1.7.7] Old Version: [1.7.6]
+[2023-07-06 10:44:05] INFO root fetch - processPackages [neural-data-simulator]: New version: [0.2.2] Old Version: [0.2.0]
+[2023-07-06 10:44:05] INFO root fetch - processPackages [sqlmap]: Downloading https://files.pythonhosted.org/packages/3f/29/60553f9e7c48a5d071f69c628b565e0090ae217feb2b9ad22f17a37378c6/sqlmap-1.7.6.tar.gz
+[2023-07-06 10:44:05] INFO root fetch - processPackages [neural-data-simulator]: Downloading https://files.pythonhosted.org/packages/08/37/2b6470d58ed229e784ae4fb5d25525266841e425072563870408bf8a5818/neural_data_simulator-0.2.0.tar.gz
+[2023-07-06 10:44:05] INFO root fetch - processPackages [merlin-sdk]: Downloading https://files.pythonhosted.org/packages/48/3b/5e6b41bed4feb59823f7fa8ccbf076c977df12a20955a3c783fab418f126/merlin-sdk-0.9.1.tar.gz
+[2023-07-06 10:44:05] INFO root fetch - processPackages [alphastats]: Downloading https://files.pythonhosted.org/packages/30/b3/6a1d9aad040aef6f2a10d30741506e468f38cf954c5b19e693cfca7335cc/alphastats-0.6.3.tar.gz
+[2023-07-06 10:44:06] INFO root fetch - processPackages [merlin-sdk]: executing diffoscope
+[2023-07-06 10:44:06] INFO root fetch - processPackages [merlin-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merlin-sdk-0.9.0.dev0.tar.gz tmp/merlin-sdk-0.9.1.tar.gz --markdown 20230706/m/merlin-sdk/0.9.0.dev0-0.9.1/diff.md --exclude *.pyd
+[2023-07-06 10:44:06] INFO root fetch - processPackages [neural-data-simulator]: Downloading https://files.pythonhosted.org/packages/49/67/051f2b2df38d8abd5b0ae7f8c4a2edc3a73d9eb2c08a8262e7180005ae3d/neural_data_simulator-0.2.2.tar.gz
+[2023-07-06 10:44:06] INFO root fetch - processPackages [bihc]: Remove: archive file [/home/abi/fetcher/tmp/bihc-0.0.8.2.tar.gz]
+[2023-07-06 10:44:06] INFO root fetch - processPackages [bihc]: Remove: archive file [/home/abi/fetcher/tmp/bihc-0.0.8.3.tar.gz]
+[2023-07-06 10:44:06] INFO root fetch - main [MainThread]: End processing [bihc]: success
+[2023-07-06 10:44:06] INFO root fetch - processPackages [neural-data-simulator]: executing diffoscope
+[2023-07-06 10:44:06] INFO root fetch - processPackages [neural-data-simulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neural_data_simulator-0.2.0.tar.gz tmp/neural_data_simulator-0.2.2.tar.gz --markdown 20230706/n/neural-data-simulator/0.2.0-0.2.2/diff.md --exclude *.pyd
+[2023-07-06 10:44:06] INFO root fetch - processPackages [sqlmap]: Downloading https://files.pythonhosted.org/packages/12/dd/1b099739d6c4f3f1707407d33c5bdfa2d08166da80fef99d1575888e0ed5/sqlmap-1.7.7.tar.gz
+[2023-07-06 10:44:06] INFO root fetch - processPackages [py3seed]: Remove: archive file [/home/abi/fetcher/tmp/py3seed-0.0.98.tar.gz]
+[2023-07-06 10:44:06] INFO root fetch - processPackages [py3seed]: Remove: archive file [/home/abi/fetcher/tmp/py3seed-0.0.99.tar.gz]
+[2023-07-06 10:44:06] INFO root fetch - main [MainThread]: End processing [py3seed]: success
+[2023-07-06 10:44:06] INFO root fetch - processPackages [alphastats]: executing diffoscope
+[2023-07-06 10:44:06] INFO root fetch - processPackages [alphastats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphastats-0.6.2.tar.gz tmp/alphastats-0.6.3.tar.gz --markdown 20230706/a/alphastats/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-06 10:44:07] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230704-py2.py3-none-any.whl.zip]
+[2023-07-06 10:44:07] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230705-py2.py3-none-any.whl.zip]
+[2023-07-06 10:44:07] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-07-06 10:44:08] INFO root fetch - processPackages [sqlmap]: executing diffoscope
+[2023-07-06 10:44:08] INFO root fetch - processPackages [sqlmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlmap-1.7.6.tar.gz tmp/sqlmap-1.7.7.tar.gz --markdown 20230706/s/sqlmap/1.7.6-1.7.7/diff.md --exclude *.pyd
+[2023-07-06 10:44:08] INFO root fetch - processPackages [neural-data-simulator]: Remove: archive file [/home/abi/fetcher/tmp/neural_data_simulator-0.2.0.tar.gz]
+[2023-07-06 10:44:08] INFO root fetch - processPackages [neural-data-simulator]: Remove: archive file [/home/abi/fetcher/tmp/neural_data_simulator-0.2.2.tar.gz]
+[2023-07-06 10:44:08] INFO root fetch - main [MainThread]: End processing [neural-data-simulator]: success
+[2023-07-06 10:44:08] INFO root fetch - processPackages [merlin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/merlin-sdk-0.9.0.dev0.tar.gz]
+[2023-07-06 10:44:08] INFO root fetch - processPackages [merlin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/merlin-sdk-0.9.1.tar.gz]
+[2023-07-06 10:44:08] INFO root fetch - main [MainThread]: End processing [merlin-sdk]: success
+[2023-07-06 10:44:08] INFO root fetch - processPackages [python-neutronclient]: Remove: archive file [/home/abi/fetcher/tmp/python-neutronclient-8.2.1.tar.gz]
+[2023-07-06 10:44:08] INFO root fetch - processPackages [python-neutronclient]: Remove: archive file [/home/abi/fetcher/tmp/python-neutronclient-9.0.0.tar.gz]
+[2023-07-06 10:44:08] INFO root fetch - main [MainThread]: End processing [python-neutronclient]: success
+[2023-07-06 10:44:08] INFO root fetch - processPackages [alphastats]: Remove: archive file [/home/abi/fetcher/tmp/alphastats-0.6.2.tar.gz]
+[2023-07-06 10:44:08] INFO root fetch - processPackages [alphastats]: Remove: archive file [/home/abi/fetcher/tmp/alphastats-0.6.3.tar.gz]
+[2023-07-06 10:44:08] INFO root fetch - main [MainThread]: End processing [alphastats]: success
+[2023-07-06 10:44:12] INFO root fetch - processPackages [pykechain]: Remove: archive file [/home/abi/fetcher/tmp/pykechain-4.7.0.tar.gz]
+[2023-07-06 10:44:12] INFO root fetch - processPackages [pykechain]: Remove: archive file [/home/abi/fetcher/tmp/pykechain-4.8.1.tar.gz]
+[2023-07-06 10:44:12] INFO root fetch - main [MainThread]: End processing [pykechain]: success
+[2023-07-06 10:44:12] INFO root fetch - processPackages [sqlmap]: Remove: archive file [/home/abi/fetcher/tmp/sqlmap-1.7.6.tar.gz]
+[2023-07-06 10:44:12] INFO root fetch - processPackages [sqlmap]: Remove: archive file [/home/abi/fetcher/tmp/sqlmap-1.7.7.tar.gz]
+[2023-07-06 10:44:12] INFO root fetch - main [MainThread]: End processing [sqlmap]: success
+[2023-07-06 10:44:12] INFO root fetch - main [MainThread]: Store serial: [18780338]
