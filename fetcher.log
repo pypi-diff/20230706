@@ -18231,3 +18231,99 @@ AssertionError: tmp/termkit-0.2.0a4.tar.gz does not exist
 [2023-07-06 11:53:54] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307060949-py3-none-any.whl.zip]
 [2023-07-06 11:53:54] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-07-06 11:53:54] INFO root fetch - main [MainThread]: Store serial: [18781258]
+[2023-07-06 11:58:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18781258]
+[2023-07-06 11:59:03] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-06 11:59:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: weekshot-lottery-winner-selection
+[2023-07-06 11:59:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lusid-notification-sdk-preview
+[2023-07-06 11:59:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cid-cmd
+[2023-07-06 11:59:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: planqk-quantum
+[2023-07-06 11:59:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quao
+[2023-07-06 11:59:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: meteva-base
+[2023-07-06 11:59:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dolphie
+[2023-07-06 11:59:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xfem
+[2023-07-06 11:59:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cybrex
+[2023-07-06 11:59:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sWaraNuvad
+[2023-07-06 11:59:04] INFO root fetch - processPackages [cid-cmd]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-06 11:59:04] INFO root fetch - processPackages [planqk-quantum]: New version: [1.8.3] Old Version: [1.8.2]
+[2023-07-06 11:59:04] INFO root fetch - processPackages [meteva-base]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-06 11:59:04] INFO root fetch - processPackages [cybrex]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-06 11:59:04] INFO root fetch - processPackages [xfem]: New version: [2.1.2302.post1.dev0] Old Version: [2.1.2302]
+[2023-07-06 11:59:04] WARNING root fetch - processPackages [sWaraNuvad]: Skipping, unable to determine old version
+[2023-07-06 11:59:04] INFO root fetch - processPackages [sWaraNuvad]: Start processing: stdatm
+[2023-07-06 11:59:04] INFO root fetch - main [MainThread]: End processing [sWaraNuvad] error
+[2023-07-06 11:59:04] INFO root fetch - processPackages [lusid-notification-sdk-preview]: New version: [0.1.772.4] Old Version: [0.1.772.3]
+[2023-07-06 11:59:04] INFO root fetch - processPackages [quao]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-06 11:59:04] INFO root fetch - processPackages [dolphie]: New version: [2.0.7] Old Version: [2.0.6]
+[2023-07-06 11:59:04] INFO root fetch - processPackages [weekshot-lottery-winner-selection]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-06 11:59:04] INFO root fetch - processPackages [stdatm]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-06 11:59:04] INFO root fetch - processPackages [meteva-base]: Downloading https://files.pythonhosted.org/packages/2a/04/d36f4b83593f5e692caabe8c3e16f0f4eed647a254eebe3c28efe95e54eb/meteva_base-0.1.5-py3-none-any.whl
+[2023-07-06 11:59:04] INFO root fetch - processPackages [planqk-quantum]: Downloading https://files.pythonhosted.org/packages/27/cd/7c7417ae486194a10bad744eb1a1602eeab50810db30e13ce59cca68bf99/planqk-quantum-1.8.2.tar.gz
+[2023-07-06 11:59:04] INFO root fetch - processPackages [dolphie]: Downloading https://files.pythonhosted.org/packages/c3/70/addfaac72ad09047349d3f1b3903a54b5ed957b09b1904a7c8bdd08ef69b/dolphie-2.0.6.tar.gz
+[2023-07-06 11:59:04] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Downloading https://files.pythonhosted.org/packages/5b/5c/c2f37b8311bfac9ac96189acf236c3a14575de7f4c7f234309f45470dd5e/lusid-notification-sdk-preview-0.1.772.3.tar.gz
+[2023-07-06 11:59:04] INFO root fetch - processPackages [cid-cmd]: Downloading https://files.pythonhosted.org/packages/fe/a0/5dd619b961c8d1d90c05d9d9c3ef6c6df786df4198eb728acb3362743acc/cid-cmd-0.2.8.tar.gz
+[2023-07-06 11:59:04] INFO root fetch - processPackages [xfem]: Downloading https://files.pythonhosted.org/packages/65/37/88215c0f586c4cf3525747273f0a1af6d750df620c4ab31a89df6e406e5d/xfem-2.1.2302.tar.gz
+[2023-07-06 11:59:04] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/00/a0/820dd62b9ef8233a40ce1fc9f928bae61cb1a92a54db8058c2910b1219f8/quao-0.2.8.tar.gz
+[2023-07-06 11:59:04] INFO root fetch - processPackages [weekshot-lottery-winner-selection]: Downloading https://files.pythonhosted.org/packages/8a/af/3e85f1ec956d6e683c26480e162726ca0460c1f6cd1918b7d3e0c45cce95/weekshot_lottery_winner_selection-0.1.0.tar.gz
+[2023-07-06 11:59:04] INFO root fetch - processPackages [cybrex]: Downloading https://files.pythonhosted.org/packages/74/66/85ff92176f0828b7b6973af0a904e2036ebcbd5adcfd1bad451a2168558f/cybrex-1.0.3.tar.gz
+[2023-07-06 11:59:04] INFO root fetch - processPackages [stdatm]: Downloading https://files.pythonhosted.org/packages/4a/01/b3049e348f1d553dbc75d03bb5bb76256c18da6bab04cdd55cec68bfe0b4/stdatm-0.3.0.tar.gz
+[2023-07-06 11:59:04] INFO root fetch - processPackages [planqk-quantum]: Downloading https://files.pythonhosted.org/packages/3b/1e/f53fd1e0b18ae8be14b41ad6ef68f7428af579a2e901ddb519f7a31bbbf4/planqk-quantum-1.8.3.tar.gz
+[2023-07-06 11:59:04] INFO root fetch - processPackages [dolphie]: Downloading https://files.pythonhosted.org/packages/0a/b8/766e0cb9f6097ce11646955732d1ff5a20020fceb902b95f82ef35e0690e/dolphie-2.0.7.tar.gz
+[2023-07-06 11:59:04] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Downloading https://files.pythonhosted.org/packages/56/06/63215397f221141ea1732bfe720a67d76c8b95c14057e5ef217547c43e26/lusid-notification-sdk-preview-0.1.772.4.tar.gz
+[2023-07-06 11:59:04] INFO root fetch - processPackages [planqk-quantum]: executing diffoscope
+[2023-07-06 11:59:04] INFO root fetch - processPackages [planqk-quantum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planqk-quantum-1.8.2.tar.gz tmp/planqk-quantum-1.8.3.tar.gz --markdown 20230706/p/planqk-quantum/1.8.2-1.8.3/diff.md --exclude *.pyd
+[2023-07-06 11:59:04] INFO root fetch - processPackages [xfem]: Downloading https://files.pythonhosted.org/packages/60/f9/1d4af21edb2f6aee71aa1cc01169cbfc78adb182c9fcd4c4def0a3553a43/xfem-2.1.2302.post1.dev0-cp39-cp39-macosx_11_0_x86_64.whl
+[2023-07-06 11:59:04] INFO root fetch - processPackages [cid-cmd]: Downloading https://files.pythonhosted.org/packages/32/6d/2a17b0502b559cee495f4e07224f56ff0eb2a35fba5a62fb74eacc0381ec/cid-cmd-0.2.9.tar.gz
+[2023-07-06 11:59:04] INFO root fetch - processPackages [dolphie]: executing diffoscope
+[2023-07-06 11:59:04] INFO root fetch - processPackages [dolphie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dolphie-2.0.6.tar.gz tmp/dolphie-2.0.7.tar.gz --markdown 20230706/d/dolphie/2.0.6-2.0.7/diff.md --exclude *.pyd
+[2023-07-06 11:59:04] INFO root fetch - processPackages [lusid-notification-sdk-preview]: executing diffoscope
+[2023-07-06 11:59:04] INFO root fetch - processPackages [cybrex]: Downloading https://files.pythonhosted.org/packages/98/fa/b36b87ba316320b0517cd00be0e9f722a343a915ea41d05d3593418b01c5/cybrex-1.0.4.tar.gz
+[2023-07-06 11:59:04] INFO root fetch - processPackages [lusid-notification-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notification-sdk-preview-0.1.772.3.tar.gz tmp/lusid-notification-sdk-preview-0.1.772.4.tar.gz --markdown 20230706/l/lusid-notification-sdk-preview/0.1.772.3-0.1.772.4/diff.md --exclude *.pyd
+[2023-07-06 11:59:04] INFO root fetch - processPackages [stdatm]: Downloading https://files.pythonhosted.org/packages/6b/99/dbcc0e910866e9e88b30873fd710c099e2976169f635bf04db561fd9afe7/stdatm-0.3.1.tar.gz
+[2023-07-06 11:59:05] INFO root fetch - processPackages [weekshot-lottery-winner-selection]: Downloading https://files.pythonhosted.org/packages/29/44/ed31650f180bb4749e1914fff78e7d28c233f29671a6e12777e1bc21e8b3/weekshot_lottery_winner_selection-0.1.1.tar.gz
+[2023-07-06 11:59:05] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/71/09/bd8cda58d91a73371f9e83c0e98473af677f6309c58284adcb968c002aa8/quao-0.2.9.tar.gz
+[2023-07-06 11:59:05] INFO root fetch - processPackages [cid-cmd]: executing diffoscope
+[2023-07-06 11:59:05] INFO root fetch - processPackages [cid-cmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cid-cmd-0.2.8.tar.gz tmp/cid-cmd-0.2.9.tar.gz --markdown 20230706/c/cid-cmd/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-06 11:59:05] INFO root fetch - processPackages [stdatm]: executing diffoscope
+[2023-07-06 11:59:05] INFO root fetch - processPackages [stdatm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stdatm-0.3.0.tar.gz tmp/stdatm-0.3.1.tar.gz --markdown 20230706/s/stdatm/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-06 11:59:05] INFO root fetch - processPackages [cybrex]: executing diffoscope
+[2023-07-06 11:59:05] INFO root fetch - processPackages [cybrex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrex-1.0.3.tar.gz tmp/cybrex-1.0.4.tar.gz --markdown 20230706/c/cybrex/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-06 11:59:05] INFO root fetch - processPackages [weekshot-lottery-winner-selection]: executing diffoscope
+[2023-07-06 11:59:05] INFO root fetch - processPackages [weekshot-lottery-winner-selection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weekshot_lottery_winner_selection-0.1.0.tar.gz tmp/weekshot_lottery_winner_selection-0.1.1.tar.gz --markdown 20230706/w/weekshot-lottery-winner-selection/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-06 11:59:05] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-07-06 11:59:05] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.2.8.tar.gz tmp/quao-0.2.9.tar.gz --markdown 20230706/q/quao/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-06 11:59:05] INFO root fetch - processPackages [xfem]: executing diffoscope
+[2023-07-06 11:59:05] INFO root fetch - processPackages [xfem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xfem-2.1.2302.tar.gz tmp/xfem-2.1.2302.post1.dev0-cp39-cp39-macosx_11_0_x86_64.whl.zip --markdown 20230706/x/xfem/2.1.2302-2.1.2302.post1.dev0/diff.md --exclude *.pyd
+[2023-07-06 11:59:05] INFO root fetch - processPackages [meteva-base]: Downloading https://files.pythonhosted.org/packages/98/47/a5c5ac628fa2fa491c466c770477a45d9a8a0597280a9b76a817999dd0b8/meteva_base-0.1.6-py3-none-any.whl
+[2023-07-06 11:59:05] INFO root fetch - processPackages [meteva-base]: executing diffoscope
+[2023-07-06 11:59:05] INFO root fetch - processPackages [meteva-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meteva_base-0.1.5-py3-none-any.whl.zip tmp/meteva_base-0.1.6-py3-none-any.whl.zip --markdown 20230706/m/meteva-base/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-06 11:59:06] INFO root fetch - processPackages [planqk-quantum]: Remove: archive file [/home/abi/fetcher/tmp/planqk-quantum-1.8.2.tar.gz]
+[2023-07-06 11:59:06] INFO root fetch - processPackages [planqk-quantum]: Remove: archive file [/home/abi/fetcher/tmp/planqk-quantum-1.8.3.tar.gz]
+[2023-07-06 11:59:06] INFO root fetch - main [MainThread]: End processing [planqk-quantum]: success
+[2023-07-06 11:59:06] INFO root fetch - processPackages [dolphie]: Remove: archive file [/home/abi/fetcher/tmp/dolphie-2.0.6.tar.gz]
+[2023-07-06 11:59:06] INFO root fetch - processPackages [dolphie]: Remove: archive file [/home/abi/fetcher/tmp/dolphie-2.0.7.tar.gz]
+[2023-07-06 11:59:06] INFO root fetch - main [MainThread]: End processing [dolphie]: success
+[2023-07-06 11:59:06] INFO root fetch - processPackages [cybrex]: Remove: archive file [/home/abi/fetcher/tmp/cybrex-1.0.3.tar.gz]
+[2023-07-06 11:59:06] INFO root fetch - processPackages [cybrex]: Remove: archive file [/home/abi/fetcher/tmp/cybrex-1.0.4.tar.gz]
+[2023-07-06 11:59:06] INFO root fetch - main [MainThread]: End processing [cybrex]: success
+[2023-07-06 11:59:06] INFO root fetch - processPackages [stdatm]: Remove: archive file [/home/abi/fetcher/tmp/stdatm-0.3.0.tar.gz]
+[2023-07-06 11:59:06] INFO root fetch - processPackages [stdatm]: Remove: archive file [/home/abi/fetcher/tmp/stdatm-0.3.1.tar.gz]
+[2023-07-06 11:59:06] INFO root fetch - main [MainThread]: End processing [stdatm]: success
+[2023-07-06 11:59:06] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.2.8.tar.gz]
+[2023-07-06 11:59:06] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.2.9.tar.gz]
+[2023-07-06 11:59:06] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-07-06 11:59:06] INFO root fetch - processPackages [weekshot-lottery-winner-selection]: Remove: archive file [/home/abi/fetcher/tmp/weekshot_lottery_winner_selection-0.1.0.tar.gz]
+[2023-07-06 11:59:06] INFO root fetch - processPackages [weekshot-lottery-winner-selection]: Remove: archive file [/home/abi/fetcher/tmp/weekshot_lottery_winner_selection-0.1.1.tar.gz]
+[2023-07-06 11:59:06] INFO root fetch - main [MainThread]: End processing [weekshot-lottery-winner-selection]: success
+[2023-07-06 11:59:06] INFO root fetch - processPackages [xfem]: Remove: archive file [/home/abi/fetcher/tmp/xfem-2.1.2302.tar.gz]
+[2023-07-06 11:59:06] INFO root fetch - processPackages [xfem]: Remove: archive file [/home/abi/fetcher/tmp/xfem-2.1.2302.post1.dev0-cp39-cp39-macosx_11_0_x86_64.whl.zip]
+[2023-07-06 11:59:06] INFO root fetch - main [MainThread]: End processing [xfem]: success
+[2023-07-06 11:59:07] INFO root fetch - processPackages [cid-cmd]: Remove: archive file [/home/abi/fetcher/tmp/cid-cmd-0.2.8.tar.gz]
+[2023-07-06 11:59:07] INFO root fetch - processPackages [cid-cmd]: Remove: archive file [/home/abi/fetcher/tmp/cid-cmd-0.2.9.tar.gz]
+[2023-07-06 11:59:07] INFO root fetch - main [MainThread]: End processing [cid-cmd]: success
+[2023-07-06 11:59:07] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notification-sdk-preview-0.1.772.3.tar.gz]
+[2023-07-06 11:59:07] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notification-sdk-preview-0.1.772.4.tar.gz]
+[2023-07-06 11:59:07] INFO root fetch - main [MainThread]: End processing [lusid-notification-sdk-preview]: success
+[2023-07-06 11:59:07] INFO root fetch - processPackages [meteva-base]: Remove: archive file [/home/abi/fetcher/tmp/meteva_base-0.1.5-py3-none-any.whl.zip]
+[2023-07-06 11:59:07] INFO root fetch - processPackages [meteva-base]: Remove: archive file [/home/abi/fetcher/tmp/meteva_base-0.1.6-py3-none-any.whl.zip]
+[2023-07-06 11:59:07] INFO root fetch - main [MainThread]: End processing [meteva-base]: success
+[2023-07-06 11:59:07] INFO root fetch - main [MainThread]: Store serial: [18781300]
