@@ -10299,3 +10299,42 @@ AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
 [2023-07-06 05:10:52] INFO root fetch - processPackages [odoo14-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ddmrp-14.0.1.9.1.dev1-py3-none-any.whl.zip]
 [2023-07-06 05:10:52] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ddmrp]: success
 [2023-07-06 05:10:52] INFO root fetch - main [MainThread]: Store serial: [18777816]
+[2023-07-06 05:15:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18777816]
+[2023-07-06 05:16:01] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-06 05:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymycobot
+[2023-07-06 05:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flaskz
+[2023-07-06 05:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-delivery-state
+[2023-07-06 05:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xxx-chat
+[2023-07-06 05:16:01] INFO root fetch - processPackages [xxx-chat]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-06 05:16:01] INFO root fetch - processPackages [odoo-addon-delivery-state]: New version: [16.0.1.1.0.3] Old Version: [16.0.1.1.0.1]
+[2023-07-06 05:16:01] INFO root fetch - processPackages [flaskz]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-07-06 05:16:01] INFO root fetch - processPackages [pymycobot]: New version: [3.1.5] Old Version: [3.1.3]
+[2023-07-06 05:16:01] INFO root fetch - processPackages [xxx-chat]: Downloading https://files.pythonhosted.org/packages/9d/7f/040c5b1a249d388f4de02ef2e7f98789414e8e00592d593159848fa73021/xxx-chat-0.0.2.tar.gz
+[2023-07-06 05:16:02] INFO root fetch - processPackages [odoo-addon-delivery-state]: Downloading https://files.pythonhosted.org/packages/3e/ef/2d63a0642525c8b53f3f984685794edbe29ce4913e439bfceecda12d5d95/odoo_addon_delivery_state-16.0.1.1.0.1-py3-none-any.whl
+[2023-07-06 05:16:02] INFO root fetch - processPackages [flaskz]: Downloading https://files.pythonhosted.org/packages/97/20/9982d7c5f59454ff576ef8459a07f2a2f9745b0bdf359e56244309338a5d/flaskz-1.6.1.tar.gz
+[2023-07-06 05:16:02] INFO root fetch - processPackages [pymycobot]: Downloading https://files.pythonhosted.org/packages/d0/7d/92ccc656287b8ff061dca4a002a4278869a787a82202331efb7f0111ea0f/pymycobot-3.1.3.tar.gz
+[2023-07-06 05:16:02] INFO root fetch - processPackages [xxx-chat]: Downloading https://files.pythonhosted.org/packages/60/0f/f8f3e2ad047a282da56138f7c50484c6442406d6ae9835c55a887bb27c90/xxx-chat-0.0.3.tar.gz
+[2023-07-06 05:16:02] INFO root fetch - processPackages [xxx-chat]: executing diffoscope
+[2023-07-06 05:16:02] INFO root fetch - processPackages [xxx-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xxx-chat-0.0.2.tar.gz tmp/xxx-chat-0.0.3.tar.gz --markdown 20230706/x/xxx-chat/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-06 05:16:02] INFO root fetch - processPackages [odoo-addon-delivery-state]: Downloading https://files.pythonhosted.org/packages/ef/60/5ee2df9369bb13cb3e7dc2fcdc7c26c44f38f819fcaf059041169d0dce5d/odoo_addon_delivery_state-16.0.1.1.0.3-py3-none-any.whl
+[2023-07-06 05:16:02] INFO root fetch - processPackages [flaskz]: Downloading https://files.pythonhosted.org/packages/d5/11/96c908c943034fe2f48436cb551915ca43a9d3a1bf88e17fc0b4eb079422/flaskz-1.6.2.tar.gz
+[2023-07-06 05:16:02] INFO root fetch - processPackages [pymycobot]: Downloading https://files.pythonhosted.org/packages/d8/ba/1a6c5e57a4380cc9fabc842fef38521b8334f6623292f8f3e779af3a2a62/pymycobot-3.1.5.tar.gz
+[2023-07-06 05:16:02] INFO root fetch - processPackages [odoo-addon-delivery-state]: executing diffoscope
+[2023-07-06 05:16:02] INFO root fetch - processPackages [odoo-addon-delivery-state]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_delivery_state-16.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_delivery_state-16.0.1.1.0.3-py3-none-any.whl.zip --markdown 20230706/o/odoo-addon-delivery-state/16.0.1.1.0.1-16.0.1.1.0.3/diff.md --exclude *.pyd
+[2023-07-06 05:16:02] INFO root fetch - processPackages [flaskz]: executing diffoscope
+[2023-07-06 05:16:02] INFO root fetch - processPackages [flaskz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flaskz-1.6.1.tar.gz tmp/flaskz-1.6.2.tar.gz --markdown 20230706/f/flaskz/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2023-07-06 05:16:02] INFO root fetch - processPackages [pymycobot]: executing diffoscope
+[2023-07-06 05:16:02] INFO root fetch - processPackages [pymycobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymycobot-3.1.3.tar.gz tmp/pymycobot-3.1.5.tar.gz --markdown 20230706/p/pymycobot/3.1.3-3.1.5/diff.md --exclude *.pyd
+[2023-07-06 05:16:03] INFO root fetch - processPackages [xxx-chat]: Remove: archive file [/home/abi/fetcher/tmp/xxx-chat-0.0.2.tar.gz]
+[2023-07-06 05:16:03] INFO root fetch - processPackages [xxx-chat]: Remove: archive file [/home/abi/fetcher/tmp/xxx-chat-0.0.3.tar.gz]
+[2023-07-06 05:16:03] INFO root fetch - main [MainThread]: End processing [xxx-chat]: success
+[2023-07-06 05:16:03] INFO root fetch - processPackages [odoo-addon-delivery-state]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_delivery_state-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2023-07-06 05:16:03] INFO root fetch - processPackages [odoo-addon-delivery-state]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_delivery_state-16.0.1.1.0.3-py3-none-any.whl.zip]
+[2023-07-06 05:16:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-delivery-state]: success
+[2023-07-06 05:16:03] INFO root fetch - processPackages [pymycobot]: Remove: archive file [/home/abi/fetcher/tmp/pymycobot-3.1.3.tar.gz]
+[2023-07-06 05:16:03] INFO root fetch - processPackages [pymycobot]: Remove: archive file [/home/abi/fetcher/tmp/pymycobot-3.1.5.tar.gz]
+[2023-07-06 05:16:03] INFO root fetch - main [MainThread]: End processing [pymycobot]: success
+[2023-07-06 05:16:03] INFO root fetch - processPackages [flaskz]: Remove: archive file [/home/abi/fetcher/tmp/flaskz-1.6.1.tar.gz]
+[2023-07-06 05:16:03] INFO root fetch - processPackages [flaskz]: Remove: archive file [/home/abi/fetcher/tmp/flaskz-1.6.2.tar.gz]
+[2023-07-06 05:16:03] INFO root fetch - main [MainThread]: End processing [flaskz]: success
+[2023-07-06 05:16:03] INFO root fetch - main [MainThread]: Store serial: [18777828]
