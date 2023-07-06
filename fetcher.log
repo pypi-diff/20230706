@@ -4881,3 +4881,81 @@ AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
 [2023-07-06 02:45:51] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202307050045.tar.gz]
 [2023-07-06 02:45:51] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2023-07-06 02:45:51] INFO root fetch - main [MainThread]: Store serial: [18775558]
+[2023-07-06 02:51:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18775558]
+[2023-07-06 02:51:08] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-06 02:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-organizations
+[2023-07-06 02:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kade-drive
+[2023-07-06 02:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PrintTestByQinyuanZheng
+[2023-07-06 02:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kubric-nightly
+[2023-07-06 02:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-tree
+[2023-07-06 02:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: A-test-pip
+[2023-07-06 02:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: LWKTest
+[2023-07-06 02:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hynnn
+[2023-07-06 02:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Geode-Common
+[2023-07-06 02:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: OpenGeode-Geosciences
+[2023-07-06 02:51:08] INFO root fetch - processPackages [kade-drive]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-06 02:51:08] INFO root fetch - processPackages [django-tree]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-06 02:51:08] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.7.5] Old Version: [2023.7.4]
+[2023-07-06 02:51:08] WARNING root fetch - processPackages [A-test-pip]: Skipping, unable to determine old version
+[2023-07-06 02:51:08] INFO root fetch - processPackages [A-test-pip]: Start processing: OpenGeode-IO
+[2023-07-06 02:51:08] INFO root fetch - main [MainThread]: End processing [A-test-pip] error
+[2023-07-06 02:51:08] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-06 02:51:08] INFO root fetch - processPackages [kade-drive]: Downloading https://files.pythonhosted.org/packages/50/89/3ba6e70dcd2b32f9c23b104e0f56d3b87e9ae9c78ac605682ea49c166083/kade_drive-0.3.0.tar.gz
+[2023-07-06 02:51:08] WARNING root fetch - processPackages [PrintTestByQinyuanZheng]: Skipping, unable to determine old version
+[2023-07-06 02:51:08] INFO root fetch - main [MainThread]: End processing [PrintTestByQinyuanZheng] error
+[2023-07-06 02:51:08] WARNING root fetch - processPackages [hynnn]: Skipping, unable to determine old version
+[2023-07-06 02:51:08] INFO root fetch - main [MainThread]: End processing [hynnn] error
+[2023-07-06 02:51:08] INFO root fetch - processPackages [django-tree]: Downloading https://files.pythonhosted.org/packages/4e/76/c25e3728920fc503c0e356728e114dbe3d71338c0e4f4ca2f69b61cf020a/django-tree-0.5.0.tar.gz
+[2023-07-06 02:51:08] WARNING root fetch - processPackages [LWKTest]: Skipping, unable to determine old version
+[2023-07-06 02:51:08] INFO root fetch - main [MainThread]: End processing [LWKTest] error
+[2023-07-06 02:51:08] INFO root fetch - processPackages [Geode-Common]: New version: [26.1.2rc3] Old Version: [26.1.2rc2]
+[2023-07-06 02:51:08] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/58/95/533a1f0320b619311904ddee77ebcc0358a650a2cc404a03d1daebf589d2/kubric-nightly-2023.7.4.tar.gz
+[2023-07-06 02:51:08] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-07-06 02:51:09] INFO root fetch - processPackages [OpenGeode-Geosciences]: New version: [7.1.0rc1] Old Version: [7.1.0]
+[2023-07-06 02:51:09] INFO root fetch - processPackages [Geode-Common]: Downloading https://files.pythonhosted.org/packages/75/d9/df9df941539ba59091708184f42cbd2d5383394a20ff26c8cbef1ca82243/Geode_Common-26.1.2rc2-cp39-cp39-win_amd64.whl
+[2023-07-06 02:51:09] INFO root fetch - processPackages [OpenGeode-IO]: New version: [6.0.9rc2] Old Version: [6.0.9rc1]
+[2023-07-06 02:51:09] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/79/f7/bfa354798821c96c6a80fbdd260e80bfc01f69526b53ced85b0b8295f296/kubric-nightly-2023.7.5.tar.gz
+[2023-07-06 02:51:09] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-07-06 02:51:09] INFO root fetch - processPackages [django-tree]: Downloading https://files.pythonhosted.org/packages/32/02/fe77d89fe68180e83a8f0f06e33b8c64bb101520df3a4331cc796aa0a292/django-tree-0.5.1.tar.gz
+[2023-07-06 02:51:09] INFO root fetch - processPackages [kade-drive]: Downloading https://files.pythonhosted.org/packages/29/14/d6360805de8a5785fbfbda8ce24badb3a68586a19bf6a2a30b62973e6ecd/kade_drive-0.4.0.tar.gz
+[2023-07-06 02:51:09] INFO root fetch - processPackages [OpenGeode-Geosciences]: Downloading https://files.pythonhosted.org/packages/b8/40/7d2c16146b6df21d23b5231e39483c93f5cf5bd7f1e646219be099461f6a/OpenGeode_Geosciences-7.1.0-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-06 02:51:09] INFO root fetch - processPackages [OpenGeode-IO]: Downloading https://files.pythonhosted.org/packages/ea/b8/9c551e80a7d8893c3c5938a6c63dfb66e4e59a41a3ec73ede05f42775e92/OpenGeode_IO-6.0.9rc1-cp39-cp39-win_amd64.whl
+[2023-07-06 02:51:09] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-07-06 02:51:09] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230706/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-06 02:51:09] INFO root fetch - processPackages [kade-drive]: executing diffoscope
+[2023-07-06 02:51:09] INFO root fetch - processPackages [kade-drive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kade_drive-0.3.0.tar.gz tmp/kade_drive-0.4.0.tar.gz --markdown 20230706/k/kade-drive/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-06 02:51:09] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-07-06 02:51:09] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.7.4.tar.gz tmp/kubric-nightly-2023.7.5.tar.gz --markdown 20230706/k/kubric-nightly/2023.7.4-2023.7.5/diff.md --exclude *.pyd
+[2023-07-06 02:51:09] INFO root fetch - processPackages [django-tree]: executing diffoscope
+[2023-07-06 02:51:09] INFO root fetch - processPackages [django-tree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-tree-0.5.0.tar.gz tmp/django-tree-0.5.1.tar.gz --markdown 20230706/d/django-tree/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-06 02:51:09] INFO root fetch - processPackages [Geode-Common]: Downloading https://files.pythonhosted.org/packages/d8/6c/bd3026f8beac3e4a2efcbc40049bfe83764b05a61bbabb5eb55958a65e7c/Geode_Common-26.1.2rc3-cp39-cp39-win_amd64.whl
+[2023-07-06 02:51:10] INFO root fetch - processPackages [OpenGeode-IO]: Downloading https://files.pythonhosted.org/packages/c6/1a/1b792fb5ae691186f8e8e532344a4908e3feeb6aacbb8b44e106d6968dc2/OpenGeode_IO-6.0.9rc2-cp39-cp39-win_amd64.whl
+[2023-07-06 02:51:10] INFO root fetch - processPackages [Geode-Common]: executing diffoscope
+[2023-07-06 02:51:10] INFO root fetch - processPackages [Geode-Common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Common-26.1.2rc2-cp39-cp39-win_amd64.whl.zip tmp/Geode_Common-26.1.2rc3-cp39-cp39-win_amd64.whl.zip --markdown 20230706/G/Geode-Common/26.1.2rc2-26.1.2rc3/diff.md --exclude *.pyd
+[2023-07-06 02:51:10] INFO root fetch - processPackages [OpenGeode-Geosciences]: Downloading https://files.pythonhosted.org/packages/3f/d2/e533f754da8fb9ae21eaaa63c5cc4318a98bb426678bc5734fce72fc4a7c/OpenGeode_Geosciences-7.1.0rc1-cp39-cp39-win_amd64.whl
+[2023-07-06 02:51:10] INFO root fetch - processPackages [OpenGeode-IO]: executing diffoscope
+[2023-07-06 02:51:10] INFO root fetch - processPackages [OpenGeode-IO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_IO-6.0.9rc1-cp39-cp39-win_amd64.whl.zip tmp/OpenGeode_IO-6.0.9rc2-cp39-cp39-win_amd64.whl.zip --markdown 20230706/O/OpenGeode-IO/6.0.9rc1-6.0.9rc2/diff.md --exclude *.pyd
+[2023-07-06 02:51:10] INFO root fetch - processPackages [OpenGeode-Geosciences]: executing diffoscope
+[2023-07-06 02:51:10] INFO root fetch - processPackages [OpenGeode-Geosciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_Geosciences-7.1.0-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/OpenGeode_Geosciences-7.1.0rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230706/O/OpenGeode-Geosciences/7.1.0-7.1.0rc1/diff.md --exclude *.pyd
+[2023-07-06 02:51:10] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-07-06 02:51:10] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-07-06 02:51:10] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-07-06 02:51:10] INFO root fetch - processPackages [kade-drive]: Remove: archive file [/home/abi/fetcher/tmp/kade_drive-0.3.0.tar.gz]
+[2023-07-06 02:51:10] INFO root fetch - processPackages [kade-drive]: Remove: archive file [/home/abi/fetcher/tmp/kade_drive-0.4.0.tar.gz]
+[2023-07-06 02:51:10] INFO root fetch - main [MainThread]: End processing [kade-drive]: success
+[2023-07-06 02:51:10] INFO root fetch - processPackages [django-tree]: Remove: archive file [/home/abi/fetcher/tmp/django-tree-0.5.0.tar.gz]
+[2023-07-06 02:51:10] INFO root fetch - processPackages [django-tree]: Remove: archive file [/home/abi/fetcher/tmp/django-tree-0.5.1.tar.gz]
+[2023-07-06 02:51:10] INFO root fetch - main [MainThread]: End processing [django-tree]: success
+[2023-07-06 02:51:10] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.7.4.tar.gz]
+[2023-07-06 02:51:10] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.7.5.tar.gz]
+[2023-07-06 02:51:10] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-07-06 02:51:11] INFO root fetch - processPackages [OpenGeode-Geosciences]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Geosciences-7.1.0-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-06 02:51:11] INFO root fetch - processPackages [OpenGeode-Geosciences]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Geosciences-7.1.0rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-06 02:51:11] INFO root fetch - main [MainThread]: End processing [OpenGeode-Geosciences]: success
+[2023-07-06 02:51:14] INFO root fetch - processPackages [OpenGeode-IO]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_IO-6.0.9rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-06 02:51:14] INFO root fetch - processPackages [OpenGeode-IO]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_IO-6.0.9rc2-cp39-cp39-win_amd64.whl.zip]
+[2023-07-06 02:51:14] INFO root fetch - main [MainThread]: End processing [OpenGeode-IO]: success
+[2023-07-06 02:51:16] INFO root fetch - processPackages [Geode-Common]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Common-26.1.2rc2-cp39-cp39-win_amd64.whl.zip]
+[2023-07-06 02:51:16] INFO root fetch - processPackages [Geode-Common]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Common-26.1.2rc3-cp39-cp39-win_amd64.whl.zip]
+[2023-07-06 02:51:16] INFO root fetch - main [MainThread]: End processing [Geode-Common]: success
+[2023-07-06 02:51:16] INFO root fetch - main [MainThread]: Store serial: [18775601]
