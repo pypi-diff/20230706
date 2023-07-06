@@ -9696,3 +9696,126 @@ AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
 [2023-07-06 04:39:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-cutoff-base]: success
 [2023-07-06 04:39:13] INFO root fetch - main [MainThread]: End processing [hak]: success
 [2023-07-06 04:39:13] INFO root fetch - main [MainThread]: Store serial: [18777585]
+[2023-07-06 04:44:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18777585]
+[2023-07-06 04:44:22] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-06 04:44:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aws-prototyping-sdk.open-api-gateway
+[2023-07-06 04:44:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aws-prototyping-sdk.pdk-nag
+[2023-07-06 04:44:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aws-prototyping-sdk.pipeline
+[2023-07-06 04:44:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llamabot
+[2023-07-06 04:44:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aws-prototyping-sdk.static-website
+[2023-07-06 04:44:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aws-prototyping-sdk.type-safe-api
+[2023-07-06 04:44:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Autils
+[2023-07-06 04:44:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk8s-plus-24
+[2023-07-06 04:44:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mymulti-key-dict
+[2023-07-06 04:44:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: secretflow
+[2023-07-06 04:44:22] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-06 04:44:22] WARNING root fetch - processPackages [mymulti-key-dict]: Skipping, unable to determine old version
+[2023-07-06 04:44:22] INFO root fetch - processPackages [mymulti-key-dict]: Start processing: secretflow-lite
+[2023-07-06 04:44:22] INFO root fetch - main [MainThread]: End processing [mymulti-key-dict] error
+[2023-07-06 04:44:22] INFO root fetch - processPackages [Autils]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-06 04:44:22] INFO root fetch - processPackages [secretflow]: New version: [1.0.0b2] Old Version: [1.0.0b1]
+[2023-07-06 04:44:22] INFO root fetch - processPackages [llamabot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 04:44:22] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: New version: [0.19.9] Old Version: [0.19.8]
+[2023-07-06 04:44:22] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-06 04:44:22] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-06 04:44:22] INFO root fetch - processPackages [secretflow-lite]: New version: [1.0.0b2] Old Version: [1.0.0b1]
+[2023-07-06 04:44:22] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-06 04:44:22] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-07-06 04:44:22] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/31/05/7d4721877f2dde80d5bd40c84773d24b5486a794e78758d5c6c51a0e0ee0/llamabot-0.0.8.tar.gz
+[2023-07-06 04:44:22] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Downloading https://files.pythonhosted.org/packages/9b/a8/fb239c1d2008fa7b1297ad1672aa3e98e9a9063bff2eaa6cdcd842a88a9b/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz
+[2023-07-06 04:44:22] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/73/d5/49a8dc44e72e5db18c0f19520eb82a0010e697d0f43ab159152c33791aa7/cdk8s-plus-24-2.8.8.tar.gz
+[2023-07-06 04:44:22] INFO root fetch - processPackages [secretflow]: Downloading https://files.pythonhosted.org/packages/82/ae/136e4eba6c5592477b66ffd72fd9b666671c6145c1e5ff4582bb0b4f16e9/secretflow-1.0.0b1-cp38-cp38-manylinux2014_x86_64.whl
+[2023-07-06 04:44:22] INFO root fetch - processPackages [Autils]: Downloading https://files.pythonhosted.org/packages/69/75/d04618b92cd0e251ebd1194e60a88097249dbc9a4cbd2ef44fc9d528aebd/Autils-0.4.0.tar.gz
+[2023-07-06 04:44:22] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Downloading https://files.pythonhosted.org/packages/ce/60/72043fc0e30f8705240241169b3b70906aceae84a2a19822234ae4fa038d/aws_prototyping_sdk.type_safe_api-0.19.8.tar.gz
+[2023-07-06 04:44:22] INFO root fetch - processPackages [secretflow-lite]: Downloading https://files.pythonhosted.org/packages/55/b4/ecf1ffdd295ba9ee123f7bd7235b23e80e0ed95c2fde4f85cc177e1d1d9f/secretflow_lite-1.0.0b1-cp38-cp38-manylinux2014_x86_64.whl
+[2023-07-06 04:44:23] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Downloading https://files.pythonhosted.org/packages/42/08/74d21c65ab1d20b6b0ffa70724b1674c9dfb7fb5928c75be8facb32049a8/aws_prototyping_sdk.pipeline-0.9.3.tar.gz
+[2023-07-06 04:44:23] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Downloading https://files.pythonhosted.org/packages/33/2f/60587f31d52e48c949b1da26eb9e70f7d2091bc14ce396730cba7ee0991f/aws_prototyping_sdk.static_website-0.9.3.tar.gz
+[2023-07-06 04:44:23] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Downloading https://files.pythonhosted.org/packages/a6/45/ddfefdff429d9a4baf37e564fdd0a983f5ea8166d0e2334b90c0b418756a/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz
+[2023-07-06 04:44:23] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/8c/77/360013b912689bcadc9699ffbfd0c59717ab5c032c425ce8f661e39484f5/llamabot-0.0.9.tar.gz
+[2023-07-06 04:44:23] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/a4/eb/7fc3f17d6eb6750041a6b336906ad566e6b538954d0cd6fe7880f54bf206/cdk8s-plus-24-2.8.9.tar.gz
+[2023-07-06 04:44:23] INFO root fetch - processPackages [llamabot]: executing diffoscope
+[2023-07-06 04:44:23] INFO root fetch - processPackages [llamabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamabot-0.0.8.tar.gz tmp/llamabot-0.0.9.tar.gz --markdown 20230706/l/llamabot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 04:44:23] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Downloading https://files.pythonhosted.org/packages/12/71/4f7e5e98d46a0838bcfdff9092c0d810bc7a9d8a2026f6359027e18bd571/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz
+[2023-07-06 04:44:23] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Downloading https://files.pythonhosted.org/packages/f4/27/5047b871b36882879776010666de606ac6b0119b47d0cac24792b8cc5991/aws_prototyping_sdk.type_safe_api-0.19.9.tar.gz
+[2023-07-06 04:44:23] INFO root fetch - processPackages [Autils]: Downloading https://files.pythonhosted.org/packages/d8/e6/9f877360bbe28f18f1c97d5d22ea88625d47ceb64102df5595c512195791/Autils-0.4.1.tar.gz
+[2023-07-06 04:44:23] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: executing diffoscope
+[2023-07-06 04:44:23] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.type_safe_api-0.19.8.tar.gz tmp/aws_prototyping_sdk.type_safe_api-0.19.9.tar.gz --markdown 20230706/a/aws-prototyping-sdk.type-safe-api/0.19.8-0.19.9/diff.md --exclude *.pyd
+[2023-07-06 04:44:23] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Downloading https://files.pythonhosted.org/packages/e5/0f/641eb55e81a3b33a7465ceab3037ff68668a4f9bba07d31995a7c7bd15b2/aws_prototyping_sdk.static_website-0.9.4.tar.gz
+[2023-07-06 04:44:23] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Downloading https://files.pythonhosted.org/packages/50/a5/38b1bbe94b587fb0e87caef969a05ba18b295e505292f0ba228b136ae731/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz
+[2023-07-06 04:44:23] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Downloading https://files.pythonhosted.org/packages/3b/25/07bfef78766c8655b384c468aeb5f171d537aafabe48a0af1fd12c7301df/aws_prototyping_sdk.pipeline-0.9.4.tar.gz
+[2023-07-06 04:44:23] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: executing diffoscope
+[2023-07-06 04:44:23] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz tmp/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz --markdown 20230706/a/aws-prototyping-sdk.pdk-nag/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-06 04:44:23] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-07-06 04:44:23] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.8.8.tar.gz tmp/cdk8s-plus-24-2.8.9.tar.gz --markdown 20230706/c/cdk8s-plus-24/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-07-06 04:44:23] INFO root fetch - processPackages [secretflow-lite]: Downloading https://files.pythonhosted.org/packages/f6/04/eacb1e8935d41cb7ce4e4b388d56bb576ce5a46a88fa4943b7d03e26884b/secretflow_lite-1.0.0b2-cp38-cp38-macosx_11_0_arm64.whl
+[2023-07-06 04:44:23] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: executing diffoscope
+[2023-07-06 04:44:23] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.static_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.static_website-0.9.4.tar.gz --markdown 20230706/a/aws-prototyping-sdk.static-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-06 04:44:23] INFO root fetch - processPackages [secretflow]: Downloading https://files.pythonhosted.org/packages/e3/8f/ae3f1c4b23c7abd131788874846d7d77360f997110518e14bb0d27b62fe6/secretflow-1.0.0b2-cp38-cp38-macosx_11_0_arm64.whl
+[2023-07-06 04:44:23] INFO root fetch - processPackages [Autils]: executing diffoscope
+[2023-07-06 04:44:23] INFO root fetch - processPackages [Autils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Autils-0.4.0.tar.gz tmp/Autils-0.4.1.tar.gz --markdown 20230706/A/Autils/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-06 04:44:23] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: executing diffoscope
+[2023-07-06 04:44:23] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz tmp/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz --markdown 20230706/a/aws-prototyping-sdk.open-api-gateway/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-06 04:44:23] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: executing diffoscope
+[2023-07-06 04:44:23] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pipeline-0.9.3.tar.gz tmp/aws_prototyping_sdk.pipeline-0.9.4.tar.gz --markdown 20230706/a/aws-prototyping-sdk.pipeline/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-06 04:44:24] INFO root fetch - processPackages [secretflow-lite]: executing diffoscope
+[2023-07-06 04:44:24] INFO root fetch - processPackages [secretflow-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretflow_lite-1.0.0b1-cp38-cp38-manylinux2014_x86_64.whl.zip tmp/secretflow_lite-1.0.0b2-cp38-cp38-macosx_11_0_arm64.whl.zip --markdown 20230706/s/secretflow-lite/1.0.0b1-1.0.0b2/diff.md --exclude *.pyd
+[2023-07-06 04:44:24] INFO root fetch - processPackages [secretflow]: executing diffoscope
+[2023-07-06 04:44:24] INFO root fetch - processPackages [secretflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretflow-1.0.0b1-cp38-cp38-manylinux2014_x86_64.whl.zip tmp/secretflow-1.0.0b2-cp38-cp38-macosx_11_0_arm64.whl.zip --markdown 20230706/s/secretflow/1.0.0b1-1.0.0b2/diff.md --exclude *.pyd
+[2023-07-06 04:44:24] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.0.8.tar.gz]
+[2023-07-06 04:44:24] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.0.9.tar.gz]
+[2023-07-06 04:44:24] INFO root fetch - processPackages [llamabot]: Start processing: hak
+[2023-07-06 04:44:24] INFO root fetch - main [MainThread]: End processing [llamabot]: success
+[2023-07-06 04:44:24] INFO root fetch - processPackages [hak]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 04:44:24] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/05/17/ad5ef91170b7c0e991a9c8bffa9f9a2dcf3961d5e90c31185bdf3ce8f425/hak-0.0.8.tar.gz
+[2023-07-06 04:44:24] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/fd/2b/bf7b3451d5e3a84e9a674b47e9f046c4db1f582764a85a4dfc00e14ecf00/hak-0.0.9.tar.gz
+[2023-07-06 04:44:25] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz]
+[2023-07-06 04:44:25] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz]
+[2023-07-06 04:44:25] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Start processing: mpqcv
+[2023-07-06 04:44:25] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pdk-nag]: success
+[2023-07-06 04:44:25] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-07-06 04:44:25] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.8.tar.gz tmp/hak-0.0.9.tar.gz --markdown 20230706/h/hak/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 04:44:25] INFO root fetch - processPackages [mpqcv]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 04:44:25] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.type_safe_api-0.19.8.tar.gz]
+[2023-07-06 04:44:25] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.type_safe_api-0.19.9.tar.gz]
+[2023-07-06 04:44:25] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Start processing: cdk8s-plus-26
+[2023-07-06 04:44:25] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.type-safe-api]: success
+[2023-07-06 04:44:25] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-07-06 04:44:25] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.static_website-0.9.3.tar.gz]
+[2023-07-06 04:44:25] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.static_website-0.9.4.tar.gz]
+[2023-07-06 04:44:25] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.static-website]: success
+[2023-07-06 04:44:25] INFO root fetch - processPackages [mpqcv]: Downloading https://files.pythonhosted.org/packages/cc/25/8e4039c5a41b03d4b5008ba696b49e2978adc10a917d4404ebbceaf3d14c/mpqcv-0.0.8.tar.gz
+[2023-07-06 04:44:25] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/6b/c4/ca78f2534fcd6fa938f5b5afdce2bc5d4b2e4aca2bd70a7a76993d55cb1a/cdk8s-plus-26-2.4.8.tar.gz
+[2023-07-06 04:44:25] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.pipeline-0.9.3.tar.gz]
+[2023-07-06 04:44:25] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.pipeline-0.9.4.tar.gz]
+[2023-07-06 04:44:25] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pipeline]: success
+[2023-07-06 04:44:25] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.8.tar.gz]
+[2023-07-06 04:44:25] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.9.tar.gz]
+[2023-07-06 04:44:25] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-07-06 04:44:25] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz]
+[2023-07-06 04:44:25] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz]
+[2023-07-06 04:44:25] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.open-api-gateway]: success
+[2023-07-06 04:44:25] INFO root fetch - processPackages [Autils]: Remove: archive file [/home/abi/fetcher/tmp/Autils-0.4.0.tar.gz]
+[2023-07-06 04:44:25] INFO root fetch - processPackages [Autils]: Remove: archive file [/home/abi/fetcher/tmp/Autils-0.4.1.tar.gz]
+[2023-07-06 04:44:25] INFO root fetch - main [MainThread]: End processing [Autils]: success
+[2023-07-06 04:44:25] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/20/3d/a3b8eeb4f101c4c0e5eec995ea1c102412a861b81c18eee0d10bad4570fb/cdk8s-plus-26-2.4.9.tar.gz
+[2023-07-06 04:44:25] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-07-06 04:44:25] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.8.tar.gz tmp/cdk8s-plus-26-2.4.9.tar.gz --markdown 20230706/c/cdk8s-plus-26/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-07-06 04:44:25] INFO root fetch - processPackages [mpqcv]: Downloading https://files.pythonhosted.org/packages/38/4f/f9ec1c5dea651268e7ffd3acfd8dc8f8617f68cf1b2b1cea9e7bb8a12019/mpqcv-0.0.9.tar.gz
+[2023-07-06 04:44:26] INFO root fetch - processPackages [mpqcv]: executing diffoscope
+[2023-07-06 04:44:26] INFO root fetch - processPackages [mpqcv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpqcv-0.0.8.tar.gz tmp/mpqcv-0.0.9.tar.gz --markdown 20230706/m/mpqcv/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 04:44:26] INFO root fetch - processPackages [mpqcv]: Remove: archive file [/home/abi/fetcher/tmp/mpqcv-0.0.8.tar.gz]
+[2023-07-06 04:44:26] INFO root fetch - processPackages [mpqcv]: Remove: archive file [/home/abi/fetcher/tmp/mpqcv-0.0.9.tar.gz]
+[2023-07-06 04:44:26] INFO root fetch - main [MainThread]: End processing [mpqcv]: success
+[2023-07-06 04:44:26] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.8.tar.gz]
+[2023-07-06 04:44:26] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
+[2023-07-06 04:44:26] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-07-06 04:44:27] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.8.tar.gz]
+[2023-07-06 04:44:27] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.9.tar.gz]
+[2023-07-06 04:44:27] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-07-06 04:44:27] INFO root fetch - processPackages [secretflow-lite]: Remove: archive file [/home/abi/fetcher/tmp/secretflow_lite-1.0.0b1-cp38-cp38-manylinux2014_x86_64.whl.zip]
+[2023-07-06 04:44:27] INFO root fetch - processPackages [secretflow-lite]: Remove: archive file [/home/abi/fetcher/tmp/secretflow_lite-1.0.0b2-cp38-cp38-macosx_11_0_arm64.whl.zip]
+[2023-07-06 04:44:27] INFO root fetch - main [MainThread]: End processing [secretflow-lite]: success
+[2023-07-06 04:44:27] INFO root fetch - processPackages [secretflow]: Remove: archive file [/home/abi/fetcher/tmp/secretflow-1.0.0b1-cp38-cp38-manylinux2014_x86_64.whl.zip]
+[2023-07-06 04:44:27] INFO root fetch - processPackages [secretflow]: Remove: archive file [/home/abi/fetcher/tmp/secretflow-1.0.0b2-cp38-cp38-macosx_11_0_arm64.whl.zip]
+[2023-07-06 04:44:27] INFO root fetch - main [MainThread]: End processing [secretflow]: success
+[2023-07-06 04:44:27] INFO root fetch - main [MainThread]: Store serial: [18777630]
