@@ -21788,3 +21788,101 @@ AssertionError: tmp/termkit-0.2.0a4.tar.gz does not exist
 [2023-07-06 13:26:00] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
 [2023-07-06 13:26:00] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
 [2023-07-06 13:26:00] INFO root fetch - main [MainThread]: Store serial: [18782513]
+[2023-07-06 13:31:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18782513]
+[2023-07-06 13:31:09] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-06 13:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchrl-nightly
+[2023-07-06 13:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pruna-engine
+[2023-07-06 13:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastkafka
+[2023-07-06 13:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SBOannotator
+[2023-07-06 13:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: freem-bots
+[2023-07-06 13:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SELDOMpy
+[2023-07-06 13:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torchserve-nightly
+[2023-07-06 13:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torch-model-archiver-nightly
+[2023-07-06 13:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torch-workflow-archiver-nightly
+[2023-07-06 13:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mm-sdk
+[2023-07-06 13:31:09] INFO root fetch - processPackages [SELDOMpy]: New version: [0.8.4.7] Old Version: [0.8.4.6]
+[2023-07-06 13:31:09] INFO root fetch - processPackages [fastkafka]: New version: [0.8.0rc1] Old Version: [0.8.0rc0]
+[2023-07-06 13:31:09] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.7.5] Old Version: [2023.7.4]
+[2023-07-06 13:31:09] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.7.5] Old Version: [2023.7.4]
+[2023-07-06 13:31:09] INFO root fetch - processPackages [freem-bots]: New version: [0.9.2] Old Version: [0.9.0]
+[2023-07-06 13:31:09] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.7.5] Old Version: [2023.7.4]
+[2023-07-06 13:31:09] INFO root fetch - processPackages [mm-sdk]: New version: [0.1.3] Old Version: [0.1.286]
+[2023-07-06 13:31:09] INFO root fetch - processPackages [SBOannotator]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-07-06 13:31:09] INFO root fetch - processPackages [pruna-engine]: New version: [0.1.1] Old Version: [0.1]
+[2023-07-06 13:31:09] INFO root fetch - processPackages [torchrl-nightly]: New version: [2023.7.6] Old Version: [2023.7.5]
+[2023-07-06 13:31:09] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/6d/d3/beef0a0333b8de07f567e5bb590e4e55f47226a03863bdc65e95f9fbd59e/SELDOMpy-0.8.4.6.tar.gz
+[2023-07-06 13:31:09] INFO root fetch - processPackages [fastkafka]: Downloading https://files.pythonhosted.org/packages/d9/93/5d4ef695c60bd1dd27fdb56d0f5e81db1ebd55ab67399ed76acc2bd7ff23/fastkafka-0.8.0rc0.tar.gz
+[2023-07-06 13:31:09] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/86/75/0a475046b6dc746ffbda3fb8a8e66f41b3a7ad403d6e15f3a5fc3cb658d4/torch_model_archiver_nightly-2023.7.4-py3-none-any.whl
+[2023-07-06 13:31:09] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/23/82/9dd6e66c894aacbe0249843e9845aba9cc33a22dbaa0542988e09a5b5c3a/torch_workflow_archiver_nightly-2023.7.4-py3-none-any.whl
+[2023-07-06 13:31:09] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/aa/b2/a765ce062877d5f476102d74bbc8d4f99b4551d6444f5409564540264a57/torchserve_nightly-2023.7.4-py3-none-any.whl
+[2023-07-06 13:31:09] INFO root fetch - processPackages [mm-sdk]: Downloading https://files.pythonhosted.org/packages/f5/a5/0febb48db29df189563d10f95ec96fd27d4647596d594e5ad9a3e7d04c6c/mm_sdk-0.1.286.tar.gz
+[2023-07-06 13:31:10] INFO root fetch - processPackages [SBOannotator]: Downloading https://files.pythonhosted.org/packages/e6/1a/470294fe8ea527f32b1f974e06d75d56faf976328034d6329aaf9ce84bc0/SBOannotator-2.1.1.tar.gz
+[2023-07-06 13:31:10] INFO root fetch - processPackages [pruna-engine]: Downloading https://files.pythonhosted.org/packages/00/30/0a7ff685d1d533eda64e52b6772605ba0400f23f1ae1824e2e36b882d759/pruna_engine-0.1-py3-none-any.whl
+[2023-07-06 13:31:10] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23750124>=10485760
+[2023-07-06 13:31:10] INFO root fetch - processPackages [torchserve-nightly]: Start processing: example-package-eladpt
+[2023-07-06 13:31:10] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-07-06 13:31:10] INFO root fetch - processPackages [freem-bots]: Downloading https://files.pythonhosted.org/packages/b2/38/009a24c42db583ed5a6553e089b93746e0e840632967b7a7736101da425f/freem_bots-0.9.0-py3-none-any.whl
+[2023-07-06 13:31:10] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/99/e0/001cacf7ee62a07f072fd66c8378c067d5b11692e9d695eb9065fa0a3fa9/torchrl_nightly-2023.7.5-cp39-cp39-win_amd64.whl
+[2023-07-06 13:31:10] INFO root fetch - processPackages [fastkafka]: Downloading https://files.pythonhosted.org/packages/8e/90/dfc89b6142cd5da5216da99fc83263fbef6cbc080f92a1bb89bd6987be3c/fastkafka-0.8.0rc1.tar.gz
+[2023-07-06 13:31:10] INFO root fetch - processPackages [example-package-eladpt]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-06 13:31:10] INFO root fetch - processPackages [example-package-eladpt]: Downloading https://files.pythonhosted.org/packages/75/5d/85747efe0122dba428a42a7975ca7e0c797024ce4a38ca3eeb55c890856b/example_package_eladpt-0.0.6.tar.gz
+[2023-07-06 13:31:10] INFO root fetch - processPackages [fastkafka]: executing diffoscope
+[2023-07-06 13:31:10] INFO root fetch - processPackages [fastkafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastkafka-0.8.0rc0.tar.gz tmp/fastkafka-0.8.0rc1.tar.gz --markdown 20230706/f/fastkafka/0.8.0rc0-0.8.0rc1/diff.md --exclude *.pyd
+[2023-07-06 13:31:10] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/12/4a/79761168c93b3f95976933b8808d0b8865c111b400fac62ce8fd25ecd593/torch_model_archiver_nightly-2023.7.5-py3-none-any.whl
+[2023-07-06 13:31:10] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/4b/de/282b6d4664cd16f7d9467f28fa63d7be9f481796194589473185a2e3026a/SELDOMpy-0.8.4.7.tar.gz
+[2023-07-06 13:31:10] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/9e/8b/c6af7eef353107bd2847739f0ec9d3b40d2df3c16d91bb0e06fe1abdee39/torch_workflow_archiver_nightly-2023.7.5-py3-none-any.whl
+[2023-07-06 13:31:10] INFO root fetch - processPackages [mm-sdk]: Downloading https://files.pythonhosted.org/packages/03/aa/d8c272285a7704066ac4561b833b5144e76c812479a75a91e1eff3bc24af/mm-sdk-0.1.3.tar.gz
+[2023-07-06 13:31:10] INFO root fetch - processPackages [pruna-engine]: Downloading https://files.pythonhosted.org/packages/4d/3d/0c98d9307122e3fff54c003e84a2a6936619fa1bb50380a4b54122285f1c/pruna_engine-0.1.1-py3-none-any.whl
+[2023-07-06 13:31:10] INFO root fetch - processPackages [SBOannotator]: Downloading https://files.pythonhosted.org/packages/0c/66/e052dcd65bf592ef0d0bbf9eb7ab81b5de4224f69e67a5feaf5e42cc0905/SBOannotator-2.1.2.tar.gz
+[2023-07-06 13:31:10] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-07-06 13:31:10] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.7.4-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.7.5-py3-none-any.whl.zip --markdown 20230706/t/torch-model-archiver-nightly/2023.7.4-2023.7.5/diff.md --exclude *.pyd
+[2023-07-06 13:31:10] INFO root fetch - processPackages [freem-bots]: Downloading https://files.pythonhosted.org/packages/1f/88/20d99d46ca26609925f37ae7830fc6d27121db0033a66ec259f3e371542d/freem_bots-0.9.2-py3-none-any.whl
+[2023-07-06 13:31:10] INFO root fetch - processPackages [SELDOMpy]: executing diffoscope
+[2023-07-06 13:31:10] INFO root fetch - processPackages [SELDOMpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SELDOMpy-0.8.4.6.tar.gz tmp/SELDOMpy-0.8.4.7.tar.gz --markdown 20230706/S/SELDOMpy/0.8.4.6-0.8.4.7/diff.md --exclude *.pyd
+[2023-07-06 13:31:10] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/f7/b5/656ec580d5c0ce490584f2daf8c89c9bc1639d9b2993d83e348702ee1a50/torchrl_nightly-2023.7.6-cp39-cp39-manylinux1_x86_64.whl
+[2023-07-06 13:31:10] INFO root fetch - processPackages [example-package-eladpt]: Downloading https://files.pythonhosted.org/packages/24/c3/6bfaddbc67360c64eaf00ec62747b55293efdeec08be5b34db53eaa95169/example_package_eladpt-0.0.7.tar.gz
+[2023-07-06 13:31:10] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-07-06 13:31:10] INFO root fetch - processPackages [mm-sdk]: executing diffoscope
+[2023-07-06 13:31:10] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.7.4-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.7.5-py3-none-any.whl.zip --markdown 20230706/t/torch-workflow-archiver-nightly/2023.7.4-2023.7.5/diff.md --exclude *.pyd
+[2023-07-06 13:31:10] INFO root fetch - processPackages [mm-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mm_sdk-0.1.286.tar.gz tmp/mm-sdk-0.1.3.tar.gz --markdown 20230706/m/mm-sdk/0.1.286-0.1.3/diff.md --exclude *.pyd
+[2023-07-06 13:31:10] INFO root fetch - processPackages [pruna-engine]: executing diffoscope
+[2023-07-06 13:31:10] INFO root fetch - processPackages [pruna-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pruna_engine-0.1-py3-none-any.whl.zip tmp/pruna_engine-0.1.1-py3-none-any.whl.zip --markdown 20230706/p/pruna-engine/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-07-06 13:31:10] INFO root fetch - processPackages [SBOannotator]: executing diffoscope
+[2023-07-06 13:31:10] INFO root fetch - processPackages [SBOannotator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SBOannotator-2.1.1.tar.gz tmp/SBOannotator-2.1.2.tar.gz --markdown 20230706/S/SBOannotator/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-07-06 13:31:10] INFO root fetch - processPackages [freem-bots]: executing diffoscope
+[2023-07-06 13:31:10] INFO root fetch - processPackages [freem-bots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freem_bots-0.9.0-py3-none-any.whl.zip tmp/freem_bots-0.9.2-py3-none-any.whl.zip --markdown 20230706/f/freem-bots/0.9.0-0.9.2/diff.md --exclude *.pyd
+[2023-07-06 13:31:10] INFO root fetch - processPackages [example-package-eladpt]: executing diffoscope
+[2023-07-06 13:31:10] INFO root fetch - processPackages [example-package-eladpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/example_package_eladpt-0.0.6.tar.gz tmp/example_package_eladpt-0.0.7.tar.gz --markdown 20230706/e/example-package-eladpt/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-06 13:31:11] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2023-07-06 13:31:11] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2023.7.5-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2023.7.6-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20230706/t/torchrl-nightly/2023.7.5-2023.7.6/diff.md --exclude *.pyd
+[2023-07-06 13:31:12] INFO root fetch - processPackages [fastkafka]: Remove: archive file [/home/abi/fetcher/tmp/fastkafka-0.8.0rc0.tar.gz]
+[2023-07-06 13:31:12] INFO root fetch - processPackages [fastkafka]: Remove: archive file [/home/abi/fetcher/tmp/fastkafka-0.8.0rc1.tar.gz]
+[2023-07-06 13:31:12] INFO root fetch - main [MainThread]: End processing [fastkafka]: success
+[2023-07-06 13:31:12] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.7.4-py3-none-any.whl.zip]
+[2023-07-06 13:31:12] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.7.5-py3-none-any.whl.zip]
+[2023-07-06 13:31:12] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-07-06 13:31:12] INFO root fetch - processPackages [freem-bots]: Remove: archive file [/home/abi/fetcher/tmp/freem_bots-0.9.0-py3-none-any.whl.zip]
+[2023-07-06 13:31:12] INFO root fetch - processPackages [freem-bots]: Remove: archive file [/home/abi/fetcher/tmp/freem_bots-0.9.2-py3-none-any.whl.zip]
+[2023-07-06 13:31:12] INFO root fetch - main [MainThread]: End processing [freem-bots]: success
+[2023-07-06 13:31:12] INFO root fetch - processPackages [example-package-eladpt]: Remove: archive file [/home/abi/fetcher/tmp/example_package_eladpt-0.0.6.tar.gz]
+[2023-07-06 13:31:12] INFO root fetch - processPackages [example-package-eladpt]: Remove: archive file [/home/abi/fetcher/tmp/example_package_eladpt-0.0.7.tar.gz]
+[2023-07-06 13:31:12] INFO root fetch - main [MainThread]: End processing [example-package-eladpt]: success
+[2023-07-06 13:31:12] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.7.4-py3-none-any.whl.zip]
+[2023-07-06 13:31:12] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.7.5-py3-none-any.whl.zip]
+[2023-07-06 13:31:12] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-07-06 13:31:12] INFO root fetch - processPackages [mm-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mm_sdk-0.1.286.tar.gz]
+[2023-07-06 13:31:12] INFO root fetch - processPackages [mm-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mm-sdk-0.1.3.tar.gz]
+[2023-07-06 13:31:12] INFO root fetch - main [MainThread]: End processing [mm-sdk]: success
+[2023-07-06 13:31:12] INFO root fetch - processPackages [SBOannotator]: Remove: archive file [/home/abi/fetcher/tmp/SBOannotator-2.1.1.tar.gz]
+[2023-07-06 13:31:12] INFO root fetch - processPackages [SBOannotator]: Remove: archive file [/home/abi/fetcher/tmp/SBOannotator-2.1.2.tar.gz]
+[2023-07-06 13:31:12] INFO root fetch - main [MainThread]: End processing [SBOannotator]: success
+[2023-07-06 13:31:12] INFO root fetch - processPackages [pruna-engine]: Remove: archive file [/home/abi/fetcher/tmp/pruna_engine-0.1-py3-none-any.whl.zip]
+[2023-07-06 13:31:12] INFO root fetch - processPackages [pruna-engine]: Remove: archive file [/home/abi/fetcher/tmp/pruna_engine-0.1.1-py3-none-any.whl.zip]
+[2023-07-06 13:31:12] INFO root fetch - main [MainThread]: End processing [pruna-engine]: success
+[2023-07-06 13:31:13] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.8.4.6.tar.gz]
+[2023-07-06 13:31:13] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.8.4.7.tar.gz]
+[2023-07-06 13:31:13] INFO root fetch - main [MainThread]: End processing [SELDOMpy]: success
+[2023-07-06 13:31:14] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.5-cp39-cp39-win_amd64.whl.zip]
+[2023-07-06 13:31:14] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.6-cp39-cp39-manylinux1_x86_64.whl.zip]
+[2023-07-06 13:31:14] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2023-07-06 13:31:14] INFO root fetch - main [MainThread]: Store serial: [18782542]
