@@ -9161,3 +9161,87 @@ AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
 [2023-07-06 04:07:24] INFO root fetch - processPackages [envd]: Remove: archive file [/home/abi/fetcher/tmp/envd-0.3.9.tar.gz]
 [2023-07-06 04:07:24] INFO root fetch - main [MainThread]: End processing [envd]: success
 [2023-07-06 04:07:24] INFO root fetch - main [MainThread]: Store serial: [18777278]
+[2023-07-06 04:12:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18777278]
+[2023-07-06 04:12:47] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-06 04:12:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiokeydb
+[2023-07-06 04:12:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: blastpipe
+[2023-07-06 04:12:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycrawlers
+[2023-07-06 04:12:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kasa-crypt
+[2023-07-06 04:12:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shared-atomic-enterprise
+[2023-07-06 04:12:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hyko-sdk
+[2023-07-06 04:12:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: egorovsystem
+[2023-07-06 04:12:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xepor
+[2023-07-06 04:12:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ai2-kit
+[2023-07-06 04:12:47] INFO root fetch - processPackages [egorovsystem]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-07-06 04:12:47] INFO root fetch - processPackages [pycrawlers]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-06 04:12:47] INFO root fetch - processPackages [blastpipe]: New version: [0.4.26] Old Version: [0.4.24]
+[2023-07-06 04:12:47] INFO root fetch - processPackages [xepor]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-06 04:12:47] INFO root fetch - processPackages [ai2-kit]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-06 04:12:47] INFO root fetch - processPackages [hyko-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-06 04:12:47] INFO root fetch - processPackages [kasa-crypt]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-06 04:12:47] INFO root fetch - processPackages [shared-atomic-enterprise]: New version: [5!2.3.6] Old Version: [5!2.3.5]
+[2023-07-06 04:12:47] INFO root fetch - processPackages [aiokeydb]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-06 04:12:47] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/f8/1b/02137db3d93571c0867cacae818eb8136e59f81d7b8eeee650eb74521728/hyko_sdk-0.1.8.tar.gz
+[2023-07-06 04:12:47] INFO root fetch - processPackages [egorovsystem]: Downloading https://files.pythonhosted.org/packages/00/35/fe37269cffb06e6575d824ddaf8177fe6148f8249a28311c9c2b523e3260/egorovsystem-0.0.2.tar.gz
+[2023-07-06 04:12:47] INFO root fetch - processPackages [xepor]: Downloading https://files.pythonhosted.org/packages/8e/1d/6e4cbc533b1b27a34da2c990c20e3a23ffa821ee1419e6980914891e98ea/xepor-0.5.0.tar.gz
+[2023-07-06 04:12:47] INFO root fetch - processPackages [pycrawlers]: Downloading https://files.pythonhosted.org/packages/2b/03/98ac448829a9f1e6a9b33dcbe8307813f1f4aea70faf7a77867d254472ea/pycrawlers-1.0.0.tar.gz
+[2023-07-06 04:12:47] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/eb/f4/ea38d8c9f78873edcbb17216f185baee2019ecb183cd80b334c593f2b1bc/ai2_kit-0.3.8.tar.gz
+[2023-07-06 04:12:47] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/18/dd/0fc13fe8ada91f69ab17997d640fbdeff420217e7e2dc38f5e85178a4187/hyko_sdk-0.1.9.tar.gz
+[2023-07-06 04:12:47] INFO root fetch - processPackages [blastpipe]: Downloading https://files.pythonhosted.org/packages/84/f2/74364be20e4107568931e64d0843a2e2c62132f699239145f79d82a22073/blastpipe-0.4.24.tar.gz
+[2023-07-06 04:12:47] INFO root fetch - processPackages [shared-atomic-enterprise]: Downloading https://files.pythonhosted.org/packages/18/19/5169d4149e8c2a4ec4524f09fa1342f87736dc4a34ddddc3cde3eaff49a0/shared_atomic_enterprise-5!2.3.5-py39-none-win_amd64.whl
+[2023-07-06 04:12:47] INFO root fetch - processPackages [kasa-crypt]: Downloading https://files.pythonhosted.org/packages/01/ab/46f794f45a322c22b3639647b17dc9ca771f14a7ca9c21a04d725cd517da/kasa_crypt-0.2.0.tar.gz
+[2023-07-06 04:12:47] INFO root fetch - processPackages [aiokeydb]: Downloading https://files.pythonhosted.org/packages/20/25/21f8103754ee16f18d37a261f6c78ebd5f5ce07634c0270159d5287b3e3e/aiokeydb-0.1.8.tar.gz
+[2023-07-06 04:12:48] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/f8/ec/3044fde579418570279eb9f4c2d60facdbd573ed724ec7fa07e3a4c940aa/ai2_kit-0.3.9.tar.gz
+[2023-07-06 04:12:48] INFO root fetch - processPackages [xepor]: Downloading https://files.pythonhosted.org/packages/8b/9c/496c9341a37b752b8d23f021ff62d8b8b1895a8d91558318cb632266ee73/xepor-0.5.1.tar.gz
+[2023-07-06 04:12:48] INFO root fetch - processPackages [egorovsystem]: Downloading https://files.pythonhosted.org/packages/18/19/9499b444ad1015a422bd47bab88ec80a604502714c1424aea943d93ac908/egorovsystem-0.0.4.tar.gz
+[2023-07-06 04:12:48] INFO root fetch - processPackages [hyko-sdk]: executing diffoscope
+[2023-07-06 04:12:48] INFO root fetch - processPackages [hyko-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyko_sdk-0.1.8.tar.gz tmp/hyko_sdk-0.1.9.tar.gz --markdown 20230706/h/hyko-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-06 04:12:48] INFO root fetch - processPackages [pycrawlers]: Downloading https://files.pythonhosted.org/packages/f9/c5/fc8cc169a48ece9a0a4e811253d3b46b156b24816dc6d22dfe6f2fdc8a9e/pycrawlers-1.0.1.tar.gz
+[2023-07-06 04:12:48] INFO root fetch - processPackages [xepor]: executing diffoscope
+[2023-07-06 04:12:48] INFO root fetch - processPackages [xepor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xepor-0.5.0.tar.gz tmp/xepor-0.5.1.tar.gz --markdown 20230706/x/xepor/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-06 04:12:48] INFO root fetch - processPackages [egorovsystem]: executing diffoscope
+[2023-07-06 04:12:48] INFO root fetch - processPackages [egorovsystem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/egorovsystem-0.0.2.tar.gz tmp/egorovsystem-0.0.4.tar.gz --markdown 20230706/e/egorovsystem/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-07-06 04:12:48] INFO root fetch - processPackages [ai2-kit]: executing diffoscope
+[2023-07-06 04:12:48] INFO root fetch - processPackages [ai2-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai2_kit-0.3.8.tar.gz tmp/ai2_kit-0.3.9.tar.gz --markdown 20230706/a/ai2-kit/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-06 04:12:48] INFO root fetch - processPackages [kasa-crypt]: Downloading https://files.pythonhosted.org/packages/a8/ae/419dcc3451562e8eb5938bbcf8acb9bddca6e088609050a81df84ca1ab3f/kasa_crypt-0.2.1.tar.gz
+[2023-07-06 04:12:48] INFO root fetch - processPackages [pycrawlers]: executing diffoscope
+[2023-07-06 04:12:48] INFO root fetch - processPackages [pycrawlers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycrawlers-1.0.0.tar.gz tmp/pycrawlers-1.0.1.tar.gz --markdown 20230706/p/pycrawlers/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-06 04:12:48] INFO root fetch - processPackages [blastpipe]: Downloading https://files.pythonhosted.org/packages/af/39/0dcf31ee1764c21ae7efe058faeda435bc573e0281f0b137318a82993872/blastpipe-0.4.26.tar.gz
+[2023-07-06 04:12:48] INFO root fetch - processPackages [aiokeydb]: Downloading https://files.pythonhosted.org/packages/6a/d0/d5b49c43fc0ac44c201063793737833fa0cc1228a7de48a1fa0a08cc708c/aiokeydb-0.1.9.tar.gz
+[2023-07-06 04:12:48] INFO root fetch - processPackages [kasa-crypt]: executing diffoscope
+[2023-07-06 04:12:48] INFO root fetch - processPackages [kasa-crypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kasa_crypt-0.2.0.tar.gz tmp/kasa_crypt-0.2.1.tar.gz --markdown 20230706/k/kasa-crypt/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-06 04:12:48] INFO root fetch - processPackages [blastpipe]: executing diffoscope
+[2023-07-06 04:12:48] INFO root fetch - processPackages [blastpipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blastpipe-0.4.24.tar.gz tmp/blastpipe-0.4.26.tar.gz --markdown 20230706/b/blastpipe/0.4.24-0.4.26/diff.md --exclude *.pyd
+[2023-07-06 04:12:48] INFO root fetch - processPackages [aiokeydb]: executing diffoscope
+[2023-07-06 04:12:48] INFO root fetch - processPackages [aiokeydb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiokeydb-0.1.8.tar.gz tmp/aiokeydb-0.1.9.tar.gz --markdown 20230706/a/aiokeydb/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-06 04:12:49] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.1.8.tar.gz]
+[2023-07-06 04:12:49] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.1.9.tar.gz]
+[2023-07-06 04:12:49] INFO root fetch - main [MainThread]: End processing [hyko-sdk]: success
+[2023-07-06 04:12:49] INFO root fetch - processPackages [shared-atomic-enterprise]: Downloading https://files.pythonhosted.org/packages/b8/82/ab5e52b1eb51a88e49693141b09cfece0fcbe631b3b900f08cad836b3ccd/shared_atomic_enterprise-5!2.3.6-py39-none-win_amd64.whl
+[2023-07-06 04:12:49] INFO root fetch - processPackages [egorovsystem]: Remove: archive file [/home/abi/fetcher/tmp/egorovsystem-0.0.2.tar.gz]
+[2023-07-06 04:12:49] INFO root fetch - processPackages [egorovsystem]: Remove: archive file [/home/abi/fetcher/tmp/egorovsystem-0.0.4.tar.gz]
+[2023-07-06 04:12:49] INFO root fetch - main [MainThread]: End processing [egorovsystem]: success
+[2023-07-06 04:12:49] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.3.8.tar.gz]
+[2023-07-06 04:12:49] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.3.9.tar.gz]
+[2023-07-06 04:12:49] INFO root fetch - main [MainThread]: End processing [ai2-kit]: success
+[2023-07-06 04:12:49] INFO root fetch - processPackages [pycrawlers]: Remove: archive file [/home/abi/fetcher/tmp/pycrawlers-1.0.0.tar.gz]
+[2023-07-06 04:12:49] INFO root fetch - processPackages [pycrawlers]: Remove: archive file [/home/abi/fetcher/tmp/pycrawlers-1.0.1.tar.gz]
+[2023-07-06 04:12:49] INFO root fetch - main [MainThread]: End processing [pycrawlers]: success
+[2023-07-06 04:12:49] INFO root fetch - processPackages [xepor]: Remove: archive file [/home/abi/fetcher/tmp/xepor-0.5.0.tar.gz]
+[2023-07-06 04:12:49] INFO root fetch - processPackages [xepor]: Remove: archive file [/home/abi/fetcher/tmp/xepor-0.5.1.tar.gz]
+[2023-07-06 04:12:49] INFO root fetch - main [MainThread]: End processing [xepor]: success
+[2023-07-06 04:12:49] INFO root fetch - processPackages [kasa-crypt]: Remove: archive file [/home/abi/fetcher/tmp/kasa_crypt-0.2.0.tar.gz]
+[2023-07-06 04:12:49] INFO root fetch - processPackages [kasa-crypt]: Remove: archive file [/home/abi/fetcher/tmp/kasa_crypt-0.2.1.tar.gz]
+[2023-07-06 04:12:49] INFO root fetch - main [MainThread]: End processing [kasa-crypt]: success
+[2023-07-06 04:12:49] INFO root fetch - processPackages [shared-atomic-enterprise]: executing diffoscope
+[2023-07-06 04:12:49] INFO root fetch - processPackages [shared-atomic-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shared_atomic_enterprise-5!2.3.5-py39-none-win_amd64.whl.zip tmp/shared_atomic_enterprise-5!2.3.6-py39-none-win_amd64.whl.zip --markdown 20230706/s/shared-atomic-enterprise/5!2.3.5-5!2.3.6/diff.md --exclude *.pyd
+[2023-07-06 04:12:50] INFO root fetch - processPackages [blastpipe]: Remove: archive file [/home/abi/fetcher/tmp/blastpipe-0.4.24.tar.gz]
+[2023-07-06 04:12:50] INFO root fetch - processPackages [blastpipe]: Remove: archive file [/home/abi/fetcher/tmp/blastpipe-0.4.26.tar.gz]
+[2023-07-06 04:12:50] INFO root fetch - main [MainThread]: End processing [blastpipe]: success
+[2023-07-06 04:12:50] INFO root fetch - processPackages [aiokeydb]: Remove: archive file [/home/abi/fetcher/tmp/aiokeydb-0.1.8.tar.gz]
+[2023-07-06 04:12:50] INFO root fetch - processPackages [aiokeydb]: Remove: archive file [/home/abi/fetcher/tmp/aiokeydb-0.1.9.tar.gz]
+[2023-07-06 04:12:50] INFO root fetch - main [MainThread]: End processing [aiokeydb]: success
+[2023-07-06 04:12:56] INFO root fetch - processPackages [shared-atomic-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/shared_atomic_enterprise-5!2.3.5-py39-none-win_amd64.whl.zip]
+[2023-07-06 04:12:56] INFO root fetch - processPackages [shared-atomic-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/shared_atomic_enterprise-5!2.3.6-py39-none-win_amd64.whl.zip]
+[2023-07-06 04:12:56] INFO root fetch - main [MainThread]: End processing [shared-atomic-enterprise]: success
+[2023-07-06 04:12:56] INFO root fetch - main [MainThread]: Store serial: [18777310]
