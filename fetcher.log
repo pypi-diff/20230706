@@ -12434,3 +12434,45 @@ AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
 [2023-07-06 07:17:46] INFO root fetch - processPackages [je-editor-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_editor_dev-0.0.99.tar.gz]
 [2023-07-06 07:17:46] INFO root fetch - main [MainThread]: End processing [je-editor-dev]: success
 [2023-07-06 07:17:46] INFO root fetch - main [MainThread]: Store serial: [18778661]
+[2023-07-06 07:22:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18778661]
+[2023-07-06 07:22:54] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-06 07:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rangekeeper
+[2023-07-06 07:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cici-tools
+[2023-07-06 07:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ncagg
+[2023-07-06 07:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: inference_api
+[2023-07-06 07:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openmetadata-ingestion
+[2023-07-06 07:22:54] INFO root fetch - processPackages [rangekeeper]: New version: [0.4.1a0] Old Version: [0.4.0a0]
+[2023-07-06 07:22:54] INFO root fetch - processPackages [cici-tools]: New version: [0.3.0] Old Version: [0.2.5]
+[2023-07-06 07:22:54] INFO root fetch - processPackages [ncagg]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-07-06 07:22:55] WARNING root fetch - processPackages [inference_api]: Skipping, unable to determine old version
+[2023-07-06 07:22:55] INFO root fetch - main [MainThread]: End processing [inference_api] error
+[2023-07-06 07:22:55] INFO root fetch - processPackages [cici-tools]: Downloading https://files.pythonhosted.org/packages/14/f4/43ab131385f4830868a7c55125da9d811577cb53706d348923f4b2d5fb06/cici-tools-0.2.5.tar.gz
+[2023-07-06 07:22:55] INFO root fetch - processPackages [rangekeeper]: Downloading https://files.pythonhosted.org/packages/b2/8a/578be52c0676d603bef9497f72a491bf9bbc7dfbcc64d916f9c34bc0af5a/rangekeeper-0.4.0a0.tar.gz
+[2023-07-06 07:22:55] INFO root fetch - processPackages [ncagg]: Downloading https://files.pythonhosted.org/packages/ff/16/a9d4a9908c35c0403d8cdf1e3cb9e1233810d9cac28a93e87b5aff509bae/ncagg-0.8.8-py2.py3-none-any.whl
+[2023-07-06 07:22:55] INFO root fetch - processPackages [openmetadata-ingestion]: New version: [1.1.0.2] Old Version: [1.1.0.1]
+[2023-07-06 07:22:55] INFO root fetch - processPackages [cici-tools]: Downloading https://files.pythonhosted.org/packages/16/ff/79cb829d079d1911565897b7773b100f8c766091208f63271c4acd29b687/cici-tools-0.3.0.tar.gz
+[2023-07-06 07:22:55] INFO root fetch - processPackages [rangekeeper]: Downloading https://files.pythonhosted.org/packages/52/e3/4c8e33b68233e879c303a61409e13859bbe57a571053c0af67caa4b13867/rangekeeper-0.4.1a0.tar.gz
+[2023-07-06 07:22:55] INFO root fetch - processPackages [openmetadata-ingestion]: Downloading https://files.pythonhosted.org/packages/27/de/19442329aa1860b0549a3f0bb593a1c4b380f3d74d57f336842b39cc01bb/openmetadata-ingestion-1.1.0.1.tar.gz
+[2023-07-06 07:22:55] INFO root fetch - processPackages [ncagg]: Downloading https://files.pythonhosted.org/packages/7e/28/822e8c3d2bd71e2a75a3bd11d19c10a43c4580515aa821c5ea7ac8dc00ae/ncagg-0.8.9-py2.py3-none-any.whl
+[2023-07-06 07:22:55] INFO root fetch - processPackages [cici-tools]: executing diffoscope
+[2023-07-06 07:22:55] INFO root fetch - processPackages [cici-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cici-tools-0.2.5.tar.gz tmp/cici-tools-0.3.0.tar.gz --markdown 20230706/c/cici-tools/0.2.5-0.3.0/diff.md --exclude *.pyd
+[2023-07-06 07:22:55] INFO root fetch - processPackages [rangekeeper]: executing diffoscope
+[2023-07-06 07:22:55] INFO root fetch - processPackages [rangekeeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rangekeeper-0.4.0a0.tar.gz tmp/rangekeeper-0.4.1a0.tar.gz --markdown 20230706/r/rangekeeper/0.4.0a0-0.4.1a0/diff.md --exclude *.pyd
+[2023-07-06 07:22:55] INFO root fetch - processPackages [ncagg]: executing diffoscope
+[2023-07-06 07:22:55] INFO root fetch - processPackages [ncagg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncagg-0.8.8-py2.py3-none-any.whl.zip tmp/ncagg-0.8.9-py2.py3-none-any.whl.zip --markdown 20230706/n/ncagg/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-07-06 07:22:56] INFO root fetch - processPackages [openmetadata-ingestion]: Downloading https://files.pythonhosted.org/packages/90/b5/2e3fa2f66e76674f631ef6b6c7fdb04fc97e174c99244243b23f2e46f547/openmetadata-ingestion-1.1.0.2.tar.gz
+[2023-07-06 07:22:56] INFO root fetch - processPackages [openmetadata-ingestion]: executing diffoscope
+[2023-07-06 07:22:56] INFO root fetch - processPackages [openmetadata-ingestion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmetadata-ingestion-1.1.0.1.tar.gz tmp/openmetadata-ingestion-1.1.0.2.tar.gz --markdown 20230706/o/openmetadata-ingestion/1.1.0.1-1.1.0.2/diff.md --exclude *.pyd
+[2023-07-06 07:22:56] INFO root fetch - processPackages [cici-tools]: Remove: archive file [/home/abi/fetcher/tmp/cici-tools-0.2.5.tar.gz]
+[2023-07-06 07:22:56] INFO root fetch - processPackages [cici-tools]: Remove: archive file [/home/abi/fetcher/tmp/cici-tools-0.3.0.tar.gz]
+[2023-07-06 07:22:56] INFO root fetch - main [MainThread]: End processing [cici-tools]: success
+[2023-07-06 07:22:56] INFO root fetch - processPackages [ncagg]: Remove: archive file [/home/abi/fetcher/tmp/ncagg-0.8.8-py2.py3-none-any.whl.zip]
+[2023-07-06 07:22:56] INFO root fetch - processPackages [ncagg]: Remove: archive file [/home/abi/fetcher/tmp/ncagg-0.8.9-py2.py3-none-any.whl.zip]
+[2023-07-06 07:22:56] INFO root fetch - main [MainThread]: End processing [ncagg]: success
+[2023-07-06 07:22:56] INFO root fetch - processPackages [rangekeeper]: Remove: archive file [/home/abi/fetcher/tmp/rangekeeper-0.4.0a0.tar.gz]
+[2023-07-06 07:22:56] INFO root fetch - processPackages [rangekeeper]: Remove: archive file [/home/abi/fetcher/tmp/rangekeeper-0.4.1a0.tar.gz]
+[2023-07-06 07:22:56] INFO root fetch - main [MainThread]: End processing [rangekeeper]: success
+[2023-07-06 07:23:05] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.1.0.1.tar.gz]
+[2023-07-06 07:23:05] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.1.0.2.tar.gz]
+[2023-07-06 07:23:05] INFO root fetch - main [MainThread]: End processing [openmetadata-ingestion]: success
+[2023-07-06 07:23:05] INFO root fetch - main [MainThread]: Store serial: [18778679]
