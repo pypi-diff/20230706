@@ -12193,3 +12193,36 @@ AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
 [2023-07-06 06:56:34] INFO root fetch - processPackages [apache-airflow-providers-google]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-google-9.0.0rc2.tar.gz]
 [2023-07-06 06:56:34] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-google]: success
 [2023-07-06 06:56:34] INFO root fetch - main [MainThread]: Store serial: [18778558]
+[2023-07-06 07:01:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18778558]
+[2023-07-06 07:01:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-06 07:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: powertools-oas-validator
+[2023-07-06 07:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: policyengine-us
+[2023-07-06 07:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: doipclient
+[2023-07-06 07:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gp2040ce-binary-tools
+[2023-07-06 07:01:43] INFO root fetch - processPackages [doipclient]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-07-06 07:01:43] INFO root fetch - processPackages [powertools-oas-validator]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-07-06 07:01:43] INFO root fetch - processPackages [policyengine-us]: New version: [0.357.0] Old Version: [0.356.0]
+[2023-07-06 07:01:43] WARNING root fetch - processPackages [gp2040ce-binary-tools]: Skipping, unable to determine old version
+[2023-07-06 07:01:43] INFO root fetch - main [MainThread]: End processing [gp2040ce-binary-tools] error
+[2023-07-06 07:01:43] INFO root fetch - processPackages [doipclient]: Downloading https://files.pythonhosted.org/packages/84/46/56f868000f2a793d29438d36fab2d73488123dbeea139311bbed59a99be7/doipclient-1.0.9.tar.gz
+[2023-07-06 07:01:43] INFO root fetch - processPackages [powertools-oas-validator]: Downloading https://files.pythonhosted.org/packages/d9/17/954d92416d4518a59f72992c5f7f216d9f13b8748af3fb1c4e4d6b10ab54/powertools_oas_validator-0.5.5.tar.gz
+[2023-07-06 07:01:43] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/2e/b3/038c8cc8705d81852a97d44f2fe17e31ed8e50f41750d7181bd887fcaa19/policyengine-us-0.356.0.tar.gz
+[2023-07-06 07:01:43] INFO root fetch - processPackages [powertools-oas-validator]: Downloading https://files.pythonhosted.org/packages/fd/8a/3843cd7e1a1b0bcef1bb19f511c7f19ee2936706c8967b51d67405df4fd2/powertools_oas_validator-0.5.6.tar.gz
+[2023-07-06 07:01:44] INFO root fetch - processPackages [doipclient]: Downloading https://files.pythonhosted.org/packages/ee/82/414b628f79e002a23af2bfec377355e55bc068780f9241f2d19942802584/doipclient-1.1.0.tar.gz
+[2023-07-06 07:01:44] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/67/ef/219ab3f719cb3309976b10fb2e796a3a2da83aff07344d4e6da09f5ac69a/policyengine-us-0.357.0.tar.gz
+[2023-07-06 07:01:44] INFO root fetch - processPackages [doipclient]: executing diffoscope
+[2023-07-06 07:01:44] INFO root fetch - processPackages [doipclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doipclient-1.0.9.tar.gz tmp/doipclient-1.1.0.tar.gz --markdown 20230706/d/doipclient/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-07-06 07:01:44] INFO root fetch - processPackages [powertools-oas-validator]: executing diffoscope
+[2023-07-06 07:01:44] INFO root fetch - processPackages [powertools-oas-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powertools_oas_validator-0.5.5.tar.gz tmp/powertools_oas_validator-0.5.6.tar.gz --markdown 20230706/p/powertools-oas-validator/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-07-06 07:01:44] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-07-06 07:01:44] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.356.0.tar.gz tmp/policyengine-us-0.357.0.tar.gz --markdown 20230706/p/policyengine-us/0.356.0-0.357.0/diff.md --exclude *.pyd
+[2023-07-06 07:01:44] INFO root fetch - processPackages [powertools-oas-validator]: Remove: archive file [/home/abi/fetcher/tmp/powertools_oas_validator-0.5.5.tar.gz]
+[2023-07-06 07:01:44] INFO root fetch - processPackages [powertools-oas-validator]: Remove: archive file [/home/abi/fetcher/tmp/powertools_oas_validator-0.5.6.tar.gz]
+[2023-07-06 07:01:44] INFO root fetch - main [MainThread]: End processing [powertools-oas-validator]: success
+[2023-07-06 07:01:45] INFO root fetch - processPackages [doipclient]: Remove: archive file [/home/abi/fetcher/tmp/doipclient-1.0.9.tar.gz]
+[2023-07-06 07:01:45] INFO root fetch - processPackages [doipclient]: Remove: archive file [/home/abi/fetcher/tmp/doipclient-1.1.0.tar.gz]
+[2023-07-06 07:01:45] INFO root fetch - main [MainThread]: End processing [doipclient]: success
+[2023-07-06 07:02:07] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.356.0.tar.gz]
+[2023-07-06 07:02:07] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.357.0.tar.gz]
+[2023-07-06 07:02:07] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-07-06 07:02:07] INFO root fetch - main [MainThread]: Store serial: [18778573]
