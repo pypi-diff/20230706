@@ -11513,3 +11513,118 @@ AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
 [2023-07-06 06:19:51] INFO root fetch - processPackages [markata]: Remove: archive file [/home/abi/fetcher/tmp/markata-0.7.1.dev0.tar.gz]
 [2023-07-06 06:19:51] INFO root fetch - main [MainThread]: End processing [markata]: success
 [2023-07-06 06:19:51] INFO root fetch - main [MainThread]: Store serial: [18778301]
+[2023-07-06 06:24:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18778301]
+[2023-07-06 06:25:00] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-06 06:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: axion
+[2023-07-06 06:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: amazon-braket-sdk
+[2023-07-06 06:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-openupgrade-scripts
+[2023-07-06 06:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-openupgrade-scripts
+[2023-07-06 06:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ciomaya
+[2023-07-06 06:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo12-addon-product-operating-unit
+[2023-07-06 06:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: grizzlaxy
+[2023-07-06 06:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: egorovsystem
+[2023-07-06 06:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: quickstart-vdk
+[2023-07-06 06:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: text2text
+[2023-07-06 06:25:00] INFO root fetch - processPackages [egorovsystem]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-06 06:25:00] INFO root fetch - processPackages [axion]: New version: [3.4.8] Old Version: [3.4.7]
+[2023-07-06 06:25:00] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: New version: [16.0.1.0.3.9] Old Version: [16.0.1.0.3.7]
+[2023-07-06 06:25:00] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: New version: [16.0.1.0.3.9] Old Version: [16.0.1.0.3.7]
+[2023-07-06 06:25:00] INFO root fetch - processPackages [text2text]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-06 06:25:00] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.922613844.dev12097] Old Version: [0.2.916688017.dev12002]
+[2023-07-06 06:25:00] INFO root fetch - processPackages [egorovsystem]: Downloading https://files.pythonhosted.org/packages/da/7c/b004d892749c63c67bb6aa2f210ceb666f149a1473e17d80d48d8b1a6e02/egorovsystem-0.0.5.tar.gz
+[2023-07-06 06:25:00] INFO root fetch - processPackages [odoo12-addon-product-operating-unit]: New version: [12.0.1.0.1.99.dev6] Old Version: [12.0.1.0.1.99.dev5]
+[2023-07-06 06:25:00] WARNING root fetch - processPackages [grizzlaxy]: Skipping, unable to determine old version
+[2023-07-06 06:25:00] INFO root fetch - processPackages [grizzlaxy]: Start processing: odoo-addon-hr-payroll-account-operating-unit
+[2023-07-06 06:25:00] INFO root fetch - processPackages [ciomaya]: New version: [0.8.0rc1] Old Version: [0.6.8]
+[2023-07-06 06:25:00] INFO root fetch - main [MainThread]: End processing [grizzlaxy] error
+[2023-07-06 06:25:01] INFO root fetch - processPackages [amazon-braket-sdk]: New version: [1.9.5.post0] Old Version: [1.9.5]
+[2023-07-06 06:25:01] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/d2/29/e2cb7ea93979e027e6d5309d7a314ee9e6d65f7021f477e355ae236a55c9/odoo_addon_openupgrade_scripts-16.0.1.0.3.7-py3-none-any.whl
+[2023-07-06 06:25:01] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/d2/29/e2cb7ea93979e027e6d5309d7a314ee9e6d65f7021f477e355ae236a55c9/odoo_addon_openupgrade_scripts-16.0.1.0.3.7-py3-none-any.whl
+[2023-07-06 06:25:01] INFO root fetch - processPackages [text2text]: Downloading https://files.pythonhosted.org/packages/4c/12/2075c223fc27cf8ce064baa1a17d7ca65d1e7d4152988b168fc4be9e4274/text2text-1.2.2.tar.gz
+[2023-07-06 06:25:01] WARNING root fetch - processPackages [odoo-addon-hr-payroll-account-operating-unit]: Skipping, unable to determine old version
+[2023-07-06 06:25:01] INFO root fetch - processPackages [odoo-addon-hr-payroll-account-operating-unit]: Start processing: odoo-addon-hr-contract-operating-unit
+[2023-07-06 06:25:01] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-payroll-account-operating-unit] error
+[2023-07-06 06:25:01] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/94/1a/7dca015c8d10e1d8b48373369b7455f0b28a931901f27ff9afcbfad5a768/axion-3.4.7-cp311-none-win_amd64.whl
+[2023-07-06 06:25:01] INFO root fetch - processPackages [odoo12-addon-product-operating-unit]: Downloading https://files.pythonhosted.org/packages/9f/78/673d760c304026e67f88f5f5e3700485cbe18122d4af136c0da2482f5d0a/odoo12_addon_product_operating_unit-12.0.1.0.1.99.dev5-py3-none-any.whl
+[2023-07-06 06:25:01] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/55/df/4b0dde9b48962f5cad0abdf893ad734328667a0eb5caae81def03f25770d/quickstart-vdk-0.2.916688017.dev12002.tar.gz
+[2023-07-06 06:25:01] INFO root fetch - processPackages [odoo-addon-hr-contract-operating-unit]: New version: [15.0.1.0.1.2] Old Version: [15.0.1.0.1]
+[2023-07-06 06:25:01] INFO root fetch - processPackages [amazon-braket-sdk]: Downloading https://files.pythonhosted.org/packages/85/cb/f563b80f4c903004b15e6be7245ef49cc3d1e16c8a667aab991f31853061/amazon-braket-sdk-1.9.5.tar.gz
+[2023-07-06 06:25:01] INFO root fetch - processPackages [egorovsystem]: Downloading https://files.pythonhosted.org/packages/24/23/715b397a54a25cd437ee7fa9bacadb88206c295c264871b162dc01cec304/egorovsystem-0.0.6.tar.gz
+[2023-07-06 06:25:01] INFO root fetch - processPackages [ciomaya]: Downloading https://files.pythonhosted.org/packages/a1/1e/1fb78e7318e4718119b46ee219621f2c010b4e7574e75d33aba558a0705d/ciomaya-0.6.8-py2.py3-none-any.whl
+[2023-07-06 06:25:01] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/17/81/574f2d588623a030241dff9b1e5a89ed58aca17a00ce25c81995ecf57f8c/odoo_addon_openupgrade_scripts-16.0.1.0.3.9-py3-none-any.whl
+[2023-07-06 06:25:01] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/17/81/574f2d588623a030241dff9b1e5a89ed58aca17a00ce25c81995ecf57f8c/odoo_addon_openupgrade_scripts-16.0.1.0.3.9-py3-none-any.whl
+[2023-07-06 06:25:01] INFO root fetch - processPackages [text2text]: Downloading https://files.pythonhosted.org/packages/2d/fc/86bdf08ca0eb6b35d8415dba7887b2bda7deee6ab7053d412a3c942cfdd2/text2text-1.2.3.tar.gz
+[2023-07-06 06:25:01] INFO root fetch - processPackages [egorovsystem]: executing diffoscope
+[2023-07-06 06:25:01] INFO root fetch - processPackages [egorovsystem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/egorovsystem-0.0.5.tar.gz tmp/egorovsystem-0.0.6.tar.gz --markdown 20230706/e/egorovsystem/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-06 06:25:01] INFO root fetch - processPackages [odoo-addon-hr-contract-operating-unit]: Downloading https://files.pythonhosted.org/packages/c8/46/cbd53dfb2bd5a65d4c4779c93ae41d8fbe4f4b2b5928f5b8d075d5359b60/odoo_addon_hr_contract_operating_unit-15.0.1.0.1-py3-none-any.whl
+[2023-07-06 06:25:01] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: executing diffoscope
+[2023-07-06 06:25:01] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.7-py3-none-any.whl.zip tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.9-py3-none-any.whl.zip --markdown 20230706/o/odoo-addon-openupgrade-scripts/16.0.1.0.3.7-16.0.1.0.3.9/diff.md --exclude *.pyd
+[2023-07-06 06:25:01] INFO root fetch - processPackages [odoo12-addon-product-operating-unit]: Downloading https://files.pythonhosted.org/packages/bf/b1/4f91d727757beaf671ea45f4f9695d97f4439230565b89d23362ceee5b72/odoo12_addon_product_operating_unit-12.0.1.0.1.99.dev6-py3-none-any.whl
+[2023-07-06 06:25:01] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/0f/20/63a1ed262730e97a8df5a150ff90c90799709151de72885ccef5332f576a/quickstart-vdk-0.2.922613844.dev12097.tar.gz
+[2023-07-06 06:25:01] INFO root fetch - processPackages [text2text]: executing diffoscope
+[2023-07-06 06:25:01] INFO root fetch - processPackages [text2text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2text-1.2.2.tar.gz tmp/text2text-1.2.3.tar.gz --markdown 20230706/t/text2text/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-07-06 06:25:01] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: executing diffoscope
+[2023-07-06 06:25:01] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.7-py3-none-any.whl.zip tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.9-py3-none-any.whl.zip --markdown 20230706/o/odoo-addon-openupgrade-scripts/16.0.1.0.3.7-16.0.1.0.3.9/diff.md --exclude *.pyd
+[2023-07-06 06:25:01] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/0d/ff/32e6ee2b5cb72853aef876bb264ea010d35b51961673c02824cb80ed002d/axion-3.4.8-cp311-none-win_amd64.whl
+[2023-07-06 06:25:01] INFO root fetch - processPackages [odoo12-addon-product-operating-unit]: executing diffoscope
+[2023-07-06 06:25:01] INFO root fetch - processPackages [odoo12-addon-product-operating-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_product_operating_unit-12.0.1.0.1.99.dev5-py3-none-any.whl.zip tmp/odoo12_addon_product_operating_unit-12.0.1.0.1.99.dev6-py3-none-any.whl.zip --markdown 20230706/o/odoo12-addon-product-operating-unit/12.0.1.0.1.99.dev5-12.0.1.0.1.99.dev6/diff.md --exclude *.pyd
+[2023-07-06 06:25:01] INFO root fetch - processPackages [amazon-braket-sdk]: Downloading https://files.pythonhosted.org/packages/9e/84/c7a37a19be25e1021345ade602f9852e48f219edaa855aa624e9d54e0d70/amazon-braket-sdk-1.9.5.post0.tar.gz
+[2023-07-06 06:25:01] INFO root fetch - processPackages [ciomaya]: Downloading https://files.pythonhosted.org/packages/b1/ed/f947fd5123287fe82539bb1d6e8b5c91516c680a54fdf587fadb1f9f0cd1/ciomaya-0.8.0rc1-py2.py3-none-any.whl
+[2023-07-06 06:25:02] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-07-06 06:25:02] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.916688017.dev12002.tar.gz tmp/quickstart-vdk-0.2.922613844.dev12097.tar.gz --markdown 20230706/q/quickstart-vdk/0.2.916688017.dev12002-0.2.922613844.dev12097/diff.md --exclude *.pyd
+[2023-07-06 06:25:02] INFO root fetch - processPackages [axion]: executing diffoscope
+[2023-07-06 06:25:02] INFO root fetch - processPackages [axion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axion-3.4.7-cp311-none-win_amd64.whl.zip tmp/axion-3.4.8-cp311-none-win_amd64.whl.zip --markdown 20230706/a/axion/3.4.7-3.4.8/diff.md --exclude *.pyd
+[2023-07-06 06:25:02] INFO root fetch - processPackages [ciomaya]: executing diffoscope
+[2023-07-06 06:25:02] INFO root fetch - processPackages [ciomaya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ciomaya-0.6.8-py2.py3-none-any.whl.zip tmp/ciomaya-0.8.0rc1-py2.py3-none-any.whl.zip --markdown 20230706/c/ciomaya/0.6.8-0.8.0rc1/diff.md --exclude *.pyd
+[2023-07-06 06:25:02] INFO root fetch - processPackages [amazon-braket-sdk]: executing diffoscope
+[2023-07-06 06:25:02] INFO root fetch - processPackages [amazon-braket-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-braket-sdk-1.9.5.tar.gz tmp/amazon-braket-sdk-1.9.5.post0.tar.gz --markdown 20230706/a/amazon-braket-sdk/1.9.5-1.9.5.post0/diff.md --exclude *.pyd
+[2023-07-06 06:25:02] INFO root fetch - processPackages [odoo-addon-hr-contract-operating-unit]: Downloading https://files.pythonhosted.org/packages/2a/aa/28dc344f3c5471a2d62860378b4c31e5cf40e6dfd7e7b02261add4a96fd2/odoo_addon_hr_contract_operating_unit-15.0.1.0.1.2-py3-none-any.whl
+[2023-07-06 06:25:02] INFO root fetch - processPackages [odoo-addon-hr-contract-operating-unit]: executing diffoscope
+[2023-07-06 06:25:02] INFO root fetch - processPackages [odoo-addon-hr-contract-operating-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hr_contract_operating_unit-15.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_hr_contract_operating_unit-15.0.1.0.1.2-py3-none-any.whl.zip --markdown 20230706/o/odoo-addon-hr-contract-operating-unit/15.0.1.0.1-15.0.1.0.1.2/diff.md --exclude *.pyd
+[2023-07-06 06:25:03] INFO root fetch - processPackages [egorovsystem]: Remove: archive file [/home/abi/fetcher/tmp/egorovsystem-0.0.5.tar.gz]
+[2023-07-06 06:25:03] INFO root fetch - processPackages [egorovsystem]: Remove: archive file [/home/abi/fetcher/tmp/egorovsystem-0.0.6.tar.gz]
+[2023-07-06 06:25:03] INFO root fetch - processPackages [egorovsystem]: Start processing: odoo-addons-oca-operating-unit
+[2023-07-06 06:25:03] INFO root fetch - main [MainThread]: End processing [egorovsystem]: success
+[2023-07-06 06:25:03] INFO root fetch - processPackages [odoo-addons-oca-operating-unit]: New version: [16.0.20230605.0] Old Version: [16.0.20230412.0]
+[2023-07-06 06:25:03] INFO root fetch - processPackages [odoo12-addon-product-operating-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_product_operating_unit-12.0.1.0.1.99.dev5-py3-none-any.whl.zip]
+[2023-07-06 06:25:03] INFO root fetch - processPackages [odoo12-addon-product-operating-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_product_operating_unit-12.0.1.0.1.99.dev6-py3-none-any.whl.zip]
+[2023-07-06 06:25:03] INFO root fetch - processPackages [odoo12-addon-product-operating-unit]: Start processing: django-request-filters
+[2023-07-06 06:25:03] INFO root fetch - main [MainThread]: End processing [odoo12-addon-product-operating-unit]: success
+[2023-07-06 06:25:03] INFO root fetch - processPackages [django-request-filters]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-06 06:25:03] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.916688017.dev12002.tar.gz]
+[2023-07-06 06:25:03] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.922613844.dev12097.tar.gz]
+[2023-07-06 06:25:03] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-07-06 06:25:03] INFO root fetch - processPackages [odoo-addons-oca-operating-unit]: Downloading https://files.pythonhosted.org/packages/d4/75/4e6dc4e4229eaf1ceb3f94112e231d1c76033caea05029f5da522ce01af1/odoo_addons_oca_operating_unit-16.0.20230412.0-py3-none-any.whl
+[2023-07-06 06:25:03] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-3.4.7-cp311-none-win_amd64.whl.zip]
+[2023-07-06 06:25:03] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-3.4.8-cp311-none-win_amd64.whl.zip]
+[2023-07-06 06:25:03] INFO root fetch - main [MainThread]: End processing [axion]: success
+[2023-07-06 06:25:03] INFO root fetch - processPackages [django-request-filters]: Downloading https://files.pythonhosted.org/packages/86/ac/01af46bbc79d21375c50ee5d3395ec716144736b4e764d72596a23302323/django_request_filters-0.0.1.tar.gz
+[2023-07-06 06:25:03] INFO root fetch - processPackages [text2text]: Remove: archive file [/home/abi/fetcher/tmp/text2text-1.2.2.tar.gz]
+[2023-07-06 06:25:03] INFO root fetch - processPackages [text2text]: Remove: archive file [/home/abi/fetcher/tmp/text2text-1.2.3.tar.gz]
+[2023-07-06 06:25:03] INFO root fetch - main [MainThread]: End processing [text2text]: success
+[2023-07-06 06:25:03] INFO root fetch - processPackages [django-request-filters]: Downloading https://files.pythonhosted.org/packages/d9/c6/4a55b1b104b6256ecff2d8e259df61e27e50bc2b87307132134ef73c469e/django_request_filters-0.0.2.tar.gz
+[2023-07-06 06:25:03] INFO root fetch - processPackages [django-request-filters]: executing diffoscope
+[2023-07-06 06:25:03] INFO root fetch - processPackages [django-request-filters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_request_filters-0.0.1.tar.gz tmp/django_request_filters-0.0.2.tar.gz --markdown 20230706/d/django-request-filters/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-06 06:25:03] INFO root fetch - processPackages [odoo-addon-hr-contract-operating-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_contract_operating_unit-15.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-06 06:25:03] INFO root fetch - processPackages [odoo-addon-hr-contract-operating-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_contract_operating_unit-15.0.1.0.1.2-py3-none-any.whl.zip]
+[2023-07-06 06:25:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-contract-operating-unit]: success
+[2023-07-06 06:25:03] INFO root fetch - processPackages [amazon-braket-sdk]: Remove: archive file [/home/abi/fetcher/tmp/amazon-braket-sdk-1.9.5.tar.gz]
+[2023-07-06 06:25:03] INFO root fetch - processPackages [amazon-braket-sdk]: Remove: archive file [/home/abi/fetcher/tmp/amazon-braket-sdk-1.9.5.post0.tar.gz]
+[2023-07-06 06:25:03] INFO root fetch - main [MainThread]: End processing [amazon-braket-sdk]: success
+[2023-07-06 06:25:03] INFO root fetch - processPackages [odoo-addons-oca-operating-unit]: Downloading https://files.pythonhosted.org/packages/66/ec/53d7027c4000ae985cb73eb18e08a82bbdcf666cee81f732f9ccbe46f856/odoo_addons_oca_operating_unit-16.0.20230605.0-py3-none-any.whl
+[2023-07-06 06:25:04] INFO root fetch - processPackages [odoo-addons-oca-operating-unit]: executing diffoscope
+[2023-07-06 06:25:04] INFO root fetch - processPackages [odoo-addons-oca-operating-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_operating_unit-16.0.20230412.0-py3-none-any.whl.zip tmp/odoo_addons_oca_operating_unit-16.0.20230605.0-py3-none-any.whl.zip --markdown 20230706/o/odoo-addons-oca-operating-unit/16.0.20230412.0-16.0.20230605.0/diff.md --exclude *.pyd
+[2023-07-06 06:25:04] INFO root fetch - processPackages [ciomaya]: Remove: archive file [/home/abi/fetcher/tmp/ciomaya-0.6.8-py2.py3-none-any.whl.zip]
+[2023-07-06 06:25:04] INFO root fetch - processPackages [ciomaya]: Remove: archive file [/home/abi/fetcher/tmp/ciomaya-0.8.0rc1-py2.py3-none-any.whl.zip]
+[2023-07-06 06:25:04] INFO root fetch - main [MainThread]: End processing [ciomaya]: success
+[2023-07-06 06:25:04] INFO root fetch - processPackages [django-request-filters]: Remove: archive file [/home/abi/fetcher/tmp/django_request_filters-0.0.1.tar.gz]
+[2023-07-06 06:25:04] INFO root fetch - processPackages [django-request-filters]: Remove: archive file [/home/abi/fetcher/tmp/django_request_filters-0.0.2.tar.gz]
+[2023-07-06 06:25:04] INFO root fetch - main [MainThread]: End processing [django-request-filters]: success
+[2023-07-06 06:25:04] INFO root fetch - processPackages [odoo-addons-oca-operating-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_operating_unit-16.0.20230412.0-py3-none-any.whl.zip]
+[2023-07-06 06:25:04] INFO root fetch - processPackages [odoo-addons-oca-operating-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_operating_unit-16.0.20230605.0-py3-none-any.whl.zip]
+[2023-07-06 06:25:04] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-operating-unit]: success
+[2023-07-06 06:25:05] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.7-py3-none-any.whl.zip]
+[2023-07-06 06:25:05] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.9-py3-none-any.whl.zip]
+[2023-07-06 06:25:05] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
+[2023-07-06 06:25:05] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
+[2023-07-06 06:25:05] INFO root fetch - main [MainThread]: Store serial: [18778338]
