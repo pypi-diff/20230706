@@ -11188,3 +11188,134 @@ AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
 [2023-07-06 05:59:02] INFO root fetch - processPackages [apache-beam]: Remove: archive file [/home/abi/fetcher/tmp/apache-beam-2.9.0.zip]
 [2023-07-06 05:59:02] INFO root fetch - main [MainThread]: End processing [apache-beam]: success
 [2023-07-06 05:59:02] INFO root fetch - main [MainThread]: Store serial: [18778163]
+[2023-07-06 06:04:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18778163]
+[2023-07-06 06:04:11] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-06 06:04:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nopasaran
+[2023-07-06 06:04:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mynacode
+[2023-07-06 06:04:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: evals-nightly
+[2023-07-06 06:04:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simfwp
+[2023-07-06 06:04:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-l10n-es-aeat-mod216
+[2023-07-06 06:04:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vaspvis
+[2023-07-06 06:04:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-l10n-es-aeat-mod347
+[2023-07-06 06:04:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-account-promissory-note-caixabank
+[2023-07-06 06:04:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-delivery-gls-asm
+[2023-07-06 06:04:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-l10n-es-facturae
+[2023-07-06 06:04:12] INFO root fetch - processPackages [nopasaran]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-06 06:04:12] INFO root fetch - processPackages [evals-nightly]: New version: [1.0.3.dev20230704] Old Version: [1.0.3.dev20230703]
+[2023-07-06 06:04:12] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: New version: [16.0.1.5.0.1] Old Version: [16.0.1.5.0]
+[2023-07-06 06:04:12] INFO root fetch - processPackages [vaspvis]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-07-06 06:04:12] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-06 06:04:12] INFO root fetch - processPackages [odoo-addon-delivery-gls-asm]: New version: [15.0.1.0.0.3] Old Version: [15.0.1.0.0.2]
+[2023-07-06 06:04:12] WARNING root fetch - processPackages [simfwp]: Skipping, unable to determine old version
+[2023-07-06 06:04:12] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod216]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.7]
+[2023-07-06 06:04:12] INFO root fetch - processPackages [simfwp]: Start processing: sora-sdk
+[2023-07-06 06:04:12] INFO root fetch - main [MainThread]: End processing [simfwp] error
+[2023-07-06 06:04:12] INFO root fetch - processPackages [odoo-addon-account-promissory-note-caixabank]: New version: [15.0.1.0.0.4] Old Version: [15.0.1.0.0.3]
+[2023-07-06 06:04:12] INFO root fetch - processPackages [odoo-addon-l10n-es-facturae]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.4]
+[2023-07-06 06:04:12] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/6c/57/5a45081bbf0f1fd126f993462b6c24c87ed51233b645201b37c67d35c578/evals-nightly-1.0.3.dev20230703.tar.gz
+[2023-07-06 06:04:12] INFO root fetch - processPackages [nopasaran]: Downloading https://files.pythonhosted.org/packages/ba/11/7b6a2fb8a0a7cd91048da3f57d2218bee8e814a228326604d0265a51ce80/nopasaran-0.2.3.tar.gz
+[2023-07-06 06:04:12] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: Downloading https://files.pythonhosted.org/packages/32/ec/58a34b62715505b8c23fa3d4a95f35181288e21dc39467f7a487d3c86b6d/odoo_addon_l10n_es_aeat_mod347-16.0.1.5.0-py3-none-any.whl
+[2023-07-06 06:04:12] INFO root fetch - processPackages [sora-sdk]: New version: [2023.3.0] Old Version: [2023.2.0.dev1]
+[2023-07-06 06:04:12] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-07-06 06:04:12] INFO root fetch - processPackages [vaspvis]: Downloading https://files.pythonhosted.org/packages/0a/45/176de845af7bfdd4d189b6e8a34584da1432096303bfebecebfa5427b8ec/vaspvis-1.2.7.tar.gz
+[2023-07-06 06:04:12] INFO root fetch - processPackages [odoo-addon-delivery-gls-asm]: Downloading https://files.pythonhosted.org/packages/d1/79/9289b36cd8437a566e978258bca12736e120d06d097661dc27d5a9060719/odoo_addon_delivery_gls_asm-15.0.1.0.0.2-py3-none-any.whl
+[2023-07-06 06:04:12] INFO root fetch - processPackages [odoo-addon-account-promissory-note-caixabank]: Downloading https://files.pythonhosted.org/packages/13/9d/812cf00f6aa48166541d1770cdea8cfc44caf433f3dba75e63d7eb7e7d13/odoo_addon_account_promissory_note_caixabank-15.0.1.0.0.3-py3-none-any.whl
+[2023-07-06 06:04:12] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod216]: Downloading https://files.pythonhosted.org/packages/70/72/e24a8f3bb73049aa08d60bbd1df3a090bc1b2150adb8f5901e1b9357721b/odoo_addon_l10n_es_aeat_mod216-16.0.1.0.0.7-py3-none-any.whl
+[2023-07-06 06:04:12] INFO root fetch - processPackages [odoo-addon-l10n-es-facturae]: Downloading https://files.pythonhosted.org/packages/42/38/a685749201c6e329d5bc63c495f5ac79966f8d5739da1abe23f778790d6a/odoo_addon_l10n_es_facturae-16.0.1.0.0.4-py3-none-any.whl
+[2023-07-06 06:04:12] INFO root fetch - processPackages [nopasaran]: Downloading https://files.pythonhosted.org/packages/69/ab/c74d9acf9d39521a55277b41d8d938e897162b5f92c7754f86e188f101f7/nopasaran-0.2.4.tar.gz
+[2023-07-06 06:04:12] INFO root fetch - processPackages [sora-sdk]: Downloading https://files.pythonhosted.org/packages/99/a8/b2a5a149d1522f447b391079373838a652563ee0697e0f887d9831f3edfb/sora_sdk-2023.2.0.dev1.tar.gz
+[2023-07-06 06:04:12] WARNING root fetch - processPackages [sora-sdk]: Skipping package: exceeds size limit 11017285>=10485760
+[2023-07-06 06:04:12] INFO root fetch - processPackages [sora-sdk]: Start processing: odoo-addon-l10n-es-facturae-face
+[2023-07-06 06:04:12] INFO root fetch - main [MainThread]: End processing [sora-sdk] error
+[2023-07-06 06:04:12] INFO root fetch - processPackages [nopasaran]: executing diffoscope
+[2023-07-06 06:04:12] INFO root fetch - processPackages [nopasaran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nopasaran-0.2.3.tar.gz tmp/nopasaran-0.2.4.tar.gz --markdown 20230706/n/nopasaran/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-06 06:04:12] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: Downloading https://files.pythonhosted.org/packages/af/83/f038c5e2f8dcf471e2ed3392d1e4d88fdbce7e3d4622e4c93f0fd5be0a4d/odoo_addon_l10n_es_aeat_mod347-16.0.1.5.0.1-py3-none-any.whl
+[2023-07-06 06:04:12] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/f4/27/ed23e24347efbd95f094814b60f38a4e875003b04ed882b00c518d36347a/evals-nightly-1.0.3.dev20230704.tar.gz
+[2023-07-06 06:04:12] INFO root fetch - processPackages [odoo-addon-account-promissory-note-caixabank]: Downloading https://files.pythonhosted.org/packages/d3/b8/9662e5be1c2a65cfaa5673c7b60050119d8a49ce29dd3ed48d4994986fe9/odoo_addon_account_promissory_note_caixabank-15.0.1.0.0.4-py3-none-any.whl
+[2023-07-06 06:04:12] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-07-06 06:04:12] INFO root fetch - processPackages [odoo-addon-l10n-es-facturae-face]: New version: [15.0.2.1.0.4] Old Version: [15.0.2.1.0.3]
+[2023-07-06 06:04:13] INFO root fetch - processPackages [odoo-addon-delivery-gls-asm]: Downloading https://files.pythonhosted.org/packages/f9/40/5e3ffcabafcebb10142c84b6bc3e7cfe3e91f277e60b586152c7005520e0/odoo_addon_delivery_gls_asm-15.0.1.0.0.3-py3-none-any.whl
+[2023-07-06 06:04:13] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod216]: Downloading https://files.pythonhosted.org/packages/ad/a7/09367be0441b310da58de60834f51738f38f9a6508c6c4572d9f0a63891c/odoo_addon_l10n_es_aeat_mod216-16.0.1.0.0.8-py3-none-any.whl
+[2023-07-06 06:04:13] INFO root fetch - processPackages [odoo-addon-l10n-es-facturae]: Downloading https://files.pythonhosted.org/packages/6e/0e/c0b1780c19a9a0735728d58b8235c3644ab9f54edccc25ba42c99adca36e/odoo_addon_l10n_es_facturae-16.0.1.0.1-py3-none-any.whl
+[2023-07-06 06:04:13] INFO root fetch - processPackages [evals-nightly]: executing diffoscope
+[2023-07-06 06:04:13] INFO root fetch - processPackages [evals-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evals-nightly-1.0.3.dev20230703.tar.gz tmp/evals-nightly-1.0.3.dev20230704.tar.gz --markdown 20230706/e/evals-nightly/1.0.3.dev20230703-1.0.3.dev20230704/diff.md --exclude *.pyd
+[2023-07-06 06:04:13] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-07-06 06:04:13] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230706/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-06 06:04:13] INFO root fetch - processPackages [odoo-addon-account-promissory-note-caixabank]: executing diffoscope
+[2023-07-06 06:04:13] INFO root fetch - processPackages [odoo-addon-account-promissory-note-caixabank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_promissory_note_caixabank-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_account_promissory_note_caixabank-15.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230706/o/odoo-addon-account-promissory-note-caixabank/15.0.1.0.0.3-15.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-07-06 06:04:13] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: executing diffoscope
+[2023-07-06 06:04:13] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod347-16.0.1.5.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod347-16.0.1.5.0.1-py3-none-any.whl.zip --markdown 20230706/o/odoo-addon-l10n-es-aeat-mod347/16.0.1.5.0-16.0.1.5.0.1/diff.md --exclude *.pyd
+[2023-07-06 06:04:13] INFO root fetch - processPackages [odoo-addon-delivery-gls-asm]: executing diffoscope
+[2023-07-06 06:04:13] INFO root fetch - processPackages [odoo-addon-delivery-gls-asm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_delivery_gls_asm-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_delivery_gls_asm-15.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230706/o/odoo-addon-delivery-gls-asm/15.0.1.0.0.2-15.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-07-06 06:04:13] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod216]: executing diffoscope
+[2023-07-06 06:04:13] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod216]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod216-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod216-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20230706/o/odoo-addon-l10n-es-aeat-mod216/16.0.1.0.0.7-16.0.1.0.0.8/diff.md --exclude *.pyd
+[2023-07-06 06:04:13] INFO root fetch - processPackages [odoo-addon-l10n-es-facturae]: executing diffoscope
+[2023-07-06 06:04:13] INFO root fetch - processPackages [odoo-addon-l10n-es-facturae]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_facturae-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_facturae-16.0.1.0.1-py3-none-any.whl.zip --markdown 20230706/o/odoo-addon-l10n-es-facturae/16.0.1.0.0.4-16.0.1.0.1/diff.md --exclude *.pyd
+[2023-07-06 06:04:13] INFO root fetch - processPackages [odoo-addon-l10n-es-facturae-face]: Downloading https://files.pythonhosted.org/packages/84/76/2ab6b212f731d7605f34cff3cce7e4496e0ccee17323ab7bdc4163e17df9/odoo_addon_l10n_es_facturae_face-15.0.2.1.0.3-py3-none-any.whl
+[2023-07-06 06:04:13] INFO root fetch - processPackages [odoo-addon-l10n-es-facturae-face]: Downloading https://files.pythonhosted.org/packages/cc/65/f6a6091b005fe594b9817a49eaafdbca3e39b30ec337c75977a5490a8380/odoo_addon_l10n_es_facturae_face-15.0.2.1.0.4-py3-none-any.whl
+[2023-07-06 06:04:14] INFO root fetch - processPackages [odoo-addon-l10n-es-facturae-face]: executing diffoscope
+[2023-07-06 06:04:14] INFO root fetch - processPackages [odoo-addon-l10n-es-facturae-face]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_facturae_face-15.0.2.1.0.3-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_facturae_face-15.0.2.1.0.4-py3-none-any.whl.zip --markdown 20230706/o/odoo-addon-l10n-es-facturae-face/15.0.2.1.0.3-15.0.2.1.0.4/diff.md --exclude *.pyd
+[2023-07-06 06:04:14] INFO root fetch - processPackages [nopasaran]: Remove: archive file [/home/abi/fetcher/tmp/nopasaran-0.2.3.tar.gz]
+[2023-07-06 06:04:14] INFO root fetch - processPackages [nopasaran]: Remove: archive file [/home/abi/fetcher/tmp/nopasaran-0.2.4.tar.gz]
+[2023-07-06 06:04:14] INFO root fetch - processPackages [nopasaran]: Start processing: MediaSecure
+[2023-07-06 06:04:14] INFO root fetch - main [MainThread]: End processing [nopasaran]: success
+[2023-07-06 06:04:14] INFO root fetch - processPackages [vaspvis]: Downloading https://files.pythonhosted.org/packages/24/6d/bcf2de1c7ea62e59f54862324ec12a775e21dc02a19fb4a2511c1347fb7b/vaspvis-1.2.8.tar.gz
+[2023-07-06 06:04:14] WARNING root fetch - processPackages [MediaSecure]: Skipping, unable to determine old version
+[2023-07-06 06:04:14] INFO root fetch - processPackages [MediaSecure]: Start processing: libdyson-neon
+[2023-07-06 06:04:14] INFO root fetch - main [MainThread]: End processing [MediaSecure] error
+[2023-07-06 06:04:14] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-07-06 06:04:14] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-07-06 06:04:14] INFO root fetch - processPackages [mynacode]: Start processing: cf-xarray
+[2023-07-06 06:04:14] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-07-06 06:04:14] INFO root fetch - processPackages [odoo-addon-account-promissory-note-caixabank]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_promissory_note_caixabank-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-06 06:04:14] INFO root fetch - processPackages [odoo-addon-account-promissory-note-caixabank]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_promissory_note_caixabank-15.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-06 06:04:14] INFO root fetch - processPackages [odoo-addon-account-promissory-note-caixabank]: Start processing: alphawave
+[2023-07-06 06:04:14] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-promissory-note-caixabank]: success
+[2023-07-06 06:04:14] INFO root fetch - processPackages [libdyson-neon]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-07-06 06:04:14] INFO root fetch - processPackages [cf-xarray]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-07-06 06:04:14] INFO root fetch - processPackages [alphawave]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-06 06:04:14] INFO root fetch - processPackages [vaspvis]: executing diffoscope
+[2023-07-06 06:04:14] INFO root fetch - processPackages [vaspvis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vaspvis-1.2.7.tar.gz tmp/vaspvis-1.2.8.tar.gz --markdown 20230706/v/vaspvis/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-07-06 06:04:14] INFO root fetch - processPackages [libdyson-neon]: Downloading https://files.pythonhosted.org/packages/4c/0f/b36669a889fc9f573b3cbe1a507a805e0ecbc5ee645b1fec13880fb90e92/libdyson-neon-1.0.2.tar.gz
+[2023-07-06 06:04:14] INFO root fetch - processPackages [odoo-addon-delivery-gls-asm]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_delivery_gls_asm-15.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-06 06:04:14] INFO root fetch - processPackages [odoo-addon-delivery-gls-asm]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_delivery_gls_asm-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-06 06:04:14] INFO root fetch - main [MainThread]: End processing [odoo-addon-delivery-gls-asm]: success
+[2023-07-06 06:04:14] INFO root fetch - processPackages [cf-xarray]: Downloading https://files.pythonhosted.org/packages/3b/98/b0e931ca5ac88f8b84f5c7a944fdce63abe5ca202a2a95b98bc16e7daafc/cf_xarray-0.8.2.tar.gz
+[2023-07-06 06:04:14] INFO root fetch - processPackages [alphawave]: Downloading https://files.pythonhosted.org/packages/5e/f8/92b4d8be8ba459d43bc31f3e10ea520c15bea75dc7e0f5235dcfa039dc23/alphawave-0.3.2.tar.gz
+[2023-07-06 06:04:15] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod216]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod216-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-07-06 06:04:15] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod216]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod216-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-07-06 06:04:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod216]: success
+[2023-07-06 06:04:15] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod347-16.0.1.5.0-py3-none-any.whl.zip]
+[2023-07-06 06:04:15] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod347-16.0.1.5.0.1-py3-none-any.whl.zip]
+[2023-07-06 06:04:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod347]: success
+[2023-07-06 06:04:15] INFO root fetch - processPackages [libdyson-neon]: Downloading https://files.pythonhosted.org/packages/87/6a/6a446e7ceab622aef4e6a088a9374ee1ca547ba9bb730c6440f63e4fe28e/libdyson-neon-1.1.0.tar.gz
+[2023-07-06 06:04:15] INFO root fetch - processPackages [alphawave]: Downloading https://files.pythonhosted.org/packages/1c/53/3695d12af62c1bfcd93dc84c9a8642eb025fd1353f34ab917906ee976450/alphawave-0.3.3.tar.gz
+[2023-07-06 06:04:15] INFO root fetch - processPackages [cf-xarray]: Downloading https://files.pythonhosted.org/packages/36/50/3070924d8fc910e28d61529586797e24ac9aa0d0f7b5d35c5cfd103a7a49/cf_xarray-0.8.3.tar.gz
+[2023-07-06 06:04:15] INFO root fetch - processPackages [libdyson-neon]: executing diffoscope
+[2023-07-06 06:04:15] INFO root fetch - processPackages [libdyson-neon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libdyson-neon-1.0.2.tar.gz tmp/libdyson-neon-1.1.0.tar.gz --markdown 20230706/l/libdyson-neon/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-07-06 06:04:15] INFO root fetch - processPackages [odoo-addon-l10n-es-facturae-face]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_facturae_face-15.0.2.1.0.3-py3-none-any.whl.zip]
+[2023-07-06 06:04:15] INFO root fetch - processPackages [odoo-addon-l10n-es-facturae-face]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_facturae_face-15.0.2.1.0.4-py3-none-any.whl.zip]
+[2023-07-06 06:04:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-facturae-face]: success
+[2023-07-06 06:04:15] INFO root fetch - processPackages [cf-xarray]: executing diffoscope
+[2023-07-06 06:04:15] INFO root fetch - processPackages [cf-xarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cf_xarray-0.8.2.tar.gz tmp/cf_xarray-0.8.3.tar.gz --markdown 20230706/c/cf-xarray/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-07-06 06:04:15] INFO root fetch - processPackages [odoo-addon-l10n-es-facturae]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_facturae-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-06 06:04:15] INFO root fetch - processPackages [odoo-addon-l10n-es-facturae]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_facturae-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-06 06:04:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-facturae]: success
+[2023-07-06 06:04:15] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230703.tar.gz]
+[2023-07-06 06:04:15] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230704.tar.gz]
+[2023-07-06 06:04:15] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
+[2023-07-06 06:04:15] INFO root fetch - processPackages [alphawave]: executing diffoscope
+[2023-07-06 06:04:15] INFO root fetch - processPackages [alphawave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphawave-0.3.2.tar.gz tmp/alphawave-0.3.3.tar.gz --markdown 20230706/a/alphawave/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-06 06:04:16] INFO root fetch - processPackages [libdyson-neon]: Remove: archive file [/home/abi/fetcher/tmp/libdyson-neon-1.0.2.tar.gz]
+[2023-07-06 06:04:16] INFO root fetch - processPackages [libdyson-neon]: Remove: archive file [/home/abi/fetcher/tmp/libdyson-neon-1.1.0.tar.gz]
+[2023-07-06 06:04:16] INFO root fetch - main [MainThread]: End processing [libdyson-neon]: success
+[2023-07-06 06:04:16] INFO root fetch - processPackages [vaspvis]: Remove: archive file [/home/abi/fetcher/tmp/vaspvis-1.2.7.tar.gz]
+[2023-07-06 06:04:16] INFO root fetch - processPackages [vaspvis]: Remove: archive file [/home/abi/fetcher/tmp/vaspvis-1.2.8.tar.gz]
+[2023-07-06 06:04:16] INFO root fetch - main [MainThread]: End processing [vaspvis]: success
+[2023-07-06 06:04:16] INFO root fetch - processPackages [cf-xarray]: Remove: archive file [/home/abi/fetcher/tmp/cf_xarray-0.8.2.tar.gz]
+[2023-07-06 06:04:16] INFO root fetch - processPackages [cf-xarray]: Remove: archive file [/home/abi/fetcher/tmp/cf_xarray-0.8.3.tar.gz]
+[2023-07-06 06:04:16] INFO root fetch - main [MainThread]: End processing [cf-xarray]: success
+[2023-07-06 06:04:16] INFO root fetch - processPackages [alphawave]: Remove: archive file [/home/abi/fetcher/tmp/alphawave-0.3.2.tar.gz]
+[2023-07-06 06:04:16] INFO root fetch - processPackages [alphawave]: Remove: archive file [/home/abi/fetcher/tmp/alphawave-0.3.3.tar.gz]
+[2023-07-06 06:04:16] INFO root fetch - main [MainThread]: End processing [alphawave]: success
+[2023-07-06 06:04:16] INFO root fetch - main [MainThread]: Store serial: [18778232]
