@@ -16358,3 +16358,280 @@ AssertionError: tmp/SELDOMpy-0.8.4.2.tar.gz does not exist
 [2023-07-06 10:54:59] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
 [2023-07-06 10:54:59] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-07-06 10:54:59] INFO root fetch - main [MainThread]: Store serial: [18780512]
+[2023-07-06 11:00:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18780512]
+[2023-07-06 11:00:08] INFO root fetch - main [MainThread]: Found 31 changed packages
+[2023-07-06 11:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hawkflow
+[2023-07-06 11:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: directory-api-client
+[2023-07-06 11:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: azureml-acft-accelerator
+[2023-07-06 11:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: azureml-acft-common-components
+[2023-07-06 11:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datawhispers
+[2023-07-06 11:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: azureml-acft-contrib-hf-diffusion
+[2023-07-06 11:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: azureml-acft-contrib-hf-nlp
+[2023-07-06 11:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: azureml-acft-image-components
+[2023-07-06 11:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: steamship
+[2023-07-06 11:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: azureml-evaluate-mlflow
+[2023-07-06 11:00:08] INFO root fetch - processPackages [azureml-acft-contrib-hf-diffusion]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 11:00:08] INFO root fetch - processPackages [azureml-acft-image-components]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 11:00:08] INFO root fetch - processPackages [azureml-acft-accelerator]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 11:00:08] INFO root fetch - processPackages [azureml-evaluate-mlflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 11:00:08] INFO root fetch - processPackages [azureml-acft-contrib-hf-nlp]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 11:00:08] INFO root fetch - processPackages [azureml-acft-common-components]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 11:00:08] WARNING root fetch - processPackages [hawkflow]: Skipping, unable to determine old version
+[2023-07-06 11:00:08] INFO root fetch - processPackages [hawkflow]: Start processing: azureml-metrics
+[2023-07-06 11:00:08] INFO root fetch - main [MainThread]: End processing [hawkflow] error
+[2023-07-06 11:00:08] INFO root fetch - processPackages [datawhispers]: New version: [0.2.8.8] Old Version: [0.2.8.7]
+[2023-07-06 11:00:08] INFO root fetch - processPackages [directory-api-client]: New version: [9.17.0] Old Version: [9.16.0]
+[2023-07-06 11:00:08] INFO root fetch - processPackages [steamship]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-07-06 11:00:09] INFO root fetch - processPackages [azureml-acft-image-components]: Downloading https://files.pythonhosted.org/packages/54/14/b21660f0894f00e8b252c21c555bfa0f0d81cb9c5e21a5d0558cef89779c/azureml_acft_image_components-0.0.8-py3-none-any.whl
+[2023-07-06 11:00:09] INFO root fetch - processPackages [datawhispers]: Downloading https://files.pythonhosted.org/packages/bd/bd/2a4a4dde0727198a45f771ad2f45b4ce237eb572ed17d462be75d0eb091c/datawhispers-0.2.8.7.tar.gz
+[2023-07-06 11:00:09] INFO root fetch - processPackages [azureml-acft-common-components]: Downloading https://files.pythonhosted.org/packages/1b/69/79c753b95642820059ac6078e8d3304c534d5fb1670b39f2979261b8e8e5/azureml_acft_common_components-0.0.8-py3-none-any.whl
+[2023-07-06 11:00:09] INFO root fetch - processPackages [azureml-evaluate-mlflow]: Downloading https://files.pythonhosted.org/packages/bf/82/f2b5cca48caac7cedb5d44dff46c9fbcc32c3cde13444bead6d5aacb0c43/azureml_evaluate_mlflow-0.0.8-py3-none-any.whl
+[2023-07-06 11:00:09] INFO root fetch - processPackages [azureml-metrics]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 11:00:09] INFO root fetch - processPackages [azureml-acft-contrib-hf-nlp]: Downloading https://files.pythonhosted.org/packages/c6/b4/92fe2844600ef202ad1bfb17d785a9983adaed2ba8c40362e8d46f44641f/azureml_acft_contrib_hf_nlp-0.0.8-py3-none-any.whl
+[2023-07-06 11:00:09] INFO root fetch - processPackages [azureml-acft-contrib-hf-diffusion]: Downloading https://files.pythonhosted.org/packages/b3/e4/d85f7a1a243a906f8c0c1337e73e9679cc506d3cacd07e2751e7fe7db717/azureml_acft_contrib_hf_diffusion-0.0.8-py3-none-any.whl
+[2023-07-06 11:00:09] INFO root fetch - processPackages [steamship]: Downloading https://files.pythonhosted.org/packages/d5/9d/2e877493befc03aade673fa8cbf159f77955b8658f16d4b0e16ad0ab106f/steamship-2.3.8.tar.gz
+[2023-07-06 11:00:09] INFO root fetch - processPackages [azureml-acft-accelerator]: Downloading https://files.pythonhosted.org/packages/7e/ef/bae82174f8ae37679572ec1080feac58efa577918ab6594b2b38d1113bcd/azureml_acft_accelerator-0.0.8-py3-none-any.whl
+[2023-07-06 11:00:09] INFO root fetch - processPackages [azureml-metrics]: Downloading https://files.pythonhosted.org/packages/ab/8d/c00408ae3f836d5caab609c4e0207687802fba036c489afd1de05df60ee8/azureml_metrics-0.0.8-py3-none-any.whl
+[2023-07-06 11:00:09] INFO root fetch - processPackages [directory-api-client]: Downloading https://files.pythonhosted.org/packages/1e/69/96cd730b1d1e10de95cab24a8c2ad0d7026debfc72f1afcd974bc301ca09/directory_api_client-9.16.0-py3-none-any.whl
+[2023-07-06 11:00:09] INFO root fetch - processPackages [azureml-acft-image-components]: Downloading https://files.pythonhosted.org/packages/c2/4c/c39c6718dda35b70925d6b2c893e31372e3c932478f5c52caf1ae909f8fa/azureml_acft_image_components-0.0.9-py3-none-any.whl
+[2023-07-06 11:00:09] INFO root fetch - processPackages [datawhispers]: Downloading https://files.pythonhosted.org/packages/f7/a5/1371be3a858dd4ba20bed760360f1f16026ee4163e0cdaf7ddd4cd6d43ec/datawhispers-0.2.8.8.tar.gz
+[2023-07-06 11:00:09] INFO root fetch - processPackages [steamship]: Downloading https://files.pythonhosted.org/packages/8a/2c/45284b04a7bcb421510b1bbb2e3f826c87946551d954eb3a3cd6b481fe09/steamship-2.3.9.tar.gz
+[2023-07-06 11:00:09] INFO root fetch - processPackages [azureml-evaluate-mlflow]: Downloading https://files.pythonhosted.org/packages/b8/d5/37e5123c1308f4fb41e069c8fe225331772b429781cd0e55a35c8a932e20/azureml_evaluate_mlflow-0.0.9-py3-none-any.whl
+[2023-07-06 11:00:09] INFO root fetch - processPackages [azureml-acft-contrib-hf-nlp]: Downloading https://files.pythonhosted.org/packages/3f/53/207e2ef0fc5d44967253be36d79a263cd47893128e4f9c253c01c386828a/azureml_acft_contrib_hf_nlp-0.0.9-py3-none-any.whl
+[2023-07-06 11:00:09] INFO root fetch - processPackages [azureml-acft-common-components]: Downloading https://files.pythonhosted.org/packages/74/d7/91a6d6d711d3c106762e53ec7cae4d9dc23f91a43d347e9d438e3934f50b/azureml_acft_common_components-0.0.9-py3-none-any.whl
+[2023-07-06 11:00:09] INFO root fetch - processPackages [azureml-acft-contrib-hf-diffusion]: Downloading https://files.pythonhosted.org/packages/17/fa/51d9356bdb0000b44f3f9e37245c49c28a3dd3170bd8534527159f3ba71a/azureml_acft_contrib_hf_diffusion-0.0.9-py3-none-any.whl
+[2023-07-06 11:00:09] INFO root fetch - processPackages [azureml-metrics]: Downloading https://files.pythonhosted.org/packages/d9/b6/db1d2bb7b04794fb4db613f74b2e3f42e69d272672dc18a156a2eab656c4/azureml_metrics-0.0.9-py3-none-any.whl
+[2023-07-06 11:00:09] INFO root fetch - processPackages [azureml-acft-accelerator]: Downloading https://files.pythonhosted.org/packages/f4/a3/15bfb45471496789ba0291a4458055542302f2b954414120e64af247a54d/azureml_acft_accelerator-0.0.9-py3-none-any.whl
+[2023-07-06 11:00:09] INFO root fetch - processPackages [steamship]: executing diffoscope
+[2023-07-06 11:00:09] INFO root fetch - processPackages [steamship]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steamship-2.3.8.tar.gz tmp/steamship-2.3.9.tar.gz --markdown 20230706/s/steamship/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-07-06 11:00:09] INFO root fetch - processPackages [datawhispers]: executing diffoscope
+[2023-07-06 11:00:09] INFO root fetch - processPackages [datawhispers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datawhispers-0.2.8.7.tar.gz tmp/datawhispers-0.2.8.8.tar.gz --markdown 20230706/d/datawhispers/0.2.8.7-0.2.8.8/diff.md --exclude *.pyd
+[2023-07-06 11:00:10] INFO root fetch - processPackages [azureml-acft-image-components]: executing diffoscope
+[2023-07-06 11:00:10] INFO root fetch - processPackages [azureml-acft-image-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_acft_image_components-0.0.8-py3-none-any.whl.zip tmp/azureml_acft_image_components-0.0.9-py3-none-any.whl.zip --markdown 20230706/a/azureml-acft-image-components/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 11:00:10] INFO root fetch - processPackages [azureml-evaluate-mlflow]: executing diffoscope
+[2023-07-06 11:00:10] INFO root fetch - processPackages [azureml-evaluate-mlflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_evaluate_mlflow-0.0.8-py3-none-any.whl.zip tmp/azureml_evaluate_mlflow-0.0.9-py3-none-any.whl.zip --markdown 20230706/a/azureml-evaluate-mlflow/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 11:00:10] INFO root fetch - processPackages [azureml-acft-contrib-hf-nlp]: executing diffoscope
+[2023-07-06 11:00:10] INFO root fetch - processPackages [azureml-acft-contrib-hf-nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_acft_contrib_hf_nlp-0.0.8-py3-none-any.whl.zip tmp/azureml_acft_contrib_hf_nlp-0.0.9-py3-none-any.whl.zip --markdown 20230706/a/azureml-acft-contrib-hf-nlp/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 11:00:10] INFO root fetch - processPackages [azureml-acft-common-components]: executing diffoscope
+[2023-07-06 11:00:10] INFO root fetch - processPackages [azureml-acft-common-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_acft_common_components-0.0.8-py3-none-any.whl.zip tmp/azureml_acft_common_components-0.0.9-py3-none-any.whl.zip --markdown 20230706/a/azureml-acft-common-components/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 11:00:10] INFO root fetch - processPackages [azureml-acft-contrib-hf-diffusion]: executing diffoscope
+[2023-07-06 11:00:10] INFO root fetch - processPackages [azureml-acft-contrib-hf-diffusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_acft_contrib_hf_diffusion-0.0.8-py3-none-any.whl.zip tmp/azureml_acft_contrib_hf_diffusion-0.0.9-py3-none-any.whl.zip --markdown 20230706/a/azureml-acft-contrib-hf-diffusion/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 11:00:10] INFO root fetch - processPackages [azureml-metrics]: executing diffoscope
+[2023-07-06 11:00:10] INFO root fetch - processPackages [azureml-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_metrics-0.0.8-py3-none-any.whl.zip tmp/azureml_metrics-0.0.9-py3-none-any.whl.zip --markdown 20230706/a/azureml-metrics/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 11:00:10] INFO root fetch - processPackages [directory-api-client]: Downloading https://files.pythonhosted.org/packages/52/85/2f3191f81cb23b1eedb870fab1c978f87574116c71a64471af24e75db35d/directory_api_client-9.17.0-py3-none-any.whl
+[2023-07-06 11:00:10] INFO root fetch - processPackages [azureml-acft-accelerator]: executing diffoscope
+[2023-07-06 11:00:10] INFO root fetch - processPackages [azureml-acft-accelerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_acft_accelerator-0.0.8-py3-none-any.whl.zip tmp/azureml_acft_accelerator-0.0.9-py3-none-any.whl.zip --markdown 20230706/a/azureml-acft-accelerator/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 11:00:10] INFO root fetch - processPackages [directory-api-client]: executing diffoscope
+[2023-07-06 11:00:10] INFO root fetch - processPackages [directory-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/directory_api_client-9.16.0-py3-none-any.whl.zip tmp/directory_api_client-9.17.0-py3-none-any.whl.zip --markdown 20230706/d/directory-api-client/9.16.0-9.17.0/diff.md --exclude *.pyd
+[2023-07-06 11:00:12] INFO root fetch - processPackages [datawhispers]: Remove: archive file [/home/abi/fetcher/tmp/datawhispers-0.2.8.7.tar.gz]
+[2023-07-06 11:00:12] INFO root fetch - processPackages [datawhispers]: Remove: archive file [/home/abi/fetcher/tmp/datawhispers-0.2.8.8.tar.gz]
+[2023-07-06 11:00:12] INFO root fetch - processPackages [datawhispers]: Start processing: directory-cms-client
+[2023-07-06 11:00:12] INFO root fetch - main [MainThread]: End processing [datawhispers]: success
+[2023-07-06 11:00:12] INFO root fetch - processPackages [directory-cms-client]: New version: [9.0.0] Old Version: [8.3.0]
+[2023-07-06 11:00:12] INFO root fetch - processPackages [directory-cms-client]: Downloading https://files.pythonhosted.org/packages/51/a1/b6b1ef69635ffcf123402e1ec6446f6b99b744b88be769ce3f723a2f6221/directory_cms_client-8.3.0-py3-none-any.whl
+[2023-07-06 11:00:12] INFO root fetch - processPackages [azureml-evaluate-mlflow]: Remove: archive file [/home/abi/fetcher/tmp/azureml_evaluate_mlflow-0.0.8-py3-none-any.whl.zip]
+[2023-07-06 11:00:12] INFO root fetch - processPackages [azureml-evaluate-mlflow]: Remove: archive file [/home/abi/fetcher/tmp/azureml_evaluate_mlflow-0.0.9-py3-none-any.whl.zip]
+[2023-07-06 11:00:12] INFO root fetch - processPackages [azureml-evaluate-mlflow]: Start processing: ovn-bgp-agent
+[2023-07-06 11:00:12] INFO root fetch - main [MainThread]: End processing [azureml-evaluate-mlflow]: success
+[2023-07-06 11:00:12] INFO root fetch - processPackages [ovn-bgp-agent]: New version: [1.0.0.0b1] Old Version: [0.4.0]
+[2023-07-06 11:00:12] INFO root fetch - processPackages [directory-cms-client]: Downloading https://files.pythonhosted.org/packages/14/5f/3669664f07e98869762da026ce7ccaca9ca6a4d54425930c48e5252b3f79/directory_cms_client-9.0.0-py3-none-any.whl
+[2023-07-06 11:00:12] INFO root fetch - processPackages [azureml-metrics]: Remove: archive file [/home/abi/fetcher/tmp/azureml_metrics-0.0.8-py3-none-any.whl.zip]
+[2023-07-06 11:00:12] INFO root fetch - processPackages [azureml-metrics]: Remove: archive file [/home/abi/fetcher/tmp/azureml_metrics-0.0.9-py3-none-any.whl.zip]
+[2023-07-06 11:00:12] INFO root fetch - processPackages [azureml-metrics]: Start processing: oslo.utils
+[2023-07-06 11:00:12] INFO root fetch - main [MainThread]: End processing [azureml-metrics]: success
+[2023-07-06 11:00:12] INFO root fetch - processPackages [azureml-acft-common-components]: Remove: archive file [/home/abi/fetcher/tmp/azureml_acft_common_components-0.0.8-py3-none-any.whl.zip]
+[2023-07-06 11:00:12] INFO root fetch - processPackages [azureml-acft-common-components]: Remove: archive file [/home/abi/fetcher/tmp/azureml_acft_common_components-0.0.9-py3-none-any.whl.zip]
+[2023-07-06 11:00:12] INFO root fetch - processPackages [azureml-acft-common-components]: Start processing: coconut-develop
+[2023-07-06 11:00:12] INFO root fetch - main [MainThread]: End processing [azureml-acft-common-components]: success
+[2023-07-06 11:00:12] INFO root fetch - processPackages [directory-cms-client]: executing diffoscope
+[2023-07-06 11:00:12] INFO root fetch - processPackages [directory-cms-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/directory_cms_client-8.3.0-py3-none-any.whl.zip tmp/directory_cms_client-9.0.0-py3-none-any.whl.zip --markdown 20230706/d/directory-cms-client/8.3.0-9.0.0/diff.md --exclude *.pyd
+[2023-07-06 11:00:12] INFO root fetch - processPackages [oslo.utils]: New version: [6.2.0] Old Version: [6.1.0]
+[2023-07-06 11:00:12] INFO root fetch - processPackages [azureml-acft-image-components]: Remove: archive file [/home/abi/fetcher/tmp/azureml_acft_image_components-0.0.8-py3-none-any.whl.zip]
+[2023-07-06 11:00:12] INFO root fetch - processPackages [azureml-acft-image-components]: Remove: archive file [/home/abi/fetcher/tmp/azureml_acft_image_components-0.0.9-py3-none-any.whl.zip]
+[2023-07-06 11:00:12] INFO root fetch - processPackages [azureml-acft-image-components]: Start processing: pydflow
+[2023-07-06 11:00:12] INFO root fetch - main [MainThread]: End processing [azureml-acft-image-components]: success
+[2023-07-06 11:00:12] INFO root fetch - processPackages [ovn-bgp-agent]: Downloading https://files.pythonhosted.org/packages/97/08/a484d9fcb5d7fc657e3a96eb1cd4b9a925f341ebc0febe5b6c9ae2bde591/ovn-bgp-agent-0.4.0.tar.gz
+[2023-07-06 11:00:12] INFO root fetch - processPackages [directory-api-client]: Remove: archive file [/home/abi/fetcher/tmp/directory_api_client-9.16.0-py3-none-any.whl.zip]
+[2023-07-06 11:00:12] INFO root fetch - processPackages [directory-api-client]: Remove: archive file [/home/abi/fetcher/tmp/directory_api_client-9.17.0-py3-none-any.whl.zip]
+[2023-07-06 11:00:12] INFO root fetch - processPackages [directory-api-client]: Start processing: verse-core
+[2023-07-06 11:00:12] INFO root fetch - main [MainThread]: End processing [directory-api-client]: success
+[2023-07-06 11:00:12] INFO root fetch - processPackages [verse-core]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-06 11:00:12] INFO root fetch - processPackages [pydflow]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-07-06 11:00:12] INFO root fetch - processPackages [coconut-develop]: New version: [3.0.2.post0.dev9] Old Version: [3.0.2.post0.dev8]
+[2023-07-06 11:00:13] INFO root fetch - processPackages [oslo.utils]: Downloading https://files.pythonhosted.org/packages/f7/49/7f6790af38e9ce1a1418dd74c7d07492d711384269b1cecc69bef136b033/oslo.utils-6.1.0.tar.gz
+[2023-07-06 11:00:13] INFO root fetch - processPackages [verse-core]: Downloading https://files.pythonhosted.org/packages/87/58/fe0990bb53f33fbb33f83b2e9e6ffab9bf709efdc65ccdb77ea1ec83d4d4/verse-core-0.0.8.tar.gz
+[2023-07-06 11:00:13] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/76/ba/83f4a7e45967086c125a6525e086526f469362e3a1327a44f8df15d67400/coconut-develop-3.0.2.post0.dev8.tar.gz
+[2023-07-06 11:00:13] INFO root fetch - processPackages [azureml-acft-accelerator]: Remove: archive file [/home/abi/fetcher/tmp/azureml_acft_accelerator-0.0.8-py3-none-any.whl.zip]
+[2023-07-06 11:00:13] INFO root fetch - processPackages [azureml-acft-accelerator]: Remove: archive file [/home/abi/fetcher/tmp/azureml_acft_accelerator-0.0.9-py3-none-any.whl.zip]
+[2023-07-06 11:00:13] INFO root fetch - processPackages [azureml-acft-accelerator]: Start processing: termkit
+[2023-07-06 11:00:13] INFO root fetch - main [MainThread]: End processing [azureml-acft-accelerator]: success
+[2023-07-06 11:00:13] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/33/96/a989d9cfcdb5dcb43d60a72640c59e2efb7fd053182742205b332006f813/pydflow-1.7.8.tar.gz
+[2023-07-06 11:00:13] INFO root fetch - processPackages [termkit]: New version: [0.2.0a5] Old Version: [0.2.0a4]
+[2023-07-06 11:00:13] INFO root fetch - processPackages [verse-core]: Downloading https://files.pythonhosted.org/packages/7d/78/6941139614540bdd1b28a38eaa3d582bb418254917805cd425aae3304e76/verse-core-0.0.9.tar.gz
+[2023-07-06 11:00:13] INFO root fetch - processPackages [ovn-bgp-agent]: Downloading https://files.pythonhosted.org/packages/bd/26/b825a5649d8862668be42afb25d6b899c2fe6568454d4219cf4b3bab87cb/ovn-bgp-agent-1.0.0.0b1.tar.gz
+[2023-07-06 11:00:13] INFO root fetch - processPackages [oslo.utils]: Downloading https://files.pythonhosted.org/packages/b7/66/29520a59aecf0ea83c32e0efa1052cef543dbddd6fcd92f3617d41f6398a/oslo.utils-6.2.0.tar.gz
+[2023-07-06 11:00:13] INFO root fetch - processPackages [verse-core]: executing diffoscope
+[2023-07-06 11:00:13] INFO root fetch - processPackages [azureml-acft-contrib-hf-nlp]: Remove: archive file [/home/abi/fetcher/tmp/azureml_acft_contrib_hf_nlp-0.0.8-py3-none-any.whl.zip]
+[2023-07-06 11:00:13] INFO root fetch - processPackages [verse-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/verse-core-0.0.8.tar.gz tmp/verse-core-0.0.9.tar.gz --markdown 20230706/v/verse-core/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-06 11:00:13] INFO root fetch - processPackages [azureml-acft-contrib-hf-nlp]: Remove: archive file [/home/abi/fetcher/tmp/azureml_acft_contrib_hf_nlp-0.0.9-py3-none-any.whl.zip]
+[2023-07-06 11:00:13] INFO root fetch - processPackages [azureml-acft-contrib-hf-nlp]: Start processing: fractal-client
+[2023-07-06 11:00:13] INFO root fetch - main [MainThread]: End processing [azureml-acft-contrib-hf-nlp]: success
+[2023-07-06 11:00:13] INFO root fetch - processPackages [termkit]: Downloading https://files.pythonhosted.org/packages/50/0f/2ebb6fdec247a9db2d2d9aa941365b0a56f73fecdd666b573719e7ef7099/termkit-0.2.0a4.tar.gz
+[2023-07-06 11:00:13] INFO root fetch - processPackages [fractal-client]: New version: [1.3.1] Old Version: [1.3.0a3]
+[2023-07-06 11:00:13] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/d7/8d/949a59bb813ee853bbb1d03d15a3f5a3de89562602ada8e1a9cca581a8d5/coconut-develop-3.0.2.post0.dev9.tar.gz
+[2023-07-06 11:00:13] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/9c/41/6c9bc72fde943869899725f55fade9f850f62ecbc6fa31e53b8fa79ae5a3/pydflow-1.7.9.tar.gz
+[2023-07-06 11:00:13] INFO root fetch - processPackages [azureml-acft-contrib-hf-diffusion]: Remove: archive file [/home/abi/fetcher/tmp/azureml_acft_contrib_hf_diffusion-0.0.8-py3-none-any.whl.zip]
+[2023-07-06 11:00:13] INFO root fetch - processPackages [azureml-acft-contrib-hf-diffusion]: Remove: archive file [/home/abi/fetcher/tmp/azureml_acft_contrib_hf_diffusion-0.0.9-py3-none-any.whl.zip]
+[2023-07-06 11:00:13] INFO root fetch - processPackages [azureml-acft-contrib-hf-diffusion]: Start processing: libdeye
+[2023-07-06 11:00:13] INFO root fetch - main [MainThread]: End processing [azureml-acft-contrib-hf-diffusion]: success
+[2023-07-06 11:00:13] INFO root fetch - processPackages [libdeye]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-06 11:00:13] INFO root fetch - processPackages [ovn-bgp-agent]: executing diffoscope
+[2023-07-06 11:00:13] INFO root fetch - processPackages [ovn-bgp-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovn-bgp-agent-0.4.0.tar.gz tmp/ovn-bgp-agent-1.0.0.0b1.tar.gz --markdown 20230706/o/ovn-bgp-agent/0.4.0-1.0.0.0b1/diff.md --exclude *.pyd
+[2023-07-06 11:00:13] INFO root fetch - processPackages [oslo.utils]: executing diffoscope
+[2023-07-06 11:00:13] INFO root fetch - processPackages [oslo.utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oslo.utils-6.1.0.tar.gz tmp/oslo.utils-6.2.0.tar.gz --markdown 20230706/o/oslo.utils/6.1.0-6.2.0/diff.md --exclude *.pyd
+[2023-07-06 11:00:13] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-07-06 11:00:13] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.7.8.tar.gz tmp/pydflow-1.7.9.tar.gz --markdown 20230706/p/pydflow/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-07-06 11:00:13] INFO root fetch - processPackages [coconut-develop]: executing diffoscope
+[2023-07-06 11:00:13] INFO root fetch - processPackages [coconut-develop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coconut-develop-3.0.2.post0.dev8.tar.gz tmp/coconut-develop-3.0.2.post0.dev9.tar.gz --markdown 20230706/c/coconut-develop/3.0.2.post0.dev8-3.0.2.post0.dev9/diff.md --exclude *.pyd
+[2023-07-06 11:00:13] INFO root fetch - processPackages [fractal-client]: Downloading https://files.pythonhosted.org/packages/4c/ba/7064d8c943e6c3d365854bf3195305ec586740255ea91bfc4a37d900ea67/fractal_client-1.3.0a3.tar.gz
+[2023-07-06 11:00:13] INFO root fetch - processPackages [libdeye]: Downloading https://files.pythonhosted.org/packages/52/db/a2225c0d8b64218bf5050e38330900c61f5dfd8eb7311f92b3b5692cdde2/libdeye-1.1.2.tar.gz
+[2023-07-06 11:00:13] INFO root fetch - processPackages [termkit]: Downloading https://files.pythonhosted.org/packages/b5/3d/10cf2bf54086a42334fb99cf13453e3f4a1ab4683fac8cd721e52fdea49e/termkit-0.2.0a5.tar.gz
+[2023-07-06 11:00:14] INFO root fetch - processPackages [termkit]: executing diffoscope
+[2023-07-06 11:00:14] INFO root fetch - processPackages [termkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/termkit-0.2.0a4.tar.gz tmp/termkit-0.2.0a5.tar.gz --markdown 20230706/t/termkit/0.2.0a4-0.2.0a5/diff.md --exclude *.pyd
+[2023-07-06 11:00:14] INFO root fetch - processPackages [steamship]: Remove: archive file [/home/abi/fetcher/tmp/steamship-2.3.8.tar.gz]
+[2023-07-06 11:00:14] INFO root fetch - processPackages [steamship]: Remove: archive file [/home/abi/fetcher/tmp/steamship-2.3.9.tar.gz]
+[2023-07-06 11:00:14] INFO root fetch - processPackages [steamship]: Start processing: dc-index
+[2023-07-06 11:00:14] INFO root fetch - main [MainThread]: End processing [steamship]: success
+[2023-07-06 11:00:14] INFO root fetch - processPackages [directory-cms-client]: Remove: archive file [/home/abi/fetcher/tmp/directory_cms_client-8.3.0-py3-none-any.whl.zip]
+[2023-07-06 11:00:14] INFO root fetch - processPackages [directory-cms-client]: Remove: archive file [/home/abi/fetcher/tmp/directory_cms_client-9.0.0-py3-none-any.whl.zip]
+[2023-07-06 11:00:14] INFO root fetch - processPackages [directory-cms-client]: Start processing: directory-forms-api-client
+[2023-07-06 11:00:14] INFO root fetch - main [MainThread]: End processing [directory-cms-client]: success
+[2023-07-06 11:00:14] WARNING root fetch - processPackages [dc-index]: Skipping, unable to determine old version
+[2023-07-06 11:00:14] INFO root fetch - processPackages [dc-index]: Start processing: termkit
+[2023-07-06 11:00:14] INFO root fetch - main [MainThread]: End processing [dc-index] error
+[2023-07-06 11:00:14] INFO root fetch - processPackages [fractal-client]: Downloading https://files.pythonhosted.org/packages/d5/7e/e2ad80724500ea4350bbfa257caeb218ceea3a4999c800c1f7b82107eb12/fractal_client-1.3.1.tar.gz
+[2023-07-06 11:00:14] INFO root fetch - processPackages [directory-forms-api-client]: New version: [7.2.2] Old Version: [7.2.1]
+[2023-07-06 11:00:14] INFO root fetch - processPackages [termkit]: New version: [0.2.0a5] Old Version: [0.2.0a4]
+[2023-07-06 11:00:14] INFO root fetch - processPackages [libdeye]: Downloading https://files.pythonhosted.org/packages/70/e4/42afffbc25e57dc0906b7f7bcf7b47f6c254601aba39347fe9fb88e61680/libdeye-1.1.3.tar.gz
+[2023-07-06 11:00:14] INFO root fetch - processPackages [directory-forms-api-client]: Downloading https://files.pythonhosted.org/packages/fb/4d/14e1ea877212016ee675385d40c922510e25627c0911b161b16dec1a3ae9/directory_forms_api_client-7.2.1-py3-none-any.whl
+[2023-07-06 11:00:14] INFO root fetch - processPackages [fractal-client]: executing diffoscope
+[2023-07-06 11:00:14] INFO root fetch - processPackages [fractal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_client-1.3.0a3.tar.gz tmp/fractal_client-1.3.1.tar.gz --markdown 20230706/f/fractal-client/1.3.0a3-1.3.1/diff.md --exclude *.pyd
+[2023-07-06 11:00:14] INFO root fetch - processPackages [libdeye]: executing diffoscope
+[2023-07-06 11:00:14] INFO root fetch - processPackages [libdeye]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libdeye-1.1.2.tar.gz tmp/libdeye-1.1.3.tar.gz --markdown 20230706/l/libdeye/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-06 11:00:14] INFO root fetch - processPackages [termkit]: executing diffoscope
+[2023-07-06 11:00:14] INFO root fetch - processPackages [termkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/termkit-0.2.0a4.tar.gz tmp/termkit-0.2.0a5.tar.gz --markdown 20230706/t/termkit/0.2.0a4-0.2.0a5/diff.md --exclude *.pyd
+[2023-07-06 11:00:14] INFO root fetch - processPackages [directory-forms-api-client]: Downloading https://files.pythonhosted.org/packages/17/bf/ab56fd9cb9b7f70cd7c8bd1bee5bab302e449e3f9f6881acc4cb750c1392/directory_forms_api_client-7.2.2-py3-none-any.whl
+[2023-07-06 11:00:14] INFO root fetch - processPackages [verse-core]: Remove: archive file [/home/abi/fetcher/tmp/verse-core-0.0.8.tar.gz]
+[2023-07-06 11:00:14] INFO root fetch - processPackages [verse-core]: Remove: archive file [/home/abi/fetcher/tmp/verse-core-0.0.9.tar.gz]
+[2023-07-06 11:00:14] INFO root fetch - processPackages [verse-core]: Start processing: nonebot-plugin-spark-gpt
+[2023-07-06 11:00:14] INFO root fetch - main [MainThread]: End processing [verse-core]: success
+[2023-07-06 11:00:14] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-07-06 11:00:15] INFO root fetch - processPackages [directory-forms-api-client]: executing diffoscope
+[2023-07-06 11:00:15] INFO root fetch - processPackages [directory-forms-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/directory_forms_api_client-7.2.1-py3-none-any.whl.zip tmp/directory_forms_api_client-7.2.2-py3-none-any.whl.zip --markdown 20230706/d/directory-forms-api-client/7.2.1-7.2.2/diff.md --exclude *.pyd
+[2023-07-06 11:00:15] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: Downloading https://files.pythonhosted.org/packages/a9/ad/b6185fb00a5a24d2e57a32f87148fa7c5a18fac97d6abe3c039c6f346a15/nonebot_plugin_spark_gpt-1.0.9.tar.gz
+[2023-07-06 11:00:15] WARNING root fetch - processPackages [nonebot-plugin-spark-gpt]: Skipping package: exceeds size limit 15034468>=10485760
+[2023-07-06 11:00:15] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: Start processing: wiptools
+[2023-07-06 11:00:15] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-spark-gpt] error
+[2023-07-06 11:00:15] INFO root fetch - processPackages [wiptools]: New version: [1.2.9.dev0] Old Version: [1.2.8.dev0]
+[2023-07-06 11:00:15] INFO root fetch - processPackages [wiptools]: Downloading https://files.pythonhosted.org/packages/b9/9f/1f8ba12ffb63470e6ff6d8a27d89845042922a4cbc3fd9c887309f24f7c0/wiptools-1.2.8.dev0.tar.gz
+[2023-07-06 11:00:15] INFO root fetch - processPackages [termkit]: Remove: archive file [/home/abi/fetcher/tmp/termkit-0.2.0a4.tar.gz]
+[2023-07-06 11:00:15] INFO root fetch - processPackages [termkit]: Remove: archive file [/home/abi/fetcher/tmp/termkit-0.2.0a5.tar.gz]
+[2023-07-06 11:00:15] INFO root fetch - processPackages [termkit]: Start processing: fractal-server
+[2023-07-06 11:00:15] INFO root fetch - main [MainThread]: End processing [termkit]: success
+[2023-07-06 11:00:15] INFO root fetch - processPackages [wiptools]: Downloading https://files.pythonhosted.org/packages/30/d2/49c84e4c84f1b4aa0a24ebfd88fe1f23a7b822e5e92ac9279d738c981298/wiptools-1.2.9.dev0.tar.gz
+[2023-07-06 11:00:15] INFO root fetch - processPackages [fractal-server]: New version: [1.3.3] Old Version: [1.3.2a1]
+[2023-07-06 11:00:15] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.8.tar.gz]
+[2023-07-06 11:00:15] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.9.tar.gz]
+[2023-07-06 11:00:15] INFO root fetch - processPackages [pydflow]: Start processing: python-ironicclient
+[2023-07-06 11:00:15] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-07-06 11:00:16] INFO root fetch - processPackages [python-ironicclient]: New version: [5.3.0] Old Version: [5.2.0]
+[2023-07-06 11:00:16] INFO root fetch - processPackages [wiptools]: executing diffoscope
+[2023-07-06 11:00:16] INFO root fetch - processPackages [wiptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiptools-1.2.8.dev0.tar.gz tmp/wiptools-1.2.9.dev0.tar.gz --markdown 20230706/w/wiptools/1.2.8.dev0-1.2.9.dev0/diff.md --exclude *.pyd
+[2023-07-06 11:00:16] ERROR root fetch - processPackages [termkit]: Diffoscope failed: time="2023-07-06T11:00:14+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/termkit-0.2.0a4.tar.gz does not exist
+
+[2023-07-06 11:00:16] INFO root fetch - processPackages [termkit]: Start processing: lime-nda
+[2023-07-06 11:00:16] INFO root fetch - main [MainThread]: End processing [termkit] error
+[2023-07-06 11:00:16] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/e3/02/d6da296e964206fd0fee014bef41a1386d5d38801a9c1824caa738d2e45e/fractal_server-1.3.2a1.tar.gz
+[2023-07-06 11:00:16] WARNING root fetch - processPackages [lime-nda]: Skipping, unable to determine old version
+[2023-07-06 11:00:16] INFO root fetch - processPackages [lime-nda]: Start processing: discotoolkit
+[2023-07-06 11:00:16] INFO root fetch - main [MainThread]: End processing [lime-nda] error
+[2023-07-06 11:00:16] INFO root fetch - processPackages [python-ironicclient]: Downloading https://files.pythonhosted.org/packages/c2/f7/e5c0063279983ba121444d6e2ea65af1cc49db4987970aab4119f003867b/python-ironicclient-5.2.0.tar.gz
+[2023-07-06 11:00:16] INFO root fetch - processPackages [discotoolkit]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-06 11:00:16] INFO root fetch - processPackages [oslo.utils]: Remove: archive file [/home/abi/fetcher/tmp/oslo.utils-6.1.0.tar.gz]
+[2023-07-06 11:00:16] INFO root fetch - processPackages [oslo.utils]: Remove: archive file [/home/abi/fetcher/tmp/oslo.utils-6.2.0.tar.gz]
+[2023-07-06 11:00:16] INFO root fetch - processPackages [oslo.utils]: Start processing: rhino_health
+[2023-07-06 11:00:16] INFO root fetch - main [MainThread]: End processing [oslo.utils]: success
+[2023-07-06 11:00:16] INFO root fetch - processPackages [rhino_health]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-06 11:00:16] INFO root fetch - processPackages [fractal-client]: Remove: archive file [/home/abi/fetcher/tmp/fractal_client-1.3.0a3.tar.gz]
+[2023-07-06 11:00:16] INFO root fetch - processPackages [fractal-client]: Remove: archive file [/home/abi/fetcher/tmp/fractal_client-1.3.1.tar.gz]
+[2023-07-06 11:00:16] INFO root fetch - processPackages [fractal-client]: Start processing: xocto
+[2023-07-06 11:00:16] INFO root fetch - main [MainThread]: End processing [fractal-client]: success
+[2023-07-06 11:00:16] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.2.post0.dev8.tar.gz]
+[2023-07-06 11:00:16] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.2.post0.dev9.tar.gz]
+[2023-07-06 11:00:16] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
+[2023-07-06 11:00:16] INFO root fetch - processPackages [discotoolkit]: Downloading https://files.pythonhosted.org/packages/26/73/e8f834fe4e097d138e4aafafaab8e6d569246767b46af2b3e524e735428c/discotoolkit-1.1.2.tar.gz
+[2023-07-06 11:00:16] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/31/1e/63043f827910268ff7e33bf8dc806183939519503f298686b3092a6e720d/fractal_server-1.3.3.tar.gz
+[2023-07-06 11:00:16] INFO root fetch - processPackages [ovn-bgp-agent]: Remove: archive file [/home/abi/fetcher/tmp/ovn-bgp-agent-0.4.0.tar.gz]
+[2023-07-06 11:00:16] INFO root fetch - processPackages [ovn-bgp-agent]: Remove: archive file [/home/abi/fetcher/tmp/ovn-bgp-agent-1.0.0.0b1.tar.gz]
+[2023-07-06 11:00:16] INFO root fetch - main [MainThread]: End processing [ovn-bgp-agent]: success
+[2023-07-06 11:00:16] INFO root fetch - processPackages [libdeye]: Remove: archive file [/home/abi/fetcher/tmp/libdeye-1.1.2.tar.gz]
+[2023-07-06 11:00:16] INFO root fetch - processPackages [libdeye]: Remove: archive file [/home/abi/fetcher/tmp/libdeye-1.1.3.tar.gz]
+[2023-07-06 11:00:16] INFO root fetch - main [MainThread]: End processing [libdeye]: success
+[2023-07-06 11:00:16] INFO root fetch - processPackages [xocto]: New version: [4.0.0] Old Version: [3.2.0]
+[2023-07-06 11:00:16] INFO root fetch - processPackages [directory-forms-api-client]: Remove: archive file [/home/abi/fetcher/tmp/directory_forms_api_client-7.2.1-py3-none-any.whl.zip]
+[2023-07-06 11:00:16] INFO root fetch - processPackages [directory-forms-api-client]: Remove: archive file [/home/abi/fetcher/tmp/directory_forms_api_client-7.2.2-py3-none-any.whl.zip]
+[2023-07-06 11:00:16] INFO root fetch - main [MainThread]: End processing [directory-forms-api-client]: success
+[2023-07-06 11:00:16] INFO root fetch - processPackages [python-ironicclient]: Downloading https://files.pythonhosted.org/packages/54/e6/457568a90e4f05841ee1b9e17b84c527e6f3a981f6c607183f2ee26bee79/python-ironicclient-5.3.0.tar.gz
+[2023-07-06 11:00:16] INFO root fetch - processPackages [rhino_health]: Downloading https://files.pythonhosted.org/packages/3b/4e/deac60572a2c9d5683d9ff8d87e1894f1adac800769181cac538a33dcb32/rhino_health-0.2.7.tar.gz
+[2023-07-06 11:00:16] INFO root fetch - processPackages [fractal-server]: executing diffoscope
+[2023-07-06 11:00:16] INFO root fetch - processPackages [fractal-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_server-1.3.2a1.tar.gz tmp/fractal_server-1.3.3.tar.gz --markdown 20230706/f/fractal-server/1.3.2a1-1.3.3/diff.md --exclude *.pyd
+[2023-07-06 11:00:16] INFO root fetch - processPackages [python-ironicclient]: executing diffoscope
+[2023-07-06 11:00:16] INFO root fetch - processPackages [python-ironicclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-ironicclient-5.2.0.tar.gz tmp/python-ironicclient-5.3.0.tar.gz --markdown 20230706/p/python-ironicclient/5.2.0-5.3.0/diff.md --exclude *.pyd
+[2023-07-06 11:00:17] INFO root fetch - processPackages [xocto]: Downloading https://files.pythonhosted.org/packages/ce/c1/9799b5f7962f4bf8ed9ae42466a800add1a84a2ef756571cbf9fcefc73ce/xocto-3.2.0.tar.gz
+[2023-07-06 11:00:17] INFO root fetch - processPackages [discotoolkit]: Downloading https://files.pythonhosted.org/packages/b2/67/694d9561ad7c6b876fd0605900b5cf54c10ea983179db1923b6712a98fe9/discotoolkit-1.1.3.tar.gz
+[2023-07-06 11:00:17] INFO root fetch - processPackages [discotoolkit]: executing diffoscope
+[2023-07-06 11:00:17] INFO root fetch - processPackages [discotoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discotoolkit-1.1.2.tar.gz tmp/discotoolkit-1.1.3.tar.gz --markdown 20230706/d/discotoolkit/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-06 11:00:17] INFO root fetch - processPackages [rhino_health]: Downloading https://files.pythonhosted.org/packages/47/46/cb507140ac97b8c33f708ed57538175e53fc11f9c5f2451d2be9c399bf41/rhino_health-0.2.8.tar.gz
+[2023-07-06 11:00:17] INFO root fetch - processPackages [wiptools]: Remove: archive file [/home/abi/fetcher/tmp/wiptools-1.2.8.dev0.tar.gz]
+[2023-07-06 11:00:17] INFO root fetch - processPackages [wiptools]: Remove: archive file [/home/abi/fetcher/tmp/wiptools-1.2.9.dev0.tar.gz]
+[2023-07-06 11:00:17] INFO root fetch - main [MainThread]: End processing [wiptools]: success
+[2023-07-06 11:00:17] INFO root fetch - processPackages [rhino_health]: executing diffoscope
+[2023-07-06 11:00:17] INFO root fetch - processPackages [rhino_health]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rhino_health-0.2.7.tar.gz tmp/rhino_health-0.2.8.tar.gz --markdown 20230706/r/rhino_health/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-06 11:00:17] INFO root fetch - processPackages [xocto]: Downloading https://files.pythonhosted.org/packages/18/84/315b19e77f49ae0e0631ab5486b920c4b66040fb9a13cd8016e4309d6a0f/xocto-4.0.0.tar.gz
+[2023-07-06 11:00:17] INFO root fetch - processPackages [xocto]: executing diffoscope
+[2023-07-06 11:00:17] INFO root fetch - processPackages [xocto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xocto-3.2.0.tar.gz tmp/xocto-4.0.0.tar.gz --markdown 20230706/x/xocto/3.2.0-4.0.0/diff.md --exclude *.pyd
+[2023-07-06 11:00:18] INFO root fetch - processPackages [discotoolkit]: Remove: archive file [/home/abi/fetcher/tmp/discotoolkit-1.1.2.tar.gz]
+[2023-07-06 11:00:18] INFO root fetch - processPackages [discotoolkit]: Remove: archive file [/home/abi/fetcher/tmp/discotoolkit-1.1.3.tar.gz]
+[2023-07-06 11:00:18] INFO root fetch - main [MainThread]: End processing [discotoolkit]: success
+[2023-07-06 11:00:18] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-1.3.2a1.tar.gz]
+[2023-07-06 11:00:18] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-1.3.3.tar.gz]
+[2023-07-06 11:00:18] INFO root fetch - main [MainThread]: End processing [fractal-server]: success
+[2023-07-06 11:00:18] INFO root fetch - processPackages [rhino_health]: Remove: archive file [/home/abi/fetcher/tmp/rhino_health-0.2.7.tar.gz]
+[2023-07-06 11:00:18] INFO root fetch - processPackages [rhino_health]: Remove: archive file [/home/abi/fetcher/tmp/rhino_health-0.2.8.tar.gz]
+[2023-07-06 11:00:18] INFO root fetch - main [MainThread]: End processing [rhino_health]: success
+[2023-07-06 11:00:18] INFO root fetch - processPackages [xocto]: Remove: archive file [/home/abi/fetcher/tmp/xocto-3.2.0.tar.gz]
+[2023-07-06 11:00:18] INFO root fetch - processPackages [xocto]: Remove: archive file [/home/abi/fetcher/tmp/xocto-4.0.0.tar.gz]
+[2023-07-06 11:00:18] INFO root fetch - main [MainThread]: End processing [xocto]: success
+[2023-07-06 11:00:19] INFO root fetch - processPackages [python-ironicclient]: Remove: archive file [/home/abi/fetcher/tmp/python-ironicclient-5.2.0.tar.gz]
+[2023-07-06 11:00:19] INFO root fetch - processPackages [python-ironicclient]: Remove: archive file [/home/abi/fetcher/tmp/python-ironicclient-5.3.0.tar.gz]
+[2023-07-06 11:00:19] INFO root fetch - main [MainThread]: End processing [python-ironicclient]: success
+[2023-07-06 11:00:19] INFO root fetch - main [MainThread]: Store serial: [18780606]
