@@ -10882,3 +10882,77 @@ AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
 [2023-07-06 05:38:07] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.9.tar.gz]
 [2023-07-06 05:38:07] INFO root fetch - main [MainThread]: End processing [xklb]: success
 [2023-07-06 05:38:07] INFO root fetch - main [MainThread]: Store serial: [18778025]
+[2023-07-06 05:43:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18778025]
+[2023-07-06 05:43:16] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-06 05:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbt-quicksight-lineage
+[2023-07-06 05:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qiskit-debugger
+[2023-07-06 05:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: anylearn
+[2023-07-06 05:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: macrometa-target-oracle
+[2023-07-06 05:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: civics-cdf-validator
+[2023-07-06 05:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: konfuzio-sdk
+[2023-07-06 05:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: AlgorithmLib
+[2023-07-06 05:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: VisCPM
+[2023-07-06 05:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: matchms
+[2023-07-06 05:43:16] INFO root fetch - processPackages [macrometa-target-oracle]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-06 05:43:16] WARNING root fetch - processPackages [VisCPM]: Skipping, unable to determine old version
+[2023-07-06 05:43:16] INFO root fetch - main [MainThread]: End processing [VisCPM] error
+[2023-07-06 05:43:16] INFO root fetch - processPackages [AlgorithmLib]: New version: [3.9.9] Old Version: [3.9.8]
+[2023-07-06 05:43:16] INFO root fetch - processPackages [qiskit-debugger]: New version: [0.1.2rc0] Old Version: [0.1.2]
+[2023-07-06 05:43:16] INFO root fetch - processPackages [dbt-quicksight-lineage]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-06 05:43:16] INFO root fetch - processPackages [matchms]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-06 05:43:16] INFO root fetch - processPackages [civics-cdf-validator]: New version: [1.9.dev1] Old Version: [1.9]
+[2023-07-06 05:43:16] INFO root fetch - processPackages [anylearn]: New version: [0.18.0rc1] Old Version: [0.17.7rc1]
+[2023-07-06 05:43:16] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.2.9.dev20230104175944] Old Version: [0.2.9.dev20221227125623]
+[2023-07-06 05:43:16] INFO root fetch - processPackages [macrometa-target-oracle]: Downloading https://files.pythonhosted.org/packages/1c/5c/e59ce4210045cd7537cbcbf9a5c8c5606c58f8c340e0b27d4c22cd62e111/macrometa-target-oracle-0.0.1.tar.gz
+[2023-07-06 05:43:16] INFO root fetch - processPackages [dbt-quicksight-lineage]: Downloading https://files.pythonhosted.org/packages/3d/59/8d7910487d6a2d2feb71da10dee62782f3094e0f3fb04a55e96e07116dad/dbt_quicksight_lineage-0.2.0.tar.gz
+[2023-07-06 05:43:16] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/ac/dc/9465335e6231c486f3c6bdbe6b292085b01976718bb1af6f33d8d890281a/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz
+[2023-07-06 05:43:16] INFO root fetch - processPackages [AlgorithmLib]: Downloading https://files.pythonhosted.org/packages/78/f1/2fbac4aa9ef115eda50059c81431330d595bbf744e9ac898466afc3a85ee/AlgorithmLib-3.9.8.tar.gz
+[2023-07-06 05:43:16] INFO root fetch - processPackages [qiskit-debugger]: Downloading https://files.pythonhosted.org/packages/60/fa/f0a5ddd083a9bbc1f65c3085cc1c444395ab100ced3b90fd83addfefcaf9/qiskit_debugger-0.1.2.tar.gz
+[2023-07-06 05:43:16] INFO root fetch - processPackages [anylearn]: Downloading https://files.pythonhosted.org/packages/f7/ac/36017e795730288042fadc444f993c603bc30796bddf314833c53fad937d/anylearn-0.17.7rc1.tar.gz
+[2023-07-06 05:43:16] INFO root fetch - processPackages [matchms]: Downloading https://files.pythonhosted.org/packages/94/f9/e417fc6b3d303bae0c45dd2a090977a0eaac69a7676ae6d9adf3125c53e7/matchms-0.9.1.tar.gz
+[2023-07-06 05:43:16] INFO root fetch - processPackages [civics-cdf-validator]: Downloading https://files.pythonhosted.org/packages/9c/33/4d75823e3c52ecc93964f231d752b79135d74aa9bcca07720045645bfe91/civics_cdf_validator-1.9.tar.gz
+[2023-07-06 05:43:16] WARNING root fetch - processPackages [AlgorithmLib]: Skipping package: exceeds size limit 14952675>=10485760
+[2023-07-06 05:43:16] INFO root fetch - main [MainThread]: End processing [AlgorithmLib] error
+[2023-07-06 05:43:17] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/4a/3b/875a5d1cf74ec597eceaf7095d68ea13e58abb9f095fff321dc0709029f0/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz
+[2023-07-06 05:43:17] INFO root fetch - processPackages [macrometa-target-oracle]: Downloading https://files.pythonhosted.org/packages/82/99/f3e5382ca98ef838495d604622fb6caa16bbf9bbd42d760ceb249efede01/macrometa-target-oracle-0.0.2.tar.gz
+[2023-07-06 05:43:17] INFO root fetch - processPackages [qiskit-debugger]: Downloading https://files.pythonhosted.org/packages/c6/91/8b69d16e1beac0ccf1967f5cde7ec12ea4571d3c46b45eee80d4a60a47a0/qiskit_debugger-0.1.2rc0.tar.gz
+[2023-07-06 05:43:17] INFO root fetch - processPackages [dbt-quicksight-lineage]: Downloading https://files.pythonhosted.org/packages/c2/a3/dcfcdab085cb8e8071805b150384311517db296955e9ee8269071a37dd5d/dbt_quicksight_lineage-0.3.0.tar.gz
+[2023-07-06 05:43:17] INFO root fetch - processPackages [anylearn]: Downloading https://files.pythonhosted.org/packages/ae/09/646f25eaa3e818400f0b3a70f78ae2bc3d5272086e3a8199e22725c4c33c/anylearn-0.18.0rc1.tar.gz
+[2023-07-06 05:43:17] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2023-07-06 05:43:17] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz --markdown 20230706/k/konfuzio-sdk/0.2.9.dev20221227125623-0.2.9.dev20230104175944/diff.md --exclude *.pyd
+[2023-07-06 05:43:17] INFO root fetch - processPackages [matchms]: Downloading https://files.pythonhosted.org/packages/a0/1f/afe76be976e1b3c3551112bf8a1ffff8624c26e9e230720c15c9138f7e6a/matchms-0.9.2.tar.gz
+[2023-07-06 05:43:17] INFO root fetch - processPackages [qiskit-debugger]: executing diffoscope
+[2023-07-06 05:43:17] INFO root fetch - processPackages [qiskit-debugger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit_debugger-0.1.2.tar.gz tmp/qiskit_debugger-0.1.2rc0.tar.gz --markdown 20230706/q/qiskit-debugger/0.1.2-0.1.2rc0/diff.md --exclude *.pyd
+[2023-07-06 05:43:17] INFO root fetch - processPackages [civics-cdf-validator]: Downloading https://files.pythonhosted.org/packages/49/52/f20d05b43acd0ba782bdb28e82a60591d9ca3edb1c39da7ec86f030521ac/civics_cdf_validator-1.9.dev1.tar.gz
+[2023-07-06 05:43:17] INFO root fetch - processPackages [macrometa-target-oracle]: executing diffoscope
+[2023-07-06 05:43:17] INFO root fetch - processPackages [macrometa-target-oracle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-oracle-0.0.1.tar.gz tmp/macrometa-target-oracle-0.0.2.tar.gz --markdown 20230706/m/macrometa-target-oracle/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-06 05:43:17] INFO root fetch - processPackages [anylearn]: executing diffoscope
+[2023-07-06 05:43:17] INFO root fetch - processPackages [anylearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anylearn-0.17.7rc1.tar.gz tmp/anylearn-0.18.0rc1.tar.gz --markdown 20230706/a/anylearn/0.17.7rc1-0.18.0rc1/diff.md --exclude *.pyd
+[2023-07-06 05:43:17] INFO root fetch - processPackages [matchms]: executing diffoscope
+[2023-07-06 05:43:17] INFO root fetch - processPackages [matchms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matchms-0.9.1.tar.gz tmp/matchms-0.9.2.tar.gz --markdown 20230706/m/matchms/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-06 05:43:17] INFO root fetch - processPackages [dbt-quicksight-lineage]: executing diffoscope
+[2023-07-06 05:43:17] INFO root fetch - processPackages [dbt-quicksight-lineage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_quicksight_lineage-0.2.0.tar.gz tmp/dbt_quicksight_lineage-0.3.0.tar.gz --markdown 20230706/d/dbt-quicksight-lineage/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-06 05:43:17] INFO root fetch - processPackages [civics-cdf-validator]: executing diffoscope
+[2023-07-06 05:43:17] INFO root fetch - processPackages [civics-cdf-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/civics_cdf_validator-1.9.tar.gz tmp/civics_cdf_validator-1.9.dev1.tar.gz --markdown 20230706/c/civics-cdf-validator/1.9-1.9.dev1/diff.md --exclude *.pyd
+[2023-07-06 05:43:18] INFO root fetch - processPackages [qiskit-debugger]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_debugger-0.1.2.tar.gz]
+[2023-07-06 05:43:18] INFO root fetch - processPackages [qiskit-debugger]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_debugger-0.1.2rc0.tar.gz]
+[2023-07-06 05:43:18] INFO root fetch - main [MainThread]: End processing [qiskit-debugger]: success
+[2023-07-06 05:43:18] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz]
+[2023-07-06 05:43:18] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz]
+[2023-07-06 05:43:18] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2023-07-06 05:43:18] INFO root fetch - processPackages [macrometa-target-oracle]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-oracle-0.0.1.tar.gz]
+[2023-07-06 05:43:18] INFO root fetch - processPackages [macrometa-target-oracle]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-oracle-0.0.2.tar.gz]
+[2023-07-06 05:43:18] INFO root fetch - main [MainThread]: End processing [macrometa-target-oracle]: success
+[2023-07-06 05:43:18] INFO root fetch - processPackages [anylearn]: Remove: archive file [/home/abi/fetcher/tmp/anylearn-0.17.7rc1.tar.gz]
+[2023-07-06 05:43:18] INFO root fetch - processPackages [anylearn]: Remove: archive file [/home/abi/fetcher/tmp/anylearn-0.18.0rc1.tar.gz]
+[2023-07-06 05:43:18] INFO root fetch - main [MainThread]: End processing [anylearn]: success
+[2023-07-06 05:43:18] INFO root fetch - processPackages [matchms]: Remove: archive file [/home/abi/fetcher/tmp/matchms-0.9.1.tar.gz]
+[2023-07-06 05:43:18] INFO root fetch - processPackages [matchms]: Remove: archive file [/home/abi/fetcher/tmp/matchms-0.9.2.tar.gz]
+[2023-07-06 05:43:18] INFO root fetch - main [MainThread]: End processing [matchms]: success
+[2023-07-06 05:43:19] INFO root fetch - processPackages [dbt-quicksight-lineage]: Remove: archive file [/home/abi/fetcher/tmp/dbt_quicksight_lineage-0.2.0.tar.gz]
+[2023-07-06 05:43:19] INFO root fetch - processPackages [dbt-quicksight-lineage]: Remove: archive file [/home/abi/fetcher/tmp/dbt_quicksight_lineage-0.3.0.tar.gz]
+[2023-07-06 05:43:19] INFO root fetch - main [MainThread]: End processing [dbt-quicksight-lineage]: success
+[2023-07-06 05:43:19] INFO root fetch - processPackages [civics-cdf-validator]: Remove: archive file [/home/abi/fetcher/tmp/civics_cdf_validator-1.9.tar.gz]
+[2023-07-06 05:43:19] INFO root fetch - processPackages [civics-cdf-validator]: Remove: archive file [/home/abi/fetcher/tmp/civics_cdf_validator-1.9.dev1.tar.gz]
+[2023-07-06 05:43:19] INFO root fetch - main [MainThread]: End processing [civics-cdf-validator]: success
+[2023-07-06 05:43:19] INFO root fetch - main [MainThread]: Store serial: [18778062]
