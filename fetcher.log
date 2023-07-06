@@ -13476,3 +13476,102 @@ AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
 [2023-07-06 08:36:23] INFO root fetch - processPackages [anylearn]: Remove: archive file [/home/abi/fetcher/tmp/anylearn-0.18.0rc1.tar.gz]
 [2023-07-06 08:36:23] INFO root fetch - main [MainThread]: End processing [anylearn]: success
 [2023-07-06 08:36:23] INFO root fetch - main [MainThread]: Store serial: [18779059]
+[2023-07-06 08:41:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18779059]
+[2023-07-06 08:41:32] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-06 08:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Zeraora
+[2023-07-06 08:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cognite-extractor-utils
+[2023-07-06 08:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pdcpkg
+[2023-07-06 08:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mip-tool
+[2023-07-06 08:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hydrusvideodeduplicator
+[2023-07-06 08:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oc-delivery-apps
+[2023-07-06 08:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ragbooster
+[2023-07-06 08:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lollms
+[2023-07-06 08:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rondsspark
+[2023-07-06 08:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: countess-variants
+[2023-07-06 08:41:33] WARNING root fetch - processPackages [pdcpkg]: Skipping, unable to determine old version
+[2023-07-06 08:41:33] INFO root fetch - processPackages [hydrusvideodeduplicator]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-06 08:41:33] INFO root fetch - processPackages [pdcpkg]: Start processing: yolov5-utils
+[2023-07-06 08:41:33] INFO root fetch - main [MainThread]: End processing [pdcpkg] error
+[2023-07-06 08:41:33] INFO root fetch - processPackages [Zeraora]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-06 08:41:33] INFO root fetch - processPackages [mip-tool]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-06 08:41:33] INFO root fetch - processPackages [oc-delivery-apps]: New version: [11.2.9] Old Version: [11.2.8]
+[2023-07-06 08:41:33] INFO root fetch - processPackages [rondsspark]: New version: [0.0.4.3] Old Version: [0.0.4.2]
+[2023-07-06 08:41:33] INFO root fetch - processPackages [ragbooster]: New version: [0.1.0rc3] Old Version: [0.1.0]
+[2023-07-06 08:41:33] INFO root fetch - processPackages [cognite-extractor-utils]: New version: [5.2.1] Old Version: [5.2.0]
+[2023-07-06 08:41:33] INFO root fetch - processPackages [lollms]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-06 08:41:33] INFO root fetch - processPackages [yolov5-utils]: New version: [7.1.3] Old Version: [7.1.2]
+[2023-07-06 08:41:33] WARNING root fetch - processPackages [countess-variants]: Skipping, unable to determine old version
+[2023-07-06 08:41:33] INFO root fetch - processPackages [countess-variants]: Start processing: jdcloud-sdk
+[2023-07-06 08:41:33] INFO root fetch - main [MainThread]: End processing [countess-variants] error
+[2023-07-06 08:41:33] INFO root fetch - processPackages [hydrusvideodeduplicator]: Downloading https://files.pythonhosted.org/packages/26/b1/81e3c94beedc0ef950c2eaf14a3f18e55b160a9eb15647a97fbea97f60b7/hydrusvideodeduplicator-0.1.9.tar.gz
+[2023-07-06 08:41:33] INFO root fetch - processPackages [rondsspark]: Downloading https://files.pythonhosted.org/packages/ac/30/141810009ce33b2481186c520649771a4d7b6f946c49cd610bdb3f5dd49e/rondsspark-0.0.4.2.tar.gz
+[2023-07-06 08:41:33] INFO root fetch - processPackages [mip-tool]: Downloading https://files.pythonhosted.org/packages/44/d8/caae3a4892112b34237eb4d52e2f8376e26d45f963322a26a2e59c96544b/mip_tool-0.3.0-py3-none-any.whl
+[2023-07-06 08:41:33] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/55/8e/c10a453677812ff66a65c459737c99f6b99cc00da8cc2e27f3a1f924faa0/lollms-2.1.8.tar.gz
+[2023-07-06 08:41:33] INFO root fetch - processPackages [yolov5-utils]: Downloading https://files.pythonhosted.org/packages/f2/e5/9b93a13c30a379d9f4a171ed91705c32cb9b102f50f6532ef3803f244220/yolov5-utils-7.1.2.tar.gz
+[2023-07-06 08:41:33] INFO root fetch - processPackages [oc-delivery-apps]: Downloading https://files.pythonhosted.org/packages/6c/d7/7c704d6a367b27d773d3ca91f734cd62957a7987cb0c8be2f42d8fface36/oc_delivery_apps-11.2.8-py3-none-any.whl
+[2023-07-06 08:41:33] INFO root fetch - processPackages [Zeraora]: Downloading https://files.pythonhosted.org/packages/82/b1/9c85272cdd0f2e7e68202c80760e79cbc8fff5f5c82691aaca295507fe63/Zeraora-0.3.2.tar.gz
+[2023-07-06 08:41:33] INFO root fetch - processPackages [jdcloud-sdk]: New version: [1.6.99] Old Version: [1.6.98]
+[2023-07-06 08:41:33] INFO root fetch - processPackages [cognite-extractor-utils]: Downloading https://files.pythonhosted.org/packages/7b/e1/455c023956648a09bb88f85fe4fbf44094b7fd9a4f49547093437fff30d2/cognite_extractor_utils-5.2.0.tar.gz
+[2023-07-06 08:41:33] INFO root fetch - processPackages [ragbooster]: Downloading https://files.pythonhosted.org/packages/a4/d5/8d018ffe69a22fba2bb01b2c008764bb7d5e591f9ba906c29a450fb19f76/ragbooster-0.1.0-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-06 08:41:33] INFO root fetch - processPackages [rondsspark]: Downloading https://files.pythonhosted.org/packages/5b/9d/e1f99f72a1d37fdbc633efab51894fe3e4f6d0be3c4aca566ae4f6f37d6c/rondsspark-0.0.4.3.tar.gz
+[2023-07-06 08:41:33] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/6a/83/7745db4a743155e7a857ec418630027696e10e7fb67dfd6805a2496bdb64/lollms-2.1.9.tar.gz
+[2023-07-06 08:41:33] INFO root fetch - processPackages [hydrusvideodeduplicator]: Downloading https://files.pythonhosted.org/packages/68/71/36aa9e441606a25c0c3f6f128b186957a17d00e2b9f2359f6f667ca53d75/hydrusvideodeduplicator-0.2.0.tar.gz
+[2023-07-06 08:41:33] INFO root fetch - processPackages [jdcloud-sdk]: Downloading https://files.pythonhosted.org/packages/95/4f/825f3e2814e962db5d30b644c7fdfc01996a9bbe76c789866aeaf20d1d82/jdcloud_sdk-1.6.98.tar.gz
+[2023-07-06 08:41:33] INFO root fetch - processPackages [mip-tool]: Downloading https://files.pythonhosted.org/packages/bf/5a/044d1e080537f8d834744f6755c782f0594de677e5080cb670e39cafff61/mip_tool-0.3.1-py3-none-any.whl
+[2023-07-06 08:41:33] INFO root fetch - processPackages [yolov5-utils]: Downloading https://files.pythonhosted.org/packages/e7/90/3fa5e9856128e66f65f346d080b3cba242c9ee9b4fe03b9b3f2ea5c5a254/yolov5-utils-7.1.3.tar.gz
+[2023-07-06 08:41:33] INFO root fetch - processPackages [rondsspark]: executing diffoscope
+[2023-07-06 08:41:33] INFO root fetch - processPackages [rondsspark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rondsspark-0.0.4.2.tar.gz tmp/rondsspark-0.0.4.3.tar.gz --markdown 20230706/r/rondsspark/0.0.4.2-0.0.4.3/diff.md --exclude *.pyd
+[2023-07-06 08:41:33] INFO root fetch - processPackages [Zeraora]: Downloading https://files.pythonhosted.org/packages/76/50/2cc3bdc116c02de167fb4a4e9d002c525bd9a20ec24fa3fb283e64f8c340/Zeraora-0.3.3.tar.gz
+[2023-07-06 08:41:34] INFO root fetch - processPackages [cognite-extractor-utils]: Downloading https://files.pythonhosted.org/packages/8f/e7/865f6a0fb62b31ca1ee21a9a7ba2649b20dfc74ffe489d273fa3a20b9135/cognite_extractor_utils-5.2.1.tar.gz
+[2023-07-06 08:41:34] INFO root fetch - processPackages [hydrusvideodeduplicator]: executing diffoscope
+[2023-07-06 08:41:34] INFO root fetch - processPackages [hydrusvideodeduplicator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydrusvideodeduplicator-0.1.9.tar.gz tmp/hydrusvideodeduplicator-0.2.0.tar.gz --markdown 20230706/h/hydrusvideodeduplicator/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-06 08:41:34] INFO root fetch - processPackages [mip-tool]: executing diffoscope
+[2023-07-06 08:41:34] INFO root fetch - processPackages [mip-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mip_tool-0.3.0-py3-none-any.whl.zip tmp/mip_tool-0.3.1-py3-none-any.whl.zip --markdown 20230706/m/mip-tool/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-06 08:41:34] INFO root fetch - processPackages [oc-delivery-apps]: Downloading https://files.pythonhosted.org/packages/2f/93/f54274837b3271af8efb3bc82768084eb8960f1c5da10b248c4c04694cea/oc_delivery_apps-11.2.9-py3-none-any.whl
+[2023-07-06 08:41:34] INFO root fetch - processPackages [lollms]: executing diffoscope
+[2023-07-06 08:41:34] INFO root fetch - processPackages [lollms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lollms-2.1.8.tar.gz tmp/lollms-2.1.9.tar.gz --markdown 20230706/l/lollms/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-06 08:41:34] INFO root fetch - processPackages [Zeraora]: executing diffoscope
+[2023-07-06 08:41:34] INFO root fetch - processPackages [Zeraora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Zeraora-0.3.2.tar.gz tmp/Zeraora-0.3.3.tar.gz --markdown 20230706/Z/Zeraora/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-06 08:41:34] INFO root fetch - processPackages [cognite-extractor-utils]: executing diffoscope
+[2023-07-06 08:41:34] INFO root fetch - processPackages [cognite-extractor-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_extractor_utils-5.2.0.tar.gz tmp/cognite_extractor_utils-5.2.1.tar.gz --markdown 20230706/c/cognite-extractor-utils/5.2.0-5.2.1/diff.md --exclude *.pyd
+[2023-07-06 08:41:34] INFO root fetch - processPackages [yolov5-utils]: executing diffoscope
+[2023-07-06 08:41:34] INFO root fetch - processPackages [yolov5-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yolov5-utils-7.1.2.tar.gz tmp/yolov5-utils-7.1.3.tar.gz --markdown 20230706/y/yolov5-utils/7.1.2-7.1.3/diff.md --exclude *.pyd
+[2023-07-06 08:41:34] INFO root fetch - processPackages [oc-delivery-apps]: executing diffoscope
+[2023-07-06 08:41:34] INFO root fetch - processPackages [oc-delivery-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oc_delivery_apps-11.2.8-py3-none-any.whl.zip tmp/oc_delivery_apps-11.2.9-py3-none-any.whl.zip --markdown 20230706/o/oc-delivery-apps/11.2.8-11.2.9/diff.md --exclude *.pyd
+[2023-07-06 08:41:34] INFO root fetch - processPackages [ragbooster]: Downloading https://files.pythonhosted.org/packages/85/21/3dd73d0ef6999dce02e2756a126c8202cc2b770c510633c7a32d4f70c6ab/ragbooster-0.1.0rc3-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-06 08:41:34] INFO root fetch - processPackages [jdcloud-sdk]: Downloading https://files.pythonhosted.org/packages/14/1e/7f5fff16d7e0e2793fdd72a4eb17de3ad540cf935be128a7c69d1ee161c0/jdcloud_sdk-1.6.99.tar.gz
+[2023-07-06 08:41:34] INFO root fetch - processPackages [ragbooster]: executing diffoscope
+[2023-07-06 08:41:34] INFO root fetch - processPackages [ragbooster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragbooster-0.1.0-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/ragbooster-0.1.0rc3-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230706/r/ragbooster/0.1.0-0.1.0rc3/diff.md --exclude *.pyd
+[2023-07-06 08:41:34] INFO root fetch - processPackages [jdcloud-sdk]: executing diffoscope
+[2023-07-06 08:41:34] INFO root fetch - processPackages [jdcloud-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jdcloud_sdk-1.6.98.tar.gz tmp/jdcloud_sdk-1.6.99.tar.gz --markdown 20230706/j/jdcloud-sdk/1.6.98-1.6.99/diff.md --exclude *.pyd
+[2023-07-06 08:41:35] INFO root fetch - processPackages [rondsspark]: Remove: archive file [/home/abi/fetcher/tmp/rondsspark-0.0.4.2.tar.gz]
+[2023-07-06 08:41:35] INFO root fetch - processPackages [rondsspark]: Remove: archive file [/home/abi/fetcher/tmp/rondsspark-0.0.4.3.tar.gz]
+[2023-07-06 08:41:35] INFO root fetch - main [MainThread]: End processing [rondsspark]: success
+[2023-07-06 08:41:35] INFO root fetch - processPackages [mip-tool]: Remove: archive file [/home/abi/fetcher/tmp/mip_tool-0.3.0-py3-none-any.whl.zip]
+[2023-07-06 08:41:35] INFO root fetch - processPackages [mip-tool]: Remove: archive file [/home/abi/fetcher/tmp/mip_tool-0.3.1-py3-none-any.whl.zip]
+[2023-07-06 08:41:35] INFO root fetch - main [MainThread]: End processing [mip-tool]: success
+[2023-07-06 08:41:35] INFO root fetch - processPackages [hydrusvideodeduplicator]: Remove: archive file [/home/abi/fetcher/tmp/hydrusvideodeduplicator-0.1.9.tar.gz]
+[2023-07-06 08:41:35] INFO root fetch - processPackages [hydrusvideodeduplicator]: Remove: archive file [/home/abi/fetcher/tmp/hydrusvideodeduplicator-0.2.0.tar.gz]
+[2023-07-06 08:41:35] INFO root fetch - main [MainThread]: End processing [hydrusvideodeduplicator]: success
+[2023-07-06 08:41:35] INFO root fetch - processPackages [Zeraora]: Remove: archive file [/home/abi/fetcher/tmp/Zeraora-0.3.2.tar.gz]
+[2023-07-06 08:41:35] INFO root fetch - processPackages [Zeraora]: Remove: archive file [/home/abi/fetcher/tmp/Zeraora-0.3.3.tar.gz]
+[2023-07-06 08:41:35] INFO root fetch - main [MainThread]: End processing [Zeraora]: success
+[2023-07-06 08:41:35] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.1.8.tar.gz]
+[2023-07-06 08:41:35] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.1.9.tar.gz]
+[2023-07-06 08:41:35] INFO root fetch - main [MainThread]: End processing [lollms]: success
+[2023-07-06 08:41:35] INFO root fetch - processPackages [cognite-extractor-utils]: Remove: archive file [/home/abi/fetcher/tmp/cognite_extractor_utils-5.2.0.tar.gz]
+[2023-07-06 08:41:35] INFO root fetch - processPackages [cognite-extractor-utils]: Remove: archive file [/home/abi/fetcher/tmp/cognite_extractor_utils-5.2.1.tar.gz]
+[2023-07-06 08:41:35] INFO root fetch - main [MainThread]: End processing [cognite-extractor-utils]: success
+[2023-07-06 08:41:36] INFO root fetch - processPackages [oc-delivery-apps]: Remove: archive file [/home/abi/fetcher/tmp/oc_delivery_apps-11.2.8-py3-none-any.whl.zip]
+[2023-07-06 08:41:36] INFO root fetch - processPackages [oc-delivery-apps]: Remove: archive file [/home/abi/fetcher/tmp/oc_delivery_apps-11.2.9-py3-none-any.whl.zip]
+[2023-07-06 08:41:36] INFO root fetch - main [MainThread]: End processing [oc-delivery-apps]: success
+[2023-07-06 08:41:36] INFO root fetch - processPackages [yolov5-utils]: Remove: archive file [/home/abi/fetcher/tmp/yolov5-utils-7.1.2.tar.gz]
+[2023-07-06 08:41:36] INFO root fetch - processPackages [yolov5-utils]: Remove: archive file [/home/abi/fetcher/tmp/yolov5-utils-7.1.3.tar.gz]
+[2023-07-06 08:41:36] INFO root fetch - main [MainThread]: End processing [yolov5-utils]: success
+[2023-07-06 08:41:42] INFO root fetch - processPackages [ragbooster]: Remove: archive file [/home/abi/fetcher/tmp/ragbooster-0.1.0-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-06 08:41:42] INFO root fetch - processPackages [ragbooster]: Remove: archive file [/home/abi/fetcher/tmp/ragbooster-0.1.0rc3-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-06 08:41:42] INFO root fetch - main [MainThread]: End processing [ragbooster]: success
+[2023-07-06 08:42:52] INFO root fetch - processPackages [jdcloud-sdk]: Remove: archive file [/home/abi/fetcher/tmp/jdcloud_sdk-1.6.98.tar.gz]
+[2023-07-06 08:42:52] INFO root fetch - processPackages [jdcloud-sdk]: Remove: archive file [/home/abi/fetcher/tmp/jdcloud_sdk-1.6.99.tar.gz]
+[2023-07-06 08:42:52] INFO root fetch - main [MainThread]: End processing [jdcloud-sdk]: success
+[2023-07-06 08:42:52] INFO root fetch - main [MainThread]: Store serial: [18779134]
