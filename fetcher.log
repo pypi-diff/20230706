@@ -5288,3 +5288,96 @@ AssertionError: tmp/ircrobots-0.6.3.tar.gz does not exist
 [2023-07-06 03:13:34] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2023-07-06 03:13:34] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2023-07-06 03:13:34] INFO root fetch - main [MainThread]: Store serial: [18775835]
+[2023-07-06 03:18:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18775835]
+[2023-07-06 03:18:53] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-06 03:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-intl-en
+[2023-07-06 03:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moptipy
+[2023-07-06 03:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-lambda-layer-curl
+[2023-07-06 03:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aemcmc-nightly
+[2023-07-06 03:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: duckdb
+[2023-07-06 03:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Geode-Implicit
+[2023-07-06 03:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alireza
+[2023-07-06 03:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jax-dips
+[2023-07-06 03:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: moto
+[2023-07-06 03:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: btimer
+[2023-07-06 03:18:53] INFO root fetch - processPackages [btimer]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-06 03:18:53] INFO root fetch - processPackages [Geode-Implicit]: New version: [2.1.1rc1] Old Version: [2.1.1]
+[2023-07-06 03:18:53] INFO root fetch - processPackages [alireza]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-06 03:18:53] WARNING root fetch - processPackages [jax-dips]: Skipping, unable to determine old version
+[2023-07-06 03:18:53] INFO root fetch - processPackages [jax-dips]: Start processing: fyj
+[2023-07-06 03:18:53] INFO root fetch - main [MainThread]: End processing [jax-dips] error
+[2023-07-06 03:18:53] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: New version: [3.0.99] Old Version: [3.0.98]
+[2023-07-06 03:18:53] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230705] Old Version: [0.0.8.dev20230704]
+[2023-07-06 03:18:53] INFO root fetch - processPackages [moptipy]: New version: [0.9.9] Old Version: [0.9.83]
+[2023-07-06 03:18:53] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-07-06 03:18:53] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-06 03:18:53] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/90/13/a6d6e76ea57672a728618c10bb79dd24eaeb483ad40ca3d99d4760189a6d/aemcmc-nightly-0.0.8.dev20230704.tar.gz
+[2023-07-06 03:18:53] INFO root fetch - processPackages [duckdb]: New version: [0.8.2.dev161] Old Version: [0.8.2.dev157]
+[2023-07-06 03:18:53] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-07-06 03:18:53] WARNING root fetch - processPackages [fyj]: Skipping, unable to determine old version
+[2023-07-06 03:18:53] INFO root fetch - processPackages [fyj]: Start processing: bwslib
+[2023-07-06 03:18:53] INFO root fetch - main [MainThread]: End processing [fyj] error
+[2023-07-06 03:18:53] INFO root fetch - processPackages [btimer]: Downloading https://files.pythonhosted.org/packages/87/c6/d773938174a91866125d3ff7863b0324ae45dc8ab20ac58c398de3a261ff/btimer-1.0.8.tar.gz
+[2023-07-06 03:18:53] INFO root fetch - processPackages [Geode-Implicit]: Downloading https://files.pythonhosted.org/packages/3c/9c/43de32d6747e31389be220c7cefec8559ef12c7c8a96a76219731658b166/Geode_Implicit-2.1.1-cp39-cp39-win_amd64.whl
+[2023-07-06 03:18:53] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-07-06 03:18:53] INFO root fetch - processPackages [alireza]: Downloading https://files.pythonhosted.org/packages/63/6f/81368ac5245c46c7204fe8bf7e314f66c3527a0bd2a318b2b7fcc7eb8f4f/alireza-0.0.3.tar.gz
+[2023-07-06 03:18:53] INFO root fetch - processPackages [moptipy]: Downloading https://files.pythonhosted.org/packages/d9/c4/fc452b5345fd469e1904001301d3ae0b16cfeabfc3e6a1976625a0b7201a/moptipy-0.9.83.tar.gz
+[2023-07-06 03:18:53] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/47/ec/491739e9cb7da970b8f280ea2383dc94da0c3d39e938ac559e0f2e52aea8/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz
+[2023-07-06 03:18:53] WARNING root fetch - processPackages [bwslib]: Skipping, unable to determine old version
+[2023-07-06 03:18:53] INFO root fetch - main [MainThread]: End processing [bwslib] error
+[2023-07-06 03:18:54] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/24/61/cd17083a37703d6ce9aa03e295e46c4a010d5ec5292df9c710ea02e75032/duckdb-0.8.2.dev157.tar.gz
+[2023-07-06 03:18:54] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/a0/ac/5dd2bdba889a35bc79744a6045d033464f2d4f2b72e4670b023fc13bd5c6/aemcmc-nightly-0.0.8.dev20230705.tar.gz
+[2023-07-06 03:18:54] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-07-06 03:18:54] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230704.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230705.tar.gz --markdown 20230706/a/aemcmc-nightly/0.0.8.dev20230704-0.0.8.dev20230705/diff.md --exclude *.pyd
+[2023-07-06 03:18:54] INFO root fetch - processPackages [moptipy]: Downloading https://files.pythonhosted.org/packages/86/d3/45297bbff0974d528e5da780bc1bf48f8418230162685da0ba8212246056/moptipy-0.9.9.tar.gz
+[2023-07-06 03:18:54] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-07-06 03:18:54] INFO root fetch - processPackages [alireza]: Downloading https://files.pythonhosted.org/packages/72/a6/02b2ec4a238392bd4d75386eabf512bf896a0b0846ebe08cb0e6ee96ee23/alireza-0.0.4.tar.gz
+[2023-07-06 03:18:54] INFO root fetch - processPackages [btimer]: Downloading https://files.pythonhosted.org/packages/42/73/09f7e55832748ff3d5052a6cbb4d87f93acdaed865f20e8d0be81bfffa4a/btimer-1.0.9.tar.gz
+[2023-07-06 03:18:54] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-07-06 03:18:54] INFO root fetch - processPackages [Geode-Implicit]: Downloading https://files.pythonhosted.org/packages/e9/83/d399f652db09524920cfc070dc77f1d3794d44b02cf946feb95574cd3279/Geode_Implicit-2.1.1rc1-cp39-cp39-win_amd64.whl
+[2023-07-06 03:18:54] INFO root fetch - processPackages [alireza]: executing diffoscope
+[2023-07-06 03:18:54] INFO root fetch - processPackages [alireza]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alireza-0.0.3.tar.gz tmp/alireza-0.0.4.tar.gz --markdown 20230706/a/alireza/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-06 03:18:54] INFO root fetch - processPackages [moptipy]: executing diffoscope
+[2023-07-06 03:18:54] INFO root fetch - processPackages [moptipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moptipy-0.9.83.tar.gz tmp/moptipy-0.9.9.tar.gz --markdown 20230706/m/moptipy/0.9.83-0.9.9/diff.md --exclude *.pyd
+[2023-07-06 03:18:54] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/ee/9c/2dcfed598218dfd2d81fa3078c736962b265e5ae724bec2686e853a74d71/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz
+[2023-07-06 03:18:54] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-07-06 03:18:54] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230706/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-06 03:18:54] INFO root fetch - processPackages [btimer]: executing diffoscope
+[2023-07-06 03:18:54] INFO root fetch - processPackages [btimer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btimer-1.0.8.tar.gz tmp/btimer-1.0.9.tar.gz --markdown 20230706/b/btimer/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-06 03:18:54] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: executing diffoscope
+[2023-07-06 03:18:54] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz --markdown 20230706/t/tencentcloud-sdk-python-intl-en/3.0.98-3.0.99/diff.md --exclude *.pyd
+[2023-07-06 03:18:54] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-07-06 03:18:54] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230706/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-07-06 03:18:54] INFO root fetch - processPackages [Geode-Implicit]: executing diffoscope
+[2023-07-06 03:18:54] INFO root fetch - processPackages [Geode-Implicit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Implicit-2.1.1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Implicit-2.1.1rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230706/G/Geode-Implicit/2.1.1-2.1.1rc1/diff.md --exclude *.pyd
+[2023-07-06 03:18:55] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230704.tar.gz]
+[2023-07-06 03:18:55] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230705.tar.gz]
+[2023-07-06 03:18:55] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-07-06 03:18:55] INFO root fetch - processPackages [alireza]: Remove: archive file [/home/abi/fetcher/tmp/alireza-0.0.3.tar.gz]
+[2023-07-06 03:18:55] INFO root fetch - processPackages [alireza]: Remove: archive file [/home/abi/fetcher/tmp/alireza-0.0.4.tar.gz]
+[2023-07-06 03:18:55] INFO root fetch - main [MainThread]: End processing [alireza]: success
+[2023-07-06 03:18:56] INFO root fetch - processPackages [btimer]: Remove: archive file [/home/abi/fetcher/tmp/btimer-1.0.8.tar.gz]
+[2023-07-06 03:18:56] INFO root fetch - processPackages [btimer]: Remove: archive file [/home/abi/fetcher/tmp/btimer-1.0.9.tar.gz]
+[2023-07-06 03:18:56] INFO root fetch - main [MainThread]: End processing [btimer]: success
+[2023-07-06 03:18:56] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/a4/af/87bb8ee66d4017e2a5b392bea471a2a56897184dc460b5f318865829156e/duckdb-0.8.2.dev161.tar.gz
+[2023-07-06 03:18:56] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-07-06 03:18:56] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-07-06 03:18:56] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-07-06 03:18:56] INFO root fetch - processPackages [duckdb]: executing diffoscope
+[2023-07-06 03:18:56] INFO root fetch - processPackages [duckdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230706:/home/abi/fetcher/20230706:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duckdb-0.8.2.dev157.tar.gz tmp/duckdb-0.8.2.dev161.tar.gz --markdown 20230706/d/duckdb/0.8.2.dev157-0.8.2.dev161/diff.md --exclude *.pyd
+[2023-07-06 03:18:57] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz]
+[2023-07-06 03:18:57] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz]
+[2023-07-06 03:18:57] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-intl-en]: success
+[2023-07-06 03:18:57] INFO root fetch - processPackages [moptipy]: Remove: archive file [/home/abi/fetcher/tmp/moptipy-0.9.83.tar.gz]
+[2023-07-06 03:18:57] INFO root fetch - processPackages [moptipy]: Remove: archive file [/home/abi/fetcher/tmp/moptipy-0.9.9.tar.gz]
+[2023-07-06 03:18:57] INFO root fetch - main [MainThread]: End processing [moptipy]: success
+[2023-07-06 03:19:07] INFO root fetch - processPackages [Geode-Implicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Implicit-2.1.1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-06 03:19:07] INFO root fetch - processPackages [Geode-Implicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Implicit-2.1.1rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-06 03:19:07] INFO root fetch - main [MainThread]: End processing [Geode-Implicit]: success
+[2023-07-06 03:19:09] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-07-06 03:19:09] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-07-06 03:19:09] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-07-06 03:19:44] INFO root fetch - processPackages [duckdb]: Remove: archive file [/home/abi/fetcher/tmp/duckdb-0.8.2.dev157.tar.gz]
+[2023-07-06 03:19:44] INFO root fetch - processPackages [duckdb]: Remove: archive file [/home/abi/fetcher/tmp/duckdb-0.8.2.dev161.tar.gz]
+[2023-07-06 03:19:44] INFO root fetch - main [MainThread]: End processing [duckdb]: success
+[2023-07-06 03:19:44] INFO root fetch - main [MainThread]: Store serial: [18775880]
